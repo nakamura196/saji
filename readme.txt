@@ -1,1 +1,1 @@
-﻿D:\一次史料\Kreševo\saji で右クリックして、GIT GUI HERE をクリック
+﻿D:\一次史料\Kreševo\saji で右クリックして、GIT GUI Here をクリック
