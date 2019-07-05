@@ -14,11 +14,37 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2125/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/2125/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7376bbe8eba8163e67881ad07cb92e16129f9447.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/7376bbe8eba8163e67881ad07cb92e16129f9447.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/2125/canvas/p1"/>
+            <zone xml:id="zone_d2h_xhq_h3b" lry="2872" lrx="1726" uly="118" ulx="308"/>
+            <zone xml:id="zone_jgh_yhq_h3b" lry="2618" lrx="1600" uly="2154" ulx="1109"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="cizye_senedi" facs="#zone_d2h_xhq_h3b">
+            <l>ednā 15</l>
+            <l><placeName>Foyniçe kazā</placeName></l>
+            <l><persName cert="medium">Miu veledi Miu</persName> nām zimmī</l>
+            <l><date when-custom="1266">altmış altı senesine</date> mahsūben mustahakk</l>
+            <l>olduğu cizye-i şerʿiyyesini me'mūrı</l>
+            <l>tarafına teslīm etmiş olduğunu mübeyyin</l>
+            <l>işbu sened yedine virıldi <date when-custom="1266">sene 1266</date></l>
+            <l facs="#zone_jgh_yhq_h3b">Sened-i makbūz-ı eyālet-i Bosna</l>
+            <l>numero</l>
+            <l>102</l>
+            <l>işkâl</l>
+            <l>sin 36</l>
+            <l>boy uzun</l>
+            <l>sakar ..</l>
+            <l>...</l>
+            <l>göz ...</l>
+            <l>işkâl mahsūsa</l>
+            <l>defteri numerosı</l>
+         </div>
       </body>
    </text>
 </TEI>

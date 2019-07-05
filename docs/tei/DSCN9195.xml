@@ -14,11 +14,18 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2120/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/2120/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/aa1ad18cde44b9b81ecdc1ae9e78b868880859e8.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/aa1ad18cde44b9b81ecdc1ae9e78b868880859e8.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/2120/canvas/p1"/>
+            <zone xml:id="zone_gdn_lhq_h3b" lry="3111" lrx="1522" uly="78" ulx="366"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="fetva" facs="#zone_gdn_lhq_h3b">            
+         </div>
       </body>
    </text>
 </TEI>

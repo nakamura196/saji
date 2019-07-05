@@ -14,11 +14,43 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2269/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/2269/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/588512661b81451a2e237877075ff6c6105488f2.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/588512661b81451a2e237877075ff6c6105488f2.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/2269/canvas/p1"/>
+            <zone xml:id="zone_xvp_1nq_h3b" lry="2916" lrx="2125" uly="434" ulx="300"/>
+            <zone xml:id="zone_ukm_bnq_h3b" lry="2892" lrx="826" uly="2667" ulx="534"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="kassām_defteri" facs="#zone_xvp_1nq_h3b">
+            <l>hüve</l>
+            <l><placeName>Nefs-i varoş-ı Kirşevo</placeName> mahālātlarından mahall-i <placeName>...</placeName></l>
+            <l>bundan akdem mütemekkinlerinden <persName>Anton ...</persName> nām mürd olup</l>
+            <l>mesfūrun vereseler-i kebīr oğulu Toya ve kızı</l>
+            <l>nasrāniyyesi <persName>...</persName> nāmān vereseleri iltimās mürd</l>
+            <l>mesfūrun verese iltimāsyla müstakil olan</l>
+            <l>... tahrīr verese'l-verese sahhı'l-bākī</l>
+            <l>olanı taksīm olna <date when-custom="1223">1223</date></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l>... <persName>el-nāıb-i Kirşevo</persName></l>
+            <l facs="#zone_ukm_bnq_h3b"></l>
+         </div>
       </body>
    </text>
 </TEI>

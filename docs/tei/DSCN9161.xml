@@ -14,11 +14,38 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2087/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/2087/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/392f9d227eea12d22c555b638e3cc4347ccb094b.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/392f9d227eea12d22c555b638e3cc4347ccb094b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/2087/canvas/p1"/>
+            <zone xml:id="zone_bpt_3cq_h3b" lry="1672" lrx="2556" uly="83" ulx="494"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="‘öşr_bedeli_defteri" facs="#zone_bpt_3cq_h3b" >
+            <l>hüve</l>
+            <l><placeName>Foyniçe kazāsına</placeName> tābiʿ <placeName>Kirşevo</placeName> kurbında
+               vākiʿ Latin milletinin kiliselerine merbūt arāzī mīrīnin</l>
+            <l>aʿaşār bedelātı mübeyyin defteridir</l>
+            <l>bedelāt</l>
+            <l/>
+            <l/>
+            <l/>
+            <l/>
+            <l/>
+            <l/>
+            <l/>
+            <l/>
+            <l/>
+            <l/>
+            <l/>
+            <l/>
+            <l/>
+            <l/>
+            <note>Miri</note>
+         </div>
       </body>
    </text>
 </TEI>
