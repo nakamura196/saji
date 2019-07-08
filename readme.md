@@ -6,7 +6,7 @@
 - 「Push」を再度押す。
 
 # 可視化
-[検索UI](https://nakamura196.github.io/min3/vis.html?u=https://nakamura196.github.io/saji/data/data.json&config=https://nakamura196.github.io/saji/data/config.json)
+[検索UI](https://nakamura196.github.io/min3/#/?u=https://nakamura196.github.io/saji/data/data.json&config=https://nakamura196.github.io/saji/data/config.json)
 
 # ファイルのアップロード方法（Bash編）
 - D:\一次史料\Kreševo\saji で右クリックして、GIT Bash Here をクリックし、以下を貼り付ける
