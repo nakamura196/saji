@@ -8,53 +8,97 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>{
+  "saji:aspectRatioType": [
+    "B"
+  ],
+  "saji:calligraphy": [
+    "Rıkʿa"
+  ],
+  "saji:date_H": [
+    "1202-?-21"
+  ],
+  "saji:date_M": [
+    "1788-07-27"
+  ],
+  "saji:foldingMethod": [
+    "4"
+  ],
+  "saji:fond": [
+    "Tursko 1"
+  ],
+  "saji:huve": [
+    "1"
+  ],
+  "saji:item": [
+    "\"hüve\"",
+    "本文",
+    "証人",
+    "クレシェヴォのスタンプ"
+  ],
+  "saji:lang": [
+    "ota"
+  ],
+  "saji:lineage": [
+    "8"
+  ],
+  "saji:memo": [
+    "本文横に3名(?)の証人の名前：\"Şuhūdu'l-ḥāl\""
+  ],
+  "saji:number": [
+    "309"
+  ],
+  "saji:relationWithAnotherItems": [
+    "DSCN0896.JPG_表",
+    "表全体像"
+  ],
+  "saji:stamp_c": [
+    "1"
+  ],
+  "saji:transcription": [
+    "Vech taḥrīr ḥurūf oldur ki\nİşbu biñ(?) iki yüz iki senesinde ...  "
+  ],
+  "saji:type": [
+    "hüccet"
+  ]
+}</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1014/manifest">
          <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/2f00d5bd92d777d0f849b4163905dfcf1fad1674.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1014/canvas/p1"/>
-            <zone xml:id="zone_nxl_t34_c3b" lry="2350" lrx="1661" uly="1177" ulx="205"/>
-            <zone xml:id="zone_ogx_wdt_g3b" lry="2841" lrx="2058" uly="2358" ulx="1500"/>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1014/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2f00d5bd92d777d0f849b4163905dfcf1fad1674.jpg" />
+            <zone lrx="1661" lry="2350" ulx="205" uly="1177" xml:id="zone_nxl_t34_c3b" />
+            <zone lrx="2058" lry="2841" ulx="1500" uly="2358" xml:id="zone_ogx_wdt_g3b" />
          </surface>
          <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/1014/canvas/p2"
-               url="https://diyhistory.org/public/phr2/files/original/3f6760a591f7c265b12d65cc0daad9efeef3beb4.jpg"
-            />
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1014/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3f6760a591f7c265b12d65cc0daad9efeef3beb4.jpg" />
          </surface>
          <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/1014/canvas/p3"
-               url="https://diyhistory.org/public/phr2/files/original/a4d32b7debd9351bf8158d74b0dc563b4a171222.jpg"
-            />
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1014/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/a4d32b7debd9351bf8158d74b0dc563b4a171222.jpg" />
          </surface>
       </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="EMIN" cert="unknown" facs="#zone_nxl_t34_c3b">
+         <div cert="unknown" facs="#zone_nxl_t34_c3b" type="EMIN">
             <l>Vech-i taḥrīr-i ḥurūf oldur ki</l>
             <l>İşbu <date cert="unknown" from-custom="1202-03-01" to="--02-29">bin iki yüz iki
                   senesinde Mārtı ibtidāsından Şubāṭı ġāyet[in]e</date> varınca, der-ʿuhde ve
                iltizāmımızda</l>
             <l>bulunan <placeName>Ḳirşevo</placeName> muḳāṭa‘asında kiliseye merbūṭ olan ḳaryelerin
                ʿaşār ve şerʿiyye [sic, aʿşār-ı şerʿiyye] ve rüsūmātı sāir</l>
-            <l><date>sene-i mezbūr</date> iltizāmına ṭālib olan kilisanın baş ruhbānı <persName
-                  cert="low" role="Ḳirşevo kilisanın baş ruhbānı">Perpetre</persName>
-               <measure quantity="80" unit="ġuruş" type="iltizam">seksen ġuruş</measure>
+            <l><date>sene-i mezbūr</date> iltizāmına ṭālib olan kilisanın baş ruhbānı <persName cert="low" role="Ḳirşevo kilisanın baş ruhbānı">Perpetre</persName>
+               <measure quantity="80" type="iltizam" unit="ġuruş">seksen ġuruş</measure>
                muḳābelesinde</l>
             <l>der-ʿuhde ve iltizām olunub, ve aḳçasını ber-vech-i peşīn ṭarafımıza edā ve teslīm
                idüb, işbu</l>
             <l><date when-custom="1202">bin iki yüz iki senesinin</date> ḥāṣıl olan maḥṣūlātınin
                ʿaşār-ı şerʿiyyesin [sic, aʿşār-ı şerʿiyyesin] ve rüsūm-ı sāire-</l>
-            <l>sin mesfūr ẕimmī <persName cert="low" role="Ḳirşevo kilisanın baş ruhbānı"
-                  >Perpetre</persName> żabṭ ve ʿaşār-ı şerʿiyyesin [sic, aʿşār-ı şerʿiyyesin] aḫẕ ve
+            <l>sin mesfūr ẕimmī <persName cert="low" role="Ḳirşevo kilisanın baş ruhbānı">Perpetre</persName> żabṭ ve ʿaşār-ı şerʿiyyesin [sic, aʿşār-ı şerʿiyyesin] aḫẕ ve
                ḳabż idüb, ṭarafımızdan</l>
-            <l>ve ṭaraf-ı āḫardan bir kimesne mānʿī olmaya ve müzāḥim olmayalar taḥrīr fī <date
-                  when-custom="1202-03-21" cert="medium">21 Ra(?) 1202</date></l>
+            <l>ve ṭaraf-ı āḫardan bir kimesne mānʿī olmaya ve müzāḥim olmayalar taḥrīr fī <date cert="medium" when-custom="1202-03-21">21 Ra(?) 1202</date></l>
             <l>Ḳirşevo emīni <persName cert="low" role="Ḳirşevo emīni">Aḥmad ...</persName></l>
          </div>
          <div facs="#zone_ogx_wdt_g3b">

@@ -8,24 +8,32 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>{
+  "saji:aspectRatioType": [
+    "D"
+  ],
+  "saji:fond": [
+    "Tursko 3"
+  ],
+  "saji:memo": [
+    "典型"
+  ]
+}</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2125/manifest">
          <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/7376bbe8eba8163e67881ad07cb92e16129f9447.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/2125/canvas/p1"/>
-            <zone xml:id="zone_d2h_xhq_h3b" lry="2872" lrx="1726" uly="118" ulx="308"/>
-            <zone xml:id="zone_jgh_yhq_h3b" lry="2618" lrx="1600" uly="2154" ulx="1109"/>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/2125/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7376bbe8eba8163e67881ad07cb92e16129f9447.jpg" />
+            <zone lrx="1726" lry="2872" ulx="308" uly="118" xml:id="zone_d2h_xhq_h3b" />
+            <zone lrx="1600" lry="2618" ulx="1109" uly="2154" xml:id="zone_jgh_yhq_h3b" />
          </surface>
       </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="cizye_senedi" facs="#zone_d2h_xhq_h3b">
+         <div facs="#zone_d2h_xhq_h3b" type="cizye_senedi">
             <l>ednā 15</l>
             <l><placeName>Foyniçe kazā</placeName></l>
             <l><persName cert="medium">Miu veledi Miu</persName> nām zimmī</l>

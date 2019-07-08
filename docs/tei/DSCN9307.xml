@@ -8,36 +8,44 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>{
+  "saji:aspectRatioType": [
+    "B"
+  ],
+  "saji:fond": [
+    "Tursko 3"
+  ],
+  "saji:memo": [
+    "典型"
+  ]
+}</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2231/manifest">
          <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/b298256b109bf7c07201f593b46676f845fca066.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/2231/canvas/p1"/>
-            <zone xml:id="zone_mjb_rkq_h3b" lry="1565" lrx="2030" uly="635" ulx="450"/>
-            <zone xml:id="zone_s3w_rkq_h3b" lry="1470" lrx="845" uly="1165" ulx="535"/>
-            <zone xml:id="zone_dms_skq_h3b" lry="1530" lrx="1175" uly="1320" ulx="935"/>
-            <zone xml:id="zone_nh4_tkq_h3b" lry="2845" lrx="1960" uly="2510" ulx="810"/>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/2231/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b298256b109bf7c07201f593b46676f845fca066.jpg" />
+            <zone lrx="2030" lry="1565" ulx="450" uly="635" xml:id="zone_mjb_rkq_h3b" />
+            <zone lrx="845" lry="1470" ulx="535" uly="1165" xml:id="zone_s3w_rkq_h3b" />
+            <zone lrx="1175" lry="1530" ulx="935" uly="1320" xml:id="zone_dms_skq_h3b" />
+            <zone lrx="1960" lry="2845" ulx="810" uly="2510" xml:id="zone_nh4_tkq_h3b" />
          </surface>
       </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="izin_belgesi" facs="#zone_mjb_rkq_h3b">
+         <div facs="#zone_mjb_rkq_h3b" type="izin_belgesi">
             <l>hüve</l>
             <l>Dārandegâr tezkire</l>
             <l><placeName>Kirşevo</placeName> varoş kiliseden zimmī <persName cert="unknown">...</persName> bir nefer hizmetkâr ile <placeName cert="high">Sava</placeName> tarafına</l>
             <l>ʿāzim olup kiliseye ... gardiyān ... izin şöd fī <date when-custom="1251-07-21">21 Receb sene 251</date></l>
             <l facs="#zone_s3w_rkq_h3b"><placeName>Mahkeme-i nāhiye-i Kirşevo</placeName></l>
-            <l facs="#zone_dms_skq_h3b"><persName  cert="unknown">... Süleyman</persName></l>
+            <l facs="#zone_dms_skq_h3b"><persName cert="unknown">... Süleyman</persName></l>
          </div>
          <div facs="#zone_nh4_tkq_h3b">
-            <l></l>
-            <l></l>
+            <l />
+            <l />
          </div>
       </body>
    </text>

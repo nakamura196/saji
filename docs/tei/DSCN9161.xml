@@ -8,42 +8,50 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>{
+  "saji:aspectRatioType": [
+    "B"
+  ],
+  "saji:fond": [
+    "Tursko 3"
+  ],
+  "saji:memo": [
+    "典型"
+  ]
+}</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2087/manifest">
          <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/392f9d227eea12d22c555b638e3cc4347ccb094b.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/2087/canvas/p1"/>
-            <zone xml:id="zone_bpt_3cq_h3b" lry="1672" lrx="2556" uly="83" ulx="494"/>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/2087/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/392f9d227eea12d22c555b638e3cc4347ccb094b.jpg" />
+            <zone lrx="2556" lry="1672" ulx="494" uly="83" xml:id="zone_bpt_3cq_h3b" />
          </surface>
       </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="‘öşr_bedeli_defteri" facs="#zone_bpt_3cq_h3b" >
+         <div facs="#zone_bpt_3cq_h3b" type="‘öşr_bedeli_defteri">
             <l>hüve</l>
             <l><placeName>Foyniçe kazāsına</placeName> tābiʿ <placeName>Kirşevo</placeName> kurbında
                vākiʿ Latin milletinin kiliselerine merbūt arāzī mīrīnin</l>
             <l>aʿaşār bedelātı mübeyyin defteridir</l>
             <l>bedelāt</l>
-            <l/>
-            <l/>
-            <l/>
-            <l/>
-            <l/>
-            <l/>
-            <l/>
-            <l/>
-            <l/>
-            <l/>
-            <l/>
-            <l/>
-            <l/>
-            <l/>
+            <l />
+            <l />
+            <l />
+            <l />
+            <l />
+            <l />
+            <l />
+            <l />
+            <l />
+            <l />
+            <l />
+            <l />
+            <l />
+            <l />
             <note>Miri</note>
          </div>
       </body>
