@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "label": "Person",
+            "value": "http://example.org/person",
+            "type": "in"
+        },
+        {
+            "label": "Place",
+            "value": "http://example.org/place",
+            "type": "in"
+        },
+        {
+            "label": "Date",
+            "value": "http://purl.org/dc/terms/date",
+            "type": "in"
+        }
+        ,
+        {
+            "label": "AspectRatioType",
+            "value": "http://diyhistory.org/public/phr2/ns/saji/aspectRatioType",
+            "type": "in"
+        },
+        {
+            "label": "Description",
+            "value": "http://purl.org/dc/terms/description",
+            "type": "in"
+        }
+        
+    ],
+    "title": {
+        "label": "Title",
+        "value": "http://purl.org/dc/terms/title",
+        "type": "in"
+    },
+    "sort": "http://purl.org/dc/terms/title",
+    "headline": "佐治さんプロジェクト",
+    "footer": "Satoru NAKAMURA, Natsuko SAJI"
+}
