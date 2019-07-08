@@ -9,8 +9,5 @@
 [検索UI](https://nakamura196.github.io/min3/vis.html?u=https://nakamura196.github.io/saji/data/data.json&config=https://nakamura196.github.io/saji/data/config.json)
 
 # ファイルのアップロード方法（Bash編）
-- D:\一次史料\Kreševo\saji で右クリックして、GIT Bash Here をクリックする。
-- git pull
-- git add .
-- git commit -a -m "update"
-- git push origin master
+- D:\一次史料\Kreševo\saji で右クリックして、GIT Bash Here をクリックし、以下を貼り付ける
+- git pull; git add .; git commit -a -m "update"; git push origin master;
