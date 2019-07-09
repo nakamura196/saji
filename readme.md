@@ -1,13 +1,13 @@
-﻿# ファイルのアップロード方法
-- D:\一次史料\Kreševo\saji で右クリックして、GIT GUI Here をクリックする。
-- 画面下の「Stage Changed」を押す。
-- Commit Message　に変更内容を書く。
-- 「Commit」「Push」を押す。
-- 「Push」を再度押す。
+﻿# アプリケーション
+- 検索
+  - [検索UI](https://nakamura196.github.io/min3/#/?u=https://nakamura196.github.io/saji/data/data.json&config=https://nakamura196.github.io/saji/data/config.json)
+- 可視化
+  - [集計](https://nakamura196.github.io/min3/vis.html?u=https://nakamura196.github.io/saji/data/data.json)
+  - [タイムライン](https://nakamura196.github.io/min3/freq.html?u=https://nakamura196.github.io/saji/data/data.json)
+- 画像切り出し
+  - [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?curation=https://raw.githubusercontent.com/nakamura196/saji/master/docs/data/curation.json)
+  - [IIFIF Curation Comparison Tool](http://diyhistory.org/iiif/search.html?curation=https://raw.githubusercontent.com/nakamura196/saji/master/docs/data/curation.json)
 
-# 可視化
-[検索UI](https://nakamura196.github.io/min3/#/?u=https://nakamura196.github.io/saji/data/data.json&config=https://nakamura196.github.io/saji/data/config.json)
-
-# ファイルのアップロード方法（Bash編）
+# ファイルのアップロード方法
 - D:\一次史料\Kreševo\saji で右クリックして、GIT Bash Here をクリックし、以下を貼り付ける
 - git pull; git add .; git commit -a -m "update"; git push origin master;
