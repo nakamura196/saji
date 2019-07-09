@@ -40,7 +40,7 @@ for i in range(len(files)):
     selection = {
         "@id": curation_uri + "/range"+str(count),
         "@type": "sc:Range",
-        "label": "Automatic curation by IIIF Converter",
+        "label": "Automatic curation by TEI",
         "members": [],
         "within": {
             "@id": manifest,
