@@ -7,28 +7,46 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">ウシュルの分割払いに関する紙片</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
+               }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2440/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/2440/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/363433f6d954d24dcf1ee48383a37fe6eb238d1a.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2440/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/369d92a541bef09d5944d7fd278c5b51dccc6585.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/2440/canvas/p1"
+               url="https://diyhistory.org/public/phr2/files/original/363433f6d954d24dcf1ee48383a37fe6eb238d1a.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/369d92a541bef09d5944d7fd278c5b51dccc6585.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/2440/canvas/p2"/>
+            <zone xml:id="zone_l2r_3yh_j3b" lry="2736" lrx="2154" uly="254" ulx="200"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="unknown" facs="#zone_l2r_3yh_j3b">
+            <l><date when-custom="1274" cert="medium">sene 74</date></l>
+            <l><placeName type="proper" cert="medium">Foyniçe</placeName> ve <placeName
+                  type="proper" cert="medium">Bosna</placeName> ve <placeName>varoş-ı <placeName
+                     type="proper">Kirşevo</placeName></placeName> cemāʿtlerinin</l>
+            <l>aʿaşār-ı taksit bedeli</l>
+            <l>8750-8149=611</l>
+            <l>teslīm</l>
+            <l>5000-4149=8149</l>
+            <l>... <persName>Mehmed Ağa</persName> ʿuhdesinde olduğu</l>
+            <l>sekiz bin ...</l>
+            <l><date when-custom="1274-03-02" cert="medium">2 Ra sene 74</date></l>
+            <l cert="unknown">...</l>
+         </div>
       </body>
    </text>
 </TEI>

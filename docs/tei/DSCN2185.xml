@@ -7,28 +7,41 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">債権？</note>
+            <note type="mine">日付、文脈がないので、この手の文書は最後に検討する。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
+               }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2513/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/2513/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/22a52387d25f79b6b5d54b807bb57f3afc362363.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2513/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/05bf8b848cc8f39073e98266dd7a437f1c3c7749.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/22a52387d25f79b6b5d54b807bb57f3afc362363.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/2513/canvas/p1"/>
+            <zone xml:id="zone_bmx_gc3_j3b" lry="1631" lrx="2211" uly="231" ulx="332"/>
+            <zone xml:id="zone_krt_hc3_j3b" lry="1573" lrx="1790" uly="1203" ulx="1266"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/2513/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/05bf8b848cc8f39073e98266dd7a437f1c3c7749.jpg"
+            />
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="tahvīl" facs="#zone_bmx_gc3_j3b">
+            <l><placeName type="proper">Kirşevo</placeName> <persName>gardiyān</persName>den iki bin sekiz yüz otüz kıye ...</l>
+            <l>yiğrmi bir bin akçe ... eyledüğümüz işbu tahvīl yedine virildi</l>
+         </div>
+         <div type="stamp" facs="#zone_krt_hc3_j3b">
+            <l cert="unknown">...</l>
+         </div>
       </body>
    </text>
 </TEI>

@@ -7,28 +7,66 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">hüccetを作成するためのメモ</note>
+            <note type="mine">☆地方文書行政のヒントになる。参考文献(三浦 )
+               シャリーア法廷文書の作成プロセス：書記官がメモを作成→hüccetの作成＋法定台帳に写す</note>
+            <note type="mine">Mustafa
+               Muhibbī：ボスナの有名なカーディー。サラエボの法廷で書記官を務めていた。彼の蔵書の多くがザグレブに保管されている。この文書はサラエボ法廷の書記官時代に作成されたものと推測される。彼の生涯に関する研究
+               "The World is Mustafa Muhibbi"は面白いので読む！</note>
+            <note type="mine">文書自体に日付がないので、Muhibbiのサラエボ書記官年代を特定する。</note>
+            <note type="mine">多くの部分は訴訟のメモとは関係なく、書記官が署名などの練習をしているものと思われる。</note>
+            <note type="mine">裏面の「何も余計なことは加えていない」という部分でMuhibbiの所属カザーが示されているが、先行研究における彼の赴任地にこれに当たる地名が見られないので、これも手習いのために架空の地名を書いている可能性がある。もしこれが正しい地名であれば、新発見の可能性もある。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
+               }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2415/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/2415/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a606f444fa6b3361a124d42fb994a168d40df68f.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2415/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9fdaa6c216f447ddc66f49babc3e55139aaf7420.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a606f444fa6b3361a124d42fb994a168d40df68f.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/2415/canvas/p1"/>
+            <zone xml:id="zone_kws_c5h_j3b" lry="1952" lrx="2106" uly="399" ulx="474"/>
+            <zone xml:id="zone_nfv_25h_j3b" lry="3052" lrx="800" uly="2725" ulx="450"/>
+            <zone xml:id="zone_j2w_j5h_j3b" lry="3170" lrx="2047" uly="1212" ulx="263"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/9fdaa6c216f447ddc66f49babc3e55139aaf7420.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/2415/canvas/p2"/>
+            <zone xml:id="zone_c1s_m5h_j3b" lry="1262" lrx="1462" uly="288" ulx="483"/>
+            <zone xml:id="zone_frm_n5h_j3b" lry="662" lrx="2300" uly="262" ulx="1645"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet_note" facs="#zone_kws_c5h_j3b">
+            <l>Dört sene kadīm 55 re's oküz 45 guruşden</l>
+            <l>şimdi 48 guruşdan hesāb görüb 165 guruş</l>
+            <l>ziyāde olub yine nuhāsı 160 kıye nuhāsı</l>
+            <l>dörder buçuk guruşdan virmişken dörder guruşdan</l>
+            <l>hesāb görüb 82 guruş dahi ol hesābdan</l>
+            <l>cemʿ yekûn</l>
+            <l>247 guruş taleb daʿvā</l>
+            <l>min min</l>
+         </div>
+         <div type="stamp" facs="#zone_nfv_25h_j3b">
+            <l>Hādım-ı şerʿ-i nevī ʿAbdhu Mustafa Muhibbī</l>
+         </div>
+         <div type="note" facs="#zone_j2w_j5h_j3b">
+            <l></l>
+         </div>
+         <div type="from" facs="#zone_c1s_m5h_j3b">
+            <l>Sūret-i </l>
+         </div>
+         <div type="from" facs="#zone_frm_n5h_j3b">
+            <l>同様のことが書いてある</l>
+         </div>
       </body>
    </text>
 </TEI>
