@@ -7,6 +7,9 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">通行許可</note>
+         </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -38,14 +41,18 @@
          <div facs="#zone_mjb_rkq_h3b" type="izin_belgesi">
             <l>hüve</l>
             <l>Dārandegâr tezkire</l>
-            <l><placeName>Kirşevo</placeName> varoş kiliseden zimmī <persName cert="unknown">...</persName> bir nefer hizmetkâr ile <placeName cert="high">Sava</placeName> tarafına</l>
-            <l>ʿāzim olup kiliseye ... gardiyān ... izin şöd fī <date when-custom="1251-07-21">21 Receb sene 251</date></l>
-            <l facs="#zone_s3w_rkq_h3b"><placeName>Mahkeme-i nāhiye-i Kirşevo</placeName></l>
-            <l facs="#zone_dms_skq_h3b"><persName cert="unknown">... Süleyman</persName></l>
+            <l><placeName><placeName type="proper">Kirşevo</placeName> varoş kilise</placeName>den zimmī <persName cert="unknown">...</persName> bir nefer hizmetkâr ile <placeName cert="high">Sava</placeName> tarafına</l>
+            <l>ʿāzim olup kiliseye ... gardiyān ... izin şöd fī <date when-custom="1251-07-21">21 Receb sene 251</date></l>    
+         </div>
+         <div type="stamp" facs="#zone_s3w_rkq_h3b">
+            <l><placeName>Mahkeme-i nāhiye-i <placeName type="proper">Kirşevo</placeName></placeName></l>
+         </div>
+         <div type="stamp" facs="#zone_dms_skq_h3b">
+            <l><persName cert="unknown">... Süleyman</persName></l>
          </div>
          <div facs="#zone_nh4_tkq_h3b">
-            <l />
-            <l />
+            <l></l>
+            <l></l>
          </div>
       </body>
    </text>

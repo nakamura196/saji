@@ -7,6 +7,11 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">ウシュルの徴収されるミーリー地のリスト</note>
+            <note type="mine">クレシェヴォ修道院が所有しているミーリー地が分かる</note>
+            <note type="mine">DSCN0371.JPGと比較するとこの文書の土地記録年が分かるかも</note>
+         </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -34,8 +39,8 @@
       <body>
          <div facs="#zone_bpt_3cq_h3b" type="‘öşr_bedeli_defteri">
             <l>hüve</l>
-            <l><placeName>Foyniçe kazāsına</placeName> tābiʿ <placeName>Kirşevo</placeName> kurbında
-               vākiʿ Latin milletinin kiliselerine merbūt arāzī mīrīnin</l>
+            <l><placeName><placeName type="proper">Foyniçe</placeName> kazāsına tābiʿ <placeName type="proper">Kirşevo</placeName> kurbında
+               vākiʿ Latin milletinin kiliseleri</placeName>ne merbūt arāzī mīrīnin</l>
             <l>aʿaşār bedelātı mübeyyin defteridir</l>
             <l>bedelāt</l>
             <l />
@@ -52,7 +57,6 @@
             <l />
             <l />
             <l />
-            <note>Miri</note>
          </div>
       </body>
    </text>

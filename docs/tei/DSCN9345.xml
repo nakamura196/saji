@@ -7,6 +7,9 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">遺産相続</note>
+         </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -35,10 +38,10 @@
       <body>
          <div facs="#zone_xvp_1nq_h3b" type="kassām_defteri">
             <l>hüve</l>
-            <l><placeName>Nefs-i varoş-ı Kirşevo</placeName> mahālātlarından mahall-i <placeName>...</placeName></l>
-            <l>bundan akdem mütemekkinlerinden <persName>Anton ...</persName> nām mürd olup</l>
-            <l>mesfūrun vereseler-i kebīr oğulu Toya ve kızı</l>
-            <l>nasrāniyyesi <persName>...</persName> nāmān vereseleri iltimās mürd</l>
+            <l><placeName>Nefs-i varoş-ı <placeName type="proper">Kirşevo</placeName></placeName> mahālātlarından mahall-i <placeName>...</placeName></l>
+            <l>bundan akdem mütemekkinlerinden <persName cert="unknown">Anton ...</persName> nām mürd olup</l>
+            <l>mesfūrun vereseler-i kebīr oğulu <persName cert="low">Toya</persName> ve kızı</l>
+            <l>nasrāniyyesi <persName cert="unknown">...</persName> nāmān vereseleri iltimās mürd</l>
             <l>mesfūrun verese iltimāsyla müstakil olan</l>
             <l>... tahrīr verese'l-verese sahhı'l-bākī</l>
             <l>olanı taksīm olna <date when-custom="1223">1223</date></l>
@@ -56,8 +59,10 @@
             <l />
             <l />
             <l />
-            <l>... <persName>el-nāıb-i Kirşevo</persName></l>
-            <l facs="#zone_ukm_bnq_h3b" />
+            <l>... <persName>el-nāib-i <placeName type="proper">Kirşevo</placeName></persName></l>
+         </div>
+         <div type="stamp" facs="#zone_ukm_bnq_h3b">
+            <l></l>
          </div>
       </body>
    </text>
