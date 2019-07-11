@@ -7,28 +7,44 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">徴税?</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
+               }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2310/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/2310/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d557a65856cd0fe53988b827e9351db023d6db01.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/d557a65856cd0fe53988b827e9351db023d6db01.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/2310/canvas/p1"/>
+            <zone xml:id="zone_yfn_4vg_j3b" lry="2336" lrx="2327" uly="309" ulx="100"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div cert="unknown" type="計算書" facs="#zone_yfn_4vg_j3b">
+            <l><persName><placeName type="proper">Kirşevo</placeName> rāhib</persName> ... maʿa onlık(?) maʿa rubʿiye</l>
+            <l>rubʿiye, onlık(?), ...</l>
+            <l>0, 1.5, 0 <placeName>... mahalle-i <placeName type="proper" cert="unknown">...</placeName></placeName></l>
+            <l>0, 0, 2 cemāʿat-i ... <placeName>mahalle-i <placeName type="proper" cert="unknown">...</placeName></placeName></l>
+            <l>0, 0, 3 cemāʿat-i varoş <placeName>mahalle-i <placeName type="proper" cert="unknown">...</placeName></placeName></l>
+            <l>0, 1, 0 ...</l>
+            <l>0, 0, 0.5 <persName>Mustafa</persName> ʿāmedār(?)</l>
+            <l>0, 2.5, 0 ...</l>
+            <l>0, 0, 1.5 ...</l>
+            <l>0, 0, 0.5 ...</l>
+            <l>1, 1.5, 14.5 cemāʿat-i müslimīn <placeName>mahalle-i <placeName type="proper" cert="unknown">...</placeName></placeName></l>
+            <l>1, 1, 3.5 defʿa cemāʿat-i müslimīn <placeName>mahalle-i <placeName type="proper" cert="unknown">...</placeName></placeName></l>
+            <l>9, 25.5</l>
+            <l>1, 0.5  defʿa cemāʿat-i <placeName>varoş <placeName type="proper" cert="unknown">Anton ...</placeName></placeName></l>
+            <l>27</l>
+         </div>
       </body>
    </text>
 </TEI>

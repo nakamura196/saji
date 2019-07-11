@@ -7,28 +7,52 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">メイハーネのリスト（追放者の名前も含む）</note>
+            <note type="mine">すでにこの街区から追放されるようにというmürāseleとbuyurulduがある</note>
+            <note type="mine">修道院とメイハーネには何らかの関係があった？</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
+               }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2405/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/2405/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/64f224df82ec89041c9fcab8ad2fef0d668033ce.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2405/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/93aa388d3e499a5a80e1d28c342a12bd533d176b.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/64f224df82ec89041c9fcab8ad2fef0d668033ce.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/2405/canvas/p1"/>
+            <zone xml:id="zone_zkz_l2h_j3b" lry="1858" lrx="2229" uly="182" ulx="247"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/2405/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/93aa388d3e499a5a80e1d28c342a12bd533d176b.jpg"
+            />
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="defter" facs="#zone_zkz_l2h_j3b">
+            <l>Defter budur ki <placeName><placeName type="proper" cert="unknown">...</placeName> mahallesinde</placeName> kuşāde meyhāneler beyāndır</l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l><persName>Marya</persName> nasrānniye</l>
+            <l></l>
+            <l></l>
+            <l cert="medium">Mahallimizde durmasın(?)</l>
+            <l></l>
+            <l cert="medium">Mahallimizden ihrāc olummak mürāsele ve buyuruld-u şerīf vardır</l>
+            <l></l>
+            <l></l>
+            <l></l>
+            <l></l>
+         </div>
       </body>
    </text>
 </TEI>
