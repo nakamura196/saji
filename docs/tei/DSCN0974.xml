@@ -1,87 +1,51 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0974</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:date_H": [
-    "1198-Ra-19",
-    "1198-S-13"
-  ],
-  "saji:date_M": [
-    "1784-02-11",
-    "1784-01-07"
-  ],
-  "saji:foldingMethod": [
-    "4x2"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:huve": [
-    "1"
-  ],
-  "saji:item": [
-    "・hüve\r\n・クレシェヴォのスタンプ\r\n・宛先？（日付が早い）\r\n・本文（日付が遅い）\r\n・日付\r\n・定型"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "3+10"
-  ],
-  "saji:memo": [
-    "典型\r\n＋書き込み\r\n→文書行政？",
-    "0. ‘arż-ı ḥāl: 庶民？\r\n1. fermān: padishah\r\n----\r\n2. buyuruldu: vālī\r\n3. mürāsele: ḳaḍı"
-  ],
-  "saji:number": [
-    "149"
-  ],
-  "saji:placeFull": [
-    "Foyniçe varoş(?)",
-    "Kraşova ..."
-  ],
-  "saji:relationWithAnotherItems": [
-    "表全体像"
-  ],
-  "saji:stamp_c": [
-    "1"
-  ],
-  "saji:stamp_o": [
-    "0"
-  ],
-  "saji:transcription": [
-    "Foyniça varoş(?) ve Kraşova nāyibleri(?) efendiler\r\nmüceddid(?) ..."
-  ],
-  "saji:type": [
-    "buyuruldu",
-    "mürāsele"
-  ],
-  "saji:witness": [
-    "0"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1090/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1090/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/06e5984a57d5885724bad5414a296765268082b8.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0974</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1198-Ra-19", "1198-S-13" ], "saji:date_M": [ "1784-02-11", "1784-01-07" ],
+          "saji:foldingMethod": [ "4x2" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ],
+          "saji:item": [ "・hüve\r\n・クレシェヴォのスタンプ\r\n・宛先？（日付が早い）\r\n・本文（日付が遅い）\r\n・日付\r\n・定型" ],
+          "saji:lang": [ "ota" ], "saji:lineage": [ "3+10" ], "saji:memo": [
+          "典型\r\n＋書き込み\r\n→文書行政？", "0. ‘arż-ı ḥāl: 庶民？\r\n1. fermān: padishah\r\n----\r\n2.
+          buyuruldu: vālī\r\n3. mürāsele: ḳaḍı" ], "saji:number": [ "149" ], "saji:placeFull": [
+          "Foyniçe varoş(?)", "Kraşova ..." ], "saji:relationWithAnotherItems": [ "表全体像" ],
+          "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "0" ], "saji:transcription": [ "Foyniça
+          varoş(?) ve Kraşova nāyibleri(?) efendiler\r\nmüceddid(?) ..." ], "saji:type": [
+          "buyuruldu", "mürāsele" ], "saji:witness": [ "0" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1090/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/06e5984a57d5885724bad5414a296765268082b8.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1090/canvas/p1"/>
+        <zone xml:id="zone_j3f_bf3_j3b" lry="2987" lrx="1794" uly="1356" ulx="169"/>
+        <zone xml:id="zone_mnf_cf3_j3b" lry="1212" lrx="1425" uly="443" ulx="219"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="mürāsele" facs="#zone_j3f_bf3_j3b">
+        <l>Madīne-i Saray-ı Bosna kazāsına ... Kirşevo ve ... ve Foyniçe ... ümenāsı ve sāyir ...</l>
+        <l>ve islām hurrira fī <date when-custom="1198-03">Rebiü'l-evvel sene 1198</date></l>
+        <l><persName>El-seyyid ʿAbdü'l-rahman</persName> el-kādı bi-madīne-i <placeName type="proper">Saray Bosna</placeName> ...</l>
+      </div>
+      <div type="buyuruldu" facs="#zone_mnf_cf3_j3b">
+        <l><placeName type="proper">Foyniçe</placeName> ve <placeName type="proper" cert="unknown">...</placeName> ve <placeName type="proper">Kirşevo</placeName> nāibleri efendiler</l>
+        <l cert="low">Muceddiden yedinize iʿtā ... mūcebince ʿamer ve </l>
+        <l>...</l>
+        <l>buyuruldu fī <date when-custom="1198-02-13">13 S sene 198</date></l>
+      </div>
+    </body>
+  </text>
 </TEI>
