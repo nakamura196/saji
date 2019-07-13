@@ -7,29 +7,29 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">メモ（オスマン語アルファベットの手習い）</note>
+            <note type="mine">ただのメモで特に意味はないけど、当時キリスト教徒がオスマン語の練習をしたものかもしれない</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ],
-  "saji:memo": [
-    "典型",
-    "オスマン語手習いの跡？"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型",
+               "オスマン語手習いの跡？" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2691/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/2691/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cbf4a790abb30a230d3845acbb2c9165b5094d52.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/cbf4a790abb30a230d3845acbb2c9165b5094d52.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/2691/canvas/p1"/>
+            <zone xml:id="zone_fyr_dsw_j3b" lry="2053" lrx="2200" uly="646" ulx="300"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="note" facs="#zone_fyr_dsw_j3b"></div>
       </body>
    </text>
 </TEI>
