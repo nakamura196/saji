@@ -65,7 +65,10 @@ for i in range(len(files)):
            URIRef(thumbnail)))
 
     metadata = root.find(prefix+"sourceDesc").find(prefix+"p")
-    metadata_json = json.loads(metadata.text)
+    try:
+        metadata_json = json.loads(metadata.text)
+    except:
+        print(file)
 
     for field in metadata_json:
         value_array = metadata_json[field]
