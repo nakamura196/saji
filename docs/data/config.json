@@ -1,6 +1,11 @@
 {
     "fields": [
         {
+            "label": "Title",
+            "value": "http://purl.org/dc/terms/title",
+            "type": "in"
+        },
+        {
             "label": "Person",
             "value": "http://example.org/person",
             "type": "in"
@@ -36,11 +41,6 @@
             "type": "in"
         }
     ],
-    "title": {
-        "label": "Title",
-        "value": "http://purl.org/dc/terms/title",
-        "type": "in"
-    },
     "sort": "http://purl.org/dc/terms/title",
     "headline": "佐治さんプロジェクト",
     "footer": "Satoru NAKAMURA, Natsuko SAJI"
