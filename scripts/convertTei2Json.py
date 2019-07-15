@@ -45,7 +45,7 @@ for i in range(len(files)):
     dates = body.findall(prefix+"date")
     for i in range(len(dates)):
         date = dates[i]
-        g.add((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type"),
+        g.add((subject, URIRef("http://purl.org/dc/terms/date"),
                Literal(date.get("when-custom"))))
 
     divs = body.findall(prefix+"div")
@@ -53,7 +53,7 @@ for i in range(len(files)):
         div = divs[i]
         if div.get("type"):
 
-            g.add((subject, URIRef("http://purl.org/dc/terms/date"),
+            g.add((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type"),
                 Literal(div.get("type"))))
 
     title = file.split("/")[-1].split(".")[0]
