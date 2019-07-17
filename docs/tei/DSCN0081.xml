@@ -1,37 +1,33 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0081</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ],
-  "saji:type": [
-    "fetvā"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1565/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1565/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/729ffe2737f4fac02f4f6634b2b746c00ca14489.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0081</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ],
+          "saji:type": [ "fetvā" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1565/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/729ffe2737f4fac02f4f6634b2b746c00ca14489.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1565/canvas/p1"/>
+        <zone xml:id="zone_gzx_y2z_k3b" lry="1852" lrx="2124" uly="76" ulx="330"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="fetvā" facs="#zone_gzx_y2z_k3b">
+        <l>olmaz</l>
+      </div>
+    </body>
+  </text>
 </TEI>

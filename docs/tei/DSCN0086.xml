@@ -8,24 +8,33 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1570/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1570/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8dcff4e74ca68f579ff96c8325105b3d3aff6f4c.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1570/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9ed1e0100c0714a5a28ae5fbe6ce04d4b0daea0a.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/8dcff4e74ca68f579ff96c8325105b3d3aff6f4c.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1570/canvas/p1"/>
+            <zone xml:id="zone_srj_xmz_k3b" lry="3141" lrx="2408" uly="816" ulx="58"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/9ed1e0100c0714a5a28ae5fbe6ce04d4b0daea0a.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1570/canvas/p2"/>
+            <zone xml:id="zone_fdr_zmz_k3b" lry="1105" lrx="3206" uly="700" ulx="112"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN" facs="#zone_srj_xmz_k3b">
+            <l>Vech-i tahrīr-i hurūf  budur ki</l>
+            <l>İşbu <date when-custom="1297">iki yüz doksan yedi senesi</date>nde der ʿuhde ve iltizāmımız</l>
+            <l>bulunan Kirşevo mukātaʿası kurālarında <placeName type="proper" cert="low">Düzce</placeName> karyesi hudūdunda</l>
+         </div>
       </body>
    </text>
 </TEI>

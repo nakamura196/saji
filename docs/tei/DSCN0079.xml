@@ -7,28 +7,35 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">計算書</note>
+            <note type="mine">何の計算書かは文脈が分からないと分からない</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:type": [
-    "何らかの計算書？\r\n文脈が分からないと何の計算書かは分からない"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:type": [
+               "何らかの計算書？\r\n文脈が分からないと何の計算書かは分からない" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1563/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1563/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/73e28eada1f90fbed9275160c8015f5eb2a9806b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1563/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/0af8b944288ac438e65d19ac3b90270e0092aafd.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/73e28eada1f90fbed9275160c8015f5eb2a9806b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1563/canvas/p1"/>
+            <zone xml:id="zone_n3c_32z_k3b" lry="3027" lrx="2436" uly="554" ulx="36"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/0af8b944288ac438e65d19ac3b90270e0092aafd.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1563/canvas/p2"/>
+            <zone xml:id="zone_sbx_k2z_k3b" lry="3233" lrx="2342" uly="350" ulx="8"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <p/>
       </body>
    </text>
 </TEI>

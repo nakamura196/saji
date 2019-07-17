@@ -1,37 +1,62 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0082</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ],
-  "saji:type": [
-    "teẕkere"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1566/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1566/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/405f0d1e42ffee400140b7134b4541f4e2e0c293.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1566/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9ba364bcf12a88bc5b9bf0354e182d19b155b521.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0082</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">1100グルシュを納めた領収書</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ],
+          "saji:type": [ "teẕkere" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1566/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/405f0d1e42ffee400140b7134b4541f4e2e0c293.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1566/canvas/p1"/>
+        <zone xml:id="zone_rbd_mfz_k3b" lry="2863" lrx="1863" uly="209" ulx="109"/>
+        <zone xml:id="zone_xzn_g3z_k3b" lry="2495" lrx="1066" uly="2258" ulx="796"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/9ba364bcf12a88bc5b9bf0354e182d19b155b521.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1566/canvas/p2"/>
+        <zone xml:id="zone_gf4_4fz_k3b" lry="857" lrx="3271" uly="372" ulx="7"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tezkire" facs="#zone_rbd_mfz_k3b">
+        <l>Hüve</l>
+        <l>... rāhibāt-ı <placeName type="proper">Foyniçe</placeName> ve <placeName type="proper"
+            >Kirşevo</placeName> ve <placeName type="proper" cert="unknown">...</placeName></l>
+        <l>800 ...</l>
+        <l>200 ...</l>
+        <l>100 ...</l>
+        <l>1100</l>
+        <l>Vech-i meşrūʿ üzere</l>
+        <l><placeName type="proper">Foyniçe</placeName> ve <placeName type="proper"
+            >Kirşevo</placeName> ve <placeName type="proper" cert="unknown">...</placeName>
+          rubānları ...</l>
+        <l>bin yüz guruş ... hazīne ... tezkire</l>
+        <l>virildi fī <date when-custom="1181-05-17" cert="medium">17 Ca 181</date></l>
+        <l><persName>Süleyman</persName> Bosna māl-ıkethüdāsı ...</l>
+      </div>
+      <div type="stamp" facs="#zone_xzn_g3z_k3b">
+        <l>Süleyman ...</l>
+      </div>
+      <div type="summary_Serbian" facs="#zone_gf4_4fz_k3b">
+        <l>...</l>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -8,24 +8,40 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1561/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1561/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6fe9201037b4a0733cbfda0fe4a9580eed45679b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1561/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4eb971216a6f46e6d2d8cf5327464c35f381e78d.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/6fe9201037b4a0733cbfda0fe4a9580eed45679b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1561/canvas/p1"/>
+            <zone xml:id="zone_e4w_hbz_k3b" lry="3154" lrx="2263" uly="200" ulx="54"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/4eb971216a6f46e6d2d8cf5327464c35f381e78d.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1561/canvas/p2"/>
+            <zone xml:id="zone_oz5_jbz_k3b" lry="818" lrx="509" uly="572" ulx="245"/>
+            <zone xml:id="zone_uth_lbz_k3b" lry="3172" lrx="2354" uly="2636" ulx="18"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN" facs="#zone_e4w_hbz_k3b">
+            <l>Hüve</l>
+            <l>Vech-i tahrīr-i hurūf oldur ki</l>
+            <l>... <date when-custom="1197">bin yüz dokusan yedi senesi</date>ne mahsūben der ʿuhde ve iltizāmıdan ... <date type="proper">Kirşevo</date> mukātaʿaya</l>
+            <l>kurālarında ... ʿarz-ı mīrīye rāhiblerine</l>
+            <l></l>
+            <l></l>
+            <l>...<date when-custom="1197">1197</date></l>
+         </div>
+         <div type="stamp" facs="#zone_oz5_jbz_k3b"/>
+         <div type="summary_Serbian" facs="#zone_uth_lbz_k3b"/>
       </body>
    </text>
 </TEI>

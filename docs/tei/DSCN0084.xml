@@ -8,24 +8,40 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1568/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1568/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d1bfb915061577e29a04c02dd31ac795044e0865.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1568/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/126847a3a98c5ac70aeacb2de9692e43c03ce1eb.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/d1bfb915061577e29a04c02dd31ac795044e0865.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1568/canvas/p1"/>
+            <zone xml:id="zone_g2z_vjz_k3b" lry="2546" lrx="1854" uly="230" ulx="208"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/126847a3a98c5ac70aeacb2de9692e43c03ce1eb.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1568/canvas/p2"/>
+            <zone xml:id="zone_jld_yjz_k3b" lry="409" lrx="2200" uly="100" ulx="109"/>
+            <zone xml:id="zone_ktz_zjz_k3b" lry="2407" lrx="1989" uly="2225" ulx="1767"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="mektūb" facs="#zone_g2z_vjz_k3b">
+            <l>... işbu mektūbımız ... yedine ...</l>
+            <l>...</l>
+            <l>... fī <date when-custom="1175---22" cert="unknown">22 ... sene 1175</date></l>
+         </div>
+         <div type="unknown" cert="unknown" facs="#zone_jld_yjz_k3b">
+            <l>... bu mektūb <placeName type="proper">Kirşevo</placeName>'de ... devletim zimmī İvan veled-i Kayu(?) nām zimmī ...</l>
+         </div>
+         <div type="stamp" facs="#zone_ktz_zjz_k3b">
+            <l>... İsmaʿīl ...</l>
+         </div>
       </body>
    </text>
 </TEI>
