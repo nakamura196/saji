@@ -229,6 +229,48 @@
             "label": "Automatic curation by TEI",
             "members": [
                 {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1578/canvas/p1#xywh=217,91,1692,2609",
+                    "@type": "sc:Canvas",
+                    "label": "zone_g44_mt5_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "EMIN"
+                        }
+                    ],
+                    "text": "\n            Hüve\n            Bāis-i tahrīr-i hurūf budur ki madīna-i Saray Bosna'da ... gāzī ...\n            ... zimmīlerinden olub ... mahallesinden ... iki akçe mukātaʿasıyla \n            Şāyu nām zimmīlerin hānesinin ... \n            ... biz dahi kāimmakām ... olduğumuz hasebiyle ...\n            icrāsına izin ... işbu hurūf ... tahrīr ...\n            cānib ...mukātaʿa ... tamāmen edā ... icrāsına ...\n            oluna ... Rebiü'l-evvel sene 1156\n            ... Mehmed ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1578/canvas/p2#xywh=362,516,304,246",
+                    "@type": "sc:Canvas",
+                    "label": "zone_rfh_qt5_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            ... Mehmed ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1578/canvas/p2#xywh=25,1750,2416,570",
+                    "@type": "sc:Canvas",
+                    "label": "zone_sg2_rt5_l3b",
+                    "metadata": []
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1578/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0094"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range15",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
                     "@id": "https://diyhistory.org/public/phr2/iiif/1566/canvas/p1#xywh=109,209,1754,2654",
                     "@type": "sc:Canvas",
                     "label": "zone_rbd_mfz_k3b",
@@ -272,7 +314,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range15",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range18",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -327,7 +369,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range19",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range22",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -399,7 +441,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range24",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range27",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -447,7 +489,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range27",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range30",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -471,7 +513,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range29",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range32",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -501,7 +543,55 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range31",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range34",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1576/canvas/p1#xywh=218,90,1836,2982",
+                    "@type": "sc:Canvas",
+                    "label": "zone_gtr_hp5_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "tezkire"
+                        }
+                    ],
+                    "text": "\n            Hüve\n            ... Kirşevo gardiyānı ... olunur ki\n            bāis-i ... hurūf oludur ki ... bundan akdem\n            ...\n            eyledikte yine tezkire irsāl eyledim ... olundu yine bu defa\n            ... yediye tezkirehā ... olunmuşdur ve ...\n            ... akçe ...\n            ... yediyle yüa on ... eyledik\n            ...\n            olunur ... edesiz ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1576/canvas/p2#xywh=240,356,1713,300",
+                    "@type": "sc:Canvas",
+                    "label": "zone_g2l_jp5_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "unkown"
+                        }
+                    ],
+                    "text": "\n            Halā ... Kirşevo gardiyānı ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1576/canvas/p2#xywh=1574,856,526,561",
+                    "@type": "sc:Canvas",
+                    "label": "zone_mjl_kp5_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "Croatian"
+                        }
+                    ],
+                    "text": "\n            ...\n            ...\n            ...\n            ...\n            ...\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1576/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0092"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range37",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -549,7 +639,43 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range34",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range40",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1574/canvas/p1#xywh=177,1376,2100,1054",
+                    "@type": "sc:Canvas",
+                    "label": "zone_old_sdm_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "EMIN_tahvīl"
+                        }
+                    ],
+                    "text": "\n            Hüve\n            Bāis-i tahvīl oldur ki\n            Kirşevo varoş kilisanın gardiyānı Frainderye üzerinde olan ... karyesinden\n            ... İbrāhīm Ağa'nın ... beş yüz guruş bu defa tarafımıza tamāmen\n            ... iʿtā eyledüğye yedine işbu ... tahvīl virildi\n            ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1574/canvas/p2#xywh=56,577,3061,539",
+                    "@type": "sc:Canvas",
+                    "label": "zone_ys4_tdm_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "summary_Croatian"
+                        }
+                    ],
+                    "text": "\n            ...\n            ... 1832.\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1574/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0090"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range42",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -597,7 +723,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range37",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range45",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -621,7 +747,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range38",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range46",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -652,7 +778,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range40",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range48",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -695,7 +821,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range43",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range51",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -731,7 +857,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range45",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range53",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -755,7 +881,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range46",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range54",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -791,7 +917,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range48",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range56",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -827,7 +953,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range50",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range58",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -863,7 +989,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range52",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range60",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -887,7 +1013,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range53",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range61",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -911,7 +1037,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range54",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range62",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
@@ -947,7 +1073,7 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range56",
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range64",
             "@type": "sc:Range",
             "label": "Automatic curation by TEI",
             "members": [
