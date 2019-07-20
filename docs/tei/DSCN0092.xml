@@ -8,24 +8,51 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1576/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1576/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7e4829ee68b61b3a479930cd7e02237ab59da406.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1576/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a0f6df031ab5a0fe6ed6349b7f1a6ee7c04bf49b.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/7e4829ee68b61b3a479930cd7e02237ab59da406.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1576/canvas/p1"/>
+            <zone xml:id="zone_gtr_hp5_l3b" lry="3072" lrx="2054" uly="90" ulx="218"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a0f6df031ab5a0fe6ed6349b7f1a6ee7c04bf49b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1576/canvas/p2"/>
+            <zone xml:id="zone_g2l_jp5_l3b" lry="656" lrx="1953" uly="356" ulx="240"/>
+            <zone xml:id="zone_mjl_kp5_l3b" lry="1417" lrx="2100" uly="856" ulx="1574"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="tezkire" cert="unknown" facs="#zone_gtr_hp5_l3b">
+            <l>Hüve</l>
+            <l>... Kirşevo gardiyānı ... olunur ki</l>
+            <l>bāis-i ... hurūf oludur ki ... bundan akdem</l>
+            <l>...</l>
+            <l>eyledikte yine tezkire irsāl eyledim ... olundu yine bu defa</l>
+            <l>... yediye tezkirehā ... olunmuşdur ve ...</l>
+            <l>... akçe ...</l>
+            <l>... yediyle yüa on ... eyledik</l>
+            <l>...</l>
+            <l>olunur ... edesiz ...</l>
+         </div>
+         <div type="unkown" cert="unknown" facs="#zone_g2l_jp5_l3b">
+            <l>Halā ... <persName>Kirşevo gardiyānı</persName> ...</l>
+         </div>
+         <div type="Croatian" cert="unknown" facs="#zone_mjl_kp5_l3b">
+            <l>...</l>
+            <l>...</l>
+            <l>...</l>
+            <l>...</l>
+            <l>...</l>
+         </div>
       </body>
    </text>
 </TEI>
