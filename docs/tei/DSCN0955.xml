@@ -7,6 +7,10 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+        <notesStmt>
+          <note type="mine">hüccetに2人作成者がいるパターン：①ナーヒエのナーイブ（発行者、権力がない）②ボスナのカーディー（tasdīkしている）</note>
+          <note type="mine">書き出し：出張裁判のパターン</note>
+        </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -74,7 +78,11 @@
    </facsimile>
    <text>
       <body>
-         <p />
+        <div type="hüccet"></div>
+        <div type="tasdīk"></div>
+        <div type="stamp"></div>
+        <div type="stamp"></div>
+        <div type="summary_Croatian"></div>
       </body>
    </text>
 </TEI>

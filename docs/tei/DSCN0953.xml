@@ -7,6 +7,9 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+        <notesStmt>
+          <note type="mine">赤字部分の記述からtasdīkの可能性がある</note>
+        </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -86,7 +89,9 @@
    </facsimile>
    <text>
       <body>
-         <p />
+        <div type="tasdīk" cert="low"></div>
+        <div type="stamp"></div>
+        <div type="summary_Croatian"></div>
       </body>
    </text>
 </TEI>

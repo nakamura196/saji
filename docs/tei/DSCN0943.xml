@@ -7,6 +7,11 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+        <notesStmt>
+          <note type="summary">とにかく来いという内容</note>
+          <note type="mine">差出人はカーディーではない誰か</note>
+          <note type="mine">書体：ターリク体。カーディーはターリク体を使うことが多い</note>
+        </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -72,7 +77,10 @@
    </facsimile>
    <text>
       <body>
-         <p />
+        <div type="tezkire"></div>
+        <div type="stamp"></div>
+        <div type="unkown" cert="unknown"></div>
+        <div type="summary_Croatian" cert="low"></div>
       </body>
    </text>
 </TEI>

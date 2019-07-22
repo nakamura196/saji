@@ -44,7 +44,7 @@
   </facsimile>
   <text>
     <body>
-      <div cert="unknown" facs="#zone_nxl_t34_c3b" type="EMIN">
+      <div type="EMIN" cert="unknown" facs="#zone_nxl_t34_c3b">
         <l>Vech-i taḥrīr-i ḥurūf oldur ki</l>
         <l>İşbu <date cert="unknown" from-custom="1202-03-01" to="--02-29">bin iki yüz iki senesinde
             Mārtı ibtidāsından Şubāṭı ġāyet[in]e</date> varınca, der-ʿuhde ve iltizāmımızda</l>
@@ -74,6 +74,7 @@
       <div type="stamp" facs="#zone_hlj_wlh_j3b">
         <l cert="unknown">...</l>
       </div>
+      <div type="summary_Serbian"></div>
     </body>
   </text>
 </TEI>

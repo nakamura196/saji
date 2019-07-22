@@ -8,24 +8,47 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1580/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1580/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9cf5cb5a06af5d4c63e21ab8141d7cede898c739.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1580/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1a327c158be85fd6f5a4293addea786d1e693173.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/9cf5cb5a06af5d4c63e21ab8141d7cede898c739.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1580/canvas/p1"/>
+            <zone xml:id="zone_vty_1y5_l3b" lry="2991" lrx="1775" uly="100" ulx="150"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/1a327c158be85fd6f5a4293addea786d1e693173.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1580/canvas/p2"/>
+            <zone xml:id="zone_vcp_cy5_l3b" lry="1333" lrx="2156" uly="1061" ulx="623"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN_zabt_temessük" cert="low" facs="#zone_vty_1y5_l3b">
+            <l>Hüve</l>
+            <l>Vech-i tahrīr hurūf oldur ki</l>
+            <l>İşbu <date when-custom="1213">bin iki yüz on üç sene</date>sinde ... der ʿuhde</l>
+            <l>ve iltizām ... bulunan Kirşevo mukātaʿa mālikânesi ... kilisaya ...</l>
+            <l>olan ... mahsūlāt olan ...</l>
+            <l>...</l>
+            <l>...</l>
+            <l>kilisanın ...</l>
+            <l>...</l>
+            <l>tamāmen ber-vech-i ...</l>
+            <l>olan ...</l>
+            <l>zabt temessük zimmī <persName role="gardiyān" cert="unknown">...</persName> nām gardiyān yedine virildi</l>
+            <l>tarafa ... kimesne ...</l>
+            <l>... <persName>Mehmed</persName> ...</l>
+         </div>
+         <div type="summary_Serbian" facs="#zone_vcp_cy5_l3b">
+            <l>... od ... <date when="1799">1799</date></l>
+         </div>
       </body>
    </text>
 </TEI>
