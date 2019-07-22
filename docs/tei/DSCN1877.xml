@@ -7,6 +7,10 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+        <notesStmt>
+          <note type="summary">木こりが死亡したので、keşf（検分）を求める内容</note>
+          <note type="mine">法廷とvaliから人が派遣されたために、buyurulduが付いていると思われる</note>
+        </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -17,11 +21,8 @@
   ],
   "saji:memo": [
     "典型",
-    "木こりが死亡したので、keşf（検分）を求める内容",
-    "法廷とvaliから人が派遣されたために、buyurulduが付いている者と思われる"
   ],
   "saji:type": [
-    "ḥüccet+buyuruldu"
   ]
 }</p>
          </sourceDesc>
@@ -33,7 +34,8 @@
    </facsimile>
    <text>
       <body>
-         <p />
+        <div type="hüccet"></div>
+        <div type="buyuruldu"></div>
       </body>
    </text>
 </TEI>
