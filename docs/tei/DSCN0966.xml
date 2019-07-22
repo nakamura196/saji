@@ -67,7 +67,19 @@
    </facsimile>
    <text>
       <body>
-         <p />
+        <div type="unkown"></div>
+        <div type="stamp"></div>
+        <div type="summary_Croatian">
+          <l>...</l>
+          <l>... <date when-custom="">1274</date></l>
+          <l>...</l>
+          <l>...</l>
+        </div>
+        <div type="summary_Croatian">
+          <l>...</l>
+          <l><date when-custom="1274">1274</date></l>
+          <l>Nno 4.</l>
+        </div>
       </body>
    </text>
 </TEI>
