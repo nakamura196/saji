@@ -7,6 +7,9 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+        <notesStmt>
+          <note type="mine">特徴的な署名</note>
+        </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -23,9 +26,6 @@
   ],
   "saji:memo": [
     "典型"
-  ],
-  "saji:type": [
-    "teẕkere"
   ]
 }</p>
          </sourceDesc>
@@ -37,7 +37,8 @@
    </facsimile>
    <text>
       <body>
-         <p />
+        <div type="tezkire"></div>
+        <div type="stamp"></div>
       </body>
    </text>
 </TEI>
