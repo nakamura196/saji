@@ -7,6 +7,10 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+        <notesStmt>
+          <note type="mine">差出人：ボスナのカーイムマカーム＝ボスナのワーリーの代理人（not ボスナのサンジャクベイ）※Vilayet nizamnamesi (1865?)の後だから</note>
+          <note type="mine">特徴的な署名</note>
+        </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -16,11 +20,7 @@
     "Tursko 2"
   ],
   "saji:memo": [
-    "典型",
-    "差出人：ボスナのカーイムマカーム＝ボスナのワーリーの代理人（not ボスナのサンジャクベイ）\r\n※Vilayet nizamnamesi (1865?)の後だから"
-  ],
-  "saji:type": [
-    "beyāż üzerine buyuruldu"
+    "典型"
   ]
 }</p>
          </sourceDesc>
@@ -32,7 +32,7 @@
    </facsimile>
    <text>
       <body>
-         <p />
+        <div type="beyāz_üzerine_buyuruldu"></div>
       </body>
    </text>
 </TEI>

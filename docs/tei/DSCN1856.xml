@@ -7,6 +7,10 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+        <notesStmt>
+          <note type="mine">vālīが書いたのではない？</note>
+          <note type="mine">特徴的な署名</note>
+        </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -14,13 +18,6 @@
   ],
   "saji:fond": [
     "Tursko 1"
-  ],
-  "saji:memo": [
-    "vālīが書いたのではない？",
-    "特徴的な署名"
-  ],
-  "saji:type": [
-    "beyāż üzerine buyuruldu"
   ]
 }</p>
          </sourceDesc>
@@ -32,7 +29,7 @@
    </facsimile>
    <text>
       <body>
-         <p />
+        <div type="beyāz_üzerine_buyuruldu"></div>
       </body>
    </text>
 </TEI>
