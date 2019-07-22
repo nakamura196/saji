@@ -7,6 +7,10 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+        <notesStmt>
+          <note type="summary">ジズヤの支払い証明</note>
+          <note type="mine">ジズヤ関連</note>
+        </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -16,12 +20,7 @@
     "Tursko 1"
   ],
   "saji:memo": [
-    "典型",
-    "ジズヤの支払い証明",
-    "ジズヤ関係"
-  ],
-  "saji:type": [
-    "ʿilmüḫaber+edā senedi"
+    "典型"
   ]
 }</p>
          </sourceDesc>
@@ -33,7 +32,10 @@
    </facsimile>
    <text>
       <body>
-         <p />
+        <div type="edā_senedi"></div>
+        <div type="ʿilmühaber"></div>
+        <div type="stamp"></div>
+        <div type="stamp"></div>
       </body>
    </text>
 </TEI>

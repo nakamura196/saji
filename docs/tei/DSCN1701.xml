@@ -7,6 +7,10 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+        <notesStmt>
+          <note type="mine">tapu senedi発行前に、一時的に権利を保証する証書。tapu senediと同等のものである。</note>
+          <note type="mine">書式については、tapu senediを参考にする。</note>
+        </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -16,12 +20,7 @@
     "Tursko 1"
   ],
   "saji:memo": [
-    "典型",
-    "ṭapu senedi発行前に、一時的に権利を保証する証書。\r\nṭapu senediと同等のものである。",
-    "書式については、ṭapu senediを参考にする。"
-  ],
-  "saji:type": [
-    "ʿilmüḫaber"
+    "典型"
   ]
 }</p>
          </sourceDesc>
@@ -33,7 +32,7 @@
    </facsimile>
    <text>
       <body>
-         <p />
+        <div type="ʿilmühaber-i_tapu_senedi"></div>
       </body>
    </text>
 </TEI>
