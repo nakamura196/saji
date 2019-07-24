@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "@context": [
         "http://iiif.io/api/presentation/2/context.json",
@@ -20,3 +21,1171 @@
                         {
                             "label": "Type",
                             "value": 
+=======
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/saji/data/curation.json",
+    "@type": "cr:Curation",
+    "label": "Automatic curation by TEI",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range1",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1090/canvas/p1#xywh=169,1356,1625,1631",
+                    "@type": "sc:Canvas",
+                    "label": "zone_j3f_bf3_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "mürāsele"
+                        }
+                    ],
+                    "text": "\n        Madīne-i Saray-ı Bosna kazāsına ... Kirşevo ve ... ve Foyniçe ... ümenāsı ve sāyir\n          ...\n        ve islām hurrira fī Rebiü'l-evvel sene 1198\n        El-seyyid ʿAbdü'l-rahman el-kādı bi-madīne-i Saray Bosna ...\n      \n      "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1090/canvas/p1#xywh=219,443,1206,769",
+                    "@type": "sc:Canvas",
+                    "label": "zone_mnf_cf3_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "buyuruldu"
+                        }
+                    ],
+                    "text": "\n        Foyniçe ve ... ve Kirşevo nāibleri efendiler\n        Muceddiden yedinize iʿtā ... mūcebince ʿamer ve \n        ...\n        buyuruldu fī 13 S sene 198\n      \n    "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1090/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0974"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range3",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2546/canvas/p1#xywh=435,242,1436,2015",
+                    "@type": "sc:Canvas",
+                    "label": "zone_thq_j3w_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "yafta"
+                        }
+                    ],
+                    "text": "\n            Kirşevo'dan Foyniçe'ye varınca bir ...\n            bārgīre lede'l-ihtiyāc varoş-ı Kirşevo\n            emīn-i mukātaʿa maʿarifetiyle(?) matlūb olundukdan \n            Tombek nām zimmīyı bulmalarıyle ücreti\n            varoş-ı mezbūre zimmīlerinden virdirilmek\n            üzere işbu yafta yedine virilmişdir\n            fī 7 R 194\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2546/canvas/p1#xywh=607,1721,586,479",
+                    "@type": "sc:Canvas",
+                    "label": "zone_wcp_k3w_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            ... ʿÖmer\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2546/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN2218"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range5",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2513/canvas/p1#xywh=332,231,1879,1400",
+                    "@type": "sc:Canvas",
+                    "label": "zone_bmx_gc3_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "tahvīl"
+                        }
+                    ],
+                    "text": "\n            Kirşevo gardiyānden iki bin sekiz yüz otüz kıye ...\n            yiğrmi bir bin akçe ... eyledüğümüz işbu tahvīl yedine virildi\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2513/canvas/p1#xywh=1266,1203,524,370",
+                    "@type": "sc:Canvas",
+                    "label": "zone_krt_hc3_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            ...\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2513/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN2185"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range7",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2125/canvas/p1#xywh=308,118,1418,2754",
+                    "@type": "sc:Canvas",
+                    "label": "zone_d2h_xhq_h3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "cizye_senedi"
+                        }
+                    ],
+                    "text": "\n            ednā 15\n            Foyniçe kazā\n            Miu veledi Miu nām zimmī\n            altmış altı senesine mahsūben mustahakk\n            olduğu cizye-i şerʿiyyesini me'mūrı\n            tarafına teslīm etmiş olduğunu mübeyyin\n            işbu sened yedine virıldi sene 1266\n            numero\n            102\n            işkâl\n            sin 36\n            boy uzun\n            sakar ..\n            ...\n            göz ...\n            işkâl mahsūsa\n            defteri numerosı\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2125/canvas/p1#xywh=1109,2154,491,464",
+                    "@type": "sc:Canvas",
+                    "label": "zone_jgh_yhq_h3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            Sened-i makbūz-ı eyālet-i Bosna\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2125/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN9200"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range9",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2087/canvas/p1#xywh=494,83,2062,1589",
+                    "@type": "sc:Canvas",
+                    "label": "zone_bpt_3cq_h3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "‘öşr_bedeli_defteri"
+                        }
+                    ],
+                    "text": "\n            hüve\n            Foyniçe kazāsına tābiʿ Kirşevo kurbında\n               vākiʿ Latin milletinin kiliselerine merbūt arāzī mīrīnin\n            aʿaşār bedelātı mübeyyin defteridir\n            bedelāt\n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2087/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN9161"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range10",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1565/canvas/p1#xywh=330,76,1794,1776",
+                    "@type": "sc:Canvas",
+                    "label": "zone_gzx_y2z_k3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "fetvā"
+                        }
+                    ],
+                    "text": "\n        olmaz\n      \n    "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1565/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0081"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range11",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2310/canvas/p1#xywh=100,309,2227,2027",
+                    "@type": "sc:Canvas",
+                    "label": "zone_yfn_4vg_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "計算書"
+                        }
+                    ],
+                    "text": "\n            Kirşevo rāhib ... maʿa onlık(?) maʿa rubʿiye\n            rubʿiye, onlık(?), ...\n            0, 1.5, 0 ... mahalle-i ...\n            0, 0, 2 cemāʿat-i ... mahalle-i ...\n            0, 0, 3 cemāʿat-i varoş mahalle-i ...\n            0, 1, 0 ...\n            0, 0, 0.5 Mustafa ʿāmedār(?)\n            0, 2.5, 0 ...\n            0, 0, 1.5 ...\n            0, 0, 0.5 ...\n            1, 1.5, 14.5 cemāʿat-i müslimīn mahalle-i ...\n            1, 1, 3.5 defʿa cemāʿat-i müslimīn mahalle-i ...\n            9, 25.5\n            1, 0.5  defʿa cemāʿat-i varoş Anton ...\n            27\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2310/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN1980"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range12",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1578/canvas/p1#xywh=217,91,1692,2609",
+                    "@type": "sc:Canvas",
+                    "label": "zone_g44_mt5_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "EMIN"
+                        }
+                    ],
+                    "text": "\n            Hüve\n            Bāis-i tahrīr-i hurūf budur ki madīna-i Saray Bosna'da ... gāzī ...\n            ... zimmīlerinden olub ... mahallesinden ... iki akçe mukātaʿasıyla \n            Şāyu nām zimmīlerin hānesinin ... \n            ... biz dahi kāimmakām ... olduğumuz hasebiyle ...\n            icrāsına izin ... işbu hurūf ... tahrīr ...\n            cānib ...mukātaʿa ... tamāmen edā ... icrāsına ...\n            oluna ... Rebiü'l-evvel sene 1156\n            ... Mehmed ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1578/canvas/p2#xywh=362,516,304,246",
+                    "@type": "sc:Canvas",
+                    "label": "zone_rfh_qt5_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            ... Mehmed ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1578/canvas/p2#xywh=25,1750,2416,570",
+                    "@type": "sc:Canvas",
+                    "label": "zone_sg2_rt5_l3b",
+                    "metadata": []
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1578/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0094"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range15",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1580/canvas/p1#xywh=150,100,1625,2891",
+                    "@type": "sc:Canvas",
+                    "label": "zone_vty_1y5_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "EMIN_zabt_temessük"
+                        }
+                    ],
+                    "text": "\n            Hüve\n            Vech-i tahrīr hurūf oldur ki\n            İşbu bin iki yüz on üç senesinde ... der ʿuhde\n            ve iltizām ... bulunan Kirşevo mukātaʿa mālikânesi ... kilisaya ...\n            olan ... mahsūlāt olan ...\n            ...\n            ...\n            kilisanın ...\n            ...\n            tamāmen ber-vech-i ...\n            olan ...\n            zabt temessük zimmī ... nām gardiyān yedine virildi\n            tarafa ... kimesne ...\n            ... Mehmed ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1580/canvas/p2#xywh=623,1061,1533,272",
+                    "@type": "sc:Canvas",
+                    "label": "zone_vcp_cy5_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "summary_Serbian"
+                        }
+                    ],
+                    "text": "\n            ... od ... 1799\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1580/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0096"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range17",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1566/canvas/p1#xywh=109,209,1754,2654",
+                    "@type": "sc:Canvas",
+                    "label": "zone_rbd_mfz_k3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "tezkire"
+                        }
+                    ],
+                    "text": "\n        Hüve\n        ... rāhibāt-ı Foyniçe ve Kirşevo ve ...\n        800 ...\n        200 ...\n        100 ...\n        1100\n        Vech-i meşrūʿ üzere\n        Foyniçe ve Kirşevo ve ...\n          rubānları ...\n        bin yüz guruş ... hazīne ... tezkire\n        virildi fī 17 Ca 181\n        Süleyman Bosna māl-ıkethüdāsı ...\n      \n      "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1566/canvas/p1#xywh=796,2258,270,237",
+                    "@type": "sc:Canvas",
+                    "label": "zone_xzn_g3z_k3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n        Süleyman ...\n      \n      "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1566/canvas/p2#xywh=7,372,3264,485",
+                    "@type": "sc:Canvas",
+                    "label": "zone_gf4_4fz_k3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "summary_Serbian"
+                        }
+                    ],
+                    "text": "\n        ...\n      \n    "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1566/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0082"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range20",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2231/canvas/p1#xywh=450,635,1580,930",
+                    "@type": "sc:Canvas",
+                    "label": "zone_mjb_rkq_h3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "izin_belgesi"
+                        }
+                    ],
+                    "text": "\n            hüve\n            Dārandegâr tezkire\n            Kirşevo varoş kiliseden zimmī ... bir nefer hizmetkâr ile Sava tarafına\n            ʿāzim olup kiliseye ... gardiyān ... izin şöd fī 21 Receb sene 251    \n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2231/canvas/p1#xywh=535,1165,310,305",
+                    "@type": "sc:Canvas",
+                    "label": "zone_s3w_rkq_h3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            Mahkeme-i nāhiye-i Kirşevo\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2231/canvas/p1#xywh=935,1320,240,210",
+                    "@type": "sc:Canvas",
+                    "label": "zone_dms_skq_h3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            ... Süleyman\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2231/canvas/p1#xywh=810,2510,1150,335",
+                    "@type": "sc:Canvas",
+                    "label": "zone_nh4_tkq_h3b",
+                    "metadata": [],
+                    "text": "\n            \n            \n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2231/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN9307"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range24",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2415/canvas/p1#xywh=474,399,1632,1553",
+                    "@type": "sc:Canvas",
+                    "label": "zone_kws_c5h_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "hüccet_note"
+                        }
+                    ],
+                    "text": "\n            Dört sene kadīm 55 re's oküz 45 guruşden\n            şimdi 48 guruşdan hesāb görüb 165 guruş\n            ziyāde olub yine nuhāsı 160 kıye nuhāsı\n            dörder buçuk guruşdan virmişken dörder guruşdan\n            hesāb görüb 82 guruş dahi ol hesābdan\n            cemʿ yekûn\n            247 guruş taleb daʿvā\n            min min\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2415/canvas/p1#xywh=450,2725,350,327",
+                    "@type": "sc:Canvas",
+                    "label": "zone_nfv_25h_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            Hādım-ı şerʿ-i nevī ʿAbdhu Mustafa Muhibbī\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2415/canvas/p1#xywh=263,1212,1784,1958",
+                    "@type": "sc:Canvas",
+                    "label": "zone_j2w_j5h_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "note"
+                        }
+                    ],
+                    "text": "\n            \n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2415/canvas/p2#xywh=483,288,979,974",
+                    "@type": "sc:Canvas",
+                    "label": "zone_c1s_m5h_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "from"
+                        }
+                    ],
+                    "text": "\n            Sūret-i \n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2415/canvas/p2#xywh=1645,262,655,400",
+                    "@type": "sc:Canvas",
+                    "label": "zone_frm_n5h_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "from"
+                        }
+                    ],
+                    "text": "\n            同様のことが書いてある\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2415/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN2086"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range29",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2317/canvas/p1#xywh=182,427,1863,2454",
+                    "@type": "sc:Canvas",
+                    "label": "zone_akg_1zg_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "tahvīl"
+                        }
+                    ],
+                    "text": "\n            7500 yalnız\n            Bāʿis-i edā tahvīl oldur ki\n            Kirşevolı gardiyān ve ispāhī'nin zimmī Nikola nām zimmī yedinden ber-vech-i(?)\n            bālā terkīm olunan yedi bin beş yüz guruş tamāmen edā ve teslīm olmuşdur\n            işbu tahvīl tahrīr olmuşdur fī 27 māh Şavvāl sene 269\n            Bende-i mültezim İbrāhīm İbn Hacı Yūsuf hāfiz\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2317/canvas/p1#xywh=555,2314,327,249",
+                    "@type": "sc:Canvas",
+                    "label": "zone_hld_czg_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2317/canvas/p1#xywh=541,2577,332,240",
+                    "@type": "sc:Canvas",
+                    "label": "zone_atm_dzg_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            ...\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2317/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN1987"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range32",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1563/canvas/p1#xywh=36,554,2400,2473",
+                    "@type": "sc:Canvas",
+                    "label": "zone_n3c_32z_k3b",
+                    "metadata": []
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1563/canvas/p2#xywh=8,350,2334,2883",
+                    "@type": "sc:Canvas",
+                    "label": "zone_sbx_k2z_k3b",
+                    "metadata": []
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1563/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0079"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range34",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1570/canvas/p1#xywh=58,816,2350,2325",
+                    "@type": "sc:Canvas",
+                    "label": "zone_srj_xmz_k3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "EMIN"
+                        }
+                    ],
+                    "text": "\n            Vech-i tahrīr-i hurūf  budur ki\n            İşbu iki yüz doksan yedi senesinde der ʿuhde ve iltizāmımız\n            bulunan Kirşevo mukātaʿası kurālarında Düzce karyesi hudūdunda\n         \n      "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1570/canvas/p2#xywh=112,700,3094,405",
+                    "@type": "sc:Canvas",
+                    "label": "zone_fdr_zmz_k3b",
+                    "metadata": []
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1570/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0086"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range36",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1576/canvas/p1#xywh=218,90,1836,2982",
+                    "@type": "sc:Canvas",
+                    "label": "zone_gtr_hp5_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "tezkire"
+                        }
+                    ],
+                    "text": "\n            Hüve\n            ... Kirşevo gardiyānı ... olunur ki\n            bāis-i ... hurūf oludur ki ... bundan akdem\n            ...\n            eyledikte yine tezkire irsāl eyledim ... olundu yine bu defa\n            ... yediye tezkirehā ... olunmuşdur ve ...\n            ... akçe ...\n            ... yediyle yüa on ... eyledik\n            ...\n            olunur ... edesiz ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1576/canvas/p2#xywh=240,356,1713,300",
+                    "@type": "sc:Canvas",
+                    "label": "zone_g2l_jp5_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "unknown"
+                        }
+                    ],
+                    "text": "\n            Halā ... Kirşevo gardiyānı ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1576/canvas/p2#xywh=1574,856,526,561",
+                    "@type": "sc:Canvas",
+                    "label": "zone_mjl_kp5_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "Croatian"
+                        }
+                    ],
+                    "text": "\n            ...\n            ...\n            ...\n            ...\n            ...\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1576/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0092"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range39",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1568/canvas/p1#xywh=208,230,1646,2316",
+                    "@type": "sc:Canvas",
+                    "label": "zone_g2z_vjz_k3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "mektūb"
+                        }
+                    ],
+                    "text": "\n            ... işbu mektūbımız ... yedine ...\n            ...\n            ... fī 22 ... sene 1175\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1568/canvas/p2#xywh=109,100,2091,309",
+                    "@type": "sc:Canvas",
+                    "label": "zone_jld_yjz_k3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "unknown"
+                        }
+                    ],
+                    "text": "\n            ... bu mektūb Kirşevo'de ... devletim zimmī İvan veled-i Kayu(?) nām zimmī ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1568/canvas/p2#xywh=1767,2225,222,182",
+                    "@type": "sc:Canvas",
+                    "label": "zone_ktz_zjz_k3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            ... İsmaʿīl ...\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1568/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0084"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range42",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1574/canvas/p1#xywh=177,1376,2100,1054",
+                    "@type": "sc:Canvas",
+                    "label": "zone_old_sdm_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "EMIN_tahvīl"
+                        }
+                    ],
+                    "text": "\n            Hüve\n            Bāis-i tahvīl oldur ki\n            Kirşevo varoş kilisanın gardiyānı Frainderye üzerinde olan ... karyesinden\n            ... İbrāhīm Ağa'nın ... beş yüz guruş bu defa tarafımıza tamāmen\n            ... iʿtā eyledüğye yedine işbu ... tahvīl virildi\n            ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1574/canvas/p2#xywh=56,577,3061,539",
+                    "@type": "sc:Canvas",
+                    "label": "zone_ys4_tdm_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "summary_Croatian"
+                        }
+                    ],
+                    "text": "\n            ...\n            ... 1832.\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1574/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0090"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range44",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1561/canvas/p1#xywh=54,200,2209,2954",
+                    "@type": "sc:Canvas",
+                    "label": "zone_e4w_hbz_k3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "EMIN"
+                        }
+                    ],
+                    "text": "\n            Hüve\n            Vech-i tahrīr-i hurūf oldur ki\n            ... bin yüz dokusan yedi senesine mahsūben der ʿuhde ve iltizāmıdan ... Kirşevo mukātaʿaya\n            kurālarında ... ʿarz-ı mīrīye rāhiblerine\n            \n            \n            ...1197\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1561/canvas/p2#xywh=245,572,264,246",
+                    "@type": "sc:Canvas",
+                    "label": "zone_oz5_jbz_k3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1561/canvas/p2#xywh=18,2636,2336,536",
+                    "@type": "sc:Canvas",
+                    "label": "zone_uth_lbz_k3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "summary_Serbian"
+                        }
+                    ],
+                    "text": "\n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1561/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0077"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range47",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2440/canvas/p2#xywh=200,254,1954,2482",
+                    "@type": "sc:Canvas",
+                    "label": "zone_l2r_3yh_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "unknown"
+                        }
+                    ],
+                    "text": "\n            sene 74\n            Foyniçe ve Bosna ve varoş-ı Kirşevo cemāʿtlerinin\n            aʿaşār-ı taksit bedeli\n            8750-8149=611\n            teslīm\n            5000-4149=8149\n            ... Mehmed Ağa ʿuhdesinde olduğu\n            sekiz bin ...\n            2 Ra sene 74\n            ...\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2440/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN2111"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range48",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2395/canvas/p1#xywh=50,890,2104,1928",
+                    "@type": "sc:Canvas",
+                    "label": "zone_g1s_mbh_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "unknown"
+                        }
+                    ],
+                    "text": "\n            800 Hazīne-i hazret-i velīyü'n-niʿamîye\n            80 Harc-ı bāb\n            20 Kâtib-i dīvān efendiye\n            200 Benām-ı kethüdā beg hazīneye\n            200 kethüdā begye\n            1300\n            Vech-i meşrūh üzere\n            Bālāde zikr olunan mebāliğ-ı mezbūrı tamāmen\n            Hazīne-i hazret-i velīyü'n-niʿamîye teslīm edesiz fī 5 B sene 199\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2395/canvas/p1#xywh=318,2445,418,327",
+                    "@type": "sc:Canvas",
+                    "label": "zone_u2r_nbh_j3b",
+                    "metadata": [],
+                    "text": "\n            Sahh\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2395/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN2065"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range50",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1014/canvas/p1#xywh=205,1177,1456,1173",
+                    "@type": "sc:Canvas",
+                    "label": "zone_nxl_t34_c3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "EMIN"
+                        }
+                    ],
+                    "text": "\n        Vech-i taḥrīr-i ḥurūf oldur ki\n        İşbu bin iki yüz iki senesinde\n            Mārtı ibtidāsından Şubāṭı ġāyet[in]e varınca, der-ʿuhde ve iltizāmımızda\n        bulunan Ḳirşevo muḳāṭa‘asında kiliseye merbūṭ olan ḳaryelerin\n          ʿaşār ve şerʿiyye [sic, aʿşār-ı şerʿiyye] ve rüsūmātı sāir\n        sene-i mezbūr iltizāmına ṭālib olan kilisanın baş ruhbānı Perpetre\n          seksen ġuruş\n          muḳābelesinde\n        der-ʿuhde ve iltizām olunub, ve aḳçasını ber-vech-i peşīn ṭarafımıza edā ve teslīm idüb,\n          işbu\n        bin iki yüz iki senesinin ḥāṣıl olan maḥṣūlātınin ʿaşār-ı\n          şerʿiyyesin [sic, aʿşār-ı şerʿiyyesin] ve rüsūm-ı sāire-\n        sin mesfūr ẕimmī Perpetre żabṭ ve ʿaşār-ı şerʿiyyesin [sic, aʿşār-ı şerʿiyyesin] aḫẕ ve ḳabż\n          idüb, ṭarafımızdan\n        ve ṭaraf-ı āḫardan bir kimesne mānʿī olmaya ve müzāḥim olmayalar taḥrīr fī 21 Ra(?) 1202\n        Ḳirşevo emīni Aḥmad ...\n      \n      "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1014/canvas/p1#xywh=1500,2358,558,483",
+                    "@type": "sc:Canvas",
+                    "label": "zone_ogx_wdt_g3b",
+                    "metadata": [],
+                    "text": "\n        Şüḥūdu’l-ḥāl\n        el-Ḥāci Müderres Efendi\n        Nuvābīẕāde Süleyman Ağa\n        Breāder-i ʿAṭāllāh Ağa\n      \n      "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1014/canvas/p3#xywh=1600,1979,162,154",
+                    "@type": "sc:Canvas",
+                    "label": "zone_hlj_wlh_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n        ...\n      \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1014/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0896"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range53",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2626/canvas/p1#xywh=125,316,2200,2575",
+                    "@type": "sc:Canvas",
+                    "label": "zone_j4q_pmw_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "EMIN_zabt_temessük"
+                        }
+                    ],
+                    "text": "\n            hüve\n            Be-her taksit yiğirmi para tekâlif virmek şartıyla kayd olundu\n            Vech-ı tahrīr-i temessük oldur ki\n            İşbu bin iki yüz kırk dört senesinin\n            bulunan Kirşevo mukātaʿasına tābiʿ\n                     ... karyesinde\n               ...\n            tarla ...\n            üç taraf\n            tarīk\n            gardiyān nām mesfūr\n            beʿy-i bāt ... beʿy edüb ol dahi kabūl biz dahi mukātaʿa\n            emīn bulunduğumuz hasebiyle kilisenin rāhiblere tefvīz birle\n            ve yedine işbu zabt-ı temessük virildi\n            Bende ...\n            Şühūdu’l-hāl\n            ʿAbd b ʿAlemdār\n            ... Ağa\n            ...\n            ...\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2626/canvas/p2#xywh=484,1916,333,339",
+                    "@type": "sc:Canvas",
+                    "label": "zone_p3v_rmw_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            ...\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2626/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN2298"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range55",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2405/canvas/p1#xywh=247,182,1982,1676",
+                    "@type": "sc:Canvas",
+                    "label": "zone_zkz_l2h_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "defter"
+                        }
+                    ],
+                    "text": "\n            Defter budur ki ...\n                  mahallesinde kuşāde meyhāneler beyāndır\n            \n            \n            \n            \n            \n            Marya nasrānniye\n            \n            \n            Mahallimizde durmasın(?)\n            \n            Mahallimizden ihrāc olummak mürāsele ve buyuruld-u şerīf vardır\n            \n            \n            \n            \n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2405/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN2076"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range56",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1582/canvas/p1#xywh=150,1221,1743,1736",
+                    "@type": "sc:Canvas",
+                    "label": "zone_hvm_rbv_l3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "EMIN"
+                        }
+                    ],
+                    "text": "\n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1582/canvas/p2#xywh=606,244,1800,500",
+                    "@type": "sc:Canvas",
+                    "label": "zone_pkn_tbv_l3b",
+                    "metadata": []
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/1582/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN0098"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range58",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2729/canvas/p1#xywh=182,118,2036,2836",
+                    "@type": "sc:Canvas",
+                    "label": "zone_rd5_4sw_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "tezkire"
+                        }
+                    ],
+                    "text": "\n            Bāʿis-i terkīm hurūf oldur ki\n            Hālā Kirşevo ber-vech-ı mālikâne ʿuhde ve iltizāmımızda olan Kirşevo mukātaʿasına tābiʿ\n            efrenk kefrlerinin feth hākānīden berü bā-hatt-ı hümāyūn şevketmaklūn terk olunan kilisaları\n            tārīh-ı kitābdan iki sene ile iki ay mukaddem bi-kazā-yı allāh-ı taʿālā muhterek olmağla fetvā-ı şerīfe mūcibince\n            bilā terfīʿ velā tevsīʿ taʿmīr ve tecdīde muhtāc olub muhterek olunan maʿbethāne ve ittisālinde vākiʿ odaları\n            ve matbah puşīdelerinin tecdīd istirhāmyle madīna-i Saray Bosna mollāsı fazīletlü efendi tarafından\n            iʿlām olunmağın iʿlām-ı şerʿī ve fetvā-i münīfe mūciblerince kilisa-i mezbūre nın taʿmīr ve tecdīdine\n            izn-i müşʿir dīvān-ı Bosna'dan buyuruld-ı hātir sādır olub senedāt-ı şerʿ ve buyuruld-ı şerīf mūciblerince\n            bi'l-iltimās işbu tezkire tahrīr ve ilsāldır vusūrunda gerekdir ki senedāt-ı şerʿye ve buyuruld-ı şerīf mūciblerince\n            kilisa-i mezkūr dahi vazʿ-i kadīmī üzere taʿmīr ve tecdīd eylemeler içün işbu tezkire iʿtā olundu\n            Bende-i Mehmed Ağa\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2729/canvas/p3#xywh=383,370,317,288",
+                    "@type": "sc:Canvas",
+                    "label": "zone_th4_rsw_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            ...Mehmed\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2729/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN2401"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range60",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2117/canvas/p1#xywh=250,300,1679,2550",
+                    "@type": "sc:Canvas",
+                    "label": "zone_ykf_k2q_h3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "mürūr_tezkiresi"
+                        }
+                    ],
+                    "text": "\n            Mürūr tezkiresi\n            \n            \n            \n            \n            \n            \n            fī 9 Rebīülevvel sene 1288 sekisen sekiz\n                  senesi\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2117/canvas/p1#xywh=762,2116,346,338",
+                    "@type": "sc:Canvas",
+                    "label": "zone_nq2_42q_h3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            Foyniçe nāhiye\n         \n         "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2117/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN9192"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range62",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2269/canvas/p1#xywh=300,434,1825,2482",
+                    "@type": "sc:Canvas",
+                    "label": "zone_xvp_1nq_h3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "kassām_defteri"
+                        }
+                    ],
+                    "text": "\n            hüve\n            Nefs-i varoş-ı Kirşevo mahālātlarından mahall-i ...\n            bundan akdem mütemekkinlerinden Anton ... nām mürd olup\n            mesfūrun vereseler-i kebīr oğulu Toya ve kızı\n            nasrāniyyesi ... nāmān vereseleri iltimās mürd\n            mesfūrun verese iltimāsyla müstakil olan\n            ... tahrīr verese'l-verese sahhı'l-bākī\n            olanı taksīm olna 1223\n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            ... el-nāib-i Kirşevo\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2269/canvas/p1#xywh=534,2667,292,225",
+                    "@type": "sc:Canvas",
+                    "label": "zone_ukm_bnq_h3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            \n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2269/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN9345"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range64",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2516/canvas/p1#xywh=460,133,1500,1933",
+                    "@type": "sc:Canvas",
+                    "label": "zone_nnf_w2w_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "unknown"
+                        }
+                    ],
+                    "text": "\n            Gebrān-ı Kirşevo'da matlūb olunacak akçe beyānıdır\n            Meblāğ 50412\n            18000 Minhā el-teslīmāt-ı nukūd\n            32412 Havāle ʿan İsteban'nın ve Toru'nın\n            9200\n            22812 Veroş-ı Kirşevo'dan nukūd taleb oluna\n            17000\n            5812 Havāle ʿan Kara İbrahīm Ağa\n            3892\n            1920 Kato'dan taleb oluna           \n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2516/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN2188"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range65",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2120/canvas/p1#xywh=366,78,1156,3033",
+                    "@type": "sc:Canvas",
+                    "label": "zone_gdn_lhq_h3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "fetvā"
+                        }
+                    ],
+                    "text": "            \n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2120/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN9195"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range66",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2502/canvas/p1#xywh=436,163,1300,2937",
+                    "@type": "sc:Canvas",
+                    "label": "zone_imz_z13_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "Kassām_defteri"
+                        }
+                    ],
+                    "text": "\n            ... fī 9 Ra sene 245\n         \n         "
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2502/canvas/p1#xywh=859,195,215,171",
+                    "@type": "sc:Canvas",
+                    "label": "zone_erm_bb3_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "stamp"
+                        }
+                    ],
+                    "text": "\n            Mustafa ʿĀyed\n         \n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2502/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN2174"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/saji/data/curation.json/range68",
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/2691/canvas/p1#xywh=300,646,1900,1407",
+                    "@type": "sc:Canvas",
+                    "label": "zone_fyr_dsw_j3b",
+                    "metadata": [
+                        {
+                            "label": "Type",
+                            "value": "note"
+                        }
+                    ],
+                    "text": "\n      "
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/public/phr2/iiif/2691/manifest",
+                "@type": "sc:Manifest",
+                "label": "DSCN2363"
+            }
+        }
+    ]
+}
+>>>>>>> 7b79646ccf66314e6aab20acce5ba7f90473e158
