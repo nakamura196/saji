@@ -63,8 +63,8 @@ for i in range(len(files)):
     text = text.strip()
     if len(text) > 0:
         g.add((subject, URIRef("http://purl.org/dc/terms/description"), Literal(text)))
-
-    tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"/")[1]
+          
+    tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"\\")[1]
     g.add((subject, URIRef("http://purl.org/dc/terms/relation"),
            URIRef("https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url="+tei_url)))
 
