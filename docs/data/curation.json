@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-{
-    "@context": [
-        "http://iiif.io/api/presentation/2/context.json",
-        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
-    ],
-    "@id": "https://nakamura196.github.io/saji/data/curation.json",
-    "@type": "cr:Curation",
-    "label": "Automatic curation by TEI",
-    "selections": [
-        {
-            "@id": "https://nakamura196.github.io/saji/data/curation.json/range1",
-            "@type": "sc:Range",
-            "label": "Automatic curation by TEI",
-            "members": [
-                {
-                    "@id": "https://diyhistory.org/public/phr2/iiif/2117/canvas/p1#xywh=250,300,1679,2550",
-                    "@type": "sc:Canvas",
-                    "label": "zone_ykf_k2q_h3b",
-                    "metadata": [
-                        {
-                            "label": "Type",
-                            "value": 
-=======
 {
     "@context": [
         "http://iiif.io/api/presentation/2/context.json",
@@ -1188,4 +1164,3 @@
         }
     ]
 }
->>>>>>> 7b79646ccf66314e6aab20acce5ba7f90473e158
