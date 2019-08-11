@@ -62,10 +62,16 @@ for i in range(len(files)):
         for i in range(len(notes)):
             note = notes[i]
 
-            value = note.get("type") + ": " +note.text 
+            if note.text:
 
-            g.add((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/note"),
-                Literal(value)))
+                type = ""
+                if note.get("type"):
+                    type = note.get("type")+": "
+
+                value = type + note.text 
+
+                g.add((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/note"),
+                    Literal(value)))
 
     title = file.split("/")[-1].split(".")[0]
     g.add((subject, URIRef("http://purl.org/dc/terms/title"), Literal(title)))
@@ -76,6 +82,7 @@ for i in range(len(files)):
         g.add((subject, URIRef("http://purl.org/dc/terms/description"), Literal(text)))
           
     tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"\\")[1]
+    # tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"/")[1]
     g.add((subject, URIRef("http://purl.org/dc/terms/relation"),
            URIRef("https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url="+tei_url)))
 
