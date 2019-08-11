@@ -65,7 +65,7 @@ for i in range(len(files)):
             value = note.get("type") + ": " +note.text 
 
             g.add((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/note"),
-                Literal(value))
+                Literal(value)))
 
     title = file.split("/")[-1].split(".")[0]
     g.add((subject, URIRef("http://purl.org/dc/terms/title"), Literal(title)))
