@@ -56,6 +56,17 @@ for i in range(len(files)):
             g.add((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type"),
                 Literal(div.get("type"))))
 
+    notesStmt = root.find(prefix+"notesStmt")
+    if notesStmt != None:
+        notes = notesStmt.findall(prefix+"note")
+        for i in range(len(notes)):
+            note = notes[i]
+
+            value = note.get("type") + ": " +note.text 
+
+            g.add((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/note"),
+                Literal(value))
+
     title = file.split("/")[-1].split(".")[0]
     g.add((subject, URIRef("http://purl.org/dc/terms/title"), Literal(title)))
 
