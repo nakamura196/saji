@@ -17,22 +17,24 @@
           "クレシェヴォのスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "8" ], "saji:memo": [
           "本文横に3名(?)の証人の名前：\"Şuhūdu'l-ḥāl\"" ], "saji:number": [ "309" ],
           "saji:relationWithAnotherItems": [ "DSCN0896.JPG_表", "表全体像" ], "saji:stamp_c": [ "1" ],
-          "saji:transcription": [ "Vech taḥrīr ḥurūf oldur ki\nİşbu biñ(?) iki yüz iki senesinde ..." ], "saji:type": [ "hüccet" ] }</p>
+          "saji:transcription": [ "Vech taḥrīr ḥurūf oldur ki\nİşbu biñ(?) iki yüz iki senesinde
+          ..." ], "saji:type": [ "hüccet" ] }</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <facsimile>
     <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1014/manifest">
       <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1014/canvas/p1"
-          url="https://diyhistory.org/public/phr2/files/original/2f00d5bd92d777d0f849b4163905dfcf1fad1674.jpg"/>
-        <zone lrx="1661" lry="2350" ulx="205" uly="1177" xml:id="zone_nxl_t34_c3b"/>
-        <zone lrx="2058" lry="2841" ulx="1500" uly="2358" xml:id="zone_ogx_wdt_g3b"/>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/2f00d5bd92d777d0f849b4163905dfcf1fad1674.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1014/canvas/p1"/>
+        <zone xml:id="zone_nxl_t34_c3b" lry="2841" lrx="2041" uly="150" ulx="212"/>
       </surface>
       <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1014/canvas/p2"
+        <graphic
           url="https://diyhistory.org/public/phr2/files/original/3f6760a591f7c265b12d65cc0daad9efeef3beb4.jpg"
-        />
+          n="https://diyhistory.org/public/phr2/iiif/1014/canvas/p2"/>
+        <zone xml:id="zone_pwq_xj3_x3b" lry="1427" lrx="3145" uly="777" ulx="100"/>
       </surface>
       <surface>
         <graphic
@@ -64,17 +66,19 @@
         <l>ve ṭaraf-ı āḫardan bir kimesne mānʿī olmaya ve müzāḥim olmayalar taḥrīr fī <date
             cert="medium" when-custom="1202-03-21">21 Ra(?) 1202</date></l>
         <l>Ḳirşevo emīni <persName cert="low" role="Ḳirşevo emīni">Aḥmad ...</persName></l>
-      </div>
-      <div facs="#zone_ogx_wdt_g3b">
-        <l>Şüḥūdu’l-ḥāl</l>
-        <l><persName>el-Ḥāci Müderres Efendi</persName></l>
-        <l><persName>Nuvābīẕāde Süleyman Ağa</persName></l>
-        <l><persName>Breāder-i ʿAṭāllāh Ağa</persName></l>
+        <div type="Şüḥūdu’l-ḥāl">
+          <l>Şüḥūdu’l-ḥāl</l>
+          <l><persName>el-Ḥāci Müderres Efendi</persName></l>
+          <l><persName>Nuvābīẕāde Süleyman Ağa</persName></l>
+          <l><persName>Breāder-i ʿAṭāllāh Ağa</persName></l>
+        </div>
       </div>
       <div type="stamp" facs="#zone_hlj_wlh_j3b">
         <l cert="unknown">...</l>
       </div>
-      <div type="summary_Serbian"></div>
+      <div type="summary_Serbian" facs="#zone_pwq_xj3_x3b">
+        <l><date when="1788-06-27">27 Juna 1788</date> ...</l>
+      </div>
     </body>
   </text>
 </TEI>

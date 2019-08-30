@@ -1,91 +1,48 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0895</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:date_H": [
-    "1216-C-25"
-  ],
-  "saji:date_M": [
-    "1801-11-02"
-  ],
-  "saji:foldingMethod": [
-    "8"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:huve": [
-    "1"
-  ],
-  "saji:item": [
-    "\"hüve\"",
-    "本文",
-    "証人",
-    "オスマン朝スタンプ",
-    "クレシェヴォのスタンプ"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "20"
-  ],
-  "saji:memo": [
-    "冒頭左上に、特徴的な形をした4行の定型文",
-    "最後に、5名(?)の証人の名前：\"Şuhūdu'l-ḥāl\"",
-    "DSCN0886.JPGと外見上良く似ている",
-    "\"meclis\"が読み取れるので、シャリーア法廷記録に関係するもの？"
-  ],
-  "saji:number": [
-    "284"
-  ],
-  "saji:openingPhrase": [
-    "Madīna-i Saray Bosna'da"
-  ],
-  "saji:placeFull": [
-    "Foniça nāḥiyesi"
-  ],
-  "saji:relationWithAnotherItems": [
-    "DSCN0895.JPG_表",
-    "表全体像"
-  ],
-  "saji:stamp_c": [
-    "1"
-  ],
-  "saji:stamp_o": [
-    "1"
-  ],
-  "saji:transcription": [
-    "Madīna-i Saray Bosna'da ... Kātib maḥllesi ... Ṭuzlu Oğlu dimekle maʿrūf Yuvan veled-i ... nām ẕimmī meclis-i şerʿ... madīna-i mezbūrde ḳażāsı mużāfā ... Foniçe nāḥiyesine tābiʿ kuruş(?) ve ḳaṣabasında vāḳiʿ ... "
-  ],
-  "saji:type": [
-    "hüccet"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1013/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1013/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5a19bf171bb74a0e42daf7ceecc9ff305e5681bb.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="hüccet"></div>
-        <div type="stamp"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0895</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1216-C-25" ], "saji:date_M": [ "1801-11-02" ], "saji:foldingMethod": [ "8" ],
+          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "\"hüve\"", "本文", "証人",
+          "オスマン朝スタンプ", "クレシェヴォのスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "20" ],
+          "saji:memo": [ "冒頭左上に、特徴的な形をした4行の定型文", "最後に、5名(?)の証人の名前：\"Şuhūdu'l-ḥāl\"",
+          "DSCN0886.JPGと外見上良く似ている", "\"meclis\"が読み取れるので、シャリーア法廷記録に関係するもの？" ], "saji:number": [ "284"
+          ], "saji:openingPhrase": [ "Madīna-i Saray Bosna'da" ], "saji:placeFull": [ "Foniça
+          nāḥiyesi" ], "saji:relationWithAnotherItems": [ "DSCN0895.JPG_表", "表全体像" ],
+          "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "1" ], "saji:transcription": [ "Madīna-i Saray
+          Bosna'da ... Kātib maḥllesi ... Ṭuzlu Oğlu dimekle maʿrūf Yuvan veled-i ... nām ẕimmī
+          meclis-i şerʿ... madīna-i mezbūrde ḳażāsı mużāfā ... Foniçe nāḥiyesine tābiʿ kuruş(?) ve
+          ḳaṣabasında vāḳiʿ ... " ], "saji:type": [ "hüccet" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1013/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/5a19bf171bb74a0e42daf7ceecc9ff305e5681bb.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1013/canvas/p1"/>
+        <zone xml:id="zone_b15_sc3_x3b" lry="3079" lrx="1397" uly="33" ulx="665"/>
+        <zone xml:id="zone_m4r_5c3_x3b" lry="1243" lrx="966" uly="1160" ulx="857"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="hüccet" facs="#zone_b15_sc3_x3b">
+        <l>... <date when-custom="1216-06-25">fi'l-yevmi'l-hāmis ve el-ʿöşrīn min Cemaziye'l-ahir</date></l>
+        <l>sene sitte ʿöşr ve miyatein ve elif</l>
+        <div type="stamp" facs="#zone_m4r_5c3_x3b">
+          <l>...</l>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
