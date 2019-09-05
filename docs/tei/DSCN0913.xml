@@ -1,76 +1,50 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0913</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:date_H": [
-    "(12)63-N-22"
-  ],
-  "saji:date_M": [
-    "1847-09-03"
-  ],
-  "saji:foldingMethod": [
-    "8×2"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:item": [
-    "本文"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "8"
-  ],
-  "saji:memo": [
-    "日付：下二桁しか記されていないが、100の位が偶数の場合省略する慣習(çift yüzyıl)があるので、ヒジュラ暦1200年代であると判断した。また月は「N」と読めるので、Ramazanとして処理したが要検討。",
-    "典型"
-  ],
-  "saji:number": [
-    "n/a"
-  ],
-  "saji:openingPhrase": [
-    "Devletlü efendim ḫażretleri"
-  ],
-  "saji:placeFull": [
-    "Bosna"
-  ],
-  "saji:relationWithAnotherItems": [
-    "DSCN0913.JPG_表",
-    "表全体像"
-  ],
-  "saji:transcription": [
-    "Devletlü efendim ḫażretleri\r\n\r\nBosna'da bulnan ... papaslar  ... bir ḳaç"
-  ],
-  "saji:type": [
-    "ḳā'ime",
-    "地方から中央へ送られる文書なので、地方には残らないはず。写しの可能性。"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1031/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1031/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/71f57f16ffa12811efe428a7da377f3d04a4de94.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1031/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/635b97f260639a75d7a1367c84afa00f25394aa3.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="kā'ime"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0913</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "(12)63-N-22" ], "saji:date_M": [ "1847-09-03" ], "saji:foldingMethod": [ "8×2" ],
+          "saji:fond": [ "Tursko 1" ], "saji:item": [ "本文" ], "saji:lang": [ "ota" ],
+          "saji:lineage": [ "8" ], "saji:memo": [ "日付：下二桁しか記されていないが、100の位が偶数の場合省略する慣習(çift
+          yüzyıl)があるので、ヒジュラ暦1200年代であると判断した。また月は「N」と読めるので、Ramazanとして処理したが要検討。", "典型" ],
+          "saji:number": [ "n/a" ], "saji:openingPhrase": [ "Devletlü efendim ḫażretleri" ],
+          "saji:placeFull": [ "Bosna" ], "saji:relationWithAnotherItems": [ "DSCN0913.JPG_表", "表全体像"
+          ], "saji:transcription": [ "Devletlü efendim ḫażretleri\r\n\r\nBosna'da bulnan ...
+          papaslar ... bir ḳaç" ], "saji:type": [ "ḳā'ime", "地方から中央へ送られる文書なので、地方には残らないはず。写しの可能性。" ]
+          }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1031/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/71f57f16ffa12811efe428a7da377f3d04a4de94.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1031/canvas/p1"/>
+        <zone xml:id="zone_bq2_f4y_y3b" lry="2725" lrx="1675" uly="166" ulx="342"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/635b97f260639a75d7a1367c84afa00f25394aa3.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1031/canvas/p2"/>
+        <zone xml:id="zone_kxy_g4y_y3b" lry="1820" lrx="1633" uly="1671" ulx="850"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="kā'ime" facs="#zone_bq2_f4y_y3b">
+        <l>... fī <date when-custom="1264-03-22" cert="low">22 Ra 64</date></l>
+      </div>
+      <div type="kā'ime" cert="unknown" facs="#zone_kxy_g4y_y3b">
+        <l>Ve mektūb ...</l>
+      </div>
+    </body>
+  </text>
 </TEI>

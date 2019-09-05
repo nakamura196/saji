@@ -1,84 +1,53 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0916</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa/Dīvānī"
-  ],
-  "saji:date_H": [
-    "1175-R-13"
-  ],
-  "saji:date_M": [
-    "1762-01-09"
-  ],
-  "saji:foldingMethod": [
-    "6"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:item": [
-    "定型文(?)",
-    "オスマン朝スタンプ",
-    "本文",
-    "証人",
-    "クレシェヴォのスタンプ"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "25"
-  ],
-  "saji:memo": [
-    "最後に、？名の証人の名前：\"Şuhūdu'l-ḥāl\"",
-    "日付：裏面のボスニア語梗概では、「1760年」と読んでいるようだが、本文中の年代は「1762(1175)年」と読めるのでそちらを採用した。"
-  ],
-  "saji:nameFull": [
-    "・Mevlānā Meḥmed Efendi ibn Aḥmad Efendi"
-  ],
-  "saji:number": [
-    "217/214"
-  ],
-  "saji:relationWithAnotherItems": [
-    "DSCN0916.JPG_表",
-    "表全体像"
-  ],
-  "saji:stamp_c": [
-    "1"
-  ],
-  "saji:stamp_o": [
-    "1"
-  ],
-  "saji:transcription": [
-    "...\n... şerʿ-i ... Mevlānā Meḥmed Efendi ibn Aḥmad Efendi\n... olunub"
-  ],
-  "saji:type": [
-    "hüccet(?)"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1034/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1034/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9bb0faaec5fc2ae9981a3e8eef6977b07fae77d3.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1034/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fdbc3f94a68e64b7cacaf0a910b9388220741bc6.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="hüccet"></div>
-        <div type="stamp"></div>
-        <div type="summary_Serbian"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0916</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa/Dīvānī" ], "saji:date_H":
+          [ "1175-R-13" ], "saji:date_M": [ "1762-01-09" ], "saji:foldingMethod": [ "6" ],
+          "saji:fond": [ "Tursko 1" ], "saji:item": [ "定型文(?)", "オスマン朝スタンプ", "本文", "証人",
+          "クレシェヴォのスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "25" ], "saji:memo": [
+          "最後に、？名の証人の名前：\"Şuhūdu'l-ḥāl\"",
+          "日付：裏面のボスニア語梗概では、「1760年」と読んでいるようだが、本文中の年代は「1762(1175)年」と読めるのでそちらを採用した。" ],
+          "saji:nameFull": [ "・Mevlānā Meḥmed Efendi ibn Aḥmad Efendi" ], "saji:number": [ "217/214"
+          ], "saji:relationWithAnotherItems": [ "DSCN0916.JPG_表", "表全体像" ], "saji:stamp_c": [ "1" ],
+          "saji:stamp_o": [ "1" ], "saji:transcription": [ "...\n... şerʿ-i ... Mevlānā Meḥmed
+          Efendi ibn Aḥmad Efendi\n... olunub" ], "saji:type": [ "hüccet(?)" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1034/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/9bb0faaec5fc2ae9981a3e8eef6977b07fae77d3.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1034/canvas/p1"/>
+        <zone xml:id="zone_t2z_pry_y3b" lry="3130" lrx="1508" uly="700" ulx="531"/>
+        <zone xml:id="zone_rmd_sry_y3b" lry="1117" lrx="1023" uly="988" ulx="870"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/fdbc3f94a68e64b7cacaf0a910b9388220741bc6.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1034/canvas/p2"/>
+        <zone xml:id="zone_r5z_try_y3b" lry="2983" lrx="1617" uly="-8" ulx="1183"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="hüccet" facs="#zone_t2z_pry_y3b">
+        <l>... <date when-custom="117?-04-13">fi'l-yevmi'l-sālis ʿaşar min Rebīʿ'l-āhir</date></l>
+        <l>sene ... sabʿīn ve miye ve elif</l>
+        <div type="stamp" facs="#zone_rmd_sry_y3b"></div>
+      </div>     
+      <div type="summary_Serbian">
+        <l>... <date>1760</date></l>
+      </div>
+    </body>
+  </text>
 </TEI>

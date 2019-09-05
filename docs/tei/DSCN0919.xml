@@ -1,50 +1,43 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0919</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:foldingMethod": [
-    "4x2"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:from": [
-    "emin"
-  ],
-  "saji:lineage": [
-    "8"
-  ],
-  "saji:memo": [
-    "典型"
-  ],
-  "saji:type": [
-    "mektūb"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1037/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1037/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/280214c2b6cfe5bb112f963cb7a36776cdbfd50b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1037/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8f332ea79b32262250342335c5ea6f2ba9f73538.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="EMIN_mektūb" cert="medium"></div>
-        <div type="summary_Serbian"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0919</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod":
+          [ "4x2" ], "saji:fond": [ "Tursko 1" ], "saji:from": [ "emin" ], "saji:lineage": [ "8" ],
+          "saji:memo": [ "典型" ], "saji:type": [ "mektūb" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1037/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/280214c2b6cfe5bb112f963cb7a36776cdbfd50b.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1037/canvas/p1"/>
+        <zone xml:id="zone_xdt_5ty_y3b" lry="2612" lrx="1891" uly="1508" ulx="129"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/8f332ea79b32262250342335c5ea6f2ba9f73538.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1037/canvas/p2"/>
+        <zone xml:id="zone_t13_wty_y3b" lry="1350" lrx="2923" uly="944" ulx="78"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="EMIN_mektūb" cert="medium" facs="#zone_xdt_5ty_y3b">
+        <l>... fī <date when-custom="1199-04-08">8 Rebīʿ'l-āhir sene 1199</date></l>
+      </div>
+      <div type="summary_Serbian" facs="#zone_t13_wty_y3b">
+        <l>... <date>1785</date></l>
+      </div>
+    </body>
+  </text>
 </TEI>
