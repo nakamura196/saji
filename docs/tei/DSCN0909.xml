@@ -1,83 +1,68 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0909</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:foldingMethod": [
-    "8×2"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:huve": [
-    "1"
-  ],
-  "saji:item": [
-    "\"hüve\"",
-    "オスマン朝スタンプ1",
-    "本文1",
-    "オスマン朝印紙",
-    "会計",
-    "本文2",
-    "オスマン朝スタンプ2"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "5-N1-5"
-  ],
-  "saji:memo": [
-    "料紙：透かし",
-    "オスマン朝スタンプ、印紙、文字の様子から、新しい文書のように見える",
-    "縦に2つ折りした料紙の右半分のみに記述している",
-    "典型"
-  ],
-  "saji:number": [
-    "2"
-  ],
-  "saji:openingPhrase": [
-    "Madīna-i Saray ḳażāsına"
-  ],
-  "saji:placeFull": [
-    "Madīna-i Saray ḳażāsına ... Foyniçe ḳażā ... Kreşevo"
-  ],
-  "saji:relationWithAnotherItems": [
-    "DSCN0909.JPG_表",
-    "表全体像"
-  ],
-  "saji:stamp_o": [
-    "2"
-  ],
-  "saji:type": [
-    "ḳassām deftrei"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1027/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1027/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/34686d295964e9dfa4d8c411f483efc21e30f505.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1027/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/96e751c7690ae5592a17ba243974d6099dd5cbd3.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1027/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/c2bb29f55fb2183fb717d93e5f090c94d53d732d.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1027/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/54c2b4b39d572770ec799bf08ebcb7b78ec934c7.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="kassām_deftrei"></div>
-        <div type="stamp"></div>
-        <div type="stamp"></div>
-        <div type="stamp"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0909</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod":
+          [ "8×2" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "\"hüve\"",
+          "オスマン朝スタンプ1", "本文1", "オスマン朝印紙", "会計", "本文2", "オスマン朝スタンプ2" ], "saji:lang": [ "ota" ],
+          "saji:lineage": [ "5-N1-5" ], "saji:memo": [ "料紙：透かし",
+          "オスマン朝スタンプ、印紙、文字の様子から、新しい文書のように見える", "縦に2つ折りした料紙の右半分のみに記述している", "典型" ], "saji:number": [
+          "2" ], "saji:openingPhrase": [ "Madīna-i Saray ḳażāsına" ], "saji:placeFull": [ "Madīna-i
+          Saray ḳażāsına ... Foyniçe ḳażā ... Kreşevo" ], "saji:relationWithAnotherItems": [
+          "DSCN0909.JPG_表", "表全体像" ], "saji:stamp_o": [ "2" ], "saji:type": [ "ḳassām deftrei" ]
+          }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1027/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/34686d295964e9dfa4d8c411f483efc21e30f505.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1027/canvas/p1"/>
+        <zone xml:id="zone_vsy_2ly_y3b" lry="3120" lrx="2160" uly="90" ulx="1020"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/96e751c7690ae5592a17ba243974d6099dd5cbd3.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1027/canvas/p2"/>
+        <zone xml:id="zone_kr5_hly_y3b" lry="445" lrx="1446" uly="134" ulx="1087"/>
+        <zone xml:id="zone_mkn_3ly_y3b" lry="2075" lrx="991" uly="1695" ulx="700"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/c2bb29f55fb2183fb717d93e5f090c94d53d732d.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1027/canvas/p3"/>
+        <zone xml:id="zone_pzl_kly_y3b" lry="3120" lrx="1558" uly="2979" ulx="1387"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/54c2b4b39d572770ec799bf08ebcb7b78ec934c7.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1027/canvas/p4"/>
+        <zone xml:id="zone_f1h_mly_y3b" lry="1770" lrx="1975" uly="1180" ulx="1220"/>
+        <zone xml:id="zone_pyv_mly_y3b" lry="1758" lrx="1708" uly="1558" ulx="1471"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="kassām_deftrei" facs="#zone_vsy_2ly_y3b">
+        <l>... <date when-custom="129?-04-22" cert="unknown">fi'l-yevmi'l-sānī ve'l-ʿaşrīn ve ... Rebīʿl-āhir sene ... ve tisʿīn ve miyetein</date></l>
+        <l>ve elif</l>
+        <div type="stamp" facs="#zone_kr5_hly_y3b"/>
+        <div type="stamp" facs="#zone_mkn_3ly_y3b"/>
+        <div type="stamp" facs="#zone_pzl_kly_y3b"/>             
+      </div>
+      <div type="kassām_deftrei" cert="low" facs="#zone_f1h_mly_y3b">
+        <l>fī <date when-custom="1294--21" cert="unknown">21 ... 294</date></l>
+        <div type="stamp" facs="#zone_pyv_mly_y3b"></div>
+      </div>      
+    </body>
+  </text>
 </TEI>
