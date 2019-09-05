@@ -1,94 +1,60 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0953</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-        <notesStmt>
-          <note type="mine">赤字部分の記述からtasdīkの可能性がある</note>
-        </notesStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:date_H": [
-    "1270-N-21"
-  ],
-  "saji:date_M": [
-    "1854-06-17"
-  ],
-  "saji:foldingMethod": [
-    "7x1"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:huve": [
-    "0"
-  ],
-  "saji:item": [
-    "・定型文1\r\n・オスマン朝スタンプ\r\n・定型文2\r\n・本文\r\n・日付\r\n・証人\r\n・添え書き（朱書き）"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "17+4"
-  ],
-  "saji:memo": [
-    "・非常に読みやすい、はっきりした文字で書かれている。他の同タイプ文書を読み解く際に参考になる。",
-    "典型"
-  ],
-  "saji:nameFull": [
-    "ʿAbdül... bun Meḥmed ..."
-  ],
-  "saji:number": [
-    "28"
-  ],
-  "saji:placeFull": [
-    "Madīna-i Saraybosna ḳażāsına ... Foynçe nāḥiyesine tābiʿ varoş Kraşova"
-  ],
-  "saji:placeSimple": [
-    "Madīna-i Saraybosna ḳażā",
-    "Foynçe nāḥiyesi",
-    "varoş Kraşova"
-  ],
-  "saji:relationWithAnotherItems": [
-    "表全体像"
-  ],
-  "saji:stamp_c": [
-    "0"
-  ],
-  "saji:stamp_o": [
-    "1"
-  ],
-  "saji:transcription": [
-    "Madīna-i Saraybosna ḳażāsına ... Foynçe nāḥiyesine tābiʿ varoş Kraşova'dan ...\r\nḳaryede ... ʿAbdül... bun Meḥmed ... nām kimesne meclis-i şerʿ ..."
-  ],
-  "saji:witness": [
-    "3"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1069/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1069/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e1dfcab25a396e8cc0ee63fd0c82d78d92035ea7.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1069/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e8c041c22db1b0406dfb48f3a8d9a6f50005b7c7.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="hüccet"></div>
-        <div type="tasdīk" cert="low"></div>
-        <div type="stamp"></div>
-        <div type="summary_Croatian"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0953</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">赤字部分の記述からtasdīkの可能性がある</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1270-N-21" ], "saji:date_M": [ "1854-06-17" ], "saji:foldingMethod": [ "7x1" ],
+          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
+          "・定型文1\r\n・オスマン朝スタンプ\r\n・定型文2\r\n・本文\r\n・日付\r\n・証人\r\n・添え書き（朱書き）" ], "saji:lang": [ "ota"
+          ], "saji:lineage": [ "17+4" ], "saji:memo": [
+          "・非常に読みやすい、はっきりした文字で書かれている。他の同タイプ文書を読み解く際に参考になる。", "典型" ], "saji:nameFull": [ "ʿAbdül...
+          bun Meḥmed ..." ], "saji:number": [ "28" ], "saji:placeFull": [ "Madīna-i Saraybosna
+          ḳażāsına ... Foynçe nāḥiyesine tābiʿ varoş Kraşova" ], "saji:placeSimple": [ "Madīna-i
+          Saraybosna ḳażā", "Foynçe nāḥiyesi", "varoş Kraşova" ], "saji:relationWithAnotherItems": [
+          "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "1" ], "saji:transcription": [
+          "Madīna-i Saraybosna ḳażāsına ... Foynçe nāḥiyesine tābiʿ varoş Kraşova'dan ...\r\nḳaryede
+          ... ʿAbdül... bun Meḥmed ... nām kimesne meclis-i şerʿ ..." ], "saji:witness": [ "3" ]
+          }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1069/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/e1dfcab25a396e8cc0ee63fd0c82d78d92035ea7.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1069/canvas/p1"/>
+        <zone xml:id="zone_uhb_14z_y3b" lry="3158" lrx="1600" uly="152" ulx="483"/>
+        <zone xml:id="zone_jck_b4z_y3b" lry="633" lrx="1089" uly="517" ulx="952"/>
+        <zone xml:id="zone_xss_d4z_y3b" lry="2966" lrx="1814" uly="2612" ulx="1573"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/e8c041c22db1b0406dfb48f3a8d9a6f50005b7c7.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1069/canvas/p2"/>
+        <zone xml:id="zone_zn4_f4z_y3b" lry="1383" lrx="2395" uly="994" ulx="228"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="hüccet" facs="#zone_uhb_14z_y3b">
+        <l>... <date when-custom="1270-09-11">fi'l-yevmi'l-hādī ve'l-ʿaşar min şehr Ramazāni'l-mubārek</date></l>
+        <l>sene sabʿīn ve miyetein ve elif</l>
+        <div type="stamp" facs="#zone_jck_b4z_y3b"></div>
+      </div>
+      <div type="tasdīk" cert="low" facs="#zone_xss_d4z_y3b"></div>
+      <div type="summary_Croatian" facs="#zone_zn4_f4z_y3b">
+      </div>
+    </body>
+  </text>
 </TEI>

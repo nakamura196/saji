@@ -1,75 +1,56 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0961</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:date_H": [
-    "1233-Ca-10(?)"
-  ],
-  "saji:date_M": [
-    "1818-03-18"
-  ],
-  "saji:foldingMethod": [
-    "5x1"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:huve": [
-    "1"
-  ],
-  "saji:item": [
-    "・hüve\r\n・本文\r\n・日付\r\n・はしがき（証人？）\r\n・不明なスタンプ"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "14"
-  ],
-  "saji:number": [
-    "48"
-  ],
-  "saji:relationWithAnotherItems": [
-    "表全体像"
-  ],
-  "saji:stamp_c": [
-    "0"
-  ],
-  "saji:stamp_o": [
-    "0"
-  ],
-  "saji:witness": [
-    "?"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1077/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1077/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/867a9adab00b5fad24e818490d71af9e0a426670.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1077/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/61f478f1b206f9b44572f5d5da0a9ee089ab7c8b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1077/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/9f762a8b3227eeb1cf86335b8433f18f8f843209.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="EMIN" cert="unknown"></div>
-        <div type="stamp_sūret"></div>
-        <div type="summary_Croatian">
-          <l>... <date>1819</date>. <date when-custom="1233">1233</date>.</l>
-          <l>Nno 5.</l>
-        </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0961</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1233-Ca-10(?)" ], "saji:date_M": [ "1818-03-18" ], "saji:foldingMethod": [ "5x1" ],
+          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [
+          "・hüve\r\n・本文\r\n・日付\r\n・はしがき（証人？）\r\n・不明なスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage":
+          [ "14" ], "saji:number": [ "48" ], "saji:relationWithAnotherItems": [ "表全体像" ],
+          "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "?" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1077/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/867a9adab00b5fad24e818490d71af9e0a426670.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1077/canvas/p1"/>
+        <zone xml:id="zone_rsg_lrz_y3b" lry="2836" lrx="1982" uly="72" ulx="191"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/61f478f1b206f9b44572f5d5da0a9ee089ab7c8b.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1077/canvas/p2"/>
+        <zone xml:id="zone_uls_nrz_y3b" lry="1238" lrx="2873" uly="777" ulx="100"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/9f762a8b3227eeb1cf86335b8433f18f8f843209.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1077/canvas/p3"/>
+        <zone xml:id="zone_uns_prz_y3b" lry="2316" lrx="1754" uly="2062" ulx="1471"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="EMIN" cert="unknown" facs="#zone_rsg_lrz_y3b">
+        <l>... <date when-custom="1233-05-10">10 Ca 1233</date></l>
+      </div>
+      <div type="stamp_sūret" facs="#zone_uns_prz_y3b">
+        <l>Hodābend ...</l>
+      </div>
+      <div type="summary_Croatian" facs="#zone_uls_nrz_y3b">
+        <l>... <date when="1819">1819</date>. <date when-custom="1233">1233</date>.</l>
+        <l>Nno 5.</l>
+      </div>
+    </body>
+  </text>
 </TEI>

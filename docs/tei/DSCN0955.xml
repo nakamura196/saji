@@ -1,85 +1,78 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0955</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-        <notesStmt>
-          <note type="mine">hüccetに2人作成者がいるパターン：①ナーヒエのナーイブ（発行者、権力がない）②ボスナのカーディー（tasdīkしている）</note>
-          <note type="mine">書き出し：出張裁判のパターン</note>
-        </notesStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "E"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:date_H": [
-    "1271-M-09(?)"
-  ],
-  "saji:date_M": [
-    "1854-10-02"
-  ],
-  "saji:foldingMethod": [
-    "10x1"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:huve": [
-    "0"
-  ],
-  "saji:item": [
-    "・透かし\r\n・定型1\r\n・定型2\r\n・定型3\r\n・定型4\r\n・オスマン朝スタンプ1\r\n・オスマン朝スタンプ2\r\n・本文\r\n・証人"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "33"
-  ],
-  "saji:memo": [
-    "・内容はḥüccet形式だが、料紙が通常のタイプAより非常に大きく見えたので、これをタイプEとした。",
-    "典型"
-  ],
-  "saji:number": [
-    "151"
-  ],
-  "saji:openingPhrase": [
-    "出張裁判のパターン"
-  ],
-  "saji:relationWithAnotherItems": [
-    "表全体像"
-  ],
-  "saji:stamp_c": [
-    "0"
-  ],
-  "saji:stamp_o": [
-    "2"
-  ],
-  "saji:witness": [
-    "5"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1071/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7c6955d30de974349d3e9182285cea935518d412.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9bbd9c1791fd4112e5399987c1461c9c5735e1d8.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/b0608b04ff3a14836dadbd85e00f2d5ccba58e93.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/2f84b80a198c5e839c79d7fe76fe6d466fac68d3.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/3b61b59e01adbb23b5210a541e6b6594f70728b4.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/f1d07b248e4e8bf6065603f2c1a05b436b11cb56.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="hüccet"></div>
-        <div type="tasdīk"></div>
-        <div type="stamp"></div>
-        <div type="stamp"></div>
-        <div type="summary_Croatian"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0955</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">hüccetに2人作成者がいるパターン：①ナーヒエのナーイブ（発行者、権力がない）②ボスナのカーディー（tasdīkしている）</note>
+        <note type="mine">書き出し：出張裁判のパターン</note>
+        <note type="mine">日付：9日かどうか、要確認。tisʿには見えない？</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "E" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1271-M-09(?)" ], "saji:date_M": [ "1854-10-02" ], "saji:foldingMethod": [ "10x1" ],
+          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
+          "・透かし\r\n・定型1\r\n・定型2\r\n・定型3\r\n・定型4\r\n・オスマン朝スタンプ1\r\n・オスマン朝スタンプ2\r\n・本文\r\n・証人" ],
+          "saji:lang": [ "ota" ], "saji:lineage": [ "33" ], "saji:memo": [
+          "・内容はḥüccet形式だが、料紙が通常のタイプAより非常に大きく見えたので、これをタイプEとした。", "典型" ], "saji:number": [ "151" ],
+          "saji:openingPhrase": [ "出張裁判のパターン" ], "saji:relationWithAnotherItems": [ "表全体像" ],
+          "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "2" ], "saji:witness": [ "5" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1071/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/7c6955d30de974349d3e9182285cea935518d412.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p1"/>
+        <zone xml:id="zone_ez5_jpz_y3b" lry="3036" lrx="1691" uly="9" ulx="745"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p2"
+          url="https://diyhistory.org/public/phr2/files/original/9bbd9c1791fd4112e5399987c1461c9c5735e1d8.jpg"
+        />
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/b0608b04ff3a14836dadbd85e00f2d5ccba58e93.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p3"/>
+        <zone xml:id="zone_drl_4pz_y3b" lry="1516" lrx="1584" uly="1322" ulx="1359"/>
+        <zone xml:id="zone_vbr_ppz_y3b" lry="1540" lrx="2564" uly="1369" ulx="2382"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p4"
+          url="https://diyhistory.org/public/phr2/files/original/2f84b80a198c5e839c79d7fe76fe6d466fac68d3.jpg"
+        />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p5"
+          url="https://diyhistory.org/public/phr2/files/original/3b61b59e01adbb23b5210a541e6b6594f70728b4.jpg"
+        />
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/f1d07b248e4e8bf6065603f2c1a05b436b11cb56.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p6"/>
+        <zone xml:id="zone_amc_spz_y3b" lry="2166" lrx="2167" uly="25" ulx="750"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="hüccet" facs="#zone_ez5_jpz_y3b">
+        <l>... fī <date when-custom="1271-01-09" cert="medium">şehr Muharrem'l-harām min</date></l>
+        <l>yevmi'l-tisʿ min sene ahadī ve sabʿīn ve miyetein ve elif</l>
+        <div type="stamp" facs="#zone_drl_4pz_y3b"></div>
+        <div type="stamp" facs="#zone_vbr_ppz_y3b"></div>        
+      </div>
+      <div type="summary_Croatian" facs="#zone_amc_spz_y3b">
+        <l>... <date when="1855">1855</date></l>
+      </div>
+    </body>
+  </text>
 </TEI>

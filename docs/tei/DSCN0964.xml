@@ -1,85 +1,53 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0964</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:date_H": [
-    "1254-R(?)-21"
-  ],
-  "saji:date_M": [
-    "1838-07-14(?)"
-  ],
-  "saji:foldingMethod": [
-    "4x1"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:huve": [
-    "1"
-  ],
-  "saji:item": [
-    "・hüve\r\n・本文\r\n・日付\r\n・はしがき（証人？）\r\n・不明のスタンプ"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "9"
-  ],
-  "saji:memo": [
-    "典型"
-  ],
-  "saji:number": [
-    "46"
-  ],
-  "saji:relationWithAnotherItems": [
-    "表全体像"
-  ],
-  "saji:stamp_c": [
-    "0"
-  ],
-  "saji:stamp_o": [
-    "0"
-  ],
-  "saji:transcription": [
-    "Vech"
-  ],
-  "saji:type": [
-    "temessük"
-  ],
-  "saji:witness": [
-    "?"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1080/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1080/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4a77a55f4f9fd60eae17a008ff6166f39d3a05bb.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1080/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7c85274ce02602f985a0ed7cde34fc486fc57457.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="EMIN_temessük"></div>
-        <div type="summery_Croatian">
-          <l>...</l>
-          <l>...</l>
-          <l>... <date>1839</date> <date when-custom="1253">1253</date>.</l>
-          <l>Nno 3.</l>
-        </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0964</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">日付：オスマン語本文では1254年になっており、クロアチア語要約では1253年になっている。オスマン語本文を優先したい。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1254-R(?)-21" ], "saji:date_M": [ "1838-07-14(?)" ], "saji:foldingMethod": [ "4x1" ],
+          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [
+          "・hüve\r\n・本文\r\n・日付\r\n・はしがき（証人？）\r\n・不明のスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage":
+          [ "9" ], "saji:memo": [ "典型" ], "saji:number": [ "46" ], "saji:relationWithAnotherItems":
+          [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:transcription": [
+          "Vech" ], "saji:type": [ "temessük" ], "saji:witness": [ "?" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1080/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/4a77a55f4f9fd60eae17a008ff6166f39d3a05bb.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1080/canvas/p1"/>
+        <zone xml:id="zone_nh1_jsz_y3b" lry="2772" lrx="2182" uly="245" ulx="336"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/7c85274ce02602f985a0ed7cde34fc486fc57457.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1080/canvas/p2"/>
+        <zone xml:id="zone_j3c_lsz_y3b" lry="1572" lrx="3089" uly="833" ulx="350"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="EMIN_temessük" facs="#zone_nh1_jsz_y3b">
+        <l>... <date when-custom="1254-12-21">21 Z 254</date></l>
+      </div>
+      <div type="summery_Croatian" facs="#zone_j3c_lsz_y3b">
+        <l>...</l>
+        <l>...</l>
+        <l>... <date when="1839">1839</date> - <date when-custom="1253">1253</date>.</l>
+        <l>Nno 3.</l>
+      </div>
+    </body>
+  </text>
 </TEI>
