@@ -7,30 +7,39 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">日付：月までは分かったが、日が記述されているかどうか判然としない。本文を読んで要検討。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:date_M": [
-    "1215-B-n/a"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:date_M": [ "1215-B-n/a" ], "saji:fond": [
+               "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1105/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1105/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f36de2a672b804798c87ef8fe05b998749ee4d86.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1105/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c68816dc273017043dfdb75940734207235eaa34.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/f36de2a672b804798c87ef8fe05b998749ee4d86.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1105/canvas/p1"/>
+            <zone xml:id="zone_upd_1mf_z3b" lry="3058" lrx="1887" uly="670" ulx="704"/>
+            <zone xml:id="zone_q3t_cmf_z3b" lry="1267" lrx="1262" uly="1118" ulx="1091"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/c68816dc273017043dfdb75940734207235eaa34.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1105/canvas/p2"/>
+            <zone xml:id="zone_tbt_2mf_z3b" lry="1294" lrx="2695" uly="688" ulx="645"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="hüccet" cert="medium"></div>
-         <div type="stamp"></div>
-         <div type="summary_Croatian"></div>
+         <div type="hüccet" cert="medium" facs="#zone_upd_1mf_z3b">
+            <l>... <date when-custom="1235-07" cert="low">şehr Receb sene hıms ve salāsīn ve miyetein ve elif</date></l>
+            <div type="stamp" facs="#zone_q3t_cmf_z3b"></div>
+         </div>
+         <div type="summary_Croatian" facs="#zone_tbt_2mf_z3b"></div>
       </body>
    </text>
 </TEI>

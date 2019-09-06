@@ -1,70 +1,49 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0978</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:date_H": [
-    "(?)-M-evāsṭ(?)"
-  ],
-  "saji:foldingMethod": [
-    "3x2"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:huve": [
-    "0"
-  ],
-  "saji:item": [
-    "・表題(?)\r\n・オスマン朝スタンプ1\r\n・オスマン朝スタンプ2\r\n・差出人(?)\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・日付\r\n・証人"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "1+2+22+5"
-  ],
-  "saji:number": [
-    "502"
-  ],
-  "saji:relationWithAnotherItems": [
-    "表全体像"
-  ],
-  "saji:stamp_c": [
-    "1"
-  ],
-  "saji:stamp_o": [
-    "2"
-  ],
-  "saji:witness": [
-    "3(?)"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1094/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1094/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/dc48c7c82a6cdb56d7de273088f30af9b4adb98f.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1094/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3e727227fdc6e6dc00b1950ff14fda398bf2968c.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="hüccet"></div>
-        <div type="stamp"></div>
-        <div type="stamp"></div>
-        <div type="summary_Croatian"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0978</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "(?)-M-evāsṭ(?)" ], "saji:foldingMethod": [ "3x2" ], "saji:fond": [ "Tursko 1" ],
+          "saji:huve": [ "0" ], "saji:item": [
+          "・表題(?)\r\n・オスマン朝スタンプ1\r\n・オスマン朝スタンプ2\r\n・差出人(?)\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・日付\r\n・証人" ],
+          "saji:lang": [ "ota" ], "saji:lineage": [ "1+2+22+5" ], "saji:number": [ "502" ],
+          "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [
+          "2" ], "saji:witness": [ "3(?)" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1094/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/dc48c7c82a6cdb56d7de273088f30af9b4adb98f.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1094/canvas/p1"/>
+        <zone xml:id="zone_wwy_rff_z3b" lry="3227" lrx="1663" uly="136" ulx="454"/>
+        <zone xml:id="zone_jqh_tff_z3b" lry="314" lrx="1063" uly="142" ulx="880"/>
+        <zone xml:id="zone_zvh_5ff_z3b" lry="370" lrx="1256" uly="228" ulx="1084"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/3e727227fdc6e6dc00b1950ff14fda398bf2968c.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1094/canvas/p2"/>
+        <zone xml:id="zone_exj_wff_z3b" lry="1816" lrx="2150" uly="1066" ulx="1100"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="hüccet_sūret" facs="#zone_wwy_rff_z3b">
+        <l>... fī <date when-custom="1210-01-11-20" cert="low">evāsit Muharrem el-harām sene ʿaşr ve miyetein ve elif</date></l>
+        <div type="stamp" facs="#zone_jqh_tff_z3b"></div>
+        <div type="stamp" facs="#zone_zvh_5ff_z3b"></div>
+      </div>
+      <div type="summary_Croatian" facs="#zone_exj_wff_z3b"></div>
+    </body>
+  </text>
 </TEI>

@@ -1,76 +1,47 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0972</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:date_H": [
-    "1191-S-15"
-  ],
-  "saji:date_M": [
-    "1777-03-25"
-  ],
-  "saji:foldingMethod": [
-    "4x2"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:huve": [
-    "0"
-  ],
-  "saji:item": [
-    "・本文\r\n・クレシェヴォのスタンプ\r\n・日付"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "7"
-  ],
-  "saji:number": [
-    "128"
-  ],
-  "saji:relationWithAnotherItems": [
-    "表全体像"
-  ],
-  "saji:stamp_c": [
-    "1"
-  ],
-  "saji:stamp_o": [
-    "0"
-  ],
-  "saji:transcription": [
-    "Vech taḥrīr ... budur ki\r\nİşbu ..."
-  ],
-  "saji:witness": [
-    "0"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1088/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1088/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8001bd504132a4473f0b27addf034423c65f48af.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1088/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/eb2d000bb04c99382464110e84a2c024118aaaf4.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="EMIN" cert="low">
-          <l>... fī <date when-custom="1191-02-15">15 Safer 1191</date></l>
-        </div>
-        <div type="summary_Croatian"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0972</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1191-S-15" ], "saji:date_M": [ "1777-03-25" ], "saji:foldingMethod": [ "4x2" ],
+          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
+          "・本文\r\n・クレシェヴォのスタンプ\r\n・日付" ], "saji:lang": [ "ota" ], "saji:lineage": [ "7" ],
+          "saji:number": [ "128" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [
+          "1" ], "saji:stamp_o": [ "0" ], "saji:transcription": [ "Vech taḥrīr ... budur ki\r\nİşbu
+          ..." ], "saji:witness": [ "0" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1088/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/8001bd504132a4473f0b27addf034423c65f48af.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1088/canvas/p1"/>
+        <zone xml:id="zone_nsq_fdf_z3b" lry="2723" lrx="2070" uly="1400" ulx="100"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/eb2d000bb04c99382464110e84a2c024118aaaf4.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1088/canvas/p2"/>
+        <zone xml:id="zone_xsv_3df_z3b" lry="1554" lrx="1741" uly="604" ulx="871"/>
+        <zone xml:id="zone_qsq_jdf_z3b" lry="3104" lrx="1571" uly="2087" ulx="871"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="EMIN" cert="low" facs="#zone_nsq_fdf_z3b">
+        <l>... fī <date when-custom="1191-02-15">15 Safer 1191</date></l>
+      </div>
+      <div type="summary_Croatian" facs="#zone_xsv_3df_z3b"></div>
+      <div type="unknown" facs="#zone_qsq_jdf_z3b"></div>
+    </body>
+  </text>
 </TEI>

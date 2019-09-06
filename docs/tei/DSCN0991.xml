@@ -8,27 +8,32 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1107/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1107/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/bbaba37b37a9d6524f6ed687eb12e43751dfb17e.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1107/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/594c04355f2a25ebae7d93e1c866792ccec3563e.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/bbaba37b37a9d6524f6ed687eb12e43751dfb17e.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1107/canvas/p1"/>
+            <zone xml:id="zone_h1l_lnf_z3b" lry="2535" lrx="1800" uly="1392" ulx="400"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/594c04355f2a25ebae7d93e1c866792ccec3563e.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1107/canvas/p2"/>
+            <zone xml:id="zone_ivf_nnf_z3b" lry="888" lrx="805" uly="737" ulx="621"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="unknown">
-            <l>... <date when-custom="1188">1188</date></l>
+         <div type="mülāsele" cert="low" facs="#zone_h1l_lnf_z3b">
+            <l>... <date when-custom="1188-10-18">... fī 18 Şevvāl el-mükerrem sene 1188</date></l>
          </div>
-         <div type="stamp"></div>
+         <div type="stamp" facs="#zone_ivf_nnf_z3b"></div>
       </body>
    </text>
 </TEI>

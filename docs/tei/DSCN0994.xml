@@ -7,25 +7,42 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">日付：月がLにもNにも見える。角ばっているのでひとまず「L」を採用。要検討。</note>
+            <note type="mine">署名：傘型</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1110/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1110/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e7a860cb948913f70de0177286f15e86fd15984c.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1110/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/72311071fa32e17bf42eeadbc2fa987151fc8a87.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/e7a860cb948913f70de0177286f15e86fd15984c.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1110/canvas/p1"/>
+            <zone xml:id="zone_j5b_zpf_z3b" lry="2684" lrx="1762" uly="100" ulx="308"/>
+            <zone xml:id="zone_dtp_1qf_z3b" lry="2612" lrx="1171" uly="2446" ulx="968"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/72311071fa32e17bf42eeadbc2fa987151fc8a87.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1110/canvas/p2"/>
+            <zone xml:id="zone_ky2_cqf_z3b" lry="572" lrx="1995" uly="322" ulx="428"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="unkown" facs="#zone_j5b_zpf_z3b">
+            <l>iʿtā olundu</l>
+            <l>fī <date when-custom="1254-10" cert="low">L 54</date></l>
+            <div type="stamp" facs="#zone_dtp_1qf_z3b"></div>
+         </div>
+         <div type="summary_Croatian" facs="#zone_ky2_cqf_z3b">
+            <l>... <date when="1838">1838</date></l>
+         </div>
       </body>
    </text>
 </TEI>

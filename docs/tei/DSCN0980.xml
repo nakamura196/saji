@@ -1,68 +1,55 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0980</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:date_H": [
-    "1201-L-15(?)"
-  ],
-  "saji:date_M": [
-    "1787-07-31"
-  ],
-  "saji:foldingMethod": [
-    "7x1"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:item": [
-    "・タイトル(?)\r\n・宛先(?)\r\n・オスマン朝スタンプ\r\n・定型\r\n・本文\r\n・証人\r\n・小さな書き込み@欄外"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "1+1+20+12"
-  ],
-  "saji:number": [
-    "357(?)"
-  ],
-  "saji:relationWithAnotherItems": [
-    "表全体像　※一部欠けている"
-  ],
-  "saji:stamp_c": [
-    "0"
-  ],
-  "saji:stamp_o": [
-    "1"
-  ],
-  "saji:witness": [
-    "3+"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1096/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1096/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e452d0bfd0d1f9ebccb6e04672c2064337343645.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1096/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6aaa29e2377ec88726459c68252a62a2620df6d4.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1096/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/3a411e3080bc1fba03fe9862bcddcf6ab670ccce.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1096/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/0ca82cbf60514e1eca7e7494ac9299e17266dfd7.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="hüccet"></div>
-        <div type="stamp"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0980</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1201-L-15(?)" ], "saji:date_M": [ "1787-07-31" ], "saji:foldingMethod": [ "7x1" ],
+          "saji:fond": [ "Tursko 1" ], "saji:item": [
+          "・タイトル(?)\r\n・宛先(?)\r\n・オスマン朝スタンプ\r\n・定型\r\n・本文\r\n・証人\r\n・小さな書き込み@欄外" ], "saji:lang": [
+          "ota" ], "saji:lineage": [ "1+1+20+12" ], "saji:number": [ "357(?)" ],
+          "saji:relationWithAnotherItems": [ "表全体像　※一部欠けている" ], "saji:stamp_c": [ "0" ],
+          "saji:stamp_o": [ "1" ], "saji:witness": [ "3+" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1096/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/e452d0bfd0d1f9ebccb6e04672c2064337343645.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1096/canvas/p1"/>
+        <zone xml:id="zone_uld_fhf_z3b" lry="3263" lrx="1573" uly="81" ulx="545"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/6aaa29e2377ec88726459c68252a62a2620df6d4.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1096/canvas/p2"/>
+        <zone xml:id="zone_ipd_hhf_z3b" lry="910" lrx="1205" uly="747" ulx="1000"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1096/canvas/p3"
+          url="https://diyhistory.org/public/phr2/files/original/3a411e3080bc1fba03fe9862bcddcf6ab670ccce.jpg"
+        />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1096/canvas/p4"
+          url="https://diyhistory.org/public/phr2/files/original/0ca82cbf60514e1eca7e7494ac9299e17266dfd7.jpg"
+        />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="hüccet" facs="#zone_uld_fhf_z3b">
+        <l><date when-custom="1201-10-15">fi'l-yevmi'l-hāmis ʿaşar min Şevvāl el-mükerrem sene ahadā ve miyetein ve elif</date></l>
+        <div type="stamp" facs="#zone_ipd_hhf_z3b"></div>
+      </div>
+    </body>
+  </text>
 </TEI>

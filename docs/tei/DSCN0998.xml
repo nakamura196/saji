@@ -8,24 +8,42 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1114/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1114/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/feea260918c6f8fee29d77d273287ba2f533ce8f.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1114/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1168c5ea1c1b880b789e4037a1dd772a07f40f1b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1114/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5c7c0df4d15cb523681930b1cfde5d5c1f83d85b.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/feea260918c6f8fee29d77d273287ba2f533ce8f.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1114/canvas/p1"/>
+            <zone xml:id="zone_hym_rzf_z3b" lry="2718" lrx="1845" uly="27" ulx="236"/>
+            <zone xml:id="zone_rxc_tzf_z3b" lry="2662" lrx="767" uly="2505" ulx="580"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1114/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/1168c5ea1c1b880b789e4037a1dd772a07f40f1b.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/5c7c0df4d15cb523681930b1cfde5d5c1f83d85b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1114/canvas/p3"/>
+            <zone xml:id="zone_tlb_vzf_z3b" lry="1316" lrx="2734" uly="994" ulx="34"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="unknown" facs="#zone_hym_rzf_z3b">
+            <l><date when-custom="1249-03">Bin ikiyüz kırk dokuz seneden Mart</date> ...</l>
+            <l>... olundu fī <date when-custom="1225-03-27" cert="low">27 Ra 25</date></l>
+            <div type="stamp" facs="#zone_rxc_tzf_z3b"></div>
+         </div>
+         <div type="summary_Croatian" facs="#zone_tlb_vzf_z3b">
+            <l>... <date when="1834" cert="low">1834</date></l>
+         </div>
       </body>
    </text>
 </TEI>

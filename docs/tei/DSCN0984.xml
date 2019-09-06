@@ -1,77 +1,54 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0984</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:date_H": [
-    "1181-M-21"
-  ],
-  "saji:date_M": [
-    "1767-06-19"
-  ],
-  "saji:foldingMethod": [
-    "4x2"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:huve": [
-    "1"
-  ],
-  "saji:item": [
-    "・hüve\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・日付\r\n・署名(?)"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "11+2"
-  ],
-  "saji:memo": [
-    "・非常にきれいな文字で書かれているので読みやすそう。読解の参考にする。"
-  ],
-  "saji:number": [
-    "155"
-  ],
-  "saji:relationWithAnotherItems": [
-    "表全体像"
-  ],
-  "saji:stamp_c": [
-    "1"
-  ],
-  "saji:stamp_o": [
-    "0"
-  ],
-  "saji:witness": [
-    "0"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1100/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1100/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/55113562a04282e5a23c5b9ca4551fd92831905b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1100/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6d170e640c373c5216c3997919666ff98005ffc9.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1100/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5ea2e011791322b03d7caefe7a982f8c803323b6.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="mürāsele" cert="medium"></div>
-        <div type="stamp"></div>
-        <div type="summary_Croatian">
-          <l><date>1767</date> ... </l>
-        </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0984</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1181-M-21" ], "saji:date_M": [ "1767-06-19" ], "saji:foldingMethod": [ "4x2" ],
+          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [
+          "・hüve\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・日付\r\n・署名(?)" ], "saji:lang": [ "ota" ], "saji:lineage":
+          [ "11+2" ], "saji:memo": [ "・非常にきれいな文字で書かれているので読みやすそう。読解の参考にする。" ], "saji:number": [ "155"
+          ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [
+          "0" ], "saji:witness": [ "0" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1100/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/55113562a04282e5a23c5b9ca4551fd92831905b.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1100/canvas/p1"/>
+        <zone xml:id="zone_mcq_njf_z3b" lry="3120" lrx="1830" uly="50" ulx="120"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/6d170e640c373c5216c3997919666ff98005ffc9.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1100/canvas/p2"/>
+        <zone xml:id="zone_wsh_qjf_z3b" lry="1222" lrx="2717" uly="1027" ulx="134"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/5ea2e011791322b03d7caefe7a982f8c803323b6.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1100/canvas/p3"/>
+        <zone xml:id="zone_fgg_sjf_z3b" lry="2806" lrx="1806" uly="2668" ulx="1640"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="mürāsele" cert="medium" facs="#zone_mcq_njf_z3b">
+        <l>fī <date when-custom="1181-01-21">21 M 1181</date></l>
+      </div>
+      <div type="stamp" facs="#zone_fgg_sjf_z3b"></div>
+      <div type="summary_Croatian" facs="#zone_wsh_qjf_z3b">
+        <l><date when="1767">1767</date> ... </l>
+      </div>
+    </body>
+  </text>
 </TEI>

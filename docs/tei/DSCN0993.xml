@@ -1,44 +1,40 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0993</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-        <notesStmt>
-          <note type="mine">特徴的な署名</note>
-        </notesStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:calligraphy": [
-    "Dīvān kuruması"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:from": [
-    "Defterdar Süleyman İzzet"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1109/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1109/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2f97110af207b3def8405fdcf93c627ce84456ad.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="tezkire"></div>
-        <div type="stamp"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0993</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">Beyaz üzerine buyurulduのように見えるが、スタンプが下方にある上、「tezkire」という自己言及が見られる。</note>
+        <note type="mine">署名：傘型</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Dīvān kuruması" ], "saji:fond":
+          [ "Tursko 1" ], "saji:from": [ "Defterdar Süleyman İzzet" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1109/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/2f97110af207b3def8405fdcf93c627ce84456ad.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1109/canvas/p1"/>
+        <zone xml:id="zone_l5b_cpf_z3b" lry="3145" lrx="1827" uly="100" ulx="254"/>
+        <zone xml:id="zone_k1m_dpf_z3b" lry="2838" lrx="767" uly="2698" ulx="596"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tezkire" facs="#zone_l5b_cpf_z3b">
+        <l>... işbu tezkire ...</l>
+        <l>... fī <date when-custom="1212-10-19">19 L 1212</date></l>
+        <div type="stamp" facs="#zone_k1m_dpf_z3b"></div>
+      </div>
+    </body>
+  </text>
 </TEI>

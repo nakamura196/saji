@@ -1,79 +1,48 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0976</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:calligraphy": [
-    "Rıkʿa"
-  ],
-  "saji:date_H": [
-    "n/a(?)"
-  ],
-  "saji:date_M": [
-    "n/a(?)"
-  ],
-  "saji:foldingMethod": [
-    "4x1"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:huve": [
-    "1"
-  ],
-  "saji:item": [
-    "・hüve\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・署名(?)"
-  ],
-  "saji:lang": [
-    "ota"
-  ],
-  "saji:lineage": [
-    "11"
-  ],
-  "saji:memo": [
-    "・本文末の署名(?)が、DSCN0975.JPGの本文末の署名(?)と同一"
-  ],
-  "saji:number": [
-    "235"
-  ],
-  "saji:relationWithAnotherItems": [
-    "表全体像"
-  ],
-  "saji:stamp_c": [
-    "1"
-  ],
-  "saji:stamp_o": [
-    "0"
-  ],
-  "saji:transcription": [
-    "Vech-i "
-  ],
-  "saji:witness": [
-    "0"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1092/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1092/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d22f5b54667db0bd76ac1758fb641db9de242ab7.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1092/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/68da08cb1aeb4fc1136118290913ea0825d285c2.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="EMIN" cert="low"></div>
-        <div type="summary_Croatian">
-          <l>... <date>1803</date></l>
-        </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0976</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "n/a(?)" ], "saji:date_M": [ "n/a(?)" ], "saji:foldingMethod": [ "4x1" ], "saji:fond": [
+          "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [
+          "・hüve\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・署名(?)" ], "saji:lang": [ "ota" ], "saji:lineage": [ "11"
+          ], "saji:memo": [ "・本文末の署名(?)が、DSCN0975.JPGの本文末の署名(?)と同一" ], "saji:number": [ "235" ],
+          "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [
+          "0" ], "saji:transcription": [ "Vech-i " ], "saji:witness": [ "0" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1092/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/d22f5b54667db0bd76ac1758fb641db9de242ab7.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1092/canvas/p1"/>
+        <zone xml:id="zone_jh2_r2f_z3b" lry="2792" lrx="1639" uly="246" ulx="124"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/68da08cb1aeb4fc1136118290913ea0825d285c2.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1092/canvas/p2"/>
+        <zone xml:id="zone_xbx_s2f_z3b" lry="1322" lrx="2856" uly="1000" ulx="412"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="EMIN" cert="low" facs="#zone_jh2_r2f_z3b">
+        <l>... işbu <date when-custom="1217-03">bin</date></l>
+        <l>ikiyüz on yedi senesinde Martı ... </l>
+      </div>
+      <div type="summary_Croatian" facs="#zone_xbx_s2f_z3b">
+        <l>... <date when="1803">1803</date></l>
+      </div>
+    </body>
+  </text>
 </TEI>

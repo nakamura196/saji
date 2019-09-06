@@ -9,31 +9,38 @@
          </publicationStmt>
          <notesStmt>
             <note type="mine">maʿden関係？</note>
+            <note type="mine">Dostūrで始まっており、何か重要な命令などの写しの可能性。内容をきちんと読んで要検討。</note>
          </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:date_M": [
-    "1197-Za-15"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:date_M": [ "1197-Za-15" ], "saji:fond": [
+               "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1103/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1103/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4973109106f663c91de2826967417763c4f45738.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1103/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ef0bd76bd6a3e4ca90b435ad9a985aad1484936f.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/4973109106f663c91de2826967417763c4f45738.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1103/canvas/p1"/>
+            <zone xml:id="zone_vdc_jkf_z3b" lry="2730" lrx="2140" uly="50" ulx="90"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/ef0bd76bd6a3e4ca90b435ad9a985aad1484936f.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1103/canvas/p2"/>
+            <zone xml:id="zone_h3k_lkf_z3b" lry="1982" lrx="539" uly="1793" ulx="228"/>
+            <zone xml:id="zone_fzg_mkf_z3b" lry="1041" lrx="2954" uly="900" ulx="2834"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="sūret-i_" cert="unknown"></div>
-         <div type="stamp_sūret"></div>
-         <div type="stamp"></div>
+         <div type="_sūret" cert="unknown" facs="#zone_vdc_jkf_z3b">
+            <l>tahrīren <date when-custom="1197-11-15">fi'l-yevmi'l-hāmis ʿaşar Zi'l-kaʿade sene sabʿ ve tisʿīn ve miye ve elif</date></l>
+            <div type="stamp_sūret" facs="#zone_h3k_lkf_z3b"></div>
+            <div type="stamp" facs="#zone_fzg_mkf_z3b"></div>
+         </div>
       </body>
    </text>
 </TEI>
