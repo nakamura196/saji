@@ -8,24 +8,36 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1130/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1130/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/53ca7a2a1bca105998aeaea30637282285b768f7.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1130/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2a0fb252713a4eedeeae4d2861893c0d5a39f932.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/53ca7a2a1bca105998aeaea30637282285b768f7.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1130/canvas/p1"/>
+            <zone xml:id="zone_cpp_3vg_z3b" lry="3200" lrx="1511" uly="133" ulx="579"/>
+            <zone xml:id="zone_dqj_kvg_z3b" lry="583" lrx="955" uly="486" ulx="829"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/2a0fb252713a4eedeeae4d2861893c0d5a39f932.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1130/canvas/p2"/>
+            <zone xml:id="zone_xwm_lvg_z3b" lry="605" lrx="2506" uly="411" ulx="239"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_cpp_3vg_z3b">
+            <l><date when-custom="1245-11-11">fi'l-yevmi'l-hādī ʿaşar min Zi'l-kaʿade'l-şerīfe sene hamıs ve arbaʿīn ve miyeteyn ve elif</date></l>
+            <div type="stamp" facs="#zone_dqj_kvg_z3b"></div>
+         </div>
+         <div type="summary_Croatian" facs="#zone_xwm_lvg_z3b">
+            <l>... <date when="1830">1830</date></l>
+         </div>
       </body>
    </text>
 </TEI>

@@ -8,24 +8,37 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1134/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1134/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2a89122e2fefa258b1e43e63ed1ef5e3e446b161.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1134/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1ee307ec8bc78bcc1d3a0200dd1e308b58e0b8b5.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1134/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/d7eb7b999ad0e1bd221bff01e57a42486097ec8b.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/2a89122e2fefa258b1e43e63ed1ef5e3e446b161.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1134/canvas/p1"/>
+            <zone xml:id="zone_w42_dxg_z3b" lry="2690" lrx="2318" uly="154" ulx="336"/>
+            <zone xml:id="zone_fhc_fxg_z3b" lry="130" lrx="1447" uly="17" ulx="993"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1134/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/1ee307ec8bc78bcc1d3a0200dd1e308b58e0b8b5.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1134/canvas/p3"
+               url="https://diyhistory.org/public/phr2/files/original/d7eb7b999ad0e1bd221bff01e57a42486097ec8b.jpg"
+            />
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="unkonown_Croatian" cert="low" facs="#zone_w42_dxg_z3b">
+            <l>... <date when-custom="1274">1274</date></l>
+         </div>
+         <div type="summary_Ottoman" facs="#zone_fhc_fxg_z3b"></div>
       </body>
    </text>
 </TEI>

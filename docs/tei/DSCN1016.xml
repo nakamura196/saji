@@ -8,24 +8,32 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1132/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1132/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3fa7640becb8ccb7f482c1f53929cb00ab475454.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1132/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c03dc8bbc8a42fb6f842f0a3cc4ad84302de7977.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/3fa7640becb8ccb7f482c1f53929cb00ab475454.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1132/canvas/p1"/>
+            <zone xml:id="zone_gdz_3wg_z3b" lry="2854" lrx="1991" uly="45" ulx="73"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/c03dc8bbc8a42fb6f842f0a3cc4ad84302de7977.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1132/canvas/p2"/>
+            <zone xml:id="zone_hhw_lwg_z3b" lry="1856" lrx="1775" uly="1672" ulx="1570"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="mürāsele" facs="#zone_gdz_3wg_z3b">
+            <l>... fī <date when-custom="1241-10-15">15 L 241</date></l>
+            <div type="stamp" facs="#zone_hhw_lwg_z3b"></div>
+         </div>
       </body>
    </text>
 </TEI>

@@ -8,26 +8,29 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1127/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1127/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/25492285d87e6ff3542e3effb3c8d82fad7b2302.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/25492285d87e6ff3542e3effb3c8d82fad7b2302.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1127/canvas/p1"/>
+            <zone xml:id="zone_hvg_4tg_z3b" lry="2827" lrx="2291" uly="190" ulx="363"/>
+            <zone xml:id="zone_hyp_ptg_z3b" lry="815" lrx="2154" uly="469" ulx="1754"/>
+            <zone xml:id="zone_vhq_qtg_z3b" lry="3133" lrx="2218" uly="2421" ulx="381"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="beyāz_üzerine_buyuruldu"></div>
-         <div type="stamp"></div>
-         <div type="summary_Croatian" cert="low"></div>
+         <div type="beyāz_üzerine_buyuruldu" facs="#zone_hvg_4tg_z3b">
+            <l>... buyuruldu fī <date when-custom="1231-05-25">25 Ca 231</date></l>
+            <div type="stamp" facs="#zone_hyp_ptg_z3b"></div>  
+         </div>
+         <div type="summary_Croatian" cert="low" facs="#zone_vhq_qtg_z3b"></div>
       </body>
    </text>
 </TEI>

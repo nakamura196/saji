@@ -7,25 +7,40 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">DSCN0994.JPGとよく似ている。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1128/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1128/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cff0547cf86ae794ca5a1cf8158a4e3687aea4b7.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1128/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6c487419e801a515ef481cf39e9b91870da62d02.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/cff0547cf86ae794ca5a1cf8158a4e3687aea4b7.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1128/canvas/p1"/>
+            <zone xml:id="zone_ngv_25g_z3b" lry="3027" lrx="1836" uly="372" ulx="263"/>
+            <zone xml:id="zone_k3w_f5g_z3b" lry="2775" lrx="1265" uly="2584" ulx="1057"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/6c487419e801a515ef481cf39e9b91870da62d02.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1128/canvas/p2"/>
+            <zone xml:id="zone_qjm_h5g_z3b" lry="988" lrx="3206" uly="722" ulx="250"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="unknown" facs="#zone_ngv_25g_z3b">
+            <l>fī <date when-custom="1240-08-10" cert="low">ʿaşar Şaʿbān 240</date></l>
+            <div type="stamp" facs="#zone_k3w_f5g_z3b"></div>
+         </div>
+         <div type="summary_Croatian">
+            <l>... <date when="1844">1844</date> gr. 1500</l>
+         </div>
       </body>
    </text>
 </TEI>
