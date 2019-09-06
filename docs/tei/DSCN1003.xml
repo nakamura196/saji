@@ -7,25 +7,39 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">日付：月Saferに見えるが分からない、年日の数字3の読みも合っているか分からない、要検討。</note>
+            <note type="mine">署名：傘型</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1119/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1119/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/12f94bd8a1e6acb3827b2390c59daada9ac30dd2.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1119/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/134ba1c72a110d302ebe854a5fb210903c4eba49.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/12f94bd8a1e6acb3827b2390c59daada9ac30dd2.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1119/canvas/p1"/>
+            <zone xml:id="zone_ejn_fcg_z3b" lry="3254" lrx="2218" uly="163" ulx="127"/>
+            <zone xml:id="zone_q3f_hcg_z3b" lry="2243" lrx="1346" uly="2090" ulx="1175"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/134ba1c72a110d302ebe854a5fb210903c4eba49.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1119/canvas/p2"/>
+            <zone xml:id="zone_c1n_3cg_z3b" lry="1155" lrx="1873" uly="494" ulx="1006"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="tezkire" facs="#zone_ejn_fcg_z3b">
+            <l>fī <date when-custom="1237-02-23" cert="low">23 Safer sene 37</date></l>
+            <div type="stamp" facs="#zone_q3f_hcg_z3b"></div>
+         </div>
+         <div type="summary_Croatian" facs="#zone_c1n_3cg_z3b"></div>
       </body>
    </text>
 </TEI>

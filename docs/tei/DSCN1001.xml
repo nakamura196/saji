@@ -7,25 +7,40 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">日付：buyuruldu、月C or Ca、年(1)193 or (1)194、がはっきりしない。要検討。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1117/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1117/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/14bcff333e4ee26a7be2c09c0025e5b092b16a67.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1117/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c3e7c8a32ce29caca9b5c8b34a818285a4fc78f4.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/14bcff333e4ee26a7be2c09c0025e5b092b16a67.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1117/canvas/p1"/>
+            <zone xml:id="zone_zjd_2bg_z3b" lry="2916" lrx="1675" uly="108" ulx="100"/>
+            <zone xml:id="zone_ajb_gbg_z3b" lry="2100" lrx="1250" uly="481" ulx="75"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/c3e7c8a32ce29caca9b5c8b34a818285a4fc78f4.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1117/canvas/p2"/>
+            <zone xml:id="zone_mnn_3bg_z3b" lry="877" lrx="3195" uly="288" ulx="1817"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="ʿarz-ı_hāl" facs="#zone_zjd_2bg_z3b"></div>
+         <div type="buyuruldu" facs="#zone_ajb_gbg_z3b">
+            <l>... fī <date when-custom="1193-06-05">5 C 193</date></l>
+         </div>
+         <div type="summary_Croatian" facs="#zone_mnn_3bg_z3b">
+            <l><date when-custom="1193">1193</date> ...</l>
+         </div>
       </body>
    </text>
 </TEI>
