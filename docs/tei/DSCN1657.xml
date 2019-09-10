@@ -8,24 +8,33 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1196/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1196/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3d46bd7f4abc281c70c3007fd0e8f13490e02607.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/3d46bd7f4abc281c70c3007fd0e8f13490e02607.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1196/canvas/p1"/>
+            <zone xml:id="zone_v4t_24k_1jb" lry="2238" lrx="2093" uly="1069" ulx="39"/>
+            <zone xml:id="zone_zms_f4k_1jb" lry="2142" lrx="863" uly="1995" ulx="702"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="zabtnāme" facs="#zone_v4t_24k_1jb">
+            <p>
+               <lb/>... <date when-custom="1269" cert="medium">sene 69</date><lb/>
+            </p>
+            <div type="stamp" facs="#zone_zms_f4k_1jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>         
       </body>
    </text>
 </TEI>

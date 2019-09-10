@@ -8,24 +8,44 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1189/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1189/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6c977be6f86ae6b426093ec256c4f225aa800f94.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1189/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d10d7e3577fc5fd7d20a26db2ddb344e202ac793.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1189/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/8ccb20aa31b0d2b8ee52f4c2615ce0eb25b7c5d0.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/6c977be6f86ae6b426093ec256c4f225aa800f94.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1189/canvas/p1"/>
+            <zone xml:id="zone_h51_nmk_1jb" lry="2833" lrx="1250" uly="391" ulx="558"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/d10d7e3577fc5fd7d20a26db2ddb344e202ac793.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1189/canvas/p2"/>
+            <zone xml:id="zone_g4v_4mk_1jb" lry="1058" lrx="946" uly="841" ulx="691"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1189/canvas/p3"
+               url="https://diyhistory.org/public/phr2/files/original/8ccb20aa31b0d2b8ee52f4c2615ce0eb25b7c5d0.jpg"
+            />
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_h51_nmk_1jb">
+            <p>
+               <lb/>... fī <date when-custom="1253-07">şehr Receb sene sıls<lb/>
+               <lb/>ve hamsīn ve mieteyn ve elif</date><lb/>
+            </p>
+            <div type="stamp" facs="#zone_g4v_4mk_1jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>         
       </body>
    </text>
 </TEI>
