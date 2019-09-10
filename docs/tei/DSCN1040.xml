@@ -7,25 +7,46 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">DSCN0974.JPGと同じ画像・文書。重複している。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1156/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1156/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1308b17284e69efcaf01d8139a37311b955d259c.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/1308b17284e69efcaf01d8139a37311b955d259c.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1156/canvas/p1"/>
+            <zone xml:id="zone_t1l_y53_1jb" lry="2958" lrx="1750" uly="91" ulx="167"/>
+            <zone xml:id="zone_zbt_z53_1jb" lry="1210" lrx="1386" uly="506" ulx="251"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <p/>
+         <div type="mürāsele" facs="#zone_t1l_y53_1jb">
+            <p>
+               <lb/>Madīne-i Saray-ı Bosna kazāsına muzāf Kirşevo varoş ve Foyniçe ... ümenāsı ve sāyir zābitānı baʿde'l-İslām inhā olunur ki<lb/>
+               <lb/>ve islām hurrira fī <date when-custom="1198-03">Rebiü'l-evvel sene 1198</date><lb/>
+               <lb/><persName>El-seyyid ʿAbdü'l-rahman</persName> el-kādı bi-madīne-i <placeName
+                  type="proper">Saray Bosna</placeName> ...<lb/>
+            </p>
+         </div>
+         <div type="buyuruldu" facs="#zone_zbt_z53_1jb">
+            <p>
+               <lb/><placeName type="proper">Foyniçe</placeName> ve <placeName type="proper"
+                  cert="unknown">...</placeName> ve <placeName type="proper">Kirşevo</placeName>
+                  nāibleri efendiler<lb/>
+               <lb/>Muceddiden yedinize iʿtā ... mūcebince ʿamer ve ...<lb/>
+               <lb/>...<lb/>
+               <lb/>buyuruldu fī <date when-custom="1198-02-13">13 S sene 198</date><lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

@@ -7,25 +7,44 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">DSCN0989.JPGと同じ画像・文書。重複している。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1139/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1139/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a65a752d480ea4bce143d2c1dc86d08248688b56.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1139/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6246dcf44b1c73a68ada1d6c3ce88ab8df43bcb5.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a65a752d480ea4bce143d2c1dc86d08248688b56.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1139/canvas/p1"/>
+            <zone xml:id="zone_cm2_rj3_1jb" lry="3080" lrx="1800" uly="593" ulx="610"/>
+            <zone xml:id="zone_c2x_tj3_1jb" lry="1197" lrx="1179" uly="1053" ulx="1003"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/6246dcf44b1c73a68ada1d6c3ce88ab8df43bcb5.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1139/canvas/p2"/>
+            <zone xml:id="zone_izf_vj3_1jb" lry="1077" lrx="2634" uly="455" ulx="645"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_cm2_rj3_1jb">
+            <p>
+               <lb/>fī <date when-custom="1235-07">şehr Receb sene hımıs ve selāsīn ve mieteyn ve elif</date><lb/>
+            </p>
+            <div type="stamp" facs="#zone_c2x_tj3_1jb"></div>
+         </div>
+         <div type="summary_Croatian" facs="#zone_izf_vj3_1jb">
+            <p>
+               <lb/>... <lb/>
+            </p>
+         </div>        
       </body>
    </text>
 </TEI>
