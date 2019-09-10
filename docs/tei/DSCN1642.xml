@@ -8,24 +8,39 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1181/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1181/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/df5c43e19fcd514fc296b1779c39ebfb191006a1.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1181/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ed6745e8737697480b97d66258c08dfa728ccbe8.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/df5c43e19fcd514fc296b1779c39ebfb191006a1.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1181/canvas/p1"/>
+            <zone xml:id="zone_ckh_h2k_1jb" lry="3127" lrx="1327" uly="163" ulx="136"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/ed6745e8737697480b97d66258c08dfa728ccbe8.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1181/canvas/p2"/>
+            <zone xml:id="zone_k5w_32k_1jb" lry="883" lrx="2978" uly="583" ulx="189"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="iʿlām" facs="#zone_ckh_h2k_1jb">
+            <p>
+               <lb/>... fī <date when-custom="1182-08-21-30">evāhir şehr Şaʿabāni'l-muʿazzam<lb/>
+               <lb/>sene isnayn ve semānīn ve mie ve elifī</date><lb/>
+            </p>
+         </div>
+         <div type="summary_Serbian" facs="#zone_k5w_32k_1jb">
+            <p>
+               <lb/><date when="1769">1769</date> ...<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

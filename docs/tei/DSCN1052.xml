@@ -7,25 +7,77 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">DSCN0955.JPGと同じ画像・文書。重複している。</note>
+            <note type="mine">hüccetに2人作成者がいるパターン：①ナーヒエのナーイブ（発行者、権力がない）②ボスナのカーディー（tasdīkしている）</note>
+            <note type="mine">書き出し：出張裁判のパターン</note>
+            <note type="mine">日付：9日かどうか、要確認。tisʿには見えない？</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "E"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1168/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1168/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a01bdc47cd98754088dd19845b7eceb22e02ac16.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1168/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d722bad230b958d94fdd60fac01bbdfa9d6493b9.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1168/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5dbddc6d63a55d4260d0300003f24f10464cde7a.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1168/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/7786182283f922a6e020da1800269ae6211ddf3c.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1168/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/a0315c32abec3277e6978f80621bb1ed51903f9d.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1168/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/29295a505409f194dca4ddfe5c949a272b693b93.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a01bdc47cd98754088dd19845b7eceb22e02ac16.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1168/canvas/p1"/>
+            <zone xml:id="zone_dhk_g1k_1jb" lry="3245" lrx="1754" uly="-5" ulx="663"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1168/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/d722bad230b958d94fdd60fac01bbdfa9d6493b9.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/5dbddc6d63a55d4260d0300003f24f10464cde7a.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1168/canvas/p3"/>
+            <zone xml:id="zone_f54_j1k_1jb" lry="990" lrx="1667" uly="832" ulx="1467"/>
+            <zone xml:id="zone_fwc_k1k_1jb" lry="1022" lrx="2541" uly="860" ulx="2363"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1168/canvas/p4"
+               url="https://diyhistory.org/public/phr2/files/original/7786182283f922a6e020da1800269ae6211ddf3c.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1168/canvas/p5"
+               url="https://diyhistory.org/public/phr2/files/original/a0315c32abec3277e6978f80621bb1ed51903f9d.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/29295a505409f194dca4ddfe5c949a272b693b93.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1168/canvas/p6"/>
+            <zone xml:id="zone_tkx_l1k_1jb" lry="1978" lrx="2136" uly="177" ulx="435"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_dhk_g1k_1jb">
+            <p>
+               <lb/>... fī <date when-custom="1271-01-09" cert="medium">şehr Muharrem'l-harām min<lb/>
+                  <lb/>yevmi'l-tisʿ min sene ahadī ve sabʿīn ve mieteyn ve elif</date><lb/>
+            </p>
+            <div type="stamp" facs="#zone_f54_j1k_1jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+            <div type="stamp" facs="#zone_fwc_k1k_1jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+         </div>
+         <div type="summary_Croatian" facs="#zone_tkx_l1k_1jb">
+            <p>
+               <lb/>... <date when="1855">1855</date>lb/> </p>
+         </div>
       </body>
    </text>
 </TEI>

@@ -1,34 +1,52 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1048</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1164/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1164/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8520449787e0ab7a352799f8b296c730980ece28.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1164/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c5c0903f648d98d7caacec222f8e7ea3e9475a7e.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="ʿilmühaber"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1048</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">DSCN0966.JPGと同じ画像・文書。重複している。画像は撮り直している。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ]
+          }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1164/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/8520449787e0ab7a352799f8b296c730980ece28.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1164/canvas/p1"/>
+        <zone xml:id="zone_dcb_vvj_1jb" lry="2238" lrx="2014" uly="64" ulx="249"/>
+        <zone xml:id="zone_r2t_wvj_1jb" lry="2220" lrx="1144" uly="2056" ulx="956"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/c5c0903f648d98d7caacec222f8e7ea3e9475a7e.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1164/canvas/p2"/>
+        <zone xml:id="zone_t2z_xvj_1jb" lry="1466" lrx="2573" uly="488" ulx="417"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="ʿilmühaber" facs="#zone_dcb_vvj_1jb">
+        <p>
+          <lb/>... fī <date when-custom="1274-12-08">8 Z 74</date><lb/>
+        </p>
+        <div type="stamp" facs="#zone_r2t_wvj_1jb">
+          <p>
+            <lb/>... <date when-custom="1274">1274</date><lb/>
+            <lb/>... <date when-custom="1274">1274</date><lb/>
+            <lb/>Nno 4.<lb/>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

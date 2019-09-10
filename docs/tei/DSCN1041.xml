@@ -7,25 +7,48 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">DSCN0972.JPGと同じ画像・文書。重複している。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1157/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1157/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d49db80343d9c513cceb83951bb9e57beba48411.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1157/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/eef466482ecb6c262ec60c5c582d632732070f91.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/d49db80343d9c513cceb83951bb9e57beba48411.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1157/canvas/p1"/>
+            <zone xml:id="zone_ggj_fpj_1jb" lry="2936" lrx="1954" uly="1572" ulx="18"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/eef466482ecb6c262ec60c5c582d632732070f91.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1157/canvas/p2"/>
+            <zone xml:id="zone_ik2_hpj_1jb" lry="1420" lrx="1587" uly="500" ulx="737"/>
+            <zone xml:id="zone_m4b_3pj_1jb" lry="3029" lrx="1466" uly="1958" ulx="800"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN" cert="low" facs="#zone_ggj_fpj_1jb">
+            <p>
+               <lb/>... fī <date when-custom="1191-02-15">15 Safer 1191</date><lb/>
+            </p>
+         </div>
+         <div type="summary_Crotatian" facs="#zone_ik2_hpj_1jb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
+         <div type="unknown" facs="#zone_m4b_3pj_1jb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

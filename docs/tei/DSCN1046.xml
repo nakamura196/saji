@@ -7,25 +7,51 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">DSCN0964.JPGと同じ文書。重複している。画像は撮り直している。</note>
+            <note type="mine">DSCN1046.JPGにのみ、裏面画像にスタンプの写しが写っている。このことから、エミンのtemessükの写しであると言える。</note>
+            <note type="mine">日付：オスマン語本文では1254年になっており、クロアチア語要約では1253年になっている。オスマン語本文を優先したい。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1162/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1162/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f339da9d3afa6832f23f50f57aed0796d79c15b2.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1162/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2b19a7a4c4b1b856b5ddd52746c1b80c0dfc41da.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/f339da9d3afa6832f23f50f57aed0796d79c15b2.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1162/canvas/p1"/>
+            <zone xml:id="zone_pvb_ktj_1jb" lry="2600" lrx="2000" uly="127" ulx="63"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/2b19a7a4c4b1b856b5ddd52746c1b80c0dfc41da.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1162/canvas/p2"/>
+            <zone xml:id="zone_mh1_mtj_1jb" lry="2836" lrx="2191" uly="2500" ulx="1882"/>
+            <zone xml:id="zone_wvn_mtj_1jb" lry="809" lrx="2145" uly="236" ulx="82"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN_temessük_sūret" cert="medium" facs="#zone_pvb_ktj_1jb">
+            <p>
+               <lb/>... fī <date when-custom="1254-12-21">21 Z 254</date><lb/>
+            </p>
+         </div>
+         <div type="stamp_sūret" facs="#zone_mh1_mtj_1jb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
+         <div type="summary_Crotatian" facs="#zone_wvn_mtj_1jb">
+            <p>
+               <lb/>... <date when="1839">1839</date> - <date when-custom="1253">1253</date>.<lb/>
+               <lb/>Nno 3.<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

@@ -7,25 +7,48 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">日付：日が15と8どちらなのか、月はMでいいのか、年は1201でいいのか、要検討。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1185/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b897da3ed1c667ea419d9b78f7f6b1815e974d59.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d6fd5c892001be8098d0fac5eb7930e518114a2b.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/b897da3ed1c667ea419d9b78f7f6b1815e974d59.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p1"/>
+            <zone xml:id="zone_ebz_qgk_1jb" lry="2933" lrx="2233" uly="158" ulx="75"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/d6fd5c892001be8098d0fac5eb7930e518114a2b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p2"/>
+            <zone xml:id="zone_vs4_sgk_1jb" lry="1555" lrx="550" uly="1333" ulx="317"/>
+            <zone xml:id="zone_sd3_tgk_1jb" lry="1244" lrx="3117" uly="838" ulx="156"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN" cert="unknown" facs="#zone_ebz_qgk_1jb">
+            <p>
+               <lb/>... fī <date when-custom="1201-01-15" cert="low">15 M 1201</date><lb/>
+            </p>
+         </div>
+         <div type="stamp" facs="#zone_vs4_sgk_1jb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
+         <div type="summary_Croatian" facs="#zone_sd3_tgk_1jb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

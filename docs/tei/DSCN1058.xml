@@ -1,35 +1,53 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1058</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1174/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1174/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cdc4d74c40a70ba4a40b80edd1f2c4dfd59af4e5.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1174/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4544518026593606b65a0854330d4d29fc111744.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="beyāz_üzerine_buyuruldu"></div>
-        <div type="stamp"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1058</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ]
+          }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1174/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/cdc4d74c40a70ba4a40b80edd1f2c4dfd59af4e5.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1174/canvas/p1"/>
+        <zone xml:id="zone_srh_mbk_1jb" lry="3167" lrx="2033" uly="34" ulx="50"/>
+        <zone xml:id="zone_jbp_nbk_1jb" lry="679" lrx="1779" uly="457" ulx="1523"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/4544518026593606b65a0854330d4d29fc111744.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1174/canvas/p2"/>
+        <zone xml:id="zone_mm1_pbk_1jb" lry="1405" lrx="2723" uly="572" ulx="695"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="beyāz_üzerine_buyuruldu" facs="#zone_srh_mbk_1jb">
+        <p>
+          <lb/>buyuruldu fī <date when-custom="1193-05-11">11 Ca 1193</date><lb/>
+        </p>
+        <div type="stamp" facs="#zone_jbp_nbk_1jb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>
+      </div>
+      <div type="summary_Croatian" facs="#zone_mm1_pbk_1jb">
+        <p>
+          <lb/><date when="1779">1779</date> ...<lb/>
+          <lb/>... <date when-custom="1193">1193</date><lb/>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

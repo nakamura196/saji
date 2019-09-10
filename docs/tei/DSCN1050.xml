@@ -7,25 +7,49 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">DSCN0961.JPGと同じ文書。重複している。画像は撮り直している。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1166/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1166/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/be2f593bb49906f3d7969a5a7fc3d2e86c724551.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1166/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e1b40ccb6f40e30ea7b099aa586744cc35341838.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/be2f593bb49906f3d7969a5a7fc3d2e86c724551.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1166/canvas/p1"/>
+            <zone xml:id="zone_ydg_yyj_1jb" lry="2890" lrx="2282" uly="836" ulx="318"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/e1b40ccb6f40e30ea7b099aa586744cc35341838.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1166/canvas/p2"/>
+            <zone xml:id="zone_a5c_1zj_1jb" lry="2848" lrx="1966" uly="2575" ulx="1633"/>
+            <zone xml:id="zone_fcy_1zj_1jb" lry="675" lrx="2125" uly="266" ulx="274"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN_sūret" cert="unknown" facs="#zone_ydg_yyj_1jb">
+            <p>
+               <lb/>... fī <date when-custom="1233-05-10">10 Ca 1233</date><lb/>
+            </p>
+         </div>
+         <div type="stamp_sūret" facs="#zone_a5c_1zj_1jb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
+         <div type="summary_Croatian" facs="#zone_fcy_1zj_1jb">
+            <p>
+               <lb/>... <date when="1819">1819</date>. <date when-custom="1233">1233</date>.<lb/>
+               <lb/>l>Nno 5.<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

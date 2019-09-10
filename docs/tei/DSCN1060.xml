@@ -1,41 +1,72 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1060</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:date_H": [
-    "1299-"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型",
-    "イスタンブルの修道院宛のものを、フォイニチェが写した\r\n→イスタンブルのカトリック修道院宛の内容を、その他の地域（ex. クレシェヴォ）の修道院も複写した？\r\n→イスタンブルのカトリック修道院と、クレシェヴォ修道院との関係は？"
-  ],
-  "saji:type": [
-    "ṣūret-i fermān-ı ʿālīşān ve ḫaṭṭ-ı hümāyūn"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1176/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1176/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9027a958bdc703c0b1da53beafa91659bb9c6078.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1176/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/203341892f0d0b86ab6c40ac9f157a989fd38ca1.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1176/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/7a89bd7106e879973b875fd7adc3b56734568ad0.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1176/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/d3405d3ee4cde025a1ff93edc9c60392b23bdae8.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1176/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/3763454d538b99f2dbfe51a28e2e3a8d0b0ba9d1.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1060</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">イスタンブルの修道院宛のものを、フォイニチェが写した→イスタンブルのカトリック修道院宛の内容を、その他の地域（ex.
+          クレシェヴォ）の修道院も複写した？→イスタンブルのカトリック修道院と、クレシェヴォ修道院との関係は？</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:date_H": [ "1299-" ], "saji:fond": [ "Tursko 1"
+          ]}</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1176/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/9027a958bdc703c0b1da53beafa91659bb9c6078.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1176/canvas/p1"/>
+        <zone xml:id="zone_ody_mck_1jb" lry="3081" lrx="2445" uly="118" ulx="200"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1176/canvas/p2"
+          url="https://diyhistory.org/public/phr2/files/original/203341892f0d0b86ab6c40ac9f157a989fd38ca1.jpg"
+        />
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/7a89bd7106e879973b875fd7adc3b56734568ad0.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1176/canvas/p3"/>
+        <zone xml:id="zone_p1w_rck_1jb" lry="1110" lrx="3025" uly="975" ulx="2909"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1176/canvas/p4"
+          url="https://diyhistory.org/public/phr2/files/original/d3405d3ee4cde025a1ff93edc9c60392b23bdae8.jpg"
+        />
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/3763454d538b99f2dbfe51a28e2e3a8d0b0ba9d1.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1176/canvas/p5"/>
+        <zone xml:id="zone_ddj_tck_1jb" lry="1583" lrx="2689" uly="728" ulx="1118"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="fermān_hatt-ı_hümāyūn_sūret" facs="#zone_ody_mck_1jb">
+        <p>
+          <lb/>... fī <date when-custom="1299-08-21-30">evāhir şehr Şaʿabānİ'l-muʿazzam sene tisʿ ve
+            tisʿīn ve mieteyn ve elif</date><lb/>
+        </p>
+        <div type="stamp" facs="#zone_p1w_rck_1jb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>
+      </div>
+      <div type="summary_Croatian" facs="#zone_ddj_tck_1jb">
+        <p>
+          <lb/>... <date when="1853">1853</date> ...<lb/>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
