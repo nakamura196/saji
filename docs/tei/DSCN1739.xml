@@ -7,25 +7,55 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】クロアチア語要約：日付の月が読み取れず、とりあえず5月ということにしてある。後で西暦を調べて再入力する。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1271/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1271/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/176e9d49c96b7997bf719f4a067c0e104ad5639e.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1271/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/5c8e6281e2f012d13fb76db85546bbedc255a228.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/176e9d49c96b7997bf719f4a067c0e104ad5639e.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1271/canvas/p1"/>
+            <zone xml:id="zone_elz_ydf_bjb" lry="3190" lrx="1636" uly="554" ulx="291"/>
+            <zone xml:id="zone_k2j_12f_bjb" lry="1234" lrx="1062" uly="593" ulx="575"/>
+            <zone xml:id="zone_sl2_b2f_bjb" lry="1221" lrx="887" uly="1040" ulx="678"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/5c8e6281e2f012d13fb76db85546bbedc255a228.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1271/canvas/p2"/>
+            <zone xml:id="zone_v4l_c2f_bjb" lry="1200" lrx="2978" uly="555" ulx="323"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_elz_ydf_bjb">
+            <p>
+               <lb/>... <date when-custom="1186-02-25">fi'l-yevmi'l-hāmis ve'l-ʿaşrīn<lb/>
+               <lb/>min şehr Saferi'l-... sene sitte ve semānīn ve mie ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_k2j_12f_bjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_sl2_b2f_bjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian">
+            <p>
+               <lb/><date when="1772-05-28" cert="unknown">1772 28 ...</date><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

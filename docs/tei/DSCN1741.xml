@@ -7,25 +7,54 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：日、読めなかった、年、1182？</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1273/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1273/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9b35717fc9238164c9edfbeee6f58e5d3bd3347b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1273/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/10460fdaab293ea12c5e6e64076d58cc34aea98c.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/9b35717fc9238164c9edfbeee6f58e5d3bd3347b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1273/canvas/p1"/>
+            <zone xml:id="zone_ckb_h3f_bjb" lry="3178" lrx="1611" uly="745" ulx="600"/>
+            <zone xml:id="zone_abz_h3f_bjb" lry="1253" lrx="1182" uly="787" ulx="688"/>
+            <zone xml:id="zone_lsm_33f_bjb" lry="1243" lrx="982" uly="1096" ulx="834"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/10460fdaab293ea12c5e6e64076d58cc34aea98c.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1273/canvas/p2"/>
+            <zone xml:id="zone_qxv_j3f_bjb" lry="1283" lrx="3206" uly="777" ulx="273"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_ckb_h3f_bjb">
+            <p>
+               <lb/>... <date when-custom="1182-11-">fi'l-yevmi'l-... min Zi'l-kaʿade sene isnā ve semānīn ve mie ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_abz_h3f_bjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_lsm_33f_bjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Serbian" facs="#zone_qxv_j3f_bjb">
+            <p>
+               <lb/>... <date when="1769-03-13">13 Marty 1769</date><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
