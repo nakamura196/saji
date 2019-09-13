@@ -8,24 +8,57 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1215/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1215/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/238faa4075f2565ff57140574acaea0201cc02e7.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1215/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/feff6b3c293237929ceeddbb93c8c206c33791c9.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/238faa4075f2565ff57140574acaea0201cc02e7.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1215/canvas/p1"/>
+            <zone xml:id="zone_xfv_fby_1jb" lry="2738" lrx="2362" uly="50" ulx="162"/>
+            <zone xml:id="zone_jz1_hby_1jb" lry="2510" lrx="442" uly="2362" ulx="224"/>
+            <zone xml:id="zone_kpx_hby_1jb" lry="1434" lrx="2347" uly="1091" ulx="1879"/>
+            <zone xml:id="zone_qs4_3by_1jb" lry="1278" lrx="2034" uly="1110" ulx="1884"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/feff6b3c293237929ceeddbb93c8c206c33791c9.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1215/canvas/p2"/>
+            <zone xml:id="zone_hcf_nby_1jb" lry="972" lrx="2834" uly="577" ulx="656"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="emirnāme_sūret" facs="#zone_xfv_fby_1jb">
+            <p>
+               <lb/>... fī <date when-custom="1273-08-02">2 Ş sene 273</date><lb/>
+            </p>
+            <div type="sign_sūret" facs="#zone_jz1_hby_1jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+            <div type="sign" facs="#zone_kpx_hby_1jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_hcf_nby_1jb">
+                  <p>
+                     <lb/>... fī <lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div type="summary_Croatian" facs="#zone_qs4_3by_1jb">
+            <p>
+               <lb/>... <date when="1857">1857</date>. ...<lb/>
+               <lb/><date when-custom="1273">1273</date><lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

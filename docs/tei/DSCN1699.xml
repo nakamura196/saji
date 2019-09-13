@@ -7,25 +7,43 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">hüccetを作成するための下書き？</note>
+            <note type="mine">【要】DSCN1692.JPGは同じ年月日に作成されたhüccetなので、内容を突合せ、その下書きであるかを検討する。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1233/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1233/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5753b168ca8760c8853e6a4d4b67cb226882eab3.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1233/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3eeb6564cf05b3a459bcaaf2eee499d949874a6e.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/5753b168ca8760c8853e6a4d4b67cb226882eab3.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1233/canvas/p1"/>
+            <zone xml:id="zone_ngr_yry_1jb" lry="3218" lrx="1800" uly="72" ulx="609"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/3eeb6564cf05b3a459bcaaf2eee499d949874a6e.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1233/canvas/p2"/>
+            <zone xml:id="zone_nj3_hsy_1jb" lry="2272" lrx="2785" uly="-6" ulx="585"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet_varaka" cert="unknown" facs="#zone_ngr_yry_1jb">
+            <p>
+               <lb/>... <date when-custom="1284-10-21">fi'l-yevmi'l-hādā ve'l-ʿaşrīn min şehr Şevvālı'l-mükerrem sene arbaʿa ve semānīn ve mieteyn ve elif</date><lb/>
+            </p>
+         </div>
+         <div type="summary_Croatian" facs="#zone_nj3_hsy_1jb">
+            <p>
+               <lb/>Nno 7.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

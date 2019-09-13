@@ -7,25 +7,48 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">スタンプ：署名の裏側にスタンプを押している形跡があるが、裏面画像には写っていない。【要】再撮影。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1224/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1224/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/bb658f6ee47e30f8fc6da1d5dac7d902c5b2f250.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1224/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/04a1013e3ed6676724f4c9b9dd14547ffbecb00f.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/bb658f6ee47e30f8fc6da1d5dac7d902c5b2f250.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1224/canvas/p1"/>
+            <zone xml:id="zone_h4s_f2y_1jb" lry="3090" lrx="2373" uly="-18" ulx="36"/>
+            <zone xml:id="zone_dp3_h2y_1jb" lry="2944" lrx="444" uly="2618" ulx="102"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/04a1013e3ed6676724f4c9b9dd14547ffbecb00f.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1224/canvas/p2"/>
+            <zone xml:id="zone_wkz_32y_1jb" lry="1766" lrx="2434" uly="116" ulx="1050"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN" cert="unknown" facs="#zone_h4s_f2y_1jb">
+            <p>
+               <lb/>... fī <date when-custom="1234-08-03">3 Şaʿabān 1234</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_dp3_h2y_1jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Craotian" facs="#zone_wkz_32y_1jb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

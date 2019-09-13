@@ -1,38 +1,98 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1701</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-        <notesStmt>
-          <note type="mine">tapu senedi発行前に、一時的に権利を保証する証書。tapu senediと同等のものである。</note>
-          <note type="mine">書式については、tapu senediを参考にする。</note>
-        </notesStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1235/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1235/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b21ff5f111722849a08e2247690010bc61e0a5c2.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1235/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/967ff36de14018480d0e0ea7888116f74b52ea6b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1235/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/c431431412d3ed0c33c80de9f56b5f58452f57e1.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1235/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/d9810fdf190cb2ff4bf79ab986357c50cb41799c.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="ʿilmühaber-i_tapu_senedi"></div>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1701</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">tapu senedi発行前に、一時的に権利を保証する証書。tapu senediと同等のものである。</note>
+        <note type="mine">DSCN1705.JPGは、DSCN1701.JPGの写し。</note>
+        <note type="mine">書式については、tapu senediを参考にする。</note>
+        <note type="mine">【要】作成年：月が読めない、要確認。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ]
+          }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1235/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/b21ff5f111722849a08e2247690010bc61e0a5c2.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1235/canvas/p1"/>
+        <zone xml:id="zone_zrh_5ty_1jb" lry="3158" lrx="1958" uly="25" ulx="308"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1235/canvas/p2"
+          url="https://diyhistory.org/public/phr2/files/original/967ff36de14018480d0e0ea7888116f74b52ea6b.jpg"
+        />
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/c431431412d3ed0c33c80de9f56b5f58452f57e1.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1235/canvas/p3"/>
+        <zone xml:id="zone_ejd_xty_1jb" lry="3016" lrx="1756" uly="2752" ulx="1516"/>
+        <zone xml:id="zone_mqb_yty_1jb" lry="3006" lrx="1750" uly="2814" ulx="1549"/>
+        <zone xml:id="zone_uz5_yty_1jb" lry="3081" lrx="1049" uly="2808" ulx="783"/>
+        <zone xml:id="zone_srk_zty_1jb" lry="3072" lrx="1037" uly="2864" ulx="793"/>
+        <zone xml:id="zone_egh_15y_1jb" lry="3108" lrx="578" uly="2808" ulx="339"/>
+        <zone xml:id="zone_w4z_d5y_1jb" lry="3098" lrx="563" uly="2896" ulx="355"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/d9810fdf190cb2ff4bf79ab986357c50cb41799c.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1235/canvas/p4"/>
+        <zone xml:id="zone_i5l_h5y_1jb" lry="1274" lrx="1573" uly="820" ulx="1033"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="ʿilmühaber_tapu_senedi" facs="#zone_zrh_5ty_1jb">
+        <p>
+          <lb/>... fī <date when-custom="1283--27" cert="unknown">27 ... sene 1283</date><lb/>
+        </p>
+        <div type="sign" facs="#zone_ejd_xty_1jb">
+          <p>
+            <lb/>Sandık emīni<lb/>
+          </p>
+          <div type="stamp" facs="#zone_mqb_yty_1jb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>          
+        </div>
+        <div type="sign" facs="#zone_uz5_yty_1jb">
+          <p>
+            <lb/>Müdīr<lb/>
+          </p>
+          <div type="stamp" facs="#zone_srk_zty_1jb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>          
+        </div>
+        <div type="sign" facs="#zone_egh_15y_1jb">
+          <p>
+            <lb/>Hākim<lb/>
+          </p>
+          <div type="stamp" facs="#zone_w4z_d5y_1jb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>          
+        </div>        
+      </div>
+      <div type="summary_Croatian" facs="#zone_i5l_h5y_1jb">
+        <p>
+          <lb/>Nno 6.<lb/>
+        </p>
+      </div>      
       </body>
-   </text>
+  </text>
 </TEI>

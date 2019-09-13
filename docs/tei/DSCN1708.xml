@@ -7,25 +7,51 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】クロアチア語要約ではʿarz-ı hālであると定義付けられているが、通常のʿarz-ı hālとはやや様式が違う。典型要検討。</note>
+            <note type="mine">【要】日付：1286 or 1186 内容から要検討。クロアチア語要約では、1869年（=1286年）であると断定している。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1242/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1242/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/45289f450686646192d6174699e4c8e8a46ea22c.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1242/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9424f3e0c16139a9803aa43d47df653b8f198e23.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1242/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/590294a9ce1bd99b9631a268eccfd9c2ae3eff9f.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/45289f450686646192d6174699e4c8e8a46ea22c.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1242/canvas/p1"/>
+            <zone xml:id="zone_lq4_pc2_bjb" lry="2614" lrx="2085" uly="135" ulx="114"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1242/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/9424f3e0c16139a9803aa43d47df653b8f198e23.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/590294a9ce1bd99b9631a268eccfd9c2ae3eff9f.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1242/canvas/p3"/>
+            <zone xml:id="zone_mkl_rc2_bjb" lry="1379" lrx="2271" uly="145" ulx="1016"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="ʿarz-ı_hāl" cert="low" facs="#zone_lq4_pc2_bjb">
+            <p>
+               <lb/>... fī <date when-custom="1286-03-10" cert="medium">10 Rebi'ü'l-evvel sene 86</date><lb/>
+            </p>
+         </div> 
+         <div type="summary_Croatian" facs="#zone_mkl_rc2_bjb">
+            <p>
+               <lb/><date when="1869">1869</date><lb/>
+               <lb/>Arzuhal<lb/>
+               <lb/>Koga smo ...<lb/>
+               <lb/>... <date when="1869">1869</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

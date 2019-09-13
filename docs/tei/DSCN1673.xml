@@ -1,37 +1,70 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1673</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型"
-  ],
-  "saji:type": [
-    "‘arż-ı ḥāl ve buyuruldu ve iʿlām"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1210/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1210/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5287af498ad7121ce4f4ee916cee3aebe5453088.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1210/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ecc9576482ae5e6bbb9ae5df5dfd17f01e5b2e06.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1673</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ],
+          "saji:type": [ "‘arż-ı ḥāl ve buyuruldu ve iʿlām" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1210/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/5287af498ad7121ce4f4ee916cee3aebe5453088.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1210/canvas/p1"/>
+        <zone xml:id="zone_a1q_rbx_1jb" lry="2934" lrx="1448" uly="1765" ulx="18"/>
+        <zone xml:id="zone_fls_5bx_1jb" lry="2156" lrx="1132" uly="181" ulx="44"/>
+        <zone xml:id="zone_bj5_wbx_1jb" lry="2581" lrx="2132" uly="1062" ulx="1057"/>
+        <zone xml:id="zone_qjc_zbx_1jb" lry="2428" lrx="1615" uly="2295" ulx="1456"/>
+        <zone xml:id="zone_xfg_1cx_1jb" lry="1225" lrx="2150" uly="90" ulx="1050"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/ecc9576482ae5e6bbb9ae5df5dfd17f01e5b2e06.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1210/canvas/p2"/>
+        <zone xml:id="zone_imk_ccx_1jb" lry="1200" lrx="3012" uly="844" ulx="145"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="ʿarz-ı_hāl" facs="#zone_a1q_rbx_1jb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div>
+      <div type="buyuruldu" facs="#zone_fls_5bx_1jb">
+        <p>
+          <lb/>buyuruldu fī <date when-custom="1172-03-29">29 Ra 172</date><lb/>
+        </p>
+      </div>
+      <div type="iʿlām" facs="#zone_bj5_wbx_1jb">
+        <p>
+          <lb/>... fī <date when-custom="1172-06-05">5 Rebī'ü'l-āhir sene 1172</date><lb/>
+        </p>
+        <div type="stamp" facs="#zone_qjc_zbx_1jb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>
+      </div>
+      <div type="buyuruldu" facs="#zone_xfg_1cx_1jb">
+        <p>
+          <lb/>buyuruldu fī <date when-custom="1172-06-07">7 R 172</date><lb/>
+        </p>
+      </div>
+      <div type="summary_Croatian" facs="#zone_imk_ccx_1jb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

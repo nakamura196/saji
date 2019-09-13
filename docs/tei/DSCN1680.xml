@@ -8,24 +8,71 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "E"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1217/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6e5834bb9ed35faa38518664bed28216194ea74a.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ac9b665102cd94250aa79a062509697c0883fd0b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/eb86dd1cc3be662dcf9e76ec63e1cb03dfbb0fd2.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/2b969525ff1d5d2c7a3d69c5c0eefabcd964fd21.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/8963b1a96cc017cb8a4b300024b1965515948443.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/29a870bce03d5532aa0590fe46af2334e03d96d3.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/6e5834bb9ed35faa38518664bed28216194ea74a.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p1"/>
+            <zone xml:id="zone_a4b_pcy_1jb" lry="3220" lrx="1520" uly="0" ulx="690"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/ac9b665102cd94250aa79a062509697c0883fd0b.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/eb86dd1cc3be662dcf9e76ec63e1cb03dfbb0fd2.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p3"/>
+            <zone xml:id="zone_lvj_rcy_1jb" lry="1487" lrx="1791" uly="620" ulx="1287"/>
+            <zone xml:id="zone_dd1_scy_1jb" lry="1466" lrx="1671" uly="1308" ulx="1483"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p4"
+               url="https://diyhistory.org/public/phr2/files/original/2b969525ff1d5d2c7a3d69c5c0eefabcd964fd21.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p5"
+               url="https://diyhistory.org/public/phr2/files/original/8963b1a96cc017cb8a4b300024b1965515948443.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/29a870bce03d5532aa0590fe46af2334e03d96d3.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p6"/>
+            <zone xml:id="zone_rf2_5cy_1jb" lry="2107" lrx="2254" uly="446" ulx="747"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_a4b_pcy_1jb">
+            <p>
+               <lb/>... <date when-custom="1273-11-15">fi'l-yevmi'l-hāmis<lb/>
+               <lb/>ve'l-ʿaşr min şehr Zi'l-kaʿade'l-şerīf sene suls ve sabʿīn ve mieteyn ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_lvj_rcy_1jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_dd1_scy_1jb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_rf2_5cy_1jb">
+            <p>
+               <lb/>... <date when-custom="1273">1273</date><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

@@ -8,24 +8,27 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1200/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1200/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/71a8e979006df78ffb0809b5d01d6a98e3d0c3e7.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/71a8e979006df78ffb0809b5d01d6a98e3d0c3e7.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1200/canvas/p1"/>
+            <zone xml:id="zone_lfd_qxw_1jb" lry="2646" lrx="2208" uly="223" ulx="39"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="takrīr_tercüme_sūret" facs="#zone_lfd_qxw_1jb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
