@@ -7,25 +7,70 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：日は、4日で合っているのか？</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "E"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1251/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a3c0a87f0bdfdc08dba60afb43c578ee57cf20a4.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/73233f27de34182f7a05defb8d056639395fbcdf.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/855cb92c733c2ef0a232ce3b8dcdae950ef77190.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/680afa27bbf389549b0651361b2d3b07d05c2f79.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/d7f5a33f1977bbb035ede31ff6ba51cf14ada052.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a3c0a87f0bdfdc08dba60afb43c578ee57cf20a4.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p1"/>
+            <zone xml:id="zone_dtw_bj2_bjb" lry="3209" lrx="1445" uly="18" ulx="691"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/73233f27de34182f7a05defb8d056639395fbcdf.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/855cb92c733c2ef0a232ce3b8dcdae950ef77190.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p3"/>
+            <zone xml:id="zone_qhn_2j2_bjb" lry="1029" lrx="1341" uly="237" ulx="879"/>
+            <zone xml:id="zone_qng_fj2_bjb" lry="1004" lrx="1309" uly="856" ulx="1145"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p4"
+               url="https://diyhistory.org/public/phr2/files/original/680afa27bbf389549b0651361b2d3b07d05c2f79.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/d7f5a33f1977bbb035ede31ff6ba51cf14ada052.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p5"/>
+            <zone xml:id="zone_em5_gj2_bjb" lry="1050" lrx="2584" uly="133" ulx="600"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_dtw_bj2_bjb">
+            <p>
+               <lb/>... <date when-custom="1277-07-04" cert="low">fi'l-yevmi'l-rābīʿ min şehr Recebi'l-...<lb/>
+               <lb/>sene sabʿ ve sabʿīn ve mieteyn ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_qhn_2j2_bjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_qng_fj2_bjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_em5_gj2_bjb">
+            <p>
+               <lb/><date when="1861">1861</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

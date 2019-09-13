@@ -7,25 +7,71 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：日、何日か要検討。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "E"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1256/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/22ddec4f89c3db846f6df921ed0585b4bcaa9fd4.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/64b08df6e0b5894aceb89fd702b21e8cd7172c33.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/79c434fb66303bd7c2ee4210db88c8c3696020a9.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/e57b760f684913528a50aa0c3f011aaab06318dc.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/75c510ef6c8f4b3cb3aac24a272dd9b27d4d70f9.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/22ddec4f89c3db846f6df921ed0585b4bcaa9fd4.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p1"/>
+            <zone xml:id="zone_alf_1l2_bjb" lry="2916" lrx="1500" uly="91" ulx="617"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/64b08df6e0b5894aceb89fd702b21e8cd7172c33.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/79c434fb66303bd7c2ee4210db88c8c3696020a9.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p3"/>
+            <zone xml:id="zone_hnq_dl2_bjb" lry="981" lrx="1452" uly="397" ulx="1063"/>
+            <zone xml:id="zone_m4c_2l2_bjb" lry="972" lrx="1356" uly="843" ulx="1215"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p4"
+               url="https://diyhistory.org/public/phr2/files/original/e57b760f684913528a50aa0c3f011aaab06318dc.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/75c510ef6c8f4b3cb3aac24a272dd9b27d4d70f9.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p5"/>
+            <zone xml:id="zone_imh_gl2_bjb" lry="1266" lrx="2128" uly="1038" ulx="1095"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_alf_1l2_bjb">
+            <p>
+               <lb/>... <date when-custom="1275-06-">fi'l-yevmi'l-... min şehr<lb/>
+               <lb/>Cemaziye'l-sānī sene<lb/>
+               <lb/>hamis ve sabʿīn ve mieteyn ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_hnq_dl2_bjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_m4c_2l2_bjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_imh_gl2_bjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

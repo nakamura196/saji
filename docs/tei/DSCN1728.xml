@@ -7,25 +7,87 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：14日でいいか？</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "E"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1261/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b588fe901edcff16c793a4bc113a731526897b6b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a4ad81550e49a3ce64c3b185e2fee22eae1cffcc.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/4e4e3c34279f0e81970ad957b797450c7a3b98c5.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/7e31a1688a4f2d8dfb4e806a0d73b3ec15e3f313.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/be5ef149cb30f9e4f678d04400f18e6e84c1c713.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/45d698b45759827bdc2b099ae92d6bdb669421e5.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/b588fe901edcff16c793a4bc113a731526897b6b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p1"/>
+            <zone xml:id="zone_jxq_lm2_bjb" lry="3250" lrx="1720" uly="70" ulx="590"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a4ad81550e49a3ce64c3b185e2fee22eae1cffcc.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p2"/>
+            <zone xml:id="zone_bx3_4m2_bjb" lry="1088" lrx="1839" uly="638" ulx="1384"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/4e4e3c34279f0e81970ad957b797450c7a3b98c5.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p3"/>
+            <zone xml:id="zone_c25_pm2_bjb" lry="962" lrx="1221" uly="341" ulx="787"/>
+            <zone xml:id="zone_exs_qm2_bjb" lry="930" lrx="1185" uly="823" ulx="1063"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p4"
+               url="https://diyhistory.org/public/phr2/files/original/7e31a1688a4f2d8dfb4e806a0d73b3ec15e3f313.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/be5ef149cb30f9e4f678d04400f18e6e84c1c713.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p5"/>
+            <zone xml:id="zone_zsl_sm2_bjb" lry="1077" lrx="3023" uly="655" ulx="262"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/45d698b45759827bdc2b099ae92d6bdb669421e5.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p6"/>
+            <zone xml:id="zone_rjp_tm2_bjb" lry="1755" lrx="2862" uly="1088" ulx="467"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_jxq_lm2_bjb">
+            <p>
+               <lb/>... <date when-custom="1220-08-14" cert="low">fi'l-yevm<lb/>
+               <lb/>el-rābīʿ ve'l-ʿaşr min şehr Şaʿabānı'l-muʿazzam sene<lb/>
+               <lb/>ʿaşrīn ve mieteyn ve elif</date><lb/>
+            </p>
+            <div type="stamp" facs="#zone_bx3_4m2_bjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+            <div type="sign" facs="#zone_c25_pm2_bjb">
+               <p>
+                  <lb/>...<lb/>
+               </p><div type="stamp" facs="#zone_exs_qm2_bjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_zsl_sm2_bjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
+         <div type="unknown" facs="#zone_rjp_tm2_bjb">
+            <p>
+               <lb/><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
