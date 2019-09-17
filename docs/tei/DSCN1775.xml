@@ -1,37 +1,49 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1775</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型"
-  ],
-  "saji:type": [
-    "iʿlām+buyuruldu"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1307/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1307/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0ece0084e76d75b9d5b04910f29f1f925c324a00.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1775</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要】日付(buyuruldu)：月、S or Ca</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1307/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/0ece0084e76d75b9d5b04910f29f1f925c324a00.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1307/canvas/p1"/>
+        <zone xml:id="zone_c4b_2h3_cjb" lry="2841" lrx="1908" uly="233" ulx="225"/>
+        <zone xml:id="zone_gh5_fh3_cjb" lry="2763" lrx="696" uly="2583" ulx="262"/>
+        <zone xml:id="zone_wtw_hh3_cjb" lry="2174" lrx="1285" uly="922" ulx="237"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="iʿlām" facs="#zone_c4b_2h3_cjb">
+        <p>
+          <lb/>... fī <date when-custom="1253-06-21">21 C sene 53</date><lb/>
+        </p>
+        <div type="sign" facs="#zone_gh5_fh3_cjb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>        
+      </div>
+      <div type="buyuruldu" facs="#zone_wtw_hh3_cjb">
+        <p>
+          <lb/>buyuruldu fī <date when-custom="1253-02-25">25 S sene 1253</date><lb/>
+        </p>
+      </div>      
+    </body>
+  </text>
 </TEI>

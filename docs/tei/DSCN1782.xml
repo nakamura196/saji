@@ -7,25 +7,63 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：1272年なのか？</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1313/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1313/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/57b88e7d6348fcbe8ab56f0884e49296fece138f.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1313/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d13d9790e3b3e4948badc38f209ab741573981e3.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1313/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/c6dee0c4565c30c33657ab320199d8e3c9d08536.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1313/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/2eca748c51d5721c278ae943b638e89af83c27fe.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/57b88e7d6348fcbe8ab56f0884e49296fece138f.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1313/canvas/p1"/>
+            <zone xml:id="zone_aj2_yt3_cjb" lry="3100" lrx="1691" uly="18" ulx="618"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/d13d9790e3b3e4948badc38f209ab741573981e3.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1313/canvas/p2"/>
+            <zone xml:id="zone_qxx_b53_cjb" lry="2033" lrx="1753" uly="1100" ulx="1226"/>
+            <zone xml:id="zone_ptx_253_cjb" lry="2007" lrx="1670" uly="1843" ulx="1430"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1313/canvas/p3"
+               url="https://diyhistory.org/public/phr2/files/original/c6dee0c4565c30c33657ab320199d8e3c9d08536.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/2eca748c51d5721c278ae943b638e89af83c27fe.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1313/canvas/p4"/>
+            <zone xml:id="zone_llj_g53_cjb" lry="2105" lrx="2556" uly="522" ulx="462"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet_sūret" facs="#zone_aj2_yt3_cjb">
+            <p>
+               <lb/><date when-custom="1272-07-07" cert="low">fi'l-yevmi'l-sābiʿ min şehr şerīf Recebi'l-... sene isnā ve sabʿīn ve mieteyn ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_qxx_b53_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p><div type="stamp_sūret" facs="#zone_ptx_253_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Crotatian" facs="#zone_llj_g53_cjb">
+            <p>
+               <lb/><date when="1856">1856</date>. Nno. 3.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

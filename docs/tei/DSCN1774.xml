@@ -8,24 +8,33 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1306/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1306/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/25e08a5bc75e017076b3a516742190fb2ddc5a55.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/25e08a5bc75e017076b3a516742190fb2ddc5a55.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1306/canvas/p1"/>
+            <zone xml:id="zone_off_kg3_cjb" lry="1852" lrx="2053" uly="105" ulx="95"/>
+            <zone xml:id="zone_abf_lg3_cjb" lry="1819" lrx="423" uly="1641" ulx="232"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="şukka" cert="low" facs="#zone_off_kg3_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1253-08-13">13 Ş sene 253</date><lb/>
+            </p>
+            <div type="stamp" facs="#zone_abf_lg3_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>         
       </body>
    </text>
 </TEI>

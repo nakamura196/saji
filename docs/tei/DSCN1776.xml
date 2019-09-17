@@ -8,24 +8,55 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1308/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1308/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6545aae1c07fc79fc0fdef4f9be3ac62ecc2fe09.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1308/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b562f572dae229b103560c40f981c35baad3addd.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1308/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/718da7f4a6709366e25b14df0c1f29f6c05e4ed9.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/6545aae1c07fc79fc0fdef4f9be3ac62ecc2fe09.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1308/canvas/p1"/>
+            <zone xml:id="zone_czc_333_cjb" lry="3027" lrx="2154" uly="63" ulx="118"/>
+            <zone xml:id="zone_vvk_j33_cjb" lry="2948" lrx="705" uly="2831" ulx="264"/>
+            <zone xml:id="zone_vl5_k33_cjb" lry="2390" lrx="1609" uly="63" ulx="118"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1308/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/b562f572dae229b103560c40f981c35baad3addd.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/718da7f4a6709366e25b14df0c1f29f6c05e4ed9.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1308/canvas/p3"/>
+            <zone xml:id="zone_ovm_n33_cjb" lry="1588" lrx="3273" uly="483" ulx="12"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="iʿlām" facs="#zone_czc_333_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+            <div type="sign" facs="#zone_vvk_j33_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="buyuruldu" facs="#zone_vl5_k33_cjb">
+            <p>
+               <lb/>buyuruldu fī <date when-custom="1241-01-13">13 M sene 1241</date><lb/>
+            </p>
+         </div>
+         <div type="summary_Croatian" facs="#zone_ovm_n33_cjb">
+            <p>
+               <lb/><date when="1825-08">Augusta 1825</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

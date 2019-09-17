@@ -8,24 +8,53 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1311/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1311/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c93704cfef9a0da6d88f7b69ba20be60e6e62aaf.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1311/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/915c34f08b101666b0259369fa8fa6ab64e18964.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/c93704cfef9a0da6d88f7b69ba20be60e6e62aaf.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1311/canvas/p1"/>
+            <zone xml:id="zone_rsh_2k3_cjb" lry="2909" lrx="1973" uly="81" ulx="127"/>
+            <zone xml:id="zone_lkg_fk3_cjb" lry="2325" lrx="379" uly="2055" ulx="195"/>
+            <zone xml:id="zone_nds_fk3_cjb" lry="2312" lrx="356" uly="2176" ulx="210"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/915c34f08b101666b0259369fa8fa6ab64e18964.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1311/canvas/p2"/>
+            <zone xml:id="zone_irc_hk3_cjb" lry="1883" lrx="2650" uly="605" ulx="139"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="kâğıt" cert="unknown" facs="#zone_rsh_2k3_cjb">
+            <p>
+               <lb/>... <date when-custom="1273-07-25">fi'l-yevmi'l-hāmis ve'l-ʿaşrūn min şehr Recebi'l-... sene<lb/>
+               <lb/>suls ve sabʿīn ve mieteyn ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_lkg_fk3_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_nds_fk3_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_irc_hk3_cjb">
+            <p>
+               <lb/>... <date when="1857">1857</date><lb/>
+               <lb/>gr 110.<lb/>
+               <lb/>Nno 27. <date when-custom="1254-07">Redjep 1254</date><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
