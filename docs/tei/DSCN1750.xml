@@ -1,37 +1,52 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1750</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型"
-  ],
-  "saji:type": [
-    "ṣūret-i ṭapu senedi"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1282/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1282/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ff626d177c9639d3e05d6183bd977bee102c8859.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1282/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/23b9c9a486daa6b33f2f78c27c461cba95258312.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1750</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ],
+          "saji:type": [ "ṣūret-i ṭapu senedi" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1282/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/ff626d177c9639d3e05d6183bd977bee102c8859.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1282/canvas/p1"/>
+        <zone xml:id="zone_wyx_ygh_cjb" lry="2784" lrx="2208" uly="569" ulx="362"/>
+        <zone xml:id="zone_e13_3hh_cjb" lry="2632" lrx="1663" uly="2380" ulx="1293"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/23b9c9a486daa6b33f2f78c27c461cba95258312.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1282/canvas/p2"/>
+        <zone xml:id="zone_n4q_jhh_cjb" lry="1261" lrx="3189" uly="788" ulx="67"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tapu_senedi_sūret" facs="#zone_wyx_ygh_cjb">
+        <p>
+          <lb/>... fī <date when-custom="1283-05-07">7 Cemaziye'l-evvel sene 1283</date><lb/>
+        </p>
+        <div type="stamp" facs="#zone_e13_3hh_cjb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>        
+      </div>
+      <div type="summary_Croatian" facs="#zone_n4q_jhh_cjb">
+        <p>
+          <lb/>Nno 17.<lb/>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

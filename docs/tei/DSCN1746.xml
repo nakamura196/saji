@@ -8,24 +8,49 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1278/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1278/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/776472d624785e6aa18d5292980edb603fa037e5.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1278/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/61de4ae7da5d20489ce9a6febfb9d01568de81de.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1278/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/2ee56862d7691382f021e5ce55a9e99669ee8292.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/776472d624785e6aa18d5292980edb603fa037e5.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1278/canvas/p1"/>
+            <zone xml:id="zone_ld5_1fh_cjb" lry="3014" lrx="2250" uly="2235" ulx="43"/>
+            <zone xml:id="zone_qlk_kfh_cjb" lry="2897" lrx="315" uly="2724" ulx="55"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1278/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/61de4ae7da5d20489ce9a6febfb9d01568de81de.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/2ee56862d7691382f021e5ce55a9e99669ee8292.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1278/canvas/p3"/>
+            <zone xml:id="zone_vxk_cfh_cjb" lry="1327" lrx="2573" uly="838" ulx="450"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="iʿlām" facs="#zone_ld5_1fh_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1218-01-05">5 el-yevm M sene 1218</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_qlk_kfh_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_vxk_cfh_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

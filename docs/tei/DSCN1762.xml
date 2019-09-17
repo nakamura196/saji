@@ -8,24 +8,50 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1294/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1294/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3760661f12291c9f9903b2f7a76023a08c1443ca.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1294/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a006293a1e6aab9fb5a227e8329adb2a275eabbf.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/3760661f12291c9f9903b2f7a76023a08c1443ca.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1294/canvas/p1"/>
+            <zone xml:id="zone_fn1_cqh_cjb" lry="2941" lrx="1875" uly="175" ulx="54"/>
+            <zone xml:id="zone_aw2_dqh_cjb" lry="2865" lrx="376" uly="2626" ulx="77"/>
+            <zone xml:id="zone_bk3_2qh_cjb" lry="2345" lrx="1858" uly="100" ulx="62"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a006293a1e6aab9fb5a227e8329adb2a275eabbf.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1294/canvas/p2"/>
+            <zone xml:id="zone_lx1_mqh_cjb" lry="1033" lrx="3150" uly="616" ulx="45"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="ʿarz-ı_hāl" facs="#zone_fn1_cqh_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+            <div type="sign" facs="#zone_aw2_dqh_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+         </div>
+         <div type="buyuruldu" facs="#zone_bk3_2qh_cjb">
+            <p>
+               <lb/>... buyuruldu fī <date when-custom="1176-01-13">13 M sene 176</date><lb/>
+            </p>
+         </div>
+         <div type="summary_Serbian" facs="#zone_lx1_mqh_cjb">
+            <p>
+               <lb/>... <date when="1762">1762</date> Krescev.<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

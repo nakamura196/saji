@@ -8,24 +8,51 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1289/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1289/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2c3ae2afb608b99fb16b6c9f3751a6ee535e276b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1289/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ba822bf11466855ad3d0366332b96dfbdc89c2b9.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/2c3ae2afb608b99fb16b6c9f3751a6ee535e276b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1289/canvas/p1"/>
+            <zone xml:id="zone_zy1_rnh_cjb" lry="2945" lrx="1627" uly="435" ulx="130"/>
+            <zone xml:id="zone_jpf_snh_cjb" lry="2900" lrx="625" uly="2598" ulx="440"/>
+            <zone xml:id="zone_pv1_tnh_cjb" lry="1537" lrx="1612" uly="802" ulx="182"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/ba822bf11466855ad3d0366332b96dfbdc89c2b9.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1289/canvas/p2"/>
+            <zone xml:id="zone_rjg_wnh_cjb" lry="861" lrx="3089" uly="555" ulx="184"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="mürāsele" facs="#zone_zy1_rnh_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1198-03">Rebi'ü'l-evvel sene 1198</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_jpf_snh_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="buyuruldu" facs="#zone_pv1_tnh_cjb">
+            <p>
+               <lb/>buyuruldu fī <date when-custom="1198-02-13">13 S sene 198</date><lb/>
+            </p>
+         </div>
+         <div type="summary_Croatian" facs="#zone_rjg_wnh_cjb">
+            <p>
+               <lb/>... <date when="1784">1784</date> ...<lb/>
+               <lb/>... <date when-custom="1198">1198</date>. ...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

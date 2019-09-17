@@ -7,25 +7,54 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：年 1201 or 1202 下一桁の読み取りを確認。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1275/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1275/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/45c6e35c235a183e0d22f4117f0b7682307e2917.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1275/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/90008f4866f5c41e9514376433ed96b71ecceb8b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1275/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/bc80bf258bd81a97f29a13522f5b05c1282492b8.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/45c6e35c235a183e0d22f4117f0b7682307e2917.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1275/canvas/p1"/>
+            <zone xml:id="zone_m2n_f2h_cjb" lry="3018" lrx="1473" uly="245" ulx="236"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/90008f4866f5c41e9514376433ed96b71ecceb8b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1275/canvas/p2"/>
+            <zone xml:id="zone_dhk_rfh_cjb" lry="2020" lrx="918" uly="1685" ulx="206"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/bc80bf258bd81a97f29a13522f5b05c1282492b8.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1275/canvas/p3"/>
+            <zone xml:id="zone_d1s_h2h_cjb" lry="598" lrx="666" uly="410" ulx="438"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="iʿlām" facs="#zone_m2n_f2h_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1202-04-01" cert="medium">gürre Rebī'ü'l-āhir sene
+                  1202</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_dhk_rfh_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="stamp" facs="#zone_d1s_h2h_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>
