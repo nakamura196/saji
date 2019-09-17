@@ -7,25 +7,78 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">鉄鉱山</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1338/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1338/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/12c10ae78e6084700d3796e1f46fafc25a958471.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1338/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e0313264b57b56843642e42237d5b79e1bd73b26.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/12c10ae78e6084700d3796e1f46fafc25a958471.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1338/canvas/p1"/>
+            <zone xml:id="zone_vcb_z2j_cjb" lry="2845" lrx="1645" uly="200" ulx="54"/>
+            <zone xml:id="zone_ohd_1fj_cjb" lry="2833" lrx="798" uly="2656" ulx="620"/>
+            <zone xml:id="zone_cyw_1fj_cjb" lry="2826" lrx="584" uly="2629" ulx="387"/>
+            <zone xml:id="zone_e3p_bfj_cjb" lry="2783" lrx="352" uly="2584" ulx="169"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/e0313264b57b56843642e42237d5b79e1bd73b26.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1338/canvas/p2"/>
+            <zone xml:id="zone_fm3_2fj_cjb" lry="1820" lrx="2227" uly="1564" ulx="1940"/>
+            <zone xml:id="zone_sft_2fj_cjb" lry="1810" lrx="1704" uly="1533" ulx="1393"/>
+            <zone xml:id="zone_a2j_ffj_cjb" lry="1847" lrx="1322" uly="1605" ulx="989"/>
+            <zone xml:id="zone_gvz_ffj_cjb" lry="629" lrx="2077" uly="404" ulx="612"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="zabt_temessük" facs="#zone_vcb_z2j_cjb">
+            <p>
+               <lb/>işbu <date when-custom="1189">bin yüz sekisen dokuz senes</date>i ... maʿden-i āhen Kirşevo<lb/>
+            </p>
+            <div type="sign" facs="#zone_ohd_1fj_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_fm3_2fj_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>
+            <div type="sign" facs="#zone_cyw_1fj_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_sft_2fj_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>
+            <div type="sign" facs="#zone_e3p_bfj_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_a2j_ffj_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_gvz_ffj_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

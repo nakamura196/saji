@@ -1,37 +1,46 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1802</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型"
-  ],
-  "saji:type": [
-    "şukka"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1333/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1333/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d193950348b86f6e0c0fdfb1dc9eee5eccec373b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1333/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/51ac638a3b9dc0213c93dc740e1c35cf0b171aba.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1802</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1333/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/d193950348b86f6e0c0fdfb1dc9eee5eccec373b.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1333/canvas/p1"/>
+        <zone xml:id="zone_umy_fdj_cjb" lry="2180" lrx="2186" uly="220" ulx="120"/>
+        <zone xml:id="zone_rxy_hdj_cjb" lry="1715" lrx="667" uly="1548" ulx="478"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1333/canvas/p2"
+          url="https://diyhistory.org/public/phr2/files/original/51ac638a3b9dc0213c93dc740e1c35cf0b171aba.jpg"
+        />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="şükka" facs="#zone_umy_fdj_cjb">
+        <p>
+          <lb/>... fī <lb/>
+        </p>
+        <div type="stamp" facs="#zone_rxy_hdj_cjb">
+          <p>
+            <lb/>... fī <date when-custom="1290-11-16">16 Zi'l-kaʿade sene 290</date> ve fī <date when-custom="1289--24">24 ... sene 289</date><lb/>
+            <lb/>fī <date when-custom="1289--02">2 ... sene 89</date>...<lb/>            
+          </p>
+        </div>        
+      </div>      
+    </body>
+  </text>
 </TEI>
