@@ -8,24 +8,50 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1370/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1370/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ece1282c3d32379433d53e007ecab65c09d5c3be.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1370/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/005837dc341def8b8c77d54ee1e35c526e6492ae.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/ece1282c3d32379433d53e007ecab65c09d5c3be.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1370/canvas/p1"/>
+            <zone xml:id="zone_up3_c1q_cjb" lry="3145" lrx="1563" uly="318" ulx="554"/>
+            <zone xml:id="zone_rgt_d1q_cjb" lry="876" lrx="1247" uly="375" ulx="789"/>
+            <zone xml:id="zone_j1g_21q_cjb" lry="869" lrx="1079" uly="750" ulx="924"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/005837dc341def8b8c77d54ee1e35c526e6492ae.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1370/canvas/p2"/>
+            <zone xml:id="zone_o1g_f1q_cjb" lry="1405" lrx="2867" uly="1055" ulx="500"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_up3_c1q_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1189-08-01">gürre-i Şaʿabānı'l-muʿazzam sene tisʿ ve semānīn ve mie ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_rgt_d1q_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_j1g_21q_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div type="summary_Crotatian" facs="#zone_o1g_f1q_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

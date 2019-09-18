@@ -7,25 +7,56 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：アラビア語が変で読み取りが合っているか分からない。</note>
+            <note type="mine">【要】日付：クロアチア語要約の月も読み取れない。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1368/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1368/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0755587314f5d470a6e1626352af2feefb3db083.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1368/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/835212daa2d48d8e54c508506bb797fc0a969628.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/0755587314f5d470a6e1626352af2feefb3db083.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1368/canvas/p1"/>
+            <zone xml:id="zone_u3k_xxp_cjb" lry="2936" lrx="1609" uly="54" ulx="582"/>
+            <zone xml:id="zone_okm_yxp_cjb" lry="720" lrx="1253" uly="80" ulx="734"/>
+            <zone xml:id="zone_aqc_zxp_cjb" lry="704" lrx="1065" uly="566" ulx="920"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/835212daa2d48d8e54c508506bb797fc0a969628.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1368/canvas/p2"/>
+            <zone xml:id="zone_xng_1yp_cjb" lry="872" lrx="2312" uly="272" ulx="700"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_u3k_xxp_cjb">
+            <p>
+               <lb/>... min <date when-custom="1222-10-12" cert="low">el-şehr Şevvāl mükerrem min yevm<lb/>
+               <lb/>ʿaşar isnā sene isnā ʿaşrīn mieteyn ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_okm_yxp_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_aqc_zxp_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Crotatian">
+            <p>
+               <lb/>Die <date when="1807-11-28" cert="unknown">28 ... 1807</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

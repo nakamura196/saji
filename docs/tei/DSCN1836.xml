@@ -8,24 +8,33 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1367/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1367/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/fa605f1edbc6d9c76ec9c73adce7045eb6c0b2d1.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/fa605f1edbc6d9c76ec9c73adce7045eb6c0b2d1.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1367/canvas/p1"/>
+            <zone xml:id="zone_pff_zwp_cjb" lry="1758" lrx="2188" uly="370" ulx="106"/>
+            <zone xml:id="zone_avf_1xp_cjb" lry="1592" lrx="880" uly="1448" ulx="726"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="şukka" cert="low" facs="#zone_pff_zwp_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1294-02-18">18 Safer sene 294</date> ve fī <date when-custom="1292--20" cert="unknown">20 ... sene 92</date><lb/>
+            </p>
+            <div type="stamp" facs="#zone_avf_1xp_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>         
       </body>
    </text>
 </TEI>

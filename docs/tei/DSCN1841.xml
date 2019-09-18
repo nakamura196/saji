@@ -8,24 +8,62 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1372/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1372/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5a463b8588eb2605a4c9de420421ec1e72ed0cbc.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1372/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ff7e13259effa7ab50a639de795b3873e54fd9cc.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/5a463b8588eb2605a4c9de420421ec1e72ed0cbc.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1372/canvas/p1"/>
+            <zone xml:id="zone_ddr_s1q_cjb" lry="3018" lrx="1591" uly="272" ulx="545"/>
+            <zone xml:id="zone_lvl_51q_cjb" lry="873" lrx="1175" uly="403" ulx="753"/>
+            <zone xml:id="zone_udh_v1q_cjb" lry="859" lrx="1048" uly="715" ulx="892"/>
+            <zone xml:id="zone_avw_v1q_cjb" lry="942" lrx="1548" uly="319" ulx="1126"/>
+            <zone xml:id="zone_gsp_w1q_cjb" lry="932" lrx="1407" uly="785" ulx="1228"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/ff7e13259effa7ab50a639de795b3873e54fd9cc.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1372/canvas/p2"/>
+            <zone xml:id="zone_b15_x1q_cjb" lry="988" lrx="3073" uly="733" ulx="150"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_ddr_s1q_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1186-04-11-20">evāsit Rebī'ü'l-āhir sene sitte ve semānīn ve mie ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_lvl_51q_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_udh_v1q_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+            <div type="sign" facs="#zone_avw_v1q_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_gsp_w1q_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div type="summary_Crotatian" facs="#zone_b15_x1q_cjb">
+            <p>
+               <lb/>... <date when="1772">1772</date><lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>
