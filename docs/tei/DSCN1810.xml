@@ -7,25 +7,79 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：月、DSCN1809.JPG, DSCN1816/JPGと同じ書き方をしているが読み取れない。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1341/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1341/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f7cb09b76007a40b670d07f7c5ab32781e247498.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/f7cb09b76007a40b670d07f7c5ab32781e247498.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1341/canvas/p1"/>
+            <zone xml:id="zone_a4p_1l4_cjb" lry="2869" lrx="1639" uly="223" ulx="331"/>
+            <zone xml:id="zone_sfx_bl4_cjb" lry="2773" lrx="1575" uly="2587" ulx="1435"/>
+            <zone xml:id="zone_fvm_cl4_cjb" lry="2771" lrx="1568" uly="2657" ulx="1442"/>
+            <zone xml:id="zone_vgd_dl4_cjb" lry="2771" lrx="1300" uly="2603" ulx="1132"/>
+            <zone xml:id="zone_qdq_dl4_cjb" lry="2754" lrx="1276" uly="2643" ulx="1157"/>
+            <zone xml:id="zone_udf_2l4_cjb" lry="2825" lrx="956" uly="2622" ulx="788"/>
+            <zone xml:id="zone_qss_2l4_cjb" lry="2813" lrx="946" uly="2677" ulx="798"/>
+            <zone xml:id="zone_y2k_fl4_cjb" lry="2786" lrx="642" uly="2614" ulx="503"/>
+            <zone xml:id="zone_lky_fl4_cjb" lry="2778" lrx="632" uly="2667" ulx="511"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="tapu_senedi" facs="#zone_a4p_1l4_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1280--20">20 ... sene 1280</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_sfx_bl4_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_fvm_cl4_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+            <div type="sign" facs="#zone_vgd_dl4_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_qdq_dl4_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+            <div type="sign" facs="#zone_udf_2l4_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_qss_2l4_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+            <div type="sign" facs="#zone_y2k_fl4_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_lky_fl4_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
       </body>
    </text>
 </TEI>

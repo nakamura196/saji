@@ -8,24 +8,44 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1345/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1345/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4c051f4a2e2a9c4b95932a07abc8c3cfa9141e0d.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1345/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e4e951cf048a3b098fb764fcef1f8b31eee050a6.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/4c051f4a2e2a9c4b95932a07abc8c3cfa9141e0d.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1345/canvas/p1"/>
+            <zone xml:id="zone_s1q_tn4_cjb" lry="3245" lrx="1544" uly="712" ulx="522"/>
+            <zone xml:id="zone_ygq_5n4_cjb" lry="1298" lrx="1045" uly="730" ulx="615"/>
+            <zone xml:id="zone_kss_vn4_cjb" lry="1286" lrx="896" uly="1140" ulx="720"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1345/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/e4e951cf048a3b098fb764fcef1f8b31eee050a6.jpg"
+            />
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_s1q_tn4_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1125-05-01">gürre-i Cemaziye'l-evvel sene hıms ve ʿaşrīn ve mie ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_ygq_5n4_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_kss_vn4_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
       </body>
    </text>
 </TEI>

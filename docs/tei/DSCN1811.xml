@@ -8,24 +8,51 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1342/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1342/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2c82310a88cd6e06666986549cc2b5b848853ef5.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1342/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6b243b8bfb4afcfbcd6af435ea8434ebc03d34c1.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/2c82310a88cd6e06666986549cc2b5b848853ef5.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1342/canvas/p1"/>
+            <zone xml:id="zone_jpb_sl4_cjb" lry="3025" lrx="1550" uly="316" ulx="442"/>
+            <zone xml:id="zone_xzj_tl4_cjb" lry="875" lrx="1106" uly="349" ulx="716"/>
+            <zone xml:id="zone_rnj_5l4_cjb" lry="865" lrx="1026" uly="737" ulx="863"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/6b243b8bfb4afcfbcd6af435ea8434ebc03d34c1.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1342/canvas/p2"/>
+            <zone xml:id="zone_bbp_vl4_cjb" lry="1255" lrx="2701" uly="700" ulx="512"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_jpb_sl4_cjb">
+            <p>
+               <lb/>... <date when-custom="1255-08-05">fi'l-yevmi'l-hāmis min şehr Şaʿabānı'l-muʿazzam<lb/>
+               <lb/>sene hamıs ve hamsīn ve mieteyn ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_xzj_tl4_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_rnj_5l4_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_bbp_vl4_cjb">
+            <p>
+               <lb/><date when="1839">1839</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
