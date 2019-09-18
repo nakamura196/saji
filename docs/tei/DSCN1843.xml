@@ -8,24 +8,39 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1374/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1374/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/236904cd7b07c3b84f41fd44d431dad587e2f0ed.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/236904cd7b07c3b84f41fd44d431dad587e2f0ed.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1374/canvas/p1"/>
+            <zone xml:id="zone_xht_rbq_cjb" lry="3063" lrx="1782" uly="109" ulx="109"/>
+            <zone xml:id="zone_rhx_sbq_cjb" lry="3042" lrx="450" uly="2663" ulx="139"/>
+            <zone xml:id="zone_cjv_tbq_cjb" lry="1547" lrx="1292" uly="126" ulx="148"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="ʿarz-ı_hāl" facs="#zone_xht_rbq_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+            <div type="sign" facs="#zone_rhx_sbq_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="buyuruldu" facs="#zone_cjv_tbq_cjb">
+            <p>
+               <lb/>buyuruldu fī <date when-custom="1241-10-27">27 Ş sene 241</date><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
