@@ -7,9 +7,12 @@
       <publicationStmt>
         <p>Publication Information</p>
       </publicationStmt>
+      <notesStmt>
+        <note type="mine">定型句の形が装飾的で面白い</note>
+      </notesStmt>
       <sourceDesc>
         <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [
-          "典型\r\n・定型句の形が装飾的で面白い" ]}</p>
+          "典型" ]}</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -19,12 +22,30 @@
         <graphic
           url="https://diyhistory.org/public/phr2/files/original/102b44f0ebd78777abf31641c0abb753c422abf2.jpg"
           n="https://diyhistory.org/public/phr2/iiif/1380/canvas/p1"/>
+        <zone xml:id="zone_o3q_c3q_cjb" lry="3120" lrx="1530" uly="110" ulx="590"/>
+        <zone xml:id="zone_htz_d3q_cjb" lry="942" lrx="1121" uly="151" ulx="674"/>
+        <zone xml:id="zone_sxb_f3q_cjb" lry="944" lrx="976" uly="800" ulx="806"/>
       </surface>
     </surfaceGrp>
   </facsimile>
   <text>
     <body>
-      <div type="hüccet"/>
+      <div type="hüccet" facs="#zone_o3q_c3q_cjb">
+        <p>
+          <lb/>... <date when-custom="1251-04-07">fi'l-yevmi'l-sābiʿ min şehr<lb/>
+          <lb/>Rebī'ü'l-āhir sene ahadā ve hamsīn ve mieteyn ve elif</date><lb/>
+        </p>
+        <div type="sign" facs="#zone_htz_d3q_cjb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div type="stamp" facs="#zone_sxb_f3q_cjb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>          
+        </div>        
+      </div>
     </body>
   </text>
 </TEI>

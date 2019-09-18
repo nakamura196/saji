@@ -8,24 +8,44 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1383/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1383/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c03fbf5a5963246aea2bf23a4cb896cbd2394447.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1383/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/41126358731753c8a2a111cff01d6713e357a556.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/c03fbf5a5963246aea2bf23a4cb896cbd2394447.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1383/canvas/p1"/>
+            <zone xml:id="zone_rpr_fkq_cjb" lry="2981" lrx="1445" uly="136" ulx="173"/>
+            <zone xml:id="zone_qbv_gkq_cjb" lry="2916" lrx="542" uly="2651" ulx="214"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/41126358731753c8a2a111cff01d6713e357a556.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1383/canvas/p2"/>
+            <zone xml:id="zone_d23_3kq_cjb" lry="1338" lrx="2167" uly="877" ulx="1095"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="iʿlām" facs="#zone_rpr_fkq_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1213-03-05" cert="low">5 Ra sene 1213</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_qbv_gkq_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_d23_3kq_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

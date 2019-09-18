@@ -8,27 +8,61 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:type": [
-    "ṣūret-i (‘arż-ı ḥāl+buyuruldu)"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:type": [
+               "ṣūret-i (‘arż-ı ḥāl+buyuruldu)" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1385/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1385/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7b8231c843a0e986ba0e5c04a8a47a408c1d2c5e.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/7b8231c843a0e986ba0e5c04a8a47a408c1d2c5e.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1385/canvas/p1"/>
+            <zone xml:id="zone_cmm_xkq_cjb" lry="3175" lrx="1995" uly="440" ulx="80"/>
+            <zone xml:id="zone_xfl_zkq_cjb" lry="3170" lrx="1655" uly="1565" ulx="100"/>
+            <zone xml:id="zone_psp_blq_cjb" lry="3170" lrx="562" uly="2905" ulx="182"/>
+            <zone xml:id="zone_unb_dlq_cjb" lry="1582" lrx="1638" uly="510" ulx="127"/>
+            <zone xml:id="zone_ysc_2lq_cjb" lry="775" lrx="1107" uly="524" ulx="307"/>
+            <zone xml:id="zone_pwl_flq_cjb" lry="1452" lrx="1984" uly="1123" ulx="1602"/>
+            <zone xml:id="zone_rwp_glq_cjb" lry="1336" lrx="1977" uly="1197" ulx="1861"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="ʿarz-ı_hāl_buyuruldu_sūret" facs="#zone_cmm_xkq_cjb">
+            <div type="ʿarz-ı_hāl_sūret" facs="#zone_xfl_zkq_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="sign_sūret" facs="#zone_psp_blq_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>
+            <div type="buyuruldu_sūret" facs="#zone_unb_dlq_cjb">
+               <p>
+                  <lb/>... fī <date when-custom="1199-02-27">27 S sene 199</date><lb/>
+               </p>
+               <div type="stamp_sūret" facs="#zone_ysc_2lq_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>
+            <div type="sign" facs="#zone_pwl_flq_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_rwp_glq_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>         
       </body>
    </text>
 </TEI>

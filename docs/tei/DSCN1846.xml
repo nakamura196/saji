@@ -7,25 +7,48 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：年日の読み取り不十分</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1377/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1377/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/bc270843971d710f30a47d2219e0ab38d8d11b64.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1377/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2ebf5f450dc4010bd314676f52c9f47e80dbeb2a.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/bc270843971d710f30a47d2219e0ab38d8d11b64.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1377/canvas/p1"/>
+            <zone xml:id="zone_wbh_vgq_cjb" lry="2975" lrx="2017" uly="225" ulx="133"/>
+            <zone xml:id="zone_rwr_wgq_cjb" lry="2951" lrx="495" uly="2651" ulx="282"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/2ebf5f450dc4010bd314676f52c9f47e80dbeb2a.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1377/canvas/p2"/>
+            <zone xml:id="zone_f4l_zgq_cjb" lry="933" lrx="2262" uly="733" ulx="445"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN" cert="unknown" facs="#zone_wbh_vgq_cjb">
+            <p>
+               <lb/>işbu <date when-custom="1188-10" cert="unknown">bin yüz sekisen sekiz senesinde māh Şevvālı'l-</date>...<lb/>
+            </p>
+            <div type="sign" facs="#zone_rwr_wgq_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_f4l_zgq_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

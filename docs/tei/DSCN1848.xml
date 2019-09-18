@@ -8,24 +8,33 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1379/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1379/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e28b86964ec110e0e50b9877dc8f8c93c1e422dc.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/e28b86964ec110e0e50b9877dc8f8c93c1e422dc.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1379/canvas/p1"/>
+            <zone xml:id="zone_rzn_5hq_cjb" lry="2800" lrx="2074" uly="1463" ulx="174"/>
+            <zone xml:id="zone_h1r_vhq_cjb" lry="2781" lrx="570" uly="2373" ulx="325"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="ʿarz-ı_hāl" facs="#zone_rzn_5hq_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+            <div type="sign" facs="#zone_h1r_vhq_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>         
       </body>
    </text>
 </TEI>
