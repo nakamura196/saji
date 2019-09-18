@@ -7,25 +7,54 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">buyurulduの筆跡から、全体が写しの可能性がある。しかし、写しであるという記述や署名がないことから、原本の可能性もある。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1349/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1349/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b72db84869fc8213d5856c5426bc3c6c33ffca85.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1349/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/5cb4608ab4aecd733175af4a694d5455dd8a9d72.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/b72db84869fc8213d5856c5426bc3c6c33ffca85.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1349/canvas/p1"/>
+            <zone xml:id="zone_ers_ds4_cjb" lry="3058" lrx="1767" uly="1408" ulx="158"/>
+            <zone xml:id="zone_w5m_3s4_cjb" lry="2998" lrx="529" uly="2694" ulx="320"/>
+            <zone xml:id="zone_urn_js4_cjb" lry="1388" lrx="1324" uly="673" ulx="162"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/5cb4608ab4aecd733175af4a694d5455dd8a9d72.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1349/canvas/p2"/>
+            <zone xml:id="zone_kg2_ls4_cjb" lry="761" lrx="2462" uly="533" ulx="284"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="mürāsele" facs="#zone_ers_ds4_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1198-03">Rebi'ü'l-evvel sene 1198</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_w5m_3s4_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="buyuruldu" facs="#zone_urn_js4_cjb">
+            <p>
+               <lb/>buyuruldu fī <date when-custom="1198-02-13">S 13 sene 1198</date><lb/>
+            </p>
+         </div>
+         <div type="summary_Croatian" facs="#zone_kg2_ls4_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
