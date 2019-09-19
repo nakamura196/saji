@@ -1,34 +1,88 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1889</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1419/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1419/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/face7678864eb415f796b2e393edd4e97ba0bef4.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1419/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7e46934fe8c510637965b57fa20842fac4a4398e.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="ʿilmühaber_tapu_senedi"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1889</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ]
+          }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1419/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/face7678864eb415f796b2e393edd4e97ba0bef4.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1419/canvas/p1"/>
+        <zone xml:id="zone_tch_w5w_cjb" lry="3190" lrx="2050" uly="210" ulx="250"/>
+        <zone xml:id="zone_slq_x5w_cjb" lry="3118" lrx="1849" uly="2939" ulx="1649"/>
+        <zone xml:id="zone_kqg_y5w_cjb" lry="3109" lrx="1824" uly="2992" ulx="1681"/>
+        <zone xml:id="zone_z3z_y5w_cjb" lry="3120" lrx="1514" uly="2951" ulx="1293"/>
+        <zone xml:id="zone_bt5_z5w_cjb" lry="3170" lrx="1114" uly="2878" ulx="920"/>
+        <zone xml:id="zone_k2m_1vw_cjb" lry="3162" lrx="1107" uly="3007" ulx="929"/>
+        <zone xml:id="zone_o2b_bvw_cjb" lry="3151" lrx="785" uly="2885" ulx="577"/>
+        <zone xml:id="zone_ky4_bvw_cjb" lry="3146" lrx="770" uly="2996" ulx="601"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/7e46934fe8c510637965b57fa20842fac4a4398e.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1419/canvas/p2"/>
+        <zone xml:id="zone_gc1_dvw_cjb" lry="1794" lrx="2900" uly="294" ulx="362"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="ʿilmühaber_tapu_senedi" facs="#zone_tch_w5w_cjb">
+        <p>
+          <lb/>... fī <date when-custom="unknown"> sene 12</date><lb/>
+        </p>
+        <div type="sign" facs="#zone_slq_x5w_cjb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div type="stamp" facs="#zone_kqg_y5w_cjb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>
+        </div>
+        <div type="sign" facs="#zone_z3z_y5w_cjb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>
+        <div type="sign" facs="#zone_bt5_z5w_cjb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div type="stamp" facs="#zone_k2m_1vw_cjb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>
+        </div>
+        <div type="sign" facs="#zone_o2b_bvw_cjb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div type="stamp" facs="#zone_ky4_bvw_cjb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div type="summary_Croatian" facs="#zone_gc1_dvw_cjb">
+        <p>
+          <lb/>... <date when="1880">1880</date> ... <lb/>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

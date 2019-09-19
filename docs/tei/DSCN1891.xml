@@ -8,24 +8,80 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1421/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1421/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f6c60878a1b71ad8922f9293724a8ba562950a60.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1421/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/006a69b668ddc0a2830d0d5967fcd52030458d4f.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/f6c60878a1b71ad8922f9293724a8ba562950a60.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1421/canvas/p1"/>
+            <zone xml:id="zone_jhv_4ww_cjb" lry="3145" lrx="1954" uly="345" ulx="273"/>
+            <zone xml:id="zone_lyj_qww_cjb" lry="3082" lrx="1750" uly="2912" ulx="1580"/>
+            <zone xml:id="zone_wkx_qww_cjb" lry="3068" lrx="1729" uly="2962" ulx="1600"/>
+            <zone xml:id="zone_glp_rww_cjb" lry="3072" lrx="1453" uly="2917" ulx="1257"/>
+            <zone xml:id="zone_wrd_sww_cjb" lry="3117" lrx="1103" uly="2852" ulx="913"/>
+            <zone xml:id="zone_lss_sww_cjb" lry="3117" lrx="1101" uly="2973" ulx="936"/>
+            <zone xml:id="zone_i43_tww_cjb" lry="3089" lrx="753" uly="2874" ulx="574"/>
+            <zone xml:id="zone_dkb_5ww_cjb" lry="3084" lrx="746" uly="2949" ulx="581"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/006a69b668ddc0a2830d0d5967fcd52030458d4f.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1421/canvas/p2"/>
+            <zone xml:id="zone_u3j_vww_cjb" lry="1805" lrx="2956" uly="611" ulx="256"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="ʿilmühaber_tapu_senedi" facs="#zone_jhv_4ww_cjb">
+            <p>
+               <lb/>... fī <date when-custom="unknown"> sene 12</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_lyj_qww_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_wkx_qww_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+            <div type="sign" facs="#zone_glp_rww_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+            <div type="sign" facs="#zone_wrd_sww_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_lss_sww_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+            <div type="sign" facs="#zone_i43_tww_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_dkb_5ww_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div type="summary_Croatian" facs="#zone_u3j_vww_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>
