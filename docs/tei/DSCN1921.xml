@@ -7,25 +7,66 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】DSCN1921.JPGは、DSCN1925.JPGの写しの可能性あり。要確認。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1451/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1451/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a402f08eeb756e7960fc3479442ff8c976319373.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1451/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/347186aa4a7152f5d0a828efb6102ca777bb750b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1451/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5f4c244b6d5e351e8fb3e3e78c06709273b39241.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1451/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/0c3b95d6daf9fd16b55347006fd93629c4b9227b.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a402f08eeb756e7960fc3479442ff8c976319373.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1451/canvas/p1"/>
+            <zone xml:id="zone_yfl_l5x_cjb" lry="3127" lrx="1873" uly="81" ulx="491"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/347186aa4a7152f5d0a828efb6102ca777bb750b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1451/canvas/p2"/>
+            <zone xml:id="zone_efl_n5x_cjb" lry="1116" lrx="962" uly="391" ulx="304"/>
+            <zone xml:id="zone_w5z_n5x_cjb" lry="1079" lrx="887" uly="875" ulx="629"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1451/canvas/p3"
+               url="https://diyhistory.org/public/phr2/files/original/5f4c244b6d5e351e8fb3e3e78c06709273b39241.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/0c3b95d6daf9fd16b55347006fd93629c4b9227b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1451/canvas/p4"/>
+            <zone xml:id="zone_mzk_p5x_cjb" lry="2207" lrx="3200" uly="560" ulx="80"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet_sūret" facs="#zone_yfl_l5x_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1256-11-09">yevmi'l-tāsiʿ min şehr Zi'l-kaʿade sene
+                  sitte ve hamsīn ve mieteyn<lb/>
+                  <lb/>ve elif</date><lb/>
+            </p>
+            <div type="sign_sūret" facs="#zone_efl_n5x_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp_sūret" facs="#zone_w5z_n5x_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div type="summary_Croatian" facs="#zone_mzk_p5x_cjb">
+            <p>
+               <lb/><date when="1841">1841</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

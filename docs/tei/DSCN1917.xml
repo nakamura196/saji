@@ -8,24 +8,31 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1447/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1447/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f2c1bd3a317cd49b8b85b890acb2c2c74a24761c.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1447/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c3282d89befdcc727fcfe278eb9a28bf4734c5b2.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/f2c1bd3a317cd49b8b85b890acb2c2c74a24761c.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1447/canvas/p1"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1447/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/c3282d89befdcc727fcfe278eb9a28bf4734c5b2.jpg"
+            />
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="unknown_Croatian">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

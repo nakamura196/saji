@@ -7,25 +7,70 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】DSCN1921.JPGは、DSCN1925.JPGの写しの可能性あり。要確認。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1455/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1455/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f9a008c8ab15fa38d4d64e12fb13f09b9c29b38d.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1455/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/cbf3fa8d423e8605c93893b8bc021ee29c042e39.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1455/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/2492a1838c8817bdd3a0dc7829b6627f96f03920.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1455/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/1e1afaae08da1af7047145bd246e09bff203afd5.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1455/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/13976dd867a07a55135713a9989f1fed256b4817.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/f9a008c8ab15fa38d4d64e12fb13f09b9c29b38d.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1455/canvas/p1"/>
+            <zone xml:id="zone_pkd_qvx_cjb" lry="3210" lrx="1670" uly="120" ulx="590"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/cbf3fa8d423e8605c93893b8bc021ee29c042e39.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1455/canvas/p2"/>
+            <zone xml:id="zone_oyf_tvx_cjb" lry="1102" lrx="1464" uly="317" ulx="879"/>
+            <zone xml:id="zone_bxx_tvx_cjb" lry="1089" lrx="1358" uly="875" ulx="1125"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1455/canvas/p3"
+               url="https://diyhistory.org/public/phr2/files/original/2492a1838c8817bdd3a0dc7829b6627f96f03920.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1455/canvas/p4"
+               url="https://diyhistory.org/public/phr2/files/original/1e1afaae08da1af7047145bd246e09bff203afd5.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/13976dd867a07a55135713a9989f1fed256b4817.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1455/canvas/p5"/>
+            <zone xml:id="zone_ntq_vvx_cjb" lry="1788" lrx="2789" uly="966" ulx="617"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_pkd_qvx_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1256-11-09">yevmi'l-tāsiʿ min şehr Zi'l-kaʿade<lb/>
+               <lb/>sene sitte ve hamsīn ve mieteyn ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_oyf_tvx_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_bxx_tvx_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_ntq_vvx_cjb">
+            <p>
+               <lb/>... <date when="1841">1841</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
