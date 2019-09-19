@@ -1,37 +1,43 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1914</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型"
-  ],
-  "saji:type": [
-    "fetvā"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1444/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1444/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/43a85a3a5f28b69bf6f83a461de9a39db3df8d13.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1914</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">オスマン帝国史料解題にfetvāの様式について解説がある。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1444/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/43a85a3a5f28b69bf6f83a461de9a39db3df8d13.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1444/canvas/p1"/>
+        <zone xml:id="zone_dkp_ygx_cjb" lry="3267" lrx="1944" uly="56" ulx="144"/>
+        <zone xml:id="zone_wmj_bhx_cjb" lry="2356" lrx="753" uly="1552" ulx="218"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="fetvā" facs="#zone_dkp_ygx_cjb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div type="sign" facs="#zone_wmj_bhx_cjb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>        
+      </div>      
+    </body>
+  </text>
 </TEI>

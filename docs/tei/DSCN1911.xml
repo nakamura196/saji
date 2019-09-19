@@ -8,24 +8,39 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1441/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1441/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/31b21ec8efa4e816f8f1a3090f811fb5f619e76d.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/31b21ec8efa4e816f8f1a3090f811fb5f619e76d.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1441/canvas/p1"/>
+            <zone xml:id="zone_hg2_mfx_cjb" lry="3063" lrx="2027" uly="1227" ulx="109"/>
+            <zone xml:id="zone_aqm_nfx_cjb" lry="3000" lrx="815" uly="2612" ulx="340"/>
+            <zone xml:id="zone_itl_4fx_cjb" lry="1141" lrx="765" uly="158" ulx="230"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="mürāsele" facs="#zone_hg2_mfx_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1266-12-25">25 Z sene 266</date><lb/>
+            </p>
+            <div type="stamp" facs="#zone_aqm_nfx_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="note_Croatian" facs="#zone_itl_4fx_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
