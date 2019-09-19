@@ -7,25 +7,54 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】典型：自己言及がない。要検討。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1415/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1415/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/dbfafcdf7b227a632c27a95ed21815c6f74799cf.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1415/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f586c244fc94f11ed1d90987536eb49902bea36c.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/dbfafcdf7b227a632c27a95ed21815c6f74799cf.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1415/canvas/p1"/>
+            <zone xml:id="zone_fny_jsw_cjb" lry="3161" lrx="1670" uly="100" ulx="50"/>
+            <zone xml:id="zone_bvw_lsw_cjb" lry="3107" lrx="551" uly="2480" ulx="94"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/f586c244fc94f11ed1d90987536eb49902bea36c.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1415/canvas/p2"/>
+            <zone xml:id="zone_icg_4sw_cjb" lry="1138" lrx="2156" uly="788" ulx="423"/>
+            <zone xml:id="zone_wcd_psw_cjb" lry="1861" lrx="2017" uly="1216" ulx="1289"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="unknown" facs="#zone_fny_jsw_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+            <div type="sign" facs="#zone_bvw_lsw_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="note" cert="unknown" facs="#zone_icg_4sw_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
+         <div type="note" cert="unknown" facs="#zone_wcd_psw_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

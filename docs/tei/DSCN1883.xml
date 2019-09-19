@@ -8,24 +8,63 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1413/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1413/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1d4aa093c904b397686bb4e7ba82a8d0612ead2b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1413/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/72ad3749d13c027cf7c41afe49311c76d74f78e1.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/1d4aa093c904b397686bb4e7ba82a8d0612ead2b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1413/canvas/p1"/>
+            <zone xml:id="zone_sbt_drw_cjb" lry="3133" lrx="1500" uly="357" ulx="450"/>
+            <zone xml:id="zone_itt_frw_cjb" lry="1107" lrx="1478" uly="536" ulx="1115"/>
+            <zone xml:id="zone_i34_grw_cjb" lry="1096" lrx="1386" uly="961" ulx="1226"/>
+            <zone xml:id="zone_ytb_hrw_cjb" lry="1065" lrx="1023" uly="391" ulx="490"/>
+            <zone xml:id="zone_gxx_hrw_cjb" lry="1048" lrx="896" uly="930" ulx="749"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/72ad3749d13c027cf7c41afe49311c76d74f78e1.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1413/canvas/p2"/>
+            <zone xml:id="zone_rgj_krw_cjb" lry="1172" lrx="2512" uly="633" ulx="473"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="hüccet" facs="#zone_sbt_drw_cjb">
+            <p>
+               <lb/>... <date when-custom="1222-05-07">fi'l-yevmi'l-sābʿa min şehr Cemaziye'l-evvel sene isnā ve ʿaşrīn<lb/>
+               <lb/>ve mieteyn baʿde'l-elif</date> min hücceti'l-...<lb/>
+            </p>
+            <div type="sign" facs="#zone_itt_frw_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_i34_grw_cjb">
+                  <p>
+                     <lb/>... fī <lb/>
+                  </p>
+               </div>               
+            </div>
+            <div type="sign" facs="#zone_ytb_hrw_cjb">
+               <p>
+                  <lb/>... fī <lb/>
+               </p>
+               <div type="stamp" facs="#zone_gxx_hrw_cjb">
+                  <p>
+                     <lb/>... fī <lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_rgj_krw_cjb">
+            <p>
+               <lb/>... <date when="1807">1807</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
