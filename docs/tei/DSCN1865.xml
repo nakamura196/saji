@@ -7,25 +7,76 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】典型：自己言及が見つからない。mürāsele、şükka、tezkireなどの様式と比較しながら、署名Bendeやスタンプから特定をする。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1395/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b1c858c551a7ecd7a879b6ba4d35d01497955bb4.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a00565d19e1996ca885d7bf1e6cad4802cc6570a.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/dd765ef7e6b43c3444dc1da6f41f05310c8ea6e6.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/d87c8600f9b7c195bd1028b6cbde9d11830f0d66.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/b1c858c551a7ecd7a879b6ba4d35d01497955bb4.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p1"/>
+            <zone xml:id="zone_ayl_svv_cjb" lry="2941" lrx="2183" uly="141" ulx="117"/>
+            <zone xml:id="zone_ocr_tvv_cjb" lry="2862" lrx="647" uly="2712" ulx="456"/>
+            <zone xml:id="zone_kq3_5vv_cjb" lry="2813" lrx="430" uly="2686" ulx="235"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/a00565d19e1996ca885d7bf1e6cad4802cc6570a.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/dd765ef7e6b43c3444dc1da6f41f05310c8ea6e6.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p3"/>
+            <zone xml:id="zone_xpk_xvv_cjb" lry="1450" lrx="2439" uly="900" ulx="923"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/d87c8600f9b7c195bd1028b6cbde9d11830f0d66.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p4"/>
+            <zone xml:id="zone_v12_zvv_cjb" lry="1253" lrx="1862" uly="943" ulx="1549"/>
+            <zone xml:id="zone_bvq_zvv_cjb" lry="1304" lrx="1432" uly="1034" ulx="1134"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="unknown" facs="#zone_ayl_svv_cjb">
+            <p>
+               <lb/><date when-custom="1297">iki yüz doksan yedi senesinde</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_ocr_tvv_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_v12_zvv_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>
+            <div type="sign" facs="#zone_kq3_5vv_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_bvq_zvv_cjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_xpk_xvv_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

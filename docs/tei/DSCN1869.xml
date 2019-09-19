@@ -7,28 +7,88 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】DSCN1870.JPGは、現在それぞれ独立した文書IDとして成立しているが、DSCN1869.JPGの裏面のようである。両方のIDを統合して、文書数カウントの中に含めないようにする。</note>
+            <note type="mine">【要】DSCN1870.JPGのzone情報は入れていない。ファイルを統合した後に入れる？</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:type": [
-    "‘arż-ı ḥāl+buyuruldu+iʿlām"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:type": [
+               "‘arż-ı ḥāl+buyuruldu+iʿlām" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1399/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1399/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5b5a7314805a77ee564480fb4dd39699b1b09257.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/5b5a7314805a77ee564480fb4dd39699b1b09257.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1399/canvas/p1"/>
+            <zone xml:id="zone_ub4_h1w_cjb" lry="3050" lrx="1658" uly="50" ulx="117"/>
+            <zone xml:id="zone_jbw_31w_cjb" lry="3011" lrx="531" uly="2746" ulx="271"/>
+            <zone xml:id="zone_tmg_k1w_cjb" lry="1894" lrx="1453" uly="57" ulx="153"/>
+            <zone xml:id="zone_gxx_l1w_cjb" lry="2757" lrx="2405" uly="1715" ulx="1395"/>
+            <zone xml:id="zone_ofc_n1w_cjb" lry="2721" lrx="1875" uly="2585" ulx="1713"/>
+            <zone xml:id="zone_i2j_41w_cjb" lry="1592" lrx="2420" uly="276" ulx="1400"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="ʿarz-ı_hāl" facs="#zone_ub4_h1w_cjb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+            <div type="sign" facs="#zone_jbw_31w_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="buyuruldu" facs="#zone_tmg_k1w_cjb">
+            <p>
+               <lb/>buyuruldu fī <date when-custom="1222-05-09">9 Ca sene 222</date><lb/>
+            </p>
+         </div>
+         <div type="iʿlām" facs="#zone_gxx_l1w_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1222-05-21">21 sene 1222</date><lb/>
+            </p>
+            <div type="stamp" facs="#zone_ofc_n1w_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="buyuruldu" facs="#zone_i2j_41w_cjb">
+            <p>
+               <lb/>buyuruldu fī <date when-custom="1222-05-29">29 Ca sene 222</date><lb/>
+            </p>
+         </div>
+         <div type="iʿlām">
+            <p>
+               <lb/>... fī <date when-custom="1222-06-05">5 C sene 1222</date><lb/>
+            </p>
+            <div type="stamp">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="buyuruldu">
+            <p>
+               <lb/>buyuruldu fī <date when-custom="1222-06-05" cert="medium">5 C sene 1222</date><lb/>
+            </p>
+         </div>
+         <div type="note" cert="low">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
+         <div type="summary_Croatian">
+            <p>
+               <lb/><date when="1807">1807</date><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

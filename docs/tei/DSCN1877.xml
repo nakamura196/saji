@@ -1,39 +1,81 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1877</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-        <notesStmt>
-          <note type="summary">木こりが死亡したので、keşf（検分）を求める内容</note>
-          <note type="mine">法廷とvaliから人が派遣されたために、buyurulduが付いていると思われる</note>
-        </notesStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型",
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1407/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1407/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a40892eed20d6d584c10513090ae7a8462b15323.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1407/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/eb69123dd2695182f7d825ee07af03b48cae05aa.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="hüccet"></div>
-        <div type="buyuruldu"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1877</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">木こりが死亡したので、keşf（検分）を求める内容。</note>
+        <note type="mine">法廷とvaliから人が派遣されたために、buyurulduが付いていると思われる。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型", ]
+          }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1407/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/a40892eed20d6d584c10513090ae7a8462b15323.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1407/canvas/p1"/>
+        <zone xml:id="zone_vrs_42w_cjb" lry="2872" lrx="1518" uly="-18" ulx="600"/>
+        <zone xml:id="zone_rdp_q2w_cjb" lry="1066" lrx="1136" uly="604" ulx="832"/>
+        <zone xml:id="zone_urm_r2w_cjb" lry="1055" lrx="1100" uly="897" ulx="934"/>
+        <zone xml:id="zone_x2g_s2w_cjb" lry="1069" lrx="910" uly="628" ulx="603"/>
+        <zone xml:id="zone_fmk_t2w_cjb" lry="1064" lrx="910" uly="893" ulx="717"/>
+        <zone xml:id="zone_kjd_v2w_cjb" lry="720" lrx="1633" uly="95" ulx="962"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/eb69123dd2695182f7d825ee07af03b48cae05aa.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1407/canvas/p2"/>
+        <zone xml:id="zone_sks_w2w_cjb" lry="1400" lrx="2739" uly="633" ulx="723"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="hüccet" facs="#zone_vrs_42w_cjb">
+        <p>
+          <lb/>... <date when-custom="1238-11-01">fi'l-yevmi'l-hādī<lb/>
+          <lb/>min şehr Zi'l-kaʿade'l-şerīfe sene semān ve sılsīn ve mieteyn ve elif</date><lb/>
+        </p>
+        <div type="sign" facs="#zone_rdp_q2w_cjb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div type="stamp" facs="#zone_urm_r2w_cjb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>          
+        </div>
+        <div type="sign" facs="#zone_x2g_s2w_cjb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div type="stamp" facs="#zone_fmk_t2w_cjb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>          
+        </div>        
+      </div>
+      <div type="buyuruldu" facs="#zone_kjd_v2w_cjb">
+        <p>
+          <lb/>buyuruldu fī <date when-custom="1238-11-05">5 Za sene 38</date><lb/>
+        </p>
+      </div>
+      <div type="summary_Croatian" facs="#zone_sks_w2w_cjb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

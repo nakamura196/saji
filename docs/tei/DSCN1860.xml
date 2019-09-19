@@ -7,25 +7,48 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：1208年 or 1209年？クロアチア語要約の西暦と照合させるなど要確認。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1390/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1390/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8590b7bd41a5d3fba9d10f3d01f574e76f25b0ce.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1390/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/74573c746c7e7e570afee7be97519485f50c95f1.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/8590b7bd41a5d3fba9d10f3d01f574e76f25b0ce.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1390/canvas/p1"/>
+            <zone xml:id="zone_hmk_msv_cjb" lry="2863" lrx="1573" uly="172" ulx="273"/>
+            <zone xml:id="zone_phm_nsv_cjb" lry="2802" lrx="722" uly="2592" ulx="332"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/74573c746c7e7e570afee7be97519485f50c95f1.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1390/canvas/p2"/>
+            <zone xml:id="zone_gv3_psv_cjb" lry="1322" lrx="1750" uly="838" ulx="678"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="iʿlām" facs="#zone_hmk_msv_cjb">
+            <p>
+               <lb/>... fī <date when-custom="1209-03-24" cert="medium">24 Ra sene 1209</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_phm_nsv_cjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_gv3_psv_cjb">
+            <p>
+               <lb/>na ... <date when="1793">1793</date><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
