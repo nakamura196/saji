@@ -7,25 +7,48 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：月日の読み取りができなかった。要確認。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1471/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1471/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/12dea83e8c32880059c99bf4910123cc9555b1a5.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1471/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/430cc403e1e276d8d884e6f50a59e399f72ac6ee.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/12dea83e8c32880059c99bf4910123cc9555b1a5.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1471/canvas/p1"/>
+            <zone xml:id="zone_ns5_svd_djb" lry="1833" lrx="2217" uly="550" ulx="339"/>
+            <zone xml:id="zone_mhy_tvd_djb" lry="1657" lrx="678" uly="1435" ulx="390"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/430cc403e1e276d8d884e6f50a59e399f72ac6ee.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1471/canvas/p2"/>
+            <zone xml:id="zone_bbc_vvd_djb" lry="1844" lrx="3162" uly="322" ulx="223"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="mürāsele_sūret" facs="#zone_ns5_svd_djb">
+            <p>
+               <lb/>... fī <date when-custom="1270-05-21" cert="low">21 Ca sene 70</date><lb/>
+            </p>
+            <div type="stamp_sūret" facs="#zone_mhy_tvd_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_bbc_vvd_djb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

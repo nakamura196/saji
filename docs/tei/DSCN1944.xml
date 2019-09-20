@@ -7,25 +7,48 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】DSCN1943.JPGは、この文書の写しの可能性あり。要確認。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1474/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1474/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0a9c6d563c055ea5129d881f11daf3b572417a92.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1474/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b3119674a3a5cd13e9013bc3f2ea29c147e4d2eb.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/0a9c6d563c055ea5129d881f11daf3b572417a92.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1474/canvas/p1"/>
+            <zone xml:id="zone_prc_jxd_djb" lry="1576" lrx="2712" uly="711" ulx="430"/>
+            <zone xml:id="zone_jbf_kxd_djb" lry="1422" lrx="792" uly="1185" ulx="516"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/b3119674a3a5cd13e9013bc3f2ea29c147e4d2eb.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1474/canvas/p2"/>
+            <zone xml:id="zone_k4p_mxd_djb" lry="3215" lrx="1890" uly="1452" ulx="563"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="unknown" facs="#zone_prc_jxd_djb">
+            <p>
+               <lb/>... fī <date when-custom="1262-06-05">5 C sene 262</date><lb/>
+            </p>
+            <div type="stamp" facs="#zone_jbf_kxd_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_k4p_mxd_djb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

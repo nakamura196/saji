@@ -8,24 +8,63 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1485/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1485/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/446399bdbe93a6f50d24c7d2a5c390add90e7c73.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1485/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2805f44abcf8e6b32f2d1fd316dded4e39bd87a9.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/446399bdbe93a6f50d24c7d2a5c390add90e7c73.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1485/canvas/p1"/>
+            <zone xml:id="zone_m12_4l2_djb" lry="3100" lrx="2100" uly="200" ulx="360"/>
+            <zone xml:id="zone_qwp_pl2_djb" lry="1089" lrx="1665" uly="377" ulx="828"/>
+            <zone xml:id="zone_c2m_vl2_djb" lry="2833" lrx="1483" uly="2537" ulx="1171"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/2805f44abcf8e6b32f2d1fd316dded4e39bd87a9.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1485/canvas/p2"/>
+            <zone xml:id="zone_pzm_rl2_djb" lry="325" lrx="1825" uly="50" ulx="1566"/>
+            <zone xml:id="zone_jtw_sl2_djb" lry="2973" lrx="2195" uly="2874" ulx="2058"/>
+            <zone xml:id="zone_tmr_tl2_djb" lry="3000" lrx="2012" uly="1862" ulx="1229"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="tapu_senedi" facs="#zone_m12_4l2_djb">
+            <p>
+               <lb/>... fī <date when-custom="1283-01-29">29 Muharrem sene 1283</date><lb/>
+            </p>
+            <div type="tuğra" facs="#zone_qwp_pl2_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+            <div type="stamp" facs="#zone_c2m_vl2_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+            
+         </div>
+         <div type="note" cert="unknown" facs="#zone_pzm_rl2_djb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
+         <div type="note" cert="unknown" facs="#zone_jtw_sl2_djb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
+         <div type="summary_Croatian" facs="#zone_tmr_tl2_djb">
+            <p>
+               <lb/>... <lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

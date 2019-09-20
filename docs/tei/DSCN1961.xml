@@ -1,38 +1,48 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1961</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型",
-    "『Siraziye』という法学書を典拠にしている"
-  ],
-  "saji:type": [
-    "fetvā"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1491/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1491/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/07b795e730caee476f225c1bd5f056bce2572736.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1491/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/765499b4315e883ed5eb134ffd5637e4a3619d9a.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1961</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">『Siraziye』という法学書を典拠にしている。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1491/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/07b795e730caee476f225c1bd5f056bce2572736.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1491/canvas/p1"/>
+        <zone xml:id="zone_zx1_4q2_djb" lry="3090" lrx="1863" uly="154" ulx="700"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/765499b4315e883ed5eb134ffd5637e4a3619d9a.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1491/canvas/p2"/>
+        <zone xml:id="zone_tq5_pq2_djb" lry="1166" lrx="2728" uly="644" ulx="634"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="fetvā" facs="#zone_zx1_4q2_djb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div>
+      <div type="summary_Croatian" facs="#zone_tq5_pq2_djb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div>      
+    </body>
+  </text>
 </TEI>

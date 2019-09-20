@@ -1,37 +1,120 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1957</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型"
-  ],
-  "saji:type": [
-    "mażbaṭa+buyuruldu"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1487/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1487/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8109f9b59e5db6b6cd9d0bc6d42f92f6073be3ae.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1487/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b5e83fd201007f77f87fd105cfc9bbec1ed3e928.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1957</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要】日付：buyurulduの年月の読みを要確認。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1487/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/8109f9b59e5db6b6cd9d0bc6d42f92f6073be3ae.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1487/canvas/p1"/>
+        <zone xml:id="zone_vmf_km2_djb" lry="2823" lrx="2227" uly="2310" ulx="107"/>
+        <zone xml:id="zone_gcp_lm2_djb" lry="2816" lrx="1120" uly="2559" ulx="931"/>
+        <zone xml:id="zone_fnh_mm2_djb" lry="2810" lrx="1086" uly="2680" ulx="942"/>
+        <zone xml:id="zone_yhg_nm2_djb" lry="2794" lrx="941" uly="2561" ulx="754"/>
+        <zone xml:id="zone_scj_4m2_djb" lry="2786" lrx="913" uly="2672" ulx="768"/>
+        <zone xml:id="zone_bnx_4m2_djb" lry="2809" lrx="761" uly="2558" ulx="580"/>
+        <zone xml:id="zone_j2n_pm2_djb" lry="2805" lrx="736" uly="2672" ulx="588"/>
+        <zone xml:id="zone_iyc_qm2_djb" lry="2804" lrx="586" uly="2543" ulx="393"/>
+        <zone xml:id="zone_kjt_qm2_djb" lry="2804" lrx="535" uly="2665" ulx="392"/>
+        <zone xml:id="zone_e1k_rm2_djb" lry="2783" lrx="401" uly="2546" ulx="128"/>
+        <zone xml:id="zone_wkz_sm2_djb" lry="2779" lrx="350" uly="2640" ulx="191"/>
+        <zone xml:id="zone_g42_5m2_djb" lry="2306" lrx="2273" uly="220" ulx="133"/>
+        <zone xml:id="zone_b2h_vm2_djb" lry="823" lrx="2050" uly="455" ulx="1626"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/b5e83fd201007f77f87fd105cfc9bbec1ed3e928.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1487/canvas/p2"/>
+        <zone xml:id="zone_rp5_wm2_djb" lry="727" lrx="2706" uly="422" ulx="184"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="mazbata" facs="#zone_vmf_km2_djb">
+        <p>
+          <lb/>... fī <lb/>
+        </p>
+        <div type="sign" facs="#zone_gcp_lm2_djb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div type="stamp" facs="#zone_fnh_mm2_djb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>          
+        </div> 
+        <div type="sign" facs="#zone_yhg_nm2_djb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div type="stamp" facs="#zone_scj_4m2_djb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>          
+        </div> 
+        <div type="sign" facs="#zone_b2h_vm2_djb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div type="stamp" facs="#zone_j2n_pm2_djb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>          
+        </div> 
+        <div type="sign" facs="#zone_iyc_qm2_djb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div type="stamp" facs="#zone_kjt_qm2_djb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>          
+        </div>
+        <div type="sign" facs="#zone_e1k_rm2_djb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div type="stamp" facs="#zone_wkz_sm2_djb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>          
+        </div>
+      </div>
+      <div type="buyuruldu" facs="#zone_g42_5m2_djb">
+        <p>
+          <lb/>buyuruldu fī <date when-custom="1264-02-18" cert="low">18 S sene 64</date><lb/>
+        </p>
+        <div type="stamp" facs="#zone_b2h_vm2_djb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>        
+      </div>
+      <div type="summary_Croatian" facs="#zone_rp5_wm2_djb">
+        <p>
+          <lb/>... <date when-custom="1264">1264</date>.<lb/>
+        </p>
+      </div>      
+    </body>
+  </text>
 </TEI>

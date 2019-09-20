@@ -7,25 +7,48 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】裏面撮影：表面の署名の裏にスタンプがあるのが透けているが、裏面にはスタンプが写っていない。要裏面再撮影。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1462/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1462/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1663960ccb9434125b9ce5ee5a0e0f109bea6877.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1462/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d11c3e3fda937c08fa023cb4855c46f1bfb7bb75.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/1663960ccb9434125b9ce5ee5a0e0f109bea6877.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1462/canvas/p1"/>
+            <zone xml:id="zone_jp1_rld_djb" lry="2869" lrx="2416" uly="130" ulx="131"/>
+            <zone xml:id="zone_gnz_rld_djb" lry="2572" lrx="452" uly="2364" ulx="190"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/d11c3e3fda937c08fa023cb4855c46f1bfb7bb75.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1462/canvas/p2"/>
+            <zone xml:id="zone_ftp_tld_djb" lry="2222" lrx="3078" uly="788" ulx="223"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN" cert="unknown" facs="#zone_jp1_rld_djb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+            <div type="sign" facs="#zone_gnz_rld_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_ftp_tld_djb">
+            <p>
+               <lb/>... <date when="1843">1843</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

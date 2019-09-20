@@ -7,28 +7,92 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：1281 or 1181 年　要検討。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:type": [
-    "ṣūret-i ṭapu senedi"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:type": [
+               "ṣūret-i ṭapu senedi" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1481/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1481/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5c254567a52f2f4986987d699ea078ebd73a9f93.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1481/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c8526d815ef02e67453f0f3cfc79c7106b98aa5b.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/5c254567a52f2f4986987d699ea078ebd73a9f93.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1481/canvas/p1"/>
+            <zone xml:id="zone_dy3_q12_djb" lry="3134" lrx="2178" uly="180" ulx="251"/>
+            <zone xml:id="zone_tkh_r12_djb" lry="2959" lrx="1306" uly="2727" ulx="1130"/>
+            <zone xml:id="zone_ohw_r12_djb" lry="2944" lrx="1298" uly="2835" ulx="1138"/>
+            <zone xml:id="zone_kh3_s12_djb" lry="2901" lrx="1077" uly="2692" ulx="850"/>
+            <zone xml:id="zone_rfv_s12_djb" lry="2883" lrx="1064" uly="2774" ulx="889"/>
+            <zone xml:id="zone_unz_pb2_djb" lry="2850" lrx="835" uly="2659" ulx="572"/>
+            <zone xml:id="zone_mcl_qb2_djb" lry="2846" lrx="831" uly="2694" ulx="582"/>
+            <zone xml:id="zone_esf_rb2_djb" lry="2777" lrx="542" uly="2551" ulx="325"/>
+            <zone xml:id="zone_w52_sb2_djb" lry="2772" lrx="537" uly="2635" ulx="355"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/c8526d815ef02e67453f0f3cfc79c7106b98aa5b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1481/canvas/p2"/>
+            <zone xml:id="zone_z42_512_djb" lry="1300" lrx="2589" uly="816" ulx="73"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="ʿilmühaber_tapu_senedi_sūret" facs="#zone_dy3_q12_djb">
+            <p>
+               <lb/>... fī <date when-custom="1281-05-09" cert="medium">9 Cemaziye'l-evvel sene
+                  81</date><lb/>
+            </p>
+            <div type="sign_sūret" facs="#zone_tkh_r12_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp_sūret" facs="#zone_ohw_r12_djb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+            <div type="sign_sūret" facs="#zone_kh3_s12_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp_sūret" facs="#zone_rfv_s12_djb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+            <div type="sign_sūret" facs="#zone_unz_pb2_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp_sūret" facs="#zone_mcl_qb2_djb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+            <div type="sign_sūret" facs="#zone_esf_rb2_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp_sūret" facs="#zone_w52_sb2_djb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div type="summary_Croatian" facs="#zone_z42_512_djb">
+            <p>
+               <lb/>... <date when="1875">1875</date>.<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

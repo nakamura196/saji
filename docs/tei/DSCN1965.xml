@@ -1,38 +1,70 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1965</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型",
-    "差出人：vālī"
-  ],
-  "saji:type": [
-    "ṣūret-i emr-i nāme"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1495/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1495/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/45714bdcc41ecf4f8b98f096e7a18bf96cef48ad.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1495/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/53f0be96ca125b21f4b813d2bf1b69f1f8e2c618.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1965</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
+          "差出人：vālī" ], "saji:type": [ "" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1495/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/45714bdcc41ecf4f8b98f096e7a18bf96cef48ad.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1495/canvas/p1"/>
+        <zone xml:id="zone_pvr_cs2_djb" lry="2105" lrx="2100" uly="166" ulx="272"/>
+        <zone xml:id="zone_rjw_ds2_djb" lry="2078" lrx="830" uly="1911" ulx="619"/>
+        <zone xml:id="zone_pln_2s2_djb" lry="3151" lrx="2000" uly="2248" ulx="718"/>
+        <zone xml:id="zone_i5h_fs2_djb" lry="3133" lrx="1703" uly="2824" ulx="1372"/>
+        <zone xml:id="zone_gvj_gs2_djb" lry="2978" lrx="1696" uly="2823" ulx="1531"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/53f0be96ca125b21f4b813d2bf1b69f1f8e2c618.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1495/canvas/p2"/>
+        <zone xml:id="zone_t3m_hs2_djb" lry="1561" lrx="2895" uly="955" ulx="862"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="emr_nāme_ṣūret" facs="#zone_pvr_cs2_djb">
+        <p>
+          <lb/>... fī <date when-custom="1273-10-13" cert="low">13 L sene 73</date><lb/>
+        </p>
+        <div type="sign" facs="#zone_rjw_ds2_djb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>        
+      </div>
+      <div type="unknown" facs="#zone_pln_2s2_djb">
+        <p>
+          <lb/>... fī <date when-custom="1273--02" cert="unknown">2 ... sene 73</date><lb/>
+        </p>
+        <div type="sign" facs="#zone_i5h_fs2_djb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div type="stamp" facs="#zone_gvj_gs2_djb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div>          
+        </div>        
+      </div>
+      <div type="summary_Craotian" facs="#zone_t3m_hs2_djb">
+        <p>
+          <lb/><date when="1857">1857</date>.<lb/>
+        </p>
+      </div>      
+    </body>
+  </text>
 </TEI>

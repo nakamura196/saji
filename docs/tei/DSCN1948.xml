@@ -7,25 +7,43 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】DSCN1949.JPGは、この文書の写しの可能性。要確認。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1478/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1478/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cbd8208ce7ca4aba8b1531f8ef16ab68a18f7a78.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/cbd8208ce7ca4aba8b1531f8ef16ab68a18f7a78.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1478/canvas/p1"/>
+            <zone xml:id="zone_zzp_yyd_djb" lry="3200" lrx="2110" uly="130" ulx="230"/>
+            <zone xml:id="zone_w5f_1zd_djb" lry="996" lrx="1540" uly="336" ulx="724"/>
+            <zone xml:id="zone_ayc_bzd_djb" lry="2730" lrx="1404" uly="2406" ulx="1077"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="tapu_senedi" facs="#zone_zzp_yyd_djb">
+            <p>
+               <lb/>... fī <date when-custom="1283-01-29">29 Muharrem sene 1283</date><lb/>
+            </p>
+            <div type="tuğra" facs="#zone_w5f_1zd_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+            <div type="stamp" facs="#zone_ayc_bzd_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>         
       </body>
    </text>
 </TEI>

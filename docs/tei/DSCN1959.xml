@@ -1,39 +1,62 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1959</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ],
-  "saji:memo": [
-    "典型",
-    "差出人：Çükazzade (/Sofyalızade)"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1489/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1489/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8ad5d329323722c3e989a0a123a2c1e988ff0048.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="iʿlām"></div>
-        <div type="buyuruldu"></div>
-        <div type="iʿlām"></div>
-        <div type="stamp"></div>
-        <div type="saff"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1959</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要】日付：すべての構成要素の月の読み取り要確認。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
+          "差出人：Çükazzade (/Sofyalızade)" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1489/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/8ad5d329323722c3e989a0a123a2c1e988ff0048.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1489/canvas/p1"/>
+        <zone xml:id="zone_ijp_m42_djb" lry="2978" lrx="1591" uly="2016" ulx="183"/>
+        <zone xml:id="zone_vns_442_djb" lry="2890" lrx="545" uly="2709" ulx="185"/>
+        <zone xml:id="zone_v5p_q42_djb" lry="2305" lrx="1928" uly="311" ulx="200"/>
+        <zone xml:id="zone_gb1_s42_djb" lry="2872" lrx="2183" uly="1280" ulx="1469"/>
+        <zone xml:id="zone_th4_542_djb" lry="2858" lrx="1771" uly="2704" ulx="1576"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="iʿlām" facs="#zone_ijp_m42_djb">
+        <p>
+          <lb/>... fī <date when-custom="1218-04-16" cert="low">16 R sene 218</date><lb/>
+        </p>
+        <div type="sign" facs="#zone_vns_442_djb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>        
+      </div>
+      <div type="buyuruldu" facs="#zone_v5p_q42_djb">
+        <p>
+          <lb/>... fī <date when-custom="1218--23" cert="unknown">23 ... sene 218</date><lb/>
+        </p>
+      </div>
+      <div type="iʿlām" facs="#zone_gb1_s42_djb">
+        <p>
+          <lb/>... fī <date when-custom="1218-07-17" cert="low">17 B sene 1218</date><lb/>
+        </p>
+        <div type="stamp" facs="#zone_th4_542_djb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>        
+      </div>      
+    </body>
+  </text>
 </TEI>
