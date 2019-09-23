@@ -7,28 +7,56 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">ベラート？卵印はないのでフェルマーン？</note>
+            <note type="mine">【要】日付：1181 or 1081　年? 要検討。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 2"
-  ],
-  "saji:memo": [
-    "典型\r\n・トゥーラ\r\n・ベラート？卵印はないのでフェルマーン？"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [
+               "典型" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1536/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1536/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c96f64c696e61997d3ef4435958f7e7d17c59e47.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1536/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7b2427879c0c40bc76525a998e35647cb0387f45.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/c96f64c696e61997d3ef4435958f7e7d17c59e47.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1536/canvas/p1"/>
+            <zone xml:id="zone_cwx_5k1_2jb" lry="3114" lrx="1697" uly="27" ulx="363"/>
+            <zone xml:id="zone_hdh_wk1_2jb" lry="751" lrx="1658" uly="39" ulx="539"/>
+            <zone xml:id="zone_ht4_xk1_2jb" lry="3100" lrx="882" uly="2613" ulx="423"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/7b2427879c0c40bc76525a998e35647cb0387f45.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1536/canvas/p2"/>
+            <zone xml:id="zone_cfy_yk1_2jb" lry="1700" lrx="2984" uly="894" ulx="250"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="fermān" facs="#zone_cwx_5k1_2jb">
+            <p>
+               <lb/>... <date when-custom="1181-03-11-20" cert="low">evāsit şehr Rebi'ü'l-evvel sene ahadā ve semānīn ve mie ve elif</date><lb/>
+            </p>
+            <div type="tuğra" facs="#zone_hdh_wk1_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+            <div type="sign" facs="#zone_ht4_xk1_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_cfy_yk1_2jb">
+            <p>
+               <lb/>Datum: <date when-custom="1081-03-">druga dekada rebiul evvel 1081</date> - <date when="1670-08-07">29. juli-7avgusta 1670</date><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
