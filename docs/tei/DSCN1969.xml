@@ -7,25 +7,42 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】DSCN1971.JPGは、DCN1969.JPGの裏面。現在独立した文書IDとなっているが、統合する。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 1"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1499/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1499/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/017c8fe9478144382f44791a8068dfdac3403a55.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1499/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1d2428bdcd2ef39f0cd9cee79e80d813d8caddba.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/017c8fe9478144382f44791a8068dfdac3403a55.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1499/canvas/p1"/>
+            <zone xml:id="zone_nw4_1dz_djb" lry="2883" lrx="1433" uly="200" ulx="83"/>
+            <zone xml:id="zone_by5_bdz_djb" lry="2796" lrx="489" uly="2568" ulx="170"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1499/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/1d2428bdcd2ef39f0cd9cee79e80d813d8caddba.jpg"
+            />
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="mürāsele" facs="#zone_nw4_1dz_djb">
+            <p>
+               <lb/>... fī <date when-custom="1181-02-01-10">evāir Saferi'l-... sene 1181</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_by5_bdz_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>         
       </body>
    </text>
 </TEI>

@@ -8,27 +8,52 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 2"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ]
+               }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1504/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1504/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7d7481106777ce679b40cdb9bd4b87b12b9ccb15.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1504/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/bf7cd92cbb47ed17302e22c0491c52b2ff34f476.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1504/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/659949d97a7d151557946cbbbda852f682530455.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/7d7481106777ce679b40cdb9bd4b87b12b9ccb15.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1504/canvas/p1"/>
+            <zone xml:id="zone_nsd_dfz_djb" lry="2990" lrx="1927" uly="81" ulx="854"/>
+            <zone xml:id="zone_ngc_ffz_djb" lry="2957" lrx="1071" uly="2817" ulx="900"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/bf7cd92cbb47ed17302e22c0491c52b2ff34f476.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1504/canvas/p2"/>
+            <zone xml:id="zone_qn4_gfz_djb" lry="1516" lrx="3034" uly="800" ulx="662"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/659949d97a7d151557946cbbbda852f682530455.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1504/canvas/p3"/>
+            <zone xml:id="zone_azq_hfz_djb" lry="1638" lrx="3117" uly="305" ulx="212"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="fermān_sūret" facs="#zone_nsd_dfz_djb">
+            <p>
+               <lb/>... <date when-custom="1191-02-05">el-yevmi'l-hāmis Saferi'l-...<lb/>
+               <lb/>sene ahadā ve tisʿīn ve mie ve elif</date><lb/>
+            </p>
+         </div>
+         <div type="summary_Croatian" facs="#zone_qn4_gfz_djb">
+            <p>
+               <lb/>Darum: <date when-custom="1191-02-05">5. safer 1191</date> - <date when="1777-02-13">13. februar 1777.</date><lb/>
+            </p>
+         </div>
+         <div type="summary_Serbian" facs="#zone_azq_hfz_djb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

@@ -1,38 +1,57 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN8917</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-        <notesStmt>
-          <note type="mine">差出人：ボスナのカーイムマカーム＝ボスナのワーリーの代理人（not ボスナのサンジャクベイ）※Vilayet nizamnamesi (1865?)の後だから</note>
-          <note type="mine">特徴的な署名</note>
-        </notesStmt>
-         <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 2"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1507/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1507/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e7a591aa03fbf6d8b652c7c6085d66f4c9714d26.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1507/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/59f2c93c9dc27285bae9a9693c98e1358cc01e54.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-        <div type="beyāz_üzerine_buyuruldu"></div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN8917</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">差出人：ボスナのカーイムマカーム＝ボスナのワーリーの代理人（not ボスナのサンジャクベイ）※Vilayet nizamnamesi
+          (1865?)の後だから</note>
+        <note type="mine">署名：傘型</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ]
+          }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1507/manifest">
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/e7a591aa03fbf6d8b652c7c6085d66f4c9714d26.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1507/canvas/p1"/>
+        <zone xml:id="zone_e4t_kgz_djb" lry="3133" lrx="2208" uly="66" ulx="175"/>
+        <zone xml:id="zone_vjf_mgz_djb" lry="3054" lrx="1257" uly="2203" ulx="463"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/59f2c93c9dc27285bae9a9693c98e1358cc01e54.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1507/canvas/p2"/>
+        <zone xml:id="zone_rrp_ngz_djb" lry="1461" lrx="3245" uly="716" ulx="6"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div type="beyāz_üzerine_buyuruldu" facs="#zone_e4t_kgz_djb">
+        <p>
+          <lb/>... fī <date when-custom="1199-10-18">18 L 199</date><lb/>
+        </p>
+        <div type="sign" facs="#zone_vjf_mgz_djb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>        
+      </div>
+      <div type="summary_Croatian" facs="#zone_rrp_ngz_djb">
+        <p>
+          <lb/>Datum: <date when-custom="1199-10-18">18. şevval 1199</date> - <date when="1785-08-24">24. avgust 1785.</date><lb/>
+        </p>
+      </div>      
+    </body>
+  </text>
 </TEI>
