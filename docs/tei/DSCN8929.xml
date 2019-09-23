@@ -8,24 +8,50 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 2"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 2" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1519/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1519/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9b461739ded4459523c2f1ac52ca024cea25a5bf.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1519/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fcec86d186fa06f6c39a18433c804485c4773db1.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/9b461739ded4459523c2f1ac52ca024cea25a5bf.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1519/canvas/p1"/>
+            <zone xml:id="zone_lht_dyz_djb" lry="3189" lrx="1855" uly="334" ulx="133"/>
+            <zone xml:id="zone_i3j_fyz_djb" lry="3171" lrx="846" uly="2525" ulx="161"/>
+            <zone xml:id="zone_lwq_gyz_djb" lry="3098" lrx="701" uly="2985" ulx="557"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/fcec86d186fa06f6c39a18433c804485c4773db1.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1519/canvas/p2"/>
+            <zone xml:id="zone_d2y_hyz_djb" lry="1355" lrx="3156" uly="750" ulx="195"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="tezkire_dīvānī" facs="#zone_lht_dyz_djb">
+            <p>
+               <lb/>... fī <date when-custom="1211-09-15">15 N sene 1211</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_i3j_fyz_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_lwq_gyz_djb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_d2y_hyz_djb">
+            <p>
+               <lb/>Datum <date when-custom="1211-09-15">15. ramazan 1211</date> - <date when="1797-03-14">14. mart 1797</date><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

@@ -7,25 +7,67 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：幅のある日付をマークアップできていない。要確認。</note>
+            <note type="mine">【要】再撮影：裏面にオスマン語の文字の一部が写っているが、全体を写した写真が欠けている。要再撮影。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 2"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1516/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1516/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8ab574f0c2659982ba1afd8394c7f550077a4e67.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1516/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/baec33d99d70c2f349bee853a20d3d376788c4c4.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/8ab574f0c2659982ba1afd8394c7f550077a4e67.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1516/canvas/p1"/>
+            <zone xml:id="zone_gsg_gvz_djb" lry="1955" lrx="2450" uly="283" ulx="145"/>
+            <zone xml:id="zone_gsd_3vz_djb" lry="1861" lrx="2830" uly="1410" ulx="2438"/>
+            <zone xml:id="zone_rqd_jvz_djb" lry="1618" lrx="2815" uly="1487" ulx="2705"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/baec33d99d70c2f349bee853a20d3d376788c4c4.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1516/canvas/p2"/>
+            <zone xml:id="zone_adl_kvz_djb" lry="2431" lrx="1061" uly="1577" ulx="69"/>
+            <zone xml:id="zone_rsg_lvz_djb" lry="170" lrx="3292" uly="-11" ulx="2130"/>
+            <zone xml:id="zone_y4f_nvz_djb" lry="1476" lrx="3071" uly="823" ulx="371"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="fermān_sūret" facs="#zone_rqd_jvz_djb">
+            <p>
+               <lb/>... fī <date when-custom="1269-08-21-30">evāhir şehr Şaʿabānı'l-muʿazzam sene tisʿ ve sittīn ve mieteyn ve elif</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_adl_kvz_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="sign" facs="#zone_gsd_3vz_djb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+            <div type="stamp" facs="#zone_gsg_gvz_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="unknown" facs="#zone_rsg_lvz_djb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
+         <div type="summary_Croatian" facs="#zone_y4f_nvz_djb">
+            <p>
+               <lb/>Datum: <date when-custom="1269-08-">III dekada šabana 1269</date> - <date when="1853-07-07">30. maj - 7. juli 1853</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

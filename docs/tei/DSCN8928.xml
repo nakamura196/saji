@@ -8,24 +8,45 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 2"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 2" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1518/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1518/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c7d4625cec1f3055e756a4214d74721149575047.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/c7d4625cec1f3055e756a4214d74721149575047.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1518/canvas/p1"/>
+            <zone xml:id="zone_xxm_gxz_djb" lry="3100" lrx="1970" uly="830" ulx="370"/>
+            <zone xml:id="zone_blb_3xz_djb" lry="3093" lrx="1341" uly="2288" ulx="393"/>
+            <zone xml:id="zone_nh3_jxz_djb" lry="2906" lrx="862" uly="2768" ulx="704"/>
+            <zone xml:id="zone_b4d_kxz_djb" lry="704" lrx="2255" uly="367" ulx="632"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="tezkire_dīvānī" facs="#zone_xxm_gxz_djb">
+            <p>
+               <lb/>... fī <date when-custom="1211-09-11">11 N sene 1211</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_blb_3xz_djb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_nh3_jxz_djb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_b4d_kxz_djb">
+            <p>
+               <lb/>Datum: <date when-custom="1211-09-11">11 ramazan 1211</date> - <date when="1797-03-10">10 mart 1797</date><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
