@@ -8,27 +8,68 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 2"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ]
+               }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1547/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1547/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2a09f19e08bbeef1ea38059c8fac68fb170722c4.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1547/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/69b82b407670d694ee9f27ade691aed34d0d9ef6.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1547/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/a7d8e9d305042f5977dd550cf67852d422728b3c.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1547/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/864e9fa0a7deb582c973167744ecd54954ccbd06.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/2a09f19e08bbeef1ea38059c8fac68fb170722c4.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1547/canvas/p1"/>
+            <zone xml:id="zone_ln2_v3n_2jb" lry="2808" lrx="1967" uly="508" ulx="150"/>
+            <zone xml:id="zone_lgt_w3n_2jb" lry="2807" lrx="547" uly="2574" ulx="339"/>
+            <zone xml:id="zone_j3s_x3n_2jb" lry="1286" lrx="2370" uly="891" ulx="1943"/>
+            <zone xml:id="zone_w4j_y3n_2jb" lry="1150" lrx="2355" uly="1027" ulx="2245"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1547/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/69b82b407670d694ee9f27ade691aed34d0d9ef6.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1547/canvas/p3"
+               url="https://diyhistory.org/public/phr2/files/original/a7d8e9d305042f5977dd550cf67852d422728b3c.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/864e9fa0a7deb582c973167744ecd54954ccbd06.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1547/canvas/p4"/>
+            <zone xml:id="zone_ps5_1jn_2jb" lry="1572" lrx="3139" uly="761" ulx="106"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="fermān_sūret" facs="#zone_ln2_v3n_2jb">
+            <p>
+               <lb/>... <date when-custom="1197-11-15">fi'l-yevmi'l-hāmis ʿaşar Zi'l-kaʿade sene sabʿ tisʿīn<lb/>
+               <lb/>ve mie ve elif</date><lb/>
+            </p>
+            <div type="sign_sūret" facs="#zone_lgt_w3n_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="sign" facs="#zone_j3s_x3n_2jb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+            <div type="stamp" facs="#zone_w4j_y3n_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>               
+            </div>            
+         </div>         
+         <div type="summary_Croatian" facs="#zone_ps5_1jn_2jb">
+            <p>
+               <lb/>Datum: <date when-custom="1197-11-15">15. zilkade 1197</date> - <date when="1783-10-12">12. oktobar 1783</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
