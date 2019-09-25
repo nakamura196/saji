@@ -7,6 +7,9 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】"sign"にzoneタグを追加する。</note>
+         </notesStmt>
          <sourceDesc>
             <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
@@ -31,27 +34,34 @@
    </facsimile>
    <text>
       <body>
-         <div type="tezkire" cert="unknown" facs="#zone_gtr_hp5_l3b">
-            <l>Hüve</l>
-            <l>... Kirşevo gardiyānı ... olunur ki</l>
-            <l>bāis-i ... hurūf oludur ki ... bundan akdem</l>
-            <l>...</l>
-            <l>eyledikte yine tezkire irsāl eyledim ... olundu yine bu defa</l>
-            <l>... yediye tezkirehā ... olunmuşdur ve ...</l>
-            <l>... akçe ...</l>
-            <l>... yediyle yüa on ... eyledik</l>
-            <l>...</l>
-            <l>olunur ... edesiz ...</l>
+         <div type="EMIN_şukka" cert="unknown" facs="#zone_gtr_hp5_l3b">
+            <p>
+               <lb/>Hüve<lb/>
+               <lb/>... <persName>Kirşevo gardiyānı</persName> ... olunur ki<lb/>
+               <lb/>bāis-i ... hurūf oludur ki ... bundan akdem<lb/>
+               <lb/>...<lb/>
+               <lb/>eyledikte yine tezkire irsāl eyledim ... olundu yine bu defa<lb/>
+               <lb/>... yediye tezkirehā ... olunmuşdur ve ...<lb/>
+               <lb/>... akçe ...<lb/>
+               <lb/>... yediyle yüa on ... eyledik<lb/>
+               <lb/>...<lb/>
+               <lb/>olunur ... edesiz ...<lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
          </div>
-         <div type="unknown" cert="unknown" facs="#zone_g2l_jp5_l3b">
-            <l>Halā ... <persName>Kirşevo gardiyānı</persName> ...</l>
+         <div type="unknown" facs="#zone_g2l_jp5_l3b">
+            <p>
+               <lb/>Halā ... <persName>Kirşevo gardiyānı</persName> ...<lb/>
+            </p>
          </div>
-         <div type="Croatian" cert="unknown" facs="#zone_mjl_kp5_l3b">
-            <l>...</l>
-            <l>...</l>
-            <l>...</l>
-            <l>...</l>
-            <l>...</l>
+         <div type="summary_Croatian" facs="#zone_mjl_kp5_l3b">
+            <p>
+               <lb/>...<lb/>
+            </p>
          </div>
       </body>
    </text>

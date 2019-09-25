@@ -7,6 +7,9 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】"sign", "summary_Serbian"にzoneタグを追加する。</note>
+         </notesStmt>
          <sourceDesc>
             <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
@@ -31,24 +34,35 @@
    </facsimile>
    <text>
       <body>
-         <div type="EMIN" cert="unknown" facs="#zone_g44_mt5_l3b">
-            <l>Hüve</l>
-            <l>Bāis-i tahrīr-i hurūf budur ki madīna-i <placeName type="proper">Saray Bosna</placeName>'da ... gāzī ...</l>
-            <l>... zimmīlerinden olub ... mahallesinden ... iki akçe mukātaʿasıyla </l>
-            <l><persName cert="low">Şāyu</persName> nām zimmīlerin hānesinin ... </l>
-            <l>... biz dahi kāimmakām ... olduğumuz hasebiyle ...</l>
-            <l>icrāsına izin ... işbu hurūf ... tahrīr ...</l>
-            <l>cānib ...mukātaʿa ... tamāmen edā ... icrāsına ...</l>
-            <l>oluna ... <date when-custom="1156-03" cert="unknown">Rebiü'l-evvel sene 1156</date></l>
-            <l>... <persName>Mehmed</persName> ...</l>
-         </div>
-         <div type="stamp" facs="#zone_rfh_qt5_l3b">
-            <l>... Mehmed ...</l>
+         <div type="temessük" cert="unknown" facs="#zone_g44_mt5_l3b">
+            <p>
+               <lb/>... fī <lb/>
+               <lb/>Hüve<lb/>
+               <lb/>Bāis-i tahrīr-i hurūf budur ki madīna-i <placeName type="proper">Saray
+                  Bosna</placeName>'da ... gāzī ...<lb/>
+               <lb/>... zimmīlerinden olub ... mahallesinden ... iki akçe mukātaʿasıyla<lb/>
+               <lb/><persName cert="low">Şāyu</persName> nām zimmīlerin hānesinin ... <lb/>
+               <lb/>... biz dahi kāimmakām ... olduğumuz hasebiyle ...<lb/>
+               <lb/>icrāsına izin ... işbu hurūf ... tahrīr ...<lb/>
+               <lb/>cānib ...mukātaʿa ... tamāmen edā ... icrāsına ...<lb/>
+               <lb/>oluna hurira fī <date when-custom="1156-03" cert="unknown">şehr Rebiü'l-evvel sene
+                  1156</date><lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>... <persName>Mehmed</persName> ...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_rfh_qt5_l3b">
+                  <p>
+                     <lb/>... Mehmed ... <lb/>
+                  </p>
+               </div>
+            </div>
          </div>
          <div type="summary_Serbian">
-            <l>...</l>
-            <l>...</l>
-            <l>...</l>
+            <p>
+               <lb/>... fī <lb/>
+            </p>
          </div>
       </body>
    </text>
