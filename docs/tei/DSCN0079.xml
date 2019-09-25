@@ -9,11 +9,10 @@
          </publicationStmt>
          <notesStmt>
             <note type="summary">計算書</note>
-            <note type="mine">何の計算書かは文脈が分からないと分からない</note>
+            <note type="mine">何の計算書かは文脈が分からないと分からない。</note>
          </notesStmt>
          <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:type": [
-               "何らかの計算書？\r\n文脈が分からないと何の計算書かは分からない" ] }</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -35,7 +34,16 @@
    </facsimile>
    <text>
       <body>
-         <p/>
+         <div type="note" cert="unknown">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
+         <div type="note" cert="unknown">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

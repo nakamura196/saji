@@ -7,6 +7,9 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】"sign"にzoneを追加する。</note>
+         </notesStmt>
          <sourceDesc>
             <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
@@ -41,7 +44,35 @@
             <l>...<date when-custom="1197">1197</date></l>
          </div>
          <div type="stamp" facs="#zone_oz5_jbz_k3b"/>
-         <div type="summary_Serbian" facs="#zone_uth_lbz_k3b"/>
+         
+         
+         
+         <div type="EMIN" cert="unknown" facs="#zone_e4w_hbz_k3b">
+            <p>
+               <lb/>Hüve<lb/>
+               <lb/>Vech-i tahrīr-i hurūf oldur ki<lb/>
+               <lb/>İşbu <date when-custom="1197">bin yüz dokusan yedi senesi</date>ne mahsūben der ʿuhde ve iltizāmıdan ... <date type="proper">Kirşevo</date> mukātaʿaya<lb/>
+               <lb/>kurālarında ... ʿarz-ı mīrīye rāhiblerine<lb/>
+               <lb/>
+               <lb/>
+               <lb/>...<date when-custom="1197">1197</date><lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_oz5_jbz_k3b">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Serbian" facs="#zone_uth_lbz_k3b">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

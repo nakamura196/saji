@@ -7,6 +7,9 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：クロアチア語要約の日付は15日になっているが、5日の間違いではないか？要約の日付も妙な記述になっているし、要確認。</note>
+         </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -25,7 +28,31 @@
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="fermān_sūret">
+            <p>
+               <lb/>... <date when-custom="1173-07-05">fi'l-yevmi'l-hāmis Receb Sene suls ve sabʿīn ve mie ve elif</date><lb/>
+            </p>
+            <div type="sign_sūret">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="sign">
+            <p>
+               <lb/>...<lb/>
+            </p>
+            <div type="stamp">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian">
+            <p>
+               <lb/>Darum: <date when-custom="1173-07-15">15. redžep 1173</date> - <date when="1760-03-13">13. mart 1760</date><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
