@@ -7,25 +7,72 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】典型：自己言及でbuyurulduとあるが、これはbuyurulduなのか？</note>
+            <note type="mine">【要】日付：クロアチア語要約の月はRaとなっていたが、Bではないのか？</note>
+            <note type="mine">署名：傘型</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1609/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1609/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/317762cd31536dc1b13d4958646107fd6541e289.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1609/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/0cc4ff91f9ce564e04094c83b3d1235ab1a46f24.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1609/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/2914961e357470d5e31e0827dcca9efe4e51de40.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1609/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/8f9d92057c063c1ecfbc7e2b86f6abe980e50063.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/317762cd31536dc1b13d4958646107fd6541e289.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1609/canvas/p1"/>
+            <zone xml:id="zone_nhk_kmv_2jb" lry="3081" lrx="2354" uly="227" ulx="91"/>
+            <zone xml:id="zone_elf_mmv_2jb" lry="2995" lrx="1240" uly="1691" ulx="253"/>
+            <zone xml:id="zone_et2_nmv_2jb" lry="2244" lrx="983" uly="2097" ulx="832"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/0cc4ff91f9ce564e04094c83b3d1235ab1a46f24.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1609/canvas/p2"/>
+            <zone xml:id="zone_ytn_4mv_2jb" lry="1444" lrx="2845" uly="266" ulx="295"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1609/canvas/p3"
+               url="https://diyhistory.org/public/phr2/files/original/2914961e357470d5e31e0827dcca9efe4e51de40.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/8f9d92057c063c1ecfbc7e2b86f6abe980e50063.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1609/canvas/p4"/>
+            <zone xml:id="zone_jtz_rmv_2jb" lry="2286" lrx="3043" uly="357" ulx="285"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="beyāz_üzerine_buyuruldu" cert="low" facs="#zone_nhk_kmv_2jb">
+            <p>
+               <lb/>fī <date when-custom="1235-07-15">15 B sene 35</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_elf_mmv_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_et2_nmv_2jb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_ytn_4mv_2jb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
+         <div type="translation_Croatian" facs="#zone_jtz_rmv_2jb">
+            <p>
+               <lb/><date when-custom="1235-04-15">15. Rebjulahira 1235</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

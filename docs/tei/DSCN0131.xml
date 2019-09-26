@@ -8,24 +8,63 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1615/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1615/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7e8310eae58ea276c52bb53330bf9b77c9b1fbf0.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1615/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9b1947fbcff921400b6a6bba0c8f1b040cc2b630.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/7e8310eae58ea276c52bb53330bf9b77c9b1fbf0.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1615/canvas/p1"/>
+            <zone xml:id="zone_y2m_54v_2jb" lry="2840" lrx="2290" uly="0" ulx="150"/>
+            <zone xml:id="zone_nf1_w4v_2jb" lry="2814" lrx="1095" uly="2539" ulx="720"/>
+            <zone xml:id="zone_pqm_w4v_2jb" lry="2797" lrx="638" uly="2530" ulx="189"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/9b1947fbcff921400b6a6bba0c8f1b040cc2b630.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1615/canvas/p2"/>
+            <zone xml:id="zone_bky_y4v_2jb" lry="417" lrx="1237" uly="251" ulx="1030"/>
+            <zone xml:id="zone_tyk_z4v_2jb" lry="501" lrx="751" uly="289" ulx="477"/>
+            <zone xml:id="zone_emk_1pv_2jb" lry="2276" lrx="1318" uly="1449" ulx="713"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="unknown" facs="#zone_y2m_54v_2jb">
+            <p>
+               <lb/>işbu <date when-custom="1234">bin iki yüz otuz dört senesinde</date> der ʿuhde ... <lb/>               
+               <lb/>... fī <date when-custom="1234-10-03">3 Ş sene 1234</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_nf1_w4v_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_bky_y4v_2jb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>
+            <div type="sign" facs="#zone_pqm_w4v_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_tyk_z4v_2jb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>                        
+         </div>
+         <div type="summary_Croatian" facs="#zone_emk_1pv_2jb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

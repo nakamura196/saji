@@ -8,24 +8,33 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1608/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1608/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/78bfe223e54bab1a77b56b56a9ea5efe35d17893.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/78bfe223e54bab1a77b56b56a9ea5efe35d17893.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1608/canvas/p1"/>
+            <zone xml:id="zone_mms_tlv_2jb" lry="3058" lrx="2317" uly="1475" ulx="183"/>
+            <zone xml:id="zone_pdx_5lv_2jb" lry="3020" lrx="584" uly="2605" ulx="292"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="temessük" facs="#zone_mms_tlv_2jb">
+            <p>
+               <lb/>... fī <date when-custom="1248-03-18">18 Ra sene 248</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_pdx_5lv_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>         
       </body>
    </text>
 </TEI>

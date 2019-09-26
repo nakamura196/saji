@@ -8,24 +8,45 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1601/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1601/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3a6f94555dabc8bc481a10da5ad93c51b90cb5cc.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1601/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/cff62c76dfff63402921e2eceb7bed200ec1e0f5.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/3a6f94555dabc8bc481a10da5ad93c51b90cb5cc.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1601/canvas/p1"/>
+            <zone xml:id="zone_zjz_1fv_2jb" lry="3090" lrx="2263" uly="100" ulx="391"/>
+            <zone xml:id="zone_hx3_cfv_2jb" lry="2954" lrx="869" uly="2570" ulx="557"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/cff62c76dfff63402921e2eceb7bed200ec1e0f5.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1601/canvas/p2"/>
+            <zone xml:id="zone_qbj_dfv_2jb" lry="1266" lrx="3156" uly="672" ulx="145"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN" cert="unknown" facs="#zone_zjz_1fv_2jb">
+            <p>
+               <lb/>işbu <date when-custom="1246">bin iki yüz krık altı senesinde</date> der ʿuhde ve ... <lb/>
+               <lb/>fī <date when-custom="1246-06-11" cert="low">11 māh C sene 1246</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_hx3_cfv_2jb">
+               <p>
+                  <lb/>... <lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_qbj_dfv_2jb">
+            <p>
+               <lb/>... <date when="1831">1831</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

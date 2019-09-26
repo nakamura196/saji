@@ -7,25 +7,62 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】典型：自己言及なし、要検討。</note>
+            <note type="mine">【要】日付：月 Raでいいのか？</note>
+            <note type="mine">署名：傘型</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1617/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1617/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4c27fe4853f7ee3c6411caa295727f30bfba979b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1617/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/5f709980657c2ddc9ff679cd877d12b346b31c30.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1617/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/29c9e026c63e93abb80918f17bcc1cf1cb819888.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/4c27fe4853f7ee3c6411caa295727f30bfba979b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1617/canvas/p1"/>
+            <zone xml:id="zone_ngn_crv_2jb" lry="2892" lrx="1870" uly="92" ulx="139"/>
+            <zone xml:id="zone_vgt_drv_2jb" lry="2869" lrx="880" uly="2417" ulx="334"/>
+            <zone xml:id="zone_gf4_2rv_2jb" lry="2771" lrx="871" uly="2610" ulx="690"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/5f709980657c2ddc9ff679cd877d12b346b31c30.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1617/canvas/p2"/>
+            <zone xml:id="zone_phv_frv_2jb" lry="1083" lrx="2895" uly="711" ulx="462"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1617/canvas/p3"
+               url="https://diyhistory.org/public/phr2/files/original/29c9e026c63e93abb80918f17bcc1cf1cb819888.jpg"
+            />
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="unknown" facs="#zone_ngn_crv_2jb">
+            <p>
+               <lb/><date when-custom="1249">bin iki yüz krık dokuz sene</date> ... fī <lb/>
+               <lb/>fī <date when-custom="1250-03-28">28 Ra sene 250</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_vgt_drv_2jb">
+               <p>
+                  <lb/>... <lb/>
+               </p>
+               <div type="stamp" facs="#zone_gf4_2rv_2jb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_phv_frv_2jb">
+            <p>
+               <lb/>... <date when="1834">1834</date><lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

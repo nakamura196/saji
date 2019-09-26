@@ -7,28 +7,34 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">商工業者（エスナフ）の氏名・住所・税・temettüat</note>
+            <note type="mine">毎年書き込むタイプの書式。</note>
+            <note type="mine">【要】temettüat defteriを調べる</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]
+               }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1603/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1603/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/53450a4ba1bb9167a92bc3fb6dbc52bdcba73807.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/53450a4ba1bb9167a92bc3fb6dbc52bdcba73807.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1603/canvas/p1"/>
+            <zone xml:id="zone_cwr_pgv_2jb" lry="3021" lrx="1642" uly="108" ulx="503"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="tezkire_ruhsatiye_esnaf" facs="#zone_cwr_pgv_2jb">
+            <p>
+               <lb/>... fī <lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

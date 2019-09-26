@@ -7,25 +7,54 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：年の読み方を確認する。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1591/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1591/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a0be21bc4ffbcf1f3c410c07f0926302dedf104a.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1591/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8dfcf12815dfbc814f50bb4daef61b057725ee18.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a0be21bc4ffbcf1f3c410c07f0926302dedf104a.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1591/canvas/p1"/>
+            <zone xml:id="zone_f2h_s1v_2jb" lry="2781" lrx="1945" uly="63" ulx="182"/>
+            <zone xml:id="zone_djj_t1v_2jb" lry="2744" lrx="905" uly="2252" ulx="621"/>
+            <zone xml:id="zone_x1h_51v_2jb" lry="2643" lrx="522" uly="2203" ulx="238"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/8dfcf12815dfbc814f50bb4daef61b057725ee18.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1591/canvas/p2"/>
+            <zone xml:id="zone_afl_v1v_2jb" lry="905" lrx="3078" uly="455" ulx="178"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN_temessük" cert="unknown" facs="#zone_f2h_s1v_2jb">
+            <p>
+               <lb/>İşbu <date when-custom="1198" cert="low">bin yüz doksan sekiz</date> ... fī <lb/>
+            </p>
+            <div type="sign" facs="#zone_djj_t1v_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+            <div type="sign" facs="#zone_x1h_51v_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_afl_v1v_2jb">
+            <p>
+               <lb/>... <lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

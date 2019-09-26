@@ -8,24 +8,40 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1636/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1636/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/74acf687c45c0dc2ac7772504bd86a3a8df7ad96.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/74acf687c45c0dc2ac7772504bd86a3a8df7ad96.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1636/canvas/p1"/>
+            <zone xml:id="zone_qvx_25w_2jb" lry="2975" lrx="2158" uly="1308" ulx="83"/>
+            <zone xml:id="zone_jq1_g5w_2jb" lry="2945" lrx="710" uly="2547" ulx="365"/>
+            <zone xml:id="zone_b3x_g5w_2jb" lry="1150" lrx="1804" uly="213" ulx="284"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN_tapu" facs="#zone_qvx_25w_2jb">
+            <p>
+               <lb/>işbu <date when-custom="1235">bin iki yüz otuz beş senesinde</date> der ʿuhde ve ... <lb/>
+               <lb/><date when-custom="1235">1235</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_jq1_g5w_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_b3x_g5w_2jb">
+            <p>
+               <lb/>... <date when="1820">1820</date>. ... <lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

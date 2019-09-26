@@ -8,24 +8,50 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1620/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1620/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7511a5675489e810f8e8545ab1de0768ceeee46f.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1620/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a60abbbe769dffffca07c54d346bd074d25c5991.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/7511a5675489e810f8e8545ab1de0768ceeee46f.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1620/canvas/p1"/>
+            <zone xml:id="zone_c5m_vnw_2jb" lry="2528" lrx="2185" uly="14" ulx="71"/>
+            <zone xml:id="zone_lvq_wnw_2jb" lry="2510" lrx="656" uly="2034" ulx="137"/>
+            <zone xml:id="zone_jv2_xnw_2jb" lry="2496" lrx="642" uly="2304" ulx="419"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a60abbbe769dffffca07c54d346bd074d25c5991.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1620/canvas/p2"/>
+            <zone xml:id="zone_hm4_b4w_2jb" lry="1244" lrx="2750" uly="694" ulx="350"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="zabt_tezkire" facs="#zone_c5m_vnw_2jb">
+            <p>
+               <lb/>işbu <date when-custom="1265">bin iki yüz altmış beş senesinde</date> der ʿuhde ve ...  <lb/>
+            </p>
+            <div type="sign" facs="#zone_lvq_wnw_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_jv2_xnw_2jb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_hm4_b4w_2jb">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
