@@ -11,48 +11,74 @@
             <note type="mine">【要】日付：クロアチア語要約の日付は15日になっているが、5日の間違いではないか？要約の日付も妙な記述になっているし、要確認。</note>
          </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 2"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1556/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1556/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6aa9ce02690537268460879ab3234a8fa68289f4.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1556/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a503a69bdb4aff43d52874bc883a37a4ef3b5f2c.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1556/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/1b95d195ae5f410952b5bcd06011a951c6d8c219.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1556/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/3e813db285ff7fdded86ae8fc89e7118f4ddfe02.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/6aa9ce02690537268460879ab3234a8fa68289f4.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1556/canvas/p1"/>
+            <zone xml:id="zone_vcv_5p5_2jb" lry="2446" lrx="2333" uly="150" ulx="351"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a503a69bdb4aff43d52874bc883a37a4ef3b5f2c.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1556/canvas/p2"/>
+            <zone xml:id="zone_bt2_zp5_2jb" lry="1284" lrx="2987" uly="951" ulx="2628"/>
+            <zone xml:id="zone_adt_zp5_2jb" lry="1175" lrx="2967" uly="1064" ulx="2873"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/1b95d195ae5f410952b5bcd06011a951c6d8c219.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1556/canvas/p3"/>
+            <zone xml:id="zone_kqm_bq5_2jb" lry="2356" lrx="517" uly="1829" ulx="77"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/3e813db285ff7fdded86ae8fc89e7118f4ddfe02.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1556/canvas/p4"/>
+            <zone xml:id="zone_j3y_cq5_2jb" lry="866" lrx="2578" uly="111" ulx="562"/>
+            <zone xml:id="zone_wry_dq5_2jb" lry="1922" lrx="2984" uly="1172" ulx="606"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="fermān_sūret">
+         <div type="fermān_sūret" facs="#zone_vcv_5p5_2jb">
             <p>
-               <lb/>... <date when-custom="1173-07-05">fi'l-yevmi'l-hāmis Receb Sene suls ve sabʿīn ve mie ve elif</date><lb/>
+               <lb/>... <date when-custom="1173-07-05">fi'l-yevmi'l-hāmis Receb Sene suls ve sabʿīn
+                  ve mie ve elif</date><lb/>
             </p>
-            <div type="sign_sūret">
+            <div type="sign_sūret" facs="#zone_kqm_bq5_2jb">
                <p>
                   <lb/>...<lb/>
                </p>
-            </div>            
+            </div>
          </div>
-         <div type="sign">
+         <div type="sign" facs="#zone_bt2_zp5_2jb">
             <p>
                <lb/>...<lb/>
             </p>
-            <div type="stamp">
+            <div type="stamp" facs="#zone_adt_zp5_2jb">
                <p>
                   <lb/>...<lb/>
                </p>
-            </div>            
+            </div>
          </div>
-         <div type="summary_Croatian">
+         <div type="summary_Croatian" facs="#zone_j3y_cq5_2jb">
             <p>
-               <lb/>Darum: <date when-custom="1173-07-15">15. redžep 1173</date> - <date when="1760-03-13">13. mart 1760</date><lb/>
+               <lb/>... <date when="1759">1759</date>.<lb/>
             </p>
          </div>         
+         <div type="summary_Croatian" facs="#zone_wry_dq5_2jb">
+            <p>
+               <lb/>Datum: <date when-custom="1173-07-15">15. redžep 1173</date> - <date
+                  when="1760-03-13">13. mart 1760</date><lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

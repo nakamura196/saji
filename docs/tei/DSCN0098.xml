@@ -9,7 +9,6 @@
          </publicationStmt>
          <notesStmt>
             <note type="mine">【要】再撮影：裏面にスタンプが写っていないが、おそらく署名の裏にスタンプが押してある。要再撮影。</note>
-            <note type="mine">【要】"sign"にzoneタグを追加する。</note>
          </notesStmt>
          <sourceDesc>
             <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
@@ -23,6 +22,7 @@
                url="https://diyhistory.org/public/phr2/files/original/12d0609a8f2194e06085ec1c3612d89dc2bc304b.jpg"
                n="https://diyhistory.org/public/phr2/iiif/1582/canvas/p1"/>
             <zone xml:id="zone_hvm_rbv_l3b" lry="2957" lrx="1893" uly="1221" ulx="150"/>
+            <zone xml:id="zone_n31_jt5_2jb" lry="2876" lrx="718" uly="2653" ulx="433"/>
          </surface>
          <surface>
             <graphic
@@ -42,7 +42,7 @@
                <p>
                   <lb/>...<lb/>
                </p>
-               <div type="stamp">
+               <div type="stamp" facs="#zone_n31_jt5_2jb">
                   <p>
                      <lb/>...<lb/>
                   </p>

@@ -7,11 +7,9 @@
       <publicationStmt>
         <p>Publication Information</p>
       </publicationStmt>
-      <notesStmt>
-        <note type="mine">【要】"sign"にzoneタグを追加する。</note>
-      </notesStmt>
       <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]
+          }</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -22,6 +20,7 @@
           url="https://diyhistory.org/public/phr2/files/original/729ffe2737f4fac02f4f6634b2b746c00ca14489.jpg"
           n="https://diyhistory.org/public/phr2/iiif/1565/canvas/p1"/>
         <zone xml:id="zone_gzx_y2z_k3b" lry="1852" lrx="2124" uly="76" ulx="330"/>
+        <zone xml:id="zone_dc5_br5_2jb" lry="1728" lrx="697" uly="1174" ulx="357"/>
       </surface>
     </surfaceGrp>
   </facsimile>
@@ -31,12 +30,12 @@
         <p>
           <lb/>olmaz<lb/>
         </p>
-        <div type="sign">
+        <div type="sign" facs="#zone_dc5_br5_2jb">
           <p>
             <lb/>...<lb/>
           </p>
-        </div>        
-      </div>      
+        </div>
+      </div>
     </body>
   </text>
 </TEI>

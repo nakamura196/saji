@@ -7,9 +7,6 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】"sign"にzoneタグを追加する。</note>
-         </notesStmt>
          <sourceDesc>
             <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
@@ -22,6 +19,7 @@
                url="https://diyhistory.org/public/phr2/files/original/d1bfb915061577e29a04c02dd31ac795044e0865.jpg"
                n="https://diyhistory.org/public/phr2/iiif/1568/canvas/p1"/>
             <zone xml:id="zone_g2z_vjz_k3b" lry="2546" lrx="1854" uly="230" ulx="208"/>
+            <zone xml:id="zone_t5w_nr5_2jb" lry="2543" lrx="843" uly="2099" ulx="507"/>
          </surface>
          <surface>
             <graphic
@@ -40,7 +38,7 @@
                <lb/>...<lb/>
                <lb/>... fī <date when-custom="1175---22" cert="unknown">22 ... sene 1175</date><lb/>
             </p>
-            <div type="sign">
+            <div type="sign" facs="#zone_t5w_nr5_2jb">
                <p>
                   <lb/>...<lb/>
                </p>
@@ -48,14 +46,15 @@
                   <p>
                      <lb/>... İsmaʿīl ...<lb/>
                   </p>
-               </div>               
-            </div>            
+               </div>
+            </div>
          </div>
          <div type="unknown" cert="unknown" facs="#zone_jld_yjz_k3b">
             <p>
-               <lb/>... bu mektūb <placeName type="proper">Kirşevo</placeName>'de ... devletim zimmī İvan veled-i Kayu(?) nām zimmī ...<lb/>
+               <lb/>... bu mektūb <placeName type="proper">Kirşevo</placeName>'de ... devletim zimmī
+               İvan veled-i Kayu(?) nām zimmī ...<lb/>
             </p>
-         </div>         
+         </div>
       </body>
    </text>
 </TEI>

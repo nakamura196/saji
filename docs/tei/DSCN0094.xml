@@ -7,9 +7,6 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】"sign", "summary_Serbian"にzoneタグを追加する。</note>
-         </notesStmt>
          <sourceDesc>
             <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
@@ -22,6 +19,7 @@
                url="https://diyhistory.org/public/phr2/files/original/c67c4bad4bf1fcf5bda0f6a3ff125941c7962f34.jpg"
                n="https://diyhistory.org/public/phr2/iiif/1578/canvas/p1"/>
             <zone xml:id="zone_g44_mt5_l3b" lry="2700" lrx="1909" uly="91" ulx="217"/>
+            <zone xml:id="zone_e5c_ws5_2jb" lry="2677" lrx="794" uly="2405" ulx="470"/>
          </surface>
          <surface>
             <graphic
@@ -45,10 +43,10 @@
                <lb/>... biz dahi kāimmakām ... olduğumuz hasebiyle ...<lb/>
                <lb/>icrāsına izin ... işbu hurūf ... tahrīr ...<lb/>
                <lb/>cānib ...mukātaʿa ... tamāmen edā ... icrāsına ...<lb/>
-               <lb/>oluna hurira fī <date when-custom="1156-03" cert="unknown">şehr Rebiü'l-evvel sene
-                  1156</date><lb/>
+               <lb/>oluna hurira fī <date when-custom="1156-03" cert="unknown">şehr Rebiü'l-evvel
+                  sene 1156</date><lb/>
             </p>
-            <div type="sign">
+            <div type="sign" facs="#zone_e5c_ws5_2jb">
                <p>
                   <lb/>... <persName>Mehmed</persName> ...<lb/>
                </p>
@@ -59,7 +57,7 @@
                </div>
             </div>
          </div>
-         <div type="summary_Serbian">
+         <div type="summary_Serbian" facs="#zone_sg2_rt5_l3b">
             <p>
                <lb/>... fī <lb/>
             </p>

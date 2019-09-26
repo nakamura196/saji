@@ -7,25 +7,55 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：月の読みを確認する。</note>
+            <note type="mine">署名：傘型</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1586/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1586/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3ee2c6ab88a176c53808118bbb742519bfc5fb63.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1586/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a69f97b4467b5003f57c42578321a97ba15d7d36.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/3ee2c6ab88a176c53808118bbb742519bfc5fb63.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1586/canvas/p1"/>
+            <zone xml:id="zone_vft_n55_2jb" lry="2758" lrx="1900" uly="233" ulx="58"/>
+            <zone xml:id="zone_kxx_455_2jb" lry="2735" lrx="1226" uly="1741" ulx="58"/>
+            <zone xml:id="zone_hys_p55_2jb" lry="2285" lrx="929" uly="2040" ulx="662"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a69f97b4467b5003f57c42578321a97ba15d7d36.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1586/canvas/p2"/>
+            <zone xml:id="zone_g4z_q55_2jb" lry="1355" lrx="3150" uly="1016" ulx="34"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="tezkire" facs="#zone_vft_n55_2jb">
+            <p>
+               <lb/>... fī <date when-custom="1171--18" cert="unknown">18 ... sene 171</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_kxx_455_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_hys_p55_2jb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_g4z_q55_2jb">
+            <p>
+               <lb/><date when="1758">1758</date> ... <lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

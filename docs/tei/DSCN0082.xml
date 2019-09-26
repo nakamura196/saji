@@ -9,10 +9,10 @@
       </publicationStmt>
       <notesStmt>
         <note type="summary">1100グルシュを納めた領収書</note>
-        <note type="mine">【要】"sign"にzoneタグを追加する。</note>
       </notesStmt>
       <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]}</p>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型"
+          ]}</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -22,8 +22,9 @@
         <graphic
           url="https://diyhistory.org/public/phr2/files/original/405f0d1e42ffee400140b7134b4541f4e2e0c293.jpg"
           n="https://diyhistory.org/public/phr2/iiif/1566/canvas/p1"/>
-        <zone xml:id="zone_rbd_mfz_k3b" lry="2863" lrx="1863" uly="209" ulx="109"/>
-        <zone xml:id="zone_xzn_g3z_k3b" lry="2495" lrx="1066" uly="2258" ulx="796"/>
+        <zone xml:id="zone_rbd_mfz_k3b" lry="2945" lrx="1875" uly="209" ulx="109"/>
+        <zone xml:id="zone_xzn_g3z_k3b" lry="2929" lrx="1604" uly="1737" ulx="346"/>
+        <zone xml:id="zone_kmd_3r5_2jb" lry="2495" lrx="1075" uly="2249" ulx="792"/>
       </surface>
       <surface>
         <graphic
@@ -38,8 +39,9 @@
       <div type="tezkire" facs="#zone_rbd_mfz_k3b">
         <p>
           <lb/>Hüve<lb/>
-          <lb/>... rāhibāt-ı <placeName type="proper">Foyniçe</placeName> ve <placeName type="proper"
-            >Kirşevo</placeName> ve <placeName type="proper" cert="unknown">...</placeName><lb/>
+          <lb/>... rāhibāt-ı <placeName type="proper">Foyniçe</placeName> ve <placeName
+            type="proper">Kirşevo</placeName> ve <placeName type="proper" cert="unknown"
+            >...</placeName><lb/>
           <lb/>800 ...<lb/>
           <lb/>200 ...<lb/>
           <lb/>100 ...<lb/>
@@ -51,22 +53,22 @@
           <lb/>bin yüz guruş ... hazīne ... tezkire<lb/>
           <lb/>virildi fī <date when-custom="1181-05-17" cert="medium">17 Ca 181</date><lb/>
         </p>
-        <div type="sign">
+        <div type="sign" facs="#zone_xzn_g3z_k3b">
           <p>
             <lb/><persName>Süleyman</persName> Bosna māl-ı kethüdāsı ...<lb/>
           </p>
-          <div type="stamp" facs="#zone_xzn_g3z_k3b">
+          <div type="stamp" facs="#zone_kmd_3r5_2jb">
             <p>
               <lb/>Süleyman ...<lb/>
             </p>
-          </div>          
-        </div>        
+          </div>
+        </div>
       </div>
       <div type="summary_Serbian" facs="#zone_gf4_4fz_k3b">
         <p>
           <lb/>...<lb/>
         </p>
-      </div>      
+      </div>
     </body>
   </text>
 </TEI>

@@ -7,9 +7,6 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】"sign", "summary_Croatian"にzoneタグを追加する。</note>
-         </notesStmt>
          <sourceDesc>
             <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
@@ -22,6 +19,8 @@
                url="https://diyhistory.org/public/phr2/files/original/8dcff4e74ca68f579ff96c8325105b3d3aff6f4c.jpg"
                n="https://diyhistory.org/public/phr2/iiif/1570/canvas/p1"/>
             <zone xml:id="zone_srj_xmz_k3b" lry="3141" lrx="2408" uly="816" ulx="58"/>
+            <zone xml:id="zone_ldc_tr5_2jb" lry="2995" lrx="851" uly="2716" ulx="504"/>
+            <zone xml:id="zone_mzw_tr5_2jb" lry="3053" lrx="509" uly="2709" ulx="197"/>
          </surface>
          <surface>
             <graphic
@@ -35,21 +34,27 @@
       <body>
          <div type="EMIN_zabt_" cert="low" facs="#zone_srj_xmz_k3b">
             <p>
-               <lb/>Vech-i tahrīr-i hurūf  budur ki<lb/>
+               <lb/>Vech-i tahrīr-i hurūf budur ki<lb/>
                <lb/>İşbu <date when-custom="1297">iki yüz doksan yedi senesinde</date> der ʿuhde ve iltizāmımız<lb/>
-               <lb/>bulunan Kirşevo mukātaʿası kurālarında <placeName type="proper" cert="low">Düzce</placeName> karyesi hudūdunda<lb/>
+               <lb/>bulunan Kirşevo mukātaʿası kurālarında <placeName type="proper" cert="low"
+                  >Düzce</placeName> karyesi hudūdunda<lb/>
             </p>
-            <div type="sign">
+            <div type="sign" facs="#zone_ldc_tr5_2jb">
                <p>
                   <lb/>...<lb/>
                </p>
-            </div>            
+            </div>
+            <div type="sign" facs="#zone_mzw_tr5_2jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
          </div>
-         <div type="summary_Croatian">
+         <div type="summary_Croatian" facs="#zone_fdr_zmz_k3b">
             <p>
                <lb/><date when="1783">1783</date> ...<lb/>
             </p>
-         </div>         
+         </div>
       </body>
    </text>
 </TEI>

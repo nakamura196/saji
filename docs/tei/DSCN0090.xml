@@ -7,9 +7,6 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】"sign"にzoneタグを追加する。</note>
-         </notesStmt>
          <sourceDesc>
             <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
@@ -22,6 +19,7 @@
                url="https://diyhistory.org/public/phr2/files/original/54703ce6995d592be2b0f52985f574b93d203fa8.jpg"
                n="https://diyhistory.org/public/phr2/iiif/1574/canvas/p1"/>
             <zone xml:id="zone_old_sdm_l3b" lry="2430" lrx="2277" uly="1376" ulx="177"/>
+            <zone xml:id="zone_fxj_ks5_2jb" lry="2345" lrx="533" uly="1925" ulx="187"/>
          </surface>
          <surface>
             <graphic
@@ -44,17 +42,12 @@
                <lb/>... <persName>İbrāhīm Ağa</persName>'nın ... beş yüz guruş bu defa tarafımıza tamāmen<lb/>
                <lb/>... iʿtā eyledüğye yedine işbu ... tahvīl virildi<lb/>
             </p>
-            <div type="sign">
-               <p>
-                  <lb/><persName cert="unknown">...</persName><lb/>                  
-               </p>
+            <div type="sign" facs="#zone_fxj_ks5_2jb">
+               <p><lb/><persName cert="unknown">...</persName><lb/></p>
             </div>
             <div type="Şühūdu’l-hāl">
-               <p>
-                  <lb/><persName>İmām Hoca ʿAlemdār</persName><lb/>
-                  <lb/><persName>... ʿAbd b. ʿAlemdār</persName><lb/>
-                  <lb/><persName>ve gayrhim ...</persName><lb/>
-               </p>
+               <p><lb/><persName>İmām Hoca ʿAlemdār</persName><lb/><lb/><persName>... ʿAbd b.
+                     ʿAlemdār</persName><lb/><lb/><persName>ve gayrhim ...</persName><lb/></p>
             </div>
          </div>
          <div type="summary_Croatian" facs="#zone_ys4_tdm_l3b">
