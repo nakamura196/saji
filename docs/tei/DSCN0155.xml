@@ -7,28 +7,60 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：Ra月？要確認。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]
+               }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1637/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1637/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d3ab06e22041cd0a77850ad8b8983f65d99d885f.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1637/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d965bc811cb32147d5851588032b538dc9e195b4.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1637/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/827d51ddd4a0e68a49682dac6f15974fc8b2091b.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/d3ab06e22041cd0a77850ad8b8983f65d99d885f.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1637/canvas/p1"/>
+            <zone xml:id="zone_bt1_3nd_fjb" lry="3125" lrx="1842" uly="516" ulx="175"/>
+            <zone xml:id="zone_pwd_jnd_fjb" lry="1239" lrx="1409" uly="534" ulx="484"/>
+            <zone xml:id="zone_krz_jnd_fjb" lry="3030" lrx="827" uly="2812" ulx="572"/>
+         </surface>
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1637/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/d965bc811cb32147d5851588032b538dc9e195b4.jpg"
+            />
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/827d51ddd4a0e68a49682dac6f15974fc8b2091b.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1637/canvas/p3"/>
+            <zone xml:id="zone_pns_lnd_fjb" lry="1305" lrx="2539" uly="916" ulx="667"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="tapu_senedi" facs="#zone_bt1_3nd_fjb">
+            <p>
+               <lb/>... fī <date when-custom="1272-03-11" cert="low">11 Ra sene 1272</date><lb/>
+            </p>
+            <div type="tuğra" facs="#zone_pwd_jnd_fjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+            <div type="stamp" facs="#zone_krz_jnd_fjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_pns_lnd_fjb">
+            <p>
+               <lb/>... <date when="1877">1877</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

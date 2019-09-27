@@ -8,24 +8,50 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1642/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1642/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e3566b2eebcfad6c6812119241724ca80138c93f.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1642/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7b418658fea91f62e34339b650987359d42436ca.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/e3566b2eebcfad6c6812119241724ca80138c93f.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1642/canvas/p1"/>
+            <zone xml:id="zone_cxj_v4d_fjb" lry="2700" lrx="2163" uly="154" ulx="45"/>
+            <zone xml:id="zone_o1k_w4d_fjb" lry="2653" lrx="1223" uly="2380" ulx="659"/>
+            <zone xml:id="zone_u1z_w4d_fjb" lry="2641" lrx="1209" uly="2442" ulx="989"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/7b418658fea91f62e34339b650987359d42436ca.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1642/canvas/p2"/>
+            <zone xml:id="zone_lnj_y4d_fjb" lry="1061" lrx="2895" uly="450" ulx="100"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="zabt_nāme" facs="#zone_cxj_v4d_fjb">
+            <p>
+               <lb/>... fī <date when-custom="1273-10-14" cert="medium">14 L sene 73</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_o1k_w4d_fjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_u1z_w4d_fjb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>               
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_lnj_y4d_fjb">
+            <p>
+               <lb/>... <date when="1857">1857</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>

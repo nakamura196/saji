@@ -7,25 +7,49 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】再撮影：署名の裏にスタンプがありそうだが、裏面画像にスタンプが写っていないので再撮影する。</note>
+         </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1644/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1644/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d95213a13a3dae2f4a1dadab534e1f7336683a18.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1644/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/91bbc4a134f68767c1b3633477eba8bbd5875421.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/d95213a13a3dae2f4a1dadab534e1f7336683a18.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1644/canvas/p1"/>
+            <zone xml:id="zone_wtq_mpd_fjb" lry="2833" lrx="2425" uly="-8" ulx="75"/>
+            <zone xml:id="zone_dqb_spd_fjb" lry="2148" lrx="562" uly="1886" ulx="179"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/91bbc4a134f68767c1b3633477eba8bbd5875421.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1644/canvas/p2"/>
+            <zone xml:id="zone_cdp_tpd_fjb" lry="1550" lrx="3100" uly="672" ulx="428"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="zabt_temessük" cert="low" facs="#zone_wtq_mpd_fjb">
+            <p>
+               <lb/>... fī <date when-custom="1254-11-20">20 Za sene 254</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_dqb_spd_fjb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>            
+         </div>
+         <div type="summary_Croatian" facs="#zone_cdp_tpd_fjb">
+            <p>
+               <lb/>... <date when="1839">1839</date>.<lb/>
+               <lb/><date when-custom="1254">1254</date>.<lb/>
+            </p>
+         </div>         
       </body>
    </text>
 </TEI>
