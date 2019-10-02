@@ -8,8 +8,7 @@
         <p>Publication Information</p>
       </publicationStmt>
       <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ],
-          "saji:type": [ "iʿlām+buyuruldu" ] }</p>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -46,7 +45,7 @@
     <body>
       <div type="iʿlām" facs="#zone_ahr_cc3_cjb">
         <p>
-          <lb/>... <date when-custom="1198-03-15">fi'l-yevmi'l-hāmis ve ʿaşar<lb/>
+          <lb/>... <date when-custom="1198-03-15" type="created">fi'l-yevmi'l-hāmis ve ʿaşar<lb/>
           <lb/>min māh Rebi'ü'l-evvel sene semān ve tisʿīn ve mie ve elif</date><lb/>
         </p>
         <div type="sign" facs="#zone_zwd_2c3_cjb">
@@ -62,12 +61,12 @@
       </div>
       <div type="buyuruldu" facs="#zone_pwz_2c3_cjb">
         <p>
-          <lb/>buyuruldu fī <date when-custom="1198-04-08">8 R sene 198</date><lb/>
+          <lb/>buyuruldu fī <date when-custom="1198-04-08" type="created">8 R sene 198</date><lb/>
         </p>
       </div>
       <div type="summary_Croatian" facs="#zone_pnr_gc3_cjb">
         <p>
-          <lb/>... <date when="1784">1784</date><lb/>
+          <lb/>... <date when="1784" type="summary_Croatian">1784</date><lb/>
         </p>
       </div>      
     </body>
