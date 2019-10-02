@@ -36,7 +36,7 @@
       <body>
          <div type="EMIN_sūret" cert="unknown" facs="#zone_ydg_yyj_1jb">
             <p>
-               <lb/>... fī <date when-custom="1233-05-10">10 Ca 1233</date><lb/>
+               <lb/>... fī <date when-custom="1233-05-10" type="created">10 Ca 1233</date><lb/>
             </p>
          </div>
          <div type="stamp_sūret" facs="#zone_a5c_1zj_1jb">
@@ -46,8 +46,8 @@
          </div>
          <div type="summary_Croatian" facs="#zone_fcy_1zj_1jb">
             <p>
-               <lb/>... <date when="1819">1819</date>. <date when-custom="1233">1233</date>.<lb/>
-               <lb/>l>Nno 5.<lb/>
+               <lb/>... <date when="1819" type="summary_Croatian">1819</date>. <date when-custom="1233" type="summary_Croatian">1233</date>.<lb/>
+               <lb/>Nno 5.<lb/>
             </p>
          </div>
       </body>
