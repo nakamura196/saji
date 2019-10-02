@@ -33,7 +33,7 @@
       <body>
          <div type="zabt_tezkire" facs="#zone_b4r_cgx_cjb">
             <p>
-               <lb/>... fī <date when-custom="1266-10-15">15 L sene 66</date><lb/>
+               <lb/>... fī <date when-custom="1266-10-15" type="created">15 L sene 66</date><lb/>
             </p>
             <div type="sign" facs="#zone_ynz_dgx_cjb">
                <p>
@@ -43,8 +43,8 @@
          </div>
          <div type="summary_Croatian" facs="#zone_bgl_ggx_cjb">
             <p>
-               <lb/>... <date when="1880">1880</date><lb/>
-               <lb/>Nno 4. <date when-custom="1266">1266</date>.<lb/>
+               <lb/>... <date when="1880" type="summary_Croatian">1880</date><lb/>
+               <lb/>Nno 4. <date when-custom="1266" type="summary_Croatian">1266</date>.<lb/>
             </p>
          </div>         
       </body>

@@ -33,7 +33,7 @@
       <body>
          <div type="EMIN" cert="unknown" facs="#zone_lcl_rtx_cjb">
             <p>
-               <lb/>... fī <date when-custom="1159-12-04" cert="low">4 Z sene 159</date><lb/>
+               <lb/>... fī <date when-custom="1159-12-04" cert="low" type="created">4 Z sene 159</date><lb/>
             </p>
             <div type="sign" facs="#zone_rsw_wtx_cjb">
                <p>
@@ -43,7 +43,7 @@
          </div>
          <div type="summary_Croatian" facs="#zone_zm1_ttx_cjb">
             <p>
-               <lb/><date when="1843">1843</date>.<lb/>
+               <lb/><date when="1843" type="summary_Croatian">1843</date>.<lb/>
             </p>
          </div>
       </body>
