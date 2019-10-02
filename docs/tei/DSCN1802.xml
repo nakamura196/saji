@@ -7,6 +7,9 @@
       <publicationStmt>
         <p>Publication Information</p>
       </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要】日付：本文中のすべての日付を作成日(type="created")としてマークアップしているが、どれが作成日なのか要確認。</note>
+      </notesStmt>
       <sourceDesc>
         <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
       </sourceDesc>
@@ -32,12 +35,12 @@
     <body>
       <div type="şükka" facs="#zone_umy_fdj_cjb">
         <p>
-          <lb/>... fī <lb/>
+          <lb/>... fī <date when-custom="1290-11-16" type="created">16 Zi'l-kaʿade sene 290</date> ve fī <date when-custom="1289--24" type="created">24 ... sene 289</date><lb/>
+          <lb/>fī <date when-custom="1289--02" type="created">2 ... sene 89</date>...<lb/>           
         </p>
         <div type="stamp" facs="#zone_rxy_hdj_cjb">
           <p>
-            <lb/>... fī <date when-custom="1290-11-16">16 Zi'l-kaʿade sene 290</date> ve fī <date when-custom="1289--24">24 ... sene 289</date><lb/>
-            <lb/>fī <date when-custom="1289--02">2 ... sene 89</date>...<lb/>            
+            <lb/>... fī <lb/>
           </p>
         </div>        
       </div>      
