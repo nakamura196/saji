@@ -7,6 +7,9 @@
       <publicationStmt>
         <p>Publication Information</p>
       </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要】日付：作成年タグが2つある、見直す。</note>
+      </notesStmt>
       <sourceDesc>
         <p>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod":
           [ "8×2" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "\"hüve\"",
@@ -53,16 +56,19 @@
   <text>
     <body>
       <div type="kassām_deftrei" facs="#zone_vsy_2ly_y3b">
-        <l>... <date when-custom="129?-04-22" cert="unknown">fi'l-yevmi'l-sānī ve'l-ʿaşrīn ve ... Rebīʿl-āhir sene ... ve tisʿīn ve miyetein</date></l>
-        <l>ve elif</l>
-        <div type="stamp" facs="#zone_kr5_hly_y3b"/>
-        <div type="stamp" facs="#zone_mkn_3ly_y3b"/>
-        <div type="stamp" facs="#zone_pzl_kly_y3b"/>             
+        <p>
+          <lb/>...<date when-custom="129?-04-22" cert="unknown" type="created"> fi'l-yevmi'l-sānī
+            ve'l-ʿaşrīn ve ... Rebīʿl-āhir sene ... ve tisʿīn ve miyetein ve<lb/>
+            <lb/>elif</date><lb/>
+        </p>
       </div>
+      <div type="stamp" facs="#zone_kr5_hly_y3b"/>
+      <div type="stamp" facs="#zone_mkn_3ly_y3b"/>
+      <div type="stamp" facs="#zone_pzl_kly_y3b"/>
       <div type="kassām_deftrei" cert="low" facs="#zone_f1h_mly_y3b">
-        <l>fī <date when-custom="1294--21" cert="unknown">21 ... 294</date></l>
-        <div type="stamp" facs="#zone_pyv_mly_y3b"></div>
-      </div>      
+        <l>fī <date when-custom="1294--21" cert="unknown" type="created">21 ... 294</date></l>
+        <div type="stamp" facs="#zone_pyv_mly_y3b"/>
+      </div>
     </body>
   </text>
 </TEI>

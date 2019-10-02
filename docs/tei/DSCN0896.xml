@@ -48,7 +48,7 @@
     <body>
       <div type="EMIN" cert="unknown" facs="#zone_nxl_t34_c3b">
         <l>Vech-i taḥrīr-i ḥurūf oldur ki</l>
-        <l>İşbu <date cert="unknown" from-custom="1202-03-01" to="--02-29">bin iki yüz iki senesinde
+        <l>İşbu <date cert="unknown" from-custom="1202-03-01" to-custom="--02-29">bin iki yüz iki senesinde
             Mārtı ibtidāsından Şubāṭı ġāyet[in]e</date> varınca, der-ʿuhde ve iltizāmımızda</l>
         <l>bulunan <placeName>Ḳirşevo</placeName> muḳāṭa‘asında kiliseye merbūṭ olan ḳaryelerin
           ʿaşār ve şerʿiyye [sic, aʿşār-ı şerʿiyye] ve rüsūmātı sāir</l>
@@ -64,7 +64,7 @@
             >Perpetre</persName> żabṭ ve ʿaşār-ı şerʿiyyesin [sic, aʿşār-ı şerʿiyyesin] aḫẕ ve ḳabż
           idüb, ṭarafımızdan</l>
         <l>ve ṭaraf-ı āḫardan bir kimesne mānʿī olmaya ve müzāḥim olmayalar taḥrīr fī <date
-            cert="medium" when-custom="1202-03-21">21 Ra(?) 1202</date></l>
+            cert="medium" when-custom="1202-03-21" type="created">21 Ra(?) 1202</date></l>
         <l>Ḳirşevo emīni <persName cert="low" role="Ḳirşevo emīni">Aḥmad ...</persName></l>
         <div type="Şüḥūdu’l-ḥāl">
           <l>Şüḥūdu’l-ḥāl</l>
@@ -77,7 +77,7 @@
         <l cert="unknown">...</l>
       </div>
       <div type="summary_Serbian" facs="#zone_pwq_xj3_x3b">
-        <l><date when="1788-06-27">27 Juna 1788</date> ...</l>
+        <l><date when="1788-06-27" type="summary_Serbian">27 Juna 1788</date> ...</l>
       </div>
     </body>
   </text>

@@ -33,7 +33,7 @@
       <body>
          <div type="unknown" facs="#zone_rpx_grd_fjb">
             <p>
-               <lb/>işbu <date when-custom="1233">bin iki yüz otuz üç senesinde</date> ... fī <lb/>
+               <lb/>işbu <date when-custom="1233" type="created">bin iki yüz otuz üç senesinde</date> ... fī <lb/>
             </p>
             <div type="sign" facs="#zone_j4l_3rd_fjb">
                <p>
@@ -43,8 +43,8 @@
          </div>
          <div type="summary_Croatian" facs="#zone_vwd_krd_fjb">
             <p>
-               <lb/>... <date when="1819">1819</date>.<lb/>
-               <lb/><date when-custom="1233">1233</date>.<lb/>
+               <lb/>... <date when="1819" type="summary_Croatian">1819</date>.<lb/>
+               <lb/><date when-custom="1233" type="summary_Crotatian">1233</date>.<lb/>
             </p>
          </div>         
       </body>

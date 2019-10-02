@@ -36,7 +36,7 @@
       <body>
          <div type="zabt_temessük" cert="low" facs="#zone_wtq_mpd_fjb">
             <p>
-               <lb/>... fī <date when-custom="1254-11-20">20 Za sene 254</date><lb/>
+               <lb/>... fī <date when-custom="1254-11-20" type="created">20 Za sene 254</date><lb/>
             </p>
             <div type="sign" facs="#zone_dqb_spd_fjb">
                <p>
@@ -46,8 +46,8 @@
          </div>
          <div type="summary_Croatian" facs="#zone_cdp_tpd_fjb">
             <p>
-               <lb/>... <date when="1839">1839</date>.<lb/>
-               <lb/><date when-custom="1254">1254</date>.<lb/>
+               <lb/>... <date when="1839" type="summary_Croatian">1839</date>.<lb/>
+               <lb/><date when-custom="1254" type="summary_Coatian">1254</date>.<lb/>
             </p>
          </div>         
       </body>

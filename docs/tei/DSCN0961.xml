@@ -45,13 +45,13 @@
   <text>
     <body>
       <div type="EMIN_sūret" cert="unknown" facs="#zone_rsg_lrz_y3b">
-        <l>... <date when-custom="1233-05-10">10 Ca 1233</date></l>
+        <l>... <date when-custom="1233-05-10" type="created">10 Ca 1233</date></l>
       </div>
       <div type="stamp_sūret" facs="#zone_uns_prz_y3b">
         <l>Hodābend ...</l>
       </div>
       <div type="summary_Croatian" facs="#zone_uls_nrz_y3b">
-        <l>... <date when="1819">1819</date>. <date when-custom="1233">1233</date>.</l>
+        <l>... <date when="1819" type="summary_Croatian">1819</date>. <date when-custom="1233" type="summary_Croatian">1233</date>.</l>
         <l>Nno 5.</l>
       </div>
     </body>
