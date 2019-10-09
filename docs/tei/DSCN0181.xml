@@ -8,24 +8,39 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1661/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1661/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cbb8fd23b96ee84370b8984c8ee3d42f3f51e003.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/cbb8fd23b96ee84370b8984c8ee3d42f3f51e003.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1661/canvas/p1"/>
+            <zone xml:id="zone_vfc_srm_3jb" lry="2330" lrx="2431" uly="138" ulx="216"/>
+            <zone xml:id="zone_y2t_trm_3jb" lry="2271" lrx="665" uly="1778" ulx="275"/>
+            <zone xml:id="zone_mv3_wrm_3jb" lry="2251" lrx="644" uly="2038" ulx="426"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="zabt_temessük" facs="#zone_vfc_srm_3jb">
+            <p>
+               <lb/>İşbu <date when-custom="1265" type="created">bin iki yüz altmış beş senesinde</date> der ʿuhde ve ... <lb/>
+            </p>
+            <div type="sign" facs="#zone_y2t_trm_3jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp" facs="#zone_mv3_wrm_3jb">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
       </body>
    </text>
 </TEI>
