@@ -22,15 +22,30 @@
             <zone xml:id="zone_jrd_4vt_3jb" lry="2645" lrx="558" uly="2421" ulx="298"/>
          </surface>
          <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/1674/canvas/p2"
+            <graphic
                url="https://diyhistory.org/public/phr2/files/original/e437f2931bd0988f8aea17459dc36e341a3a161d.jpg"
-            />
+               n="https://diyhistory.org/public/phr2/iiif/1674/canvas/p2"/>
+            <zone xml:id="zone_hhc_fwt_3jb" lry="1527" lrx="2406" uly="600" ulx="223"/>
          </surface>
       </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p/>
+         <div type="izin" cert="low" facs="#zone_gkq_mvt_3jb">
+            <p>
+               <lb/>... fī <date when-custom="1236-01-03" type="created">3 Muharrem'il-harām sene 1236</date><lb/>
+            </p>
+            <div type="sign" facs="#zone_jrd_4vt_3jb">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+         </div>
+         <div type="summary_Croatian" facs="#zone_hhc_fwt_3jb">
+            <p>
+               <lb/><date when-custom="1236" type="summary_Croatian">1236</date>.<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>
