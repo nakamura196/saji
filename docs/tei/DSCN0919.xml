@@ -7,6 +7,9 @@
       <publicationStmt>
         <p>Publication Information</p>
       </publicationStmt>
+      <notesStmt>
+        <note type="summary">土地／田／</note>
+      </notesStmt>
       <sourceDesc>
         <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod":
           [ "4x2" ], "saji:fond": [ "Tursko 1" ], "saji:from": [ "emin" ], "saji:lineage": [ "8" ],
@@ -21,6 +24,7 @@
           url="https://diyhistory.org/public/phr2/files/original/280214c2b6cfe5bb112f963cb7a36776cdbfd50b.jpg"
           n="https://diyhistory.org/public/phr2/iiif/1037/canvas/p1"/>
         <zone xml:id="zone_xdt_5ty_y3b" lry="2612" lrx="1891" uly="1508" ulx="129"/>
+        <zone xml:id="zone_gfz_k35_jjb" lry="2593" lrx="695" uly="2393" ulx="312"/>
       </surface>
       <surface>
         <graphic
@@ -33,7 +37,32 @@
   <text>
     <body>
       <div type="EMIN_mektūb" cert="medium" facs="#zone_xdt_5ty_y3b">
-        <l>... fī <date when-custom="1199-04-08" type="created">8 Rebīʿ'l-āhir sene 1199</date></l>
+        <p>
+          <lb/>Bāis-ı furūf oldur ki<lb/>
+          <lb/>İşbu <date from-custom="1199">bin yüz doksan dokuz senesinden</date> mutasarrıf olduğumuz Kirşevo mukātaʿası karyelerinden<lb/>
+          <lb/>... ve ... karyesinden ... ile ... bir kıtʿa tarlaya mutasarrıf olan<lb/>
+          <lb/>... veled-i Yako nām zimmī ... yine Kirşevo kasabasında kilisadan olan<lb/>
+          <lb/>... iki ... guruş mukābelesinde resmile ... be hakk tasarrıfnı ... idüb<lb/>
+          <lb/>sāhib-i arz olduğumuz hasebiyle ... mezbūr tecvīz ... mezbūr tarlanın<lb/>
+          <lb/>sāl-bi-sāl ... sāhib-i arz olanlara edā ve teslīm eylediklerinde<lb/>
+          <lb/>tasarrıfına kimesne māniʿ olmaya hurira fī <date when-custom="1199-04-08" type="created">8 Rebī'ü'l-āhir sene
+          1199</date><lb/>
+        </p>
+      </div>
+      <div type="sign" facs="#zone_gfz_k35_jjb">
+        <p>
+          <lb/>Kirşevo emīni ʿAbdüllāh ʿAlemdār<lb/>
+        </p>
+      </div>
+      <div type="Şühūdu’l-hāl">
+        <p>
+          <lb/>Şühūdu’l-hāl<lb/>
+          <lb/>Mehmed Beşe ibn ʿAbdüllāh ʿAlemdār<lb/>
+          <lb/>Hasan ...<lb/>
+          <lb/>Zimmī ... İstebān<lb/>
+          <lb/>Berber Mehmed Beşe<lb/>
+          <lb/>Ahmed Beşe<lb/>
+        </p>
       </div>
       <div type="summary_Serbian" facs="#zone_t13_wty_y3b">
         <l>... <date when="1785" type="summary_Serbian">1785</date></l>
