@@ -25,7 +25,26 @@
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN_varaka" cert="unknown">
+            <p>
+               <lb/>... <date when-custom="1266" type="created">sene 66</date><lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div type="summary_Croatian">
+            <p>
+               <lb/><date when-custom="1266" type="summary_Croatian">g. 1266</date>.<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

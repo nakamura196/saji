@@ -7,6 +7,9 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】典型：EMINに分類したが、少し通常と書式が違う。要確認。</note>
+         </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -25,7 +28,26 @@
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN_zemin_tezkire" cert="unknown">
+            <p>
+               <lb/>... <date when-custom="1229" type="created">sene 1229</date><lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+            <div type="sign">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+         </div>
+         <div type="summary_Croatian">
+            <p>
+               <lb/>...<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

@@ -25,7 +25,22 @@
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN" cert="unknown">
+            <p>
+               <lb/>işbu <date when-custom="1213" type="created">bin iki yüz on üç senedinde</date> ... fī <lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>... <lb/>
+               </p>
+            </div>
+         </div>
+         <div type="summary_Croatian">
+            <p>
+               <lb/><date when="1799-03-25" type="summary_Croatian">Die 25 Mar: 1799</date><lb/>
+               <lb/><date when-custom="1213" type="summary_Croatian">1213</date>. Nno 3.<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

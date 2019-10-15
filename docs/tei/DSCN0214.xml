@@ -25,7 +25,22 @@
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN_tapu_nāme">
+            <p>
+               <lb/>... <date when-custom="1214" type="created">sene 1214</date><lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+         </div>
+         <div type="summary_Croatian">
+            <p>
+               <lb/>... <date when="1800" type="summary_Croatian">1800</date> ...<lb/>
+               <lb/>Nno 5. <date when-custom="1214" type="summary_Croatian">1214</date>.<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

@@ -25,7 +25,26 @@
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN" cert="unknown">
+            <p>
+               <lb/>... fī <date when-custom="1235-05-07">7 Ca sene 1235</date><lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div type="summary_Croatian">
+            <p>
+               <lb/><date when-custom="1235" type="summary_Croatian">1235</date>. Nno 43.<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

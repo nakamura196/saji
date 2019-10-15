@@ -25,7 +25,27 @@
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN" cert="unknown">
+            <p>
+               <lb/>... fī <date when-custom="1235-06-07" type="created">7 C sene 35</date><lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div type="summary_Croatian">
+            <p>
+               <lb/>... <date when="1820" type="summary_Croatian">1820</date> ... <lb/>
+               <lb/>... <date when-custom="1235" type="summary_Croatian">1235</date>.<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>
