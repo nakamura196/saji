@@ -7,6 +7,27 @@ import urllib.request
 from rdflib import URIRef, BNode, Literal, Graph
 import glob
 
+import requests
+import json
+
+
+
+def get_mani_data(manifest):
+    headers = {"content-type": "application/json"}
+    r = requests.get(manifest, headers=headers)
+    data = r.json()
+
+    map_ = {}
+
+    canvases = data["sequences"][0]["canvases"]
+    for canvas in canvases:
+        canvas_id =canvas["@id"]
+        service = canvas["thumbnail"]["service"]["@id"]
+        map_[canvas_id] = service
+
+    return map_
+
+
 dirname = "tei"
 dir = "../docs/"+dirname
 files = glob.glob(dir+"/*.xml")
@@ -36,6 +57,8 @@ for i in range(len(files)):
 
     surfaceGrp = root.find(prefix+"surfaceGrp")
     manifest = surfaceGrp.get("facs")
+
+    mani_data = get_mani_data(manifest)
 
     selection = {
         "@id": curation_uri + "/range"+str(count),
@@ -85,12 +108,15 @@ for i in range(len(files)):
             w = lrx - x
             h = lry - y
 
+            thumbnail = mani_data[canvas_uri]+"/"+str(x) + ","+str(y)+","+str(w)+","+str(h)+"/200,/0/default.jpg"
+
             member = {
                 "@id": canvas_uri + "#xywh=" +
                 str(x) + ","+str(y)+","+str(w)+","+str(h),
                 "@type": "sc:Canvas",
                 "label": id,
-                "metadata": []
+                "metadata": [],
+                "thumbnail": thumbnail
 
             }
             if text:
