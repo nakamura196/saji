@@ -30,6 +30,7 @@
           url="https://diyhistory.org/public/phr2/files/original/4a77a55f4f9fd60eae17a008ff6166f39d3a05bb.jpg"
           n="https://diyhistory.org/public/phr2/iiif/1080/canvas/p1"/>
         <zone xml:id="zone_nh1_jsz_y3b" lry="2772" lrx="2182" uly="245" ulx="336"/>
+        <zone xml:id="zone_wlv_tkj_kjb" lry="2545" lrx="683" uly="2154" ulx="371"/>
       </surface>
       <surface>
         <graphic
@@ -42,13 +43,41 @@
   <text>
     <body>
       <div type="EMIN_temessük_sūret" cert="medium" facs="#zone_nh1_jsz_y3b">
-        <l>... <date when-custom="1254-12-21" type="created">21 Z 254</date></l>
+        <p>
+          <lb/>Hüve<lb/>
+          <lb/>Vech-i tahrīr-i hurūf oldur ki<lb/>
+          <lb/>işbu <date when-custom="1253">bin elli üç senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasına tābiʿ muslimīn cemāʿat tābiʿ<lb/>
+          <lb/>nefs-i muslimīn Kub(?) karyesi hudūdunda ...dan zimmī ... İyvan mutasarrıflarında<lb/>
+          <lb/>nām kimesneden ... tasarrıfında bulunan bir kıtʿa tarlası ... bir taraf ... tarlası ve taraf-ı<lb/>
+          <lb/>sānī dere ve taraf-ı sālis ... ve taraf-ı rābiʿ dere işbu dārande-i hurūf Kirşevo varoş<lb/>
+          <lb/>kilisa gardiyān ... içün bir ... akçe ve ber ... ili yüz elli guruş resmiyle ... içün<lb/>
+          <lb/>... beyʿ ... beyʿ idüb ol dāhil ... üzere kabūl ...<lb/>
+          <lb/>mukātaʿa emīn bulunduğumuz hasebiyle ve ... gardiyānı yedine virildi işbu temessük-ü zabt<lb/>
+          <lb/>tarafımızdan ve taraf-ı āhardan kimesne māniʿ ve ... olunmaya <date when-custom="1254-12-21" type="created">21 Z 254</date><lb/>
+        </p>
+        <div type="sign" facs="#zone_wlv_tkj_kjb">
+          <p>
+            <lb/>El-me'mūr bi'l-... Süleymān mukātaʿa emīn-i Kirşevo M<lb/>
+          </p>
+        </div>
+        <div type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+            <lb/>Süleymān<lb/>
+            <lb/><lb/>
+            <lb/><lb/>
+          </p>
+        </div>
       </div>
       <div type="summery_Croatian" facs="#zone_j3c_lsz_y3b">
-        <l>...</l>
-        <l>...</l>
-        <l>... <date when="1839" type="summary_Croatian">1839</date> - <date when-custom="1253" type="summary_Croatian">1253</date>.</l>
-        <l>Nno 3.</l>
+        <p>
+          <lb/>...<lb/>
+          <lb/>...<lb/>
+          <lb/>... <date when="1839" type="summary_Croatian">1839</date> - <date when-custom="1253"
+            type="summary_Croatian">1253</date>.<lb/>
+          <lb/>Nno 3.<lb/>
+          <lb/>46<lb/>
+        </p>
       </div>
     </body>
   </text>

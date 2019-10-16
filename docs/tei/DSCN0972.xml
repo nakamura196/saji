@@ -28,6 +28,7 @@
           url="https://diyhistory.org/public/phr2/files/original/8001bd504132a4473f0b27addf034423c65f48af.jpg"
           n="https://diyhistory.org/public/phr2/iiif/1088/canvas/p1"/>
         <zone xml:id="zone_nsq_fdf_z3b" lry="2723" lrx="2070" uly="1400" ulx="100"/>
+        <zone xml:id="zone_y2v_xpj_kjb" lry="2533" lrx="462" uly="2195" ulx="216"/>
       </surface>
       <surface>
         <graphic
@@ -41,10 +42,32 @@
   <text>
     <body>
       <div type="EMIN" cert="low" facs="#zone_nsq_fdf_z3b">
-        <l>... fī <date when-custom="1191-02-15" type="created">15 Safer 1191</date></l>
+        <p>
+          <lb/>Vech-i tahrīr-i hurūf budur ki<lb/>
+          <lb/><lb/>
+          <lb/><lb/>
+          <lb/><lb/>
+          <lb/><lb/>
+          <lb/><lb/>
+          <lb/><lb/>
+          <lb/><date when-custom="1191-02-15" type="created"> sene fī 15 Safer sene 1191</date><lb/>
+        </p>
+        <div type="sign" facs="#zone_y2v_xpj_kjb">
+          <p>
+            <lb/>... fī <lb/>
+          </p>
+        </div>
       </div>
-      <div type="summary_Croatian" facs="#zone_xsv_3df_z3b"></div>
-      <div type="unknown" facs="#zone_qsq_jdf_z3b"></div>
+      <div type="summary_Croatian" facs="#zone_xsv_3df_z3b">
+        <p>
+          <lb/>... fī <lb/>
+        </p>
+      </div>
+      <div type="unknown" facs="#zone_qsq_jdf_z3b">
+        <p>
+          <lb/>... fī <lb/>
+        </p>
+      </div>
     </body>
   </text>
 </TEI>
