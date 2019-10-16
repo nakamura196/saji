@@ -38,6 +38,22 @@
           n="https://diyhistory.org/public/phr2/iiif/1080/canvas/p2"/>
         <zone xml:id="zone_j3c_lsz_y3b" lry="1572" lrx="3089" uly="833" ulx="350"/>
       </surface>
+      
+      
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/b330f6ba87c73193a1505e5fa4cd66bd2712cf09.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1080/canvas/p3"/>
+        <zone xml:id="zone_pvb_ktj_1jb" lry="2600" lrx="2000" uly="127" ulx="63"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/fb24cccbc9a12cd13c719bdeaf704088f43caf23.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1080/canvas/p4"/>
+        <zone xml:id="zone_mh1_mtj_1jb" lry="2836" lrx="2191" uly="2500" ulx="1882"/>
+        <zone xml:id="zone_wvn_mtj_1jb" lry="809" lrx="2145" uly="236" ulx="82"/>
+      </surface>
+      
     </surfaceGrp>
   </facsimile>
   <text>
@@ -79,6 +95,24 @@
           <lb/>46<lb/>
         </p>
       </div>
+      
+      <div type="EMIN_temessük_sūret" cert="medium" facs="#zone_pvb_ktj_1jb">
+        <p>
+          <lb/>... fī <date when-custom="1254-12-21" type="created">21 Z 254</date><lb/>
+        </p>
+      </div>
+      <div type="stamp_sūret" facs="#zone_mh1_mtj_1jb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div>
+      <div type="summary_Crotatian" facs="#zone_wvn_mtj_1jb">
+        <p>
+          <lb/>... <date when="1839" type="summary_Croatian">1839</date> - <date when-custom="1253" type="summary_Croatian">1253</date>.<lb/>
+          <lb/>Nno 3.<lb/>
+        </p>
+      </div>
+      
     </body>
   </text>
 </TEI>

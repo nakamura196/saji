@@ -37,6 +37,22 @@
         <zone xml:id="zone_xsv_3df_z3b" lry="1554" lrx="1741" uly="604" ulx="871"/>
         <zone xml:id="zone_qsq_jdf_z3b" lry="3104" lrx="1571" uly="2087" ulx="871"/>
       </surface>
+      
+      
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/eb3cb3c5c0d7518e0769b75bcaac6dd084fd383a.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1088/canvas/p3"/>
+        <zone xml:id="zone_ggj_fpj_1jb" lry="2936" lrx="1954" uly="1572" ulx="18"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/2ab1f6e0a45bb421c723fb845d3650f77e819801.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1088/canvas/p3"/>
+        <zone xml:id="zone_ik2_hpj_1jb" lry="1420" lrx="1587" uly="500" ulx="737"/>
+        <zone xml:id="zone_m4b_3pj_1jb" lry="3029" lrx="1466" uly="1958" ulx="800"/>
+      </surface>
+      
     </surfaceGrp>
   </facsimile>
   <text>
@@ -68,6 +84,24 @@
           <lb/>... fī <lb/>
         </p>
       </div>
+      
+      
+      <div type="EMIN" cert="low" facs="#zone_ggj_fpj_1jb">
+        <p>
+          <lb/>... fī <date when-custom="1191-02-15" type="created">15 Safer 1191</date><lb/>
+        </p>
+      </div>
+      <div type="summary_Crotatian" facs="#zone_ik2_hpj_1jb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div>
+      <div type="unknown" facs="#zone_m4b_3pj_1jb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div>
+      
     </body>
   </text>
 </TEI>

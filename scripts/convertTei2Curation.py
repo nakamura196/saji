@@ -136,9 +136,9 @@ for i in range(len(files)):
                         "value": anno_type
                     })
 
-                for key in omeka_uri:
+                for key in omeka_data:
                     if "saji:" in key:
-                        values = omeka_uri[key]
+                        values = omeka_data[key]
                         for value in values:
                             member["metadata"].append({
                                 "label": value["property_label"],

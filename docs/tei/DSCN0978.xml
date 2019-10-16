@@ -37,6 +37,22 @@
           n="https://diyhistory.org/public/phr2/iiif/1094/canvas/p2"/>
         <zone xml:id="zone_exj_wff_z3b" lry="1816" lrx="2150" uly="1066" ulx="1100"/>
       </surface>
+      
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/5bc9b3210843533264e6d1f9aa8f44ee0879447c.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1094/canvas/p3"/>
+        <zone xml:id="zone_cns_dr3_1jb" lry="3080" lrx="1620" uly="80" ulx="380"/>
+        <zone xml:id="zone_l3s_2r3_1jb" lry="257" lrx="1021" uly="108" ulx="844"/>
+        <zone xml:id="zone_wg2_fr3_1jb" lry="314" lrx="1207" uly="171" ulx="1037"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/74ba9b778934f21e99b50040e52f7602240cd4c3.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1094/canvas/p4"/>
+        <zone xml:id="zone_cth_gr3_1jb" lry="1905" lrx="1845" uly="1211" ulx="917"/>
+      </surface>
+      
     </surfaceGrp>
   </facsimile>
   <text>
@@ -47,6 +63,27 @@
         <div type="stamp" facs="#zone_zvh_5ff_z3b"></div>
       </div>
       <div type="summary_Croatian" facs="#zone_exj_wff_z3b"></div>
+      <div type="hüccet_sūret" facs="#zone_cns_dr3_1jb">
+        <p>
+          <lb/>... fī <date when-custom="1210-01-11-20" cert="low" type="created">evāsit Muharrem el-harām sene ʿaşr ve miyetein
+            ve elif</date><lb/>
+        </p>
+        <div type="stamp" facs="#zone_l3s_2r3_1jb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>
+        <div type="stamp" facs="#zone_wg2_fr3_1jb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>           
+      </div>
+      <div type="summary_Croatian" facs="#zone_cth_gr3_1jb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div>
     </body>
   </text>
 </TEI>

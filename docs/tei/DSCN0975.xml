@@ -31,6 +31,21 @@
           n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p1"/>
         <zone xml:id="zone_ufg_g2f_z3b" lry="2708" lrx="1533" uly="166" ulx="183"/>
       </surface>
+      
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/568dd9747c2a713b347b21e1e02ba9dcfef53cf6.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p2"/>
+        <zone xml:id="zone_dxr_5t3_1jb" lry="2769" lrx="1477" uly="84" ulx="31"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/f08a17a14720b9fd169b25e6c1b34d33d824c197.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p3"/>
+        <zone xml:id="zone_aql_wt3_1jb" lry="650" lrx="679" uly="475" ulx="475"/>
+        <zone xml:id="zone_z3b_xt3_1jb" lry="2912" lrx="1458" uly="2750" ulx="1179"/>
+      </surface>
+      
     </surfaceGrp>
   </facsimile>
   <text>
@@ -38,6 +53,23 @@
       <div type="EMIN" cert="low" facs="#zone_ufg_g2f_z3b">
         <l></l>
       </div>
+      
+      <div type="EMIN" cert="low" facs="#zone_dxr_5t3_1jb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div>
+      <div type="stamp" facs="#zone_aql_wt3_1jb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div>
+      <div type="summary_Croatian" facs="#zone_z3b_xt3_1jb">
+        <p>
+          <lb/><date when="1873" type="summary_Croatian">1873</date><lb/>
+        </p>
+      </div>
+      
     </body>
   </text>
 </TEI>
