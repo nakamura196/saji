@@ -4,7 +4,7 @@
   - [Faceted Search](https://nakamura196.github.io/isearch/?u=https://nakamura196.github.io/saji/data/items.json)
 - 可視化
   - [集計](https://nakamura196.github.io/min3/vis.html?u=https://nakamura196.github.io/saji/data/data.json)
-  - [タイムライン](https://nakamura196.github.io/min3/freq.html?u=https://nakamura196.github.io/saji/data/data.json)
+  - [タイムライン](https://nakamura196.github.io/min3/input)
 - 画像切り出し
   - [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?curation=https://nakamura196.github.io/saji/data/curation.json)
   - [IIIF Curation Comparison Tool](https://nakamura196.github.io/i3/comp/search.html?curation=https://nakamura196.github.io/saji/data/curation.json&thumb=true)
