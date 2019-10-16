@@ -48,108 +48,112 @@ count = 1
 
 for i in range(len(files)):
     print(str(i+1)+"/"+str(len(files)))
-    file = files[i]
+    try:
+        file = files[i]
 
-    prefix = ".//{http://www.tei-c.org/ns/1.0}"
-    tree = ET.parse(file)
-    ET.register_namespace('', "http://www.tei-c.org/ns/1.0")
-    root = tree.getroot()
+        prefix = ".//{http://www.tei-c.org/ns/1.0}"
+        tree = ET.parse(file)
+        ET.register_namespace('', "http://www.tei-c.org/ns/1.0")
+        root = tree.getroot()
 
-    surfaceGrp = root.find(prefix+"surfaceGrp")
-    manifest = surfaceGrp.get("facs")
+        surfaceGrp = root.find(prefix+"surfaceGrp")
+        manifest = surfaceGrp.get("facs")
 
-    omeka_id = manifest.split("/")[6]
-    omeka_uri = "http://diyhistory.org/public/phr2/api/items/"+omeka_id
-    headers = {"content-type": "application/json"}
-    r = requests.get(omeka_uri, headers=headers)
-    omeka_data = r.json()
+        omeka_id = manifest.split("/")[6]
+        omeka_uri = "http://diyhistory.org/public/phr2/api/items/"+omeka_id
+        headers = {"content-type": "application/json"}
+        r = requests.get(omeka_uri, headers=headers)
+        omeka_data = r.json()
 
-    mani_data = get_mani_data(manifest)
+        mani_data = get_mani_data(manifest)
 
-    selection = {
-        "@id": curation_uri + "/range"+str(count),
-        "@type": "sc:Range",
-        "label": "Automatic curation by TEI",
-        "members": [],
-        "within": {
-            "@id": manifest,
-            "@type": "sc:Manifest",
-            "label": root.find(prefix+"title").text
-        }
-    }
-
-    flg = False
-
-    surfaces = root.findall(prefix+"surface")
-    for surface in surfaces:
-        graphic = surface.find(prefix+"graphic")
-        canvas_uri = graphic.get("n")
-
-        zones = surface.findall(prefix+"zone")
-
-        if len(zones) > 0:
-            flg = True
-
-        for zone in zones:
-            id = zone.get("{http://www.w3.org/XML/1998/namespace}id")
-            ulx = int(zone.get("ulx"))
-            uly = int(zone.get("uly"))
-            lrx = int(zone.get("lrx"))
-            lry = int(zone.get("lry"))
-
-            attr = "#"+id
-
-            # zone_jgh_yhq_h3b
-
-            facs = root.find(".//*[@facs='"+attr+"']")
-            anno_type = None
-            text = None
-            if facs != None:
-                anno_type = facs.get("type") if facs.get("type") else None
-                text = ET.tostring(facs, method='text', encoding='unicode')
-
-            x = ulx
-            y = uly
-
-            w = lrx - x
-            h = lry - y
-
-            thumbnail = mani_data[canvas_uri]+"/" + \
-                str(x) + ","+str(y)+","+str(w)+","+str(h)+"/200,/0/default.jpg"
-
-            member = {
-                "@id": canvas_uri + "#xywh=" +
-                str(x) + ","+str(y)+","+str(w)+","+str(h),
-                "@type": "sc:Canvas",
-                "label": id,
-                "metadata": [],
-                "thumbnail": thumbnail
-
+        selection = {
+            "@id": curation_uri + "/range"+str(count),
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": [],
+            "within": {
+                "@id": manifest,
+                "@type": "sc:Manifest",
+                "label": root.find(prefix+"title").text
             }
-            if text:
-                member["text"] = text
+        }
 
-            if anno_type:
-                member["metadata"].append({
-                    "label": "Type",
-                    "value": anno_type
-                })
+        flg = False
 
-            for key in omeka_uri:
-                if "saji:" in key:
-                    values = omeka_uri[key]
-                    for value in values:
-                        member["metadata"].append({
-                            "label": value["property_label"],
-                            "value": value["@value"]
-                        })
+        surfaces = root.findall(prefix+"surface")
+        for surface in surfaces:
+            graphic = surface.find(prefix+"graphic")
+            canvas_uri = graphic.get("n")
 
-            selection["members"].append(member)
+            zones = surface.findall(prefix+"zone")
 
-            count += 1
+            if len(zones) > 0:
+                flg = True
 
-    if flg:
-        curation_data["selections"].append(selection)
+            for zone in zones:
+                id = zone.get("{http://www.w3.org/XML/1998/namespace}id")
+                ulx = int(zone.get("ulx"))
+                uly = int(zone.get("uly"))
+                lrx = int(zone.get("lrx"))
+                lry = int(zone.get("lry"))
+
+                attr = "#"+id
+
+                # zone_jgh_yhq_h3b
+
+                facs = root.find(".//*[@facs='"+attr+"']")
+                anno_type = None
+                text = None
+                if facs != None:
+                    anno_type = facs.get("type") if facs.get("type") else None
+                    text = ET.tostring(facs, method='text', encoding='unicode')
+
+                x = ulx
+                y = uly
+
+                w = lrx - x
+                h = lry - y
+
+                thumbnail = mani_data[canvas_uri]+"/" + \
+                    str(x) + ","+str(y)+","+str(w)+","+str(h)+"/200,/0/default.jpg"
+
+                member = {
+                    "@id": canvas_uri + "#xywh=" +
+                    str(x) + ","+str(y)+","+str(w)+","+str(h),
+                    "@type": "sc:Canvas",
+                    "label": id,
+                    "metadata": [],
+                    "thumbnail": thumbnail
+
+                }
+                if text:
+                    member["text"] = text
+
+                if anno_type:
+                    member["metadata"].append({
+                        "label": "Type",
+                        "value": anno_type
+                    })
+
+                for key in omeka_uri:
+                    if "saji:" in key:
+                        values = omeka_uri[key]
+                        for value in values:
+                            member["metadata"].append({
+                                "label": value["property_label"],
+                                "value": value["@value"]
+                            })
+
+                selection["members"].append(member)
+
+                count += 1
+
+        if flg:
+            curation_data["selections"].append(selection)
+
+    except:
+        print("error.")
 
 fw = open("../docs/data/curation.json", 'w')
 json.dump(curation_data, fw, ensure_ascii=False, indent=4,

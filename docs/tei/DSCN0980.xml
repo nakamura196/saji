@@ -45,6 +45,33 @@
           url="https://diyhistory.org/public/phr2/files/original/0ca82cbf60514e1eca7e7494ac9299e17266dfd7.jpg"
         />
       </surface>
+      
+      
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/a3d3f2e6020b13c2979e645c4c839a350c4f3c1b.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1096/canvas/p5"/>
+        <zone xml:id="zone_gjg_1q3_1jb" lry="3272" lrx="1654" uly="81" ulx="782"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/50daa230a70a08da1f1851962157df240172182e.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1096/canvas/p6"/>
+        <zone xml:id="zone_iqs_bq3_1jb" lry="1004" lrx="1033" uly="837" ulx="833"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1096/canvas/p7"
+          url="https://diyhistory.org/public/phr2/files/original/caba2ce960faa88ec8311bff1701b49b362cc085.jpg"
+        />
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/ec2b0f6f3747f8c55843f77dac90ca0662936ee6.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1096/canvas/p8"/>
+        <zone xml:id="zone_hpz_cq3_1jb" lry="1183" lrx="2500" uly="994" ulx="123"/>
+      </surface>
+      
+      
     </surfaceGrp>
   </facsimile>
   <text>
@@ -52,6 +79,23 @@
       <div type="hüccet" facs="#zone_uld_fhf_z3b">
         <l><date when-custom="1201-10-15" type="created">fi'l-yevmi'l-hāmis ʿaşar min Şevvāl el-mükerrem sene ahadā ve miyetein ve elif</date></l>
         <div type="stamp" facs="#zone_ipd_hhf_z3b"></div>
+      </div>
+      
+      <div type="hüccet" facs="#zone_gjg_1q3_1jb">
+        <p>
+          <lb/><date when-custom="1201-10-15" type="created">fi'l-yevmi'l-hāmis ʿaşar min Şevvāl el-mükerrem sene ahadā
+            ve miyetein ve elif</date><lb/>
+        </p>
+        <div type="stamp" facs="#zone_iqs_bq3_1jb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>
+      </div>
+      <div type="summary_Croatian" facs="#zone_hpz_cq3_1jb">
+        <p>
+          <lb/>...<lb/>
+        </p>
       </div>
     </body>
   </text>
