@@ -6,6 +6,7 @@ import argparse
 import urllib.request
 from rdflib import URIRef, BNode, Literal, Graph
 import glob
+import requests
 
 dirname = "tei"
 dir = "../docs/"+dirname
@@ -43,10 +44,29 @@ for i in range(len(files)):
         g.add((subject, URIRef("http://example.org/place"), Literal(placeName.text)))
 
     dates = body.findall(prefix+"date")
+    created = []
     for i in range(len(dates)):
         date = dates[i]
         g.add((subject, URIRef("http://purl.org/dc/terms/date"),
                Literal(date.get("when-custom"))))
+        if date.get("type") == "created":
+            
+            if date.get("when-custom"):
+                hd = date.get("when-custom")
+            elif date.get("from-custom"):
+                hd = date.get("from-custom")
+            if hd != None and len(hd) == 10:
+                
+                url = "http://ap.hutime.org/cal/?ival="+hd+"&ical=103.1&method=conv&ep=b&ocal=101.1&otype=date&oprop=text&oform=gg%20YYYY-MM-dd"
+
+                r = requests.get(url)
+                sd = r.text.replace("C.E. ", "").strip()
+                
+                # g.add((subject, URIRef("http://purl.org/dc/terms/created"),Literal(sd)))
+                created.append(sd)
+
+    if len(created) > 0:
+        g.add((subject, URIRef("http://purl.org/dc/terms/created"),Literal(sorted(created)[0])))
 
     divs = body.findall(prefix+"div")
     for i in range(len(divs)):
@@ -81,8 +101,8 @@ for i in range(len(files)):
     if len(text) > 0:
         g.add((subject, URIRef("http://purl.org/dc/terms/description"), Literal(text)))
           
-    tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"\\")[1]
-    # tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"/")[1]
+    # tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"\\")[1]
+    tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"/")[1]
     g.add((subject, URIRef("http://purl.org/dc/terms/relation"),
            URIRef("https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url="+tei_url)))
 
