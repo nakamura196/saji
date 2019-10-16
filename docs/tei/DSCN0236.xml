@@ -7,6 +7,9 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="mine">【要】日付：月日の読み取りができていない。</note>
+         </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -25,7 +28,21 @@
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN_temessük">
+            <p>
+               <lb/>... fī <date when-custom="1236" type="created">sene 236</date><lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+            <div type="şühūdu’l-hāl" cert="medium">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+         </div>         
       </body>
    </text>
 </TEI>
