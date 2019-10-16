@@ -1,6 +1,7 @@
 ﻿# アプリケーション
 - 検索
   - [検索UI](https://nakamura196.github.io/min3/#/?u=https://nakamura196.github.io/saji/data/data.json&config=https://nakamura196.github.io/saji/data/config.json)
+  - [Faceted Search](https://nakamura196.github.io/isearch/?u=https://nakamura196.github.io/saji/data/items.json)
 - 可視化
   - [集計](https://nakamura196.github.io/min3/vis.html?u=https://nakamura196.github.io/saji/data/data.json)
   - [タイムライン](https://nakamura196.github.io/min3/freq.html?u=https://nakamura196.github.io/saji/data/data.json)
