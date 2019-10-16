@@ -13,13 +13,13 @@
                 "size": 10,
                 "title": "dc:description"
             },
-            "http://example.org/person": {
+            "ex:person": {
                 "size": 10,
-                "title": "http://example.org/person"
+                "title": "ex:person"
             },
-            "http://example.org/place": {
+            "ex:place": {
                 "size": 10,
-                "title": "http://example.org/place"
+                "title": "ex:place"
             },
             "saji:aspectRatioType": {
                 "size": 10,
@@ -100,6 +100,14 @@
             "_fulltext"
         ],
         "sortings": {
+            "Date Asc": {
+                "field": "dc:created",
+                "order": "asc"
+            },
+            "Date Desc": {
+                "field": "dc:created",
+                "order": "desc"
+            },
             "Title Asc": {
                 "field": "_label",
                 "order": "asc"
@@ -403,10 +411,10 @@
             "dc:title": [
                 "DSCN0082"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Süleyman"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Foyniçe",
                 "...",
                 "Kirşevo"
@@ -1910,7 +1918,7 @@
             "dc:title": [
                 "DSCN9161"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Foyniçe",
                 "Kirşevo",
                 "None"
@@ -3014,7 +3022,7 @@
             "dc:title": [
                 "DSCN0090"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Frainder",
                 "... ʿAbd b.\n                     ʿAlemdār",
                 "İbrāhīm Ağa",
@@ -3022,7 +3030,7 @@
                 "İmām Hoca ʿAlemdār",
                 "..."
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "...",
                 "Kirşevo",
                 "None"
@@ -4750,7 +4758,7 @@
             "dc:title": [
                 "DSCN2174"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Mustafa ʿĀyed"
             ],
             "saji:aspectRatioType": [
@@ -5222,12 +5230,12 @@
             "dc:title": [
                 "DSCN2298"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "ʿAbd b ʿAlemdār",
                 "...",
                 "... Ağa"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "...",
                 "None",
                 "Kirşevo"
@@ -5354,10 +5362,10 @@
             "dc:title": [
                 "DSCN9192"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "..."
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Foyniçe",
                 "None"
             ],
@@ -5512,11 +5520,11 @@
             "dc:title": [
                 "DSCN2401"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "mollā",
                 "Mehmed Ağa"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "madīna-i ",
                 "Kirşevo",
                 "Saray Bosna"
@@ -6274,13 +6282,13 @@
             "dc:title": [
                 "DSCN9345"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Anton ...",
                 "el-nāib-i ",
                 "...",
                 "Toya"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Kirşevo",
                 "...",
                 "Nefs-i varoş-ı "
@@ -6547,14 +6555,14 @@
             "dc:title": [
                 "DSCN0896"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Nuvābīzāde Süleyman Ağa",
                 "el-Hāci Müderres Efendi",
                 "Perpetre",
                 "Breāder-i ʿAtāllāh Ağa",
                 "Ahmad ..."
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Kirşevo"
             ],
             "saji:aspectRatioType": [
@@ -9927,10 +9935,10 @@
             "dc:title": [
                 "DSCN2185"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "gardiyān"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Kirşevo"
             ],
             "saji:aspectRatioType": [
@@ -10350,7 +10358,7 @@
             "dc:title": [
                 "DSCN0092"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Kirşevo gardiyānı"
             ],
             "saji:aspectRatioType": [
@@ -11364,7 +11372,7 @@
             "dc:title": [
                 "DSCN0084"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Kirşevo"
             ],
             "saji:aspectRatioType": [
@@ -11701,11 +11709,11 @@
             "dc:title": [
                 "DSCN9307"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "...",
                 "... Süleyman"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Kirşevo",
                 "Sava",
                 "Mahkeme-i nāhiye-i ",
@@ -12816,7 +12824,7 @@
             "dc:title": [
                 "DSCN2065"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Kâtib-i dīvān efendi",
                 "kethüdā beg",
                 "velīyü'n-niʿamî"
@@ -13700,11 +13708,11 @@
             "dc:title": [
                 "DSCN0094"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Şāyu",
                 "Mehmed"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Saray\n                  Bosna"
             ],
             "saji:aspectRatioType": [
@@ -13731,11 +13739,11 @@
             "dc:title": [
                 "DSCN1980"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Mustafa",
                 "None"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Kirşevo",
                 "... mahalle-i ",
                 "Anton ...",
@@ -14490,7 +14498,7 @@
             "dc:title": [
                 "DSCN1987"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Nikola",
                 "İbrāhīm İbn Hacı Yūsuf"
             ],
@@ -15185,7 +15193,7 @@
             "dc:title": [
                 "DSCN0096"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "...",
                 "Mehmed"
             ],
@@ -15369,13 +15377,13 @@
             "dc:title": [
                 "DSCN2218"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "ʿÖmer",
                 "None",
                 "emīn-i mukātaʿa",
                 "Tombek"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Foyniçe",
                 "varoş-ı ",
                 "Kirşevo",
@@ -15579,10 +15587,10 @@
             "dc:title": [
                 "DSCN2076"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Marya"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "...",
                 "None"
             ],
@@ -15630,14 +15638,14 @@
             "dc:title": [
                 "DSCN2188"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Kara İbrahīm Ağa",
                 "Gebrān-ı ",
                 "İsteban",
                 "Kato",
                 "Toru"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Kirşevo",
                 "Veroş-ı "
             ],
@@ -16289,7 +16297,7 @@
             "dc:title": [
                 "DSCN0086"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Düzce"
             ],
             "saji:aspectRatioType": [
@@ -19317,10 +19325,10 @@
             "dc:title": [
                 "DSCN9200"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Miu veledi Miu"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "None",
                 "Foyniçe",
                 "eyālet-i ",
@@ -20528,10 +20536,10 @@
             "dc:title": [
                 "DSCN0974"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "El-seyyid ʿAbdü'l-rahman"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "Saray Bosna",
                 "...",
                 "Foyniçe",
@@ -20942,10 +20950,10 @@
             "dc:title": [
                 "DSCN2111"
             ],
-            "http://example.org/person": [
+            "ex:person": [
                 "Mehmed Ağa"
             ],
-            "http://example.org/place": [
+            "ex:place": [
                 "varoş-ı ",
                 "Foyniçe",
                 "Kirşevo",

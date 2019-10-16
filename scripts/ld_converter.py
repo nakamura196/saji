@@ -65,6 +65,14 @@ config = {
         "Title Desc": {
             "field": '_label',
             "order": 'desc'
+        },
+        "Date Asc": {
+            "field": 'dc:created',
+            "order": 'asc'
+        },
+        "Date Desc": {
+            "field": 'dc:created',
+            "order": 'desc'
         }
     },
     "aggregations": aggregations2
@@ -99,6 +107,7 @@ for i in range(len(ld_data)):
 
         label = label.replace("http://diyhistory.org/public/phr2/ns/saji/", "saji:")
         label = label.replace("http://purl.org/dc/terms/", "dc:")
+        label = label.replace("http://example.org/", "ex:")
 
         for value in values:
 
