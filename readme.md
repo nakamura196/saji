@@ -6,7 +6,7 @@
   - [タイムライン](https://nakamura196.github.io/min3/freq.html?u=https://nakamura196.github.io/saji/data/data.json)
 - 画像切り出し
   - [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?curation=https://nakamura196.github.io/saji/data/curation.json)
-  - [IIIF Curation Comparison Tool](https://nakamura196.github.io/i3/comp/search.html?curation=https://nakamura196.github.io/saji/data/curation.json)
+  - [IIIF Curation Comparison Tool](https://nakamura196.github.io/i3/comp/search.html?curation=https://nakamura196.github.io/saji/data/curation.json&thumb=true)
 
 # ファイルのアップロード方法
 - D:\一次史料\Kreševo\saji で右クリックして、GIT Bash Here をクリックし、以下を貼り付ける
