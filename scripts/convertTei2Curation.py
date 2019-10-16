@@ -11,7 +11,6 @@ import requests
 import json
 
 
-
 def get_mani_data(manifest):
     headers = {"content-type": "application/json"}
     r = requests.get(manifest, headers=headers)
@@ -21,7 +20,7 @@ def get_mani_data(manifest):
 
     canvases = data["sequences"][0]["canvases"]
     for canvas in canvases:
-        canvas_id =canvas["@id"]
+        canvas_id = canvas["@id"]
         service = canvas["thumbnail"]["service"]["@id"]
         map_[canvas_id] = service
 
@@ -48,6 +47,7 @@ curation_data = {
 count = 1
 
 for i in range(len(files)):
+    print(str(i+1)+"/"+str(len(files)))
     file = files[i]
 
     prefix = ".//{http://www.tei-c.org/ns/1.0}"
@@ -57,6 +57,12 @@ for i in range(len(files)):
 
     surfaceGrp = root.find(prefix+"surfaceGrp")
     manifest = surfaceGrp.get("facs")
+
+    omeka_id = manifest.split("/")[6]
+    omeka_uri = "http://diyhistory.org/public/phr2/api/items/"+omeka_id
+    headers = {"content-type": "application/json"}
+    r = requests.get(omeka_uri, headers=headers)
+    omeka_data = r.json()
 
     mani_data = get_mani_data(manifest)
 
@@ -93,7 +99,7 @@ for i in range(len(files)):
 
             attr = "#"+id
 
-            #zone_jgh_yhq_h3b
+            # zone_jgh_yhq_h3b
 
             facs = root.find(".//*[@facs='"+attr+"']")
             anno_type = None
@@ -108,7 +114,8 @@ for i in range(len(files)):
             w = lrx - x
             h = lry - y
 
-            thumbnail = mani_data[canvas_uri]+"/"+str(x) + ","+str(y)+","+str(w)+","+str(h)+"/200,/0/default.jpg"
+            thumbnail = mani_data[canvas_uri]+"/" + \
+                str(x) + ","+str(y)+","+str(w)+","+str(h)+"/200,/0/default.jpg"
 
             member = {
                 "@id": canvas_uri + "#xywh=" +
@@ -124,9 +131,18 @@ for i in range(len(files)):
 
             if anno_type:
                 member["metadata"].append({
-                    "label" : "Type",
-                    "value" : anno_type
+                    "label": "Type",
+                    "value": anno_type
                 })
+
+            for key in omeka_uri:
+                if "saji:" in key:
+                    values = omeka_uri[key]
+                    for value in values:
+                        member["metadata"].append({
+                            "label": value["property_label"],
+                            "value": value["@value"]
+                        })
 
             selection["members"].append(member)
 
