@@ -4,6 +4,7 @@
   - [Faceted Search](https://nakamura196.github.io/isearch/?u=https://nakamura196.github.io/saji/data/items.json)
 - 可視化
   - [集計](https://nakamura196.github.io/min3/vis.html?u=https://nakamura196.github.io/saji/data/data.json)
+    - [例: typeとfond](https://nakamura196.github.io/min3/vis?field=http%3A%2F%2Fdiyhistory.org%2Fpublic%2Fphr2%2Fns%2Fsaji%2Ffond&u=https%3A%2F%2Fnakamura196.github.io%2Fsaji%2Fdata%2Fdata.json&dispField=&max=10&sort=Numbers)
   - [タイムライン](https://nakamura196.github.io/min3/input)
 - 画像切り出し
   - [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?curation=https://nakamura196.github.io/saji/data/curation.json)
