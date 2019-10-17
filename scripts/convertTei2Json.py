@@ -85,8 +85,10 @@ for i in range(len(files)):
                 
                 print(file.split("/")[-1]+","+hd+","+hd2)
 
+                '''
                 if hd2 != "unknown":
                 
+                    
                     url = "http://ap.hutime.org/cal/?ival="+hd2+"&ical=103.1&method=conv&ep=b&ocal=101.1&otype=date&oprop=text&oform=gg%20YYYY-MM-dd"
 
                     r = requests.get(url)
@@ -94,6 +96,11 @@ for i in range(len(files)):
                     
                     # g.add((subject, URIRef("http://purl.org/dc/terms/created"),Literal(sd)))
                     created.append(sd)
+                '''
+
+        if date.get("cert"):
+            value = "date_cert_"+date.get("cert")
+            stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/cert"), Literal(value)))
                 
                 
 
