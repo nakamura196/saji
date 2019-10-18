@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1756</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：1116年 or 1126年？</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1288/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1288/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/713e4b548a42c75d9dae290afa1cf4a80f8be8f6.jpg"/>
+<zone lrx="1510" lry="3180" ulx="580" uly="670" xml:id="zone_gr1_gmh_cjb"/>
+<zone lrx="1038" lry="1248" ulx="664" uly="764" xml:id="zone_d5m_hmh_cjb"/>
+<zone lrx="924" lry="1240" ulx="773" uly="1108" xml:id="zone_bzy_hmh_cjb"/>
+<zone lrx="1429" lry="1208" ulx="1082" uly="706" xml:id="zone_awp_3mh_cjb"/>
+<zone lrx="1237" lry="1198" ulx="1088" uly="1062" xml:id="zone_emk_jmh_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_gr1_gmh_cjb" type="hüccet">
+<p>
+<lb></lb>... fī <date cert="low" from-custom="1116-03-21" to-custom="1116-03-30" type="created">evāhir şehr Rebi'ü'l-evvel sene sitte ʿaşret ve mie ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_d5m_hmh_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_bzy_hmh_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_awp_3mh_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_emk_jmh_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

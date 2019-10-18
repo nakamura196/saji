@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1951</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：1281 or 1181 年　要検討。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:type": [
+               "ṣūret-i ṭapu senedi" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1481/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1481/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5c254567a52f2f4986987d699ea078ebd73a9f93.jpg"/>
+<zone lrx="2178" lry="3134" ulx="251" uly="180" xml:id="zone_dy3_q12_djb"/>
+<zone lrx="1306" lry="2959" ulx="1130" uly="2727" xml:id="zone_tkh_r12_djb"/>
+<zone lrx="1298" lry="2944" ulx="1138" uly="2835" xml:id="zone_ohw_r12_djb"/>
+<zone lrx="1077" lry="2901" ulx="850" uly="2692" xml:id="zone_kh3_s12_djb"/>
+<zone lrx="1064" lry="2883" ulx="889" uly="2774" xml:id="zone_rfv_s12_djb"/>
+<zone lrx="835" lry="2850" ulx="572" uly="2659" xml:id="zone_unz_pb2_djb"/>
+<zone lrx="831" lry="2846" ulx="582" uly="2694" xml:id="zone_mcl_qb2_djb"/>
+<zone lrx="542" lry="2777" ulx="325" uly="2551" xml:id="zone_esf_rb2_djb"/>
+<zone lrx="537" lry="2772" ulx="355" uly="2635" xml:id="zone_w52_sb2_djb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1481/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c8526d815ef02e67453f0f3cfc79c7106b98aa5b.jpg"/>
+<zone lrx="2589" lry="1300" ulx="73" uly="816" xml:id="zone_z42_512_djb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_dy3_q12_djb" type="ʿilmühaber_tapu_senedi_sūret">
+<p>
+<lb></lb>... fī <date cert="medium" type="created" when-custom="1281-05-09">9 Cemaziye'l-evvel sene
+                  81</date><lb></lb>
+</p>
+<div2 facs="#zone_tkh_r12_djb" type="sign_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_ohw_r12_djb" type="stamp_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_kh3_s12_djb" type="sign_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_rfv_s12_djb" type="stamp_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_unz_pb2_djb" type="sign_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_mcl_qb2_djb" type="stamp_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_esf_rb2_djb" type="sign_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_w52_sb2_djb" type="stamp_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_z42_512_djb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when="1875">1875</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

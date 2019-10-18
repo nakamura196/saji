@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1839</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1370/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1370/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ece1282c3d32379433d53e007ecab65c09d5c3be.jpg"/>
+<zone lrx="1563" lry="3145" ulx="554" uly="318" xml:id="zone_up3_c1q_cjb"/>
+<zone lrx="1247" lry="876" ulx="789" uly="375" xml:id="zone_rgt_d1q_cjb"/>
+<zone lrx="1079" lry="869" ulx="924" uly="750" xml:id="zone_j1g_21q_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1370/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/005837dc341def8b8c77d54ee1e35c526e6492ae.jpg"/>
+<zone lrx="2867" lry="1405" ulx="500" uly="1055" xml:id="zone_o1g_f1q_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_up3_c1q_cjb" type="hüccet">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1189-08-01">gürre-i Şaʿabānı'l-muʿazzam sene tisʿ ve semānīn ve mie ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_rgt_d1q_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_j1g_21q_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_o1g_f1q_cjb" type="summary_Crotatian">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1664</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1202/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1202/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d1c9ad2d9857002fb86a4d568a26ae5e1fca8a30.jpg"/>
+<zone lrx="1509" lry="3236" ulx="691" uly="-18" xml:id="zone_x1f_zyw_1jb"/>
+<zone lrx="1704" lry="683" ulx="1158" uly="125" xml:id="zone_qnz_2zw_1jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1202/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/bfe2775a5d492535eedc2d62ad58cf05e791f5c2.jpg"/>
+<zone lrx="2845" lry="2061" ulx="2073" uly="1361" xml:id="zone_w4l_gzw_1jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1202/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/155e4264c2f2413e74a3ccb6312447bb8e4a66db.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1202/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/6586e8eed98cf412ebbce65945e8e264ad6a662a.jpg"/>
+<zone lrx="1116" lry="787" ulx="912" uly="616" xml:id="zone_wxl_czw_1jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1202/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/7a45dc6c0c6da4ea94f16f102dfcc4fc73559b17.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1202/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/b4ec839a06e7f37ac22b3819a3935e47e664ccfe.jpg"/>
+<zone lrx="2007" lry="2242" ulx="307" uly="478" xml:id="zone_lkk_k1x_1jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_x1f_zyw_1jb" type="hüccet">
+<p>
+<lb></lb>... fi'l <date type="created" when-custom="1268-09-07">yevmi'l-sābiʿ min şehr
+                  Ramazāni'l-mübārek sene semān sittīn ve mieteyn ve elif</date><lb></lb>
+</p>
+<div3 facs="#zone_wxl_czw_1jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div1>
+<div1 facs="#zone_qnz_2zw_1jb" type="buyuruldu">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1268-09-08">8 N 68</date><lb></lb>
+</p>
+<div3 facs="#zone_w4l_gzw_1jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+<div1 facs="#zone_lkk_k1x_1jb" type="summary_Croatian">
+<p>
+<lb></lb>na <date type="summary_Croatian" when="1852-08-18">18. Kolovoza 1852</date>. Kako ...<lb></lb>
+<lb></lb>... <date type="summary_Croatian" when-custom="1268">1268</date><lb></lb>
+</p>
+</div1>
+</div1>
+</body>
+</text>
+</TEI>

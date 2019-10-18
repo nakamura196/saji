@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1776</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1308/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1308/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6545aae1c07fc79fc0fdef4f9be3ac62ecc2fe09.jpg"/>
+<zone lrx="2154" lry="3027" ulx="118" uly="63" xml:id="zone_czc_333_cjb"/>
+<zone lrx="705" lry="2948" ulx="264" uly="2831" xml:id="zone_vvk_j33_cjb"/>
+<zone lrx="1609" lry="2390" ulx="118" uly="63" xml:id="zone_vl5_k33_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1308/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b562f572dae229b103560c40f981c35baad3addd.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1308/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/718da7f4a6709366e25b14df0c1f29f6c05e4ed9.jpg"/>
+<zone lrx="3273" lry="1588" ulx="12" uly="483" xml:id="zone_ovm_n33_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_czc_333_cjb" type="iʿlām">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div2 facs="#zone_vvk_j33_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_vl5_k33_cjb" type="buyuruldu">
+<p>
+<lb></lb>buyuruldu fī <date type="created" when-custom="1241-01-13">13 M sene 1241</date><lb></lb>
+</p>
+</div1>
+<div1 facs="#zone_ovm_n33_cjb" type="summary_Croatian">
+<p>
+<lb></lb><date type="summary_Croatian" when="1825-08">Augusta 1825</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

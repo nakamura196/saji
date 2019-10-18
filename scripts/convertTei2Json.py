@@ -8,7 +8,7 @@ from rdflib import URIRef, BNode, Literal, Graph
 import glob
 import requests
 
-dirname = "tei"
+dirname = "tei2"
 dir = "../docs/"+dirname
 files = glob.glob(dir+"/*.xml")
 
@@ -110,13 +110,29 @@ for i in range(len(files)):
     else:
         stmts.append((subject, URIRef("http://purl.org/dc/terms/created"),Literal("unknown")))
 
-    divs = body.findall(prefix+"div")
+    divs = body.findall(prefix+"div1")
     for i in range(len(divs)):
         div = divs[i]
         if div.get("type"):
 
             # g.add((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type"), Literal(div.get("type"))))
-            stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type"), Literal(div.get("type"))))
+            stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type1"), Literal(div.get("type"))))
+
+    divs = body.findall(prefix+"div2")
+    for i in range(len(divs)):
+        div = divs[i]
+        if div.get("type"):
+
+            # g.add((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type"), Literal(div.get("type"))))
+            stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type2"), Literal(div.get("type"))))
+
+    divs = body.findall(prefix+"div3")
+    for i in range(len(divs)):
+        div = divs[i]
+        if div.get("type"):
+
+            # g.add((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type"), Literal(div.get("type"))))
+            stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type3"), Literal(div.get("type"))))
 
     notesStmt = root.find(prefix+"notesStmt")
     if notesStmt != None:

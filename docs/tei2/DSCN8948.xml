@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8948</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1538/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1538/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/28f736002f650f4444f25c319b56bfef8564ef89.jpg"/>
+<zone lrx="2256" lry="950" ulx="795" uly="66" xml:id="zone_sq1_kp1_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1538/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a065996cabf6ac3279590a312c659ce02ff6a7e7.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1538/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/4b407d20f06d87064473c712428f6edde9ed4451.jpg"/>
+<zone lrx="686" lry="1938" ulx="277" uly="1479" xml:id="zone_y12_mp1_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1538/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/b53d81c77268fe3fa0e6e7236a1d679b97fd78dd.jpg"/>
+<zone lrx="2183" lry="2933" ulx="0" uly="366" xml:id="zone_sgy_1q1_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1538/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/fedc32d9a1b1fb59a0bff45d57a3429438e925c6.jpg"/>
+<zone lrx="3017" lry="1694" ulx="189" uly="522" xml:id="zone_hlb_gq1_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_sgy_1q1_2jb" type="fermān">
+<p>
+<lb></lb>... fī <date from-custom="1200-10-11" to-custom="1200-10-20" type="created">evāsit şehr Şevvālı'l-mükerrem sene mieteyn ve elif</date><lb></lb>
+</p>
+<div1 facs="#zone_sq1_kp1_2jb" type="tuğra">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+<div2 facs="#zone_y12_mp1_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_hlb_gq1_2jb" type="summary_Croatian">
+<p>
+<lb></lb>Datum: <date from-custom="1200-10-11" to-custom="1200-10-20" type="summary_Croatian">II dekada ševvel 1200</date> - <date from="1768-08-07" to="1768-08-16" type="summary_Croatian">7.do 16 avgusta 1768</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

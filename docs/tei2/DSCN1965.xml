@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1965</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
+          "差出人：vālī" ], "saji:type": [ "" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1495/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1495/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/45714bdcc41ecf4f8b98f096e7a18bf96cef48ad.jpg"/>
+<zone lrx="2100" lry="2105" ulx="272" uly="166" xml:id="zone_pvr_cs2_djb"/>
+<zone lrx="830" lry="2078" ulx="619" uly="1911" xml:id="zone_rjw_ds2_djb"/>
+<zone lrx="2000" lry="3151" ulx="718" uly="2248" xml:id="zone_pln_2s2_djb"/>
+<zone lrx="1703" lry="3133" ulx="1372" uly="2824" xml:id="zone_i5h_fs2_djb"/>
+<zone lrx="1696" lry="2978" ulx="1531" uly="2823" xml:id="zone_gvj_gs2_djb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1495/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/53f0be96ca125b21f4b813d2bf1b69f1f8e2c618.jpg"/>
+<zone lrx="2895" lry="1561" ulx="862" uly="955" xml:id="zone_t3m_hs2_djb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_pvr_cs2_djb" type="emr_nāme_ṣūret">
+<p>
+<lb></lb>... fī <date cert="low" type="created" when-custom="1273-10-13">13 L sene 73</date><lb></lb>
+</p>
+<div2 facs="#zone_rjw_ds2_djb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_pln_2s2_djb" type="unknown">
+<p>
+<lb></lb>... fī <date cert="unknown" type="created" when-custom="1273--02">2 ... sene 73</date><lb></lb>
+</p>
+<div2 facs="#zone_i5h_fs2_djb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_gvj_gs2_djb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_t3m_hs2_djb" type="summary_Craotian">
+<p>
+<lb></lb><date type="summary_Croatian" when="1857">1857</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

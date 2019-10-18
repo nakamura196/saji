@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1772</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">buyurulduは、字体と作成年月日の近さから、DSCN1768.JPGの書き手と同じ可能性がある。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1304/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1304/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c692548e1ba6ad7f5e08fa4c5c5fe4676b93e86e.jpg"/>
+<zone lrx="1700" lry="2954" ulx="127" uly="81" xml:id="zone_mvl_k23_cjb"/>
+<zone lrx="556" lry="2840" ulx="369" uly="2683" xml:id="zone_rh3_l23_cjb"/>
+<zone lrx="345" lry="2856" ulx="156" uly="2643" xml:id="zone_cr5_l23_cjb"/>
+<zone lrx="1208" lry="1903" ulx="143" uly="846" xml:id="zone_wmd_n23_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1304/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1f4e121eab4d2a859be04bed9122c910b9501e1f.jpg"/>
+<zone lrx="2756" lry="872" ulx="206" uly="527" xml:id="zone_pgr_423_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_mvl_k23_cjb" type="ʿarz-ı_hāl">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div2 facs="#zone_rh3_l23_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+<div2 facs="#zone_cr5_l23_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_wmd_n23_cjb" type="buyuruldu">
+<p>
+<lb></lb>buyuruldu fī <date type="created" when-custom="1198-04-03">3 R sene 198</date><lb></lb>
+</p>
+</div1>
+<div1 facs="#zone_pgr_423_cjb" type="summary_Croatian">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

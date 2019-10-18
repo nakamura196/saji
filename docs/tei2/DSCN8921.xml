@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8921</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">署名：傘型</note>
+<note type="mine">【要】典型：beyāz_üzerine_buyuruldu？</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 2" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1511/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1511/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7524fb836260e69bee533b9861f67c5da4556772.jpg"/>
+<zone lrx="2121" lry="2742" ulx="250" uly="121" xml:id="zone_zvz_43z_djb"/>
+<zone lrx="1406" lry="2724" ulx="408" uly="1997" xml:id="zone_hbg_q3z_djb"/>
+<zone lrx="973" lry="2510" ulx="828" uly="2393" xml:id="zone_m5v_q3z_djb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1511/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d308c1677ca9f111bd3e36fdfc6172f24b663bf6.jpg"/>
+<zone lrx="3100" lry="1511" ulx="112" uly="683" xml:id="zone_wbb_s3z_djb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1511/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/11e4ae3d0d780b9f8d646a0848696cb0f8001ef2.jpg"/>
+<zone lrx="3128" lry="1138" ulx="100" uly="633" xml:id="zone_ubm_t3z_djb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_zvz_43z_djb" type="beyāz_üzerine_buyuruldu">
+<p>
+<lb></lb>... fī <lb></lb>
+</p>
+<div2 facs="#zone_hbg_q3z_djb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_m5v_q3z_djb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_wbb_s3z_djb" type="summary_Croatian">
+<p>
+<lb></lb>Datum: <date type="summary_Croatian" when-custom="1184-06-15">15. džumaziel ahir 1184</date> - <date type="summary_Croatian" when="1770-10-06">6. oktobar 1770</date><lb></lb>
+</p>
+</div1>
+<div1 facs="#zone_ubm_t3z_djb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when="1771">1771</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

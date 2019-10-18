@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0094</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1578/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1578/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c67c4bad4bf1fcf5bda0f6a3ff125941c7962f34.jpg"/>
+<zone lrx="1909" lry="2700" ulx="217" uly="91" xml:id="zone_g44_mt5_l3b"/>
+<zone lrx="794" lry="2677" ulx="470" uly="2405" xml:id="zone_e5c_ws5_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1578/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a0586819f24a696d75aae9582807c231fcaabe1e.jpg"/>
+<zone lrx="666" lry="762" ulx="362" uly="516" xml:id="zone_rfh_qt5_l3b"/>
+<zone lrx="2441" lry="2320" ulx="25" uly="1750" xml:id="zone_sg2_rt5_l3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_g44_mt5_l3b" type="temessük">
+<p>
+<lb></lb>... fī <lb></lb>
+<lb></lb>Hüve<lb></lb>
+<lb></lb>Bāis-i tahrīr-i hurūf budur ki madīna-i <placename type="proper">Saray
+                  Bosna</placename>'da ... gāzī ...<lb></lb>
+<lb></lb>... zimmīlerinden olub ... mahallesinden ... iki akçe mukātaʿasıyla<lb></lb>
+<lb></lb><persname cert="low">Şāyu</persname> nām zimmīlerin hānesinin ... <lb></lb>
+<lb></lb>... biz dahi kāimmakām ... olduğumuz hasebiyle ...<lb></lb>
+<lb></lb>icrāsına izin ... işbu hurūf ... tahrīr ...<lb></lb>
+<lb></lb>cānib ...mukātaʿa ... tamāmen edā ... icrāsına ...<lb></lb>
+<lb></lb>oluna hurira fī <date cert="unknown" type="created" when-custom="1156-03">şehr Rebiü'l-evvel
+                  sene 1156</date><lb></lb>
+</p>
+<div2 facs="#zone_e5c_ws5_2jb" type="sign">
+<p>
+<lb></lb>... <persname>Mehmed</persname> ...<lb></lb>
+</p>
+<div3 facs="#zone_rfh_qt5_l3b" type="stamp">
+<p>
+<lb></lb>... Mehmed ... <lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_sg2_rt5_l3b" type="summary_Serbian">
+<p>
+<lb></lb>... fī <lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

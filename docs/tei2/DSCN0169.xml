@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0169</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1650/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1650/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/49f5fc45df281b24fef261794bf43778753fd4c5.jpg"/>
+<zone lrx="1590" lry="3000" ulx="600" uly="410" xml:id="zone_rgm_gsd_fjb"/>
+<zone lrx="1150" lry="876" ulx="823" uly="457" xml:id="zone_zlr_jsd_fjb"/>
+<zone lrx="1072" lry="867" ulx="926" uly="749" xml:id="zone_f1g_ksd_fjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1650/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/27aeb9a617c390097a86f199ffa4d97a7f980bd5.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1650/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/a359cccf4de5773c9507f92083a77f85e0fe8c32.jpg"/>
+<zone lrx="2867" lry="2094" ulx="518" uly="191" xml:id="zone_jf3_lsd_fjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_rgm_gsd_fjb" type="hüccet">
+<p>
+<lb></lb>furira <date type="created" when-custom="1249-03-03">fi'l-yevmi'l-sālis min şehr Rebi'ü'l-evvel sene tisʿ ve arbaʿīn ve mieteyn ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_zlr_jsd_fjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_f1g_ksd_fjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_jf3_lsd_fjb" type="summary_Croatian">
+<p>
+<lb></lb><date type="summary_Croatian" when="1833">1833</date> ... <lb></lb>
+<lb></lb>... <date type="summary_Croatian" when-custom="1250">1250</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

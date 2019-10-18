@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0102</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：月の読みを確認する。</note>
+<note type="mine">署名：傘型</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1586/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1586/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3ee2c6ab88a176c53808118bbb742519bfc5fb63.jpg"/>
+<zone lrx="1900" lry="2758" ulx="58" uly="233" xml:id="zone_vft_n55_2jb"/>
+<zone lrx="1226" lry="2735" ulx="58" uly="1741" xml:id="zone_kxx_455_2jb"/>
+<zone lrx="929" lry="2285" ulx="662" uly="2040" xml:id="zone_hys_p55_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1586/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a69f97b4467b5003f57c42578321a97ba15d7d36.jpg"/>
+<zone lrx="3150" lry="1355" ulx="34" uly="1016" xml:id="zone_g4z_q55_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_vft_n55_2jb" type="tezkire">
+<p>
+<lb></lb>... fī <date cert="unknown" type="created" when-custom="1171--18">18 ... sene 171</date><lb></lb>
+</p>
+<div2 facs="#zone_kxx_455_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_hys_p55_2jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_g4z_q55_2jb" type="summary_Croatian">
+<p>
+<lb></lb><date type="summary_Croatian" when="1758">1758</date> ... <lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

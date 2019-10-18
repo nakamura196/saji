@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1058</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ]
+          }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1174/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1174/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cdc4d74c40a70ba4a40b80edd1f2c4dfd59af4e5.jpg"/>
+<zone lrx="2033" lry="3167" ulx="50" uly="34" xml:id="zone_srh_mbk_1jb"/>
+<zone lrx="1779" lry="679" ulx="1523" uly="457" xml:id="zone_jbp_nbk_1jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1174/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4544518026593606b65a0854330d4d29fc111744.jpg"/>
+<zone lrx="2723" lry="1405" ulx="695" uly="572" xml:id="zone_mm1_pbk_1jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_srh_mbk_1jb" type="beyāz_üzerine_buyuruldu">
+<p>
+<lb></lb>buyuruldu fī <date type="created" when-custom="1193-05-11">11 Ca 1193</date><lb></lb>
+</p>
+<div3 facs="#zone_jbp_nbk_1jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div1>
+<div1 facs="#zone_mm1_pbk_1jb" type="summary_Croatian">
+<p>
+<lb></lb><date type="summary_Croatian" when="1779">1779</date> ...<lb></lb>
+<lb></lb>... <date type="summary_Croatian" when-custom="1193">1193</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

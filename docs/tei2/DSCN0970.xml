@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0970</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">DSCN1043.JPGと同じ画像・文書。重複している。ただし、DSCN0970.JPGにのみ、裏面の画像があり、クロアチア語要約（日付）が写っている。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1272-M-27" ], "saji:date_M": [ "1855-10-09" ], "saji:foldingMethod": [ "7x2" ],
+          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [
+          "・hüve\r\n・宛先？\r\n・本文\r\n・日付\r\n・破線で囲まれたオスマン語の単語" ], "saji:lang": [ "ota" ],
+          "saji:lineage": [ "2+8" ], "saji:memo": [ "典型" ], "saji:relationWithAnotherItems": [
+          "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "0" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1086/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1086/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cc805b52c595e8953bffaeb84d1bbde2482254de.jpg"/>
+<zone lrx="2150" lry="2408" ulx="75" uly="-16" xml:id="zone_ist_scf_z3b"/>
+<zone lrx="675" lry="2370" ulx="429" uly="2166" xml:id="zone_rvp_xcf_z3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1086/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/04a963b17efe9ea4b8fce46c0b0ca5b04e3716a7.jpg"/>
+<zone lrx="3000" lry="1222" ulx="50" uly="788" xml:id="zone_ryq_5cf_z3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1086/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/fbcbd8111e6c9a1da4d651ce94e4de444e61d6b4.jpg"/>
+<zone lrx="2127" lry="2445" ulx="145" uly="100" xml:id="zone_vnb_2qj_1jb"/>
+<zone lrx="721" lry="2420" ulx="483" uly="2225" xml:id="zone_f22_gqj_1jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ist_scf_z3b" type="ʿilmühaber">
+<l>... <date type="created" when-custom="1272-01-27">27 Muharrem 72</date></l>
+</div1>
+<div3 facs="#zone_rvp_xcf_z3b" type="stamp_sūret"></div3>
+<div1 facs="#zone_ryq_5cf_z3b" type="summary_Croatian">
+<l>... <date type="summary_Croatian" when="1856">1856</date> ... <date type="summary_Croatian" when="1628">1628</date></l>
+<l><date type="summary_Croatian" when-custom="1267-01-27">1267. 27. Muharrem</date>
+<date type="summary_Croatian" when-custom="1273">1273</date> Nno 5.</l>
+</div1>
+<div1 facs="#zone_vnb_2qj_1jb" type="ʿilmühaber">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1272-01-27">27 Muharrem 72</date><lb></lb>
+</p>
+<div3 facs="#zone_f22_gqj_1jb" type="stamp_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0907</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1156-Z-" ], "saji:date_M": [ "1744-02-" ], "saji:foldingMethod": [ "9" ], "saji:fond": [
+          "Tursko 1" ], "saji:item": [ "本文", "証人", "オスマン朝スタンプ", "クレシェヴォのスタンプ" ], "saji:lang": [
+          "ota" ], "saji:lineage": [ "16" ], "saji:memo": [ "冒頭左上に、定型文らしきもの",
+          "最後に、？名の証人の名前：\"Şuhūdu'l-ḥāl\"" ], "saji:number": [ "87" ], "saji:openingPhrase": [
+          "Madīna-i Saray Bosna" ], "saji:placeFull": [ "Madīna-i Saray Bosna ḳażāsı ... Foyniçe
+          nāḥiyesine tābiʿ nefs-i Kreşevo" ], "saji:relationWithAnotherItems": [ "DSCN0907.JPG_表",
+          "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "1" ], "saji:type": [ "hüccet" ]
+          }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1025/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1025/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e576b5169917c420c748528c2575cdcf31e7ce04.jpg"/>
+<zone lrx="1700" lry="3200" ulx="572" uly="418" xml:id="zone_mwj_bjy_y3b"/>
+<zone lrx="948" lry="1048" ulx="746" uly="871" xml:id="zone_jq5_cjy_y3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1025/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/0942708432366aba4c3a3ac85085a04aa56a4387.jpg"/>
+<zone lrx="3000" lry="1333" ulx="234" uly="894" xml:id="zone_l1r_2jy_y3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_mwj_bjy_y3b" type="hüccet">
+<l>fī <date from-custom="1156-12-21" to-custom="1156-12-30" type="created">evāhir ve Zi'l-hicce-i şerīf sene sitte ve hamsīn ve miye ve elif</date></l>
+<div3 facs="#zone_jq5_cjy_y3b" type="stamp"></div3>
+</div1>
+<div1 type="summary_Croatian">
+<l>...</l>
+<l>... <date type="summary_Croatian" when-custom="1156">1156</date></l>
+</div1>
+</body>
+</text>
+</TEI>
