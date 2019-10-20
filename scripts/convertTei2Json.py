@@ -59,7 +59,7 @@ def conv_date(hd):
             hd2 = year + "-" + month + "-" + day
     return hd2
 
-dirname = "tei2"
+dirname = "tei3"
 dir = "../docs/"+dirname
 files = glob.glob(dir+"/*.xml")
 
@@ -120,8 +120,6 @@ for i in range(len(files)):
         if date.get("cert"):
             value = "date_cert_"+date.get("cert")
             stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/cert"), Literal(value)))
-                
-                
 
     if len(created) > 0:
         # g.add((subject, URIRef("http://purl.org/dc/terms/created"),Literal(sorted(created)[0])))
