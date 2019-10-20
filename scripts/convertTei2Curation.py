@@ -70,17 +70,7 @@ for i in range(len(files)):
 
     mani_data, label = get_mani_data(manifest)
 
-    selection = {
-        "@id": curation_uri + "/range"+str(count),
-        "@type": "sc:Range",
-        "label": "Automatic curation by TEI",
-        "members": [],
-        "within": {
-            "@id": manifest,
-            "@type": "sc:Manifest",
-            "label": root.find(prefix+"title").text
-        }
-    }
+    
 
     surfaces = root.findall(prefix+"surface")
 
@@ -88,11 +78,14 @@ for i in range(len(files)):
 
     div1s = body.findall(prefix+"div1")
 
-    date = None
+    members = []
 
     for div1 in div1s:
 
+        date = None
+
         dates  = div1.findall(prefix+"date")
+        date_arr = []
 
         for date1 in dates:
             if date1.get("type") == "created":
@@ -103,7 +96,10 @@ for i in range(len(files)):
                     value1 = date1.get("from")
 
                 if value1 != None:
-                    date = value1
+                    date_arr.append(value1)
+
+        if len(date_arr) > 0:
+            date = date_arr[0]
 
         div_strs = ["div1", "div2", "div3"]
 
@@ -170,7 +166,13 @@ for i in range(len(files)):
                         "value": anno_type
                     })
 
-                selection["members"].append(member)
+                if date != None:
+                    member["metadata"].append({
+                        "label": "date",
+                        "value": date
+                    })
+
+                members.append(member)
 
                 if label in ld_map:
                     ld = ld_map[label]
@@ -187,7 +189,21 @@ for i in range(len(files)):
 
                 count += 1
 
-    curation_data["selections"].append(selection)
+    if len(members) > 0:
+
+        selection = {
+            "@id": curation_uri + "/range"+str(count),
+            "@type": "sc:Range",
+            "label": "Automatic curation by TEI",
+            "members": members,
+            "within": {
+                "@id": manifest,
+                "@type": "sc:Manifest",
+                "label": root.find(prefix+"title").text
+            }
+        }
+
+        curation_data["selections"].append(selection)
 
 
 fw = open("../docs/data/curation_tmp2.json", 'w')
