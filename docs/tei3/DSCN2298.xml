@@ -1,0 +1,82 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2298</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">ムカーターである田畑の売買、分割納税</note>
+<note type="translation">
+<l>ヒュヴェ</l>
+<l>20パラずつ分割納税するという条件で記録された</l>
+<l>以下のことについて証書が書かれた</l>
+<l>これは1244年の</l>
+<l>にあったクレシェヴォ・ムカーターに属する…村の…</l>
+<l>田畑</l>
+<l />
+<l />
+<l>ガルディヤーンという名前の前述の</l>
+<l>売買…売却して、その者も承認して、我々もムカーター・</l>
+<l>エミンの、我々が見つけた理由によって、教会の聖職者たちに委任するとともに</l>
+<l>その手にこの登録証書を与えられた</l>
+<l>（作成者）僕…</l>
+<l>証人</l>
+<l>アブド・ブン・アレムダール</l>
+<l>…・アア</l>
+<l>…</l>
+<l>…</l>
+<l>スタンプ</l>
+</note>
+<note type="mine">作成者：ムカーター・エミン</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [
+               "典型\r\n・Bに多いパターンでは？" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2626/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2626/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/871323163fef2cc728be7e18c8ef7ee92b9a40e0.jpg" />
+<zone lrx="2325" lry="2891" ulx="125" uly="316" xml:id="zone_j4q_pmw_j3b" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2626/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fde319a7ef130420a01c57eeebf8d7f50c91c711.jpg" />
+<zone lrx="817" lry="2255" ulx="484" uly="1916" xml:id="zone_p3v_rmw_j3b" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_j4q_pmw_j3b" type="EMIN_zabt_temessük">
+<l>hüve</l>
+<l>Be-her taksit yiğirmi para tekâlif virmek şartıyla kayd olundu</l>
+<l>Vech-ı tahrīr-i temessük oldur ki</l>
+<l>İşbu <date when="0665-02-22" when-custom="1244">bin iki yüz kırk dört sene</date>sinin</l>
+<l>bulunan <placename><placename type="proper">Kirşevo</placename> mukātaʿasına tābiʿ
+                     <placename cert="unknown" type="proper">...</placename> karyesinde</placename>
+               ...</l>
+<l>tarla ...</l>
+<l>üç taraf</l>
+<l>tarīk</l>
+<l>gardiyān nām mesfūr</l>
+<l>beʿy-i bāt ... beʿy edüb ol dahi kabūl biz dahi mukātaʿa</l>
+<l>emīn bulunduğumuz hasebiyle kilisenin rāhiblere tefvīz birle</l>
+<l>ve yedine işbu zabt-ı temessük virildi</l>
+<l>Bende <persname cert="unknown">...</persname></l>
+<l>Şühūdu’l-hāl</l>
+<l><persname cert="medium">ʿAbd b ʿAlemdār</persname></l>
+<l><persname cert="unknown">... Ağa</persname></l>
+<l><persname cert="unknown">...</persname></l>
+<l><persname cert="unknown">...</persname></l>
+</div1>
+<div3 facs="#zone_p3v_rmw_j3b" type="stamp">
+<l cert="unknown">...</l>
+</div3>
+</body>
+</text>
+</TEI>

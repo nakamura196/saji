@@ -1,0 +1,48 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0177</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1657/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1657/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2aaff1db2d0915b5081549d0efa5547c63863821.jpg" />
+<zone lrx="2020" lry="2945" ulx="190" uly="1310" xml:id="zone_ukz_d4m_3jb" />
+<zone lrx="677" lry="2938" ulx="205" uly="2381" xml:id="zone_xgw_f4m_3jb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1657/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f13ac39168ad49e2d21ae93a7a4fa264f7486060.jpg" />
+<zone lrx="2973" lry="2114" ulx="93" uly="534" xml:id="zone_ylq_j4m_3jb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ukz_d4m_3jb" type="EMIN_zabt_temessük">
+<p>
+<lb />İşbu <date type="created" when="1825-08-14" when-custom="1240">bin iki yüz krık senesinde</date> der ʿuhde ve ... <lb />
+</p>
+<div2 facs="#zone_xgw_f4m_3jb" type="sign">
+<p>
+<lb />Bende Mustafa emin-i Kirşevo m<lb />
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_ylq_j4m_3jb" type="summary_Croatian">
+<p>
+<lb />... <date type="summary_Croatian" when="1825">1825</date> ...<lb />
+<lb />Nno 2. <date type="summary_Croatian" when="1825-08-14" when-custom="1240">1240</date><lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>

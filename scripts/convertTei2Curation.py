@@ -10,7 +10,6 @@ import glob
 import requests
 import json
 
-
 def get_mani_data(manifest):
     headers = {"content-type": "application/json"}
     r = requests.get(manifest, headers=headers)
@@ -24,10 +23,10 @@ def get_mani_data(manifest):
         service = canvas["thumbnail"]["service"]["@id"]
         map_[canvas_id] = service
 
-    return map_
+    return map_, data["label"].split(".")[0]
 
 
-dirname = "tei"
+dirname = "tei3"
 dir = "../docs/"+dirname
 files = glob.glob(dir+"/*.xml")
 
@@ -46,68 +45,99 @@ curation_data = {
 
 count = 1
 
+headers = {"content-type": "application/json"}
+r = requests.get("https://nakamura196.github.io/saji/data/data.json", headers=headers)
+ld = r.json()
+
+ld_map = {}
+for obj in ld:
+    ld_map[obj["http://purl.org/dc/terms/title"][0]["@value"]] = obj
+
+
 for i in range(len(files)):
-    print(str(i+1)+"/"+str(len(files)))
-    try:
-        file = files[i]
 
-        prefix = ".//{http://www.tei-c.org/ns/1.0}"
-        tree = ET.parse(file)
-        ET.register_namespace('', "http://www.tei-c.org/ns/1.0")
-        root = tree.getroot()
+    file = files[i]
 
-        surfaceGrp = root.find(prefix+"surfaceGrp")
-        manifest = surfaceGrp.get("facs")
+    print(str(i+1)+"/"+str(len(files))+"\t"+file)
 
-        omeka_id = manifest.split("/")[6]
-        omeka_uri = "http://diyhistory.org/public/phr2/api/items/"+omeka_id
-        headers = {"content-type": "application/json"}
-        r = requests.get(omeka_uri, headers=headers)
-        omeka_data = r.json()
+    prefix = ".//{http://www.tei-c.org/ns/1.0}"
+    tree = ET.parse(file)
+    ET.register_namespace('', "http://www.tei-c.org/ns/1.0")
+    root = tree.getroot()
 
-        mani_data = get_mani_data(manifest)
+    surfaceGrp = root.find(prefix+"surfaceGrp")
+    manifest = surfaceGrp.get("facs")
 
-        selection = {
-            "@id": curation_uri + "/range"+str(count),
-            "@type": "sc:Range",
-            "label": "Automatic curation by TEI",
-            "members": [],
-            "within": {
-                "@id": manifest,
-                "@type": "sc:Manifest",
-                "label": root.find(prefix+"title").text
-            }
+    mani_data, label = get_mani_data(manifest)
+
+    selection = {
+        "@id": curation_uri + "/range"+str(count),
+        "@type": "sc:Range",
+        "label": "Automatic curation by TEI",
+        "members": [],
+        "within": {
+            "@id": manifest,
+            "@type": "sc:Manifest",
+            "label": root.find(prefix+"title").text
         }
+    }
 
-        flg = False
+    surfaces = root.findall(prefix+"surface")
 
-        surfaces = root.findall(prefix+"surface")
-        for surface in surfaces:
-            graphic = surface.find(prefix+"graphic")
-            canvas_uri = graphic.get("n")
+    body = root.find(prefix+"body")
 
-            zones = surface.findall(prefix+"zone")
+    div1s = body.findall(prefix+"div1")
 
-            if len(zones) > 0:
-                flg = True
+    date = None
 
-            for zone in zones:
+    for div1 in div1s:
+
+        dates  = div1.findall(prefix+"date")
+
+        for date1 in dates:
+            if date1.get("type") == "created":
+                value1 = None
+                if date1.get("when"):
+                    value1 = date1.get("when")
+                elif date1.get("from"):
+                    value1 = date1.get("from")
+
+                if value1 != None:
+                    date = value1
+
+        div_strs = ["div1", "div2", "div3"]
+
+        for div_str in div_strs: 
+    
+            divs = div1.findall(prefix+div_str)
+    
+            for div in divs:
+
+                type = div.get("type")
+
+                facs_id = div.get("facs")
+                if facs_id == None:
+                    print("facs: None")
+                    continue
+
+                facs_id = facs_id[1:]
+
+                zone = root.find(".//*[@{http://www.w3.org/XML/1998/namespace}id='"+facs_id+"']")
+
+                surface = root.find(".//*[@{http://www.w3.org/XML/1998/namespace}id='"+facs_id+"']/..")
+                
+                if surface == None:
+                    print("surface: None")
+                    continue
+
+                graphic = surface.find(prefix+"graphic")
+                canvas_uri = graphic.get("n")
+                
                 id = zone.get("{http://www.w3.org/XML/1998/namespace}id")
                 ulx = int(zone.get("ulx"))
                 uly = int(zone.get("uly"))
                 lrx = int(zone.get("lrx"))
                 lry = int(zone.get("lry"))
-
-                attr = "#"+id
-
-                # zone_jgh_yhq_h3b
-
-                facs = root.find(".//*[@facs='"+attr+"']")
-                anno_type = None
-                text = None
-                if facs != None:
-                    anno_type = facs.get("type") if facs.get("type") else None
-                    text = ET.tostring(facs, method='text', encoding='unicode')
 
                 x = ulx
                 y = uly
@@ -127,34 +157,40 @@ for i in range(len(files)):
                     "thumbnail": thumbnail
 
                 }
+
+                anno_type = div.get("type") if div.get("type") else None
+                text = ET.tostring(div, method='text', encoding='unicode')
+
                 if text:
-                    member["text"] = text
+                    member["text"] = text.strip()
 
                 if anno_type:
                     member["metadata"].append({
-                        "label": "Type",
+                        "label": "type",
                         "value": anno_type
                     })
 
-                for key in omeka_data:
-                    if "saji:" in key:
-                        values = omeka_data[key]
-                        for value in values:
-                            member["metadata"].append({
-                                "label": value["property_label"],
-                                "value": value["@value"]
-                            })
-
                 selection["members"].append(member)
+
+                if label in ld_map:
+                    ld = ld_map[label]
+
+                    for key in ld:
+                        if "/saji/" in key or "/terms/" in key:
+                            values = ld[key]
+                            for value in values:
+                                if "@value" in value:
+                                    member["metadata"].append({
+                                        "label": key.replace("http://diyhistory.org/public/phr2/ns/saji/", "saji:").replace("http://purl.org/dc/terms/", "dc:"),
+                                        "value": value["@value"]
+                                    })
 
                 count += 1
 
-        if flg:
-            curation_data["selections"].append(selection)
+    curation_data["selections"].append(selection)
 
-    except:
-        print("error.")
 
-fw = open("../docs/data/curation.json", 'w')
+fw = open("../docs/data/curation_tmp2.json", 'w')
 json.dump(curation_data, fw, ensure_ascii=False, indent=4,
           sort_keys=True, separators=(',', ': '))
+

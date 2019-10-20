@@ -8,6 +8,57 @@ from rdflib import URIRef, BNode, Literal, Graph
 import glob
 import requests
 
+def get_hutime(hd2):
+    url = "http://ap.hutime.org/cal/?ival="+hd2+"&ical=103.1&method=conv&ep=b&ocal=101.1&otype=date&oprop=text&oform=gg%20YYYY-MM-dd"
+
+    r = requests.get(url)
+    sd = r.text.replace("C.E. ", "").strip()
+
+    return sd
+
+def get_hd(date):
+
+    hd = None
+    n_type = None
+
+    if date.get("when-custom"):
+        hd = date.get("when-custom")
+        n_type = "when"
+    elif date.get("from-custom"):
+        hd = date.get("from-custom")
+        n_type = "from"
+    elif date.get("to-custom"):
+        hd = date.get("to-custom")
+        n_type = "to"
+
+    return hd, n_type
+
+
+def conv_date(hd):
+    
+    dd = hd.split("-")
+
+    hd2 = "unknown"
+    
+    l = len(dd)
+    if l == 1:
+        year = dd[0]
+        if year.isdecimal():
+            hd2 = year + "-12-30"
+    elif l == 2:
+        
+        year = dd[0]
+        month = dd[1]
+        if year.isdecimal() and month.isdecimal():
+            hd2 = year+"-"+month+"-30"
+    elif l == 3:
+        year = dd[0]
+        month = "12" if dd[1].strip() == "" else dd[1].strip()
+        day = "30" if dd[2].strip() == "" else dd[2].strip()
+        if year.isdecimal() and month.isdecimal() and day.isdecimal():
+            hd2 = year + "-" + month + "-" + day
+    return hd2
+
 dirname = "tei2"
 dir = "../docs/"+dirname
 files = glob.glob(dir+"/*.xml")
@@ -53,50 +104,18 @@ for i in range(len(files)):
     for i in range(len(dates)):
         date = dates[i]
         #g.add((subject, URIRef("http://purl.org/dc/terms/date"), Literal(date.get("when-custom"))))
-        stmts.append((subject, URIRef("http://purl.org/dc/terms/date"), Literal(date.get("when-custom"))))
-        if date.get("type") == "created":
-            
-            if date.get("when-custom"):
-                hd = date.get("when-custom")
-            elif date.get("from-custom"):
-                hd = date.get("from-custom")
-            if hd != None:
-                dd = hd.split("-")
+        #stmts.append((subject, URIRef("http://purl.org/dc/terms/date"), Literal(date.get("when-custom"))))
+        
+        hd, n_type = get_hd(date)
+        if hd != None:
+            hd2 = conv_date(hd)
+            if hd2 != "unknown":
+                sd = get_hutime(hd2)
+                # print(sd)
+                date.set(n_type, sd)
 
-                hd2 = "unknown"
-                
-                l = len(dd)
-                if l == 1:
-                    year = dd[0]
-                    if year.isdecimal():
-                        hd2 = year + "-12-30"
-                elif l == 2:
-                    
-                    year = dd[0]
-                    month = dd[1]
-                    if year.isdecimal() and month.isdecimal():
-                        hd2 = year+"-"+month+"-30"
-                elif l == 3:
-                    year = dd[0]
-                    month = "12" if dd[1].strip() == "" else dd[1].strip()
-                    day = "30" if dd[2].strip() == "" else dd[2].strip()
-                    if year.isdecimal() and month.isdecimal() and day.isdecimal():
-                        hd2 = year + "-" + month + "-" + day
-                
-                print(file.split("/")[-1]+","+hd+","+hd2)
-
-                '''
-                if hd2 != "unknown":
-                
-                    
-                    url = "http://ap.hutime.org/cal/?ival="+hd2+"&ical=103.1&method=conv&ep=b&ocal=101.1&otype=date&oprop=text&oform=gg%20YYYY-MM-dd"
-
-                    r = requests.get(url)
-                    sd = r.text.replace("C.E. ", "").strip()
-                    
-                    # g.add((subject, URIRef("http://purl.org/dc/terms/created"),Literal(sd)))
+                if date.get("type") == "created":
                     created.append(sd)
-                '''
 
         if date.get("cert"):
             value = "date_cert_"+date.get("cert")
@@ -189,6 +208,8 @@ for i in range(len(files)):
     if flg_add:
         for stmt in stmts:
             g.add(stmt)
+
+    tree.write(dir.replace("/tei2", "/tei3")+"/"+title+".xml", encoding="utf-8")
 
 g.serialize(destination=path+'/data.json', format="json-ld")
 

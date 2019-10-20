@@ -1,0 +1,89 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1705</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">DSCN1701.JPGの写し。</note>
+<note type="mine">DSCN1706.JPGは、現在独立した文書IDとして成立しているが、DSCN1705.JPGの裏面のようである。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ]
+          }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1239/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1239/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/dfa060e8787c8dd5b6d849eddf1ee9bb4289e80d.jpg" />
+<zone lrx="1933" lry="2883" ulx="92" uly="-8" xml:id="zone_yxl_h12_bjb" />
+<zone lrx="1177" lry="2813" ulx="1021" uly="2642" xml:id="zone_svt_4h2_bjb" />
+<zone lrx="1166" lry="2813" ulx="1032" uly="2711" xml:id="zone_fy4_ph2_bjb" />
+<zone lrx="940" lry="2846" ulx="696" uly="2631" xml:id="zone_zp2_qh2_bjb" />
+<zone lrx="922" lry="2820" ulx="728" uly="2704" xml:id="zone_v25_rh2_bjb" />
+<zone lrx="648" lry="2806" ulx="451" uly="2640" xml:id="zone_pg4_sh2_bjb" />
+<zone lrx="628" lry="2795" ulx="463" uly="2688" xml:id="zone_tvz_sh2_bjb" />
+<zone lrx="393" lry="2837" ulx="148" uly="2538" xml:id="zone_ug4_5h2_bjb" />
+<zone lrx="384" lry="2820" ulx="157" uly="2657" xml:id="zone_qkx_5h2_bjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1239/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6df68f4e9f9d51f47650db1b8ed428d1c270e338.jpg" />
+<zone lrx="3109" lry="2409" ulx="136" uly="691" xml:id="zone_kq5_xb2_bjb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_yxl_h12_bjb" type="ʿilmühaber_tapu_senedi_sūret">
+<p>
+<lb />... fī <date cert="low" type="created" when="1867-05-01" when-custom="1283--27">27 ... sene 1283</date><lb />
+</p>
+<div2 facs="#zone_svt_4h2_bjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_fy4_ph2_bjb" type="stamp_sūret">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_zp2_qh2_bjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_v25_rh2_bjb" type="stamp_sūret">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_pg4_sh2_bjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_tvz_sh2_bjb" type="stamp_sūret">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_ug4_5h2_bjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_qkx_5h2_bjb" type="stamp_sūret">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

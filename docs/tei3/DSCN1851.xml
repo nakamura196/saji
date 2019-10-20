@@ -1,0 +1,62 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1851</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】地方官が送るタイプのもの？要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1381/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1381/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5109288de292696c87de09c100935eba0934167c.jpg" />
+<zone lrx="2136" lry="3227" ulx="1163" uly="54" xml:id="zone_igv_z3q_cjb" />
+<zone lrx="1556" lry="3188" ulx="1222" uly="2939" xml:id="zone_brh_bjq_cjb" />
+<zone lrx="1543" lry="3174" ulx="1383" uly="3041" xml:id="zone_ujv_bjq_cjb" />
+<zone lrx="2254" lry="819" ulx="2024" uly="117" xml:id="zone_bxx_cjq_cjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1381/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/440172d8f4f6622aac4ebc4a3983862e50a84c25.jpg" />
+<zone lrx="1262" lry="1266" ulx="396" uly="512" xml:id="zone_ryj_2jq_cjb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_igv_z3q_cjb" type="takrīr">
+<p>
+<lb />... fī <date type="created" when="1794-06-06" when-custom="1208-11-08">8 Za sene 1208</date><lb />
+</p>
+<div2 facs="#zone_brh_bjq_cjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_ujv_bjq_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_ryj_2jq_cjb" type="unknown">
+<p>
+<lb />8642<lb />
+</p>
+</div1>
+<div1 facs="#zone_bxx_cjq_cjb" type="summary_Croatian">
+<p>
+<lb /><date type="summary_Croatian" when="1794">1794</date><lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>

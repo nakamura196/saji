@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1676</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
+          "このタイプの文書を何と呼ぶかは要検討。\r\n自己言及がないので、現状日本語で上奏文としておく。" ], "saji:type": [ "vālīから大宰相への上奏文の写し" ]
+          }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1213/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1213/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/91ce470aba57eda41450673272a1f4f35aff4f91.jpg" />
+<zone lrx="2180" lry="2200" ulx="106" uly="13" xml:id="zone_zxd_d2x_1jb" />
+<zone lrx="542" lry="2160" ulx="172" uly="1736" xml:id="zone_q5h_22x_1jb" />
+<zone lrx="530" lry="2151" ulx="187" uly="1984" xml:id="zone_wdp_j2x_1jb" />
+<zone lrx="2103" lry="663" ulx="1281" uly="257" xml:id="zone_ufl_k2x_1jb" />
+<zone lrx="2084" lry="612" ulx="1948" uly="451" xml:id="zone_mqm_l2x_1jb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1213/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6465d3b0f13bcf877418d34e5a7e1a024c2d0384.jpg" />
+<zone lrx="2684" lry="1111" ulx="145" uly="550" xml:id="zone_ahc_n2x_1jb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_zxd_d2x_1jb" type="iʿlām_sūret">
+<p>
+<lb />... fī <date type="created" when="1846-04-30" when-custom="1262-05-05">5 Ca 262</date><lb />
+</p>
+<div2 facs="#zone_q5h_22x_1jb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_wdp_j2x_1jb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_ufl_k2x_1jb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_mqm_l2x_1jb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_ahc_n2x_1jb" type="summary_Croatian">
+<p>
+<lb />...<lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>

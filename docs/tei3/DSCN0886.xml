@@ -1,0 +1,61 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0886</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1188-Ca-17" ], "saji:date_M": [ "1774-07-26" ], "saji:foldingMethod": [ "7" ],
+          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "\"hüve\"", "本文", "証人",
+          "オスマン朝スタンプ", "クレシェヴォのスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "21" ],
+          "saji:memo": [ "冒頭左上に、特徴的な形をした4行の定型文", "最後に、6名の証人の名前：\"Şuhūdu'l-ḥāl\"", "典型" ],
+          "saji:number": [ "509" ], "saji:openingPhrase": [ "fi'l-aṣl" ], "saji:placeFull": [
+          "Çaniça(?) ḳażā", "(?) sancaḳ" ], "saji:relationWithAnotherItems": [ "DSCN0886.JPG_表",
+          "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1005/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1005/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c961cb50b1afafc568313909ec20b70d72c73fcc.jpg" />
+<zone lrx="1536" lry="3000" ulx="591" uly="454" xml:id="zone_mxh_nz1_x3b" />
+<zone lrx="1010" lry="1074" ulx="863" uly="960" xml:id="zone_djm_4z1_x3b" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1005/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a2f5904620bb12d421e677196087127ed9d8a6ca.jpg" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1005/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/800132247e6d6bf336e848ebde1638418d0ad685.jpg" />
+<zone lrx="2100" lry="2058" ulx="94" uly="611" xml:id="zone_enx_rz1_x3b" />
+<zone lrx="1600" lry="1334" ulx="1371" uly="1094" xml:id="zone_gct_sz1_x3b" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1005/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/508bb61f9d41d3822e4bfe1657e81c866bfd85c0.jpg" />
+<zone lrx="3050" lry="1311" ulx="217" uly="822" xml:id="zone_qkj_5z1_x3b" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_mxh_nz1_x3b" type="hüccet">
+<l>... <date type="created" when="1774-07-25" when-custom="1188-05-17">Sene samān ve samāniyya ve miye ve alfin</date></l>
+<div3 facs="#zone_djm_4z1_x3b" type="stamp" />
+</div1>
+<div1 facs="#zone_enx_rz1_x3b" type="buyuruldu">
+<l>fī <date type="created" when="2453-09-20" when-custom="1888-05-17">17 Ca 188</date></l>
+<div3 facs="#zone_gct_sz1_x3b" type="stamp" />
+</div1>
+<div1 facs="#zone_qkj_5z1_x3b" type="summary_Serbian">
+<l><date type="summary_Serbian" when="1774">1774</date> ...</l>
+<l>...</l>
+<l>...</l>
+<l>... <date type="summary_Serbian" when="1774">1774</date></l>
+</div1>
+</body>
+</text>
+</TEI>

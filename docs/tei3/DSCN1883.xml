@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1883</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1413/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1413/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1d4aa093c904b397686bb4e7ba82a8d0612ead2b.jpg" />
+<zone lrx="1500" lry="3133" ulx="450" uly="357" xml:id="zone_sbt_drw_cjb" />
+<zone lrx="1478" lry="1107" ulx="1115" uly="536" xml:id="zone_itt_frw_cjb" />
+<zone lrx="1386" lry="1096" ulx="1226" uly="961" xml:id="zone_i34_grw_cjb" />
+<zone lrx="1023" lry="1065" ulx="490" uly="391" xml:id="zone_ytb_hrw_cjb" />
+<zone lrx="896" lry="1048" ulx="749" uly="930" xml:id="zone_gxx_hrw_cjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1413/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/72ad3749d13c027cf7c41afe49311c76d74f78e1.jpg" />
+<zone lrx="2512" lry="1172" ulx="473" uly="633" xml:id="zone_rgj_krw_cjb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_sbt_drw_cjb" type="hüccet">
+<p>
+<lb />... <date type="created" when="1807-07-12" when-custom="1222-05-07">fi'l-yevmi'l-sābʿa min şehr Cemaziye'l-evvel sene isnā ve ʿaşrīn<lb />
+<lb />ve mieteyn baʿde'l-elif</date> min hücceti'l-...<lb />
+</p>
+<div2 facs="#zone_itt_frw_cjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_i34_grw_cjb" type="stamp">
+<p>
+<lb />... fī <lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_ytb_hrw_cjb" type="sign">
+<p>
+<lb />... fī <lb />
+</p>
+<div3 facs="#zone_gxx_hrw_cjb" type="stamp">
+<p>
+<lb />... fī <lb />
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_rgj_krw_cjb" type="summary_Croatian">
+<p>
+<lb />... <date type="summary_Croatian" when="1807">1807</date>.<lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>

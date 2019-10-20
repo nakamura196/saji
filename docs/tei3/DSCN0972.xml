@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0972</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">DSCN1041.JPGと同じ画像・文書。重複している。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1191-S-15" ], "saji:date_M": [ "1777-03-25" ], "saji:foldingMethod": [ "4x2" ],
+          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
+          "・本文\r\n・クレシェヴォのスタンプ\r\n・日付" ], "saji:lang": [ "ota" ], "saji:lineage": [ "7" ],
+          "saji:number": [ "128" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [
+          "1" ], "saji:stamp_o": [ "0" ], "saji:transcription": [ "Vech taḥrīr ... budur ki\r\nİşbu
+          ..." ], "saji:witness": [ "0" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1088/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1088/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8001bd504132a4473f0b27addf034423c65f48af.jpg" />
+<zone lrx="2070" lry="2723" ulx="100" uly="1400" xml:id="zone_nsq_fdf_z3b" />
+<zone lrx="462" lry="2533" ulx="216" uly="2195" xml:id="zone_y2v_xpj_kjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1088/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/eb2d000bb04c99382464110e84a2c024118aaaf4.jpg" />
+<zone lrx="1741" lry="1554" ulx="871" uly="604" xml:id="zone_xsv_3df_z3b" />
+<zone lrx="1571" lry="3104" ulx="871" uly="2087" xml:id="zone_qsq_jdf_z3b" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1088/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/eb3cb3c5c0d7518e0769b75bcaac6dd084fd383a.jpg" />
+<zone lrx="1954" lry="2936" ulx="18" uly="1572" xml:id="zone_ggj_fpj_1jb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1088/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/2ab1f6e0a45bb421c723fb845d3650f77e819801.jpg" />
+<zone lrx="1587" lry="1420" ulx="737" uly="500" xml:id="zone_ik2_hpj_1jb" />
+<zone lrx="1466" lry="3029" ulx="800" uly="1958" xml:id="zone_m4b_3pj_1jb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_nsq_fdf_z3b" type="EMIN">
+<p>
+<lb />Vech-i tahrīr-i hurūf budur ki<lb />
+<lb />işbu bin yüz doksan bir senesine Martı ibtidāsında Şubatı gāyene varınca der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası<lb />
+<lb />kurālarında ... ruhbānların karyesinden <lb />
+<lb /><lb />
+<lb /><lb />
+<lb /><lb />
+<lb /><lb />
+<lb /><date type="created" when="1777-03-24" when-custom="1191-02-15"> sene fī 15 Safer sene 1191</date><lb />
+</p>
+<div2 facs="#zone_y2v_xpj_kjb" type="sign">
+<p>
+<lb />... fī <lb />
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_xsv_3df_z3b" type="summary_Croatian">
+<p>
+<lb />... fī <lb />
+</p>
+</div1>
+<div1 facs="#zone_qsq_jdf_z3b" type="unknown">
+<p>
+<lb />... fī <lb />
+</p>
+</div1>
+<div1 cert="low" facs="#zone_ggj_fpj_1jb" type="EMIN">
+<p>
+<lb />... fī <date type="created" when="1777-03-24" when-custom="1191-02-15">15 Safer 1191</date><lb />
+</p>
+</div1>
+<div1 facs="#zone_ik2_hpj_1jb" type="summary_Crotatian">
+<p>
+<lb />...<lb />
+</p>
+</div1>
+<div1 facs="#zone_m4b_3pj_1jb" type="unknown">
+<p>
+<lb />...<lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>

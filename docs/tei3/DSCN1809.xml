@@ -1,0 +1,83 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1809</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：月、DSCN1810.JPG, DSCN1816.JPGと同じ書き方をしているが読み取れない。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1340/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1340/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/164b220ebb778723fcdfb0c670fc0d656e12effe.jpg" />
+<zone lrx="1733" lry="3016" ulx="283" uly="125" xml:id="zone_hdk_sj4_cjb" />
+<zone lrx="1645" lry="2941" ulx="1484" uly="2738" xml:id="zone_rdl_5j4_cjb" />
+<zone lrx="1638" lry="2935" ulx="1493" uly="2810" xml:id="zone_djf_vj4_cjb" />
+<zone lrx="1323" lry="2946" ulx="1149" uly="2753" xml:id="zone_snw_vj4_cjb" />
+<zone lrx="1304" lry="2939" ulx="1176" uly="2813" xml:id="zone_nfl_wj4_cjb" />
+<zone lrx="950" lry="2947" ulx="767" uly="2763" xml:id="zone_sqd_xj4_cjb" />
+<zone lrx="939" lry="2945" ulx="773" uly="2808" xml:id="zone_xgc_yj4_cjb" />
+<zone lrx="601" lry="2935" ulx="442" uly="2745" xml:id="zone_xns_yj4_cjb" />
+<zone lrx="590" lry="2926" ulx="449" uly="2804" xml:id="zone_urg_zj4_cjb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_hdk_sj4_cjb" type="tapu_senedi">
+<p>
+<lb />... fī <date type="created" when="1864-05-08" when-custom="1280--02">2 ... sene 1280</date><lb />
+</p>
+<div2 facs="#zone_rdl_5j4_cjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_djf_vj4_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_snw_vj4_cjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_nfl_wj4_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_sqd_xj4_cjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_xgc_yj4_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_xns_yj4_cjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_urg_zj4_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

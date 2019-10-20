@@ -1,0 +1,46 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0902</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：セルビア語要約内の日付を作成年としたが、作成年かどうか要検討。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_M": [
+          "1776-" ], "saji:foldingMethod": [ "4" ], "saji:fond": [ "Tursko 1" ], "saji:item": [
+          "ボスニア語本文", "ボスニア語会計", "クレシェヴォのスタンプ" ], "saji:lang": [ "bos" ], "saji:lineage": [ "5-N1" ],
+          "saji:memo": [ "会計：7行", "すべてボスニア語、オスマン語記述なし", "本文と会計の記録されている向きが違う", "典型" ], "saji:number":
+          [ "40?" ], "saji:relationWithAnotherItems": [ "DSCN0902.JPG_表", "表全体像" ], "saji:stamp_c":
+          [ "1" ], "saji:type": [ "?" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1020/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1020/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a578d9bfedf8af5c0e8159a40f0f71ed23730966.jpg" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1020/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a136428860bc5a518d47f9a4a8105158f35f383d.jpg" />
+<zone lrx="3039" lry="1400" ulx="89" uly="783" xml:id="zone_pqf_tfy_y3b" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1020/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/e9c6d1cc1bcae99d091c8d1ff539d393a79dba33.jpg" />
+<zone lrx="1971" lry="1529" ulx="1046" uly="891" xml:id="zone_gh1_wfy_y3b" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_pqf_tfy_y3b" type="serbian">
+<l>... <date cert="unknown" type="created" when="1776">1776</date> ...</l>
+</div1>
+<div1 cert="unknown" facs="#zone_gh1_wfy_y3b" type="serbian" />
+</body>
+</text>
+</TEI>

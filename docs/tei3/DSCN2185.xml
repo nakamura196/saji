@@ -1,0 +1,43 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2185</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">債権？</note>
+<note type="mine">日付、文脈がないので、この手の文書は最後に検討する。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
+               }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2513/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2513/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/22a52387d25f79b6b5d54b807bb57f3afc362363.jpg" />
+<zone lrx="2211" lry="1631" ulx="332" uly="231" xml:id="zone_bmx_gc3_j3b" />
+<zone lrx="1790" lry="1573" ulx="1266" uly="1203" xml:id="zone_krt_hc3_j3b" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2513/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/05bf8b848cc8f39073e98266dd7a437f1c3c7749.jpg" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_bmx_gc3_j3b" type="tahvīl">
+<l><placename type="proper">Kirşevo</placename> <persname>gardiyān</persname>den iki bin sekiz yüz otüz kıye ...</l>
+<l>yiğrmi bir bin akçe ... eyledüğümüz işbu tahvīl yedine virildi</l>
+</div1>
+<div3 facs="#zone_krt_hc3_j3b" type="stamp">
+<l cert="unknown">...</l>
+</div3>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,116 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1957</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：buyurulduの年月の読みを要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1487/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1487/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8109f9b59e5db6b6cd9d0bc6d42f92f6073be3ae.jpg" />
+<zone lrx="2227" lry="2823" ulx="107" uly="2310" xml:id="zone_vmf_km2_djb" />
+<zone lrx="1120" lry="2816" ulx="931" uly="2559" xml:id="zone_gcp_lm2_djb" />
+<zone lrx="1086" lry="2810" ulx="942" uly="2680" xml:id="zone_fnh_mm2_djb" />
+<zone lrx="941" lry="2794" ulx="754" uly="2561" xml:id="zone_yhg_nm2_djb" />
+<zone lrx="913" lry="2786" ulx="768" uly="2672" xml:id="zone_scj_4m2_djb" />
+<zone lrx="761" lry="2809" ulx="580" uly="2558" xml:id="zone_bnx_4m2_djb" />
+<zone lrx="736" lry="2805" ulx="588" uly="2672" xml:id="zone_j2n_pm2_djb" />
+<zone lrx="586" lry="2804" ulx="393" uly="2543" xml:id="zone_iyc_qm2_djb" />
+<zone lrx="535" lry="2804" ulx="392" uly="2665" xml:id="zone_kjt_qm2_djb" />
+<zone lrx="401" lry="2783" ulx="128" uly="2546" xml:id="zone_e1k_rm2_djb" />
+<zone lrx="350" lry="2779" ulx="191" uly="2640" xml:id="zone_wkz_sm2_djb" />
+<zone lrx="2273" lry="2306" ulx="133" uly="220" xml:id="zone_g42_5m2_djb" />
+<zone lrx="2050" lry="823" ulx="1626" uly="455" xml:id="zone_b2h_vm2_djb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1487/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b5e83fd201007f77f87fd105cfc9bbec1ed3e928.jpg" />
+<zone lrx="2706" lry="727" ulx="184" uly="422" xml:id="zone_rp5_wm2_djb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_vmf_km2_djb" type="mazbata">
+<p>
+<lb />... fī <lb />
+</p>
+<div2 facs="#zone_gcp_lm2_djb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_fnh_mm2_djb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_yhg_nm2_djb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_scj_4m2_djb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_b2h_vm2_djb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_j2n_pm2_djb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_iyc_qm2_djb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_kjt_qm2_djb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_e1k_rm2_djb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_wkz_sm2_djb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_g42_5m2_djb" type="buyuruldu">
+<p>
+<lb />buyuruldu fī <date cert="low" type="created" when="1848-01-24" when-custom="1264-02-18">18 S sene 64</date><lb />
+</p>
+<div3 facs="#zone_b2h_vm2_djb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div1>
+<div1 facs="#zone_rp5_wm2_djb" type="summary_Croatian">
+<p>
+<lb />... <date type="summary_Croatian" when="0684-07-19" when-custom="1264">1264</date>.<lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>
