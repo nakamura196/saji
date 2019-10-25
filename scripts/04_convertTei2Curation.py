@@ -206,7 +206,7 @@ for i in range(len(files)):
         curation_data["selections"].append(selection)
 
 
-fw = open("../docs/data/curation_tmp2.json", 'w')
+fw = open("../docs/data/curation.json", 'w')
 json.dump(curation_data, fw, ensure_ascii=False, indent=4,
           sort_keys=True, separators=(',', ': '))
 
