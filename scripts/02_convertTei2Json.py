@@ -70,6 +70,8 @@ path = "../docs/data"
 
 g = Graph()
 
+div1_tmp = {}
+
 for i in range(len(files)):
     file = files[i]
 
@@ -132,8 +134,63 @@ for i in range(len(files)):
         div = divs[i]
         if div.get("type"):
 
+            value = div.get("type")
+
             # g.add((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type"), Literal(div.get("type"))))
-            stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type1"), Literal(div.get("type"))))
+            stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type1"), Literal(value)))
+
+            # print(value)
+
+            map = {
+                "EMIN": "EMIN",
+                "unknown": "unknown",
+                "unkown": "unknown",
+                "summary_Serbian": "summary_Serbian",
+                "summary_Croatian": "summary_Croatian",
+                "sumamry_Croatian": "summary_Croatian",
+                "summay_Crotatioan": "summary_Croatian",
+                "summay_Croatian": "summary_Croatian",
+                "summary_Crotatian": "summary_Croatian",
+                "summary_Cratian": "summary_Croatian",
+                "summary_Craotian": "summary_Croatian",
+                "summery_Croatia": "summary_Croatian",
+                "hüccet": "hüccet",
+                "note": "note",
+                "mürāsele": "mürāsele",
+                "iʿlām": "iʿlām",
+                "tapu": "tapu",
+                "buyuruldu": "buyuruldu",
+                "kassām": "kassām",
+                "Kassām_defteri": "kassām",
+                "fetvā": "fetvā",
+                "tezkire": "tezkire",
+                "fermān": "fermān",
+                "ʿilmühaber": "ʿilmühaber",
+                "ʿarz-ı_hāl": "ʿarz-ı_hāl",
+                "tuğra": "tuğra",
+                "şühūdu’l-hāl": "şühūdu’l-hāl",
+                "Şühūdu’l-hāl": "şühūdu’l-hāl",
+                "zabt_temessük": "temessük",
+                "temessük": "temessük",
+                "ṣūret": "ṣūret",
+                "sūret": "ṣūret",
+            }
+            flg = False
+            for key in map:
+
+                if key in value:
+                    stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type0"), Literal(map[key])))
+                    flg = True
+                    break
+
+            if not flg:
+                print(value)
+
+                if value not in div1_tmp:
+                    div1_tmp[value] = 0
+
+                div1_tmp[value] += 1
+                
 
     divs = body.findall(prefix+"div2")
     for i in range(len(divs)):
@@ -148,8 +205,10 @@ for i in range(len(files)):
         div = divs[i]
         if div.get("type"):
 
+            value = div.get("type")
+
             # g.add((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type"), Literal(div.get("type"))))
-            stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type3"), Literal(div.get("type"))))
+            stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/type3"), Literal(value)))
 
     notesStmt = root.find(prefix+"notesStmt")
     if notesStmt != None:
@@ -212,3 +271,4 @@ for i in range(len(files)):
 g.serialize(destination=path+'/data.json', format="json-ld")
 
 
+print(div1_tmp)
