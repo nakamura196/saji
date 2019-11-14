@@ -11,13 +11,11 @@
         <note type="mine">DSCN1041.JPGと同じ画像・文書。重複している。</note>
       </notesStmt>
       <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
-          "1191-S-15" ], "saji:date_M": [ "1777-03-25" ], "saji:foldingMethod": [ "4x2" ],
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod": [ "4x2" ],
           "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
           "・本文\r\n・クレシェヴォのスタンプ\r\n・日付" ], "saji:lang": [ "ota" ], "saji:lineage": [ "7" ],
           "saji:number": [ "128" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [
-          "1" ], "saji:stamp_o": [ "0" ], "saji:transcription": [ "Vech taḥrīr ... budur ki\r\nİşbu
-          ..." ], "saji:witness": [ "0" ] }</p>
+          "1" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "0" ] }</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -41,31 +39,38 @@
   </facsimile>
   <text>
     <body>
-      <div type="EMIN" cert="low" facs="#zone_nsq_fdf_z3b">
+      <div type="EMIN.temessük" cert="low" facs="#zone_nsq_fdf_z3b">
         <p>
           <lb/>Vech-i tahrīr-i hurūf budur ki<lb/>
-          <lb/>işbu bin yüz doksan bir senesine Martı ibtidāsında Şubatı gāyene varınca der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası<lb/>
-          <lb/>kurālarında ... ruhbānların karyesinden <lb/>
-          <lb/><lb/>
-          <lb/><lb/>
-          <lb/><lb/>
-          <lb/><lb/>
+          <lb/>işbu <date from-custom="1191-03" to-custom="1192-02">bin yüz doksan bir senesine Martı ibtidāsında Şubatı gāyene varınca</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası<lb/>
+          <lb/>kurālarında ... ruhbānların karyesinden ʿaşār-ı şerʿiyye ve rusūmāt ve sāyir edā kıldığı minvāl-ı meşrūh zabtına ve rabtına<lb/>
+          <lb/>tālib ve rāgib olan işbu dārande-i temessük ber ruhbānların gardiyān zimmī <persName cert="low" role="ruhbānların gardiyān zimmī">Agustan</persName>'a ber-vech peşīn yetmiş<lb/>
+          <lb/>guruş mukābelesinde ʿuhde ve ihāle ... ʿaşār-ı şerʿiye ve rusūmāt ve sāyir edā kıldığı minvāl-ı meşrūh eden<lb/>
+          <lb/>zabtına ve rabtına mezbūr-ı temessükümüz ketb olundu ʿaşār-ı şerʿiye ... mezbūrın yanından bir akçe ve habbe kılmadığı ecilden<lb/>
+          <lb/>işbu temessük virildi tarafımızdan ve taraf-ı ahārdan bir kimesne ... ve ahz olunmasına<lb/>
           <lb/><date when-custom="1191-02-15" type="created"> sene fī 15 Safer sene 1191</date><lb/>
         </p>
         <div type="sign" facs="#zone_y2v_xpj_kjb">
           <p>
-            <lb/>... fī <lb/>
+            <lb/>... Süleymān Emīn-i Kirşevo<lb/>
           </p>
         </div>
       </div>
       <div type="summary_Croatian" facs="#zone_xsv_3df_z3b">
         <p>
-          <lb/>... fī <lb/>
+          <lb/>... od ...<lb/>
+          <lb/>mina ...<lb/>
+          <lb/>... An: <date when="1777" type="summary_Croatian">1777</date><lb/>
+          <lb/>... No<lb/>
+          <lb/>...<lb/>
+          <lb/>...<lb/>
+          <lb/>70=<lb/>
+          <lb/>momkom: ...<lb/>
         </p>
       </div>
       <div type="unknown" facs="#zone_qsq_jdf_z3b">
         <p>
-          <lb/>... fī <lb/>
+          <lb/>...<lb/>
         </p>
       </div>
     </body>

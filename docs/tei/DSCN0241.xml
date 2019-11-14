@@ -11,29 +11,36 @@
             <note type="mine">【要】再撮影：裏面にスタンプがあるよう見える、再撮影する。</note>
          </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1720/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1720/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/906fffbb94c9c2cb5a1c39769c49f46cdf1e65b0.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1720/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/03cc2c79f4e425f18362641353e659b041bce66a.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/906fffbb94c9c2cb5a1c39769c49f46cdf1e65b0.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1720/canvas/p1"/>
+            <zone xml:id="zone_uym_dgk_kjb" lry="3172" lrx="2282" uly="163" ulx="218"/>
+            <zone xml:id="zone_r4k_fgk_kjb" lry="3153" lrx="755" uly="2818" ulx="405"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/03cc2c79f4e425f18362641353e659b041bce66a.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1720/canvas/p2"/>
+            <zone xml:id="zone_pjz_ggk_kjb" lry="1254" lrx="1425" uly="991" ulx="300"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="EMIN">
+         <div type="EMIN" facs="#zone_uym_dgk_kjb">
             <p>
-               <lb/>işbu <date when-custom="1237">bin iki yüz otuz yedi senesinde</date> der ʿuhde ve ...<lb/>
+               <lb/>işbu <date when-custom="1237">bin iki yüz otuz yedi senesinde</date> der ʿuhde
+               ve ...<lb/>
                <lb/>... fī <date when-custom="1237-04-21" type="created">21 R sene 37</date><lb/>
             </p>
-            <div type="sign">
+            <div type="sign" facs="#zone_r4k_fgk_kjb">
                <p>
                   <lb/>...<lb/>
                </p>
@@ -44,7 +51,7 @@
                </p>
             </div>
          </div>
-         <div type="summary_Croatian">
+         <div type="summary_Croatian" facs="#zone_pjz_ggk_kjb">
             <p>
                <lb/>... <date when="1822" type="summary_Croatian">1822</date>.<lb/>
             </p>

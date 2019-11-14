@@ -8,28 +8,34 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1718/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1718/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/78e4f38655bd22535f31af6ec5a6063e250ee3b6.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1718/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1cd7a7e4dc2f68a789c13b94af83f93c5ca5a558.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/78e4f38655bd22535f31af6ec5a6063e250ee3b6.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1718/canvas/p1"/>
+            <zone xml:id="zone_tk4_5fk_kjb" lry="2918" lrx="2091" uly="145" ulx="127"/>
+            <zone xml:id="zone_spz_wfk_kjb" lry="2773" lrx="453" uly="2490" ulx="141"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/1cd7a7e4dc2f68a789c13b94af83f93c5ca5a558.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1718/canvas/p2"/>
+            <zone xml:id="zone_wkd_zfk_kjb" lry="1261" lrx="3023" uly="816" ulx="156"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="EMIN">
+         <div type="EMIN" facs="#zone_tk4_5fk_kjb">
             <p>
                <lb/>... fī <date when-custom="1221-02-19">19 S sene 1221</date><lb/>
             </p>
-            <div type="sign">
+            <div type="sign" facs="#zone_spz_wfk_kjb">
                <p>
                   <lb/>...<lb/>
                </p>
@@ -40,7 +46,7 @@
                </p>
             </div>
          </div>
-         <div type="summary_Croatian">
+         <div type="summary_Croatian" facs="#zone_wkd_zfk_kjb">
             <p>
                <lb/>...<lb/>
             </p>

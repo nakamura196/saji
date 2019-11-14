@@ -8,39 +8,51 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1697/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/06dd53b97c01be5988bc94cea88622ff8f25e233.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e3a722699986684b39fe2a75565eafb3e4d96bd3.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/06dd53b97c01be5988bc94cea88622ff8f25e233.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p1"/>
+            <zone xml:id="zone_bll_1ck_kjb" lry="3150" lrx="2060" uly="170" ulx="360"/>
+            <zone xml:id="zone_nm4_cck_kjb" lry="3146" lrx="871" uly="2688" ulx="391"/>
+            <zone xml:id="zone_fwk_dck_kjb" lry="3135" lrx="864" uly="2910" ulx="605"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/e3a722699986684b39fe2a75565eafb3e4d96bd3.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p2"/>
+            <zone xml:id="zone_wg4_2ck_kjb" lry="1672" lrx="2850" uly="705" ulx="234"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="EMIN_varaka" cert="unknown">
+         <div type="EMIN_varaka" cert="unknown" facs="#zone_bll_1ck_kjb">
             <p>
                <lb/>... <date when-custom="1266" type="created">sene 66</date><lb/>
             </p>
-            <div type="sign">
+            <div type="sign" facs="#zone_nm4_cck_kjb">
                <p>
                   <lb/>...<lb/>
                </p>
-               <div type="stamp">
+               <div type="stamp" facs="#zone_fwk_dck_kjb">
                   <p>
                      <lb/>...<lb/>
                   </p>
                </div>
             </div>
+            <div type="şühūdu’l-hāl">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
          </div>
-         <div type="summary_Croatian">
+         <div type="summary_Croatian" facs="#zone_wg4_2ck_kjb">
             <p>
                <lb/><date when-custom="1266" type="summary_Croatian">g. 1266</date>.<lb/>
             </p>

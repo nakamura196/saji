@@ -11,28 +11,28 @@
             <note type="mine">【要】日付：月日の読み取りができていない。</note>
          </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1715/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1715/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/67a34936f651bf05e9e7c0ab8efab76de9d0e643.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/67a34936f651bf05e9e7c0ab8efab76de9d0e643.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1715/canvas/p1"/>
+            <zone xml:id="zone_qyz_gfk_kjb" lry="3018" lrx="2291" uly="172" ulx="245"/>
+            <zone xml:id="zone_dvq_jfk_kjb" lry="2700" lrx="613" uly="2456" ulx="322"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="EMIN_temessük">
+         <div type="EMIN_temessük" facs="#zone_qyz_gfk_kjb">
             <p>
                <lb/>... fī <date when-custom="1236" type="created">sene 236</date><lb/>
             </p>
-            <div type="sign">
+            <div type="sign" facs="#zone_dvq_jfk_kjb">
                <p>
                   <lb/>...<lb/>
                </p>
@@ -42,7 +42,7 @@
                   <lb/>...<lb/>
                </p>
             </div>
-         </div>         
+         </div>
       </body>
    </text>
 </TEI>

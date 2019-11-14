@@ -8,35 +8,47 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1689/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c7507a6e5def8a31c3fff4a76a7ecc6d9169481e.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/83dd11136a8b8184d88ead5ebebf64294591b99a.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/c7507a6e5def8a31c3fff4a76a7ecc6d9169481e.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p1"/>
+            <zone xml:id="zone_nzs_p1k_kjb" lry="2238" lrx="2193" uly="984" ulx="131"/>
+            <zone xml:id="zone_bnv_q1k_kjb" lry="2112" lrx="448" uly="1724" ulx="181"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/83dd11136a8b8184d88ead5ebebf64294591b99a.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p2"/>
+            <zone xml:id="zone_ahv_r1k_kjb" lry="1822" lrx="2989" uly="805" ulx="200"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="EMIN_zabt_temessük">
+         <div type="EMIN_zabt_temessük" facs="#zone_nzs_p1k_kjb">
             <p>
-               <lb/>işbu <date when-custom="1266">iki yüz altmış altı senesinde</date> ʿuhdemiz buulunan Kirşevo ...<lb/>
+               <lb/>işbu <date when-custom="1266">iki yüz altmış altı senesinde</date> ʿuhdemiz
+               buulunan Kirşevo ...<lb/>
                <lb/>... <date when-custom="1266" type="created">sene 66</date><lb/>
             </p>
-            <div type="sign">
+            <div type="sign" facs="#zone_bnv_q1k_kjb">
                <p>
                   <lb/>...<lb/>
                </p>
+               <div type="şühūdu’l-hāl">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
             </div>
          </div>
-         <div type="summary_Croatian">
+         <div type="summary_Croatian" facs="#zone_ahv_r1k_kjb">
             <p>
                <lb/>... <date when="1851" type="summary_Croatian">1851</date>.<lb/>
             </p>

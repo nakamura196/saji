@@ -8,24 +8,33 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1725/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1725/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c57ca07e27bb32c5f37f92423067d687b0b01cde.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/c57ca07e27bb32c5f37f92423067d687b0b01cde.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1725/canvas/p1"/>
+            <zone xml:id="zone_iq5_bhk_kjb" lry="2832" lrx="1954" uly="61" ulx="35"/>
+            <zone xml:id="zone_oxj_dhk_kjb" lry="2790" lrx="550" uly="2372" ulx="257"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN_zabt_temessük">
+            <p>
+               <lb/>... fī <date when-custom="1188-01-14" type="created">14 M sene 1188</date><lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div>
+         </div>
       </body>
    </text>
 </TEI>

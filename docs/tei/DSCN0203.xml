@@ -8,34 +8,46 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1682/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1682/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/99182c1d9fa1c23bb1f6c3e60907570f3c9b7eaf.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1682/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/096dbe4cadfa350055245a1bf20925225468a0a0.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/99182c1d9fa1c23bb1f6c3e60907570f3c9b7eaf.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1682/canvas/p1"/>
+            <zone xml:id="zone_wpn_5yj_kjb" lry="3170" lrx="2400" uly="1320" ulx="140"/>
+            <zone xml:id="zone_xsq_vyj_kjb" lry="3098" lrx="547" uly="2873" ulx="326"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/096dbe4cadfa350055245a1bf20925225468a0a0.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1682/canvas/p2"/>
+            <zone xml:id="zone_g14_mzj_kjb" lry="1350" lrx="3000" uly="538" ulx="412"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="EMIN" cert="unknown">
+         <div type="EMIN" cert="unknown" facs="#zone_wpn_5yj_kjb">
             <p>
-               <lb/>işbu <date when-custom="1213" type="created">bin iki yüz on üç senedinde</date> ... fī <lb/>
+               <lb/>işbu <date when-custom="1213" type="created">bin iki yüz on üç senedinde</date>
+               ... fī <lb/>
             </p>
-            <div type="sign">
+            <div type="sign" facs="#zone_xsq_vyj_kjb">
                <p>
                   <lb/>... <lb/>
                </p>
+               <div type="şühūdu’l-hāl">
+                  <p>
+                     <lb/>... <lb/>
+                  </p>
+               </div>
             </div>
          </div>
-         <div type="summary_Croatian">
+         <div type="summary_Croatian" facs="#zone_g14_mzj_kjb">
             <p>
                <lb/><date when="1799-03-25" type="summary_Croatian">Die 25 Mar: 1799</date><lb/>
                <lb/><date when-custom="1213" type="summary_Croatian">1213</date>. Nno 3.<lb/>

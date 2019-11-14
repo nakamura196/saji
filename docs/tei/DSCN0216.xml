@@ -8,34 +8,41 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1695/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1695/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a573674666d3c8386c490fcc1e9b954e997ee901.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1695/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ab3a53ebffcd0b5a82c1a48e3a8dae5924caaf43.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/a573674666d3c8386c490fcc1e9b954e997ee901.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1695/canvas/p1"/>
+            <zone xml:id="zone_ccz_pbk_kjb" lry="3145" lrx="1991" uly="-9" ulx="245"/>
+            <zone xml:id="zone_pdx_tbk_kjb" lry="3127" lrx="598" uly="2820" ulx="264"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/ab3a53ebffcd0b5a82c1a48e3a8dae5924caaf43.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1695/canvas/p2"/>
+            <zone xml:id="zone_z3p_vbk_kjb" lry="2022" lrx="2639" uly="816" ulx="528"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="EMIN" cert="unknown">
+         <div type="EMIN" cert="unknown" facs="#zone_ccz_pbk_kjb">
             <p>
-               <lb/>işbu <date when-custom="1230" type="created">bin iki yüz otuz senesinde</date> der ʿuhde ve ... <lb/>
+               <lb/>işbu <date when-custom="1230" type="created">bin iki yüz otuz senesinde</date>
+               der ʿuhde ve ... <lb/>
             </p>
-            <div type="sign">
+            <div type="sign" facs="#zone_pdx_tbk_kjb">
                <p>
                   <lb/>... <lb/>
                </p>
             </div>
          </div>
-         <div type="summary_Croatian">
+         <div type="summary_Croatian" facs="#zone_z3p_vbk_kjb">
             <p>
                <lb/>... <date when-custom="1230" type="summary_Croatian">1230</date> Nno 10.<lb/>
             </p>

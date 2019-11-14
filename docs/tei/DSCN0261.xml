@@ -25,7 +25,26 @@
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN_tapu" cert="low">
+            <p>
+               <lb/>... fī <date when-custom="1257--11" type="created">11 ... 257</date><lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div type="stamp">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div type="summary_Croatian">
+            <p>
+               <lb/>... <date when="1842" type="summary_Croatian">1842</date>.<lb/>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

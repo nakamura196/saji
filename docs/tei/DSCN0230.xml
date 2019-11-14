@@ -8,28 +8,35 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1709/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1709/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/09ac763e41f87ec68396ef12d53d15a658ec4a54.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1709/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1fc83c1a81156190438f931d15799ae2d9d33ca8.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/09ac763e41f87ec68396ef12d53d15a658ec4a54.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1709/canvas/p1"/>
+            <zone xml:id="zone_pt3_f2k_kjb" lry="2530" lrx="2277" uly="53" ulx="77"/>
+            <zone xml:id="zone_nbh_h2k_kjb" lry="2498" lrx="334" uly="1981" ulx="90"/>
+         </surface>
+         <surface>
+            <graphic
+               url="https://diyhistory.org/public/phr2/files/original/1fc83c1a81156190438f931d15799ae2d9d33ca8.jpg"
+               n="https://diyhistory.org/public/phr2/iiif/1709/canvas/p2"/>
+            <zone xml:id="zone_ev4_32k_kjb" lry="1694" lrx="2267" uly="850" ulx="267"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="EMIN_temessük">
+         <div type="EMIN_temessük" facs="#zone_pt3_f2k_kjb">
             <p>
-               <lb/>işbu <date when-custom="1251" type="created">bin iki yüz elli bir senesinde</date> der ʿuhde ve ... <lb/>
+               <lb/>işbu <date when-custom="1251" type="created">bin iki yüz elli bir
+                  senesinde</date> der ʿuhde ve ... <lb/>
             </p>
-            <div type="sign">
+            <div type="sign" facs="#zone_nbh_h2k_kjb">
                <p>
                   <lb/>...<lb/>
                </p>
@@ -40,7 +47,7 @@
                </p>
             </div>
          </div>
-         <div type="summary_Croatian">
+         <div type="summary_Croatian" facs="#zone_ev4_32k_kjb">
             <p>
                <lb/>... <date when="1836" type="summary_Croatian">1836</date>.<lb/>
                <lb/>= <date when-custom="1251" type="summary_Croatian">1251</date>.<lb/>
