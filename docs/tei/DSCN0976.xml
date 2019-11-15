@@ -35,6 +35,21 @@
           n="https://diyhistory.org/public/phr2/iiif/1092/canvas/p2"/>
         <zone xml:id="zone_xbx_s2f_z3b" lry="1322" lrx="2856" uly="1000" ulx="412"/>
       </surface>
+      
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/35d67040203d564b918d318d021b842b40c9e9c6.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1092/canvas/p3"/>
+        <zone xml:id="zone_kqh_bs3_1jb" lry="2966" lrx="1717" uly="250" ulx="100"/>
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/4a9c7ed75326ae9978802222256d25663abac627.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1092/canvas/p4"/>
+        <zone xml:id="zone_zcd_ds3_1jb" lry="189" lrx="807" uly="-50" ulx="524"/>
+        <zone xml:id="zone_kqn_2s3_1jb" lry="3241" lrx="1989" uly="3027" ulx="400"/>
+      </surface>
+      
     </surfaceGrp>
   </facsimile>
   <text>
@@ -45,6 +60,23 @@
       </div>
       <div type="summary_Croatian" facs="#zone_xbx_s2f_z3b">
         <l>... <date when="1803" type="summary_Croatian">1803</date></l>
+      </div>
+      
+      <div type="EMIN" cert="low" facs="#zone_kqh_bs3_1jb">
+        <p>
+          <lb/>... işbu <date when-custom="1217-03" type="created">bin<lb/>
+            <lb/>ikiyüz on yedi senesinde Martı</date> ...<lb/>
+        </p>
+      </div>
+      <div type="stamp" facs="#zone_zcd_ds3_1jb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div>
+      <div type="summary_Croatian" facs="#zone_kqn_2s3_1jb">
+        <p>
+          <lb/>... <date when="1803" type="summary_Croatian">1803</date><lb/>
+        </p>
       </div>
     </body>
   </text>

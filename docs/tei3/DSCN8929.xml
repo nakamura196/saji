@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8929</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 2" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1519/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1519/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9b461739ded4459523c2f1ac52ca024cea25a5bf.jpg" />
+<zone lrx="1855" lry="3189" ulx="133" uly="334" xml:id="zone_lht_dyz_djb" />
+<zone lrx="846" lry="3171" ulx="161" uly="2525" xml:id="zone_i3j_fyz_djb" />
+<zone lrx="701" lry="3098" ulx="557" uly="2985" xml:id="zone_lwq_gyz_djb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1519/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fcec86d186fa06f6c39a18433c804485c4773db1.jpg" />
+<zone lrx="3156" lry="1355" ulx="195" uly="750" xml:id="zone_d2y_hyz_djb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_lht_dyz_djb" type="tezkire_dīvānī">
+<p>
+<lb />... fī <date type="created" when="1797-03-13" when-custom="1211-09-15">15 N sene 1211</date><lb />
+</p>
+<div2 facs="#zone_i3j_fyz_djb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_lwq_gyz_djb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_d2y_hyz_djb" type="summary_Croatian">
+<p>
+<lb />Datum <date type="summary_Croatian" when="1797-03-13" when-custom="1211-09-15">15. ramazan 1211</date> - <date type="summary_Croatian" when="1797-03-14">14. mart 1797</date><lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>

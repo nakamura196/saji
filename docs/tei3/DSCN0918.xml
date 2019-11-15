@@ -1,0 +1,42 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0918</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1257-Ra-23" ], "saji:date_M": [ "1841-05-15" ], "saji:foldingMethod": [ "8" ],
+          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "\"hüve\"", "本文", "会計",
+          "オスマン朝スタンプ", "クレシェヴォのスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "7" ],
+          "saji:memo": [ "縦に2つ折りした料紙の右半分のみに記述している", "典型" ], "saji:number": [ "171" ],
+          "saji:openingPhrase": [ "Varuş-ı Kreşevo" ], "saji:placeFull": [ "Varuş-ı Kreşevo" ],
+          "saji:relationWithAnotherItems": [ "DSCN0918.JPG_表", "表全体像" ], "saji:stamp_c": [ "1" ],
+          "saji:stamp_o": [ "1" ], "saji:transcription": [ "Varuş-ı Kreşevo … iken bundan aḳdem ...
+          olan\r\n... nām" ], "saji:type": [ "ḳassām deftrei",
+          "紙の種類が簡素なので、写しの可能性がある。\r\n差出人がナーヒエのナーイブなので簡素？\r\n死亡者が\"mürd\"と表現されていることから、改革前のものと思われる。" ]
+          }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1036/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1036/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6947ae3648b1c4f93a234a07aefe4838f4c221d6.jpg" />
+<zone lrx="2262" lry="2630" ulx="1131" uly="253" xml:id="zone_lh1_cty_y3b" />
+<zone lrx="1790" lry="2583" ulx="1594" uly="2413" xml:id="zone_ydk_dty_y3b" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_lh1_cty_y3b" type="kassām_defteri">
+<l>... <date type="created" when="1841-05-15" when-custom="1257-03-24">24 Ra 257</date></l>
+<div3 facs="#zone_ydk_dty_y3b" type="stamp" />
+</div1>
+</body>
+</text>
+</TEI>

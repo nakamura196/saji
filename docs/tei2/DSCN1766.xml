@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1766</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1298/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1298/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7dca0b6417c7973bd189a1394e3d66b84f477836.jpg"/>
+<zone lrx="1415" lry="3200" ulx="483" uly="21" xml:id="zone_w2g_w13_cjb"/>
+<zone lrx="1068" lry="1459" ulx="721" uly="918" xml:id="zone_fwh_y13_cjb"/>
+<zone lrx="978" lry="1446" ulx="795" uly="1295" xml:id="zone_ewd_z13_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1298/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/57a29ca2e76daf0e09f36fc8328ba15c3683b6e2.jpg"/>
+<zone lrx="2046" lry="2037" ulx="779" uly="554" xml:id="zone_zbr_bb3_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_w2g_w13_cjb" type="hüccet">
+<p>
+<lb></lb>... <date type="created" when-custom="1258-11-25">fi'l-hāmis ʿaşrīn şehr Zi'l-kaʿada-ı şerīf sene<lb></lb>
+<lb></lb>semān ve hamsīn ve mieteyn ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_fwh_y13_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_ewd_z13_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_zbr_bb3_cjb" type="summary_Croatian">
+<p>
+<lb></lb><date cert="unknown" type="summary_Croatian" when="1842">1842. ... 10</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

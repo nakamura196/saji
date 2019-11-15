@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1936</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】裏面撮影：表面の署名の裏にスタンプがあるのが透けているが、裏面画像がない。要裏面再撮影。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1466/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1466/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ab5d45c49eb9e29f9f9bd84a4cbdbd3b5e03fef2.jpg"/>
+<zone lrx="1833" lry="2326" ulx="366" uly="413" xml:id="zone_bbz_gnd_djb"/>
+<zone lrx="592" lry="2203" ulx="391" uly="2004" xml:id="zone_em3_3nd_djb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_bbz_gnd_djb" type="EMIN">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1258-09-18">18 N sene 258</date><lb></lb>
+</p>
+<div2 facs="#zone_em3_3nd_djb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

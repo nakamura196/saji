@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1680</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1217/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6e5834bb9ed35faa38518664bed28216194ea74a.jpg"/>
+<zone lrx="1520" lry="3220" ulx="690" uly="0" xml:id="zone_a4b_pcy_1jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ac9b665102cd94250aa79a062509697c0883fd0b.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/eb86dd1cc3be662dcf9e76ec63e1cb03dfbb0fd2.jpg"/>
+<zone lrx="1791" lry="1487" ulx="1287" uly="620" xml:id="zone_lvj_rcy_1jb"/>
+<zone lrx="1671" lry="1466" ulx="1483" uly="1308" xml:id="zone_dd1_scy_1jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/2b969525ff1d5d2c7a3d69c5c0eefabcd964fd21.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/8963b1a96cc017cb8a4b300024b1965515948443.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1217/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/29a870bce03d5532aa0590fe46af2334e03d96d3.jpg"/>
+<zone lrx="2254" lry="2107" ulx="747" uly="446" xml:id="zone_rf2_5cy_1jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_a4b_pcy_1jb" type="hüccet">
+<p>
+<lb></lb>... <date type="created" when-custom="1273-11-15">fi'l-yevmi'l-hāmis<lb></lb>
+<lb></lb>ve'l-ʿaşr min şehr Zi'l-kaʿade'l-şerīf sene suls ve sabʿīn ve mieteyn ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_lvj_rcy_1jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_dd1_scy_1jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_rf2_5cy_1jb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when-custom="1273">1273</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

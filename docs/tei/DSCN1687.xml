@@ -26,7 +26,15 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1223/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1223/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3e2ee54db29d1df50d04c8a079d6be828cab1079.jpg" /></surface></surfaceGrp>
+      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1223/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3e2ee54db29d1df50d04c8a079d6be828cab1079.jpg" /></surface>
+      
+         <surface>
+            <graphic n="https://diyhistory.org/public/phr2/iiif/1223/canvas/p2"
+               url="https://diyhistory.org/public/phr2/files/original/677d299b1a21f141a6c1f8f560551fc61b672cb0.jpg"
+            />
+         </surface>
+      
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>

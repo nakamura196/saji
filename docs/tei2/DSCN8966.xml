@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8966</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：クロアチア語要約の日付は15日になっているが、5日の間違いではないか？要約の日付も妙な記述になっているし、要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1556/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1556/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6aa9ce02690537268460879ab3234a8fa68289f4.jpg"/>
+<zone lrx="2333" lry="2446" ulx="351" uly="150" xml:id="zone_vcv_5p5_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1556/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a503a69bdb4aff43d52874bc883a37a4ef3b5f2c.jpg"/>
+<zone lrx="2987" lry="1284" ulx="2628" uly="951" xml:id="zone_bt2_zp5_2jb"/>
+<zone lrx="2967" lry="1175" ulx="2873" uly="1064" xml:id="zone_adt_zp5_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1556/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/1b95d195ae5f410952b5bcd06011a951c6d8c219.jpg"/>
+<zone lrx="517" lry="2356" ulx="77" uly="1829" xml:id="zone_kqm_bq5_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1556/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/3e813db285ff7fdded86ae8fc89e7118f4ddfe02.jpg"/>
+<zone lrx="2578" lry="866" ulx="562" uly="111" xml:id="zone_j3y_cq5_2jb"/>
+<zone lrx="2984" lry="1922" ulx="606" uly="1172" xml:id="zone_wry_dq5_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_vcv_5p5_2jb" type="fermān_sūret">
+<p>
+<lb></lb>... <date type="created" when-custom="1173-07-05">fi'l-yevmi'l-hāmis Receb Sene suls ve sabʿīn
+                  ve mie ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_kqm_bq5_2jb" type="sign_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div2 facs="#zone_bt2_zp5_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_adt_zp5_2jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+<div1 facs="#zone_j3y_cq5_2jb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when="1759">1759</date>.<lb></lb>
+</p>
+</div1>
+<div1 facs="#zone_wry_dq5_2jb" type="summary_Croatian">
+<p>
+<lb></lb>Datum: <date type="summary_Croatian" when-custom="1173-07-15">15. redžep 1173</date> - <date type="summary_Croatian" when="1760-03-13">13. mart 1760</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

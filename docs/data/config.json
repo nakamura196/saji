@@ -16,6 +16,11 @@
             "type": "in"
         },
         {
+            "label": "Created",
+            "value": "http://purl.org/dc/terms/created",
+            "type": "in"
+        },
+        {
             "label": "Date",
             "value": "http://purl.org/dc/terms/date",
             "type": "in"
@@ -43,6 +48,11 @@
         {
             "label": "Note",
             "value": "http://diyhistory.org/public/phr2/ns/saji/note",
+            "type": "in"
+        },
+        {
+            "label": "Cert",
+            "value": "http://diyhistory.org/public/phr2/ns/saji/cert",
             "type": "in"
         }
     ],

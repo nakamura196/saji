@@ -1,0 +1,50 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1646</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">日付：日が15と8どちらなのか、月はMでいいのか、年は1201でいいのか、要検討。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1185/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b897da3ed1c667ea419d9b78f7f6b1815e974d59.jpg" />
+<zone lrx="2233" lry="2933" ulx="75" uly="158" xml:id="zone_ebz_qgk_1jb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d6fd5c892001be8098d0fac5eb7930e518114a2b.jpg" />
+<zone lrx="550" lry="1555" ulx="317" uly="1333" xml:id="zone_vs4_sgk_1jb" />
+<zone lrx="3117" lry="1244" ulx="156" uly="838" xml:id="zone_sd3_tgk_1jb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_ebz_qgk_1jb" type="EMIN">
+<p>
+<lb />... fī <date cert="low" type="created" when="1786-11-06" when-custom="1201-01-15">15 M 1201</date><lb />
+</p>
+</div1>
+<div3 facs="#zone_vs4_sgk_1jb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+<div1 facs="#zone_sd3_tgk_1jb" type="summary_Croatian">
+<p>
+<lb />...<lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>

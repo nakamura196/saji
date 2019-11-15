@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1900</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1430/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1430/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/85cd4b7cd896a7d42c982747609d180436645627.jpg"/>
+<zone lrx="1454" lry="3209" ulx="454" uly="209" xml:id="zone_e53_pbx_cjb"/>
+<zone lrx="1417" lry="888" ulx="1037" uly="257" xml:id="zone_lv4_qbx_cjb"/>
+<zone lrx="1286" lry="877" ulx="1102" uly="722" xml:id="zone_k4p_qbx_cjb"/>
+<zone lrx="1040" lry="902" ulx="616" uly="343" xml:id="zone_tvp_sbx_cjb"/>
+<zone lrx="875" lry="893" ulx="701" uly="736" xml:id="zone_uyg_tbx_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1430/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f412fee2929966d34690d20e8838fd7735d36bc2.jpg"/>
+<zone lrx="2439" lry="1305" ulx="439" uly="1000" xml:id="zone_zdk_5bx_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_e53_pbx_cjb" type="hüccet">
+<p>
+<lb></lb>... fī <date from-custom="1189-04-11" to-custom="1189-04-20" type="created">evāsit Rebī'ü'l-āhir sene tisʿ ve semānīn ve mie ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_lv4_qbx_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_k4p_qbx_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_tvp_sbx_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_uyg_tbx_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_zdk_5bx_cjb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when="1772">1772</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0092</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1576/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1576/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7e4829ee68b61b3a479930cd7e02237ab59da406.jpg"/>
+<zone lrx="2054" lry="3072" ulx="218" uly="90" xml:id="zone_gtr_hp5_l3b"/>
+<zone lrx="921" lry="3033" ulx="520" uly="2754" xml:id="zone_v3w_qs5_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1576/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a0f6df031ab5a0fe6ed6349b7f1a6ee7c04bf49b.jpg"/>
+<zone lrx="1953" lry="656" ulx="240" uly="356" xml:id="zone_g2l_jp5_l3b"/>
+<zone lrx="2100" lry="1417" ulx="1574" uly="856" xml:id="zone_mjl_kp5_l3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_gtr_hp5_l3b" type="şukka">
+<p>
+<lb></lb>Hüve<lb></lb>
+<lb></lb>... <persname>Kirşevo gardiyānı</persname> ... olunur ki<lb></lb>
+<lb></lb>bāis-i ... hurūf oludur ki ... bundan akdem<lb></lb>
+<lb></lb>...<lb></lb>
+<lb></lb>eyledikte yine tezkire irsāl eyledim ... olundu yine bu defa<lb></lb>
+<lb></lb>... yediye tezkirehā ... olunmuşdur ve ...<lb></lb>
+<lb></lb>... akçe ...<lb></lb>
+<lb></lb>... yediyle yüa on ... eyledik<lb></lb>
+<lb></lb>...<lb></lb>
+<lb></lb>olunur ... edesiz ...<lb></lb>
+</p>
+<div2 facs="#zone_v3w_qs5_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_g2l_jp5_l3b" type="unknown">
+<p>
+<lb></lb>Halā ... <persname>Kirşevo gardiyānı</persname> ...<lb></lb>
+</p>
+</div1>
+<div1 facs="#zone_mjl_kp5_l3b" type="summary_Croatian">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

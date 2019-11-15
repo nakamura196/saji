@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8953</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1543/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1543/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a86e2b2fa89619441b607ef6a33b30e60697fba7.jpg"/>
+<zone lrx="2108" lry="2916" ulx="33" uly="83" xml:id="zone_cwx_rt1_2jb"/>
+<zone lrx="406" lry="2785" ulx="286" uly="2690" xml:id="zone_o24_tt1_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1543/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/aa882735546bf1938b7962a66020d3b346702d0c.jpg"/>
+<zone lrx="2929" lry="2032" ulx="2614" uly="1692" xml:id="zone_bxr_wt1_2jb"/>
+<zone lrx="2912" lry="1936" ulx="2812" uly="1818" xml:id="zone_bkl_xt1_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1543/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/b31c4a679ccebbd37f2c6e7adbdb2c74b6096854.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1543/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/e072a204e4f499da1dc877675291d6bd5a88a977.jpg"/>
+<zone lrx="2784" lry="1450" ulx="167" uly="727" xml:id="zone_phx_yt1_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_cwx_rt1_2jb" type="fermān_sūret">
+<p>
+<lb></lb>... <date type="created" when-custom="1173-07-15">fi'l-yevmi'l-hāmis ʿaşar Receb sene suls ve sabʿīn ve mie ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_o24_tt1_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div2 facs="#zone_bxr_wt1_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_bkl_xt1_2jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+<div1 facs="#zone_phx_yt1_2jb" type="summary_Croatian">
+<p>
+<lb></lb>Datum: <date type="summary_Croatian" when-custom="1173-07-15">15. redžep 1173</date> - <date type="summary_Croatian" when="1760-03-13">13. mart 1760</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

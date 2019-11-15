@@ -1,0 +1,80 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1807</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">鉄鉱山</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1338/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1338/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/12c10ae78e6084700d3796e1f46fafc25a958471.jpg" />
+<zone lrx="1645" lry="2845" ulx="54" uly="200" xml:id="zone_vcb_z2j_cjb" />
+<zone lrx="798" lry="2833" ulx="620" uly="2656" xml:id="zone_ohd_1fj_cjb" />
+<zone lrx="584" lry="2826" ulx="387" uly="2629" xml:id="zone_cyw_1fj_cjb" />
+<zone lrx="352" lry="2783" ulx="169" uly="2584" xml:id="zone_e3p_bfj_cjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1338/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e0313264b57b56843642e42237d5b79e1bd73b26.jpg" />
+<zone lrx="2227" lry="1820" ulx="1940" uly="1564" xml:id="zone_fm3_2fj_cjb" />
+<zone lrx="1704" lry="1810" ulx="1393" uly="1533" xml:id="zone_sft_2fj_cjb" />
+<zone lrx="1322" lry="1847" ulx="989" uly="1605" xml:id="zone_a2j_ffj_cjb" />
+<zone lrx="2077" lry="629" ulx="612" uly="404" xml:id="zone_gvz_ffj_cjb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_vcb_z2j_cjb" type="zabt_temessük">
+<p>
+<lb />işbu <date type="created" when="0708-09-20" when-custom="1189">bin yüz sekisen dokuz senes</date>i ... maʿden-i āhen Kirşevo<lb />
+</p>
+<div2 facs="#zone_ohd_1fj_cjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_fm3_2fj_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_cyw_1fj_cjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_sft_2fj_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_e3p_bfj_cjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_a2j_ffj_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_gvz_ffj_cjb" type="summary_Croatian">
+<p>
+<lb />...<lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>

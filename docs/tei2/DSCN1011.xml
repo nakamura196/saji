@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1011</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1127/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1127/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/25492285d87e6ff3542e3effb3c8d82fad7b2302.jpg"/>
+<zone lrx="2291" lry="2827" ulx="363" uly="190" xml:id="zone_hvg_4tg_z3b"/>
+<zone lrx="2154" lry="815" ulx="1754" uly="469" xml:id="zone_hyp_ptg_z3b"/>
+<zone lrx="2218" lry="3133" ulx="381" uly="2421" xml:id="zone_vhq_qtg_z3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_hvg_4tg_z3b" type="beyāz_üzerine_buyuruldu">
+<l>... buyuruldu fī <date type="created" when-custom="1231-05-25">25 Ca 231</date></l>
+<div3 facs="#zone_hyp_ptg_z3b" type="stamp"></div3>
+</div1>
+<div1 cert="low" facs="#zone_vhq_qtg_z3b" type="summary_Croatian"></div1>
+</body>
+</text>
+</TEI>

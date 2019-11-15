@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1820</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1351/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1351/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/57324023e8fc396a9456c9bf15638d89bc6c9710.jpg"/>
+<zone lrx="1463" lry="3254" ulx="391" uly="145" xml:id="zone_m4j_3t4_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1351/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/17c93140eecb4e8dc2f59cdf0b12d1bf40f78a32.jpg"/>
+<zone lrx="1210" lry="892" ulx="632" uly="250" xml:id="zone_yl3_kt4_cjb"/>
+<zone lrx="1005" lry="882" ulx="807" uly="740" xml:id="zone_rgw_kt4_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1351/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/58b8290e6e081778cb7f4608897ce3fcd841297b.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1351/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/e3e82bff21e3e290ab1187cab47f3e2b90e39b4e.jpg"/>
+<zone lrx="2339" lry="1155" ulx="362" uly="777" xml:id="zone_hk2_mt4_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_m4j_3t4_cjb" type="hüccet">
+<p>
+<lb></lb>... <date type="created" when-custom="1199-05-15">fi'l-yevmi'l-hāmis ʿaşar min Cemaziye'l-evvelī sene tisʿ ve tisʿīn<lb></lb>
+<lb></lb>ve mie ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_yl3_kt4_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_rgw_kt4_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_hk2_mt4_cjb" type="summary_Croatian">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

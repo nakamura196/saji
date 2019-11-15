@@ -1,0 +1,47 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1814</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1345/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1345/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4c051f4a2e2a9c4b95932a07abc8c3cfa9141e0d.jpg" />
+<zone lrx="1544" lry="3245" ulx="522" uly="712" xml:id="zone_s1q_tn4_cjb" />
+<zone lrx="1045" lry="1298" ulx="615" uly="730" xml:id="zone_ygq_5n4_cjb" />
+<zone lrx="896" lry="1286" ulx="720" uly="1140" xml:id="zone_kss_vn4_cjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1345/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e4e951cf048a3b098fb764fcef1f8b31eee050a6.jpg" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_s1q_tn4_cjb" type="hüccet">
+<p>
+<lb />... fī <date type="created" when="1713-05-25" when-custom="1125-05-01">gürre-i Cemaziye'l-evvel sene hıms ve ʿaşrīn ve mie ve elif</date><lb />
+</p>
+<div2 facs="#zone_ygq_5n4_cjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div3 facs="#zone_kss_vn4_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

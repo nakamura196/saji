@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8924</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 2" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1514/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1514/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a12cc6d1646e24544b5ace6af5830c62c2e28de9.jpg"/>
+<zone lrx="2127" lry="3054" ulx="91" uly="700" xml:id="zone_jft_h5z_djb"/>
+<zone lrx="1007" lry="2952" ulx="194" uly="2358" xml:id="zone_lf4_l5z_djb"/>
+<zone lrx="786" lry="2818" ulx="667" uly="2703" xml:id="zone_ifg_m5z_djb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1514/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e0ae72edfbc7fc64cb8661643270adde0ea1e888.jpg"/>
+<zone lrx="3245" lry="1561" ulx="417" uly="872" xml:id="zone_ink_n5z_djb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_jft_h5z_djb" type="tezkire_dīvānī">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1202-08-23">23 Ş sene 1202</date><lb></lb>
+</p>
+<div2 facs="#zone_lf4_l5z_djb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_ifg_m5z_djb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_ink_n5z_djb" type="summary_Croatian">
+<p>
+<lb></lb>Datum: <date type="summary_Croatian" when-custom="1202-08-23">23 šaban 1202</date> - <date type="summary_Croatian" when="1788-05-29">29. maj 1788</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

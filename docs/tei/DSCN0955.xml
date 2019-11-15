@@ -61,6 +61,44 @@
           n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p6"/>
         <zone xml:id="zone_amc_spz_y3b" lry="2166" lrx="2167" uly="25" ulx="750"/>
       </surface>
+      
+      
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/7172be249d9c0ac49150a85276075494fc497025.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p7"/>
+        <zone xml:id="zone_dhk_g1k_1jb" lry="3245" lrx="1754" uly="-5" ulx="663"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p8"
+          url="https://diyhistory.org/public/phr2/files/original/45ed9b49a41b02f50a04a30e4aacd2fdad346a54.jpg"
+        />
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/2590a6264e99983d73072308c4c39a4afd9a17c2.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p9"/>
+        <zone xml:id="zone_f54_j1k_1jb" lry="990" lrx="1667" uly="832" ulx="1467"/>
+        <zone xml:id="zone_fwc_k1k_1jb" lry="1022" lrx="2541" uly="860" ulx="2363"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p10"
+          url="https://diyhistory.org/public/phr2/files/original/aaa93b252b6204c5fc141882b79e83e2a83e8342.jpg"
+        />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p11"
+          url="https://diyhistory.org/public/phr2/files/original/044a041439b3788ca5cbbb0dd5bcd2c98e885b5e.jpg"
+        />
+      </surface>
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/4af6afb941fb917a82ef73ebac3a7f033d5b3ee6.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p12"/>
+        <zone xml:id="zone_tkx_l1k_1jb" lry="1978" lrx="2136" uly="177" ulx="435"/>
+      </surface>
+      
+      
     </surfaceGrp>
   </facsimile>
   <text>
@@ -74,6 +112,29 @@
       <div type="summary_Croatian" facs="#zone_amc_spz_y3b">
         <l>... <date when="1855" type="summary_Croatian">1855</date></l>
       </div>
+      
+      
+      <div type="hüccet" facs="#zone_dhk_g1k_1jb">
+        <p>
+          <lb/>... fī <date when-custom="1271-01-09" cert="medium" type="created">şehr Muharrem'l-harām min<lb/>
+            <lb/>yevmi'l-tisʿ min sene ahadī ve sabʿīn ve mieteyn ve elif</date><lb/>
+        </p>
+        <div type="stamp" facs="#zone_f54_j1k_1jb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>
+        <div type="stamp" facs="#zone_fwc_k1k_1jb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>
+      </div>
+      <div type="summary_Croatian" facs="#zone_tkx_l1k_1jb">
+        <p>
+          <lb/>... <date when="1855" type="summary_Croatian">1855</date>lb/> </p>
+      </div>
+      
     </body>
   </text>
 </TEI>

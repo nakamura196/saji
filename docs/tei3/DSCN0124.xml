@@ -1,0 +1,38 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0124</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1608/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1608/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/78bfe223e54bab1a77b56b56a9ea5efe35d17893.jpg" />
+<zone lrx="2317" lry="3058" ulx="183" uly="1475" xml:id="zone_mms_tlv_2jb" />
+<zone lrx="584" lry="3020" ulx="292" uly="2605" xml:id="zone_pdx_5lv_2jb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_mms_tlv_2jb" type="temessük">
+<p>
+<lb />... fī <date type="created" when="1832-08-14" when-custom="1248-03-18">18 Ra sene 248</date><lb />
+</p>
+<div2 facs="#zone_pdx_5lv_2jb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

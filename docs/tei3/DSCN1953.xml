@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1953</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】DSCN1955.JPGの写しの可能性。要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1483/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1483/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6ac6207ff8a32ddf03d92efdb3baa5b1cc1fe9f6.jpg" />
+<zone lrx="2354" lry="2869" ulx="362" uly="492" xml:id="zone_bvv_wk2_djb" />
+<zone lrx="1475" lry="673" ulx="1265" uly="567" xml:id="zone_b3s_xk2_djb" />
+<zone lrx="1651" lry="2529" ulx="1345" uly="2249" xml:id="zone_vlm_yk2_djb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1483/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/77aefd2d22d8f11f5d2d7e9701a36c9a57e4402f.jpg" />
+<zone lrx="3150" lry="1211" ulx="267" uly="572" xml:id="zone_oxq_zk2_djb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_bvv_wk2_djb" type="tapu_senedi_sūret">
+<p>
+<lb />... fī <date type="created" when="1866-06-12" when-custom="1283-01-29">29 Muharrem sene 1283</date><lb />
+</p>
+<div1 facs="#zone_b3s_xk2_djb" type="tuğra_sūret">
+<p>
+<lb />...<lb />
+</p>
+</div1>
+<div3 facs="#zone_vlm_yk2_djb" type="stamp_sūret">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div1>
+<div1 facs="#zone_oxq_zk2_djb" type="summary_Croatian">
+<p>
+<lb />... <lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>

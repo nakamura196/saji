@@ -1,0 +1,47 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1853</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1383/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1383/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c03fbf5a5963246aea2bf23a4cb896cbd2394447.jpg" />
+<zone lrx="1445" lry="2981" ulx="173" uly="136" xml:id="zone_rpr_fkq_cjb" />
+<zone lrx="542" lry="2916" ulx="214" uly="2651" xml:id="zone_qbv_gkq_cjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1383/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/41126358731753c8a2a111cff01d6713e357a556.jpg" />
+<zone lrx="2167" lry="1338" ulx="1095" uly="877" xml:id="zone_d23_3kq_cjb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_rpr_fkq_cjb" type="iʿlām">
+<p>
+<lb />... fī <date cert="low" type="created" when="1798-08-16" when-custom="1213-03-05">5 Ra sene 1213</date><lb />
+</p>
+<div2 facs="#zone_qbv_gkq_cjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_d23_3kq_cjb" type="summary_Croatian">
+<p>
+<lb />...<lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>

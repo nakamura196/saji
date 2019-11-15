@@ -1,0 +1,64 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9192</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">国内の通行許可証</note>
+<note type="mine">参考文献 Nusa Sadırcı "Tanzimat döneminde Anadolu Kentlerinin Sosyal ve
+               Ekonomik Yapılar"</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]
+               }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2117/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2117/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/98b692eee312034747569d503902128c6f379da1.jpg" />
+<zone lrx="1929" lry="2850" ulx="250" uly="300" xml:id="zone_ykf_k2q_h3b" />
+<zone lrx="1108" lry="2454" ulx="762" uly="2116" xml:id="zone_nq2_42q_h3b" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ykf_k2q_h3b" type="mürūr_tezkiresi">
+<l>Mürūr tezkiresi</l>
+<l />
+<l />
+<l />
+<l />
+<l />
+<l />
+<l>fī <date cert="medium" when="1871-05-28" when-custom="1288-03-09">9 Rebīülevvel sene 1288 sekisen sekiz
+                  senesi</date></l>
+</div1>
+<div3 facs="#zone_nq2_42q_h3b" type="stamp">
+<l><placename><placename type="proper">Foyniçe</placename> nāhiye</placename></l>
+</div3>
+<div>
+<l><placeName><placeName type="proper">Foyniçe</placeName> kilisesi</placeName>
+               gardiyānı <persName cert="unknown" role="Foyniçe kilisesi gardiyānı">...</persName></l>
+</div>
+<div>
+<l>numera</l>
+<l>işkâl</l>
+<l>52</l>
+<l>sin 17</l>
+<l>boy kısa</l>
+<l>sakal ..</l>
+<l>...</l>
+<l>göz siyāh</l>
+<l>...</l>
+<l>defteri numerası 1</l>
+</div>
+</body>
+</text>
+</TEI>

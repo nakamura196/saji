@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1016</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1132/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1132/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3fa7640becb8ccb7f482c1f53929cb00ab475454.jpg"/>
+<zone lrx="1991" lry="2854" ulx="73" uly="45" xml:id="zone_gdz_3wg_z3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1132/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c03dc8bbc8a42fb6f842f0a3cc4ad84302de7977.jpg"/>
+<zone lrx="1775" lry="1856" ulx="1570" uly="1672" xml:id="zone_hhw_lwg_z3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_gdz_3wg_z3b" type="mürāsele">
+<l>... fī <date type="created" when-custom="1241-10-15">15 L 241</date></l>
+<div3 facs="#zone_hhw_lwg_z3b" type="stamp"></div3>
+</div1>
+</body>
+</text>
+</TEI>

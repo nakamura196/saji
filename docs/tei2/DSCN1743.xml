@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1743</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：年 1201 or 1202 下一桁の読み取りを確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1275/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1275/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/45c6e35c235a183e0d22f4117f0b7682307e2917.jpg"/>
+<zone lrx="1473" lry="3018" ulx="236" uly="245" xml:id="zone_m2n_f2h_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1275/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/90008f4866f5c41e9514376433ed96b71ecceb8b.jpg"/>
+<zone lrx="918" lry="2020" ulx="206" uly="1685" xml:id="zone_dhk_rfh_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1275/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/bc80bf258bd81a97f29a13522f5b05c1282492b8.jpg"/>
+<zone lrx="666" lry="598" ulx="438" uly="410" xml:id="zone_d1s_h2h_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_m2n_f2h_cjb" type="iʿlām">
+<p>
+<lb></lb>... fī <date cert="medium" type="created" when-custom="1202-04-01">gürre Rebī'ü'l-āhir sene
+                  1202</date><lb></lb>
+</p>
+<div2 facs="#zone_dhk_rfh_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div3 facs="#zone_d1s_h2h_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</body>
+</text>
+</TEI>

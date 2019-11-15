@@ -35,6 +35,15 @@
           n="https://diyhistory.org/public/phr2/iiif/1086/canvas/p2"/>
         <zone xml:id="zone_ryq_5cf_z3b" lry="1222" lrx="3000" uly="788" ulx="50"/>
       </surface>
+      
+      <surface>
+        <graphic
+          url="https://diyhistory.org/public/phr2/files/original/fbcbd8111e6c9a1da4d651ce94e4de444e61d6b4.jpg"
+          n="https://diyhistory.org/public/phr2/iiif/1086/canvas/p3"/>
+        <zone xml:id="zone_vnb_2qj_1jb" lry="2445" lrx="2127" uly="100" ulx="145"/>
+        <zone xml:id="zone_f22_gqj_1jb" lry="2420" lrx="721" uly="2225" ulx="483"/>
+      </surface>
+      
     </surfaceGrp>
   </facsimile>
   <text>
@@ -47,6 +56,17 @@
         <l>... <date when="1856" type="summary_Croatian">1856</date> ... <date when="1628" type="summary_Croatian">1628</date></l>
         <l><date when-custom="1267-01-27" type="summary_Croatian">1267. 27. Muharrem</date>
           <date when-custom="1273" type="summary_Croatian">1273</date> Nno 5.</l>
+      </div>
+      
+      <div type="ʿilmühaber" facs="#zone_vnb_2qj_1jb">
+        <p>
+          <lb/>... fī <date when-custom="1272-01-27" type="created">27 Muharrem 72</date><lb/>
+        </p>
+        <div type="stamp_sūret" facs="#zone_f22_gqj_1jb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div>
       </div>
     </body>
   </text>

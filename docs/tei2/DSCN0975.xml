@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0975</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">DSCN1038.JPGと同じ文書。重複している。ただし、画像は撮影し直している。DSCN.1038.JPGにのみ裏面の画像があり、スタンプとクロアチア語要約（日付）が写っている。</note>
+<note type="mine">本文末の署名(?)が、DSCN0976.JPGの本文末の署名(?)と同一。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "n/a?" ], "saji:date_M": [ "n/a?" ], "saji:foldingMethod": [ "4x1" ], "saji:fond": [
+          "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・署名？"
+          ], "saji:lang": [ "ota" ], "saji:lineage": [ "9" ], "saji:memo": [
+          "・本文末の署名(?)が、DSCN0976.JPGの本文末の署名(?)と同一" ], "saji:number": [ "208" ],
+          "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [
+          "0" ], "saji:transcription": [ "Vech-i taḥrīr ... budur ki\r\nḥālā ʿuhde ..." ],
+          "saji:witness": [ "0" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1091/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9025beda93db6fadc1a346433fad79b9816d031b.jpg"/>
+<zone lrx="1533" lry="2708" ulx="183" uly="166" xml:id="zone_ufg_g2f_z3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/568dd9747c2a713b347b21e1e02ba9dcfef53cf6.jpg"/>
+<zone lrx="1477" lry="2769" ulx="31" uly="84" xml:id="zone_dxr_5t3_1jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/f08a17a14720b9fd169b25e6c1b34d33d824c197.jpg"/>
+<zone lrx="679" lry="650" ulx="475" uly="475" xml:id="zone_aql_wt3_1jb"/>
+<zone lrx="1458" lry="2912" ulx="1179" uly="2750" xml:id="zone_z3b_xt3_1jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_ufg_g2f_z3b" type="EMIN">
+<l></l>
+</div1>
+<div1 cert="low" facs="#zone_dxr_5t3_1jb" type="EMIN">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+<div3 facs="#zone_aql_wt3_1jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+<div1 facs="#zone_z3b_xt3_1jb" type="summary_Croatian">
+<p>
+<lb></lb><date type="summary_Croatian" when="1873">1873</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
+</TEI>
