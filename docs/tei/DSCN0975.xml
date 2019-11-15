@@ -24,45 +24,40 @@
         <zone xml:id="zone_ufg_g2f_z3b" lry="2708" lrx="1533" uly="166" ulx="183"/>
         <zone xml:id="zone_p2y_dqn_sjb" lry="2680" lrx="474" uly="2378" ulx="230"/>
       </surface>
-      
+
       <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/568dd9747c2a713b347b21e1e02ba9dcfef53cf6.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p2"/>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/568dd9747c2a713b347b21e1e02ba9dcfef53cf6.jpg" n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p2"/>
         <zone xml:id="zone_dxr_5t3_1jb" lry="2769" lrx="1477" uly="84" ulx="31"/>
       </surface>
       <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/f08a17a14720b9fd169b25e6c1b34d33d824c197.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p3"/>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/f08a17a14720b9fd169b25e6c1b34d33d824c197.jpg" n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p3"/>
         <zone xml:id="zone_aql_wt3_1jb" lry="650" lrx="679" uly="475" ulx="475"/>
         <zone xml:id="zone_z3b_xt3_1jb" lry="2912" lrx="1458" uly="2750" ulx="1179"/>
       </surface>
-      
+
     </surfaceGrp>
   </facsimile>
   <text>
     <body>
-      <div type="EMIN" cert="low" facs="#zone_ufg_g2f_z3b">
+      <div type="EMIN" subtype="temessük" cert="low" facs="#zone_ufg_g2f_z3b">
         <p>
           <lb/>Hüve<lb/>
           <lb/>Vech-i tahrīr-i hurūf budur ki<lb/>
-          <lb/>hālā ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasından <lb/>
-          <lb/><lb/>
-          <lb/><lb/>
-          <lb/><lb/>
-          <lb/><lb/>
-          <lb/><lb/>
-          <lb/><lb/>
-          <lb/><lb/>
+          <lb/>hālā ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasından ...<lb/>
+          <lb/>... karyeleri hāsıl olan ʿaşār ʿöşür-i şerʿiyesini<lb/>
+          <lb/>ve rusūmāt sā'iresine tapunāmeden gayri işbu <date from-custom="1228-03" to-custom="1229-02">bin iki yüz yiğirmi sekiz senesine Mart<lb/>
+          <lb/>ibtidāsından Şubatı gāyesine</date> değgin zabt ve rabt ve rusūm sā'iresini ahz ve kavz tālib<lb/>
+          <lb/>ve rāgib olan işbu dārande-i temessük zimmī [人名] rāhib ... mukābelesinden<lb/>
+          <lb/>yalnız yüz yiğirmi guruş ber-vech-i peşīn tarafımıza edā ve teslīm almıltır ...<lb/>
+          <lb/>zabt ve temessükümüz virildi tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ eylemeler<lb/>
         </p>
         <div type="sign" facs="#zone_p2y_dqn_sjb">
           <p>
-            <lb/>... fī <lb/>
+            <lb/>... Mehmed el-me'mūr<lb/>
           </p>
         </div>
       </div>
-      
+
       <div type="EMIN" cert="low" facs="#zone_dxr_5t3_1jb">
         <p>
           <lb/>...<lb/>
@@ -78,7 +73,7 @@
           <lb/><date when="1873" type="summary_Croatian">1873</date><lb/>
         </p>
       </div>
-      
+
     </body>
   </text>
 </TEI>
