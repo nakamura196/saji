@@ -18,15 +18,12 @@
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1185/manifest">
          <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/b897da3ed1c667ea419d9b78f7f6b1815e974d59.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p1"/>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/b897da3ed1c667ea419d9b78f7f6b1815e974d59.jpg" n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p1"/>
             <zone xml:id="zone_ebz_qgk_1jb" lry="2933" lrx="2233" uly="158" ulx="75"/>
+            <zone xml:id="zone_dnx_g1q_tjb" lry="2783" lrx="333" uly="2466" ulx="87"/>
          </surface>
          <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/d6fd5c892001be8098d0fac5eb7930e518114a2b.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p2"/>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/d6fd5c892001be8098d0fac5eb7930e518114a2b.jpg" n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p2"/>
             <zone xml:id="zone_vs4_sgk_1jb" lry="1555" lrx="550" uly="1333" ulx="317"/>
             <zone xml:id="zone_sd3_tgk_1jb" lry="1244" lrx="3117" uly="838" ulx="156"/>
          </surface>
@@ -34,15 +31,41 @@
    </facsimile>
    <text>
       <body>
-         <div type="EMIN" cert="unknown" facs="#zone_ebz_qgk_1jb">
+         <div type="EMIN" subtype="temessük" facs="#zone_ebz_qgk_1jb">
             <p>
-               <lb/>... fī <date when-custom="1201-01-15" cert="low" type="created">15 M 1201</date><lb/>
+               <lb/>Hüve<lb/>
+               <lb/>Vech-i tahrīr-i hurūf budur ki<lb/>
+               <lb/>işbu <date when-custom="1201-01-15" cert="medium">bin iki yüz bir senesinde māh-ı Muharremin on beşinci gününde</date> vākiʿ hālā Kirşevo sākinlerinde<lb/>
+               <lb/>kilisada bulunan rāhibīn harābla arāzī-i mīrīye husūs içün mā-beinimizine olunan<lb/>
+               <lb/>bā-maʿifet-i şerʿiye ve maʿifet-i sāhib ile arāzī-i mīrīye … oaln bu defʿa<lb/>
+               <lb/>cümlesine tarafından vekīl olan GAUDA nām rāhib ile dört yüz elli guruş <lb/>
+               <lb/>bedeli mukābelesinden küllī ve ... mā-beynimizde olan ... eyledüm<lb/>
+               <lb/>bundan POPLA BRDRLULA nām zimmī rāhibīn harābla hakk-ı aʿalā ... ecilden işbu<lb/>
+               <lb/>... temessüğü yedilerine virildi bundan POPLA nām zimmī arāzī ...<lb/>
+               <lb/>ile arāzī mezkūri içün ... işbu temessük<lb/>
+               <lb/>yedilerine virildi fī <date when-custom="1201-01-15" cert="low" type="created">15 M 1201</date><lb/>
             </p>
-         </div>
-         <div type="stamp" facs="#zone_vs4_sgk_1jb">
-            <p>
-               <lb/>...<lb/>
-            </p>
+            <div type="sign" facs="#zone_dnx_g1q_tjb">
+               <p>
+                  <lb/>... Rāce Ahmad M<lb/>
+               </p>
+               <div type="stamp" facs="#zone_vs4_sgk_1jb">
+                  <p>
+                     <lb/>... Ahmad ...<lb/>
+                  </p>
+               </div>
+            </div>            
+            <div type="şühūdu’l-hāl">
+               <p>
+                  <lb/>Hālā ... kâtib ... İbrāhīm Efendī<lb/>
+                  <lb/>El-hācc-i ... Ağa<lb/>
+                  <lb/>Navālī Zāde Sercan Ağa<lb/>
+                  <lb/>Navālī Zāde ʿAtaʿullā Ağa<lb/>
+                  <lb/>Kâtible ... Mustafa<lb/>
+                  <lb/>... El-hācc-i Mehmed<lb/>
+                  <lb/>...oğuluya El-hācc-i Mustafa Ağa<lb/>
+               </p>
+            </div>
          </div>
          <div type="summary_Croatian" facs="#zone_sd3_tgk_1jb">
             <p>
