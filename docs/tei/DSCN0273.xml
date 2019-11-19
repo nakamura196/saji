@@ -25,7 +25,27 @@
    </facsimile>
    <text>
       <body>
-         <p />
+         <div1 type="EMIN" subtype="temessük">
+            <p>
+               <lb/>işbu <date when-custom="1252">bin iki yüz elli iki senede</date> ... <lb/>
+               <lb/>... fī <date when-custom="1253-01-27" type="created">27 M sene 253</date><lb/>
+            </p>
+            <div2 type="sign">
+               <p>
+                  <lb/>...<lb/>
+               </p>
+               <div3 type="stamp">
+                  <p>
+                     <lb/>...<lb/>
+                  </p>
+               </div3>
+            </div2>
+         </div1>
+         <div1 type="summary_Croatian">
+            <p>
+               <lb/>... <date when="1837" type="summary_Croatian">1837</date> od ...<lb/>
+            </p>
+         </div1>
       </body>
    </text>
 </TEI>

@@ -7,6 +7,9 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <notesStmt>
+            <note type="summary">森林の共同保有 istirak mutasarrıf</note>
+         </notesStmt>
          <sourceDesc>
             <p>{
   "saji:aspectRatioType": [
@@ -28,7 +31,16 @@
    </facsimile>
    <text>
       <body>
-         <p />
+         <div type="EMIN" subtype="temessük,izin_nāme">
+            <p>
+               <lb/>... fī <date when-custom="1247-08-21" type="created">21 Ş sene 1247</date><lb/>
+            </p>
+            <div type="sign">
+               <p>
+                  <lb/>... <lb/>
+               </p>
+            </div>            
+         </div>         
       </body>
    </text>
 </TEI>
