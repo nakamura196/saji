@@ -18,37 +18,61 @@
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1224/manifest">
          <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/bb658f6ee47e30f8fc6da1d5dac7d902c5b2f250.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1224/canvas/p1"/>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/bb658f6ee47e30f8fc6da1d5dac7d902c5b2f250.jpg" n="https://diyhistory.org/public/phr2/iiif/1224/canvas/p1"/>
             <zone xml:id="zone_h4s_f2y_1jb" lry="3090" lrx="2373" uly="-18" ulx="36"/>
             <zone xml:id="zone_dp3_h2y_1jb" lry="2944" lrx="444" uly="2618" ulx="102"/>
          </surface>
          <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/04a1013e3ed6676724f4c9b9dd14547ffbecb00f.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1224/canvas/p2"/>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/04a1013e3ed6676724f4c9b9dd14547ffbecb00f.jpg" n="https://diyhistory.org/public/phr2/iiif/1224/canvas/p2"/>
             <zone xml:id="zone_wkz_32y_1jb" lry="1766" lrx="2434" uly="116" ulx="1050"/>
          </surface>
       </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="EMIN" cert="unknown" facs="#zone_h4s_f2y_1jb">
+         <div1 type="EMIN" cert="unknown" facs="#zone_h4s_f2y_1jb">
             <p>
-               <lb/>... fī <date when-custom="1234-08-03" type="created">3 Şaʿabān 1234</date><lb/>
+               <lb/>Hüve<lb/>
+               <lb/>Vech-i tahrīr-i hurūf budur ki<lb/>
+               <lb/>bā berāt-ı şerīf-i ʿālīşān mutasarrıf olduğum tımārım kurālarından KOMAR karyesi hudūd dāhilinde<lb/>
+               <lb/>arāzī-i mīrīye mutasarrıflarından Hadīce bint-i [空欄] hātın taht-ı tasarrıfında bulunan arāzī-i<lb/>
+               <lb/>mīrīye örüsüyle ve korusuyla ve mülk emlākıyla ve āsiyāb-ı hissesiyle ve bi'l-cümle tevābīʿ ve levāhikiyle<lb/>
+               <lb/>işbu dārende-i hurūf ÇİRKOVANAK karyesinden ÇİÇEZSTTI POTA veled-i Yivān nām kimesneye resmiyle<lb/>
+               <lb/>altı yüz altmış guruş bedel mukābelesinde beyʿ katʿiyle beyʿ ve hakkı-ı tasarrıfın ferāgat etmekle<lb/>
+               <lb/>biz dahi sāhibi'l-arz bulunduğumuz hasebiyle beyʿ ... tecvīz ve arāzī-i mezkūri bi'l-cümle<lb/>
+               <lb/>tevābīʿ ve levāhikiyle mesfūr [人名]'ya tafvīz edüb mā-dām ki birer sene tarafımıza ʿāid olan<lb/>
+               <lb/>aʿaşār-ı şerʿiye ve rusūmāt-ı sā'ire edā ede arāzī-i merkūmeyi zabt ve tasarrıfına mesfūr [人名]'ya<lb/>
+               <lb/>izin birle tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olmaya hurira fī <date when-custom="1234-08-03" type="created">3 Şaʿabān 1234</date><lb/>
             </p>
-            <div type="sign" facs="#zone_dp3_h2y_1jb">
+            <div2 type="sign" facs="#zone_dp3_h2y_1jb">
                <p>
-                  <lb/>...<lb/>
+                  <lb/>El-fakīr Mehmed Şāhī karye-i mezkūr M<lb/>
                </p>
-            </div>            
-         </div>
-         <div type="summary_Craotian" facs="#zone_wkz_32y_1jb">
+            </div2>
+            <div2 type="şühūdu’l-hāl">
+               <p>
+                  <lb/>Şühūdu’l-hāl<lb/>
+                  <lb/>Feyzullāh Ağa SRDNKCDY<lb/>
+                  <lb/>Sālih ʿAlemdār KOGYEK<lb/>
+                  <lb/>ʿAbdüllāh ʿAlemdār ÇİZSİK<lb/>
+                  <lb/>Ahmad Beşe ŞARINKİYE<lb/>
+                  <lb/>Mustafa Beşe AZUSRAY<lb/>
+                  <lb/>ve gayruhum<lb/>
+               </p>
+            </div2>
+         </div1>
+         <div1 type="summary_Craotian" facs="#zone_wkz_32y_1jb">
             <p>
-               <lb/>...<lb/>
+               <lb/><lb/>
+               <lb/><lb/>
+               <lb/><lb/>
+               <lb/><lb/>
+               <lb/><lb/>
+               <lb/><lb/>
+               <lb/><lb/>
+               <lb/><lb/>
             </p>
-         </div>         
+         </div1>
       </body>
    </text>
 </TEI>
