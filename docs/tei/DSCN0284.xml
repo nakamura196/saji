@@ -8,40 +8,43 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1763/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1763/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c33e8c9248345af795f5ef50fed49414c3ae423b.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1763/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a5e73ce079c92bd3b1749668717ce2f06125cfd8.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/c33e8c9248345af795f5ef50fed49414c3ae423b.jpg" n="https://diyhistory.org/public/phr2/iiif/1763/canvas/p1"/>
+            <zone xml:id="zone_hqd_435_xjb" lry="3083" lrx="1833" uly="275" ulx="208"/>
+            <zone xml:id="zone_eh2_p35_xjb" lry="3068" lrx="529" uly="2622" ulx="262"/>
+         </surface>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/a5e73ce079c92bd3b1749668717ce2f06125cfd8.jpg" n="https://diyhistory.org/public/phr2/iiif/1763/canvas/p2"/>
+            <zone xml:id="zone_ngg_q35_xjb" lry="3191" lrx="2296" uly="2950" ulx="2029"/>
+            <zone xml:id="zone_tk1_r35_xjb" lry="408" lrx="1504" uly="112" ulx="46"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div1 type="EMIN" subtype="temessük">
+         <div1 type="EMIN" subtype="temessük" facs="#zone_hqd_435_xjb">
             <p>
                <lb/>tapu nāmeden gayri işbu <date from-custom="1215-03" to-custom="1216-02" type="created">bin iki yüz on beş senesinin Martı ibtidāsından<lb/>
-               <lb/>Şubatı gāyetine değin</date> zabt ve rabtına ...<lb/>
+                  <lb/>Şubatı gāyetine değin</date> zabt ve rabtına ...<lb/>
             </p>
-            <div2 type="sign">
+            <div2 type="sign" facs="#zone_eh2_p35_xjb">
                <p>
                   <lb/>...<lb/>
                </p>
-               <div3 type="stamp">
+               <div3 type="stamp" facs="#zone_ngg_q35_xjb">
                   <p>
                      <lb/>...<lb/>
                   </p>
                </div3>
             </div2>
          </div1>
-         <div1 type="summary_Croatian">
+         <div1 type="summary_Croatian" facs="#zone_tk1_r35_xjb">
             <p>
                <lb/>... <date when="1801" cert="medium" type="summary_Croatian">1801</date>.<lb/>
             </p>

@@ -8,48 +8,53 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1750/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1750/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b876eb6acf690c97f9b7e261323848c2d1cbbd4d.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1750/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ca9e869ebbc2ad43b9f0fa77abd53cd0fe7150f8.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/b876eb6acf690c97f9b7e261323848c2d1cbbd4d.jpg" n="https://diyhistory.org/public/phr2/iiif/1750/canvas/p1"/>
+            <zone xml:id="zone_ahd_kg5_xjb" lry="1752" lrx="2147" uly="10" ulx="253"/>
+            <zone xml:id="zone_twj_lg5_xjb" lry="1740" lrx="1202" uly="1235" ulx="677"/>
+            <zone xml:id="zone_gtl_mg5_xjb" lry="1617" lrx="1192" uly="1400" ulx="977"/>
+            <zone xml:id="zone_htd_ng5_xjb" lry="1712" lrx="692" uly="1112" ulx="265"/>
+            <zone xml:id="zone_id1_4g5_xjb" lry="1597" lrx="680" uly="1405" ulx="477"/>
+         </surface>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/ca9e869ebbc2ad43b9f0fa77abd53cd0fe7150f8.jpg" n="https://diyhistory.org/public/phr2/iiif/1750/canvas/p2"/>
+            <zone xml:id="zone_mc3_qg5_xjb" lry="1763" lrx="3063" uly="663" ulx="2233"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div1 type="mektūb">
+         <div1 type="mektūb" facs="#zone_ahd_kg5_xjb">
             <p>
                <lb/>...<lb/>
             </p>
-            <div2 type="sign">
+            <div2 type="sign" facs="#zone_twj_lg5_xjb">
                <p>
                   <lb/>...<lb/>
                </p>
-               <div3 type="stamp">
+               <div3 type="stamp" facs="#zone_gtl_mg5_xjb">
                   <p>
                      <lb/>...<lb/>
                   </p>
                </div3>
             </div2>
-            <div2 type="sign">
+            <div2 type="sign" facs="#zone_htd_ng5_xjb">
                <p>
                   <lb/>...<lb/>
                </p>
-               <div3 type="stamp">
+               <div3 type="stamp" facs="#zone_id1_4g5_xjb">
                   <p>
                      <lb/>...<lb/>
                   </p>
                </div3>
             </div2>
-            <div2 type="to">
+            <div2 type="to" facs="#zone_mc3_qg5_xjb">
                <p>
                   <lb/>...<lb/>
                </p>

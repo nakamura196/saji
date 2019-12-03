@@ -8,35 +8,33 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1743/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1743/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/df4c2d9d8468cef067facfb1f112db53b3f58b23.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/df4c2d9d8468cef067facfb1f112db53b3f58b23.jpg" n="https://diyhistory.org/public/phr2/iiif/1743/canvas/p1"/>
+            <zone xml:id="zone_mln_425_xjb" lry="2934" lrx="1733" uly="0" ulx="55"/>
+            <zone xml:id="zone_hrl_p25_xjb" lry="2906" lrx="476" uly="2672" ulx="224"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="mürāsele">
+         <div1 type="mürāsele" facs="#zone_mln_425_xjb">
             <p>
                <lb/>... fī <date when-custom="1210-10-21" type="created">21 L sene 1210</date><lb/>
             </p>
-            <div type="sign">
-               <div type="stamp">
+            <div2 type="sign">
+               <div3 type="stamp" facs="#zone_hrl_p25_xjb">
                   <p>
                      <lb/>Mehmed ...<lb/>
                   </p>
-               </div>               
-            </div>
-         </div>
+               </div3>
+            </div2>
+         </div1>
       </body>
    </text>
 </TEI>

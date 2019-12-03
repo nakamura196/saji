@@ -8,32 +8,34 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1759/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1759/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/324b0ea322f309a34f28630157fd06d0675e5721.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1759/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/5d32d7eca4406cf29d840ee3184b6d241aed6b9b.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/324b0ea322f309a34f28630157fd06d0675e5721.jpg" n="https://diyhistory.org/public/phr2/iiif/1759/canvas/p1"/>
+            <zone xml:id="zone_fys_cg5_xjb" lry="2954" lrx="1609" uly="109" ulx="109"/>
+            <zone xml:id="zone_h25_dg5_xjb" lry="2839" lrx="705" uly="2578" ulx="265"/>
+         </surface>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/5d32d7eca4406cf29d840ee3184b6d241aed6b9b.jpg" n="https://diyhistory.org/public/phr2/iiif/1759/canvas/p2"/>
+            <zone xml:id="zone_myf_fg5_xjb" lry="775" lrx="662" uly="570" ulx="425"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div1 type="mürāsele">
+         <div1 type="mürāsele" facs="#zone_fys_cg5_xjb">
             <p>
                <lb/>... fī <date when-custom="1191-10" type="created">L sene 191</date><lb/>
             </p>
-            <div2 type="sign">
+            <div2 type="sign" facs="#zone_h25_dg5_xjb">
                <p>
                   <lb/>...<lb/>
                </p>
-               <div3 type="stamp">
+               <div3 type="stamp" facs="#zone_myf_fg5_xjb">
                   <p>
                      <lb/>...<lb/>
                   </p>

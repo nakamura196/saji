@@ -8,40 +8,43 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1752/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1752/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/60e9c9bad18a9303e512555fd9abf5dd0d80b466.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1752/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f54daa8742adca821a7934ac70dc86e84d703543.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/60e9c9bad18a9303e512555fd9abf5dd0d80b466.jpg" n="https://diyhistory.org/public/phr2/iiif/1752/canvas/p1"/>
+            <zone xml:id="zone_knk_1f5_xjb" lry="2545" lrx="1783" uly="1583" ulx="183"/>
+            <zone xml:id="zone_gqn_bf5_xjb" lry="2520" lrx="735" uly="2112" ulx="216"/>
+            <zone xml:id="zone_ow1_cf5_xjb" lry="2466" lrx="729" uly="2261" ulx="522"/>
+         </surface>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/f54daa8742adca821a7934ac70dc86e84d703543.jpg" n="https://diyhistory.org/public/phr2/iiif/1752/canvas/p2"/>
+            <zone xml:id="zone_dyd_df5_xjb" lry="1261" lrx="2139" uly="1033" ulx="867"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div1 type="EMIN" subtype="temessük">
+         <div1 type="EMIN" subtype="temessük" facs="#zone_knk_1f5_xjb">
             <p>
                <lb/>işbu <date when-custom="1252">bin iki yüz elli iki senede</date> ... <lb/>
                <lb/>... fī <date when-custom="1253-01-27" type="created">27 M sene 253</date><lb/>
             </p>
-            <div2 type="sign">
+            <div2 type="sign" facs="#zone_gqn_bf5_xjb">
                <p>
                   <lb/>...<lb/>
                </p>
-               <div3 type="stamp">
+               <div3 type="stamp" facs="#zone_ow1_cf5_xjb">
                   <p>
                      <lb/>...<lb/>
                   </p>
                </div3>
             </div2>
          </div1>
-         <div1 type="summary_Croatian">
+         <div1 type="summary_Croatian" facs="#zone_dyd_df5_xjb">
             <p>
                <lb/>... <date when="1837" type="summary_Croatian">1837</date> od ...<lb/>
             </p>

@@ -8,36 +8,38 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1746/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1746/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/82a7581de49c02e600f23cf386ae5bf10c848332.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1746/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2a592aa2155a9ce5ba939a8fd940b2c90192b4c5.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/82a7581de49c02e600f23cf386ae5bf10c848332.jpg" n="https://diyhistory.org/public/phr2/iiif/1746/canvas/p1"/>
+            <zone xml:id="zone_vlw_f35_xjb" lry="2578" lrx="1964" uly="35" ulx="93"/>
+            <zone xml:id="zone_zsx_g35_xjb" lry="2535" lrx="1316" uly="2310" ulx="1085"/>
+         </surface>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/2a592aa2155a9ce5ba939a8fd940b2c90192b4c5.jpg" n="https://diyhistory.org/public/phr2/iiif/1746/canvas/p2"/>
+            <zone xml:id="zone_fgg_335_xjb" lry="912" lrx="2283" uly="200" ulx="71"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div1 type="mürāsele">
+         <div1 type="mürāsele" facs="#zone_vlw_f35_xjb">
             <p>
                <lb/>... fī <date when-custom="1249-08-27" type="created">27 Ş sene 249</date><lb/>
             </p>
             <div2 type="sign">
-               <div3 type="stamp">
+               <div3 type="stamp" facs="#zone_zsx_g35_xjb">
                   <p>
                      <lb/>... Mustafa ...<lb/>
                   </p>
                </div3>
             </div2>
          </div1>
-         <div1 type="summary_Croatian">
+         <div1 type="summary_Croatian" facs="#zone_fgg_335_xjb">
             <p>
                <lb/>...<lb/>
             </p>

@@ -8,55 +8,63 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1744/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1744/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/93b0dec0914ff7f19bbe93ed1a65bfb43454da0d.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1744/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a2d09f8882578301a2c259efa77382e4853e3278.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/93b0dec0914ff7f19bbe93ed1a65bfb43454da0d.jpg" n="https://diyhistory.org/public/phr2/iiif/1744/canvas/p1"/>
+            <zone xml:id="zone_lsl_2h5_xjb" lry="2900" lrx="1675" uly="125" ulx="83"/>
+            <zone xml:id="zone_kwl_fh5_xjb" lry="2818" lrx="718" uly="2578" ulx="515"/>
+            <zone xml:id="zone_p1y_fh5_xjb" lry="2801" lrx="428" uly="2551" ulx="211"/>
+         </surface>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/a2d09f8882578301a2c259efa77382e4853e3278.jpg" n="https://diyhistory.org/public/phr2/iiif/1744/canvas/p2"/>
+            <zone xml:id="zone_zn1_hh5_xjb" lry="588" lrx="864" uly="370" ulx="645"/>
+            <zone xml:id="zone_gd1_mh5_xjb" lry="598" lrx="540" uly="372" ulx="289"/>
+            <zone xml:id="zone_bzz_mh5_xjb" lry="3050" lrx="2300" uly="2654" ulx="208"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div1 type="EMIN" subtype="zabt_temessük">
+         <div1 type="EMIN" subtype="zabt_temessük" facs="#zone_lsl_2h5_xjb">
             <p>
                <lb/>işbu <date when-custom="1196" type="created">bin yüz doksan altı senesinde</date> der ʿuhde ve ... <lb/>
             </p>
-            <div2 type="sign">
+            <div2 type="sign" facs="#zone_kwl_fh5_xjb">
                <p>
                   <lb/>...<lb/>
                </p>
-               <div3 type="stamp">
+               <div3 type="stamp" facs="#zone_zn1_hh5_xjb">
                   <p>
                      <lb/>...<lb/>
                   </p>
-               </div3>               
+               </div3>
             </div2>
-            <div2 type="sign">
+            <div2 type="sign" facs="#zone_p1y_fh5_xjb">
                <p>
                   <lb/>...<lb/>
                </p>
-               <div3 type="stamp">
+               <div3 type="stamp" facs="#zone_gd1_mh5_xjb">
                   <p>
                      <lb/>...<lb/>
                   </p>
-               </div3>               
+               </div3>
             </div2>
             <div2 type="şühūdu’l-hāl">
-            </div2>            
+               <p>
+                  <lb/>...<lb/>
+               </p>
+            </div2>
          </div1>
-         <div1 type="summry_Croatian">
+         <div1 type="summry_Croatian" facs="#zone_bzz_mh5_xjb">
             <p>
                <lb/><date when="1782" type="summary_Croatian">1782</date> ... <lb/>
             </p>
-         </div1>         
+         </div1>
       </body>
    </text>
 </TEI>

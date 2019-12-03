@@ -8,42 +8,47 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1748/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1748/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/965fb5ef17b971399ab21321b5401a4bf5a96e6e.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1748/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6600b77efccd3c7f59c471e59e8f6e7bd2aac2a8.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/965fb5ef17b971399ab21321b5401a4bf5a96e6e.jpg" n="https://diyhistory.org/public/phr2/iiif/1748/canvas/p1"/>
+            <zone xml:id="zone_dmf_c25_xjb" lry="3118" lrx="2318" uly="163" ulx="73"/>
+            <zone xml:id="zone_hld_d25_xjb" lry="2884" lrx="662" uly="2556" ulx="415"/>
+            <zone xml:id="zone_tmx_d25_xjb" lry="2850" lrx="356" uly="2478" ulx="121"/>
+         </surface>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/6600b77efccd3c7f59c471e59e8f6e7bd2aac2a8.jpg" n="https://diyhistory.org/public/phr2/iiif/1748/canvas/p2"/>
+            <zone xml:id="zone_esm_325_xjb" lry="645" lrx="762" uly="412" ulx="525"/>
+            <zone xml:id="zone_lyy_325_xjb" lry="816" lrx="425" uly="587" ulx="183"/>
+            <zone xml:id="zone_hy4_j25_xjb" lry="3108" lrx="1458" uly="2933" ulx="329"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div1 type="EMIN" subtype="zabt_temessük">
+         <div1 type="EMIN" subtype="zabt_temessük" facs="#zone_dmf_c25_xjb">
             <p>
                <lb/>... fī <date when-custom="1209-08-26" type="created">26 Şaʿabāni'l-muʿazzam sene 1209</date><lb/>
             </p>
-            <div2 type="sign">
+            <div2 type="sign" facs="#zone_hld_d25_xjb">
                <p>
                   <lb/>... <lb/>
                </p>
-               <div3 type="stamp">
+               <div3 type="stamp" facs="#zone_esm_325_xjb">
                   <p>
                      <lb/>...<lb/>
                   </p>
                </div3>
             </div2>
-            <div2 type="sign">
+            <div2 type="sign" facs="#zone_tmx_d25_xjb">
                <p>
                   <lb/>...<lb/>
                </p>
-               <div3 type="stamp">
+               <div3 type="stamp" facs="#zone_lyy_325_xjb">
                   <p>
                      <lb/>...<lb/>
                   </p>
@@ -55,7 +60,7 @@
                </p>
             </div2>
          </div1>
-         <div1 type="summary_Croatian">
+         <div1 type="summary_Croatian" facs="#zone_hy4_j25_xjb">
             <p>
                <lb/>Od ... <date when="1793" type="summary_Croatian">1793</date> ...<lb/>
             </p>

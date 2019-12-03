@@ -9,38 +9,34 @@
          </publicationStmt>
          <notesStmt>
             <note type="summary">森林の共同保有 istirak mutasarrıf</note>
+            <note type="mine">【要】エミンが文書を作成したと思われるが、内容が森林の共同保有だけあって契約者の署名がずらりと並んでおり、文書作成者（責任者）の署名がどれであるか判然としない。とりあえずそのうちのひとつをzoneで囲ったが要確認。</note>
          </notesStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1742/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1742/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/80b7e77c94e3de610f0d20b09d790c41f79d5db0.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/80b7e77c94e3de610f0d20b09d790c41f79d5db0.jpg" n="https://diyhistory.org/public/phr2/iiif/1742/canvas/p1"/>
+            <zone xml:id="zone_x5j_dj5_xjb" lry="2946" lrx="1847" uly="200" ulx="116"/>
+            <zone xml:id="zone_sgj_hj5_xjb" lry="2356" lrx="570" uly="2123" ulx="316"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div type="EMIN" subtype="temessük,izin_nāme">
+         <div type="EMIN" cert="high" subtype="temessük,izin_nāme" facs="#zone_x5j_dj5_xjb">
             <p>
                <lb/>... fī <date when-custom="1247-08-21" type="created">21 Ş sene 1247</date><lb/>
             </p>
-            <div type="sign">
+            <div type="sign" facs="#zone_sgj_hj5_xjb">
                <p>
                   <lb/>... <lb/>
                </p>
-            </div>            
-         </div>         
+            </div>
+         </div>
       </body>
    </text>
 </TEI>

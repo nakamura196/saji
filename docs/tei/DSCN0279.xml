@@ -8,33 +8,32 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1758/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1758/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/05126fc93cd883af884cb34f2276b3c326ec5a73.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/05126fc93cd883af884cb34f2276b3c326ec5a73.jpg" n="https://diyhistory.org/public/phr2/iiif/1758/canvas/p1"/>
+            <zone xml:id="zone_fgk_wg5_xjb" lry="3067" lrx="2266" uly="100" ulx="133"/>
+            <zone xml:id="zone_rkr_xg5_xjb" lry="3056" lrx="970" uly="2720" ulx="597"/>
+            <zone xml:id="zone_hcn_yg5_xjb" lry="3040" lrx="557" uly="2686" ulx="204"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div1 type="EMIN" subtype="temessük">
+         <div1 type="EMIN" subtype="temessük" facs="#zone_fgk_wg5_xjb">
             <p>
                <lb/>işbu <date when-custom="1205" type="created">bin iki yüz beş senesinde</date> Kirşevo mukātaʿası<lb/>
             </p>
-            <div2 type="sign">
+            <div2 type="sign" facs="#zone_rkr_xg5_xjb">
                <p>
                   <lb/>El-fakīr ... fī <lb/>
                </p>
             </div2>
-            <div2 type="sign">
+            <div2 type="sign" facs="#zone_hcn_yg5_xjb">
                <p>
                   <lb/>El-fakīr ... fī <lb/>
                </p>

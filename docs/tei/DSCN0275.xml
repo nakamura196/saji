@@ -8,32 +8,35 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1754/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1754/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d270d779760b31415a8c8a7bbc816f0be5a31150.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1754/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/71d27096ee188beaba3f7443b334afaaf2ee6912.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/d270d779760b31415a8c8a7bbc816f0be5a31150.jpg" n="https://diyhistory.org/public/phr2/iiif/1754/canvas/p1"/>
+            <zone xml:id="zone_bw2_yh5_xjb" lry="3018" lrx="2218" uly="100" ulx="173"/>
+            <zone xml:id="zone_nw2_zh5_xjb" lry="2526" lrx="528" uly="2303" ulx="311"/>
+         </surface>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/71d27096ee188beaba3f7443b334afaaf2ee6912.jpg" n="https://diyhistory.org/public/phr2/iiif/1754/canvas/p2"/>
+            <zone xml:id="zone_kvf_135_xjb" lry="545" lrx="512" uly="320" ulx="266"/>
+            <zone xml:id="zone_fgx_135_xjb" lry="2995" lrx="2046" uly="2775" ulx="875"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <div1 type="EMIN" subtype="zabt_temessük">
+         <div1 type="EMIN" subtype="zabt_temessük" facs="#zone_bw2_yh5_xjb">
             <p>
                <lb/>... fī <date when-custom="1255-10-06" type="created">6 L sene 255</date><lb/>
             </p>
-            <div2 type="sign">
+            <div2 type="sign" facs="#zone_nw2_zh5_xjb">
                <p>
                   <lb/>... Mehmed ...<lb/>
                </p>
-               <div3 type="stamp">
+               <div3 type="stamp" facs="#zone_kvf_135_xjb">
                   <p>
                      <lb/>... <lb/>
                   </p>
@@ -45,7 +48,7 @@
                </p>
             </div2>
          </div1>
-         <div1 type="summary_Croatian">
+         <div1 type="summary_Croatian" facs="#zone_fgx_135_xjb">
             <p>
                <lb/>...<lb/>
             </p>
