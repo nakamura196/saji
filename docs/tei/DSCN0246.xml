@@ -15,9 +15,7 @@
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1725/manifest">
          <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/c57ca07e27bb32c5f37f92423067d687b0b01cde.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1725/canvas/p1"/>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/c57ca07e27bb32c5f37f92423067d687b0b01cde.jpg" n="https://diyhistory.org/public/phr2/iiif/1725/canvas/p1"/>
             <zone xml:id="zone_iq5_bhk_kjb" lry="2832" lrx="1954" uly="61" ulx="35"/>
             <zone xml:id="zone_oxj_dhk_kjb" lry="2790" lrx="550" uly="2372" ulx="257"/>
          </surface>
@@ -25,16 +23,16 @@
    </facsimile>
    <text>
       <body>
-         <div type="EMIN" subtype="zabt_temessük">
+         <div1 type="EMIN" subtype="zabt_temessük" facs="#zone_iq5_bhk_kjb">
             <p>
                <lb/>... fī <date when-custom="1188-01-14" type="created">14 M sene 1188</date><lb/>
             </p>
-            <div type="sign">
+            <div2 type="sign" facs="#zone_oxj_dhk_kjb">
                <p>
                   <lb/>...<lb/>
                </p>
-            </div>
-         </div>
+            </div2>
+         </div1>
       </body>
    </text>
 </TEI>

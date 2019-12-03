@@ -8,7 +8,7 @@
             <p>Publication Information</p>
          </publicationStmt>
          <notesStmt>
-            <note type="summary">鉄鉱山</note>
+            <note type="summary">鉄鉱山の請負</note>
          </notesStmt>
          <sourceDesc>
             <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
@@ -39,46 +39,54 @@
    </facsimile>
    <text>
       <body>
-         <div type="zabt_temessük" facs="#zone_vcb_z2j_cjb">
+         <div1 type="EMIN" subtype="zabt_temessük" facs="#zone_vcb_z2j_cjb">
             <p>
-               <lb/>işbu <date when-custom="1189" type="created">bin yüz sekisen dokuz senes</date>i ... maʿden-i āhen Kirşevo<lb/>
+               <lb/>Hüve<lb/>
+               <lb/>Vech-i tahrīr-i hurūf budur ki<lb/>               
+               <lb/>işbu <date from-custom="1189-03" type="created">bin yüz sekisen dokuz senenin Martı ibtidāsından</date> ʿuhdemizde bulunan maʿden-i āhen-i Kirşevo mukātaʿasinda<lb/>
+               <lb/>vākiʿ ... ruhbānları mutasarrıf oldukları ... hāric arāzī-i aʿşār-ı şerʿiyesine mezbūre<lb/>
+               <lb/>... olageldiği ... üzere ... ve ahz ve kabz eyleme... üzere işbu dārende-i temessükün<lb/>
+               <lb/>... mezbūre rāhiblerine yetmiş guruş ile iltizāmıyla der ʿuhde ve iltizām olunub anlar dahi der<lb/>
+               <lb/>minvāl-i meşrūh üzere der ʿuhde ve ... yetmiş guruş ile iltizām ... ʿan ... her<lb/>
+               <lb/>tarafımıza tamāmen ... ve teslīm etmeleryle minvāl-i ... üzere zabt ve ... ve ahz ve kabz eylemeler içün<lb/>
+               <lb/>işbu zabt temessüğü tahrīr olunub yedilerine virildi tahrīren fī tārihi'l-...<lb/>
             </p>
-            <div type="sign" facs="#zone_ohd_1fj_cjb">
+            <div2 type="sign" facs="#zone_ohd_1fj_cjb">
                <p>
-                  <lb/>...<lb/>
+                  <lb/>El-fakīr Ahmad ... Emīn<lb/>
                </p>
-               <div type="stamp" facs="#zone_fm3_2fj_cjb">
+               <div3 type="stamp" facs="#zone_fm3_2fj_cjb">
                   <p>
                      <lb/>...<lb/>
                   </p>
-               </div>               
-            </div>
-            <div type="sign" facs="#zone_cyw_1fj_cjb">
+               </div3>               
+            </div2>
+            <div2 type="sign" facs="#zone_cyw_1fj_cjb">
                <p>
-                  <lb/>...<lb/>
+                  <lb/>El-fakīr Süleymān ... Emīn<lb/>
                </p>
-               <div type="stamp" facs="#zone_sft_2fj_cjb">
+               <div3 type="stamp" facs="#zone_sft_2fj_cjb">
                   <p>
                      <lb/>...<lb/>
                   </p>
-               </div>               
-            </div>
-            <div type="sign" facs="#zone_e3p_bfj_cjb">
+               </div3>               
+            </div2>
+            <div2 type="sign" facs="#zone_e3p_bfj_cjb">
                <p>
-                  <lb/>...<lb/>
+                  <lb/>El-fakīr Mehmed Emīn-i Mukātaʿa-ı mezkūr<lb/>
                </p>
-               <div type="stamp" facs="#zone_a2j_ffj_cjb">
+               <div3 type="stamp" facs="#zone_a2j_ffj_cjb">
                   <p>
                      <lb/>...<lb/>
                   </p>
-               </div>               
-            </div>            
-         </div>
-         <div type="summary_Croatian" facs="#zone_gvz_ffj_cjb">
+               </div3>               
+            </div2>            
+         </div1>
+         <div1 type="summary_Croatian" facs="#zone_gvz_ffj_cjb">
             <p>
                <lb/>...<lb/>
             </p>
-         </div>         
+         </div1>         
       </body>
    </text>
 </TEI>
