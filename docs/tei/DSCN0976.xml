@@ -9,6 +9,8 @@
       </publicationStmt>
       <notesStmt>
         <note type="mine">DSCN1036.JPGと同じ文書。重複している。ただし画像は撮影し直しており、DSCN1036.JPGにのみ、裏面のスタンプが写っている。</note>
+        <note type="summary">iltizāmの下請け契約、ガルディヤーンが1年間自分たちで徴収できる。今までのとも違う。色んな形で土地を持っている。多角経営、単純な土地保有をしているわけではない
+        </note>
       </notesStmt>
       <sourceDesc>
         <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "n/a(?)" ], "saji:date_M": [ "n/a(?)" ], "saji:foldingMethod": [ "4x1" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・署名(?)" ], "saji:lang": [ "ota" ], "saji:lineage": [ "11" ], "saji:memo": [ "・本文末の署名(?)が、DSCN0975.JPGの本文末の署名(?)と同一" ], "saji:number": [ "235" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o":
@@ -40,50 +42,50 @@
   </facsimile>
   <text>
     <body>
-      <div type="EMIN" subtype="zabt_temessük" cert="low" facs="#zone_jh2_r2f_z3b">
+      <div1 type="EMIN" subtype="zabt_temessük" cert="low" facs="#zone_jh2_r2f_z3b">
         <p>
           <lb/>Hüve<lb/>
           <lb/>Vech-i tahrīr-i hurūf budur ki<lb/>
           <lb/>hālā ʿuhde ve iltizāmımızda olan Kirşevo mukātaʿasından ...<lb/>
           <lb/>... karyeleri hāsıl olan<lb/>
-          <lb/>ʿaşār-ı şerʿiyesini rusūm sā'iresine tapunāmeden gayri işbu <date from-custom="1217-03" to-custom="1218-02" type="created">bin<lb/>
-            <lb/>iki yüz on yedi senesinden Martı ibtidāsından Şubatı gāyesine değgin</date><lb/>
-          <lb/>zabt ve rabtına ve rusūm sā'iresini ahz ve kavz tālib ve rāgib olan <lb/>
-          <lb/>işbu dārende-i temessük zimmī [人名] ... ve iltizām olan<lb/>
-          <lb/>lāzım gelen ... ve iltizām içün yalnız yiz yiğirmi guruş ber-vech-i<lb/>
-          <lb/>peşīn tarafımıza edā ve teslīm almıltır ...<lb/>
-          <lb/>zabt ve rabt ve rusūm sā'iresini ahz ve kabz işbu mesfūrının<lb/>
+          <lb/>ʿaşār-ı şerʿiyesini rusūm-u sā'iresin tapunāmeden gayri işbu <date from-custom="1217-03" to-custom="1218-02" type="created">bin<lb/>
+            <lb/>iki yüz on yedi senesinin Martı ibtidāsından Şubatı gāyetine değgin</date><lb/>
+          <lb/>zabt ve rabtına ve rusūm-u sā'iresini ahz ve kavz tālib ve rāgib olan <lb/>
+          <lb/>işbu dārende-i temessük zimmī [人名] gardiyān bedeli ve iltizām olan<lb/>
+          <lb/>lāzım gelen bedel-i iltizām içün yalnız yiz yiğirmi guruş ber-vech-i<lb/>
+          <lb/>peşīn tarafımıza edā ve teslīm etmiştir bi-mennih-i taʿālā sene itimāmına varınca<lb/>
+          <lb/>zabt ve rabt ve rusūm sā'iresin ahz ve kabza işbu mesfūrının<lb/>
           <lb/>yedine zabt temessük virildi<lb/>
         </p>
-        <div type="sign" facs="#zone_sfc_cdt_sjb">
+        <div2 type="sign" facs="#zone_sfc_cdt_sjb">
           <p>
             <lb/>... <persName role="el-me'mūr">Derv[ī]ş Mehmed</persName> el-me'mūr<lb/>
           </p>
-        </div>
-      </div>
-      <div type="summary_Croatian" facs="#zone_xbx_s2f_z3b">
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_xbx_s2f_z3b">
         <p>
           <lb/>... <date when="1803" type="summary_Croatian">1803</date><lb/>
         </p>
-      </div>
+      </div1>
       
       
-      <div type="EMIN" cert="low" facs="#zone_kqh_bs3_1jb">
+      <div1 type="EMIN" cert="low" facs="#zone_kqh_bs3_1jb">
         <p>
           <lb/>... işbu <date when-custom="1217-03" type="created">bin<lb/>
             <lb/>ikiyüz on yedi senesinde Martı</date> ...<lb/>
         </p>
-      </div>
-      <div type="stamp" facs="#zone_zcd_ds3_1jb">
+      </div1>
+      <div1 type="stamp" facs="#zone_zcd_ds3_1jb">
         <p>
           <lb/>...<lb/>
         </p>
-      </div>
-      <div type="summary_Croatian" facs="#zone_kqn_2s3_1jb">
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_kqn_2s3_1jb">
         <p>
           <lb/>... <date when="1803" type="summary_Croatian">1803</date><lb/>
         </p>
-      </div>
+      </div1>
     </body>
   </text>
 </TEI>
