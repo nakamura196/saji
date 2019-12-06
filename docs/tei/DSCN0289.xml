@@ -8,24 +8,29 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1768/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1768/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1006b1e88022ca4a89caa74c78f36dd48efe57f6.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1768/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/61686f5ed37133f0c0f49c390dfef776acaa8f35.jpg" /></surface></surfaceGrp>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/1006b1e88022ca4a89caa74c78f36dd48efe57f6.jpg" n="https://diyhistory.org/public/phr2/iiif/1768/canvas/p1"/>
+            <zone xml:id="zone_dqx_3t5_xjb" lry="3108" lrx="2317" uly="166" ulx="192"/>
+            <zone xml:id="zone_um1_mt5_xjb" lry="3086" lrx="732" uly="2755" ulx="488"/>
+            <zone xml:id="zone_uly_mt5_xjb" lry="3037" lrx="497" uly="2681" ulx="227"/>
+         </surface>
+         <surface>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/61686f5ed37133f0c0f49c390dfef776acaa8f35.jpg" n="https://diyhistory.org/public/phr2/iiif/1768/canvas/p2"/>
+            <zone xml:id="zone_nxy_pt5_xjb" lry="2977" lrx="1977" uly="2807" ulx="1787"/>
+            <zone xml:id="zone_prs_qt5_xjb" lry="2975" lrx="2205" uly="2797" ulx="2010"/>
+            <zone xml:id="zone_pzw_rt5_xjb" lry="640" lrx="2240" uly="434" ulx="178"/>
+         </surface>
+      </surfaceGrp>
    </facsimile>
    <text>
       <body>
-         <p />
+         <p/>
       </body>
    </text>
 </TEI>

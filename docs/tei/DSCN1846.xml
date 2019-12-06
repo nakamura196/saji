@@ -8,7 +8,10 @@
             <p>Publication Information</p>
          </publicationStmt>
          <notesStmt>
+            <note type="summery">Nuh bin Hasanという人物が行方不明になったが、遺族たちが共同体に血の代償を求めることを免除するための書付。修道院もおそらく行方不明地域の範囲に入っているので、修道士たちには血の代償の支払い義務が生じるが、それが免除されている。</note>
             <note type="mine">【要】日付：年日の読み取り不十分</note>
+            <note type="mine">シャリーア法廷文書で作りそうなものを、私人間のtemessukとして作成している点が興味深い。 ※not土地文書 </note>
+            <note type="mine">土地などに関係しない、一時的な出来事に関する文書であるが、このような文書まで保管されている。</note>
          </notesStmt>
          <sourceDesc>
             <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
@@ -18,16 +21,12 @@
    <facsimile>
       <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1377/manifest">
          <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/bc270843971d710f30a47d2219e0ab38d8d11b64.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1377/canvas/p1"/>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/bc270843971d710f30a47d2219e0ab38d8d11b64.jpg" n="https://diyhistory.org/public/phr2/iiif/1377/canvas/p1"/>
             <zone xml:id="zone_wbh_vgq_cjb" lry="2975" lrx="2017" uly="225" ulx="133"/>
             <zone xml:id="zone_rwr_wgq_cjb" lry="2951" lrx="495" uly="2651" ulx="282"/>
          </surface>
          <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/2ebf5f450dc4010bd314676f52c9f47e80dbeb2a.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1377/canvas/p2"/>
+            <graphic url="https://diyhistory.org/public/phr2/files/original/2ebf5f450dc4010bd314676f52c9f47e80dbeb2a.jpg" n="https://diyhistory.org/public/phr2/iiif/1377/canvas/p2"/>
             <zone xml:id="zone_f4l_zgq_cjb" lry="933" lrx="2262" uly="733" ulx="445"/>
          </surface>
       </surfaceGrp>
@@ -37,27 +36,27 @@
          <div1 type="EMIN" cert="unknown" facs="#zone_wbh_vgq_cjb">
             <p>
                <lb/>Hüve<lb/>
-               <lb/>Vech-i tahrīr-i hurūf budur ki<lb/>                       
-               <lb/>işbu <date when-custom="1188-10" cert="unknown" type="created">bin yüz sekisen sekiz senesinde māh Şevvālı'l-... birinci gününde</date> bundan ... mukaddem<lb/>
-               <lb/>Kirşevo kasabasında ... üzere ... karyesinde ... olan<lb/> 
-               <lb/>Nūh bin Hasan nām ... tarafından ...<lb/> 
-               <lb/>... Kirşevo ve Foyniçe rāhibleriden ve sā'ir ... kurālarının rāhibini ... ile<lb/> 
-               <lb/>... üzere dārende-i ... hasebiyle edā ... eyledim ...<lb/> 
-               <lb/>... hasebiyle zimmī mesfūrlara işbu memhūr olan ... yedlerine virildi <lb/> 
-               <lb/>fī tārihi'l-...<lb/> 
+               <lb/>Vech-i tahrīr-i hurūf budur ki<lb/>
+               <lb/>işbu <date when-custom="1188-10-27" type="created">bin yüz sekisen sekiz senesinde māh-ı Şevvālü'l-mükerremin yiğirmi yedinci gününde</date> bundan on sene mukaddem<lb/>
+               <lb/>Kirşevo kasabasında ticāret tarīkiyle meks ü ikāmet üzere iken zamān-ı karībde gā’ib ve nā-bedīd olan<lb/>
+               <lb/>Nūh bin Hasan nām gā’ibin vārisleri li-ebeveyn karındāşı Mehmed ve kız karındāşı Havva ve sa’ir vereseleri tarafından vekīl-i<lb/>
+               <lb/>şerʿī olduğum hasebiyle Kirşevo ve Foyniçe rāhibleriden ve sā'ir etrāf kurālarının ahālisini dem ü diyet mutālebe ile<lb/>
+               <lb/>rencide olunmamak üzere vārisleri tarafından vekāletim hasebiyle ibrā'-i zimmet eyledim bir durlu daʿvā ve nizāʿumuz<lb/>
+               <lb/>olunmadığı ecilden vekāletim hasebiyle zimmī-i mesfūrlara işbu memhūr olan ibrā’ temessük yedlerine virildi<lb/>
+               <lb/>fī tārihi'l-mezbūr<lb/>
             </p>
             <div2 type="sign" facs="#zone_rwr_wgq_cjb">
                <p>
-                  <lb/>El-fakīr ... ʿAbdül...<lb/>
+                  <lb/>El-fakīr ... ʿAbdülfettāh Zāde ʿan Çayniçe<lb/>
                </p>
             </div2>
             <div2 type="şühūdu’l-hāl">
                <p>
-                  <lb/>Süleymān Ağa ...<lb/>
-                  <lb/>Mehmed Ağa ...<lb/>
-                  <lb/>...<lb/>
-                  <lb/>... ʿAlī<lb/>
-                  <lb/>ʿAlī ...<lb/>
+                  <lb/>Süleymān Ağa Çavuş Kethüdā Zāde<lb/>
+                  <lb/>Mehmed Ağa ʿan Karye-i ...<lb/>
+                  <lb/>Mollā ʿÖmer tābʿi-i Çavuşlar Ağası<lb/>
+                  <lb/>Çukadār ʿAlī<lb/>
+                  <lb/>ʿAlī Çavuş<lb/>
                </p>
             </div2>
          </div1>
@@ -65,7 +64,7 @@
             <p>
                <lb/>...<lb/>
             </p>
-         </div1>         
+         </div1>
       </body>
    </text>
 </TEI>
