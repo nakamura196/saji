@@ -1,66 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0111</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】典型・日付：要確認。</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1595/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/3a179479f6db7b6ff6618dcb86a96aadaed51a64.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1595/canvas/p1"/>
-            <zone xml:id="zone_mw5_pcv_2jb" lry="3160" lrx="1910" uly="50" ulx="227"/>
-            <zone xml:id="zone_crs_rcv_2jb" lry="3145" lrx="662" uly="2631" ulx="300"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/79c3534e43ffbdfcda486d4052e39db3f67a1b36.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1595/canvas/p2"/>
-            <zone xml:id="zone_tj2_tcv_2jb" lry="629" lrx="537" uly="391" ulx="237"/>
-            <zone xml:id="zone_ydd_5cv_2jb" lry="2975" lrx="687" uly="2462" ulx="204"/>
-            <zone xml:id="zone_jhd_vcv_2jb" lry="3116" lrx="1783" uly="2937" ulx="1454"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="unknown" facs="#zone_mw5_pcv_2jb">
-            <p>
-               <lb/>... fī <date when-custom="1235-07-07" cert="low" type="created">7 Racab sene 1235</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_crs_rcv_2jb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div type="stamp" facs="#zone_tj2_tcv_2jb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div>               
-            </div>            
-         </div>
-         <div type="note" cert="unknown" facs="#zone_ydd_5cv_2jb">
-            <p>
-               <lb/>...<lb/>
-            </p>
-         </div>
-         <div type="note_Croatian" facs="#zone_jhd_vcv_2jb">
-            <p>
-               <lb/><date when="1820" type="note_Croatian">1820</date><lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0111</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】典型・日付：要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1595/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1595/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3a179479f6db7b6ff6618dcb86a96aadaed51a64.jpg"/>
+<zone lrx="1910" lry="3160" ulx="227" uly="50" xml:id="zone_mw5_pcv_2jb"/>
+<zone lrx="662" lry="3145" ulx="300" uly="2631" xml:id="zone_crs_rcv_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1595/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/79c3534e43ffbdfcda486d4052e39db3f67a1b36.jpg"/>
+<zone lrx="537" lry="629" ulx="237" uly="391" xml:id="zone_tj2_tcv_2jb"/>
+<zone lrx="687" lry="2975" ulx="204" uly="2462" xml:id="zone_ydd_5cv_2jb"/>
+<zone lrx="1783" lry="3116" ulx="1454" uly="2937" xml:id="zone_jhd_vcv_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_mw5_pcv_2jb" type="unknown">
+<p>
+<lb></lb>... fī <date cert="low" type="created" when-custom="1235-07-07">7 Racab sene 1235</date><lb></lb>
+</p>
+<div2 facs="#zone_crs_rcv_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_tj2_tcv_2jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 cert="unknown" facs="#zone_ydd_5cv_2jb" type="note">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+<div1 facs="#zone_jhd_vcv_2jb" type="note_Croatian">
+<p>
+<lb></lb><date type="note_Croatian" when="1820">1820</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

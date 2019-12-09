@@ -1,49 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1960</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">署名：傘型</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1490/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/42d7adf880378092c92b0b44b9f081ced7d1e215.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1490/canvas/p1"/>
-            <zone xml:id="zone_dqk_wp2_djb" lry="2842" lrx="2050" uly="392" ulx="285"/>
-            <zone xml:id="zone_tbd_yp2_djb" lry="2312" lrx="981" uly="1235" ulx="365"/>
-            <zone xml:id="zone_xm2_zp2_djb" lry="2541" lrx="1367" uly="2395" ulx="1203"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="tezkire-i_dīvānī" facs="#zone_dqk_wp2_djb">
-            <p>
-               <lb/>... fī <date when-custom="1259-09-25" cert="medium" type="created">25 N sene 59</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_tbd_yp2_djb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div type="stamp" facs="#zone_xm2_zp2_djb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div>               
-            </div>            
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1960</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">署名：傘型</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1490/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1490/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/42d7adf880378092c92b0b44b9f081ced7d1e215.jpg"/>
+<zone lrx="2050" lry="2842" ulx="285" uly="392" xml:id="zone_dqk_wp2_djb"/>
+<zone lrx="981" lry="2312" ulx="365" uly="1235" xml:id="zone_tbd_yp2_djb"/>
+<zone lrx="1367" lry="2541" ulx="1203" uly="2395" xml:id="zone_xm2_zp2_djb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_dqk_wp2_djb" type="tezkire-i_dīvānī">
+<p>
+<lb></lb>... fī <date cert="medium" type="created" when-custom="1259-09-25">25 N sene 59</date><lb></lb>
+</p>
+<div2 facs="#zone_tbd_yp2_djb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_xm2_zp2_djb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
 </TEI>

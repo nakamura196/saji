@@ -1,68 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN1797</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="mine"
-          >内容は裁判内容の報告なのでiʿlāmに近いが、様式は、紙を横幅いっぱいに使い、日付がなく、スタンプが表面（通常は裏面に天地逆さ）に押されていることからiʿlāmとは言えない。</note>
-        <note type="mine">【要】‘arżとよばれる様式のものか?要確認。</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ],
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1797</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">内容は裁判内容の報告なのでiʿlāmに近いが、様式は、紙を横幅いっぱいに使い、日付がなく、スタンプが表面（通常は裏面に天地逆さ）に押されていることからiʿlāmとは言えない。</note>
+<note type="mine">【要】‘arżとよばれる様式のものか?要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ],
           "saji:type": [ "‘arż(?)" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1328/manifest">
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/004b58f71b60e09cc241d798f156926db0853310.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1328/canvas/p1"/>
-        <zone xml:id="zone_dwd_zz3_cjb" lry="2523" lrx="2085" uly="0" ulx="100"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/a190872297721cfd09e189d747aa059fa3721b26.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1328/canvas/p2"/>
-        <zone xml:id="zone_fgh_b1j_cjb" lry="1772" lrx="864" uly="1497" ulx="471"/>
-        <zone xml:id="zone_vbt_b1j_cjb" lry="1768" lrx="855" uly="1592" ulx="639"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/94a4f09dbea7e052359d46c525a586ecb4438c6b.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1328/canvas/p3"/>
-        <zone xml:id="zone_ehg_d1j_cjb" lry="2205" lrx="2528" uly="227" ulx="789"/>
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div type="unknown" facs="#zone_dwd_zz3_cjb">
-        <p>
-          <lb/>...<lb/>
-        </p>
-        <div type="sign" facs="#zone_fgh_b1j_cjb">
-          <p>
-            <lb/>...<lb/>
-          </p>
-          <div type="stamp" facs="#zone_vbt_b1j_cjb">
-            <p>
-              <lb/>...<lb/>
-            </p>
-          </div>          
-        </div>        
-      </div>
-      <div type="summary_Croatian" facs="#zone_ehg_d1j_cjb">
-        <p>
-          <lb/>...<lb/>
-        </p>
-      </div>      
-    </body>
-  </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1328/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1328/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/004b58f71b60e09cc241d798f156926db0853310.jpg"/>
+<zone lrx="2085" lry="2523" ulx="100" uly="0" xml:id="zone_dwd_zz3_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1328/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a190872297721cfd09e189d747aa059fa3721b26.jpg"/>
+<zone lrx="864" lry="1772" ulx="471" uly="1497" xml:id="zone_fgh_b1j_cjb"/>
+<zone lrx="855" lry="1768" ulx="639" uly="1592" xml:id="zone_vbt_b1j_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1328/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/94a4f09dbea7e052359d46c525a586ecb4438c6b.jpg"/>
+<zone lrx="2528" lry="2205" ulx="789" uly="227" xml:id="zone_ehg_d1j_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_dwd_zz3_cjb" type="unknown">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div2 facs="#zone_fgh_b1j_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_vbt_b1j_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_ehg_d1j_cjb" type="summary_Croatian">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

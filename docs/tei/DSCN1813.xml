@@ -1,49 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1813</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-          <notesStmt>
-             <note type="mine">日付のアラビア語のつづりなどがおかしいので、もしかすると全体的にアラビア語（オスマン語も？）が苦手なカーディーなのかもしれない。その他本文も注意する。</note>
-          </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1344/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/337850ebd08ad50173364c09db5439dbb47a6bc4.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1344/canvas/p1"/>
-            <zone xml:id="zone_ssd_xm4_cjb" lry="2950" lrx="1600" uly="580" ulx="500"/>
-            <zone xml:id="zone_j1l_ym4_cjb" lry="1120" lrx="1111" uly="654" ulx="599"/>
-            <zone xml:id="zone_is1_zm4_cjb" lry="1113" lrx="963" uly="976" ulx="793"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="hüccet" facs="#zone_ssd_xm4_cjb">
-            <p>
-               <lb/>... fī <date when-custom="1189-03" type="created">şehr Rebi' evvel sene tisʿ ve semānīn ve mie ve elif</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_j1l_ym4_cjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div type="stamp" facs="#zone_is1_zm4_cjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div>
-            </div>
-         </div>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1813</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">日付のアラビア語のつづりなどがおかしいので、もしかすると全体的にアラビア語（オスマン語も？）が苦手なカーディーなのかもしれない。その他本文も注意する。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1344/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1344/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/337850ebd08ad50173364c09db5439dbb47a6bc4.jpg"/>
+<zone lrx="1600" lry="2950" ulx="500" uly="580" xml:id="zone_ssd_xm4_cjb"/>
+<zone lrx="1111" lry="1120" ulx="599" uly="654" xml:id="zone_j1l_ym4_cjb"/>
+<zone lrx="963" lry="1113" ulx="793" uly="976" xml:id="zone_is1_zm4_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ssd_xm4_cjb" type="hüccet">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1189-03">şehr Rebi' evvel sene tisʿ ve semānīn ve mie ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_j1l_ym4_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_is1_zm4_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
 </TEI>

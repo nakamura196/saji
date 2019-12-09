@@ -1,49 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0996</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="mine">日付：‘arż-ı ḥāl、見当たらない。buyuruldu、潰れていて年が読み取れない。クロアチア語要約、合っているのか分からない。</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0996</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">日付：‘arż-ı ḥāl、見当たらない。buyuruldu、潰れていて年が読み取れない。クロアチア語要約、合っているのか分からない。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [
           "典型\r\n＋書き込み" ], "saji:type": [ "‘arż-ı ḥāl" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1112/manifest">
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/0fca194aead56855f70e40cfa5a66b587d88c607.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1112/canvas/p1"/>
-        <zone xml:id="zone_ymg_vwf_z3b" lry="2775" lrx="1783" uly="200" ulx="175"/>
-        <zone xml:id="zone_k5q_wwf_z3b" lry="2237" lrx="1288" uly="450" ulx="200"/>
-        <zone xml:id="zone_ywz_xwf_z3b" lry="962" lrx="1200" uly="606" ulx="782"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/9b937f8fbf071a8da805467dafa7f6a53e141f62.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1112/canvas/p2"/>
-        <zone xml:id="zone_dyq_zwf_z3b" lry="1255" lrx="3067" uly="738" ulx="89"/>
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div type="ʿarz-ı_hāl" facs="#zone_ymg_vwf_z3b"></div>
-      <div type="buyuruldu" facs="#zone_k5q_wwf_z3b">
-        <l>... buyuruldu fī <date when-custom="19-01-22" cert="low" type="created">22 M 19...</date></l>
-        <div type="stamp" facs="#zone_ywz_xwf_z3b"></div>
-      </div>
-      <div type="summary_Serbian" facs="#zone_dyq_zwf_z3b">
-        <l>... <date when="1782-01-22" cert="unknown" type="summary_Croatian">1782 ... 22</date> ...</l>
-      </div>
-    </body>
-  </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1112/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1112/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0fca194aead56855f70e40cfa5a66b587d88c607.jpg"/>
+<zone lrx="1783" lry="2775" ulx="175" uly="200" xml:id="zone_ymg_vwf_z3b"/>
+<zone lrx="1288" lry="2237" ulx="200" uly="450" xml:id="zone_k5q_wwf_z3b"/>
+<zone lrx="1200" lry="962" ulx="782" uly="606" xml:id="zone_ywz_xwf_z3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1112/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9b937f8fbf071a8da805467dafa7f6a53e141f62.jpg"/>
+<zone lrx="3067" lry="1255" ulx="89" uly="738" xml:id="zone_dyq_zwf_z3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ymg_vwf_z3b" type="ʿarz-ı_hāl"></div1>
+<div1 facs="#zone_k5q_wwf_z3b" type="buyuruldu">
+<l>... buyuruldu fī <date cert="low" type="created" when-custom="19-01-22">22 M 19...</date></l>
+<div3 facs="#zone_ywz_xwf_z3b" type="stamp"></div3>
+</div1>
+<div1 facs="#zone_dyq_zwf_z3b" type="summary_Serbian">
+<l>... <date cert="unknown" type="summary_Croatian" when="1782-01-22">1782 ... 22</date> ...</l>
+</div1>
+</body>
+</text>
 </TEI>

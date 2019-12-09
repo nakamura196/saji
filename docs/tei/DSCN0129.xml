@@ -1,52 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0129</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0129</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]
                }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1613/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/60f97af44f78d9450b81829dbfc1388f8c1bcbfd.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1613/canvas/p1"/>
-            <zone xml:id="zone_w5s_znv_2jb" lry="2600" lrx="2208" uly="653" ulx="77"/>
-            <zone xml:id="zone_q5n_b4v_2jb" lry="2580" lrx="509" uly="2264" ulx="147"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/3301d5d7733e486ac5a1fa49dd9a42839afd789d.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1613/canvas/p2"/>
-            <zone xml:id="zone_j1n_d4v_2jb" lry="1416" lrx="2678" uly="761" ulx="267"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="tapu_senedi_sūret" facs="#zone_w5s_znv_2jb">
-            <p>
-               <lb/>... fī <date when-custom="1271-05-25" type="created">25 Ca sene 1271</date><lb/>
-            </p>
-            <div type="stamp_sūret" facs="#zone_q5n_b4v_2jb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>            
-         </div>
-         <div type="summary_Croatian" facs="#zone_j1n_d4v_2jb">
-            <p>
-               <lb/>... <date when-custom="1271" type="summary_Croatian">1271</date>.<lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1613/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1613/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/60f97af44f78d9450b81829dbfc1388f8c1bcbfd.jpg"/>
+<zone lrx="2208" lry="2600" ulx="77" uly="653" xml:id="zone_w5s_znv_2jb"/>
+<zone lrx="509" lry="2580" ulx="147" uly="2264" xml:id="zone_q5n_b4v_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1613/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3301d5d7733e486ac5a1fa49dd9a42839afd789d.jpg"/>
+<zone lrx="2678" lry="1416" ulx="267" uly="761" xml:id="zone_j1n_d4v_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_w5s_znv_2jb" type="tapu_senedi_sūret">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1271-05-25">25 Ca sene 1271</date><lb></lb>
+</p>
+<div3 facs="#zone_q5n_b4v_2jb" type="stamp_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div1>
+<div1 facs="#zone_j1n_d4v_2jb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when-custom="1271">1271</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

@@ -1,89 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN1844</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="mine">【要】日付：buyuruldu(1)の月が読み取れない。</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1375/manifest">
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/70b5457c6f94eb926ed732255b3401f37df2d65c.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1375/canvas/p1"/>
-        <zone xml:id="zone_ykg_hcq_cjb" lry="2808" lrx="2308" uly="375" ulx="183"/>
-        <zone xml:id="zone_ilt_jcq_cjb" lry="2581" lrx="1337" uly="1737" ulx="213"/>
-        <zone xml:id="zone_ets_kcq_cjb" lry="2581" lrx="472" uly="2342" ulx="261"/>
-        <zone xml:id="zone_zdj_lcq_cjb" lry="1327" lrx="1021" uly="908" ulx="289"/>
-        <zone xml:id="zone_v11_ncq_cjb" lry="2785" lrx="1910" uly="1200" ulx="960"/>
-        <zone xml:id="zone_r2q_4cq_cjb" lry="824" lrx="1929" uly="417" ulx="1378"/>
-        <zone xml:id="zone_jtl_pcq_cjb" lry="2226" lrx="2290" uly="1708" ulx="1873"/>
-        <zone xml:id="zone_epm_qcq_cjb" lry="2039" lrx="2285" uly="1852" ulx="2131"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/4cfe9bf640af67b2c7cc221bed2acc0f94c4c418.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1375/canvas/p2"/>
-        <zone xml:id="zone_gs5_rcq_cjb" lry="1311" lrx="2700" uly="1016" ulx="439"/>
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div type="ʿarz-ı_hāl_buyuruldu_iʿlām_sūret" facs="#zone_ykg_hcq_cjb">
-        <div type="ʿarz-ı_hāl_sūret" facs="#zone_ilt_jcq_cjb">
-          <p>
-            <lb/>...<lb/>
-          </p>
-          <div type="sign_sūret" facs="#zone_ets_kcq_cjb">
-            <p>
-              <lb/>...<lb/>
-            </p>
-          </div>          
-        </div>
-        <div type="buyuruldu_sūret" facs="#zone_zdj_lcq_cjb">
-          <p>
-            <lb/>olalar deyu buyuruldu<lb/>
-            <lb/>fī <date when-custom="1173--28" type="created">28 ... 173</date><lb/>
-          </p>
-        </div>
-        <div type="iʿlām_sūret" facs="#zone_v11_ncq_cjb">
-          <p>
-            <lb/>... fī <date when-custom="1174-01-01" type="created">gürre-i Muharremi'l-harām sene arbaʿ ve sabʿīn<lb/>
-            <lb/>ve mie ve elif</date><lb/>
-          </p>
-        </div>
-        <div type="buyuruldu_sūret" facs="#zone_r2q_4cq_cjb">
-          <p>
-            <lb/>... fī <date when-custom="1174-01-05" type="created">5 M 74</date><lb/>
-          </p>
-        </div>
-        <div type="sign" facs="#zone_jtl_pcq_cjb">
-          <p>
-            <lb/>...<lb/>
-          </p>
-          <div type="stamp" facs="#zone_epm_qcq_cjb">
-            <p>
-              <lb/>...<lb/>
-            </p>
-          </div>          
-        </div>      
-      </div>
-      <div type="summary_Croatian" facs="#zone_gs5_rcq_cjb">
-        <p>
-          <lb/>...<lb/>
-        </p>
-      </div>     
-    </body>
-  </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1844</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：buyuruldu(1)の月が読み取れない。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1375/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1375/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/70b5457c6f94eb926ed732255b3401f37df2d65c.jpg"/>
+<zone lrx="2308" lry="2808" ulx="183" uly="375" xml:id="zone_ykg_hcq_cjb"/>
+<zone lrx="1337" lry="2581" ulx="213" uly="1737" xml:id="zone_ilt_jcq_cjb"/>
+<zone lrx="472" lry="2581" ulx="261" uly="2342" xml:id="zone_ets_kcq_cjb"/>
+<zone lrx="1021" lry="1327" ulx="289" uly="908" xml:id="zone_zdj_lcq_cjb"/>
+<zone lrx="1910" lry="2785" ulx="960" uly="1200" xml:id="zone_v11_ncq_cjb"/>
+<zone lrx="1929" lry="824" ulx="1378" uly="417" xml:id="zone_r2q_4cq_cjb"/>
+<zone lrx="2290" lry="2226" ulx="1873" uly="1708" xml:id="zone_jtl_pcq_cjb"/>
+<zone lrx="2285" lry="2039" ulx="2131" uly="1852" xml:id="zone_epm_qcq_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1375/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4cfe9bf640af67b2c7cc221bed2acc0f94c4c418.jpg"/>
+<zone lrx="2700" lry="1311" ulx="439" uly="1016" xml:id="zone_gs5_rcq_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ykg_hcq_cjb" type="ʿarz-ı_hāl_buyuruldu_iʿlām_sūret">
+<div1 facs="#zone_ilt_jcq_cjb" type="ʿarz-ı_hāl_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div2 facs="#zone_ets_kcq_cjb" type="sign_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_zdj_lcq_cjb" type="buyuruldu_sūret">
+<p>
+<lb></lb>olalar deyu buyuruldu<lb></lb>
+<lb></lb>fī <date type="created" when-custom="1173--28">28 ... 173</date><lb></lb>
+</p>
+</div1>
+<div1 facs="#zone_v11_ncq_cjb" type="iʿlām_sūret">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1174-01-01">gürre-i Muharremi'l-harām sene arbaʿ ve sabʿīn<lb></lb>
+<lb></lb>ve mie ve elif</date><lb></lb>
+</p>
+</div1>
+<div1 facs="#zone_r2q_4cq_cjb" type="buyuruldu_sūret">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1174-01-05">5 M 74</date><lb></lb>
+</p>
+</div1>
+<div2 facs="#zone_jtl_pcq_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_epm_qcq_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_gs5_rcq_cjb" type="summary_Croatian">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

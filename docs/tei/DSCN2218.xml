@@ -1,62 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN2218</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="summary">馬を借りるための請求書</note>
-            <note type="translation">
-              <l>クレシェヴォからフォイニチェへ至るある…</l>
-               <l>駄獣（馬）が必要になり、クレシェヴォ・ヴァロシュの</l>
-               <l>ムカーター・エミンの仲介で(?)求められたので</l>
-               <l>トムベク(?)という名前の非ムスリムを見つけて、代金(?)が</l>
-               <l>前述のヴァロシュの非ムスリムから支払わされるために</l>
-               <l>この書面がその手に与えられた</l>
-               <l>1194年4月7日</l>
-               <l>（作成者）…オメル　※役職等は不明</l>
-            </note>
-            <note>文書作成者は、ムカーター・エミンか？</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2218</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">馬を借りるための請求書</note>
+<note type="translation">
+<l>クレシェヴォからフォイニチェへ至るある…</l>
+<l>駄獣（馬）が必要になり、クレシェヴォ・ヴァロシュの</l>
+<l>ムカーター・エミンの仲介で(?)求められたので</l>
+<l>トムベク(?)という名前の非ムスリムを見つけて、代金(?)が</l>
+<l>前述のヴァロシュの非ムスリムから支払わされるために</l>
+<l>この書面がその手に与えられた</l>
+<l>1194年4月7日</l>
+<l>（作成者）…オメル　※役職等は不明</l>
+</note>
+<note>文書作成者は、ムカーター・エミンか？</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
                }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2546/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/c116aee62b16a0acb18b0d4f04e4ea7e27f8f9ea.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/2546/canvas/p1"/>
-            <zone xml:id="zone_thq_j3w_j3b" lry="2257" lrx="1871" uly="242" ulx="435"/>
-            <zone xml:id="zone_wcp_k3w_j3b" lry="2200" lrx="1193" uly="1721" ulx="607"/>
-         </surface>
-         <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/2546/canvas/p2"
-               url="https://diyhistory.org/public/phr2/files/original/9208d03c87d27bcde6064b74d37d15690edd7525.jpg"
-            />
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="yafta" facs="#zone_thq_j3w_j3b">
-            <l><placeName type="proper">Kirşevo</placeName>'dan <placeName type="proper">Foyniçe</placeName>'ye varınca bir ...</l>
-            <l>bārgīre lede'l-ihtiyāc <placeName>varoş-ı <placeName type="proper">Kirşevo</placeName></placeName></l>
-            <l><persName>emīn-i mukātaʿa</persName> maʿarifetiyle(?) matlūb olundukdan </l>
-            <l><persName cert="low">Tombek</persName> nām zimmīyı bulmalarıyle ücreti</l>
-            <l><persName><placeName>varoş-ı mezbūre</placeName> zimmīleri</persName>nden virdirilmek</l>
-            <l>üzere işbu yafta yedine virilmişdir</l>
-            <l>fī <date when-custom="1194-04-07">7 R 194</date></l>
-         </div>
-         <div type="stamp" facs="#zone_wcp_k3w_j3b">
-            <l>... <persName>ʿÖmer</persName></l>
-         </div>
-      </body>
-   </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2546/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2546/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c116aee62b16a0acb18b0d4f04e4ea7e27f8f9ea.jpg"/>
+<zone lrx="1871" lry="2257" ulx="435" uly="242" xml:id="zone_thq_j3w_j3b"/>
+<zone lrx="1193" lry="2200" ulx="607" uly="1721" xml:id="zone_wcp_k3w_j3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2546/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9208d03c87d27bcde6064b74d37d15690edd7525.jpg"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_thq_j3w_j3b" type="yafta">
+<l><placename type="proper">Kirşevo</placename>'dan <placename type="proper">Foyniçe</placename>'ye varınca bir ...</l>
+<l>bārgīre lede'l-ihtiyāc <placename>varoş-ı <placename type="proper">Kirşevo</placename></placename></l>
+<l><persname>emīn-i mukātaʿa</persname> maʿarifetiyle(?) matlūb olundukdan </l>
+<l><persname cert="low">Tombek</persname> nām zimmīyı bulmalarıyle ücreti</l>
+<l><persname><placename>varoş-ı mezbūre</placename> zimmīleri</persname>nden virdirilmek</l>
+<l>üzere işbu yafta yedine virilmişdir</l>
+<l>fī <date when-custom="1194-04-07">7 R 194</date></l>
+</div1>
+<div3 facs="#zone_wcp_k3w_j3b" type="stamp">
+<l>... <persname>ʿÖmer</persname></l>
+</div3>
+</body>
+</text>
 </TEI>

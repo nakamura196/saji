@@ -1,52 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0147</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1630/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/ecac6bc8c6b581a66109648e6dce7beeab1e0c38.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1630/canvas/p1"/>
-            <zone xml:id="zone_bw1_xrw_2jb" lry="3000" lrx="2425" uly="116" ulx="25"/>
-            <zone xml:id="zone_syd_yrw_2jb" lry="2951" lrx="393" uly="2506" ulx="59"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/c6e8c7bd09b8e63a1b25172414a4a26a8ef86fce.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1630/canvas/p2"/>
-            <zone xml:id="zone_edj_1sw_2jb" lry="1355" lrx="2289" uly="238" ulx="1500"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="EMIN_zabt_tezkire" facs="#zone_bw1_xrw_2jb">
-            <p>
-               <lb/>işbu <date when-custom="1260">bin iki yüz altmış senesinde</date> der ʿuhde ... <lb/>
-               <lb/>fī <date when-custom="1260-10-16" type="created">16 Şevvāl sene 1260</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_syd_yrw_2jb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>            
-         </div>
-         <div type="summary_Croatian" facs="#zone_edj_1sw_2jb">
-            <p>
-               <lb/>...<lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0147</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1630/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1630/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ecac6bc8c6b581a66109648e6dce7beeab1e0c38.jpg"/>
+<zone lrx="2425" lry="3000" ulx="25" uly="116" xml:id="zone_bw1_xrw_2jb"/>
+<zone lrx="393" lry="2951" ulx="59" uly="2506" xml:id="zone_syd_yrw_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1630/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c6e8c7bd09b8e63a1b25172414a4a26a8ef86fce.jpg"/>
+<zone lrx="2289" lry="1355" ulx="1500" uly="238" xml:id="zone_edj_1sw_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_bw1_xrw_2jb" type="EMIN_zabt_tezkire">
+<p>
+<lb></lb>işbu <date when-custom="1260">bin iki yüz altmış senesinde</date> der ʿuhde ... <lb></lb>
+<lb></lb>fī <date type="created" when-custom="1260-10-16">16 Şevvāl sene 1260</date><lb></lb>
+</p>
+<div2 facs="#zone_syd_yrw_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_edj_1sw_2jb" type="summary_Croatian">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

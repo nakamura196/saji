@@ -1,62 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0218</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1697/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/06dd53b97c01be5988bc94cea88622ff8f25e233.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p1"/>
-            <zone xml:id="zone_bll_1ck_kjb" lry="3150" lrx="2060" uly="170" ulx="360"/>
-            <zone xml:id="zone_nm4_cck_kjb" lry="3146" lrx="871" uly="2688" ulx="391"/>
-            <zone xml:id="zone_fwk_dck_kjb" lry="3135" lrx="864" uly="2910" ulx="605"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/e3a722699986684b39fe2a75565eafb3e4d96bd3.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p2"/>
-            <zone xml:id="zone_wg4_2ck_kjb" lry="1672" lrx="2850" uly="705" ulx="234"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="EMIN_varaka" cert="unknown" facs="#zone_bll_1ck_kjb">
-            <p>
-               <lb/>... <date when-custom="1266" type="created">sene 66</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_nm4_cck_kjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div type="stamp" facs="#zone_fwk_dck_kjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div>
-            </div>
-            <div type="şühūdu’l-hāl">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>
-         </div>
-         <div type="summary_Croatian" facs="#zone_wg4_2ck_kjb">
-            <p>
-               <lb/><date when-custom="1266" type="summary_Croatian">g. 1266</date>.<lb/>
-            </p>
-         </div>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0218</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1697/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/06dd53b97c01be5988bc94cea88622ff8f25e233.jpg"/>
+<zone lrx="2060" lry="3150" ulx="360" uly="170" xml:id="zone_bll_1ck_kjb"/>
+<zone lrx="871" lry="3146" ulx="391" uly="2688" xml:id="zone_nm4_cck_kjb"/>
+<zone lrx="864" lry="3135" ulx="605" uly="2910" xml:id="zone_fwk_dck_kjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e3a722699986684b39fe2a75565eafb3e4d96bd3.jpg"/>
+<zone lrx="2850" lry="1672" ulx="234" uly="705" xml:id="zone_wg4_2ck_kjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_bll_1ck_kjb" type="EMIN_varaka">
+<p>
+<lb></lb>... <date type="created" when-custom="1266">sene 66</date><lb></lb>
+</p>
+<div2 facs="#zone_nm4_cck_kjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_fwk_dck_kjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+<div1 type="şühūdu’l-hāl">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</div1>
+<div1 facs="#zone_wg4_2ck_kjb" type="summary_Croatian">
+<p>
+<lb></lb><date type="summary_Croatian" when-custom="1266">g. 1266</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

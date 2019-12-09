@@ -1,53 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1859</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:type": [
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1859</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:type": [
                "iʿlām+メモ？" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1389/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/d9df638bf7d4959d8f949a785779d3e38e74df70.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1389/canvas/p1"/>
-            <zone xml:id="zone_gch_nrv_cjb" lry="3091" lrx="1450" uly="116" ulx="225"/>
-            <zone xml:id="zone_gsn_4rv_cjb" lry="3036" lrx="573" uly="2801" ulx="241"/>
-            <zone xml:id="zone_mr3_qrv_cjb" lry="2402" lrx="2029" uly="1941" ulx="1432"/>
-            <zone xml:id="zone_i2j_rrv_cjb" lry="3032" lrx="1967" uly="2432" ulx="1450"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="iʿlām" facs="#zone_gch_nrv_cjb">
-            <p>
-               <lb/>... fī <date when-custom="1213-03-18" type="created">18 Ra 1213</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_gsn_4rv_cjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>            
-         </div>
-         <div type="note" cert="unknown" facs="#zone_mr3_qrv_cjb">
-            <p>
-               <lb/>...<lb/>
-            </p>
-         </div>
-         <div type="note" cert="unknown" facs="#zone_i2j_rrv_cjb">
-            <p>
-               <lb/>... <lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1389/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1389/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d9df638bf7d4959d8f949a785779d3e38e74df70.jpg"/>
+<zone lrx="1450" lry="3091" ulx="225" uly="116" xml:id="zone_gch_nrv_cjb"/>
+<zone lrx="573" lry="3036" ulx="241" uly="2801" xml:id="zone_gsn_4rv_cjb"/>
+<zone lrx="2029" lry="2402" ulx="1432" uly="1941" xml:id="zone_mr3_qrv_cjb"/>
+<zone lrx="1967" lry="3032" ulx="1450" uly="2432" xml:id="zone_i2j_rrv_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_gch_nrv_cjb" type="iʿlām">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1213-03-18">18 Ra 1213</date><lb></lb>
+</p>
+<div2 facs="#zone_gsn_4rv_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 cert="unknown" facs="#zone_mr3_qrv_cjb" type="note">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+<div1 cert="unknown" facs="#zone_i2j_rrv_cjb" type="note">
+<p>
+<lb></lb>... <lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

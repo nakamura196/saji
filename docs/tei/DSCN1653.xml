@@ -1,34 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1653</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1192/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/c359a56c1a00cd866c4902143949618511a8991e.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1192/canvas/p1"/>
-            <zone xml:id="zone_crd_fnk_1jb" lry="3158" lrx="1958" uly="1741" ulx="8"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="ʿarz-ı_hāl" facs="#zone_crd_fnk_1jb">
-            <p>
-               <lb/>...<lb/>
-            </p>
-         </div>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1653</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1192/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1192/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c359a56c1a00cd866c4902143949618511a8991e.jpg"/>
+<zone lrx="1958" lry="3158" ulx="8" uly="1741" xml:id="zone_crd_fnk_1jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_crd_fnk_1jb" type="ʿarz-ı_hāl">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

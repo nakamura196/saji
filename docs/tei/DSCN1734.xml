@@ -1,66 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1734</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】典型：buyurulduの写し？</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1267/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/b963ff2a82b97c1ede70d6088eca7e9fb31d4cd6.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1267/canvas/p1"/>
-            <zone xml:id="zone_txr_yn2_bjb" lry="2093" lrx="2206" uly="146" ulx="86"/>
-            <zone xml:id="zone_in1_142_bjb" lry="1016" lrx="1196" uly="790" ulx="968"/>
-            <zone xml:id="zone_tp5_142_bjb" lry="1762" lrx="2191" uly="1337" ulx="1408"/>
-            <zone xml:id="zone_lx1_l42_bjb" lry="1661" lrx="2186" uly="1481" ulx="2020"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/80a8f9ae06ef0828da702b36e0ebc0c6cc5e2ae5.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1267/canvas/p2"/>
-            <zone xml:id="zone_p4g_c42_bjb" lry="1233" lrx="2645" uly="450" ulx="367"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="beyāz_üzerine_buyuruldu_sūret" cert="low" facs="#zone_txr_yn2_bjb">
-            <p>
-               <lb/>buyuruldu fī <date when-custom="1232--11" type="created">11 sene 232</date><lb/>
-            </p>
-            <div type="stamp_sūret" facs="#zone_in1_142_bjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>            
-            <div type="sign" facs="#zone_tp5_142_bjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div type="stamp" facs="#zone_lx1_l42_bjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div>
-            </div>
-         </div>
-         <div type="summary_Croatian" facs="#zone_p4g_c42_bjb">
-            <p>
-               <lb/>... <date when="1816" type="summary_Croatian">1816</date>.<lb/>
-            </p>
-         </div>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1734</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】典型：buyurulduの写し？</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1267/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1267/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b963ff2a82b97c1ede70d6088eca7e9fb31d4cd6.jpg"/>
+<zone lrx="2206" lry="2093" ulx="86" uly="146" xml:id="zone_txr_yn2_bjb"/>
+<zone lrx="1196" lry="1016" ulx="968" uly="790" xml:id="zone_in1_142_bjb"/>
+<zone lrx="2191" lry="1762" ulx="1408" uly="1337" xml:id="zone_tp5_142_bjb"/>
+<zone lrx="2186" lry="1661" ulx="2020" uly="1481" xml:id="zone_lx1_l42_bjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1267/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/80a8f9ae06ef0828da702b36e0ebc0c6cc5e2ae5.jpg"/>
+<zone lrx="2645" lry="1233" ulx="367" uly="450" xml:id="zone_p4g_c42_bjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_txr_yn2_bjb" type="beyāz_üzerine_buyuruldu_sūret">
+<p>
+<lb></lb>buyuruldu fī <date type="created" when-custom="1232--11">11 sene 232</date><lb></lb>
+</p>
+<div3 facs="#zone_in1_142_bjb" type="stamp_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+<div2 facs="#zone_tp5_142_bjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_lx1_l42_bjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_p4g_c42_bjb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when="1816">1816</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

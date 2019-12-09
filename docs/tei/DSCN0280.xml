@@ -1,47 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0280</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1759/manifest">
-         <surface>
-            <graphic url="https://diyhistory.org/public/phr2/files/original/324b0ea322f309a34f28630157fd06d0675e5721.jpg" n="https://diyhistory.org/public/phr2/iiif/1759/canvas/p1"/>
-            <zone xml:id="zone_fys_cg5_xjb" lry="2954" lrx="1609" uly="109" ulx="109"/>
-            <zone xml:id="zone_h25_dg5_xjb" lry="2839" lrx="705" uly="2578" ulx="265"/>
-         </surface>
-         <surface>
-            <graphic url="https://diyhistory.org/public/phr2/files/original/5d32d7eca4406cf29d840ee3184b6d241aed6b9b.jpg" n="https://diyhistory.org/public/phr2/iiif/1759/canvas/p2"/>
-            <zone xml:id="zone_myf_fg5_xjb" lry="775" lrx="662" uly="570" ulx="425"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div1 type="mürāsele" facs="#zone_fys_cg5_xjb">
-            <p>
-               <lb/>... fī <date when-custom="1191-10" type="created">L sene 191</date><lb/>
-            </p>
-            <div2 type="sign" facs="#zone_h25_dg5_xjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div3 type="stamp" facs="#zone_myf_fg5_xjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div3>
-            </div2>
-         </div1>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0280</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1759/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1759/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/324b0ea322f309a34f28630157fd06d0675e5721.jpg"/>
+<zone lrx="1609" lry="2954" ulx="109" uly="109" xml:id="zone_fys_cg5_xjb"/>
+<zone lrx="705" lry="2839" ulx="265" uly="2578" xml:id="zone_h25_dg5_xjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1759/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/5d32d7eca4406cf29d840ee3184b6d241aed6b9b.jpg"/>
+<zone lrx="662" lry="775" ulx="425" uly="570" xml:id="zone_myf_fg5_xjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_fys_cg5_xjb" type="mürāsele">
+<p>
+<lb/>... fī <date type="created" when-custom="1191-10">L sene 191</date><lb/>
+</p>
+<div2 facs="#zone_h25_dg5_xjb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_myf_fg5_xjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
 </TEI>

@@ -1,58 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0282</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1761/manifest">
-         <surface>
-            <graphic url="https://diyhistory.org/public/phr2/files/original/68f9c3ef571db94d37245b89badc90575a2e5aa8.jpg" n="https://diyhistory.org/public/phr2/iiif/1761/canvas/p1"/>
-            <zone xml:id="zone_vpr_w35_xjb" lry="3172" lrx="2200" uly="90" ulx="182"/>
-            <zone xml:id="zone_dp4_x35_xjb" lry="2978" lrx="598" uly="2701" ulx="348"/>
-         </surface>
-         <surface>
-            <graphic url="https://diyhistory.org/public/phr2/files/original/74d4ba8b4a71b9afb441670b9afc0c33e3ff18d2.jpg" n="https://diyhistory.org/public/phr2/iiif/1761/canvas/p2"/>
-            <zone xml:id="zone_agz_y35_xjb" lry="504" lrx="487" uly="287" ulx="254"/>
-            <zone xml:id="zone_stk_z35_xjb" lry="1212" lrx="2316" uly="816" ulx="91"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div1 type="EMIN" subtype="temessük" facs="#zone_vpr_w35_xjb">
-            <p>
-               <lb/>... fī <date when-custom="1256-03-13" cert="medium" type="created">13 Ra sene 56</date><lb/>
-            </p>
-            <div2 type="sign" facs="#zone_dp4_x35_xjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div3 type="stamp" facs="#zone_agz_y35_xjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div3>
-            </div2>
-            <div2 type="şühūdu’l-hāl">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div2>
-         </div1>
-         <div1 type="summary_Croatian" facs="#zone_stk_z35_xjb">
-            <p>
-               <lb/>...<lb/>
-            </p>
-         </div1>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0282</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1761/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1761/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/68f9c3ef571db94d37245b89badc90575a2e5aa8.jpg"/>
+<zone lrx="2200" lry="3172" ulx="182" uly="90" xml:id="zone_vpr_w35_xjb"/>
+<zone lrx="598" lry="2978" ulx="348" uly="2701" xml:id="zone_dp4_x35_xjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1761/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/74d4ba8b4a71b9afb441670b9afc0c33e3ff18d2.jpg"/>
+<zone lrx="487" lry="504" ulx="254" uly="287" xml:id="zone_agz_y35_xjb"/>
+<zone lrx="2316" lry="1212" ulx="91" uly="816" xml:id="zone_stk_z35_xjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_vpr_w35_xjb" subtype="temessük" type="EMIN">
+<p>
+<lb/>... fī <date cert="medium" type="created" when-custom="1256-03-13">13 Ra sene 56</date><lb/>
+</p>
+<div2 facs="#zone_dp4_x35_xjb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_agz_y35_xjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_stk_z35_xjb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

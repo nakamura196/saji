@@ -1,66 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0155</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】日付：Ra月？要確認。</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0155</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：Ra月？要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]
                }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1637/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/d3ab06e22041cd0a77850ad8b8983f65d99d885f.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1637/canvas/p1"/>
-            <zone xml:id="zone_bt1_3nd_fjb" lry="3125" lrx="1842" uly="516" ulx="175"/>
-            <zone xml:id="zone_pwd_jnd_fjb" lry="1239" lrx="1409" uly="534" ulx="484"/>
-            <zone xml:id="zone_krz_jnd_fjb" lry="3030" lrx="827" uly="2812" ulx="572"/>
-         </surface>
-         <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/1637/canvas/p2"
-               url="https://diyhistory.org/public/phr2/files/original/d965bc811cb32147d5851588032b538dc9e195b4.jpg"
-            />
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/827d51ddd4a0e68a49682dac6f15974fc8b2091b.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1637/canvas/p3"/>
-            <zone xml:id="zone_pns_lnd_fjb" lry="1305" lrx="2539" uly="916" ulx="667"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="tapu_senedi" facs="#zone_bt1_3nd_fjb">
-            <p>
-               <lb/>... fī <date when-custom="1272-03-11" cert="low" type="created">11 Ra sene 1272</date><lb/>
-            </p>
-            <div type="tuğra" facs="#zone_pwd_jnd_fjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>
-            <div type="stamp" facs="#zone_krz_jnd_fjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>            
-         </div>
-         <div type="summary_Croatian" facs="#zone_pns_lnd_fjb">
-            <p>
-               <lb/>... <date when="1877" type="summary_Croatian">1877</date>.<lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1637/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1637/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d3ab06e22041cd0a77850ad8b8983f65d99d885f.jpg"/>
+<zone lrx="1842" lry="3125" ulx="175" uly="516" xml:id="zone_bt1_3nd_fjb"/>
+<zone lrx="1409" lry="1239" ulx="484" uly="534" xml:id="zone_pwd_jnd_fjb"/>
+<zone lrx="827" lry="3030" ulx="572" uly="2812" xml:id="zone_krz_jnd_fjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1637/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d965bc811cb32147d5851588032b538dc9e195b4.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1637/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/827d51ddd4a0e68a49682dac6f15974fc8b2091b.jpg"/>
+<zone lrx="2539" lry="1305" ulx="667" uly="916" xml:id="zone_pns_lnd_fjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_bt1_3nd_fjb" type="tapu_senedi">
+<p>
+<lb></lb>... fī <date cert="low" type="created" when-custom="1272-03-11">11 Ra sene 1272</date><lb></lb>
+</p>
+<div1 facs="#zone_pwd_jnd_fjb" type="tuğra">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+<div3 facs="#zone_krz_jnd_fjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div1>
+<div1 facs="#zone_pns_lnd_fjb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when="1877">1877</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

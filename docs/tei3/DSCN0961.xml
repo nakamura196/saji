@@ -12,12 +12,7 @@
 <note type="mine">DSCN1050.JPGと同じ文書。重複している。画像は撮り直している。</note>
 </notesStmt>
 <sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
-          "1233-Ca-10(?)" ], "saji:date_M": [ "1818-03-18" ], "saji:foldingMethod": [ "5x1" ],
-          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [
-          "・hüve\r\n・本文\r\n・日付\r\n・はしがき（証人？）\r\n・不明なスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage":
-          [ "14" ], "saji:number": [ "48" ], "saji:relationWithAnotherItems": [ "表全体像" ],
-          "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "?" ] }</p>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1233-Ca-10(?)" ], "saji:date_M": [ "1818-03-18" ], "saji:foldingMethod": [ "5x1" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・本文\r\n・日付\r\n・はしがき（証人？）\r\n・不明なスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "14" ], "saji:number": [ "48" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "?" ] }</p>
 </sourceDesc>
 </fileDesc>
 </teiHeader>
@@ -49,44 +44,45 @@
 </facsimile>
 <text>
 <body>
-<div1 cert="unknown" facs="#zone_rsg_lrz_y3b" type="EMIN_tapu_sūret">
+<div1 cert="unknown" facs="#zone_rsg_lrz_y3b" subtype="tapu_sūret" type="EMIN">
 <p>
 <lb />Hüve<lb />
 <lb />Vech-i tahrīr-i hurūf oldur ki<lb />
-<lb />işbu <date when="0654-06-22" when-custom="1233">bin iki yüz otuz üç senesinde Martı ... māh-ı ...onuncu günden</date><lb />
-<lb />der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasında ... karyesinde ...'nin İbrāhīm ve Alī'nin<lb />
-<lb />ve ...'nin oğluları ... merkūmlarda ... tasarrıfında ve yine İbrāhīm'nın<lb />
-<lb />...'nin ʿĀyşa'nın ... kendi tasarrıfında ... İbrāhīm<lb />
-<lb />ve ... altmış ve ... tasarrıfında bulunan mülk-i emlāk ve arāzī-i<lb />
-<lb />... el-ahāli ve'l-... el-hudūd ... ve her ne ki<lb />
-<lb />... hudūd dāhilinde işbu dārande-i hurūf ... olmak<lb />
-<lb />üzere beş yüz seksen guruş mukābelesinde beyʿ ... kıtʿayla beyʿ ... merkūmlar ...'nin oğluları<lb />
-<lb />ve İbrāhīm kendi ... tarafından tamāmen akça ... ve mezbūr rubānlar tapuya tālib ... olmakla<lb />
-<lb />biz ... me'mūr olduğumuz hasebiyle biz ... ve tapuyı tahrīr ve kānūn pādişāhı<lb />
-<lb />üzere resm ...  ve tapuyı mesfūrların yedine  virildi ... senesine ... şerʿye<lb />
-<lb />... ve rusūmāt ... tarafımızdan ... oluna ... edāyla tarafımızdan ve taraf<lb />
-<lb />...dan be kimesne māniʿ olumaya fī <date type="created" when="1818-03-17" when-custom="1233-05-10">10 Ca 1233</date><lb />
+<lb />işbu <date cert="unknown" from="1818-03-17" from-custom="1233-05-10">bin iki yüz otuz üç senesinde Martı hesābıyle māh-ı Cemaziye-i evvel onuncu gününde</date><lb />
+<lb />der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasında [地名] karyesinde <persName cert="low">NUCK İbrāhīm</persName> ve <persName>Alī</persName>'nin<lb />
+<lb />ve diğer NUCK oğulları <persName role="diğer NUCK oğulları">Sālih</persName>'in ve <persName role="diğer NUCK oğulları">Hüseyin</persName>'in merkūmların taht-ı tasarrıfında ve yine İbrāhīm'in<lb />
+<lb />zevcesinin <persName role="NUCK İbrāhīm'in zevcesi">ʿĀyşe</persName>'nin bint-i ... üçüncü hisse(?) kendi tasarrıfında zevc İbrāhīm<lb />
+<lb />vekīl etmiş ve merkūmların ve ʿĀyşe'nin taht-ı tasarrıfında bulunan mülk emlāk ve arāzī-i<lb />
+<lb />mīrīye ve beyne'l-ahāli ve'l-cīrān maʿlūmetü’l-hudūd koru örsüyle(?) ve korusuyle ve her ne ki<lb />
+<lb />var ise hudūd dāhilinde işbu dārende-i hurūf <persName role="dārende-i hurūf">ruhbānlara</persName> kiliseye meşrūt olmak<lb />
+<lb />üzere beş yüz seksen guruş mukābelesinde beyʿ-i bāt katʿiyle beyʿ [ü] ferāğ merkūmlar NUCK oğulları<lb />
+<lb />ve İbrāhīm kendi zevce tarafından tamāmen akça ahz ve mezbūr rubānlar tapuya tālib ve rāgib olmağla<lb />
+<lb />biz dahi me'mūr olduğumuz hasebiyle biz dahi revā görüb ve tapuyı tahrīr ve kānūn-ı pādişāhī<lb />
+<lb />üzere resm ahz ve tapuyı mesfūrların yedine virildi mā-dām ki senesine ʿaşār-ı şerʿiye<lb />
+<lb />-sin[i] ve rusūmāt-ı ʿörfiyesin[i] taraf-ı mīrīye rāciʿ oluna be-her sene edāyle tarafımızdan ve taraf-ı<lb />
+<lb />āhardan bir kimesne māniʿ olumaya fī <date type="created" when="1818-03-17" when-custom="1233-05-10">10 Ca 1233</date><lb />
 </p>
 <div2 facs="#zone_osm_tp5_jjb" type="sign">
 <p>
-<lb />Bende Süleymān el-me'mūr<lb />
+<lb />Bende <persName role="me'mūr">Süleymān</persName> el-me'mūr<lb />
 </p>
 <div3 facs="#zone_uns_prz_y3b" type="stamp_sūret">
 <p>
-<lb />Hodābend ...<lb />
+<lb />Hodābend <persName cert="medium" role="el-me'mūr">Süleymān</persName><lb />
 </p>
 </div3>
 </div2>
-<div1 type="Şühūdu’l-hāl">
+<div2 type="Şühūdu’l-hāl">
 <p>
 <lb />Şühūdu’l-hāl<lb />
-<lb />... İbrāhīm Ağa Paşa<lb />
-<lb />Kirşevolu Kıdā ... Ağa<lb />
-<lb />Kirşevolu Dervīşe Ağa Serdār ...<lb />
-<lb />... Sālif Beşe<lb />
-<lb />... ʿAbdüllāh ʿAlemdār<lb />
+<lb /><persName role="Ağa, Paşa, Şühūdu’l-hāl">Sayaylı Kara İbrāhīm</persName> Ağa Paşa<lb />
+<lb /><persName role="Ağa, Şühūdu’l-hāl">Kirşevolu Feyzullāh</persName> Ağa<lb />
+<lb /><persName role="Ağa, Serdār-ı Sābık, Şühūdu’l-hāl">Kirşevolu Dervīş</persName> Ağa Serdār-ı Sābık<lb />
+<lb /><persName cert="unknown" role="Beşe, Şühūdu’l-hāl">[地名？] Sālif</persName> Beşe<lb />
+<lb /><persName cert="unknown" role="ʿAlemdār, Şühūdu’l-hāl">[地名？] ʿAbdī</persName> ʿAlemdār<lb />
+<lb />ve gayruhum<lb />
 </p>
-</div1>
+</div2>
 </div1>
 <div1 facs="#zone_uls_nrz_y3b" type="summary_Croatian">
 <p>
@@ -100,11 +96,11 @@
 <lb />... fī <date type="created" when="1818-03-17" when-custom="1233-05-10">10 Ca 1233</date><lb />
 </p>
 </div1>
-<div3 facs="#zone_a5c_1zj_1jb" type="stamp_sūret">
+<div1 facs="#zone_a5c_1zj_1jb" type="stamp_sūret">
 <p>
 <lb />...<lb />
 </p>
-</div3>
+</div1>
 <div1 facs="#zone_fcy_1zj_1jb" type="summary_Croatian">
 <p>
 <lb />... <date type="summary_Croatian" when="1819">1819</date>. <date type="summary_Croatian" when="0654-06-22" when-custom="1233">1233</date>.<lb />

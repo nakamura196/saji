@@ -8,29 +8,32 @@
 <p>Publication Information</p>
 </publicationStmt>
 <sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
 </sourceDesc>
 </fileDesc>
 </teiHeader>
 <facsimile>
 <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1707/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1707/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f31e6e93431cc16cf0ce3dfef825f90178edb3b4.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1707/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4c9149173eeb9b9b167045cf5eda8c4e859d871e.jpg" /></surface></surfaceGrp>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1707/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f31e6e93431cc16cf0ce3dfef825f90178edb3b4.jpg" />
+<zone lrx="2345" lry="3036" ulx="109" uly="181" xml:id="zone_mkt_xdk_kjb" />
+<zone lrx="513" lry="2792" ulx="173" uly="2333" xml:id="zone_gzg_zdk_kjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1707/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4c9149173eeb9b9b167045cf5eda8c4e859d871e.jpg" />
+<zone lrx="2906" lry="1661" ulx="123" uly="838" xml:id="zone_hqn_12k_kjb" />
+</surface>
+</surfaceGrp>
 </facsimile>
 <text>
 <body>
-<div1 type="EMIN_zabt_temessük">
+<div1 facs="#zone_mkt_xdk_kjb" type="EMIN_zabt_temessük">
 <p>
-<lb />işbu <date when="1841-02-21" when-custom="1256">bin iki yüz elli altı senesinde</date> der ʿuhde  ve ...<lb />
+<lb />işbu <date when="1841-02-21" when-custom="1256">bin iki yüz elli altı senesinde</date> der ʿuhde
+               ve ...<lb />
 <lb />... fī <date type="created" when="1840-06-22" when-custom="1256-04-22">22 R sene 256</date><lb />
 </p>
-<div2 type="sign">
+<div2 facs="#zone_gzg_zdk_kjb" type="sign">
 <p>
 <lb />...<lb />
 </p>
@@ -41,7 +44,7 @@
 </p>
 </div1>
 </div1>
-<div1 type="sumamry_Croatian">
+<div1 facs="#zone_hqn_12k_kjb" type="sumamry_Croatian">
 <p>
 <lb />... <date type="summary_Croatian" when="1840">1840</date><lb />
 <lb />=<date type="summary_Croatian" when="1841-02-21" when-custom="1256">1256</date>.<lb />

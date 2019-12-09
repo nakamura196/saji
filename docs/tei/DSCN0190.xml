@@ -1,53 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0190</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1670/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/b61a63b4f29c12e99352300d976f67fd4e2f97cc.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1670/canvas/p1"/>
-            <zone xml:id="zone_bkv_zst_3jb" lry="2730" lrx="2385" uly="84" ulx="62"/>
-            <zone xml:id="zone_q1x_btt_3jb" lry="2550" lrx="353" uly="2196" ulx="69"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/870b50ba612bef8cd209fcd94813594093a1d1b7.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1670/canvas/p2"/>
-            <zone xml:id="zone_g4c_ftt_3jb" lry="1950" lrx="3039" uly="483" ulx="145"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="EMIN_zabt_temessük" facs="#zone_bkv_zst_3jb">
-            <p>
-               <lb/>İşbu <date when-custom="1260">bin iki yüz altmış senesinde</date> der ʿuhde ve ... fī <lb/>
-               <lb/>... fī <date when-custom="1260-08-20" type="created">20 Ş sene 1260</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_q1x_btt_3jb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>
-         </div>
-         <div type="summary_Croatian" facs="#zone_g4c_ftt_3jb">
-            <p>
-               <lb/><date when="1884" type="summary_Croatian">1884</date>.<lb/>
-               <lb/><date when-custom="1260" type="summary_Croatian">1260</date>.<lb/>
-            </p>
-         </div>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0190</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1670/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1670/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b61a63b4f29c12e99352300d976f67fd4e2f97cc.jpg"/>
+<zone lrx="2385" lry="2730" ulx="62" uly="84" xml:id="zone_bkv_zst_3jb"/>
+<zone lrx="353" lry="2550" ulx="69" uly="2196" xml:id="zone_q1x_btt_3jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1670/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/870b50ba612bef8cd209fcd94813594093a1d1b7.jpg"/>
+<zone lrx="3039" lry="1950" ulx="145" uly="483" xml:id="zone_g4c_ftt_3jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_bkv_zst_3jb" type="EMIN_zabt_temessük">
+<p>
+<lb></lb>İşbu <date when-custom="1260">bin iki yüz altmış senesinde</date> der ʿuhde ve ... fī <lb></lb>
+<lb></lb>... fī <date type="created" when-custom="1260-08-20">20 Ş sene 1260</date><lb></lb>
+</p>
+<div2 facs="#zone_q1x_btt_3jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_g4c_ftt_3jb" type="summary_Croatian">
+<p>
+<lb></lb><date type="summary_Croatian" when="1884">1884</date>.<lb></lb>
+<lb></lb><date type="summary_Croatian" when-custom="1260">1260</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

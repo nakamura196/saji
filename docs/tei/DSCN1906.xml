@@ -1,51 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1906</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1436/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/658e0ff935ceb2033e56fec62f8cf3f59095a152.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1436/canvas/p1"/>
-            <zone xml:id="zone_txs_qdx_cjb" lry="3025" lrx="1625" uly="200" ulx="242"/>
-            <zone xml:id="zone_xvq_rdx_cjb" lry="2955" lrx="718" uly="2749" ulx="357"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/aed67dcc230935d145e85706ad28293b031deb58.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1436/canvas/p2"/>
-            <zone xml:id="zone_o4r_sdx_cjb" lry="1755" lrx="2850" uly="172" ulx="389"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="mürāsele" facs="#zone_txs_qdx_cjb">
-            <p>
-               <lb/>... <date when-custom="1181-01-22" type="created">fi'l-yevmi'l-sānī ve'l-ʿaşrīn min Muharremi'l-harām sene 1181</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_xvq_rdx_cjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>            
-         </div>
-         <div type="summary_Croatian" facs="#zone_o4r_sdx_cjb">
-            <p>
-               <lb/>... <date when-custom="1181" type="summary_Croatian">1181</date> ... <date when="1767" type="summary_Croatian">1767</date><lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1906</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1436/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1436/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/658e0ff935ceb2033e56fec62f8cf3f59095a152.jpg"/>
+<zone lrx="1625" lry="3025" ulx="242" uly="200" xml:id="zone_txs_qdx_cjb"/>
+<zone lrx="718" lry="2955" ulx="357" uly="2749" xml:id="zone_xvq_rdx_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1436/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/aed67dcc230935d145e85706ad28293b031deb58.jpg"/>
+<zone lrx="2850" lry="1755" ulx="389" uly="172" xml:id="zone_o4r_sdx_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_txs_qdx_cjb" type="mürāsele">
+<p>
+<lb></lb>... <date type="created" when-custom="1181-01-22">fi'l-yevmi'l-sānī ve'l-ʿaşrīn min Muharremi'l-harām sene 1181</date><lb></lb>
+</p>
+<div2 facs="#zone_xvq_rdx_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_o4r_sdx_cjb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when-custom="1181">1181</date> ... <date type="summary_Croatian" when="1767">1767</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

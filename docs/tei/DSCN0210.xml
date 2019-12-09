@@ -1,58 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0210</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1689/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/c7507a6e5def8a31c3fff4a76a7ecc6d9169481e.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p1"/>
-            <zone xml:id="zone_nzs_p1k_kjb" lry="2238" lrx="2193" uly="984" ulx="131"/>
-            <zone xml:id="zone_bnv_q1k_kjb" lry="2112" lrx="448" uly="1724" ulx="181"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/83dd11136a8b8184d88ead5ebebf64294591b99a.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p2"/>
-            <zone xml:id="zone_ahv_r1k_kjb" lry="1822" lrx="2989" uly="805" ulx="200"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="EMIN_zabt_temessük" facs="#zone_nzs_p1k_kjb">
-            <p>
-               <lb/>işbu <date when-custom="1266">iki yüz altmış altı senesinde</date> ʿuhdemiz
-               buulunan Kirşevo ...<lb/>
-               <lb/>... <date when-custom="1266" type="created">sene 66</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_bnv_q1k_kjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div type="şühūdu’l-hāl">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div>
-            </div>
-         </div>
-         <div type="summary_Croatian" facs="#zone_ahv_r1k_kjb">
-            <p>
-               <lb/>... <date when="1851" type="summary_Croatian">1851</date>.<lb/>
-            </p>
-         </div>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0210</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1689/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c7507a6e5def8a31c3fff4a76a7ecc6d9169481e.jpg"/>
+<zone lrx="2193" lry="2238" ulx="131" uly="984" xml:id="zone_nzs_p1k_kjb"/>
+<zone lrx="448" lry="2112" ulx="181" uly="1724" xml:id="zone_bnv_q1k_kjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/83dd11136a8b8184d88ead5ebebf64294591b99a.jpg"/>
+<zone lrx="2989" lry="1822" ulx="200" uly="805" xml:id="zone_ahv_r1k_kjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_nzs_p1k_kjb" type="EMIN_zabt_temessük">
+<p>
+<lb></lb>işbu <date when-custom="1266">iki yüz altmış altı senesinde</date> ʿuhdemiz
+               buulunan Kirşevo ...<lb></lb>
+<lb></lb>... <date type="created" when-custom="1266">sene 66</date><lb></lb>
+</p>
+<div2 facs="#zone_bnv_q1k_kjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div2>
+</div1>
+<div1 facs="#zone_ahv_r1k_kjb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when="1851">1851</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

@@ -1,65 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0096</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1580/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/9cf5cb5a06af5d4c63e21ab8141d7cede898c739.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1580/canvas/p1"/>
-            <zone xml:id="zone_vty_1y5_l3b" lry="2991" lrx="1775" uly="100" ulx="150"/>
-            <zone xml:id="zone_emn_ct5_2jb" lry="2915" lrx="403" uly="2590" ulx="150"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/1a327c158be85fd6f5a4293addea786d1e693173.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1580/canvas/p2"/>
-            <zone xml:id="zone_vcp_cy5_l3b" lry="1333" lrx="2156" uly="1061" ulx="623"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="zabt_temessük" cert="low" facs="#zone_vty_1y5_l3b">
-            <p>
-               <lb/>... fī <lb/>
-               <lb/>Hüve<lb/>
-               <lb/>Vech-i tahrīr hurūf oldur ki<lb/>
-               <lb/>İşbu <date when-custom="1213" type="created">bin iki yüz on üç sene</date>sinde ... der ʿuhde<lb/>
-               <lb/>ve iltizām ... bulunan Kirşevo mukātaʿa mālikânesi ... kilisaya ...<lb/>
-               <lb/>olan ... mahsūlāt olan ...<lb/>
-               <lb/>...<lb/>
-               <lb/>...<lb/>
-               <lb/>kilisanın ...<lb/>
-               <lb/>...<lb/>
-               <lb/>tamāmen ber-vech-i ...<lb/>
-               <lb/>olan ...<lb/>
-               <lb/>zabt temessük zimmī <persName role="gardiyān" cert="unknown">...</persName> nām
-               gardiyān yedine virildi<lb/>
-               <lb/>tarafa ... kimesne ...<lb/>
-            </p>
-            <div type="sign" facs="#zone_emn_ct5_2jb">
-               <p>
-                  <lb/>... <persName>Mehmed</persName> ...<lb/>
-               </p>
-            </div>
-         </div>
-         <div type="summary_Serbian" facs="#zone_vcp_cy5_l3b">
-            <p>
-               <lb/>... od ... <date when="1799" type="summary_Serbian">1799</date><lb/>
-            </p>
-         </div>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0096</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1580/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1580/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9cf5cb5a06af5d4c63e21ab8141d7cede898c739.jpg"/>
+<zone lrx="1775" lry="2991" ulx="150" uly="100" xml:id="zone_vty_1y5_l3b"/>
+<zone lrx="403" lry="2915" ulx="150" uly="2590" xml:id="zone_emn_ct5_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1580/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1a327c158be85fd6f5a4293addea786d1e693173.jpg"/>
+<zone lrx="2156" lry="1333" ulx="623" uly="1061" xml:id="zone_vcp_cy5_l3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_vty_1y5_l3b" type="zabt_temessük">
+<p>
+<lb></lb>... fī <lb></lb>
+<lb></lb>Hüve<lb></lb>
+<lb></lb>Vech-i tahrīr hurūf oldur ki<lb></lb>
+<lb></lb>İşbu <date type="created" when-custom="1213">bin iki yüz on üç sene</date>sinde ... der ʿuhde<lb></lb>
+<lb></lb>ve iltizām ... bulunan Kirşevo mukātaʿa mālikânesi ... kilisaya ...<lb></lb>
+<lb></lb>olan ... mahsūlāt olan ...<lb></lb>
+<lb></lb>...<lb></lb>
+<lb></lb>...<lb></lb>
+<lb></lb>kilisanın ...<lb></lb>
+<lb></lb>...<lb></lb>
+<lb></lb>tamāmen ber-vech-i ...<lb></lb>
+<lb></lb>olan ...<lb></lb>
+<lb></lb>zabt temessük zimmī <persname cert="unknown" role="gardiyān">...</persname> nām
+               gardiyān yedine virildi<lb></lb>
+<lb></lb>tarafa ... kimesne ...<lb></lb>
+</p>
+<div2 facs="#zone_emn_ct5_2jb" type="sign">
+<p>
+<lb></lb>... <persname>Mehmed</persname> ...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_vcp_cy5_l3b" type="summary_Serbian">
+<p>
+<lb></lb>... od ... <date type="summary_Serbian" when="1799">1799</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

@@ -1,55 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0138</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="summary" cert="low">鉄鉱山のムカーターの売買？</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0138</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note cert="low" type="summary">鉄鉱山のムカーターの売買？</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [
                "典型" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1622/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/ad41de87b46436d5e3eb3775875d014aef555db5.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1622/canvas/p1"/>
-            <zone xml:id="zone_a2v_s4w_2jb" lry="2492" lrx="2214" uly="85" ulx="221"/>
-            <zone xml:id="zone_ddc_54w_2jb" lry="2428" lrx="531" uly="2049" ulx="289"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/a572ba5638e7a6da0dbd1a9fa73f43718314f3f9.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1622/canvas/p2"/>
-            <zone xml:id="zone_udc_v4w_2jb" lry="961" lrx="2728" uly="500" ulx="323"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="EMIN" cert="unknown" facs="#zone_a2v_s4w_2jb">
-            <p>
-               <lb/>işbu <date when-custom="1266" type="created">iki yüz altmış altı senesinde</date> der ʿuhde ...<lb/>
-            </p>
-            <div type="sign" facs="#zone_ddc_54w_2jb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>            
-         </div>
-         <div type="summary_Croatian" facs="#zone_udc_v4w_2jb">
-            <p>
-               <lb/>... <date when="1852" type="summary_Croatian">1852</date>.<lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1622/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1622/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ad41de87b46436d5e3eb3775875d014aef555db5.jpg"/>
+<zone lrx="2214" lry="2492" ulx="221" uly="85" xml:id="zone_a2v_s4w_2jb"/>
+<zone lrx="531" lry="2428" ulx="289" uly="2049" xml:id="zone_ddc_54w_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1622/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a572ba5638e7a6da0dbd1a9fa73f43718314f3f9.jpg"/>
+<zone lrx="2728" lry="961" ulx="323" uly="500" xml:id="zone_udc_v4w_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_a2v_s4w_2jb" type="EMIN">
+<p>
+<lb></lb>işbu <date type="created" when-custom="1266">iki yüz altmış altı senesinde</date> der ʿuhde ...<lb></lb>
+</p>
+<div2 facs="#zone_ddc_54w_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_udc_v4w_2jb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when="1852">1852</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

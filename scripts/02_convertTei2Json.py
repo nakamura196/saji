@@ -59,7 +59,7 @@ def conv_date(hd):
             hd2 = year + "-" + month + "-" + day
     return hd2
 
-dirname = "tei3"
+dirname = "tei"
 dir = "../docs/"+dirname
 files = glob.glob(dir+"/*.xml")
 
@@ -266,7 +266,7 @@ for i in range(len(files)):
         for stmt in stmts:
             g.add(stmt)
 
-    tree.write(dir.replace("/tei2", "/tei3")+"/"+title+".xml", encoding="utf-8")
+    tree.write(dir.replace("/tei", "/tei3")+"/"+title+".xml", encoding="utf-8")
 
 g.serialize(destination=path+'/data.json', format="json-ld")
 

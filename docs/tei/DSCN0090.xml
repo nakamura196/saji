@@ -1,60 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0090</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1574/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/54703ce6995d592be2b0f52985f574b93d203fa8.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1574/canvas/p1"/>
-            <zone xml:id="zone_old_sdm_l3b" lry="2430" lrx="2277" uly="1376" ulx="177"/>
-            <zone xml:id="zone_fxj_ks5_2jb" lry="2345" lrx="533" uly="1925" ulx="187"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/6e2b7d2d0b8bbc73ecb721ca6185f1bdea28ec72.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1574/canvas/p2"/>
-            <zone xml:id="zone_ys4_tdm_l3b" lry="1116" lrx="3117" uly="577" ulx="56"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="EMIN_tahvīl" cert="low" facs="#zone_old_sdm_l3b">
-            <p>
-               <lb/>Hüve<lb/>
-               <lb/>Bāis-i tahvīl oldur ki<lb/>
-               <lb/><placeName><placeName type="proper">Kirşevo</placeName> varoş
-               kilisa</placeName>nın gardiyānı <persName role="Kirşevo varoş kilisanın gardiyān"
-                  cert="unknown">Frainder</persName>ye üzerinde olan <placeName type="proper"
-                  cert="unknown">...</placeName> karyesinden<lb/>
-               <lb/>... <persName>İbrāhīm Ağa</persName>'nın ... beş yüz guruş bu defa tarafımıza tamāmen<lb/>
-               <lb/>... iʿtā eyledüğye yedine işbu ... tahvīl virildi<lb/>
-            </p>
-            <div type="sign" facs="#zone_fxj_ks5_2jb">
-               <p><lb/><persName cert="unknown">...</persName><lb/></p>
-            </div>
-            <div type="Şühūdu’l-hāl">
-               <p><lb/><persName>İmām Hoca ʿAlemdār</persName><lb/><lb/><persName>... ʿAbd b.
-                     ʿAlemdār</persName><lb/><lb/><persName>ve gayrhim ...</persName><lb/></p>
-            </div>
-         </div>
-         <div type="summary_Croatian" facs="#zone_ys4_tdm_l3b">
-            <p>
-               <lb/>... <date when="1832" type="summary_Croatian">1832</date>.<lb/>
-            </p>
-         </div>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0090</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1574/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1574/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/54703ce6995d592be2b0f52985f574b93d203fa8.jpg"/>
+<zone lrx="2277" lry="2430" ulx="177" uly="1376" xml:id="zone_old_sdm_l3b"/>
+<zone lrx="533" lry="2345" ulx="187" uly="1925" xml:id="zone_fxj_ks5_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1574/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6e2b7d2d0b8bbc73ecb721ca6185f1bdea28ec72.jpg"/>
+<zone lrx="3117" lry="1116" ulx="56" uly="577" xml:id="zone_ys4_tdm_l3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_old_sdm_l3b" type="EMIN_tahvīl">
+<p>
+<lb></lb>Hüve<lb></lb>
+<lb></lb>Bāis-i tahvīl oldur ki<lb></lb>
+<lb></lb><placename><placename type="proper">Kirşevo</placename> varoş
+               kilisa</placename>nın gardiyānı <persname cert="unknown" role="Kirşevo varoş kilisanın gardiyān">Frainder</persname>ye üzerinde olan <placename cert="unknown" type="proper">...</placename> karyesinden<lb></lb>
+<lb></lb>... <persname>İbrāhīm Ağa</persname>'nın ... beş yüz guruş bu defa tarafımıza tamāmen<lb></lb>
+<lb></lb>... iʿtā eyledüğye yedine işbu ... tahvīl virildi<lb></lb>
+</p>
+<div2 facs="#zone_fxj_ks5_2jb" type="sign">
+<p><lb></lb><persname cert="unknown">...</persname><lb></lb></p>
+</div2>
+<div1 type="Şühūdu’l-hāl">
+<p><lb></lb><persname>İmām Hoca ʿAlemdār</persname><lb></lb><lb></lb><persname>... ʿAbd b.
+                     ʿAlemdār</persname><lb></lb><lb></lb><persname>ve gayrhim ...</persname><lb></lb></p>
+</div1>
+</div1>
+<div1 facs="#zone_ys4_tdm_l3b" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when="1832">1832</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

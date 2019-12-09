@@ -1,19 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0951</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="summary">略式で書かれたḥüccet</note>
-        <note type="mine">端書に、紙がなかったため略式で書いた旨、記されている。</note>
-        <note type="mine">日付は、本文中は1273年Receb月25日となっており、クロアチア語要約は1254年Receb月となっている。ここではオスマン語の記述を優先させたい。</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0951</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">略式で書かれたḥüccet</note>
+<note type="mine">端書に、紙がなかったため略式で書いた旨、記されている。</note>
+<note type="mine">日付は、本文中は1273年Receb月25日となっており、クロアチア語要約は1254年Receb月となっている。ここではオスマン語の記述を優先させたい。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
           "1273-B-21" ], "saji:date_M": [ "1857-03-17" ], "saji:foldingMethod": [ "4x1" ],
           "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [
           "・hüve\r\n・本文\r\n・証人\r\n・欄外の記述" ], "saji:lang": [ "ota" ], "saji:lineage": [ "13+3" ],
@@ -22,37 +23,33 @@
           "典型\r\n・ḥüccetのように見えるが、料紙のアスペクト比が異なり、上部の定型句なども見られない" ], "saji:number": [ "125" ],
           "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [
           "0" ], "saji:witness": [ "1" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1067/manifest">
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/831b2ad59bde54368317590d77c4a01784b3e939.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1067/canvas/p1"/>
-        <zone xml:id="zone_hs4_bfz_y3b" lry="2925" lrx="2171" uly="148" ulx="94"/>
-        <zone xml:id="zone_hzw_gfz_y3b" lry="2553" lrx="428" uly="2393" ulx="184"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/352c3b9993ab60baf171abdb174d3449c4566615.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1067/canvas/p2"/>
-        <zone xml:id="zone_wl4_kfz_y3b" lry="1227" lrx="2867" uly="738" ulx="195"/>
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div type="hüccet_simple" facs="#zone_hs4_bfz_y3b">
-        <l>... fī <date when-custom="1273-07-25" type="created">yevmi'l-hāmis ve'l-ʿaşrūn min ... Receb ... ve sene suls ve sabʿīn</date></l>
-        <l>ve miyetein ve elif ...</l>
-        <div type="stamp_sūret" facs="#zone_hzw_gfz_y3b"></div> 
-      </div>
-      <div type="sumamry_Croatian" facs="#zone_wl4_kfz_y3b">
-        <l>Za ... <date when="1857" type="summary_Croatian">1857</date> gr. 110.</l>
-        <l><date when-custom="1254-07" type="summary_Croatian">Redjer 1254</date></l>
-      </div>
-    </body>
-  </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1067/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1067/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/831b2ad59bde54368317590d77c4a01784b3e939.jpg"/>
+<zone lrx="2171" lry="2925" ulx="94" uly="148" xml:id="zone_hs4_bfz_y3b"/>
+<zone lrx="428" lry="2553" ulx="184" uly="2393" xml:id="zone_hzw_gfz_y3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1067/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/352c3b9993ab60baf171abdb174d3449c4566615.jpg"/>
+<zone lrx="2867" lry="1227" ulx="195" uly="738" xml:id="zone_wl4_kfz_y3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_hs4_bfz_y3b" type="hüccet_simple">
+<l>... fī <date type="created" when-custom="1273-07-25">yevmi'l-hāmis ve'l-ʿaşrūn min ... Receb ... ve sene suls ve sabʿīn</date></l>
+<l>ve miyetein ve elif ...</l>
+<div3 facs="#zone_hzw_gfz_y3b" type="stamp_sūret"></div3>
+</div1>
+<div1 facs="#zone_wl4_kfz_y3b" type="sumamry_Croatian">
+<l>Za ... <date type="summary_Croatian" when="1857">1857</date> gr. 110.</l>
+<l><date type="summary_Croatian" when-custom="1254-07">Redjer 1254</date></l>
+</div1>
+</body>
+</text>
 </TEI>

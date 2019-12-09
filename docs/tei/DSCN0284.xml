@@ -1,54 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0284</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1763/manifest">
-         <surface>
-            <graphic url="https://diyhistory.org/public/phr2/files/original/c33e8c9248345af795f5ef50fed49414c3ae423b.jpg" n="https://diyhistory.org/public/phr2/iiif/1763/canvas/p1"/>
-            <zone xml:id="zone_hqd_435_xjb" lry="3083" lrx="1833" uly="275" ulx="208"/>
-            <zone xml:id="zone_eh2_p35_xjb" lry="3068" lrx="529" uly="2622" ulx="262"/>
-         </surface>
-         <surface>
-            <graphic url="https://diyhistory.org/public/phr2/files/original/a5e73ce079c92bd3b1749668717ce2f06125cfd8.jpg" n="https://diyhistory.org/public/phr2/iiif/1763/canvas/p2"/>
-            <zone xml:id="zone_ngg_q35_xjb" lry="3191" lrx="2296" uly="2950" ulx="2029"/>
-            <zone xml:id="zone_tk1_r35_xjb" lry="408" lrx="1504" uly="112" ulx="46"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div1 type="EMIN" subtype="temessük" facs="#zone_hqd_435_xjb">
-            <p>
-               <lb/>tapu nāmeden gayri işbu <date from-custom="1215-03" to-custom="1216-02" type="created">bin iki yüz on beş senesinin Martı ibtidāsından<lb/>
-                  <lb/>Şubatı gāyetine değin</date> zabt ve rabtına ...<lb/>
-            </p>
-            <div2 type="sign" facs="#zone_eh2_p35_xjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div3 type="stamp" facs="#zone_ngg_q35_xjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div3>
-            </div2>
-         </div1>
-         <div1 type="summary_Croatian" facs="#zone_tk1_r35_xjb">
-            <p>
-               <lb/>... <date when="1801" cert="medium" type="summary_Croatian">1801</date>.<lb/>
-            </p>
-         </div1>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0284</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1763/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1763/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c33e8c9248345af795f5ef50fed49414c3ae423b.jpg"/>
+<zone lrx="1833" lry="3083" ulx="208" uly="275" xml:id="zone_hqd_435_xjb"/>
+<zone lrx="529" lry="3068" ulx="262" uly="2622" xml:id="zone_eh2_p35_xjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1763/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a5e73ce079c92bd3b1749668717ce2f06125cfd8.jpg"/>
+<zone lrx="2296" lry="3191" ulx="2029" uly="2950" xml:id="zone_ngg_q35_xjb"/>
+<zone lrx="1504" lry="408" ulx="46" uly="112" xml:id="zone_tk1_r35_xjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_hqd_435_xjb" subtype="temessük" type="EMIN">
+<p>
+<lb/>tapu nāmeden gayri işbu <date from-custom="1215-03" to-custom="1216-02" type="created">bin iki yüz on beş senesinin Martı ibtidāsından<lb/>
+<lb/>Şubatı gāyetine değin</date> zabt ve rabtına ...<lb/>
+</p>
+<div2 facs="#zone_eh2_p35_xjb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_ngg_q35_xjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_tk1_r35_xjb" type="summary_Croatian">
+<p>
+<lb/>... <date cert="medium" type="summary_Croatian" when="1801">1801</date>.<lb/>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

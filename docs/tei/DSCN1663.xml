@@ -1,40 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1663</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1201/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/d5eefb197067a949a61ed84329ca4762e2c3ee2c.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1201/canvas/p1"/>
-            <zone xml:id="zone_rjx_fyw_1jb" lry="3181" lrx="1773" uly="-18" ulx="545"/>
-            <zone xml:id="zone_d1m_hyw_1jb" lry="929" lrx="1042" uly="798" ulx="899"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="hüccet" facs="#zone_rjx_fyw_1jb">
-            <p>
-               <lb/>... minh <date when-custom="1223" type="created">suls ve ʿaşrīn ve mieteyn ve elif</date><lb/>
-            </p>
-            <div type="stamp" facs="#zone_d1m_hyw_1jb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>            
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1663</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1201/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1201/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d5eefb197067a949a61ed84329ca4762e2c3ee2c.jpg"/>
+<zone lrx="1773" lry="3181" ulx="545" uly="-18" xml:id="zone_rjx_fyw_1jb"/>
+<zone lrx="1042" lry="929" ulx="899" uly="798" xml:id="zone_d1m_hyw_1jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_rjx_fyw_1jb" type="hüccet">
+<p>
+<lb></lb>... minh <date type="created" when-custom="1223">suls ve ʿaşrīn ve mieteyn ve elif</date><lb></lb>
+</p>
+<div3 facs="#zone_d1m_hyw_1jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div1>
+</body>
+</text>
 </TEI>

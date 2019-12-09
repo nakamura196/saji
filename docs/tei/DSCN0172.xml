@@ -1,51 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0172</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1653/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/ccc086671dc8d5699bfccbdfca01a19d7fac14b1.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1653/canvas/p1"/>
-            <zone xml:id="zone_w1b_plm_3jb" lry="2950" lrx="2383" uly="75" ulx="117"/>
-            <zone xml:id="zone_dw5_qlm_3jb" lry="2893" lrx="586" uly="2530" ulx="218"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/5bc932b1a71f25ff729a35c9928b548a23f4aebf.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1653/canvas/p2"/>
-            <zone xml:id="zone_dpt_tlm_3jb" lry="2054" lrx="3013" uly="460" ulx="73"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="maʿarifet_tezkire" facs="#zone_w1b_plm_3jb">
-            <p>
-               <lb/>... <date when-custom="1222" type="created">sene 1222</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_dw5_qlm_3jb">
-               <p>
-                  <lb/>... <lb/>
-               </p>
-            </div>            
-         </div>
-         <div type="summary_Croatian" facs="#zone_dpt_tlm_3jb">
-            <p>
-               <lb/><date when-custom="1222" type="summary_Croatian">1222</date>.<lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0172</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1653/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1653/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ccc086671dc8d5699bfccbdfca01a19d7fac14b1.jpg"/>
+<zone lrx="2383" lry="2950" ulx="117" uly="75" xml:id="zone_w1b_plm_3jb"/>
+<zone lrx="586" lry="2893" ulx="218" uly="2530" xml:id="zone_dw5_qlm_3jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1653/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/5bc932b1a71f25ff729a35c9928b548a23f4aebf.jpg"/>
+<zone lrx="3013" lry="2054" ulx="73" uly="460" xml:id="zone_dpt_tlm_3jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_w1b_plm_3jb" type="maʿarifet_tezkire">
+<p>
+<lb></lb>... <date type="created" when-custom="1222">sene 1222</date><lb></lb>
+</p>
+<div2 facs="#zone_dw5_qlm_3jb" type="sign">
+<p>
+<lb></lb>... <lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_dpt_tlm_3jb" type="summary_Croatian">
+<p>
+<lb></lb><date type="summary_Croatian" when-custom="1222">1222</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

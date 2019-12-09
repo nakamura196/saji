@@ -1,53 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN1759</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="summary">各土地のウシュル代替金(ʿaşār-ı bedel)についての記録</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型"], "saji:type": [ "defter" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1291/manifest">
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/632d29e287ef5b62933acfdc01af7b0c0e92528c.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1291/canvas/p1"/>
-        <zone xml:id="zone_vpd_x4h_cjb" lry="2060" lrx="2607" uly="167" ulx="253"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/7a55d56d52ce10d9310e63a36a33e85456e1df91.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1291/canvas/p2"/>
-        <zone xml:id="zone_bhr_y4h_cjb" lry="1039" lrx="2544" uly="555" ulx="773"/>
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1291/canvas/p3"
-          url="https://diyhistory.org/public/phr2/files/original/9f661e953f41870a9af9a360cf7198c788a27a4b.jpg"
-        />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div type="defter" facs="#zone_vpd_x4h_cjb">
-        <p>
-          <lb/>...<lb/>
-        </p>
-      </div>
-      <div type="summary_Croatian" facs="#zone_bhr_y4h_cjb">
-        <p>
-          <lb/>...<lb/>
-        </p>
-      </div>      
-    </body>
-  </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1759</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">各土地のウシュル代替金(ʿaşār-ı bedel)についての記録</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型"], "saji:type": [ "defter" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1291/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1291/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/632d29e287ef5b62933acfdc01af7b0c0e92528c.jpg"/>
+<zone lrx="2607" lry="2060" ulx="253" uly="167" xml:id="zone_vpd_x4h_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1291/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7a55d56d52ce10d9310e63a36a33e85456e1df91.jpg"/>
+<zone lrx="2544" lry="1039" ulx="773" uly="555" xml:id="zone_bhr_y4h_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1291/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/9f661e953f41870a9af9a360cf7198c788a27a4b.jpg"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_vpd_x4h_cjb" type="defter">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+<div1 facs="#zone_bhr_y4h_cjb" type="summary_Croatian">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

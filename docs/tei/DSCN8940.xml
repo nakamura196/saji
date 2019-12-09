@@ -1,67 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN8940</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1530/manifest">
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/72be6ce5566c26faed757712c714e042692b8487.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1530/canvas/p1"/>
-        <zone xml:id="zone_qm3_d31_2jb" lry="2467" lrx="2691" uly="17" ulx="433"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/8cb43e3d45241274aa524013cd2559f820120dd5.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1530/canvas/p2"/>
-        <zone xml:id="zone_pry_231_2jb" lry="1094" lrx="2373" uly="172" ulx="1106"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/73afd3c6ace3086337643daa5eff91797748bd84.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1530/canvas/p3"/>
-        <zone xml:id="zone_qqj_g31_2jb" lry="2033" lrx="800" uly="1516" ulx="284"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/44ac6028cbff3a48c628e17db339e2ef9354dfe0.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1530/canvas/p4"/>
-        <zone xml:id="zone_swm_h31_2jb" lry="1583" lrx="2978" uly="827" ulx="467"/>
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div type="fermān" facs="#zone_qm3_d31_2jb">
-        <p>
-          <lb/>... <date from-custom="1269-06-21" to-custom="1269-06-30" type="created">evāhir şehr Cemaziye'l-āhir sene tisʿ ve sittīn ve mieteyn ve elif</date><lb/>
-        </p>
-        <div type="tuğra" facs="#zone_pry_231_2jb">
-          <p>
-            <lb/>...<lb/>
-          </p>
-        </div>
-        <div type="sign" facs="#zone_qqj_g31_2jb">
-          <p>
-            <lb/>...<lb/>
-          </p>
-        </div>        
-      </div>
-      <div type="summary_Croatian" facs="#zone_swm_h31_2jb">
-        <p>
-          <lb/>Datum: <date from-custom="1269-06-21" to-custom="1269-06-30" type="summary_Croatian">III dekada džemaziul ahira 1269</date> - <date from="1853-04-01" to="1853-04-09" type="summary_Croatian">1-9 aprila 1853</date><lb/>
-        </p>
-      </div>      
-    </body>
-  </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8940</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1530/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1530/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/72be6ce5566c26faed757712c714e042692b8487.jpg"/>
+<zone lrx="2691" lry="2467" ulx="433" uly="17" xml:id="zone_qm3_d31_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1530/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8cb43e3d45241274aa524013cd2559f820120dd5.jpg"/>
+<zone lrx="2373" lry="1094" ulx="1106" uly="172" xml:id="zone_pry_231_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1530/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/73afd3c6ace3086337643daa5eff91797748bd84.jpg"/>
+<zone lrx="800" lry="2033" ulx="284" uly="1516" xml:id="zone_qqj_g31_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1530/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/44ac6028cbff3a48c628e17db339e2ef9354dfe0.jpg"/>
+<zone lrx="2978" lry="1583" ulx="467" uly="827" xml:id="zone_swm_h31_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_qm3_d31_2jb" type="fermān">
+<p>
+<lb></lb>... <date from-custom="1269-06-21" to-custom="1269-06-30" type="created">evāhir şehr Cemaziye'l-āhir sene tisʿ ve sittīn ve mieteyn ve elif</date><lb></lb>
+</p>
+<div1 facs="#zone_pry_231_2jb" type="tuğra">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+<div2 facs="#zone_qqj_g31_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_swm_h31_2jb" type="summary_Croatian">
+<p>
+<lb></lb>Datum: <date from-custom="1269-06-21" to-custom="1269-06-30" type="summary_Croatian">III dekada džemaziul ahira 1269</date> - <date from="1853-04-01" to="1853-04-09" type="summary_Croatian">1-9 aprila 1853</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

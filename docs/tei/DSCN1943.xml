@@ -1,43 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1943</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】DSCN1944.JPGの写しの可能性あり。要確認。</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1473/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/f681f49ef4fe5c80895399c5a86d982747f37d86.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1473/canvas/p1"/>
-            <zone xml:id="zone_btp_swd_djb" lry="1900" lrx="2369" uly="418" ulx="350"/>
-            <zone xml:id="zone_uys_twd_djb" lry="1841" lrx="1801" uly="1643" ulx="1479"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="unknown_sūret" facs="#zone_btp_swd_djb">
-            <p>
-               <lb/>... fī <date when-custom="1262-06-05" type="created">5 C sene 262</date><lb/>
-            </p>
-            <div type="stamp_sūret" facs="#zone_uys_twd_djb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>            
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1943</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】DSCN1944.JPGの写しの可能性あり。要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1473/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1473/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f681f49ef4fe5c80895399c5a86d982747f37d86.jpg"/>
+<zone lrx="2369" lry="1900" ulx="350" uly="418" xml:id="zone_btp_swd_djb"/>
+<zone lrx="1801" lry="1841" ulx="1479" uly="1643" xml:id="zone_uys_twd_djb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_btp_swd_djb" type="unknown_sūret">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1262-06-05">5 C sene 262</date><lb></lb>
+</p>
+<div3 facs="#zone_uys_twd_djb" type="stamp_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div1>
+</body>
+</text>
 </TEI>

@@ -1,111 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1865</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】典型：自己言及が見つからない。mürāsele、şükka、tezkireなどの様式と比較しながら、署名Bendeやスタンプから特定をする。</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1395/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/b1c858c551a7ecd7a879b6ba4d35d01497955bb4.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p1"/>
-            <zone xml:id="zone_ayl_svv_cjb" lry="2941" lrx="2183" uly="141" ulx="117"/>
-            <zone xml:id="zone_ocr_tvv_cjb" lry="2862" lrx="647" uly="2712" ulx="456"/>
-            <zone xml:id="zone_kq3_5vv_cjb" lry="2813" lrx="430" uly="2686" ulx="235"/>
-         </surface>
-         <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p2"
-               url="https://diyhistory.org/public/phr2/files/original/a00565d19e1996ca885d7bf1e6cad4802cc6570a.jpg"
-            />
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/dd765ef7e6b43c3444dc1da6f41f05310c8ea6e6.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p3"/>
-            <zone xml:id="zone_xpk_xvv_cjb" lry="1450" lrx="2439" uly="900" ulx="923"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/d87c8600f9b7c195bd1028b6cbde9d11830f0d66.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p4"/>
-            <zone xml:id="zone_v12_zvv_cjb" lry="1253" lrx="1862" uly="943" ulx="1549"/>
-            <zone xml:id="zone_bvq_zvv_cjb" lry="1304" lrx="1432" uly="1034" ulx="1134"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div1 type="EMIN" facs="#zone_ayl_svv_cjb">
-            <p>
-               <lb/>Hüve<lb/>
-               <lb/>Vech-i tahrīr-i hurūf oldur ki<lb/>                                      
-               <lb/><date when-custom="1297" type="created">iki yüz doksan yedi senesine</date>mahsūben ... der ʿuhde ve iltizāmımızda olub Kirşevo mālikânesine merbūt nefs-i varoş-u Kirşevo<lb/>
-               <lb/>hudūdu dāhilinde Grad demekle maʿrūf çiftlik beyne'l-ahāli ve'l-cīrān ve karyeden iki ... Tarlakuka demekle ve ISTERANE ile maʿrūf<lb/>
-               <lb/>tarlalar ile nefs ve ... RAVNA demekle maʿrūf tarlalar ve LUBAT demekle nām yaylada ... yaylada<lb/>
-               <lb/>olan ... yerleri ile HYTAC nām yaylada olan ... beyne'l-ahāli ve'l-cīrān maʿlūmu'l-hudūd ve<lb/>
-               <lb/>... arāzī-i mīrīsinden olub varoş-u mezbūrde kilisanın<lb/>
-               <lb/>rāhiblerinden olub zimmī BRAGRGU nām gardiyāna arāzī-i mezbūrīye mutasarruf iken ... arāzī-i mezbūreyi<lb/>
-               <lb/>erbāb-i ... tapu ile ... tālib olmaduğuna ... madīna-i Saray sākinlerinden  .. Ahmad Efendī arāzī ... mezbūreye<lb/>
-               <lb/>tālib ve rāgib olmağla biz dahi ... me'mūr olduğumuz hasebiyle kānūn-u cihāndārī üzere resm-i tabusun alub ... arāzī-i mezbūre-i ... ve tasarrıfına<lb/>
-               <lb/>izin virüb mā-dām ki ... aʿşār-ı şerʿiyesin ... me'mūre edā eyleye tasarrıfına kimesne māniʿ olmaya<lb/>
-            </p>
-            <div2 type="sign" facs="#zone_ocr_tvv_cjb">
-               <p>
-                  <lb/>Bende ʿAbdüllāhı'l-me'mūr<lb/>
-               </p>
-               <div3 type="stamp" facs="#zone_v12_zvv_cjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div3>               
-            </div2>
-            <div2 type="sign" facs="#zone_kq3_5vv_cjb">
-               <p>
-                  <lb/>Bende Mehmedi'l-me'mūr<lb/>
-               </p>
-               <div3 type="stamp" facs="#zone_bvq_zvv_cjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div3>               
-            </div2>
-            <div2 type="şühūdu’l-hāl">
-               <p>
-                  <lb/>NVALIZK Süleymān Ağa<lb/>
-                  <lb/>ŞHANI Zāde Ahmad Ağa<lb/>
-                  <lb/>BRADRY MINLA Süleymān<lb/>
-                  <lb/>ÇZMU Oğulu Yaʿkūb Efendī<lb/>
-                  <lb/>MNLASLIM İmām-ı Kirşevo<lb/>
-                  <lb/>Paşalu Oğulu Mine'l-Sālih<lb/>
-                  <lb/>BIZLU ʿAbdüllāh Paşa<lb/>
-                  <lb/>HŞLAK Sālih Beşe<lb/>
-                  <lb/>Mustafa ... Sipāhī Oğulu<lb/>
-                  <lb/>...<lb/>
-                  <lb/>Kethüdā Oğulu Mehmed Efendī ...<lb/>
-                  <lb/>İSTULCELİ Minlā Ahmad ... <lb/>
-                  <lb/>ŞUŞE Oğulu İbrāhīm Beşe<lb/>
-                  <lb/>SLAYCI Hasan Beşe<lb/>
-                  <lb/>ve garyruhum min ...<lb/>
-               </p>
-            </div2>            
-         </div1>
-         <div1 type="summary_Croatian" facs="#zone_xpk_xvv_cjb">
-            <p>
-               <lb/>...<lb/>
-            </p>
-         </div1>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1865</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】典型：自己言及が見つからない。mürāsele、şükka、tezkireなどの様式と比較しながら、署名Bendeやスタンプから特定をする。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1395/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b1c858c551a7ecd7a879b6ba4d35d01497955bb4.jpg"/>
+<zone lrx="2183" lry="2941" ulx="117" uly="141" xml:id="zone_ayl_svv_cjb"/>
+<zone lrx="647" lry="2862" ulx="456" uly="2712" xml:id="zone_ocr_tvv_cjb"/>
+<zone lrx="430" lry="2813" ulx="235" uly="2686" xml:id="zone_kq3_5vv_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a00565d19e1996ca885d7bf1e6cad4802cc6570a.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/dd765ef7e6b43c3444dc1da6f41f05310c8ea6e6.jpg"/>
+<zone lrx="2439" lry="1450" ulx="923" uly="900" xml:id="zone_xpk_xvv_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/d87c8600f9b7c195bd1028b6cbde9d11830f0d66.jpg"/>
+<zone lrx="1862" lry="1253" ulx="1549" uly="943" xml:id="zone_v12_zvv_cjb"/>
+<zone lrx="1432" lry="1304" ulx="1134" uly="1034" xml:id="zone_bvq_zvv_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ayl_svv_cjb" type="EMIN">
+<p>
+<lb/>Hüve<lb/>
+<lb/>Vech-i tahrīr-i hurūf oldur ki<lb/>
+<lb/><date type="created" when-custom="1297">iki yüz doksan yedi senesine</date>mahsūben ... der ʿuhde ve iltizāmımızda olub Kirşevo mālikânesine merbūt nefs-i varoş-u Kirşevo<lb/>
+<lb/>hudūdu dāhilinde Grad demekle maʿrūf çiftlik beyne'l-ahāli ve'l-cīrān ve karyeden iki ... Tarlakuka demekle ve ISTERANE ile maʿrūf<lb/>
+<lb/>tarlalar ile nefs ve ... RAVNA demekle maʿrūf tarlalar ve LUBAT demekle nām yaylada ... yaylada<lb/>
+<lb/>olan ... yerleri ile HYTAC nām yaylada olan ... beyne'l-ahāli ve'l-cīrān maʿlūmu'l-hudūd ve<lb/>
+<lb/>... arāzī-i mīrīsinden olub varoş-u mezbūrde kilisanın<lb/>
+<lb/>rāhiblerinden olub zimmī BRAGRGU nām gardiyāna arāzī-i mezbūrīye mutasarruf iken ... arāzī-i mezbūreyi<lb/>
+<lb/>erbāb-i ... tapu ile ... tālib olmaduğuna ... madīna-i Saray sākinlerinden  .. Ahmad Efendī arāzī ... mezbūreye<lb/>
+<lb/>tālib ve rāgib olmağla biz dahi ... me'mūr olduğumuz hasebiyle kānūn-u cihāndārī üzere resm-i tabusun alub ... arāzī-i mezbūre-i ... ve tasarrıfına<lb/>
+<lb/>izin virüb mā-dām ki ... aʿşār-ı şerʿiyesin ... me'mūre edā eyleye tasarrıfına kimesne māniʿ olmaya<lb/>
+</p>
+<div2 facs="#zone_ocr_tvv_cjb" type="sign">
+<p>
+<lb/>Bende ʿAbdüllāhı'l-me'mūr<lb/>
+</p>
+<div3 facs="#zone_v12_zvv_cjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_kq3_5vv_cjb" type="sign">
+<p>
+<lb/>Bende Mehmedi'l-me'mūr<lb/>
+</p>
+<div3 facs="#zone_bvq_zvv_cjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>NVALIZK Süleymān Ağa<lb/>
+<lb/>ŞHANI Zāde Ahmad Ağa<lb/>
+<lb/>BRADRY MINLA Süleymān<lb/>
+<lb/>ÇZMU Oğulu Yaʿkūb Efendī<lb/>
+<lb/>MNLASLIM İmām-ı Kirşevo<lb/>
+<lb/>Paşalu Oğulu Mine'l-Sālih<lb/>
+<lb/>BIZLU ʿAbdüllāh Paşa<lb/>
+<lb/>HŞLAK Sālih Beşe<lb/>
+<lb/>Mustafa ... Sipāhī Oğulu<lb/>
+<lb/>...<lb/>
+<lb/>Kethüdā Oğulu Mehmed Efendī ...<lb/>
+<lb/>İSTULCELİ Minlā Ahmad ... <lb/>
+<lb/>ŞUŞE Oğulu İbrāhīm Beşe<lb/>
+<lb/>SLAYCI Hasan Beşe<lb/>
+<lb/>ve garyruhum min ...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_xpk_xvv_cjb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

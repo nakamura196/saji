@@ -1,85 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1810</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】日付：月、DSCN1809.JPG, DSCN1816/JPGと同じ書き方をしているが読み取れない。</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1341/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/f7cb09b76007a40b670d07f7c5ab32781e247498.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1341/canvas/p1"/>
-            <zone xml:id="zone_a4p_1l4_cjb" lry="2869" lrx="1639" uly="223" ulx="331"/>
-            <zone xml:id="zone_sfx_bl4_cjb" lry="2773" lrx="1575" uly="2587" ulx="1435"/>
-            <zone xml:id="zone_fvm_cl4_cjb" lry="2771" lrx="1568" uly="2657" ulx="1442"/>
-            <zone xml:id="zone_vgd_dl4_cjb" lry="2771" lrx="1300" uly="2603" ulx="1132"/>
-            <zone xml:id="zone_qdq_dl4_cjb" lry="2754" lrx="1276" uly="2643" ulx="1157"/>
-            <zone xml:id="zone_udf_2l4_cjb" lry="2825" lrx="956" uly="2622" ulx="788"/>
-            <zone xml:id="zone_qss_2l4_cjb" lry="2813" lrx="946" uly="2677" ulx="798"/>
-            <zone xml:id="zone_y2k_fl4_cjb" lry="2786" lrx="642" uly="2614" ulx="503"/>
-            <zone xml:id="zone_lky_fl4_cjb" lry="2778" lrx="632" uly="2667" ulx="511"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="tapu_senedi" facs="#zone_a4p_1l4_cjb">
-            <p>
-               <lb/>... fī <date when-custom="1280--20" type="created">20 ... sene 1280</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_sfx_bl4_cjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div type="stamp" facs="#zone_fvm_cl4_cjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div>
-            </div>
-            <div type="sign" facs="#zone_vgd_dl4_cjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div type="stamp" facs="#zone_qdq_dl4_cjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div>
-            </div>
-            <div type="sign" facs="#zone_udf_2l4_cjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div type="stamp" facs="#zone_qss_2l4_cjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div>
-            </div>
-            <div type="sign" facs="#zone_y2k_fl4_cjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div type="stamp" facs="#zone_lky_fl4_cjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div>
-            </div>
-         </div>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1810</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：月、DSCN1809.JPG, DSCN1816/JPGと同じ書き方をしているが読み取れない。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1341/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1341/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f7cb09b76007a40b670d07f7c5ab32781e247498.jpg"/>
+<zone lrx="1639" lry="2869" ulx="331" uly="223" xml:id="zone_a4p_1l4_cjb"/>
+<zone lrx="1575" lry="2773" ulx="1435" uly="2587" xml:id="zone_sfx_bl4_cjb"/>
+<zone lrx="1568" lry="2771" ulx="1442" uly="2657" xml:id="zone_fvm_cl4_cjb"/>
+<zone lrx="1300" lry="2771" ulx="1132" uly="2603" xml:id="zone_vgd_dl4_cjb"/>
+<zone lrx="1276" lry="2754" ulx="1157" uly="2643" xml:id="zone_qdq_dl4_cjb"/>
+<zone lrx="956" lry="2825" ulx="788" uly="2622" xml:id="zone_udf_2l4_cjb"/>
+<zone lrx="946" lry="2813" ulx="798" uly="2677" xml:id="zone_qss_2l4_cjb"/>
+<zone lrx="642" lry="2786" ulx="503" uly="2614" xml:id="zone_y2k_fl4_cjb"/>
+<zone lrx="632" lry="2778" ulx="511" uly="2667" xml:id="zone_lky_fl4_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_a4p_1l4_cjb" type="tapu_senedi">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1280--20">20 ... sene 1280</date><lb></lb>
+</p>
+<div2 facs="#zone_sfx_bl4_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_fvm_cl4_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_vgd_dl4_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_qdq_dl4_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_udf_2l4_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_qss_2l4_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_y2k_fl4_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_lky_fl4_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
 </TEI>

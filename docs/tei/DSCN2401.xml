@@ -1,61 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN2401</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="summary">クレシェヴォ教会の火災とその後の再建・修繕について</note>
-            <note type="translation"></note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2401</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">クレシェヴォ教会の火災とその後の再建・修繕について</note>
+<note type="translation"/>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
                }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2729/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/1e8851647041b17064607894059731f8ca206a66.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/2729/canvas/p1"/>
-            <zone xml:id="zone_rd5_4sw_j3b" lry="2954" lrx="2218" uly="118" ulx="182"/>
-         </surface>
-         <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/2729/canvas/p2"
-               url="https://diyhistory.org/public/phr2/files/original/1fa04881b6a4fd3ce493f33e97d0336ba6e36058.jpg"
-            />
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/4c8b10cca773d9f221a22bcc7c68bda46338366b.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/2729/canvas/p3"/>
-            <zone xml:id="zone_th4_rsw_j3b" lry="658" lrx="700" uly="370" ulx="383"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="tezkire" facs="#zone_rd5_4sw_j3b">
-            <l>Bāʿis-i terkīm hurūf oldur ki</l>
-            <l>Hālā Kirşevo ber-vech-ı mālikâne ʿuhde ve iltizāmımızda olan <placeName type="proper">Kirşevo</placeName> mukātaʿasına tābiʿ</l>
-            <l>efrenk kefrlerinin <date>feth hākānīden berü</date> bā-hatt-ı hümāyūn şevketmaklūn terk olunan kilisaları</l>
-            <l>tārīh-ı kitābdan iki sene ile iki ay mukaddem bi-kazā-yı allāh-ı taʿālā muhterek olmağla fetvā-ı şerīfe mūcibince</l>
-            <l>bilā terfīʿ velā tevsīʿ taʿmīr ve tecdīde muhtāc olub muhterek olunan maʿbethāne ve ittisālinde vākiʿ odaları</l>
-            <l>ve matbah puşīdelerinin tecdīd istirhāmyle <placeName>madīna-i <placeName type="proper">Saray Bosna</placeName></placeName> <persName>mollā</persName>sı fazīletlü efendi tarafından</l>
-            <l>iʿlām olunmağın iʿlām-ı şerʿī ve fetvā-i münīfe mūciblerince kilisa-i mezbūre nın taʿmīr ve tecdīdine</l>
-            <l>izn-i müşʿir dīvān-ı Bosna'dan buyuruld-ı hātir sādır olub senedāt-ı şerʿ ve buyuruld-ı şerīf mūciblerince</l>
-            <l>bi'l-iltimās işbu tezkire tahrīr ve ilsāldır vusūrunda gerekdir ki senedāt-ı şerʿye ve buyuruld-ı şerīf mūciblerince</l>
-            <l>kilisa-i mezkūr dahi vazʿ-i kadīmī üzere taʿmīr ve tecdīd eylemeler içün işbu tezkire iʿtā olundu</l>
-            <l>Bende-i <persName>Mehmed Ağa</persName></l>
-         </div>
-         <div type="stamp" facs="#zone_th4_rsw_j3b">
-            <l>...Mehmed</l>
-         </div>
-      </body>
-   </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2729/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2729/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1e8851647041b17064607894059731f8ca206a66.jpg"/>
+<zone lrx="2218" lry="2954" ulx="182" uly="118" xml:id="zone_rd5_4sw_j3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2729/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1fa04881b6a4fd3ce493f33e97d0336ba6e36058.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2729/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/4c8b10cca773d9f221a22bcc7c68bda46338366b.jpg"/>
+<zone lrx="700" lry="658" ulx="383" uly="370" xml:id="zone_th4_rsw_j3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_rd5_4sw_j3b" type="tezkire">
+<l>Bāʿis-i terkīm hurūf oldur ki</l>
+<l>Hālā Kirşevo ber-vech-ı mālikâne ʿuhde ve iltizāmımızda olan <placename type="proper">Kirşevo</placename> mukātaʿasına tābiʿ</l>
+<l>efrenk kefrlerinin <date>feth hākānīden berü</date> bā-hatt-ı hümāyūn şevketmaklūn terk olunan kilisaları</l>
+<l>tārīh-ı kitābdan iki sene ile iki ay mukaddem bi-kazā-yı allāh-ı taʿālā muhterek olmağla fetvā-ı şerīfe mūcibince</l>
+<l>bilā terfīʿ velā tevsīʿ taʿmīr ve tecdīde muhtāc olub muhterek olunan maʿbethāne ve ittisālinde vākiʿ odaları</l>
+<l>ve matbah puşīdelerinin tecdīd istirhāmyle <placename>madīna-i <placename type="proper">Saray Bosna</placename></placename> <persname>mollā</persname>sı fazīletlü efendi tarafından</l>
+<l>iʿlām olunmağın iʿlām-ı şerʿī ve fetvā-i münīfe mūciblerince kilisa-i mezbūre nın taʿmīr ve tecdīdine</l>
+<l>izn-i müşʿir dīvān-ı Bosna'dan buyuruld-ı hātir sādır olub senedāt-ı şerʿ ve buyuruld-ı şerīf mūciblerince</l>
+<l>bi'l-iltimās işbu tezkire tahrīr ve ilsāldır vusūrunda gerekdir ki senedāt-ı şerʿye ve buyuruld-ı şerīf mūciblerince</l>
+<l>kilisa-i mezkūr dahi vazʿ-i kadīmī üzere taʿmīr ve tecdīd eylemeler içün işbu tezkire iʿtā olundu</l>
+<l>Bende-i <persname>Mehmed Ağa</persname></l>
+</div1>
+<div3 facs="#zone_th4_rsw_j3b" type="stamp">
+<l>...Mehmed</l>
+</div3>
+</body>
+</text>
 </TEI>

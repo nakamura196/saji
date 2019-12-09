@@ -1,54 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1932</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】裏面撮影：表面の署名の裏にスタンプがあるのが透けているが、裏面にはスタンプが写っていない。要裏面再撮影。</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1462/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/1663960ccb9434125b9ce5ee5a0e0f109bea6877.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1462/canvas/p1"/>
-            <zone xml:id="zone_jp1_rld_djb" lry="2869" lrx="2416" uly="130" ulx="131"/>
-            <zone xml:id="zone_gnz_rld_djb" lry="2572" lrx="452" uly="2364" ulx="190"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/d11c3e3fda937c08fa023cb4855c46f1bfb7bb75.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1462/canvas/p2"/>
-            <zone xml:id="zone_ftp_tld_djb" lry="2222" lrx="3078" uly="788" ulx="223"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="EMIN" cert="unknown" facs="#zone_jp1_rld_djb">
-            <p>
-               <lb/>...<lb/>
-            </p>
-            <div type="sign" facs="#zone_gnz_rld_djb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>            
-         </div>
-         <div type="summary_Croatian" facs="#zone_ftp_tld_djb">
-            <p>
-               <lb/>... <date when="1843" type="summary_Croatian">1843</date>.<lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1932</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】裏面撮影：表面の署名の裏にスタンプがあるのが透けているが、裏面にはスタンプが写っていない。要裏面再撮影。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1462/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1462/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1663960ccb9434125b9ce5ee5a0e0f109bea6877.jpg"/>
+<zone lrx="2416" lry="2869" ulx="131" uly="130" xml:id="zone_jp1_rld_djb"/>
+<zone lrx="452" lry="2572" ulx="190" uly="2364" xml:id="zone_gnz_rld_djb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1462/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d11c3e3fda937c08fa023cb4855c46f1bfb7bb75.jpg"/>
+<zone lrx="3078" lry="2222" ulx="223" uly="788" xml:id="zone_ftp_tld_djb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_jp1_rld_djb" type="EMIN">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div2 facs="#zone_gnz_rld_djb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_ftp_tld_djb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when="1843">1843</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

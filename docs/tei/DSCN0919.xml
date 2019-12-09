@@ -1,72 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0919</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="summary">土地／田／</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod":
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0919</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">土地／田／</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod":
           [ "4x2" ], "saji:fond": [ "Tursko 1" ], "saji:from": [ "emin" ], "saji:lineage": [ "8" ],
           "saji:memo": [ "典型" ], "saji:type": [ "mektūb" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1037/manifest">
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/280214c2b6cfe5bb112f963cb7a36776cdbfd50b.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1037/canvas/p1"/>
-        <zone xml:id="zone_xdt_5ty_y3b" lry="2612" lrx="1891" uly="1508" ulx="129"/>
-        <zone xml:id="zone_gfz_k35_jjb" lry="2593" lrx="695" uly="2393" ulx="312"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/8f332ea79b32262250342335c5ea6f2ba9f73538.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1037/canvas/p2"/>
-        <zone xml:id="zone_t13_wty_y3b" lry="1350" lrx="2923" uly="944" ulx="78"/>
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div type="EMIN_mektūb" cert="medium" facs="#zone_xdt_5ty_y3b">
-        <p>
-          <lb/>Bāis-ı furūf oldur ki<lb/>
-          <lb/>İşbu <date from-custom="1199">bin yüz doksan dokuz senesinden</date> mutasarrıf olduğumuz Kirşevo mukātaʿası karyelerinden<lb/>
-          <lb/>... ve ... karyesinden ... ile ... bir kıtʿa tarlaya mutasarrıf olan<lb/>
-          <lb/>... veled-i Yako nām zimmī ... yine Kirşevo kasabasında kilisadan olan<lb/>
-          <lb/>... iki ... guruş mukābelesinde resmile ... be hakk tasarrıfnı ... idüb<lb/>
-          <lb/>sāhib-i arz olduğumuz hasebiyle ... mezbūr tecvīz ... mezbūr tarlanın<lb/>
-          <lb/>sāl-bi-sāl ... sāhib-i arz olanlara edā ve teslīm eylediklerinde<lb/>
-          <lb/>tasarrıfına kimesne māniʿ olmaya hurira fī <date when-custom="1199-04-08" type="created">8 Rebī'ü'l-āhir sene
-          1199</date><lb/>
-        </p>
-      </div>
-      <div type="sign" facs="#zone_gfz_k35_jjb">
-        <p>
-          <lb/>Kirşevo emīni ʿAbdüllāh ʿAlemdār<lb/>
-        </p>
-      </div>
-      <div type="Şühūdu’l-hāl">
-        <p>
-          <lb/>Şühūdu’l-hāl<lb/>
-          <lb/>Mehmed Beşe ibn ʿAbdüllāh ʿAlemdār<lb/>
-          <lb/>Hasan ...<lb/>
-          <lb/>Zimmī ... İstebān<lb/>
-          <lb/>Berber Mehmed Beşe<lb/>
-          <lb/>Ahmed Beşe<lb/>
-        </p>
-      </div>
-      <div type="summary_Serbian" facs="#zone_t13_wty_y3b">
-        <l>... <date when="1785" type="summary_Serbian">1785</date></l>
-      </div>
-    </body>
-  </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1037/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1037/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/280214c2b6cfe5bb112f963cb7a36776cdbfd50b.jpg"/>
+<zone lrx="1891" lry="2612" ulx="129" uly="1508" xml:id="zone_xdt_5ty_y3b"/>
+<zone lrx="695" lry="2593" ulx="312" uly="2393" xml:id="zone_gfz_k35_jjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1037/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8f332ea79b32262250342335c5ea6f2ba9f73538.jpg"/>
+<zone lrx="2923" lry="1350" ulx="78" uly="944" xml:id="zone_t13_wty_y3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="medium" facs="#zone_xdt_5ty_y3b" type="EMIN_mektūb">
+<p>
+<lb></lb>Bāis-ı furūf oldur ki<lb></lb>
+<lb></lb>İşbu <date from-custom="1199">bin yüz doksan dokuz senesinden</date> mutasarrıf olduğumuz Kirşevo mukātaʿası karyelerinden<lb></lb>
+<lb></lb>... ve ... karyesinden ... ile ... bir kıtʿa tarlaya mutasarrıf olan<lb></lb>
+<lb></lb>... veled-i Yako nām zimmī ... yine Kirşevo kasabasında kilisadan olan<lb></lb>
+<lb></lb>... iki ... guruş mukābelesinde resmile ... be hakk tasarrıfnı ... idüb<lb></lb>
+<lb></lb>sāhib-i arz olduğumuz hasebiyle ... mezbūr tecvīz ... mezbūr tarlanın<lb></lb>
+<lb></lb>sāl-bi-sāl ... sāhib-i arz olanlara edā ve teslīm eylediklerinde<lb></lb>
+<lb></lb>tasarrıfına kimesne māniʿ olmaya hurira fī <date type="created" when-custom="1199-04-08">8 Rebī'ü'l-āhir sene
+          1199</date><lb></lb>
+</p>
+</div1>
+<div2 facs="#zone_gfz_k35_jjb" type="sign">
+<p>
+<lb></lb>Kirşevo emīni ʿAbdüllāh ʿAlemdār<lb></lb>
+</p>
+</div2>
+<div1 type="Şühūdu’l-hāl">
+<p>
+<lb></lb>Şühūdu’l-hāl<lb></lb>
+<lb></lb>Mehmed Beşe ibn ʿAbdüllāh ʿAlemdār<lb></lb>
+<lb></lb>Hasan ...<lb></lb>
+<lb></lb>Zimmī ... İstebān<lb></lb>
+<lb></lb>Berber Mehmed Beşe<lb></lb>
+<lb></lb>Ahmed Beşe<lb></lb>
+</p>
+</div1>
+<div1 facs="#zone_t13_wty_y3b" type="summary_Serbian">
+<l>... <date type="summary_Serbian" when="1785">1785</date></l>
+</div1>
+</body>
+</text>
 </TEI>

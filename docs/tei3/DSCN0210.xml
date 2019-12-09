@@ -8,35 +8,43 @@
 <p>Publication Information</p>
 </publicationStmt>
 <sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
 </sourceDesc>
 </fileDesc>
 </teiHeader>
 <facsimile>
 <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1689/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c7507a6e5def8a31c3fff4a76a7ecc6d9169481e.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/83dd11136a8b8184d88ead5ebebf64294591b99a.jpg" /></surface></surfaceGrp>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c7507a6e5def8a31c3fff4a76a7ecc6d9169481e.jpg" />
+<zone lrx="2193" lry="2238" ulx="131" uly="984" xml:id="zone_nzs_p1k_kjb" />
+<zone lrx="448" lry="2112" ulx="181" uly="1724" xml:id="zone_bnv_q1k_kjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/83dd11136a8b8184d88ead5ebebf64294591b99a.jpg" />
+<zone lrx="2989" lry="1822" ulx="200" uly="805" xml:id="zone_ahv_r1k_kjb" />
+</surface>
+</surfaceGrp>
 </facsimile>
 <text>
 <body>
-<div1 type="EMIN_zabt_temessük">
+<div1 facs="#zone_nzs_p1k_kjb" type="EMIN_zabt_temessük">
 <p>
-<lb />işbu <date when="0686-06-28" when-custom="1266">iki yüz altmış altı senesinde</date> ʿuhdemiz buulunan Kirşevo ...<lb />
+<lb />işbu <date when="0686-06-28" when-custom="1266">iki yüz altmış altı senesinde</date> ʿuhdemiz
+               buulunan Kirşevo ...<lb />
 <lb />... <date type="created" when="0686-06-28" when-custom="1266">sene 66</date><lb />
 </p>
-<div2 type="sign">
+<div2 facs="#zone_bnv_q1k_kjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+<div2 type="şühūdu’l-hāl">
 <p>
 <lb />...<lb />
 </p>
 </div2>
+</div2>
 </div1>
-<div1 type="summary_Croatian">
+<div1 facs="#zone_ahv_r1k_kjb" type="summary_Croatian">
 <p>
 <lb />... <date type="summary_Croatian" when="1851">1851</date>.<lb />
 </p>

@@ -1,34 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0121</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1605/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/0689fefcf139df2f38dab1fde10b5030e38351d0.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1605/canvas/p1"/>
-            <zone xml:id="zone_l3t_13v_2jb" lry="2458" lrx="2375" uly="1166" ulx="92"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="tapu" cert="low" facs="#zone_l3t_13v_2jb">
-            <p>
-               <lb/>... fī <date when-custom="1244-11-09" type="created">9 Za sene 244</date><lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0121</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1605/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1605/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0689fefcf139df2f38dab1fde10b5030e38351d0.jpg"/>
+<zone lrx="2375" lry="2458" ulx="92" uly="1166" xml:id="zone_l3t_13v_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_l3t_13v_2jb" type="tapu">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1244-11-09">9 Za sene 244</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

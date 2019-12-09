@@ -1,43 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0104</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】再撮影：署名の裏にスタンプがあるようだが、裏面画像には写っていないので再撮影する。</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1588/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/b4f517581bccaf8d6961c5ffa207c56a755177e7.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1588/canvas/p1"/>
-            <zone xml:id="zone_azy_lv5_2jb" lry="3072" lrx="2336" uly="81" ulx="82"/>
-            <zone xml:id="zone_ynz_mv5_2jb" lry="2968" lrx="655" uly="2623" ulx="356"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="zabt_tezkire" facs="#zone_azy_lv5_2jb">
-            <p>
-               <lb/>... işbu <date when-custom="1186" type="created">bin yüz sekisen altı senesinde</date> der ʿuhde ve ...<lb/>
-            </p>
-            <div type="sign" facs="#zone_ynz_mv5_2jb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>            
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0104</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】再撮影：署名の裏にスタンプがあるようだが、裏面画像には写っていないので再撮影する。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1588/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1588/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b4f517581bccaf8d6961c5ffa207c56a755177e7.jpg"/>
+<zone lrx="2336" lry="3072" ulx="82" uly="81" xml:id="zone_azy_lv5_2jb"/>
+<zone lrx="655" lry="2968" ulx="356" uly="2623" xml:id="zone_ynz_mv5_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_azy_lv5_2jb" type="zabt_tezkire">
+<p>
+<lb></lb>... işbu <date type="created" when-custom="1186">bin yüz sekisen altı senesinde</date> der ʿuhde ve ...<lb></lb>
+</p>
+<div2 facs="#zone_ynz_mv5_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+</body>
+</text>
 </TEI>

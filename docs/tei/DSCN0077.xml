@@ -1,75 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0077</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1561/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/6fe9201037b4a0733cbfda0fe4a9580eed45679b.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1561/canvas/p1"/>
-            <zone xml:id="zone_e4w_hbz_k3b" lry="3154" lrx="2263" uly="200" ulx="54"/>
-            <zone xml:id="zone_ecn_sq5_2jb" lry="2714" lrx="531" uly="2446" ulx="336"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/4eb971216a6f46e6d2d8cf5327464c35f381e78d.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1561/canvas/p2"/>
-            <zone xml:id="zone_oz5_jbz_k3b" lry="818" lrx="509" uly="572" ulx="245"/>
-            <zone xml:id="zone_uth_lbz_k3b" lry="3172" lrx="2354" uly="2636" ulx="18"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="EMIN" facs="#zone_e4w_hbz_k3b">
-            <l>Hüve</l>
-            <l>Vech-i tahrīr-i hurūf oldur ki</l>
-            <l>... <date when-custom="1197">bin yüz dokusan yedi senesi</date>ne mahsūben der ʿuhde
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0077</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1561/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1561/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6fe9201037b4a0733cbfda0fe4a9580eed45679b.jpg"/>
+<zone lrx="2263" lry="3154" ulx="54" uly="200" xml:id="zone_e4w_hbz_k3b"/>
+<zone lrx="531" lry="2714" ulx="336" uly="2446" xml:id="zone_ecn_sq5_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1561/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4eb971216a6f46e6d2d8cf5327464c35f381e78d.jpg"/>
+<zone lrx="509" lry="818" ulx="245" uly="572" xml:id="zone_oz5_jbz_k3b"/>
+<zone lrx="2354" lry="3172" ulx="18" uly="2636" xml:id="zone_uth_lbz_k3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_e4w_hbz_k3b" type="EMIN">
+<l>Hüve</l>
+<l>Vech-i tahrīr-i hurūf oldur ki</l>
+<l>... <date when-custom="1197">bin yüz dokusan yedi senesi</date>ne mahsūben der ʿuhde
                ve iltizāmıdan ... <date type="proper">Kirşevo</date> mukātaʿaya</l>
-            <l>kurālarında ... ʿarz-ı mīrīye rāhiblerine</l>
-            <l/>
-            <l/>
-            <l>...<date when-custom="1197">1197</date></l>
-         </div>
-         <div type="stamp" facs="#zone_oz5_jbz_k3b"/>
-         <div type="EMIN" cert="unknown" facs="#zone_e4w_hbz_k3b">
-            <p>
-               <lb/>Hüve<lb/>
-               <lb/>Vech-i tahrīr-i hurūf oldur ki<lb/>
-               <lb/>İşbu <date when-custom="1197">bin yüz dokusan yedi senesi</date>ne mahsūben der
-               ʿuhde ve iltizāmıdan ... <date type="proper">Kirşevo</date> mukātaʿaya<lb/>
-               <lb/>kurālarında ... ʿarz-ı mīrīye rāhiblerine<lb/>
-               <lb/>
-               <lb/>
-               <lb/>...<date when-custom="1197" type="created">1197</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_ecn_sq5_2jb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div type="stamp" facs="#zone_oz5_jbz_k3b">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div>
-            </div>
-         </div>
-         <div type="summary_Serbian" facs="#zone_uth_lbz_k3b">
-            <p>
-               <lb/>...<lb/>
-            </p>
-         </div>
-      </body>
-   </text>
+<l>kurālarında ... ʿarz-ı mīrīye rāhiblerine</l>
+<l></l>
+<l></l>
+<l>...<date when-custom="1197">1197</date></l>
+</div1>
+<div3 facs="#zone_oz5_jbz_k3b" type="stamp"></div3>
+<div1 cert="unknown" facs="#zone_e4w_hbz_k3b" type="EMIN">
+<p>
+<lb></lb>Hüve<lb></lb>
+<lb></lb>Vech-i tahrīr-i hurūf oldur ki<lb></lb>
+<lb></lb>İşbu <date when-custom="1197">bin yüz dokusan yedi senesi</date>ne mahsūben der
+               ʿuhde ve iltizāmıdan ... <date type="proper">Kirşevo</date> mukātaʿaya<lb></lb>
+<lb></lb>kurālarında ... ʿarz-ı mīrīye rāhiblerine<lb></lb>
+<lb></lb>
+<lb></lb>
+<lb></lb>...<date type="created" when-custom="1197">1197</date><lb></lb>
+</p>
+<div2 facs="#zone_ecn_sq5_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_oz5_jbz_k3b" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_uth_lbz_k3b" type="summary_Serbian">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

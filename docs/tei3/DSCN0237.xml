@@ -8,34 +8,37 @@
 <p>Publication Information</p>
 </publicationStmt>
 <sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
 </sourceDesc>
 </fileDesc>
 </teiHeader>
 <facsimile>
 <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1716/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1716/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7c853503adf2e72725b8c130b535a9a339d91e47.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1716/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7a9e160cc0c4de5f18ac0f551d0512141d27fa1e.jpg" /></surface></surfaceGrp>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1716/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7c853503adf2e72725b8c130b535a9a339d91e47.jpg" />
+<zone lrx="1616" lry="2730" ulx="116" uly="107" xml:id="zone_pd5_4fk_kjb" />
+<zone lrx="402" lry="2678" ulx="167" uly="2420" xml:id="zone_oyf_qfk_kjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1716/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7a9e160cc0c4de5f18ac0f551d0512141d27fa1e.jpg" />
+<zone lrx="2078" lry="677" ulx="467" uly="305" xml:id="zone_vgf_rfk_kjb" />
+</surface>
+</surfaceGrp>
 </facsimile>
 <text>
 <body>
-<div1 type="EMIN_zabt_temessük">
+<div1 facs="#zone_pd5_4fk_kjb" type="EMIN_zabt_temessük">
 <p>
-<lb />işbu <date type="created" when="0625-05-14" when-custom="1203">bin iki yüz üç senesine</date> mahsūben ... fī <lb />
+<lb />işbu <date type="created" when="0625-05-14" when-custom="1203">bin iki yüz üç senesine</date>
+               mahsūben ... fī <lb />
 </p>
-<div2 type="sign">
+<div2 facs="#zone_oyf_qfk_kjb" type="sign">
 <p>
 <lb />...<lb />
 </p>
 </div2>
 </div1>
-<div1 type="sumamry_Croatian">
+<div1 facs="#zone_vgf_rfk_kjb" type="sumamry_Croatian">
 <p>
 <lb />... <date type="summary_Croatian" when="1789">1789</date>. ...<lb />
 </p>

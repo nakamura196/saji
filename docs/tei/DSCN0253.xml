@@ -1,53 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN0253</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1732/manifest">
-         <surface>
-            <graphic url="https://diyhistory.org/public/phr2/files/original/035aeae64398d1c318a0c2847d76e83141991d3b.jpg" n="https://diyhistory.org/public/phr2/iiif/1732/canvas/p1"/>
-            <zone xml:id="zone_r3b_rqt_xjb" lry="3033" lrx="2092" uly="316" ulx="192"/>
-            <zone xml:id="zone_yny_rqt_xjb" lry="2985" lrx="520" uly="2662" ulx="284"/>
-         </surface>
-         <surface>
-            <graphic url="https://diyhistory.org/public/phr2/files/original/6be5d59d4d81acdaf8711526bc34f2306d1503d1.jpg" n="https://diyhistory.org/public/phr2/iiif/1732/canvas/p2"/>
-            <zone xml:id="zone_qj2_tqt_xjb" lry="375" lrx="421" uly="158" ulx="179"/>
-            <zone xml:id="zone_pq1_5qt_xjb" lry="2295" lrx="2241" uly="1516" ulx="1308"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div1 type="EMIN" subtype="tapu_nāme" facs="#zone_r3b_rqt_xjb">
-            <p>
-               <lb/>... <date when-custom="1230" type="created">sene 1230</date><lb/>
-            </p>
-            <div2 type="sign" facs="#zone_yny_rqt_xjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div3 type="stamp" facs="#zone_qj2_tqt_xjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div3>
-            </div2>
-         </div1>
-         <div1 type="summary_Croatian" facs="#zone_pq1_5qt_xjb">
-            <p>
-               <lb/>... <date when="1816" type="summary_Croatian">1816</date>.<lb/>
-            </p>
-         </div1>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0253</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1732/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1732/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/035aeae64398d1c318a0c2847d76e83141991d3b.jpg"/>
+<zone lrx="2092" lry="3033" ulx="192" uly="316" xml:id="zone_r3b_rqt_xjb"/>
+<zone lrx="520" lry="2985" ulx="284" uly="2662" xml:id="zone_yny_rqt_xjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1732/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6be5d59d4d81acdaf8711526bc34f2306d1503d1.jpg"/>
+<zone lrx="421" lry="375" ulx="179" uly="158" xml:id="zone_qj2_tqt_xjb"/>
+<zone lrx="2241" lry="2295" ulx="1308" uly="1516" xml:id="zone_pq1_5qt_xjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_r3b_rqt_xjb" subtype="tapu_nāme" type="EMIN">
+<p>
+<lb/>... <date type="created" when-custom="1230">sene 1230</date><lb/>
+</p>
+<div2 facs="#zone_yny_rqt_xjb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_qj2_tqt_xjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_pq1_5qt_xjb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1816">1816</date>.<lb/>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

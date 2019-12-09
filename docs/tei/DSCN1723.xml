@@ -1,77 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1723</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】日付：日、何日か要検討。</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1256/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/22ddec4f89c3db846f6df921ed0585b4bcaa9fd4.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p1"/>
-            <zone xml:id="zone_alf_1l2_bjb" lry="2916" lrx="1500" uly="91" ulx="617"/>
-         </surface>
-         <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p2"
-               url="https://diyhistory.org/public/phr2/files/original/64b08df6e0b5894aceb89fd702b21e8cd7172c33.jpg"
-            />
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/79c434fb66303bd7c2ee4210db88c8c3696020a9.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p3"/>
-            <zone xml:id="zone_hnq_dl2_bjb" lry="981" lrx="1452" uly="397" ulx="1063"/>
-            <zone xml:id="zone_m4c_2l2_bjb" lry="972" lrx="1356" uly="843" ulx="1215"/>
-         </surface>
-         <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p4"
-               url="https://diyhistory.org/public/phr2/files/original/e57b760f684913528a50aa0c3f011aaab06318dc.jpg"
-            />
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/75c510ef6c8f4b3cb3aac24a272dd9b27d4d70f9.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p5"/>
-            <zone xml:id="zone_imh_gl2_bjb" lry="1266" lrx="2128" uly="1038" ulx="1095"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="hüccet" facs="#zone_alf_1l2_bjb">
-            <p>
-               <lb/>... <date when-custom="1275-06-" type="created">fi'l-yevmi'l-... min şehr<lb/>
-               <lb/>Cemaziye'l-sānī sene<lb/>
-               <lb/>hamis ve sabʿīn ve mieteyn ve elif</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_hnq_dl2_bjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-               <div type="stamp" facs="#zone_m4c_2l2_bjb">
-                  <p>
-                     <lb/>...<lb/>
-                  </p>
-               </div>               
-            </div>            
-         </div>
-         <div type="summary_Croatian" facs="#zone_imh_gl2_bjb">
-            <p>
-               <lb/>...<lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1723</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：日、何日か要検討。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1256/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/22ddec4f89c3db846f6df921ed0585b4bcaa9fd4.jpg"/>
+<zone lrx="1500" lry="2916" ulx="617" uly="91" xml:id="zone_alf_1l2_bjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/64b08df6e0b5894aceb89fd702b21e8cd7172c33.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/79c434fb66303bd7c2ee4210db88c8c3696020a9.jpg"/>
+<zone lrx="1452" lry="981" ulx="1063" uly="397" xml:id="zone_hnq_dl2_bjb"/>
+<zone lrx="1356" lry="972" ulx="1215" uly="843" xml:id="zone_m4c_2l2_bjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/e57b760f684913528a50aa0c3f011aaab06318dc.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1256/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/75c510ef6c8f4b3cb3aac24a272dd9b27d4d70f9.jpg"/>
+<zone lrx="2128" lry="1266" ulx="1095" uly="1038" xml:id="zone_imh_gl2_bjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_alf_1l2_bjb" type="hüccet">
+<p>
+<lb></lb>... <date type="created" when-custom="1275-06-">fi'l-yevmi'l-... min şehr<lb></lb>
+<lb></lb>Cemaziye'l-sānī sene<lb></lb>
+<lb></lb>hamis ve sabʿīn ve mieteyn ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_hnq_dl2_bjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_m4c_2l2_bjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_imh_gl2_bjb" type="summary_Croatian">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

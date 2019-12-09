@@ -1,87 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1862</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】日付：クロアチア語要約の月が読み取れなかったので、TEIの方には適当な数字を入力している。要確認。</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1392/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/95d4ab56e9ce9a70804da17fe9c08361d4ade4a4.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1392/canvas/p1"/>
-            <zone xml:id="zone_rl1_3tv_cjb" lry="3075" lrx="1550" uly="200" ulx="167"/>
-            <zone xml:id="zone_ojj_ktv_cjb" lry="2931" lrx="619" uly="2762" ulx="309"/>
-            <zone xml:id="zone_gsh_ltv_cjb" lry="2280" lrx="1473" uly="753" ulx="200"/>
-            <zone xml:id="zone_rb2_mtv_cjb" lry="2280" lrx="1460" uly="1460" ulx="293"/>
-            <zone xml:id="zone_drk_ntv_cjb" lry="2091" lrx="887" uly="1941" ulx="725"/>
-         </surface>
-         <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/1392/canvas/p2"
-               url="https://diyhistory.org/public/phr2/files/original/235eb437125f12c07c1eb709b3c8edbb4026b098.jpg"
-            />
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/cc1131cfd7a4e9a7e84a6c232626de135a935e9c.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1392/canvas/p3"/>
-            <zone xml:id="zone_ymr_4tv_cjb" lry="900" lrx="3039" uly="644" ulx="117"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="iʿlām" facs="#zone_rl1_3tv_cjb">
-            <p>
-               <lb/>Hüve<lb/>
-               <lb/><lb/>
-               <lb/><lb/>
-               <lb/><lb/>
-               <lb/><lb/>
-               <lb/><lb/>
-               <lb/><lb/>
-               <lb/><lb/>
-               <lb/>... fī <date from-custom="1186-04-11" to-custom="1186-04-20" type="created">evāsit Rebī'ü'l-āhir sene sitte ve semānīn ve mie ve elif</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_ojj_ktv_cjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>               
-            </div>            
-         </div>
-         <div type="buyuruldu" facs="#zone_gsh_ltv_cjb">
-            <p>
-               <lb/>Foyniçe kadı efendī<lb/>
-               <lb/>İʿlām mūcebince reʿāyā-ı mesfūrdan kazīye-i mezkūre içün<lb/>               
-               <lb/>hilā.. fī <date when-custom="1186-04-29" type="created">29 R sene 186</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_rb2_mtv_cjb">
-               <p>
-                  <lb/>... kā<lb/>
-               </p>
-               <div type="stamp" facs="#zone_drk_ntv_cjb">
-                  <p>
-                     <lb/>Mehmed...<lb/>
-                  </p>
-               </div>               
-            </div>            
-         </div>
-         <div type="sumamry_Croatian">
-            <p>
-               <lb/>... <date when="1772-08-24" cert="unknown" type="summary_Croatian">1772-24 ...</date><lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1862</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：クロアチア語要約の月が読み取れなかったので、TEIの方には適当な数字を入力している。要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1392/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1392/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/95d4ab56e9ce9a70804da17fe9c08361d4ade4a4.jpg"/>
+<zone lrx="1550" lry="3075" ulx="167" uly="200" xml:id="zone_rl1_3tv_cjb"/>
+<zone lrx="619" lry="2931" ulx="309" uly="2762" xml:id="zone_ojj_ktv_cjb"/>
+<zone lrx="1473" lry="2280" ulx="200" uly="753" xml:id="zone_gsh_ltv_cjb"/>
+<zone lrx="1460" lry="2280" ulx="293" uly="1460" xml:id="zone_rb2_mtv_cjb"/>
+<zone lrx="887" lry="2091" ulx="725" uly="1941" xml:id="zone_drk_ntv_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1392/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/235eb437125f12c07c1eb709b3c8edbb4026b098.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1392/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/cc1131cfd7a4e9a7e84a6c232626de135a935e9c.jpg"/>
+<zone lrx="3039" lry="900" ulx="117" uly="644" xml:id="zone_ymr_4tv_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_rl1_3tv_cjb" type="iʿlām">
+<p>
+<lb></lb>Hüve<lb></lb>
+<lb></lb><lb></lb>
+<lb></lb><lb></lb>
+<lb></lb><lb></lb>
+<lb></lb><lb></lb>
+<lb></lb><lb></lb>
+<lb></lb><lb></lb>
+<lb></lb><lb></lb>
+<lb></lb>... fī <date from-custom="1186-04-11" to-custom="1186-04-20" type="created">evāsit Rebī'ü'l-āhir sene sitte ve semānīn ve mie ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_ojj_ktv_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_gsh_ltv_cjb" type="buyuruldu">
+<p>
+<lb></lb>Foyniçe kadı efendī<lb></lb>
+<lb></lb>İʿlām mūcebince reʿāyā-ı mesfūrdan kazīye-i mezkūre içün<lb></lb>
+<lb></lb>hilā.. fī <date type="created" when-custom="1186-04-29">29 R sene 186</date><lb></lb>
+</p>
+<div2 facs="#zone_rb2_mtv_cjb" type="sign">
+<p>
+<lb></lb>... kā<lb></lb>
+</p>
+<div3 facs="#zone_drk_ntv_cjb" type="stamp">
+<p>
+<lb></lb>Mehmed...<lb></lb>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 type="sumamry_Croatian">
+<p>
+<lb></lb>... <date cert="unknown" type="summary_Croatian" when="1772-08-24">1772-24 ...</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

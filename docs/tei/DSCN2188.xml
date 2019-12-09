@@ -1,58 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN2188</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="summary">計算メモ</note>
-            <note type="translation">
-               <l>クレシェヴォの異教徒について請求されるアクチェを明らかにする</l>
-               <l>合計 50412</l>
-               <l>18000 内、現金支払い分</l>
-               <l>32412 イステバンとトマからの送金</l>
-               <l>9200</l>
-               <l>22812 クレシェヴォ・ヴァロシュからの現金が請求される</l>
-               <l>17000</l>
-               <l>5812 カラ・イブラヒーム・アアからの送金</l>
-               <l>3892</l>
-               <l>1920 カトから請求される</l>
-            </note>
-            <note type="mine">何に関する請求か、いつの請求なのかは明らかにできない。スタンプや署名もないことから、単なるメモであると考えられる。</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2188</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">計算メモ</note>
+<note type="translation">
+<l>クレシェヴォの異教徒について請求されるアクチェを明らかにする</l>
+<l>合計 50412</l>
+<l>18000 内、現金支払い分</l>
+<l>32412 イステバンとトマからの送金</l>
+<l>9200</l>
+<l>22812 クレシェヴォ・ヴァロシュからの現金が請求される</l>
+<l>17000</l>
+<l>5812 カラ・イブラヒーム・アアからの送金</l>
+<l>3892</l>
+<l>1920 カトから請求される</l>
+</note>
+<note type="mine">何に関する請求か、いつの請求なのかは明らかにできない。スタンプや署名もないことから、単なるメモであると考えられる。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
                }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2516/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/5cccb31e15aa8c5328bee3561f235f03cf8766f6.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/2516/canvas/p1"/>
-            <zone xml:id="zone_nnf_w2w_j3b" lry="2066" lrx="1960" uly="133" ulx="460"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="unknown" facs="#zone_nnf_w2w_j3b">
-            <l><persName>Gebrān-ı <placeName type="proper">Kirşevo</placeName></persName>'da matlūb olunacak akçe beyānıdır</l>
-            <l>Meblāğ 50412</l>
-            <l>18000 Minhā el-teslīmāt-ı nukūd</l>
-            <l>32412 Havāle ʿan <persName cert="medium">İsteban</persName>'nın ve <persName cert="low">Toru</persName>'nın</l>
-            <l>9200</l>
-            <l>22812 <placeName>Veroş-ı <placeName type="proper">Kirşevo</placeName></placeName>'dan nukūd taleb oluna</l>
-            <l>17000</l>
-            <l>5812 Havāle ʿan <persName>Kara İbrahīm Ağa</persName></l>
-            <l>3892</l>
-            <l>1920 <persName cert="low">Kato</persName>'dan taleb oluna</l>           
-         </div>
-      </body>
-   </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2516/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2516/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5cccb31e15aa8c5328bee3561f235f03cf8766f6.jpg"/>
+<zone lrx="1960" lry="2066" ulx="460" uly="133" xml:id="zone_nnf_w2w_j3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_nnf_w2w_j3b" type="unknown">
+<l><persname>Gebrān-ı <placename type="proper">Kirşevo</placename></persname>'da matlūb olunacak akçe beyānıdır</l>
+<l>Meblāğ 50412</l>
+<l>18000 Minhā el-teslīmāt-ı nukūd</l>
+<l>32412 Havāle ʿan <persname cert="medium">İsteban</persname>'nın ve <persname cert="low">Toru</persname>'nın</l>
+<l>9200</l>
+<l>22812 <placename>Veroş-ı <placename type="proper">Kirşevo</placename></placename>'dan nukūd taleb oluna</l>
+<l>17000</l>
+<l>5812 Havāle ʿan <persname>Kara İbrahīm Ağa</persname></l>
+<l>3892</l>
+<l>1920 <persname cert="low">Kato</persname>'dan taleb oluna</l>
+</div1>
+</body>
+</text>
 </TEI>

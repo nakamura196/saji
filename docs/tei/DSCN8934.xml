@@ -1,76 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN8934</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="mine">【要】日付：幅のある日付の表記要確認。</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1524/manifest">
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/c18fd85beb5b7bbff57258c1ede2fcc92fec887e.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1524/canvas/p1"/>
-        <zone xml:id="zone_jjh_2f1_2jb" lry="2891" lrx="2267" uly="508" ulx="58"/>
-        <zone xml:id="zone_es1_gf1_2jb" lry="2778" lrx="450" uly="2622" ulx="258"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/e6ca4327aa60e0ef3937a7a1e9b2fdf39fd4dbd8.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1524/canvas/p2"/>
-        <zone xml:id="zone_zq4_3f1_2jb" lry="781" lrx="2656" uly="509" ulx="2277"/>
-        <zone xml:id="zone_ol5_jf1_2jb" lry="700" lrx="2635" uly="580" ulx="2525"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/cc9bbf79f021895ebe3caa56b35874becd6486c5.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1524/canvas/p3"/>
-        <zone xml:id="zone_snf_lf1_2jb" lry="777" lrx="3128" uly="555" ulx="100"/>
-        <zone xml:id="zone_dvz_lf1_2jb" lry="1394" lrx="2623" uly="883" ulx="650"/>
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div type="fermān_sūret">
-        <p>
-          <lb/>... <date from-custom="1245-11-11" to-custom="1245-11-20" type="created">evāsit şehr Zi'l-kaʿade'l-şerīfe sene hamıs ve arbaʿīn ve mieteyn ve elif</date><lb/>
-        </p>
-        <div type="sign" facs="#zone_es1_gf1_2jb">
-          <p>
-            <lb/>...<lb/>
-          </p>
-        </div>        
-      </div>
-      <div type="sign" facs="#zone_zq4_3f1_2jb">
-        <p>
-          <lb/>...<lb/>
-        </p>
-        <div type="stamp" facs="#zone_ol5_jf1_2jb">
-          <p>
-            <lb/>...<lb/>
-          </p>
-        </div>        
-      </div>      
-      <div type="summary_Croatian" facs="#zone_snf_lf1_2jb">
-        <p>
-          <lb/>... <date when="1830" type="summary_Croatian">1830</date>.<lb/>
-        </p>
-      </div><div type="summary_Croatian" facs="#zone_dvz_lf1_2jb">
-        <p>
-          <lb/>Datum: <date from-custom="1245-11-11" to-custom="1245-11-20" type="summary_Croatian">II dekada zilkade 1245</date> - <date from="1830-06-03" to="1830-06-12" type="summary_Croatian">3.-12. juna 1830</date><lb/>
-        </p>
-      </div>      
-    </body>
-  </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8934</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：幅のある日付の表記要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1524/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1524/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c18fd85beb5b7bbff57258c1ede2fcc92fec887e.jpg"/>
+<zone lrx="2267" lry="2891" ulx="58" uly="508" xml:id="zone_jjh_2f1_2jb"/>
+<zone lrx="450" lry="2778" ulx="258" uly="2622" xml:id="zone_es1_gf1_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1524/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e6ca4327aa60e0ef3937a7a1e9b2fdf39fd4dbd8.jpg"/>
+<zone lrx="2656" lry="781" ulx="2277" uly="509" xml:id="zone_zq4_3f1_2jb"/>
+<zone lrx="2635" lry="700" ulx="2525" uly="580" xml:id="zone_ol5_jf1_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1524/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/cc9bbf79f021895ebe3caa56b35874becd6486c5.jpg"/>
+<zone lrx="3128" lry="777" ulx="100" uly="555" xml:id="zone_snf_lf1_2jb"/>
+<zone lrx="2623" lry="1394" ulx="650" uly="883" xml:id="zone_dvz_lf1_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 type="fermān_sūret">
+<p>
+<lb></lb>... <date from-custom="1245-11-11" to-custom="1245-11-20" type="created">evāsit şehr Zi'l-kaʿade'l-şerīfe sene hamıs ve arbaʿīn ve mieteyn ve elif</date><lb></lb>
+</p>
+<div2 facs="#zone_es1_gf1_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div2 facs="#zone_zq4_3f1_2jb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_ol5_jf1_2jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div2>
+<div1 facs="#zone_snf_lf1_2jb" type="summary_Croatian">
+<p>
+<lb></lb>... <date type="summary_Croatian" when="1830">1830</date>.<lb></lb>
+</p>
+</div1><div1 facs="#zone_dvz_lf1_2jb" type="summary_Croatian">
+<p>
+<lb></lb>Datum: <date from-custom="1245-11-11" to-custom="1245-11-20" type="summary_Croatian">II dekada zilkade 1245</date> - <date from="1830-06-03" to="1830-06-12" type="summary_Croatian">3.-12. juna 1830</date><lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

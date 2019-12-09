@@ -1,49 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1712</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1245/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/25eaedc83408f4cd424c6487bda4a4550361900e.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1245/canvas/p1"/>
-            <zone xml:id="zone_ldt_n22_bjb" lry="2858" lrx="2117" uly="190" ulx="354"/>
-         </surface>
-         <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/1245/canvas/p2"
-               url="https://diyhistory.org/public/phr2/files/original/161306e2a57d424999ada9b4d37c2b244a83ea9d.jpg"
-            />
-         </surface>
-         <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/1245/canvas/p3"
-               url="https://diyhistory.org/public/phr2/files/original/0dc2faeb8c7d907d4707fe55a02e1f00804fb553.jpg"
-            />
-         </surface>
-         <surface>
-            <graphic n="https://diyhistory.org/public/phr2/iiif/1245/canvas/p4"
-               url="https://diyhistory.org/public/phr2/files/original/399718ebc215bf6dd979353cef6b829ba10d9bbb.jpg"
-            />
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="Croatian" cert="unknown" facs="#zone_ldt_n22_bjb"> 
-            <p>
-               <lb/><lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1712</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1245/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1245/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/25eaedc83408f4cd424c6487bda4a4550361900e.jpg"/>
+<zone lrx="2117" lry="2858" ulx="354" uly="190" xml:id="zone_ldt_n22_bjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1245/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/161306e2a57d424999ada9b4d37c2b244a83ea9d.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1245/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/0dc2faeb8c7d907d4707fe55a02e1f00804fb553.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1245/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/399718ebc215bf6dd979353cef6b829ba10d9bbb.jpg"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_ldt_n22_bjb" type="Croatian">
+<p>
+<lb></lb><lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

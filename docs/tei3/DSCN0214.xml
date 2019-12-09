@@ -8,34 +8,41 @@
 <p>Publication Information</p>
 </publicationStmt>
 <sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
 </sourceDesc>
 </fileDesc>
 </teiHeader>
 <facsimile>
 <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1693/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1693/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ee6d92d4ea907ecaacdc8f3978af0109dd97ec96.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1693/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/390d5f30c866a327f0b6a0c98f2cfce0dd1d4bc5.jpg" /></surface></surfaceGrp>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1693/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ee6d92d4ea907ecaacdc8f3978af0109dd97ec96.jpg" />
+<zone lrx="2300" lry="3141" ulx="150" uly="333" xml:id="zone_w1m_hbk_kjb" />
+<zone lrx="496" lry="2945" ulx="209" uly="2606" xml:id="zone_vh2_jbk_kjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1693/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/390d5f30c866a327f0b6a0c98f2cfce0dd1d4bc5.jpg" />
+<zone lrx="3173" lry="1850" ulx="45" uly="477" xml:id="zone_n3d_kbk_kjb" />
+</surface>
+</surfaceGrp>
 </facsimile>
 <text>
 <body>
-<div1 type="EMIN_tapu_nāme">
+<div1 facs="#zone_w1m_hbk_kjb" type="EMIN_tapu_nāme">
 <p>
 <lb />... <date type="created" when="0636-01-15" when-custom="1214">sene 1214</date><lb />
 </p>
-<div2 type="sign">
+<div2 facs="#zone_vh2_jbk_kjb" type="sign">
 <p>
 <lb />...<lb />
 </p>
 </div2>
+<div1 type="şühūdu’l-hāl">
+<p>
+<lb />...<lb />
+</p>
 </div1>
-<div1 type="summary_Croatian">
+</div1>
+<div1 facs="#zone_n3d_kbk_kjb" type="summary_Croatian">
 <p>
 <lb />... <date type="summary_Croatian" when="1800">1800</date> ...<lb />
 <lb />Nno 5. <date type="summary_Croatian" when="0636-01-15" when-custom="1214">1214</date>.<lb />

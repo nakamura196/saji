@@ -8,24 +8,46 @@
 <p>Publication Information</p>
 </publicationStmt>
 <sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
 </sourceDesc>
 </fileDesc>
 </teiHeader>
 <facsimile>
 <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1770/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1770/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/44e5a8d0cfd7fbc03420642796bab4ea9b0f83ff.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1770/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/407c39af8b8910d7e0518384fd901dbe993f46d9.jpg" /></surface></surfaceGrp>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1770/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/44e5a8d0cfd7fbc03420642796bab4ea9b0f83ff.jpg" />
+<zone lrx="2217" lry="3116" ulx="133" uly="183" xml:id="zone_wrw_bks_yjb" />
+<zone lrx="464" lry="3116" ulx="202" uly="2748" xml:id="zone_gxd_dks_yjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1770/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/407c39af8b8910d7e0518384fd901dbe993f46d9.jpg" />
+<zone lrx="454" lry="358" ulx="208" uly="154" xml:id="zone_iqt_2ks_yjb" />
+<zone lrx="1429" lry="2279" ulx="125" uly="1475" xml:id="zone_yb1_gks_yjb" />
+</surface>
+</surfaceGrp>
 </facsimile>
 <text>
 <body>
-<p />
+<div1 facs="#zone_wrw_bks_yjb" subtype="tezkire" type="EMIN">
+<p>
+<lb />işbu <date type="created" when="0648-08-26" when-custom="1227">bin iki yüz yiğirmi yedi senesinde</date> der ʿuhde ve iltizāmımızda<lb />
+</p>
+<div2 facs="#zone_gxd_dks_yjb" type="sign">
+<p>
+<lb />... fī <lb />
+</p>
+<div3 facs="#zone_iqt_2ks_yjb" type="stamp">
+<p>
+<lb />... fī <lb />
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_yb1_gks_yjb" type="summary_Croatian">
+<p>
+<lb />... fī <lb />
+</p>
+</div1>
 </body>
 </text>
 </TEI>

@@ -1,43 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1836</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】日付：全ての日付を作成日としてタグ付けしている、本文を読んで作成日を要確認。</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1367/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/fa605f1edbc6d9c76ec9c73adce7045eb6c0b2d1.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1367/canvas/p1"/>
-            <zone xml:id="zone_pff_zwp_cjb" lry="1758" lrx="2188" uly="370" ulx="106"/>
-            <zone xml:id="zone_avf_1xp_cjb" lry="1592" lrx="880" uly="1448" ulx="726"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="şukka" cert="low" facs="#zone_pff_zwp_cjb">
-            <p>
-               <lb/>... fī <date when-custom="1294-02-18" type="created">18 Safer sene 294</date> ve fī <date when-custom="1292--20" cert="unknown" type="created">20 ... sene 92</date><lb/>
-            </p>
-            <div type="stamp" facs="#zone_avf_1xp_cjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>            
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1836</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：全ての日付を作成日としてタグ付けしている、本文を読んで作成日を要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1367/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1367/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/fa605f1edbc6d9c76ec9c73adce7045eb6c0b2d1.jpg"/>
+<zone lrx="2188" lry="1758" ulx="106" uly="370" xml:id="zone_pff_zwp_cjb"/>
+<zone lrx="880" lry="1592" ulx="726" uly="1448" xml:id="zone_avf_1xp_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_pff_zwp_cjb" type="şukka">
+<p>
+<lb></lb>... fī <date type="created" when-custom="1294-02-18">18 Safer sene 294</date> ve fī <date cert="unknown" type="created" when-custom="1292--20">20 ... sene 92</date><lb></lb>
+</p>
+<div3 facs="#zone_avf_1xp_cjb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div1>
+</body>
+</text>
 </TEI>

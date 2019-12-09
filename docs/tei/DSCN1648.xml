@@ -1,78 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN1648</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="summary">ジズヤ</note>
-        <note type="summary">アルズハールとブユルルドゥの写し</note>
-        <note type="mine">Aydoslu Mehmed Paşaは、1790年にアナドルベイレルベイに、1791年にルメリベイレルベイになった人物。Vikipediにも出てくるが、Sicilli Osmaniを調べる。</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1648</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">ジズヤ</note>
+<note type="summary">アルズハールとブユルルドゥの写し</note>
+<note type="mine">Aydoslu Mehmed Paşaは、1790年にアナドルベイレルベイに、1791年にルメリベイレルベイになった人物。Vikipediにも出てくるが、Sicilli Osmaniを調べる。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
           "ジズヤの話" ], "saji:type": [ "ṣūret-i ‘arż-ı ḥāl ve buyuruldu" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1187/manifest">
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/9a1a942bb76f20da4c26519fb4108aeee510125d.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1187/canvas/p1"/>
-        <zone xml:id="zone_tzd_fjk_1jb" lry="2936" lrx="1882" uly="109" ulx="27"/>
-        <zone xml:id="zone_atp_5jk_1jb" lry="2911" lrx="1522" uly="1344" ulx="33"/>
-        <zone xml:id="zone_oln_vjk_1jb" lry="1327" lrx="1572" uly="266" ulx="67"/>
-        <zone xml:id="zone_rbq_clk_1jb" lry="816" lrx="1116" uly="279" ulx="975"/>
-        <zone xml:id="zone_zc2_2lk_1jb" lry="2195" lrx="1850" uly="1725" ulx="1508"/>
-        <zone xml:id="zone_adm_flk_1jb" lry="1979" lrx="1841" uly="1815" ulx="1701"/>
-      </surface>
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/7a1b0650ec79b9bb1f8e6ed186e0a211ff31e9bc.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1187/canvas/p2"/>
-        <zone xml:id="zone_lsf_4jk_1jb" lry="805" lrx="2750" uly="555" ulx="1584"/>
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div type="ʿarz-ı_hāl_buyuruldu_sūret" facs="#zone_tzd_fjk_1jb">
-        <div type="ʿarz-ı_hāl_sūret" facs="#zone_atp_5jk_1jb">
-          <p>
-            <lb/>...<lb/>
-          </p>
-        </div>
-        <div type="buyuruldu_sūret" facs="#zone_oln_vjk_1jb">
-          <p>
-            <lb/>... buyuruldu <date when-custom="1199-03-03" type="created">3 Ra 199</date><lb/>
-          </p>
-          <div type="stamp_sūret" facs="#zone_lsf_4jk_1jb">
-            <p>
-              <lb/>...<lb/>
-            </p>
-          </div>
-        </div>
-        <div type="note" facs="#zone_zc2_2lk_1jb">
-          <p>
-            <lb/>...<lb/>
-          </p>
-          <div type="stamp" facs="#zone_adm_flk_1jb">
-            <p>
-              <lb/>...<lb/>
-            </p>
-          </div>
-        </div>
-        <div type="summary_Croatian" facs="#zone_rbq_clk_1jb">
-          <p>
-            <lb/>...<lb/>
-          </p>
-        </div>
-      </div>
-    </body>
-  </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1187/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1187/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9a1a942bb76f20da4c26519fb4108aeee510125d.jpg"/>
+<zone lrx="1882" lry="2936" ulx="27" uly="109" xml:id="zone_tzd_fjk_1jb"/>
+<zone lrx="1522" lry="2911" ulx="33" uly="1344" xml:id="zone_atp_5jk_1jb"/>
+<zone lrx="1572" lry="1327" ulx="67" uly="266" xml:id="zone_oln_vjk_1jb"/>
+<zone lrx="1116" lry="816" ulx="975" uly="279" xml:id="zone_rbq_clk_1jb"/>
+<zone lrx="1850" lry="2195" ulx="1508" uly="1725" xml:id="zone_zc2_2lk_1jb"/>
+<zone lrx="1841" lry="1979" ulx="1701" uly="1815" xml:id="zone_adm_flk_1jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1187/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7a1b0650ec79b9bb1f8e6ed186e0a211ff31e9bc.jpg"/>
+<zone lrx="2750" lry="805" ulx="1584" uly="555" xml:id="zone_lsf_4jk_1jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_tzd_fjk_1jb" type="ʿarz-ı_hāl_buyuruldu_sūret">
+<div1 facs="#zone_atp_5jk_1jb" type="ʿarz-ı_hāl_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+<div1 facs="#zone_oln_vjk_1jb" type="buyuruldu_sūret">
+<p>
+<lb></lb>... buyuruldu <date type="created" when-custom="1199-03-03">3 Ra 199</date><lb></lb>
+</p>
+<div3 facs="#zone_lsf_4jk_1jb" type="stamp_sūret">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div1>
+<div1 facs="#zone_zc2_2lk_1jb" type="note">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+<div3 facs="#zone_adm_flk_1jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div1>
+<div1 facs="#zone_rbq_clk_1jb" type="summary_Croatian">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+</div1>
+</body>
+</text>
 </TEI>

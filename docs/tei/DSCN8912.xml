@@ -1,21 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN8912</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-        <notesStmt>
-          <note type="summary">Tursko2 フォンド表紙。</note>
-          <note type="mine">このフォンドに収められている文書には、概ね、活字で整理番号・ボスニア語梗概が付されている。これは、「Tursko 1」フォンドには全く見られなかったこと。どこかの時点できちんと整理された形跡。重要文書群と考えられたのか？</note>
-          <note type="mine">トゥーラ入り文書、ベラートなどが含まれている。</note>
-          <note type="mine">【要】文書数カウントから除外する。</note>
-          <note type="mine"></note>
-        </notesStmt>
-         <sourceDesc>
-            <p>{
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8912</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">Tursko2 フォンド表紙。</note>
+<note type="mine">このフォンドに収められている文書には、概ね、活字で整理番号・ボスニア語梗概が付されている。これは、「Tursko 1」フォンドには全く見られなかったこと。どこかの時点できちんと整理された形跡。重要文書群と考えられたのか？</note>
+<note type="mine">トゥーラ入り文書、ベラートなどが含まれている。</note>
+<note type="mine">【要】文書数カウントから除外する。</note>
+<note type="mine"/>
+</notesStmt>
+<sourceDesc>
+<p>{
   "saji:aspectRatioType": [
     "n/a"
   ],
@@ -26,16 +27,16 @@
     "フォンド表紙"
   ]
 }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1502/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1502/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e8153e8c829e8d3dc36a5e7d10cc9f8834efa9c9.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1502/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4b466c735b1c1ac2c492dd65597271fd21afce5a.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1502/manifest">
+<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1502/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e8153e8c829e8d3dc36a5e7d10cc9f8834efa9c9.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1502/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4b466c735b1c1ac2c492dd65597271fd21afce5a.jpg"/></surface></surfaceGrp>
+</facsimile>
+<text>
+<body>
+<p/>
+</body>
+</text>
 </TEI>

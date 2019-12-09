@@ -1,44 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN1675</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="mine">署名：傘型</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ]
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1675</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">署名：傘型</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ]
           }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1212/manifest">
-      <surface>
-        <graphic
-          url="https://diyhistory.org/public/phr2/files/original/94a42cb9790fb030349bab2fc32a81ec3fe7b5ed.jpg"
-          n="https://diyhistory.org/public/phr2/iiif/1212/canvas/p1"/>
-        <zone xml:id="zone_ebb_mdx_1jb" lry="2572" lrx="2236" uly="9" ulx="109"/>
-        <zone xml:id="zone_pg5_ndx_1jb" lry="2143" lrx="1014" uly="2002" ulx="865"/>
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div type="tezkire_dīvānī" facs="#zone_ebb_mdx_1jb">
-        <p>
-          <lb/>... fī <date when-custom="1263-08-27" cert="low " type="created">27 Ş sene 63</date><lb/>
-        </p>
-        <div type="stamp" facs="#zone_pg5_ndx_1jb">
-          <p>
-            <lb/>...<lb/>
-          </p>
-        </div>
-      </div>
-    </body>
-  </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1212/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1212/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/94a42cb9790fb030349bab2fc32a81ec3fe7b5ed.jpg"/>
+<zone lrx="2236" lry="2572" ulx="109" uly="9" xml:id="zone_ebb_mdx_1jb"/>
+<zone lrx="1014" lry="2143" ulx="865" uly="2002" xml:id="zone_pg5_ndx_1jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ebb_mdx_1jb" type="tezkire_dīvānī">
+<p>
+<lb></lb>... fī <date cert="low " type="created" when-custom="1263-08-27">27 Ş sene 63</date><lb></lb>
+</p>
+<div3 facs="#zone_pg5_ndx_1jb" type="stamp">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div3>
+</div1>
+</body>
+</text>
 </TEI>

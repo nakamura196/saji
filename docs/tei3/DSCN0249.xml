@@ -8,24 +8,40 @@
 <p>Publication Information</p>
 </publicationStmt>
 <sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
 </sourceDesc>
 </fileDesc>
 </teiHeader>
 <facsimile>
 <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1728/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1728/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ba5e2c4d931c60fa42929c53b5d5527740d9ea88.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1728/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4b276575db9c466731bb9c2fc7c1362e48e973ce.jpg" /></surface></surfaceGrp>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1728/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ba5e2c4d931c60fa42929c53b5d5527740d9ea88.jpg" />
+<zone lrx="1770" lry="3110" ulx="100" uly="210" xml:id="zone_glw_zpt_xjb" />
+<zone lrx="528" lry="3041" ulx="224" uly="2752" xml:id="zone_cgj_bqt_xjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1728/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4b276575db9c466731bb9c2fc7c1362e48e973ce.jpg" />
+<zone lrx="2428" lry="1377" ulx="467" uly="1022" xml:id="zone_byj_cqt_xjb" />
+</surface>
+</surfaceGrp>
 </facsimile>
 <text>
 <body>
-<p />
+<div1 facs="#zone_glw_zpt_xjb" subtype="zabt_tezkire" type="EMIN">
+<p>
+<lb />...<lb />
+</p>
+<div2 facs="#zone_cgj_bqt_xjb" type="sign">
+<p>
+<lb />...<lb />
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_byj_cqt_xjb" type="summary_Croatian">
+<p>
+<lb />... <date type="summary_Croatian" when="1800">1800</date><lb />
+</p>
+</div1>
 </body>
 </text>
 </TEI>

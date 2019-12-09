@@ -1,51 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1919</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1449/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/6464cc6d6dcf3f8ed7ab977b4a978398caa3b18b.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1449/canvas/p1"/>
-            <zone xml:id="zone_lcl_rtx_cjb" lry="1983" lrx="2734" uly="555" ulx="339"/>
-            <zone xml:id="zone_rsw_wtx_cjb" lry="1665" lrx="650" uly="1423" ulx="353"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/4d2a4b200fee5471d1325137162df10f9e4f3f10.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1449/canvas/p2"/>
-            <zone xml:id="zone_zm1_ttx_cjb" lry="2445" lrx="3191" uly="900" ulx="27"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="EMIN" cert="unknown" facs="#zone_lcl_rtx_cjb">
-            <p>
-               <lb/>... fī <date when-custom="1159-12-04" cert="low" type="created">4 Z sene 159</date><lb/>
-            </p>
-            <div type="sign" facs="#zone_rsw_wtx_cjb">
-               <p>
-                  <lb/>...<lb/>
-               </p>
-            </div>
-         </div>
-         <div type="summary_Croatian" facs="#zone_zm1_ttx_cjb">
-            <p>
-               <lb/><date when="1843" type="summary_Croatian">1843</date>.<lb/>
-            </p>
-         </div>
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1919</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1449/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1449/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6464cc6d6dcf3f8ed7ab977b4a978398caa3b18b.jpg"/>
+<zone lrx="2734" lry="1983" ulx="339" uly="555" xml:id="zone_lcl_rtx_cjb"/>
+<zone lrx="650" lry="1665" ulx="353" uly="1423" xml:id="zone_rsw_wtx_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1449/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4d2a4b200fee5471d1325137162df10f9e4f3f10.jpg"/>
+<zone lrx="3191" lry="2445" ulx="27" uly="900" xml:id="zone_zm1_ttx_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_lcl_rtx_cjb" type="EMIN">
+<p>
+<lb></lb>... fī <date cert="low" type="created" when-custom="1159-12-04">4 Z sene 159</date><lb></lb>
+</p>
+<div2 facs="#zone_rsw_wtx_cjb" type="sign">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_zm1_ttx_cjb" type="summary_Croatian">
+<p>
+<lb></lb><date type="summary_Croatian" when="1843">1843</date>.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

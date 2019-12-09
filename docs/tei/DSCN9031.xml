@@ -1,14 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN9031</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>{
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9031</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{
   "saji:aspectRatioType": [
     "B"
   ],
@@ -16,16 +17,16 @@
     "Tursko 3"
   ]
 }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1958/manifest">
-      <surface><graphic n="https://diyhistory.org/public/phr2/iiif/1958/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7ef692b3dd76f4e9bad362771367944d0104780e.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1958/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/38fca9f014c9f5f73d1d7d5dd67e38d438fd692d.jpg" /></surface></surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <p />
-      </body>
-   </text>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1958/manifest">
+<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1958/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7ef692b3dd76f4e9bad362771367944d0104780e.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1958/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/38fca9f014c9f5f73d1d7d5dd67e38d438fd692d.jpg"/></surface></surfaceGrp>
+</facsimile>
+<text>
+<body>
+<p/>
+</body>
+</text>
 </TEI>

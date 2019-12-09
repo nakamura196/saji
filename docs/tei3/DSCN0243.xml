@@ -8,34 +8,36 @@
 <p>Publication Information</p>
 </publicationStmt>
 <sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
 </sourceDesc>
 </fileDesc>
 </teiHeader>
 <facsimile>
 <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1722/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1722/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ebed1398206a5e7e2775fa8b9ab109f4fc4270ee.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1722/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e9cebf20f79cbbda38959617517d058cb498a84d.jpg" /></surface></surfaceGrp>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1722/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ebed1398206a5e7e2775fa8b9ab109f4fc4270ee.jpg" />
+<zone lrx="1816" lry="2838" ulx="185" uly="161" xml:id="zone_c3s_ngk_kjb" />
+<zone lrx="627" lry="2732" ulx="240" uly="2475" xml:id="zone_vcd_pgk_kjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1722/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e9cebf20f79cbbda38959617517d058cb498a84d.jpg" />
+<zone lrx="3262" lry="1238" ulx="167" uly="800" xml:id="zone_zht_qgk_kjb" />
+</surface>
+</surfaceGrp>
 </facsimile>
 <text>
 <body>
-<div1 type="mürāsele">
+<div1 facs="#zone_c3s_ngk_kjb" type="mürāsele">
 <p>
 <lb />... fī <date type="created" when="1784-05-07" when-custom="1198-06-17">17 C sene 198</date><lb />
 </p>
-<div2 type="sign">
+<div2 facs="#zone_vcd_pgk_kjb" type="sign">
 <p>
 <lb />...<lb />
 </p>
 </div2>
 </div1>
-<div1 type="summary_Croatian">
+<div1 facs="#zone_zht_qgk_kjb" type="summary_Croatian">
 <p>
 <lb />...<lb />
 </p>

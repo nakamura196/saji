@@ -1,50 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>DSCN1915</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <notesStmt>
-            <note type="mine">【要】典型・日付、ともに不明。要確認。</note>
-         </notesStmt>
-         <sourceDesc>
-            <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1445/manifest">
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/3eb6013c0941fc27614895832a09b87403ad3b7d.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1445/canvas/p1"/>
-            <zone xml:id="zone_gyq_qhx_cjb" lry="2277" lrx="2946" uly="269" ulx="400"/>
-            <zone xml:id="zone_d5z_rhx_cjb" lry="2258" lrx="825" uly="1908" ulx="476"/>
-         </surface>
-         <surface>
-            <graphic
-               url="https://diyhistory.org/public/phr2/files/original/f4aea5323d85a9336b29bf103c690b04db78b221.jpg"
-               n="https://diyhistory.org/public/phr2/iiif/1445/canvas/p2"/>
-            <zone xml:id="zone_fy1_thx_cjb" lry="2183" lrx="2867" uly="1061" ulx="17"/>
-         </surface>
-      </surfaceGrp>
-   </facsimile>
-   <text>
-      <body>
-         <div type="EMIN" cert="unknown" facs="#zone_gyq_qhx_cjb">
-            <p>
-               <lb/>...<lb/>
-            </p>
-         </div>
-         <div type="summary_Croatian" facs="#zone_fy1_thx_cjb">
-            <p>
-               <lb/><date when="1843" type="summary_Croatian">1843</date>.<lb/>
-               <lb/>Nno 9.<lb/>
-            </p>
-         </div>         
-      </body>
-   </text>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1915</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】典型・日付、ともに不明。要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1445/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1445/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3eb6013c0941fc27614895832a09b87403ad3b7d.jpg"/>
+<zone lrx="2946" lry="2277" ulx="400" uly="269" xml:id="zone_gyq_qhx_cjb"/>
+<zone lrx="825" lry="2258" ulx="476" uly="1908" xml:id="zone_d5z_rhx_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1445/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f4aea5323d85a9336b29bf103c690b04db78b221.jpg"/>
+<zone lrx="2867" lry="2183" ulx="17" uly="1061" xml:id="zone_fy1_thx_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_gyq_qhx_cjb" type="EMIN">
+<p>
+<lb></lb>...<lb></lb>
+</p>
+</div1>
+<div1 facs="#zone_fy1_thx_cjb" type="summary_Croatian">
+<p>
+<lb></lb><date type="summary_Croatian" when="1843">1843</date>.<lb></lb>
+<lb></lb>Nno 9.<lb></lb>
+</p>
+</div1>
+</body>
+</text>
 </TEI>

@@ -8,24 +8,51 @@
 <p>Publication Information</p>
 </publicationStmt>
 <sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
 </sourceDesc>
 </fileDesc>
 </teiHeader>
 <facsimile>
 <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1754/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1754/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d270d779760b31415a8c8a7bbc816f0be5a31150.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1754/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/71d27096ee188beaba3f7443b334afaaf2ee6912.jpg" /></surface></surfaceGrp>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1754/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d270d779760b31415a8c8a7bbc816f0be5a31150.jpg" />
+<zone lrx="2218" lry="3018" ulx="173" uly="100" xml:id="zone_bw2_yh5_xjb" />
+<zone lrx="528" lry="2526" ulx="311" uly="2303" xml:id="zone_nw2_zh5_xjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1754/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/71d27096ee188beaba3f7443b334afaaf2ee6912.jpg" />
+<zone lrx="512" lry="545" ulx="266" uly="320" xml:id="zone_kvf_135_xjb" />
+<zone lrx="2046" lry="2995" ulx="875" uly="2775" xml:id="zone_fgx_135_xjb" />
+</surface>
+</surfaceGrp>
 </facsimile>
 <text>
 <body>
-<p />
+<div1 facs="#zone_bw2_yh5_xjb" subtype="zabt_temessük" type="EMIN">
+<p>
+<lb />... fī <date type="created" when="1839-12-12" when-custom="1255-10-06">6 L sene 255</date><lb />
+</p>
+<div2 facs="#zone_nw2_zh5_xjb" type="sign">
+<p>
+<lb />... Mehmed ...<lb />
+</p>
+<div3 facs="#zone_kvf_135_xjb" type="stamp">
+<p>
+<lb />... <lb />
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb />...<lb />
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_fgx_135_xjb" type="summary_Croatian">
+<p>
+<lb />...<lb />
+</p>
+</div1>
 </body>
 </text>
 </TEI>
