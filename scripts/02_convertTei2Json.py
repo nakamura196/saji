@@ -184,7 +184,7 @@ for i in range(len(files)):
                     break
 
             if not flg:
-                print(value)
+                # print(value)
 
                 if value not in div1_tmp:
                     div1_tmp[value] = 0
@@ -240,8 +240,8 @@ for i in range(len(files)):
         # g.add((subject, URIRef("http://purl.org/dc/terms/description"), Literal(text)))
         stmts.append((subject, URIRef("http://purl.org/dc/terms/description"), Literal(text)))
           
-    # tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"\\")[1]
-    tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"/")[1]
+    # tei_url = uri_prefix + "/"+dirname+"/" + file.split("\\"+dirname+"\\")[1]
+    tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"\\")[1]
     # g.add((subject, URIRef("http://purl.org/dc/terms/relation"), URIRef("https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url="+tei_url)))
     stmts.append((subject, URIRef("http://purl.org/dc/terms/relation"), URIRef("https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url="+tei_url)))
 
@@ -266,9 +266,9 @@ for i in range(len(files)):
         for stmt in stmts:
             g.add(stmt)
 
-    tree.write(dir.replace("/tei", "/tei3")+"/"+title+".xml", encoding="utf-8")
+    tree.write(dir.replace("tei", "tei3")+"/"+title.replace("tei\\", "")+".xml", encoding="utf-8")
 
 g.serialize(destination=path+'/data.json', format="json-ld")
 
 
-print(div1_tmp)
+# print(div1_tmp)

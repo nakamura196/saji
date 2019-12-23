@@ -1,81 +1,87 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1862</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">【要】日付：クロアチア語要約の月が読み取れなかったので、TEIの方には適当な数字を入力している。要確認。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1392/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1392/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/95d4ab56e9ce9a70804da17fe9c08361d4ade4a4.jpg" />
-<zone lrx="1550" lry="3075" ulx="167" uly="200" xml:id="zone_rl1_3tv_cjb" />
-<zone lrx="619" lry="2931" ulx="309" uly="2762" xml:id="zone_ojj_ktv_cjb" />
-<zone lrx="1473" lry="2280" ulx="200" uly="753" xml:id="zone_gsh_ltv_cjb" />
-<zone lrx="1460" lry="2280" ulx="293" uly="1460" xml:id="zone_rb2_mtv_cjb" />
-<zone lrx="887" lry="2091" ulx="725" uly="1941" xml:id="zone_drk_ntv_cjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1392/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/235eb437125f12c07c1eb709b3c8edbb4026b098.jpg" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1392/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/cc1131cfd7a4e9a7e84a6c232626de135a935e9c.jpg" />
-<zone lrx="3039" lry="900" ulx="117" uly="644" xml:id="zone_ymr_4tv_cjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_rl1_3tv_cjb" type="iʿlām">
-<p>
-<lb />Hüve<lb />
-<lb /><lb />
-<lb /><lb />
-<lb /><lb />
-<lb /><lb />
-<lb /><lb />
-<lb /><lb />
-<lb /><lb />
-<lb />... fī <date from="1772-07-11" from-custom="1186-04-11" to-custom="1186-04-20" type="created">evāsit Rebī'ü'l-āhir sene sitte ve semānīn ve mie ve elif</date><lb />
-</p>
-<div2 facs="#zone_ojj_ktv_cjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_gsh_ltv_cjb" type="buyuruldu">
-<p>
-<lb />Foyniçe kadı efendī<lb />
-<lb />İʿlām mūcebince reʿāyā-ı mesfūrdan kazīye-i mezkūre içün<lb />
-<lb />hilā.. fī <date type="created" when="1772-07-29" when-custom="1186-04-29">29 R sene 186</date><lb />
-</p>
-<div2 facs="#zone_rb2_mtv_cjb" type="sign">
-<p>
-<lb />... kā<lb />
-</p>
-<div3 facs="#zone_drk_ntv_cjb" type="stamp">
-<p>
-<lb />Mehmed...<lb />
-</p>
-</div3>
-</div2>
-</div1>
-<div1 type="sumamry_Croatian">
-<p>
-<lb />... <date cert="unknown" type="summary_Croatian" when="1772-08-24">1772-24 ...</date><lb />
-</p>
-</div1>
-</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DSCN1862</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="mine">【要】日付：クロアチア語要約の月が読み取れなかったので、TEIの方には適当な数字を入力している。要確認。</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1392/manifest">
+            <surface>
+                <graphic n="https://diyhistory.org/public/phr2/iiif/1392/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/95d4ab56e9ce9a70804da17fe9c08361d4ade4a4.jpg" />
+                <zone lrx="1550" lry="3075" ulx="167" uly="200" xml:id="zone_rl1_3tv_cjb" />
+                <zone lrx="619" lry="2931" ulx="309" uly="2762" xml:id="zone_ojj_ktv_cjb" />
+                <zone lrx="1473" lry="2280" ulx="200" uly="753" xml:id="zone_gsh_ltv_cjb" />
+                <zone lrx="1460" lry="2280" ulx="293" uly="1460" xml:id="zone_rb2_mtv_cjb" />
+                <zone lrx="887" lry="2091" ulx="725" uly="1941" xml:id="zone_drk_ntv_cjb" />
+            </surface>
+            <surface>
+                <graphic n="https://diyhistory.org/public/phr2/iiif/1392/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/235eb437125f12c07c1eb709b3c8edbb4026b098.jpg" />
+            </surface>
+            <surface>
+                <graphic n="https://diyhistory.org/public/phr2/iiif/1392/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/cc1131cfd7a4e9a7e84a6c232626de135a935e9c.jpg" />
+                <zone lrx="3039" lry="900" ulx="117" uly="644" xml:id="zone_ymr_4tv_cjb" />
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <front>
+            <p>
+                
+            </p>
+        </front>
+        <body>
+            <div1 facs="#zone_rl1_3tv_cjb" type="iʿlām">
+                <p>
+                    <lb />Hüve<lb />
+                    <lb />Maʿrūz-ı ...<lb />
+                    <lb />bāʿisi'l-ʿīlām fi'l-ʿasl ... olub ... BRUKRBUH kasabasına gelür ... kimesneler... NUHANE nām kimesne tārīh-i ʿīlāmdan bir ay mukaddem Saray cānibinden<lb />
+                    <lb />... Pazargünü kasaba-ı mezkūre gelüb çarış pazarında iken ... oldu ... olundukta kasaba-ı mezbūre varub ...<lb />
+                    <lb />mütemekkinden reʿāyā-ı fukarāsīn huzūr-u şerʿiye ihzār ve merkūm NUHANE ... olundukta fi'l-hakīka merkūm NUHANE ... ve kasabamıza gelür<lb />
+                    <lb />ve gider makūlesinden olub ve ... ne cānibe gittiği bir ü cümle maʿrūmumuz ... dediklerinde kasaba-i Kirşevo'da sākinden imām El-hāc Ahmed Efendī sā'ir ahālı ve nāhiye<lb />
+                    <lb />dahi ahālīlerinden reʿāyā-ı mezkūrun ... olundukta ... bu ... olunmaz<lb />
+                    <lb />... etrāfı'l-şahāde haber virdiklerinden ... üzerlerine şerʿan bir nesne lāzım geldiği ecilden husūs-u mezkūrun rencide senden hālī olumalarıyçün<lb />
+                    <lb />yedlerine ... emr ... ricāsıyla ... bu sene ʿīlām olundu ol bābda ʿināyet ve ahālī<lb />
+                    <lb />hazret min ... el-emr ... tahrīren fī <date from="1772-07-11" from-custom="1186-04-11" to-custom="1186-04-20" type="created">evāsit Rebī'ü'l-āhir sene sitte ve semānīn ve mie ve elif</date><lb />
+                </p>
+                <div2 facs="#zone_ojj_ktv_cjb" type="sign">
+                    <p>
+                        <lb />El-ʿabdü'l-dāʿī Hācı Ahmadı'l-mevlā-hirāfe bi-nāhiye Foyniçe maʿa Kirşevo<lb />
+                    </p>
+                </div2>
+            </div1>
+            <div1 facs="#zone_gsh_ltv_cjb" type="buyuruldu">
+                <p>
+                    <lb />Foyniçe kadı efendī<lb />
+                    <lb />İʿlām mūcebince reʿāyā-ı mesfūrdan kazīye-i mezkūre içün<lb />
+                    <lb />hilāfe şerʿ rencide ettirmeye fī <date type="created" when="1772-07-29" when-custom="1186-04-29">29 R sene 186</date><lb />
+                </p>
+                <div2 facs="#zone_rb2_mtv_cjb" type="sign">
+                    <p>
+                        <lb />... Mehmed kāimmakām ... Bosna <lb />
+                    </p>
+                    <div3 facs="#zone_drk_ntv_cjb" type="stamp">
+                        <p>
+                            <lb />Mehmed...<lb />
+                        </p>
+                    </div3>
+                </div2>
+            </div1>
+            <div1 facs="#zone_ymr_4tv_cjb" type="sumamry_Croatian">
+                <p>
+                    <lb />... <date cert="unknown" type="summary_Croatian" when="1772-08-24">1772-24 ...</date><lb />
+                </p>
+            </div1>
+        </body>
+    </text>
 </TEI>
