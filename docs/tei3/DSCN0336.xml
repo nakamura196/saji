@@ -1,31 +1,66 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0336</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1815/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/acf3cfdca2d9f330886b6d0754174dc4d3fe956f.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/83274875320f6e176f8b71104b4c8e000476e878.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/c4dd4e8b9c75a8b90890a76c3affed99fc71620a.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/6e6201fb150ea72b7f9b52340febf739fae49a47.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/d5be794fbb594ebf9e8eed5f2f88c52734e4957e.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/897a0229f36b7d9a9838f07713092dd1f5a00c2f.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0336</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1815/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/acf3cfdca2d9f330886b6d0754174dc4d3fe956f.jpg" />
+        <zone lrx="1750" lry="3260" ulx="720" uly="0" xml:id="zone_txh_qrl_kkb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/83274875320f6e176f8b71104b4c8e000476e878.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/c4dd4e8b9c75a8b90890a76c3affed99fc71620a.jpg" />
+        <zone lrx="1637" lry="1283" ulx="1196" uly="420" xml:id="zone_m5h_srl_kkb" />
+        <zone lrx="1506" lry="1241" ulx="1315" uly="1062" xml:id="zone_rdk_trl_kkb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/6e6201fb150ea72b7f9b52340febf739fae49a47.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/d5be794fbb594ebf9e8eed5f2f88c52734e4957e.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/897a0229f36b7d9a9838f07713092dd1f5a00c2f.jpg" />
+        <zone lrx="2839" lry="1416" ulx="1345" uly="722" xml:id="zone_cb5_5rl_kkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_txh_qrl_kkb" type="hüccet">
+        <p>
+          <lb />... <date type="created" when="1856-03-13" when-custom="1272-07-07">fi'l-yevmi'l-sābiʿ min şehr-i şerīf Receb'il-... sene
+          <lb />isnā ve sabʿīn ve mieteyn ve elif</date>
+        </p>
+        <div2 facs="#zone_m5h_srl_kkb" type="sign">
+          <p>
+            <lb />...
+          </p>
+          <div3 facs="#zone_rdk_trl_kkb" type="stamp">
+            <p>
+              <lb />... 
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_cb5_5rl_kkb" type="summary_Croatian">
+        <p>
+          <lb />...
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

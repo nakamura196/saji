@@ -1,32 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0329</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1808/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9a03bf8aabd557ed3910195994b8894163e5db6b.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9a8603344b9ebeba7a9c1c943ad7ba16e6f17a1f.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/788d3c1ff7f023c6536695caab901e203a994092.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/b1fa413c4d3509b02dd88252ebd523f22182f213.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/a4ee0c31286832173a97e18ac01f4156bdbcbfdc.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/abe99722907385bad1179113deb5c8fa502d8c26.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0329</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1808/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/9a03bf8aabd557ed3910195994b8894163e5db6b.jpg" n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p1"/>
+        <zone xml:id="zone_mz2_z4l_kkb" lry="2918" lrx="1745" uly="0" ulx="682"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9a8603344b9ebeba7a9c1c943ad7ba16e6f17a1f.jpg"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/788d3c1ff7f023c6536695caab901e203a994092.jpg" n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p3"/>
+        <zone xml:id="zone_hlw_bpl_kkb" lry="938" lrx="2112" uly="155" ulx="1623"/>
+        <zone xml:id="zone_g11_dpl_kkb" lry="906" lrx="1997" uly="686" ulx="1743"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/b1fa413c4d3509b02dd88252ebd523f22182f213.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/a4ee0c31286832173a97e18ac01f4156bdbcbfdc.jpg"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/abe99722907385bad1179113deb5c8fa502d8c26.jpg" n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p6"/>
+        <zone xml:id="zone_ojq_2pl_kkb" lry="1588" lrx="2223" uly="655" ulx="1195"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="hüccet" facs="#zone_mz2_z4l_kkb">
+        <p>
+          <lb/>... <date when-custom="1272-03-22" type="created">fi'l-yevmi'l-sānī ve'l-ʿaşrūn min şehr-i Rebi'ü'l-evvel
+          <lb/>sene isnā ve sabʿīn ve mieteyn ve elif</date>
+        </p>
+        <div2 type="sign" facs="#zone_hlw_bpl_kkb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_g11_dpl_kkb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Crotatian" facs="#zone_ojq_2pl_kkb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
