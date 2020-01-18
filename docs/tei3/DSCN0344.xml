@@ -1,34 +1,62 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0344</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1823/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1823/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/07fab9b491654fa26ec98381032a18f2259f9a63.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1823/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/20946dd1b66f3d42cc5c2dd1de9844243c9ebd35.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0344</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">DSCN0346.JPGの写しか</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1823/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1823/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/07fab9b491654fa26ec98381032a18f2259f9a63.jpg" />
+        <zone lrx="2258" lry="2516" ulx="133" uly="91" xml:id="zone_vg2_k3r_kkb" />
+        <zone lrx="802" lry="2391" ulx="189" uly="2140" xml:id="zone_kxd_n3r_kkb" />
+        <zone lrx="800" lry="2375" ulx="571" uly="2210" xml:id="zone_wz5_n3r_kkb" />
+        <zone lrx="1791" lry="1462" ulx="730" uly="391" xml:id="zone_uhl_hjr_kkb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1823/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/20946dd1b66f3d42cc5c2dd1de9844243c9ebd35.jpg" />
+        <zone lrx="3039" lry="1861" ulx="334" uly="772" xml:id="zone_dwg_r3r_kkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_vg2_k3r_kkb" subtype="tapu_senedi" type="ʿilmühaber_sūret">
+        <p>
+          <lb />... fī <date type="created" when="1855-12-06" when-custom="1272-03-27">27 R sene 72</date>
+        </p>
+        <div2 facs="#zone_kxd_n3r_kkb" type="sign">
+          <p>
+            <lb />... 
+          </p>
+          <div3 facs="#zone_wz5_n3r_kkb" type="stamp_sūret">
+            <p>
+              <lb />...
+            </p>
+          </div3>
+        </div2>
+        <div2 facs="#zone_uhl_hjr_kkb" type="unknown">
+          <p>
+            <lb />...
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_dwg_r3r_kkb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1856">1856</date>.
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

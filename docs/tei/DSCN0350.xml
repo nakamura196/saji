@@ -1,32 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0350</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1829/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/80f02dc28c180514b2a9d10be893ca01c3813a12.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/871ce2d331b17762723b5438797f60e693d69eba.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/3a86fd330c0e7eed78a3893f054b0d3d88519097.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/c848ede63782d1bf6c0f2c56d190a4cc6adf9360.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/3ebe5ba6c448c3c9fc8cf22e74923d22d9687e17.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0350</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1829/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/80f02dc28c180514b2a9d10be893ca01c3813a12.jpg" n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p1"/>
+        <zone xml:id="zone_v44_wmr_kkb" lry="3009" lrx="1891" uly="181" ulx="782"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/871ce2d331b17762723b5438797f60e693d69eba.jpg" n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p2"/>
+        <zone xml:id="zone_vth_zmr_kkb" lry="2827" lrx="2091" uly="872" ulx="591"/>
+        <zone xml:id="zone_yh4_1nr_kkb" lry="2760" lrx="1578" uly="2385" ulx="986"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/3a86fd330c0e7eed78a3893f054b0d3d88519097.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/c848ede63782d1bf6c0f2c56d190a4cc6adf9360.jpg"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/3ebe5ba6c448c3c9fc8cf22e74923d22d9687e17.jpg" n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p5"/>
+        <zone xml:id="zone_dwb_cnr_kkb" lry="1988" lrx="3023" uly="361" ulx="389"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="hüccet_sūret" facs="#zone_v44_wmr_kkb">
+        <p>
+          <lb/>... <date when-custom="1249-03-03" type="created">fi'l-yevmi'l-sālis min şehr-i Rebi'ü'l-evvel sene tisʿ ve arbaʿīn ve mieteyin
+          <lb/>ve elif</date>
+        </p>
+        <div2 type="sign" facs="#zone_vth_zmr_kkb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp_sūret" facs="#zone_yh4_1nr_kkb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_dwb_cnr_kkb">
+        <p>
+          <lb/>... <date when="1833" type="summary_Croatian">1833</date>.<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
