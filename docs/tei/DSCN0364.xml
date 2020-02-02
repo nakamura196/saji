@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0364</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1841/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1841/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3cff085966d115e3158ca164ff6a3ddfd082e21a.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1841/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/816e414229df2916a4af4e54e3f2619764a7d114.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0364</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1841/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1841/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3cff085966d115e3158ca164ff6a3ddfd082e21a.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1841/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/816e414229df2916a4af4e54e3f2619764a7d114.jpg"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
 </TEI>
