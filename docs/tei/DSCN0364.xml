@@ -16,16 +16,27 @@
   <facsimile>
     <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1841/manifest">
       <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1841/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3cff085966d115e3158ca164ff6a3ddfd082e21a.jpg"/>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/3cff085966d115e3158ca164ff6a3ddfd082e21a.jpg" n="https://diyhistory.org/public/phr2/iiif/1841/canvas/p1"/>
+        <zone xml:id="zone_cys_qv2_pkb" lry="2791" lrx="2067" uly="258" ulx="458"/>
       </surface>
       <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1841/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/816e414229df2916a4af4e54e3f2619764a7d114.jpg"/>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/816e414229df2916a4af4e54e3f2619764a7d114.jpg" n="https://diyhistory.org/public/phr2/iiif/1841/canvas/p2"/>
+        <zone xml:id="zone_hrn_5v2_pkb" lry="1700" lrx="2946" uly="531" ulx="561"/>
       </surface>
     </surfaceGrp>
   </facsimile>
   <text>
     <body>
-      <p/>
+      <div1 type="tapu_sūret" facs="#zone_cys_qv2_pkb" next="#zone_hrn_5v2_pkb">
+        <p>
+          <lb/>... <lb/>
+        </p>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_hrn_5v2_pkb">
+        <p>
+          <lb/>... <date when="1863" type="summry_Croatian">1863</date>. - <date when-custom="1281" type="summary_Croatian">1281</date>.<lb/>
+        </p>
+      </div1>
     </body>
   </text>
 </TEI>

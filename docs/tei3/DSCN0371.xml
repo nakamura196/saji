@@ -1,34 +1,59 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0371</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1848/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1848/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5efaeba117c4b36b0a6339d4dad84ec1fe9b9bc1.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1848/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d61bcf55c4bfaad0858f035f9804bde85e780d7f.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1848/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/76aaf4032cecdd025f4ff8436b25503793eb5720.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1848/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/b9aa3a736baa8f15e3503ad71bb3c1a3b1d29535.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0371</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">Kilisa arāzī ve sāirenin defteri</note>
+        <note type="mine">☆タプと突合せながら財産について検討するのに有効な史料</note>
+        <note type="mine">73年以降に登記された土地</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1848/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1848/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5efaeba117c4b36b0a6339d4dad84ec1fe9b9bc1.jpg" />
+        <zone lrx="1977" lry="3223" ulx="389" uly="34" xml:id="zone_az5_ldf_pkb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1848/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d61bcf55c4bfaad0858f035f9804bde85e780d7f.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1848/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/76aaf4032cecdd025f4ff8436b25503793eb5720.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1848/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/b9aa3a736baa8f15e3503ad71bb3c1a3b1d29535.jpg" />
+        <zone lrx="2278" lry="1011" ulx="978" uly="561" xml:id="zone_v1l_4df_pkb" />
+        <zone lrx="2345" lry="1433" ulx="1184" uly="972" xml:id="zone_vmb_12f_pkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_az5_ldf_pkb" next="#zone_v1l_4df_pkb" type="defter">
+        <p>
+          <lb />... fī <date cert="low" when="1873-02-27" when-custom="1289">17 ... sene 89</date><lb />
+        </p>
+      </div1>
+      <div1 facs="#zone_v1l_4df_pkb" next="#zone_vmb_12f_pkb" type="unkown">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+      <div1 facs="#zone_vmb_12f_pkb" type="summary_Croatian">
+        <p>
+          <lb />Kreševo
+          <lb />145
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
