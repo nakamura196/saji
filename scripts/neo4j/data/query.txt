@@ -1,0 +1,55 @@
+MATCH (n)
+DETACH DELETE n
+
+# /Users/nakamura/Library/Application\ Support/Neo4j\ Desktop/Application/neo4jDatabases/database-9c975a4d-34b6-4149-9163-13292b374099/installation-3.5.3/import/
+
+CREATE CONSTRAINT ON (doc:Document) ASSERT doc.id IS UNIQUE
+
+LOAD CSV WITH HEADERS FROM "file:///saji/docs.csv" AS csvLine
+CREATE (doc:Document {id: csvLine.id, title: csvLine.title, year:csvLine.date})
+
+LOAD CSV WITH HEADERS FROM "file:///saji/docs_r.csv" AS csvLine
+MATCH (doc1:Document {id: csvLine.prev}),(doc2:Document {id: csvLine.next})
+CREATE (doc1)-[:NEXT {role: csvLine.p}]->(doc2)
+
+#----------
+
+LOAD CSV WITH HEADERS FROM "file:///saji/years.csv" AS csvLine
+CREATE (year:Year {id: csvLine.id, title: csvLine.title})
+
+LOAD CSV WITH HEADERS FROM "file:///saji/year_r.csv" AS csvLine
+MATCH (doc:Document {id: csvLine.docId}),(year:Year {id: csvLine.yearId})
+CREATE (doc)-[:YEAR {}]->(year)
+
+#----------
+
+#----------
+
+LOAD CSV WITH HEADERS FROM "file:///saji/types.csv" AS csvLine
+CREATE (type:Type {id: csvLine.id, title: csvLine.title})
+
+LOAD CSV WITH HEADERS FROM "file:///saji/type_r.csv" AS csvLine
+MATCH (doc:Document {id: csvLine.docId}),(type:Type {id: csvLine.typeId})
+CREATE (doc)-[:TYPE {}]->(type)
+
+#----------
+
+match (n) return n
+
+CREATE CONSTRAINT ON (person:Person) ASSERT person.id IS UNIQUE
+
+LOAD CSV WITH HEADERS FROM "file:///saji/persons.csv" AS csvLine
+CREATE (person:Person {id: csvLine.id, name:csvLine.name})
+
+USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM "file:///saji/roles.csv" AS csvLine
+MATCH (person:Person {id: csvLine.personId}),(doc:Document {id: csvLine.docId})
+CREATE (person)-[:CREATED {role: csvLine.role}]->(doc)
+
+DROP CONSTRAINT ON (person:Person) ASSERT person.id IS UNIQUE
+
+DROP CONSTRAINT ON (doc:Document) ASSERT doc.id IS UNIQUE
+
+MATCH (n)
+WHERE n:Person OR n:Document
+REMOVE n.id
