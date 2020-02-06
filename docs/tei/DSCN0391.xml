@@ -1,35 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0391</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1868/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1868/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/081e06ef5cf57b63aa22ec0652eea46032c39fcb.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1868/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a095f7bfe4e770f3a2922d2875d69e6ed42a7e5c.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0391</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1868/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/081e06ef5cf57b63aa22ec0652eea46032c39fcb.jpg" n="https://diyhistory.org/public/phr2/iiif/1868/canvas/p1"/>
+        <zone xml:id="zone_gsl_my1_qkb" lry="1726" lrx="1633" uly="80" ulx="520"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/a095f7bfe4e770f3a2922d2875d69e6ed42a7e5c.jpg" n="https://diyhistory.org/public/phr2/iiif/1868/canvas/p2"/>
+        <zone xml:id="zone_lt4_ny1_qkb" lry="1388" lrx="2450" uly="722" ulx="800"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="fetvā" facs="#zone_gsl_my1_qkb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_lt4_ny1_qkb">
+        <p>
+          <lb/>... <date when="1839" type="summary_Croatian">1839</date>.<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

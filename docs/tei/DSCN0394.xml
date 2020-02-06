@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0394</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "n/a"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "・ここまでの整理過程では登場していない小片の文書\r\n・以後、この小片文書を「F (3H×2W, 小)」とすることにした\r\n・複数枚を並べて撮影しているため、サイズはn/aとした"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1870/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1870/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5c29b46811314aba3409ec3329cb77c4b33b94e8.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0394</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">ジズヤの領収書（DSCN0395, 0396, 0397, 0398, 0399, 0400, 0401, 0402, 0403）を並べた画像。</note>
+        <note type="mine">【要】文書点数にカウントしない。</note>
+        <note type="keyword">cizye</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・ここまでの整理過程では登場していない小片の文書\r\n・以後、この小片文書を「F (3H×2W, 小)」とすることにした\r\n・複数枚を並べて撮影しているため、サイズはn/aとした" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1870/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1870/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5c29b46811314aba3409ec3329cb77c4b33b94e8.jpg"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
 </TEI>
