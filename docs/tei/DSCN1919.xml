@@ -32,6 +32,45 @@
     </facsimile>
     <text>
         <body>
+            <listPerson>
+                <person xml:id="İsmāīl_emīn" role="document creater, mültecim from 1258">
+                    <persName>İsmā'īl</persName>
+                    <occupation>mukātaʿa emīn-i Kirşevo</occupation>
+                    <occupation>me'mūr</occupation>                
+                </person>
+                <person xml:id="PUFER_KOMAR" role="vendor">
+                    <persName cert="low">PUFER ve KAIM veled-i YTR</persName>
+                    <faith>zimmī</faith>
+                    <residence cert="low">KOMAR karye</residence>
+                </person> 
+                <person xml:id="Gardiyān_rāhib" role="vendee">
+                    <persName>Gardiyān</persName>
+                    <occupation>rāhib-i Kirşevo kilisa</occupation>
+                </person>
+                <person xml:id="Mustafa_müezzin" role="şühūdu’l-hāl">
+                    <persName>Mustafa</persName>
+                    <occupation>mü'ezzin</occupation>
+                    <socecStatus>mollā</socecStatus>
+                </person>
+                <person xml:id="ʿĀid_hākim" role="şühūdu’l-hāl">
+                    <persName>ʿĀid</persName>
+                    <occupation>hākim</occupation>
+                    <socecStatus>efendī</socecStatus>
+                </person>
+                <person xml:id="ʿOsman_gömrekçi" role="şühūdu’l-hāl">
+                    <persName>ʿOsman</persName>
+                    <occupation>ʿArnabūt gömrekçi</occupation>
+                    <socecStatus>ağa</socecStatus>
+                </person>   
+                <person xml:id="İbrāhīm_mollā" role="şühūdu’l-hāl">
+                    <persName>İbrāhīm Parmakzāde</persName>
+                    <socecStatus>mollā</socecStatus>
+                </person>
+                <person xml:id="Süleymān_sekbān" role="şühūdu’l-hāl">
+                    <persName>Süleymān</persName>
+                    <occupation>Sekbān</occupation>
+                </person>
+            </listPerson>
             <div1 type="EMIN" cert="unknown" facs="#zone_lcl_rtx_cjb" next="#zone_zm1_ttx_cjb">
                 <p>
                     <lb/>Vech-i tahrīr-i hurūf oldur ki 
