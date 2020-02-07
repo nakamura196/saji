@@ -16,15 +16,46 @@
     <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1858/manifest">
       <surface>
         <graphic n="https://diyhistory.org/public/phr2/iiif/1858/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b61385f093ae477acca8f4de94a326229d5bd647.jpg" />
+        <zone lrx="2367" lry="3133" ulx="17" uly="400" xml:id="zone_gq4_js1_qkb" />
+        <zone lrx="396" lry="3109" ulx="166" uly="2776" xml:id="zone_gxd_ls1_qkb" />
+        <zone lrx="384" lry="3101" ulx="182" uly="2907" xml:id="zone_t2b_ms1_qkb" />
       </surface>
       <surface>
         <graphic n="https://diyhistory.org/public/phr2/iiif/1858/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ef76d6d2a1961f94ef321268ba41191e5209ed2d.jpg" />
+        <zone lrx="2037" lry="791" ulx="1383" uly="145" xml:id="zone_kty_ns1_qkb" />
       </surface>
     </surfaceGrp>
   </facsimile>
   <text>
     <body>
-      <p />
+      <div1 cert="low" facs="#zone_gq4_js1_qkb" next="#zone_kty_ns1_qkb" type="nāme">
+        <p>
+          <lb />... <date cert="low" type="created" when="&lt;html&gt;&#10;&lt;head&gt;&#10;&lt;meta http-equiv='refresh' content='1; url=http://ap.hutime.org/cal/?ival=1275-06-19&amp;ical=103.1&amp;method=conv&amp;ep=b&amp;ocal=101.1&amp;otype=date&amp;oprop=text&amp;oform=gg%20YYYY-MM-dd&amp;arubalp=4dfee2bc-fb79-49b3-905f-c82778a4ea'&gt;&#10;&lt;/head&gt;&#10;&lt;/html&gt;" when-custom="1275-06-19">fi'l-yevmi'l-tāsiʿ ve'l-ʿaşr min şehri
+          <lb />Cemaziye'l-sānī sene hamıs ve sabʿīn ve mieteyn ve elif</date>
+        </p>
+        <div2 facs="#zone_gxd_ls1_qkb" type="sign">
+          <p>
+            <lb />... <lb />
+          </p>
+          <div3 facs="#zone_t2b_ms1_qkb" type="stamp">
+            <p>
+              <lb />... <lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />Şühūdu’l-hāl
+            <lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_kty_ns1_qkb" type="summary_Croatian">
+        <p>
+          <lb />... 
+          <lb />68
+        </p>
+      </div1>
     </body>
   </text>
 </TEI>
