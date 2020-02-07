@@ -1,32 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0407</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1883/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1883/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8501f83f27cac7d02e70485ef211267c54d48eec.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1883/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f9267e4ad67d8bab5a72e2afbe30986f9fd68833.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0407</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1883/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/8501f83f27cac7d02e70485ef211267c54d48eec.jpg" n="https://diyhistory.org/public/phr2/iiif/1883/canvas/p1"/>
+        <zone xml:id="zone_wnd_dm3_qkb" lry="3140" lrx="1900" uly="10" ulx="290"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/f9267e4ad67d8bab5a72e2afbe30986f9fd68833.jpg" n="https://diyhistory.org/public/phr2/iiif/1883/canvas/p2"/>
+        <zone xml:id="zone_ejx_fm3_qkb" lry="1934" lrx="790" uly="1558" ulx="195"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="iʿlām" subtype="maʿrūz" facs="#zone_wnd_dm3_qkb">
+        <p>
+          <lb/>... fī <date when-custom="1277" cert="low" type="create">28 ... sene 1277</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_ejx_fm3_qkb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

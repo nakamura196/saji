@@ -1,32 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0402</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "F"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1878/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1878/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/65c878881064ab537c7ca050d76e8fe220f0f048.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0402</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "F" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1878/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/65c878881064ab537c7ca050d76e8fe220f0f048.jpg" n="https://diyhistory.org/public/phr2/iiif/1878/canvas/p1"/>
+        <zone xml:id="zone_xjz_f33_qkb" lry="2661" lrx="2154" uly="523" ulx="231"/>
+        <zone xml:id="zone_dpl_h33_qkb" lry="2645" lrx="1463" uly="1727" ulx="378"/>
+        <zone xml:id="zone_o4k_333_qkb" lry="2636" lrx="1466" uly="2066" ulx="800"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="makbūz" subtype="cizye_ödeme" facs="#zone_xjz_f33_qkb">
+        <p>
+          <lb/>... fī <date when-custom="1257" cert="low" type="created">... sene 57</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_dpl_h33_qkb">
+          <p>
+            <lb/>Bende ... Ahmad<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_o4k_333_qkb">
+            <p>
+              <lb/><lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>        
+    </body>
+  </text>
 </TEI>

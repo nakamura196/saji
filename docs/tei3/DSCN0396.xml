@@ -1,31 +1,40 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0396</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "F"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1872/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1872/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/37de60f3fc1977963f704b27508595ac6ad1fde2.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0396</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "F" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1872/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1872/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/37de60f3fc1977963f704b27508595ac6ad1fde2.jpg" />
+        <zone lrx="1993" lry="2200" ulx="321" uly="435" xml:id="zone_c11_1d3_qkb" />
+        <zone lrx="1137" lry="2185" ulx="637" uly="1711" xml:id="zone_gwj_bd3_qkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_c11_1d3_qkb" subtype="cizye_ödeme" type="makbūz">
+        <p>
+          <lb />... fī <date cert="low" type="created" when="0677-10-04" when-custom="1257">... sene 57</date><lb />
+        </p>
+        <div2 type="sign">
+            <div3 facs="#zone_gwj_bd3_qkb" type="stamp">
+              <p>
+                <lb />... <lb />
+              </p>
+            </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

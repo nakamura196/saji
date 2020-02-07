@@ -1,31 +1,44 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0401</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "F"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1877/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1877/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e87391496cc108ff8b3f2744a0eddeaa24fdfffd.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0401</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "F" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1877/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1877/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e87391496cc108ff8b3f2744a0eddeaa24fdfffd.jpg" />
+        <zone lrx="2258" lry="3041" ulx="133" uly="608" xml:id="zone_acn_vh3_qkb" />
+        <zone lrx="1440" lry="2996" ulx="340" uly="2103" xml:id="zone_l2d_xh3_qkb" />
+        <zone lrx="1429" lry="2981" ulx="829" uly="2455" xml:id="zone_bq5_xh3_qkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_acn_vh3_qkb" subtype="cizye_ödeme" type="makbūz">
+        <p>
+          <lb />... fī <date cert="low" type="created" when="0677-10-04" when-custom="1257">... sene 57</date><lb />
+        </p>
+        <div2 facs="#zone_l2d_xh3_qkb" type="sign">
+          <p>
+            <lb />Bende ... Ahmad<lb />
+          </p>
+          <div3 facs="#zone_bq5_xh3_qkb" type="stamp">
+            <p>
+              <lb /><lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>        
+    </body>
+  </text>
 </TEI>
