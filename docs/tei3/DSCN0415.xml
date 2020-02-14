@@ -1,31 +1,41 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0415</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "?"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1891/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1891/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5deb7e8d2738ba572a361839fbb9d73016b0a3fd.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1891/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9d19f86015ec453eacb6a22c404681abe0e56ba5.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0415</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1891/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1891/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5deb7e8d2738ba572a361839fbb9d73016b0a3fd.jpg" />
+        <zone lrx="2291" lry="2972" ulx="182" uly="200" xml:id="zone_adp_vzg_skb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1891/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9d19f86015ec453eacb6a22c404681abe0e56ba5.jpg" />
+        <zone lrx="2366" lry="1312" ulx="241" uly="383" xml:id="zone_gyd_xzg_skb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_adp_vzg_skb" type="unkown">
+        <p>
+          <lb />... fī <lb />
+        </p>
+      </div1>
+      <div1 facs="#zone_gyd_xzg_skb" type="unknown">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1860">1860</date>.<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

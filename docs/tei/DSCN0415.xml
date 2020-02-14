@@ -1,32 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0415</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "?"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1891/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1891/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5deb7e8d2738ba572a361839fbb9d73016b0a3fd.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1891/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9d19f86015ec453eacb6a22c404681abe0e56ba5.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0415</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1891/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/5deb7e8d2738ba572a361839fbb9d73016b0a3fd.jpg" n="https://diyhistory.org/public/phr2/iiif/1891/canvas/p1"/>
+        <zone xml:id="zone_adp_vzg_skb" lry="2972" lrx="2291" uly="200" ulx="182"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/9d19f86015ec453eacb6a22c404681abe0e56ba5.jpg" n="https://diyhistory.org/public/phr2/iiif/1891/canvas/p2"/>
+        <zone xml:id="zone_gyd_xzg_skb" lry="1312" lrx="2366" uly="383" ulx="241"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unkown" facs="#zone_adp_vzg_skb">
+        <p>
+          <lb/>... fī <lb/>
+        </p>
+      </div1>
+      <div1 type="unknown" facs="#zone_gyd_xzg_skb">
+        <p>
+          <lb/>... <date when="1860" type="summary_Croatian">1860</date>.<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

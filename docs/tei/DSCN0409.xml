@@ -16,13 +16,47 @@
   <facsimile>
     <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1885/manifest">
       <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1885/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f5753e3d12127493cb3104db39f18d5d75f98650.jpg"/>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/f5753e3d12127493cb3104db39f18d5d75f98650.jpg" n="https://diyhistory.org/public/phr2/iiif/1885/canvas/p1"/>
+        <zone xml:id="zone_ehr_m5g_skb" lry="3160" lrx="1830" uly="20" ulx="350"/>
+        <zone xml:id="zone_p5f_45g_skb" lry="1645" lrx="1778" uly="870" ulx="1240"/>
+        <zone xml:id="zone_zkr_p5g_skb" lry="1627" lrx="1569" uly="1442" ulx="1360"/>
+        <zone xml:id="zone_t4t_q5g_skb" lry="1572" lrx="1387" uly="1075" ulx="963"/>
+        <zone xml:id="zone_slx_r5g_skb" lry="1563" lrx="1287" uly="1360" ulx="1048"/>
       </surface>
     </surfaceGrp>
   </facsimile>
   <text>
     <body>
-      <p/>
+      <div1 type="hüccet" facs="#zone_ehr_m5g_skb">
+        <p>
+          <lb/>... olundu hurir fī <date from-custom="1124-05-01" to-custom="1124-05-10" type="created">evā'il Cemaziye'l-evvel sene arbaʿ ve ʿaşrīn mie elif</date> <lb/>
+        </p>
+        <div2 type="sign" facs="#zone_p5f_45g_skb">
+          <p>
+            <lb/>... <lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_zkr_p5g_skb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign" facs="#zone_t4t_q5g_skb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_slx_r5g_skb">
+            <p>
+              <lb/>... <lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>... <lb/>
+          </p>
+        </div2>
+      </div1>
     </body>
   </text>
 </TEI>
