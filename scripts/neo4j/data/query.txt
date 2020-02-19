@@ -1,3 +1,6 @@
+Cd /Users/nakamura/git/d_todh/saji/scripts/neo4j
+cp -rp ./data/* /Users/nakamura/Library/Application\ Support/Neo4j\ Desktop/Application/neo4jDatabases/database-9c975a4d-34b6-4149-9163-13292b374099/installation-3.5.3/import/saji/
+
 MATCH (n)
 DETACH DELETE n
 
@@ -53,3 +56,23 @@ DROP CONSTRAINT ON (doc:Document) ASSERT doc.id IS UNIQUE
 MATCH (n)
 WHERE n:Person OR n:Document
 REMOVE n.id
+
+# クエリ例
+1.適当
+match (n)-[p]-(m) return n,p,m
+
+2.4つの繋がり
+match (n)-[p]-(m)-[p2]-(l) return n,p,m,p2,l
+
+3. 人
+MATCH (person:Person)
+RETURN person
+
+4. 人とドキュメント
+MATCH (person:Person)-[p]-(n) RETURN person,p,n
+
+5. 人とドキュメント*2
+MATCH (person:Person)-[p]-(document:Document)-[p2]-(document2:Document) RETURN person,p,document,document2
+
+6. 人とドキュメントと其の他
+MATCH (person:Person)-[p]-(document:Document)-[p2]-(k) where k:Document or k:Type RETURN person,p,document,p2,k

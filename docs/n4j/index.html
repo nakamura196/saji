@@ -1,0 +1,101 @@
+<html>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/neo4j-driver"></script>
+    <script src="http://cdn.bootcss.com/cytoscape/2.3.16/cytoscape.min.js"></script>
+    <script>
+      $(function(){
+
+        //driveの設定
+        var driver = neo4j.driver(
+          'bolt://localhost:7687',
+          neo4j.auth.basic('neo4j', 'password')
+        )
+
+        //セッションの生成
+        var session = driver.session()
+        var style = [];
+        var elements = {
+          nodes:[],
+          edges:[]
+        };
+
+        // Run a Cypher statement, reading the result in a streaming manner as records arrive:
+        session
+          //.run('MATCH (m:Person)-[r]->(n:Document) RETURN m.name as mname, ID(m) as mid, type(r) as type, n.name as nname, ID(n) as nid')
+          .run('MATCH (m:Person)-[r]->(n:Document) RETURN m.name as mname, ID(m) as mid, type(r) as type, n.title as nname, ID(n) as nid')
+          .subscribe({
+          onNext: function(record) {
+            console.log("---");
+            console.log(record.get('mname'));
+            console.log(record.get('mid').toString());
+            console.log(record.get('type'));
+            console.log(record.get('nname'));
+            console.log(record.get('nid').toString());
+
+
+            //内容要素はJSONオブジェクトである、サーバ側加工しフロントに渡すもの
+            elements.nodes.push({
+              data: {id: record.get('mid').toString(), name: record.get('mname'), label: 'Person'}
+            })
+            elements.nodes.push({
+              data: {id: record.get('nid').toString(), name: record.get('nname'), label: 'Document'}
+            })
+            elements.edges.push({
+              data: {source: record.get('mid').toString(), target: record.get('nid').toString(), relationship: record.get('type')}
+            })
+
+            //内容要素を表現するCSS
+            var style = [
+              //セレクターで拾いた内容要素が 指定したCSSを適用する
+              //ノードの中で、label属性は「Peson」のノードが青色で表示し、文字はname属性を表示する
+              { selector: 'node[label = "Person"]', 
+               css: {'background-color': '#6FB1FC', 'content': 'data(name)'}
+              },
+              { selector: 'node[label = "Document"]', 
+               css: {'background-color': 'yellow', 'content': 'data(name)'}
+              },
+              //エッジ全体で、文字はrelationship属性を表示する、終了点での矢印は三角形にする
+              { selector: 'edge', 
+               css: {'content': 'data(relationship)', 'target-arrow-shape': 'triangle'}
+              } 
+            ]
+
+            //レイアウト設定
+            var layout = {
+              //グリッドレイアウトを適用する
+              name : "grid"
+            }
+
+            // Cytoscapeオブジェクト初期化。
+            var cy2 = cytoscape({ 
+              // containerがHTML内の「cy2」DOM要素に指定
+              container: document.getElementById('cy2'),
+              elements: elements,
+              style: style,
+              layout: layout,
+            });
+          },
+          onCompleted: function() {
+            session.close()
+            driver.close()
+          },
+          onError: function(error) {
+            console.log(error)
+          }
+        })
+      });
+    </script>
+
+  <style type="text/css">
+    <!--
+    /* cytoscape graph */
+    #cy2 {
+      height: 100%;
+      width: 100%;
+      background-color: #f9f9f9;
+    }
+    -->
+  </style>
+
+  <div id="cy2"></div>
+</html>
