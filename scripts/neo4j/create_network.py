@@ -1,3 +1,6 @@
+from py2neo.data import Node, Relationship
+from py2neo import Graph, Node, Relationship
+
 import xml.etree.ElementTree as ET
 import sys
 import urllib
@@ -8,11 +11,13 @@ import glob
 import csv
 import requests
 import json
-
+import os
 from bs4 import BeautifulSoup
 
+g = Graph("bolt://localhost:7687")
+
 docs = []
-docs.append(["id","title", "date"])
+docs.append(["id","title", "date", "url"])
 
 # ----------
 
@@ -56,9 +61,14 @@ p_ids = []
 roles = []
 roles.append(["personId","docId", "role"])
 
-path = "../../docs/tei/DSCN0975.xml"
+# -----------------
 
-files = glob.glob("../../docs/tei/*.xml")
+dirname = "tei3"
+
+files = glob.glob("../../docs/"+dirname+"/*.xml")
+
+
+uri_prefix = "https://nakamura196.github.io/saji"
 
 for path in files:
 
@@ -67,6 +77,11 @@ for path in files:
         # print(soup)
 
         filename = path.split("/")[-1].split(".")[0]
+
+        
+        tei_url = uri_prefix + "/"+dirname+"/" + path.split(os.sep+dirname+os.sep)[1]
+        url = "https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url="+tei_url
+
 
         div1s = soup.find_all("div1")
 
@@ -124,7 +139,8 @@ for path in files:
                         year_r.append([id, year])
 
 
-            docs.append([id, title, date_text])
+            
+            docs.append([id, title, date_text, url])
 
 
 
@@ -154,92 +170,97 @@ for path in files:
 
             # ---
 
-            
-
-
             div2s = div1.find_all("div2")
             for div2 in div2s:
                 persNames = div2.find_all("persName")
+                # print(div2.get("type"))
                 for persName in persNames:
                     name = persName.text
                     role = persName.get("role")
-
-                    '''
-                    if role != "" and role != None:
-
-                        name = name + "_" + role
-                    '''
-
-                    # print(name)
 
                     if name not in p_ids:
                         persons.append([name, name, role])
                         p_ids.append(name)
 
-                    
+                    roles.append([name, id, div2.get("type")])
 
-                    # print(role)
+docs_map = {}
+persons_map = {}
 
-                    roles.append([name, id, "CREATED"])
+for i in range(1, len(docs)):
+    row = docs[i]
+    d = Node("Document", id=row[0], title=row[1], date=row[2], url=row[3])
+    # docs.append(["id","title", "date", "url"])
+    docs_map[row[0]] = d
+    g.merge(d, "Document", "id")
 
-                '''
-                persNames = div2.find_all("persname")
-                for persName in persNames:
-                    name = persName.text
-                    role = persName.get("role")
+for i in range(1, len(docs_r)):
+    row = docs_r[i]
+    p = Relationship.type("NEXT")
+    g.merge(p(docs_map[row[0]], docs_map[row[1]]), "Document", "id")
+    # docs_r.append(["prev","next", "p"])
 
-                    # print(name)
+# persons.append(["id","name"])
+for i in range(1, len(persons)):
+    row = persons[i]
+    n = Node("Person", id=row[0], name=row[1])
+    # docs.append(["id","title", "date", "url"])
+    persons_map[row[0]] = n
+    g.merge(n, "Person", "id")
 
-                    if name not in p_ids:
-                        persons.append([name, name])
-                        p_ids.append(name)
+for i in range(1, len(roles)):
+    row = roles[i]
+    p = Relationship.type(row[2])
+    if row[0] not in persons_map:
+        print("row[0] not in persons_map")
+        continue
+    n1 = persons_map[row[0]]
+    n2 = docs_map[row[1]]
+    g.merge(p(n1, n2), "Person", "id")
 
-                    
+years_map = {}
 
-                    # print(role)
+for i in range(1, len(years)):
+    row = years[i]
+    n = Node("Year", id=row[0], title=row[1])
+    # docs.append(["id","title", "date", "url"])
+    years_map[row[0]] = n
+    g.merge(n, "Year", "id")
 
-                    roles.append([name, id, role])
-                '''
+for i in range(1, len(year_r)):
+    row = year_r[i]
+    p = Relationship.type("CREATED")
+    n1 = docs_map[row[0]]
+    n2 = years_map[row[1]]
+    g.merge(p(n1, n2), "Document", "id")
 
+places_map = {}
 
-with open('data/docs.csv', 'w') as f:
-    writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
-    writer.writerows(docs) # 2次元配列も書き込める
+for i in range(1, len(places)):
+    row = places[i]
+    n = Node("Place", id=row[0], title=row[1])
+    # docs.append(["id","title", "date", "url"])
+    places_map[row[0]] = n
+    g.merge(n, "Place", "id")
 
-with open('data/docs_r.csv', 'w') as f:
-    writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
-    writer.writerows(docs_r) # 2次元配列も書き込める
+for i in range(1, len(place_r)):
+    row = place_r[i]
+    p = Relationship.type("PLACE")
+    n1 = docs_map[row[0]]
+    n2 = places_map[row[1]]
+    g.merge(p(n1, n2), "Document", "id")
 
-with open('data/persons.csv', 'w') as f:
-    writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
-    writer.writerows(persons) # 2次元配列も書き込める
+types_map = {}
 
-with open('data/roles.csv', 'w') as f:
-    writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
-    writer.writerows(roles) # 2次元配列も書き込める
+for i in range(1, len(types)):
+    row = types[i]
+    n = Node("Type", id=row[0], title=row[1])
+    types_map[row[0]] = n
+    g.merge(n, "Type", "id")
 
-with open('data/year_r.csv', 'w') as f:
-    writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
-    writer.writerows(year_r) # 2次元配列も書き込める
-
-with open('data/years.csv', 'w') as f:
-    writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
-    writer.writerows(years) # 2次元配列も書き込め
-
-with open('data/place_r.csv', 'w') as f:
-    writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
-    writer.writerows(place_r) # 2次元配列も書き込める
-
-with open('data/places.csv', 'w') as f:
-    writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
-    writer.writerows(places) # 2次元配列も書き込める
-
-# ----
-
-with open('data/type_r.csv', 'w') as f:
-    writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
-    writer.writerows(type_r) # 2次元配列も書き込める
-
-with open('data/types.csv', 'w') as f:
-    writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
-    writer.writerows(types) # 2次元配列も書き込める
+for i in range(1, len(type_r)):
+    row = type_r[i]
+    p = Relationship.type("TYPE")
+    n1 = docs_map[row[0]]
+    n2 = types_map[row[1]]
+    g.merge(p(n1, n2), "Document", "id")
