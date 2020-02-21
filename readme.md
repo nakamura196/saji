@@ -1,21 +1,21 @@
-# 分析
+# アプリケーション
 
-- 一覧
+- 検索・一覧
   - [Google Sheets](https://docs.google.com/spreadsheets/d/1W2akkXwfDENiC78Cbx1qs3rx39RvIz4ZEGMio0ZMRYs/edit?usp=sharing)
 
-- Google Dataポータル
-  - [アイテム別](https://datastudio.google.com/u/0/reporting/1zQUZX8ZQwhI5hU_OH5t9hvt1HB9pcwiZ/page/yjjFB)
-  - [Div別](https://datastudio.google.com/u/0/reporting/17i24MCcKJ3P5GQLIcWHCQhB13uNg4YkP/page/EVtFB)
+- 分析：Google データポータル
+  - [文書（アイテム）別](https://datastudio.google.com/u/0/reporting/1zQUZX8ZQwhI5hU_OH5t9hvt1HB9pcwiZ/page/yjjFB)
+  - [構成要素（Div1）別](https://datastudio.google.com/u/0/reporting/17i24MCcKJ3P5GQLIcWHCQhB13uNg4YkP/page/EVtFB)
 
 - 画像切り出し
   - [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?curation=https://nakamura196.github.io/saji/data/curation.json)
-  - [IIIF Curation Comparison](https://nakamura196.github.io/i3/comp/search.html?curation=https://nakamura196.github.io/saji/data/curation.json&thumb=true)
+  - [IIIF Curation Comparison](http://icc.jp-r.com/app/#/?curation=https://nakamura196.github.io/saji/data/curation.json)
 
 # ファイルのアップロード方法
 - D:\一次史料\Kreševo\saji で右クリックして、GIT Bash Here をクリックし、以下を貼り付ける
 - sh batch.sh
 
-# アプリケーション
+# 【OLD】アプリケーション
 - 検索
   - [検索UI](https://nakamura196.github.io/min3/#/?u=https://nakamura196.github.io/saji/data/data.json&config=https://nakamura196.github.io/saji/data/config.json)
   - [Faceted Search](https://nakamura196.github.io/isearch/?u=https://nakamura196.github.io/saji/data/items.json)
