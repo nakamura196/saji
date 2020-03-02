@@ -1,31 +1,50 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN8978</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1906/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1906/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5fe8d2e2b7787d08b62ba3e634c753613a245c51.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN8978</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1906/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1906/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5fe8d2e2b7787d08b62ba3e634c753613a245c51.jpg" />
+        <zone lrx="1791" lry="2827" ulx="82" uly="218" xml:id="zone_j1v_lds_wkb" />
+        <zone lrx="826" lry="2748" ulx="610" uly="2430" xml:id="zone_ngj_nds_wkb" />
+        <zone lrx="567" lry="2719" ulx="342" uly="2399" xml:id="zone_y3c_4ds_wkb" />
+        <zone lrx="338" lry="2721" ulx="140" uly="2383" xml:id="zone_gdt_4ds_wkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_j1v_lds_wkb" subtype="temessük" type="EMIN">
+        <p>
+          <lb />... fī <date cert="low" type="created" when="1780-08-02" when-custom="1194-08-02">2 Şaʿbān sene 1194</date><lb />
+        </p>
+        <div2 facs="#zone_ngj_nds_wkb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+        <div2 facs="#zone_y3c_4ds_wkb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+        <div2 facs="#zone_gdt_4ds_wkb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>
