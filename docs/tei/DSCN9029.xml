@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9029</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1956/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1956/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e33fb45c1f62c62356fbe9ce0277f69f100be0f4.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9029</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1956/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/e33fb45c1f62c62356fbe9ce0277f69f100be0f4.jpg" n="https://diyhistory.org/public/phr2/iiif/1956/canvas/p1"/>
+        <zone xml:id="zone_d3c_z2p_xkb" lry="2675" lrx="2025" uly="958" ulx="150"/>
+        <zone xml:id="zone_gxc_bfp_xkb" lry="2602" lrx="1166" uly="2366" ulx="902"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="mürāsele" facs="#zone_d3c_z2p_xkb">
+        <p>
+          <lb/>ve'l-selām fī <date when-custom="1235-01-29" type="created">29 M sene 235</date><lb/>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_gxc_bfp_xkb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>
