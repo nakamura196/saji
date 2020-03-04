@@ -1,32 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9020</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1947/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1947/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/def2362dced4d448c9dfc4cfc6ffa8c490489261.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1947/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f9b0971899e15a07132167e91847a3861f4e71f5.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1947/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5d989e4b516639c032380b6ea63119de5a12758f.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9020</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">署名は1つしかないのに、スタンプは2つある。押し損じたので二度押したか？しかし印影がはっきりせず、同じものかどうか同定できない。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1947/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/def2362dced4d448c9dfc4cfc6ffa8c490489261.jpg" n="https://diyhistory.org/public/phr2/iiif/1947/canvas/p1"/>
+        <zone xml:id="zone_xky_m54_xkb" lry="495" lrx="400" uly="270" ulx="125"/>
+        <zone xml:id="zone_ztq_v54_xkb" lry="250" lrx="362" uly="12" ulx="104"/>
+        <zone xml:id="zone_zl4_w54_xkb" lry="3170" lrx="2250" uly="2854" ulx="154"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/f9b0971899e15a07132167e91847a3861f4e71f5.jpg" n="https://diyhistory.org/public/phr2/iiif/1947/canvas/p2"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/5d989e4b516639c032380b6ea63119de5a12758f.jpg" n="https://diyhistory.org/public/phr2/iiif/1947/canvas/p3"/>
+        <zone xml:id="zone_elp_dv4_xkb" lry="3186" lrx="2420" uly="1360" ulx="106"/>
+        <zone xml:id="zone_lp2_fv4_xkb" lry="3146" lrx="538" uly="2574" ulx="125"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" subtype="zabt_temessük" facs="#zone_elp_dv4_xkb" next="#zone_zl4_w54_xkb">
+        <p>
+          <lb/>... <date when-custom="1201-08-14" cert="low" type="created">sene 1201 fī 14 mā Ş</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_lp2_fv4_xkb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_xky_m54_xkb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+          <div3 type="stamp" facs="#zone_ztq_v54_xkb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_zl4_w54_xkb">
+        <p>
+          <lb/>... <date when="1787" type="summary_Croatian">1787</date>.<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

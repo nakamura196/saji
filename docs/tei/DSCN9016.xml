@@ -16,16 +16,39 @@
   <facsimile>
     <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1943/manifest">
       <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1943/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/48fdbdf23fd506bb6cb5f71a4ea1cda6318f0ac9.jpg"/>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/48fdbdf23fd506bb6cb5f71a4ea1cda6318f0ac9.jpg" n="https://diyhistory.org/public/phr2/iiif/1943/canvas/p1"/>
+        <zone xml:id="zone_q2k_fq4_xkb" lry="1355" lrx="2745" uly="1066" ulx="423"/>
       </surface>
       <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1943/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b8f7c9949043e7179bd6005310b8ab5072e6c4fc.jpg"/>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/b8f7c9949043e7179bd6005310b8ab5072e6c4fc.jpg" n="https://diyhistory.org/public/phr2/iiif/1943/canvas/p2"/>
+        <zone xml:id="zone_u1n_hq4_xkb" lry="3245" lrx="1954" uly="200" ulx="82"/>
+        <zone xml:id="zone_fbz_3q4_xkb" lry="3216" lrx="1329" uly="2305" ulx="232"/>
+        <zone xml:id="zone_b5z_jq4_xkb" lry="3035" lrx="975" uly="2764" ulx="699"/>
       </surface>
     </surfaceGrp>
   </facsimile>
   <text>
     <body>
-      <p/>
+      <div1 type="tezkire" facs="#zone_u1n_hq4_xkb" next="#zone_q2k_fq4_xkb">
+        <p>
+          <lb/>... fī <date when-custom="1182-05-09" type="created">9 Ca sene 1182</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_fbz_3q4_xkb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_b5z_jq4_xkb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_q2k_fq4_xkb">
+        <p>
+          <lb/>... <date when="1769" type="summary_Croatian">1769</date> ...<lb/>
+        </p>
+      </div1>
     </body>
   </text>
 </TEI>

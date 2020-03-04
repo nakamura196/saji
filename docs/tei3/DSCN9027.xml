@@ -1,31 +1,49 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9027</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1954/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1954/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3af50c7603efc20a826447fbf8a3e00e65b23b6c.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9027</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1954/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1954/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3af50c7603efc20a826447fbf8a3e00e65b23b6c.jpg" />
+        <zone lrx="1727" lry="3109" ulx="154" uly="100" xml:id="zone_wkx_fz4_xkb" />
+        <zone lrx="645" lry="1485" ulx="303" uly="979" xml:id="zone_jjd_hz4_xkb" />
+        <zone lrx="507" lry="1478" ulx="311" uly="1319" xml:id="zone_ass_hz4_xkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_wkx_fz4_xkb" type="hüccet">
+        <p>
+          <lb />ve hurira <date type="created" when="1842-10-19" when-custom="1258-09-15">fi'l-yevmi'l-hāmis ʿaşr min şehr Ramazānı'l-mübārek sene semān ve hamsīn ve mieteyn ve elif</date><lb />
+        </p>
+        <div2 facs="#zone_jjd_hz4_xkb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_ass_hz4_xkb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />... <lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

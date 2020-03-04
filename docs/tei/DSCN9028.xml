@@ -1,32 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9028</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1955/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1955/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e1f12def0e8dcea6cb0a576471f7591f9f5afd43.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9028</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1955/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/e1f12def0e8dcea6cb0a576471f7591f9f5afd43.jpg" n="https://diyhistory.org/public/phr2/iiif/1955/canvas/p1"/>
+        <zone xml:id="zone_zbj_j1p_xkb" lry="2858" lrx="1592" uly="241" ulx="242"/>
+        <zone xml:id="zone_vnr_p1p_xkb" lry="2709" lrx="1572" uly="2458" ulx="1351"/>
+        <zone xml:id="zone_nz5_q1p_xkb" lry="2813" lrx="1274" uly="2502" ulx="1092"/>
+        <zone xml:id="zone_lgx_r1p_xkb" lry="2811" lrx="1267" uly="2683" ulx="1111"/>
+        <zone xml:id="zone_uwx_s1p_xkb" lry="2804" lrx="1090" uly="2488" ulx="832"/>
+        <zone xml:id="zone_lv4_t1p_xkb" lry="2795" lrx="1093" uly="2642" ulx="896"/>
+        <zone xml:id="zone_ng3_51p_xkb" lry="2788" lrx="844" uly="2468" ulx="622"/>
+        <zone xml:id="zone_hyy_51p_xkb" lry="2781" lrx="841" uly="2632" ulx="666"/>
+        <zone xml:id="zone_qcp_v1p_xkb" lry="2751" lrx="616" uly="2384" ulx="374"/>
+        <zone xml:id="zone_yyc_w1p_xkb" lry="2744" lrx="609" uly="2600" ulx="429"/>
+        <zone xml:id="zone_f4m_x1p_xkb" lry="2777" lrx="2311" uly="1716" ulx="1604"/>
+        <zone xml:id="zone_nvm_x1p_xkb" lry="2125" lrx="2125" uly="1736" ulx="1818"/>
+        <zone xml:id="zone_op1_z1p_xkb" lry="1917" lrx="2065" uly="1744" ulx="1878"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" subtype="izin_temessük" facs="#zone_zbj_j1p_xkb" next="#zone_f4m_x1p_xkb">
+        <p>
+          <lb/>... <date when-custom="1216" type="created">sene 1216</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_vnr_p1p_xkb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+        <div2 type="sign" facs="#zone_nz5_q1p_xkb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_lgx_r1p_xkb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign" facs="#zone_uwx_s1p_xkb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_lv4_t1p_xkb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign" facs="#zone_ng3_51p_xkb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_hyy_51p_xkb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign" facs="#zone_qcp_v1p_xkb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_yyc_w1p_xkb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="EMIN" subtype="tapu_nāme" cert="low" facs="#zone_f4m_x1p_xkb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign" facs="#zone_nvm_x1p_xkb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_op1_z1p_xkb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>
