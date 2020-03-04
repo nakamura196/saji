@@ -1,31 +1,40 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9005</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1933/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1933/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/66a99075210a8b4a000a156ccd0154ece7e1ad37.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9005</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1933/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1933/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/66a99075210a8b4a000a156ccd0154ece7e1ad37.jpg" />
+        <zone lrx="1920" lry="2580" ulx="133" uly="193" xml:id="zone_ijp_nvy_wkb" />
+        <zone lrx="702" lry="2543" ulx="489" uly="2352" xml:id="zone_ldx_4vy_wkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_ijp_nvy_wkb" type="mürāsele">
+        <p>
+          <lb />... fī <date type="created" when="1801-10-25" when-custom="1216-06-18">18 Cemaziye'l-āhir sene 1216</date><lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_ldx_4vy_wkb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

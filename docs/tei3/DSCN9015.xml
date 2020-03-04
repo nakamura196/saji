@@ -1,34 +1,36 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9015</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1942/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1942/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3e39e18387eeafe24a5b38f2ea5de75ed72d48fa.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9015</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">H. 1203年の比較的古いもの。ボスナ政庁Divan-ı BosnaとSer Askerから、クレシェヴォのナーイブとzabitanに宛てたbuyuruldu。</note>
+        <note type="mine">【要】ボスナの軍事組織について調べる。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1942/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1942/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3e39e18387eeafe24a5b38f2ea5de75ed72d48fa.jpg" />
+        <zone lrx="2442" lry="2866" ulx="0" uly="141" xml:id="zone_qtj_2hz_wkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_qtj_2hz_wkb" type="beyāz_üzerine_buyuruldu_sūret">
+        <p>
+          <lb />... <date type="created" when="0625-05-14" when-custom="1203">sene 1203</date><lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
