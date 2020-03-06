@@ -1,32 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9048</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1975/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1975/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/210ff4c2d09fd19da1bb062939a8fea19cff9c39.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1975/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8d3424b42ee3854fbd9956fae82a853fed7dbf5b.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9048</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">様式はEMINとbuyurulduに見えるが、差出人はガルディヤーンでbuyurulduはエミンが作成している。様式だけ模してるのかな？面白いかもしれない。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1975/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/210ff4c2d09fd19da1bb062939a8fea19cff9c39.jpg" n="https://diyhistory.org/public/phr2/iiif/1975/canvas/p1"/>
+        <zone xml:id="zone_fpr_gvb_ykb" lry="1572" lrx="2889" uly="233" ulx="1595"/>
+        <zone xml:id="zone_atd_jvb_ykb" lry="1082" lrx="3100" uly="854" ulx="2876"/>
+        <zone xml:id="zone_hhb_kvb_ykb" lry="771" lrx="3139" uly="591" ulx="2898"/>
+        <zone xml:id="zone_cgx_kvb_ykb" lry="478" lrx="3134" uly="274" ulx="2924"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/8d3424b42ee3854fbd9956fae82a853fed7dbf5b.jpg" n="https://diyhistory.org/public/phr2/iiif/1975/canvas/p2"/>
+        <zone xml:id="zone_lfr_mvb_ykb" lry="3172" lrx="2373" uly="109" ulx="9"/>
+        <zone xml:id="zone_bwd_4vb_ykb" lry="3155" lrx="1051" uly="2634" ulx="739"/>
+        <zone xml:id="zone_fhv_4vb_ykb" lry="3160" lrx="671" uly="2573" ulx="373"/>
+        <zone xml:id="zone_ph4_pvb_ykb" lry="3026" lrx="351" uly="2494" ulx="77"/>
+        <zone xml:id="zone_qd3_rvb_ykb" lry="1238" lrx="1639" uly="122" ulx="410"/>
+        <zone xml:id="zone_ijp_vvb_ykb" lry="885" lrx="899" uly="526" ulx="455"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unkown" facs="#zone_lfr_mvb_ykb" next="#zone_qd3_rvb_ykb" cert="low">
+        <p>
+          <lb/>... fī <date when-custom="1187-09-21" type="created">21 N sene 187</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_bwd_4vb_ykb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_atd_jvb_ykb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign" facs="#zone_fhv_4vb_ykb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_hhb_kvb_ykb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign" facs="#zone_ph4_pvb_ykb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_cgx_kvb_ykb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="unkown" facs="#zone_qd3_rvb_ykb" next="#zone_fpr_gvb_ykb" cert="low">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign" facs="#zone_ijp_vvb_ykb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="unokown" facs="#zone_fpr_gvb_ykb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

@@ -1,31 +1,44 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9059</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1986/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1986/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f60ba605841e8860ba03fd84d9b9af7d1baf4b52.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/1986/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2a1538ee4abc3ada275441e1541211981e993b89.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9059</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1986/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1986/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f60ba605841e8860ba03fd84d9b9af7d1baf4b52.jpg" />
+        <zone lrx="534" lry="553" ulx="315" uly="342" xml:id="zone_xcl_vsc_ykb" />
+        <zone lrx="2175" lry="2930" ulx="593" uly="2633" xml:id="zone_xhj_wsc_ykb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1986/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2a1538ee4abc3ada275441e1541211981e993b89.jpg" />
+        <zone lrx="1883" lry="2841" ulx="192" uly="108" xml:id="zone_rt5_xsc_ykb" />
+        <zone lrx="448" lry="2784" ulx="206" uly="2398" xml:id="zone_hj1_zsc_ykb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_rt5_xsc_ykb" next="#zone_xhj_wsc_ykb" subtype="temessük" type="EMIN">
+        <p>
+          <lb />... işbu <date from="1801-07-11" from-custom="1216-03-01" to-custom="1217-02-30">bin iki yüz on altı senesinin Martı ibtidāsından Şubatı gāyene değin</date>
+          <lb />... fī <date type="created" when="1802-04-29" when-custom="1216-12-27">27 Z sene 1216</date>
+        </p>
+      </div1>
+      <div1 facs="#zone_xhj_wsc_ykb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1882">1882</date>.<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

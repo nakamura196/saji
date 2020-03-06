@@ -16,12 +16,24 @@
     <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1973/manifest">
       <surface>
         <graphic n="https://diyhistory.org/public/phr2/iiif/1973/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7cf2755b0981323aa9069de90603858ef6212b3b.jpg" />
+        <zone lrx="2036" lry="3018" ulx="73" uly="127" xml:id="zone_bck_mtb_ykb" />
+        <zone lrx="528" lry="2966" ulx="197" uly="2548" xml:id="zone_eys_ntb_ykb" />
       </surface>
     </surfaceGrp>
   </facsimile>
   <text>
     <body>
-      <p />
+      <div1 facs="#zone_bck_mtb_ykb" subtype="temessük" type="EMIN">
+        <p>
+          <lb />... işbu <date from="1810-04-05" from-custom="1225-03-01" to-custom="1226-02-30" type="created">bin iki yüz
+          <lb />yiğirmi elli senesinde Martı ibtidāsından Şubatı gāyene değin</date> zabt ve ...
+        </p>
+        <div2 facs="#zone_eys_ntb_ykb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
     </body>
   </text>
 </TEI>

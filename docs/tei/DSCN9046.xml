@@ -16,13 +16,25 @@
   <facsimile>
     <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1973/manifest">
       <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1973/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7cf2755b0981323aa9069de90603858ef6212b3b.jpg"/>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/7cf2755b0981323aa9069de90603858ef6212b3b.jpg" n="https://diyhistory.org/public/phr2/iiif/1973/canvas/p1"/>
+        <zone xml:id="zone_bck_mtb_ykb" lry="3018" lrx="2036" uly="127" ulx="73"/>
+        <zone xml:id="zone_eys_ntb_ykb" lry="2966" lrx="528" uly="2548" ulx="197"/>
       </surface>
     </surfaceGrp>
   </facsimile>
   <text>
     <body>
-      <p/>
+      <div1 type="EMIN" subtype="temessük" facs="#zone_bck_mtb_ykb">
+        <p>
+          <lb/>... işbu <date from-custom="1225-03-01" to-custom="1226-02-30" type="created">bin iki yüz
+          <lb/>yiğirmi elli senesinde Martı ibtidāsından Şubatı gāyene değin</date> zabt ve ...
+        </p>
+        <div2 type="sign" facs="#zone_eys_ntb_ykb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
     </body>
   </text>
 </TEI>

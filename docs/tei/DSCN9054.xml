@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9054</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1981/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1981/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c900932b00adf9cdd79419cad339b055e528bde5.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9054</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1981/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/c900932b00adf9cdd79419cad339b055e528bde5.jpg" n="https://diyhistory.org/public/phr2/iiif/1981/canvas/p1"/>
+        <zone xml:id="zone_pxy_znc_ykb" lry="2449" lrx="1878" uly="49" ulx="107"/>
+        <zone xml:id="zone_tlz_14c_ykb" lry="2412" lrx="797" uly="2170" ulx="535"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="tezkire" facs="#zone_pxy_znc_ykb">
+        <p>
+          <lb/>hurira fī <date when-custom="1237-12-07" type="created">7 Zı'l-hicce sene 1237</date><lb/>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_tlz_14c_ykb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

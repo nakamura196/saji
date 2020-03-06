@@ -1,31 +1,43 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9047</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1974/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1974/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/11b4105024964363047b1b94850c1eb39fb11a0b.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9047</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1974/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1974/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/11b4105024964363047b1b94850c1eb39fb11a0b.jpg" />
+        <zone lrx="2433" lry="3050" ulx="67" uly="141" xml:id="zone_ujv_m5b_ykb" />
+        <zone lrx="639" lry="2896" ulx="274" uly="2517" xml:id="zone_ds1_45b_ykb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_ujv_m5b_ykb" type="EMIN">
+        <p>
+          <lb />... fī <date cert="medium" type="created" when="1815-07-18" when-custom="1230-08-11">11 Şaʿbān sene 1230</date><lb />
+        </p>
+        <div2 facs="#zone_ds1_45b_ykb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />... fī <lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>
