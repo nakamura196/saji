@@ -16,15 +16,32 @@
     <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1989/manifest">
       <surface>
         <graphic n="https://diyhistory.org/public/phr2/iiif/1989/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f8c014d8ba010179dcdf1c8342899f2c6c99b250.jpg" />
+        <zone lrx="2289" lry="1261" ulx="989" uly="1016" xml:id="zone_e1n_pps_flb" />
       </surface>
       <surface>
         <graphic n="https://diyhistory.org/public/phr2/iiif/1989/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ca06dcf1cc434e89f01d9c2cf2fd909ea2775986.jpg" />
+        <zone lrx="1950" lry="3212" ulx="50" uly="25" xml:id="zone_kd1_rps_flb" />
+        <zone lrx="412" lry="3180" ulx="72" uly="2552" xml:id="zone_ecq_sps_flb" />
       </surface>
     </surfaceGrp>
   </facsimile>
   <text>
     <body>
-      <p />
+      <div1 facs="#zone_kd1_rps_flb" next="#zone_e1n_pps_flb" subtype="zabt_temessük" type="EMIN">
+        <p>
+          <lb />... fī <date type="created" when="1816-01-15" when-custom="1231-02-15">15 S sene 1231</date><lb />
+        </p>
+        <div2 facs="#zone_ecq_sps_flb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_e1n_pps_flb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1816">1816</date>.<lb />
+        </p>
+      </div1>
     </body>
   </text>
 </TEI>
