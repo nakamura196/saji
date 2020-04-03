@@ -1,32 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9090</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2017/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2017/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e2799a71a5c5129dffb6444b5d19c2b1c0a68832.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2017/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/852401c41b4cad1e045373498b83aea3652011d0.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2017/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/f90677b1e041a76931c8daa71045f666801ea67b.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9090</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2017/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/e2799a71a5c5129dffb6444b5d19c2b1c0a68832.jpg" n="https://diyhistory.org/public/phr2/iiif/2017/canvas/p1"/>
+        <zone xml:id="zone_cdc_z11_glb" lry="498" lrx="392" uly="312" ulx="171"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/852401c41b4cad1e045373498b83aea3652011d0.jpg" n="https://diyhistory.org/public/phr2/iiif/2017/canvas/p2"/>
+        <zone xml:id="zone_rkg_1b1_glb" lry="1272" lrx="2017" uly="1011" ulx="1139"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/f90677b1e041a76931c8daa71045f666801ea67b.jpg" n="https://diyhistory.org/public/phr2/iiif/2017/canvas/p3"/>
+        <zone xml:id="zone_zd3_cb1_glb" lry="3025" lrx="2208" uly="25" ulx="167"/>
+        <zone xml:id="zone_qmj_2b1_glb" lry="2602" lrx="505" uly="2462" ulx="187"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" cert="high" subtype="zabt_temessük" facs="#zone_zd3_cb1_glb" next="#zone_rkg_1b1_glb">
+        <p>
+          <lb/>... fī <date when-custom="1255-10-06" type="created">6 L sene 255</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_qmj_2b1_glb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_cdc_z11_glb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_rkg_1b1_glb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

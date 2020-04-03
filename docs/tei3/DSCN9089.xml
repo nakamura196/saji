@@ -1,31 +1,50 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9089</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2016/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2016/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e9ed7234065819b49ed79b0446fd26c7af7cc97c.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9089</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2016/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2016/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e9ed7234065819b49ed79b0446fd26c7af7cc97c.jpg" />
+        <zone lrx="1633" lry="3175" ulx="417" uly="75" xml:id="zone_vg2_dzz_flb" />
+        <zone lrx="1217" lry="710" ulx="513" uly="163" xml:id="zone_qkx_fzz_flb" />
+        <zone lrx="871" lry="706" ulx="659" uly="528" xml:id="zone_rbs_gzz_flb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_vg2_dzz_flb" type="hüccet">
+        <p>
+          <lb />...  hurira fī <date cert="low" type="created" when="0659-03-30" when-custom="1138-04">Rebī'ü'l-āhir
+          <lb />sene semān ve selāsīn ve mie ve elif</date>
+        </p>
+        <div2 facs="#zone_qkx_fzz_flb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_rbs_gzz_flb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>
