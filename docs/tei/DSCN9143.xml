@@ -1,32 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9143</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2070/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2070/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e72f9709f81be926688e03fe8a6c29f06ba2368e.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2070/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/09d3bc83b13d3ada8c4297457aa7c4a52d96a1fb.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9143</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">クレシェヴォの鉄鉱山</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2070/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/e72f9709f81be926688e03fe8a6c29f06ba2368e.jpg" n="https://diyhistory.org/public/phr2/iiif/2070/canvas/p1"/>
+        <zone xml:id="zone_h4j_flk_hlb" lry="1227" lrx="2850" uly="1005" ulx="423"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/09d3bc83b13d3ada8c4297457aa7c4a52d96a1fb.jpg" n="https://diyhistory.org/public/phr2/iiif/2070/canvas/p2"/>
+        <zone xml:id="zone_p4n_hlk_hlb" lry="2833" lrx="1400" uly="216" ulx="125"/>
+        <zone xml:id="zone_mps_3lk_hlb" lry="2800" lrx="470" uly="2482" ulx="158"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="mürāsele" facs="#zone_p4n_hlk_hlb" next="#zone_h4j_flk_hlb">
+        <p>
+          <lb/>... fī <date when-custom="1179-01-22" type="created">22 min Muharremi'l-harām sene 1179</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_mps_3lk_hlb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_h4j_flk_hlb">
+        <p>
+          <lb/>... <date when="1766" type="summary_Croatian">1766</date> ...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

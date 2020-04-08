@@ -1,35 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9142</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2069/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2069/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/570c01dc36f40fd051690cf20f1f412883ac0614.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9142</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">クレシェヴォの修道士たちruhbānが、Sālih Paşaの治療のため、Belgradcıkカザーに呼ばれた。</note>
+        <note type="sumamry">差出人は、Belgradcıkのナーイブ。</note>
+        <note type="summary">ナーイブ以外が出せるmürāseleかもしれない</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2069/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/570c01dc36f40fd051690cf20f1f412883ac0614.jpg" n="https://diyhistory.org/public/phr2/iiif/2069/canvas/p1"/>
+        <zone xml:id="zone_cq1_w3k_hlb" lry="2638" lrx="1585" uly="23" ulx="131"/>
+        <zone xml:id="zone_lv2_y3k_hlb" lry="2576" lrx="560" uly="2269" ulx="241"/>
+        <zone xml:id="zone_ydq_z3k_hlb" lry="2279" lrx="2200" uly="1455" ulx="1541"/>
+        <zone xml:id="zone_gpn_1jk_hlb" lry="1911" lrx="2185" uly="1635" ulx="1767"/>
+        <zone xml:id="zone_igj_bjk_hlb" lry="1879" lrx="2182" uly="1644" ulx="1985"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="mürāsele" facs="#zone_cq1_w3k_hlb" next="#zone_ydq_z3k_hlb">
+        <p>
+          <lb/>... fī <date when-custom="1175-12-01" cert="medium" type="created">1 Zı'l-hicce sene 1175</date><lb/>
+        </p>
+      </div1>
+      <div1 type="note" cert="low" facs="#zone_ydq_z3k_hlb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign" facs="#zone_gpn_1jk_hlb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_igj_bjk_hlb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

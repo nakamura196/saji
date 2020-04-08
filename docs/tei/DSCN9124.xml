@@ -1,32 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9124</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2051/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2051/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b8b23ee0805cec5ffde5b204dd2e351efbf3431f.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9124</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2051/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/b8b23ee0805cec5ffde5b204dd2e351efbf3431f.jpg" n="https://diyhistory.org/public/phr2/iiif/2051/canvas/p1"/>
+        <zone xml:id="zone_kgg_3zv_glb" lry="3137" lrx="2369" uly="825" ulx="7"/>
+        <zone xml:id="zone_exv_jzv_glb" lry="2971" lrx="623" uly="2597" ulx="406"/>
+        <zone xml:id="zone_f4b_lzv_glb" lry="2923" lrx="406" uly="2608" ulx="143"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" cert="medium" subtype="tapu_nāme" facs="#zone_kgg_3zv_glb">
+        <p>
+          <lb/>tahrīren <date when-custom="1238" type="created">sene semān ve selāsīn ve mieteyn ve elif</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_exv_jzv_glb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+        <div2 type="sign" facs="#zone_f4b_lzv_glb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

@@ -1,32 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9116</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2043/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2043/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1acc2d7bd548442f24f7e8949f3a8fd2a765536a.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2043/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/85409e38c4133364566b2a0b97b3c244ff789f8a.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9116</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要検討】署名部分の用紙欠損。おそらくエミン文書であると思われるが、内容を読んで断定する必要がある。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2043/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/1acc2d7bd548442f24f7e8949f3a8fd2a765536a.jpg" n="https://diyhistory.org/public/phr2/iiif/2043/canvas/p1"/>
+        <zone xml:id="zone_vmq_4tv_glb" lry="2070" lrx="1654" uly="575" ulx="804"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/85409e38c4133364566b2a0b97b3c244ff789f8a.jpg" n="https://diyhistory.org/public/phr2/iiif/2043/canvas/p2"/>
+        <zone xml:id="zone_kgs_rtv_glb" lry="3135" lrx="2355" uly="190" ulx="73"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" cert="medium" facs="#zone_kgs_rtv_glb" next="#zone_vmq_4tv_glb">
+        <p>
+          <lb/>... fī <date when-custom="1264-04-17" type="created">17 R sene 264</date><lb/>
+        </p>
+        <div2 type="sign">
+          <p>
+            <lb/>[欠損]<lb/>
+          </p>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_vmq_4tv_glb">
+        <p>
+          <lb/>... <date when="1848" type="summary_Croatian">1848</date> ...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

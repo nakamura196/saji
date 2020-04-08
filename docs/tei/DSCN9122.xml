@@ -1,32 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9122</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2049/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2049/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ee55595a5b3e3718327503d0466b8ec32e93bc95.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2049/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ad8da9a907a0b9c7d6f7260947fc3ef9373ecc70.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9122</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2049/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/ee55595a5b3e3718327503d0466b8ec32e93bc95.jpg" n="https://diyhistory.org/public/phr2/iiif/2049/canvas/p1"/>
+        <zone xml:id="zone_mqz_yxv_glb" lry="971" lrx="1480" uly="793" ulx="1290"/>
+        <zone xml:id="zone_b54_zxv_glb" lry="939" lrx="1280" uly="753" ulx="1071"/>
+        <zone xml:id="zone_qnl_1yv_glb" lry="887" lrx="1030" uly="698" ulx="833"/>
+        <zone xml:id="zone_fz1_byv_glb" lry="901" lrx="848" uly="707" ulx="645"/>
+        <zone xml:id="zone_bmc_cyv_glb" lry="493" lrx="1806" uly="343" ulx="384"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/ad8da9a907a0b9c7d6f7260947fc3ef9373ecc70.jpg" n="https://diyhistory.org/public/phr2/iiif/2049/canvas/p2"/>
+        <zone xml:id="zone_mdb_2yv_glb" lry="2823" lrx="1916" uly="115" ulx="293"/>
+        <zone xml:id="zone_pbm_fyv_glb" lry="2782" lrx="1594" uly="2460" ulx="1425"/>
+        <zone xml:id="zone_ezg_gyv_glb" lry="2792" lrx="1333" uly="2423" ulx="1141"/>
+        <zone xml:id="zone_mzb_hyv_glb" lry="2766" lrx="1031" uly="2388" ulx="822"/>
+        <zone xml:id="zone_i3t_hyv_glb" lry="2709" lrx="721" uly="2326" ulx="508"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" cert="low" subtype="tapu_nāme" facs="#zone_mdb_2yv_glb" next="#zone_bmc_cyv_glb">
+        <p>
+          <lb/>... <date when-custom="1241" type="created">sene 241</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_pbm_fyv_glb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_mqz_yxv_glb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign" facs="#zone_ezg_gyv_glb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_b54_zxv_glb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign" facs="#zone_mzb_hyv_glb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_qnl_1yv_glb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign" facs="#zone_i3t_hyv_glb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_fz1_byv_glb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_bmc_cyv_glb">
+        <p>
+          <lb/>... <date when="1826" type="summary_Croatian">1826</date><lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

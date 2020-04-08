@@ -1,32 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9120</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2047/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2047/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/23b9a4750774475689f8c344b40c7c88ec75381f.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2047/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1140b8d96446b06af4cec9977cae16970ed37e57.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9120</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">印影は二つあるけど、署名は一つ。おそらく押し損じなどの理由で、同じ印影を二つ押したものと思われる。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2047/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/23b9a4750774475689f8c344b40c7c88ec75381f.jpg" n="https://diyhistory.org/public/phr2/iiif/2047/canvas/p1"/>
+        <zone xml:id="zone_azt_4wv_glb" lry="1867" lrx="871" uly="1653" ulx="653"/>
+        <zone xml:id="zone_gts_pwv_glb" lry="2086" lrx="771" uly="1875" ulx="553"/>
+        <zone xml:id="zone_tpx_qwv_glb" lry="1244" lrx="2739" uly="761" ulx="595"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/1140b8d96446b06af4cec9977cae16970ed37e57.jpg" n="https://diyhistory.org/public/phr2/iiif/2047/canvas/p2"/>
+        <zone xml:id="zone_vsh_swv_glb" lry="2478" lrx="1828" uly="1107" ulx="35"/>
+        <zone xml:id="zone_lds_twv_glb" lry="2421" lrx="569" uly="2073" ulx="263"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" subtype="izin_tezkire" facs="#zone_vsh_swv_glb" next="#zone_tpx_qwv_glb">
+        <p>
+          <lb/>... <date when-custom="1191" cert="medium" type="created">sene 1191</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_lds_twv_glb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_azt_4wv_glb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+          <div3 type="stamp" facs="#zone_gts_pwv_glb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Serbian" facs="#zone_tpx_qwv_glb">
+        <p>
+          <lb/><date when="1777" type="summary_Serbian">1777</date><lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

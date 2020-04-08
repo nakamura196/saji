@@ -16,15 +16,39 @@
     <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2036/manifest">
       <surface>
         <graphic n="https://diyhistory.org/public/phr2/iiif/2036/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f064e0530c1db4989f99cf998c0f92d9e3f08925.jpg" />
+        <zone lrx="2695" lry="1338" ulx="739" uly="916" xml:id="zone_d5b_q4v_glb" />
       </surface>
       <surface>
         <graphic n="https://diyhistory.org/public/phr2/iiif/2036/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1f2934de3269d60d37f97256c211dba7301c4010.jpg" />
+        <zone lrx="1791" lry="2927" ulx="82" uly="90" xml:id="zone_g1v_x4v_glb" />
+        <zone lrx="592" lry="2883" ulx="372" uly="2604" xml:id="zone_vll_z4v_glb" />
+        <zone lrx="355" lry="2832" ulx="153" uly="2580" xml:id="zone_mqd_1pv_glb" />
       </surface>
     </surfaceGrp>
   </facsimile>
   <text>
     <body>
-      <p />
+      <div1 facs="#zone_g1v_x4v_glb" next="#zone_d5b_q4v_glb" subtype="zabt_temessük" type="EMIN">
+        <p>
+          <lb />işbu <date when="1797-08-23" when-custom="1212-03-01">bin iki yüz on iki senesinde Martı ibtidāsında</date> der ...
+          <lb />... <date type="created" when="0634-02-05" when-custom="1212">sene 1212</date>
+        </p>
+        <div2 facs="#zone_vll_z4v_glb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+        <div2 facs="#zone_mqd_1pv_glb" type="sign">
+          <p>
+            <lb />... <lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_d5b_q4v_glb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1798">1798</date> ...<lb />
+        </p>
+      </div1>
     </body>
   </text>
 </TEI>
