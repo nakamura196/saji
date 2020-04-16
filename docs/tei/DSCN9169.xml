@@ -1,35 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9169</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2094/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2094/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8ca698aa263581c6c0df9aa361cc226e77e07fba.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2094/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b4663b950c66ac620263d60e7ac29f8a764841e0.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9169</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2094/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/8ca698aa263581c6c0df9aa361cc226e77e07fba.jpg" n="https://diyhistory.org/public/phr2/iiif/2094/canvas/p1"/>
+        <zone xml:id="zone_e3n_3sq_jlb" lry="1125" lrx="2025" uly="250" ulx="1341"/>
+        <zone xml:id="zone_jk4_lsq_jlb" lry="3078" lrx="2293" uly="821" ulx="335"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/b4663b950c66ac620263d60e7ac29f8a764841e0.jpg" n="https://diyhistory.org/public/phr2/iiif/2094/canvas/p2"/>
+        <zone xml:id="zone_fxt_nsq_jlb" lry="2963" lrx="2191" uly="83" ulx="158"/>
+        <zone xml:id="zone_qd3_psq_jlb" lry="2140" lrx="435" uly="1948" ulx="225"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unkown" facs="#zone_fxt_nsq_jlb" next="#zone_e3n_3sq_jlb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_qd3_psq_jlb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="unkown" facs="#zone_e3n_3sq_jlb" next="#zone_jk4_lsq_jlb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+      <div1 type="summary_Serbian" cert="unknown" facs="#zone_jk4_lsq_jlb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

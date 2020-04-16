@@ -1,35 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9193</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "D?"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "・DSCN9192.JPGの裏面かどうか判別できない。\r\n・暫定的に上記裏面と推定して、サイズ「D」とした。"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2118/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2118/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a599ecace954adc977d34f41b033bc0eee8bc9cd.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2118/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ac1b4c49f15b14af8c8c30c0d719aae498e4e850.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9193</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D?" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・DSCN9192.JPGの裏面かどうか判別できない。\r\n・暫定的に上記裏面と推定して、サイズ「D」とした。" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2118/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/a599ecace954adc977d34f41b033bc0eee8bc9cd.jpg" n="https://diyhistory.org/public/phr2/iiif/2118/canvas/p1"/>
+        <zone xml:id="zone_iy3_5zq_jlb" lry="1261" lrx="2250" uly="755" ulx="884"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/ac1b4c49f15b14af8c8c30c0d719aae498e4e850.jpg" n="https://diyhistory.org/public/phr2/iiif/2118/canvas/p2"/>
+        <zone xml:id="zone_kmw_vzq_jlb" lry="1893" lrx="2060" uly="440" ulx="333"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="fetvā" facs="#zone_kmw_vzq_jlb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_iy3_5zq_jlb">
+        <p>
+          <lb/>... <date when="1807" type="summary_Croatian">1807</date>.<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

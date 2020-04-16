@@ -1,64 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9161</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="summary">ウシュルの徴収されるミーリー地のリスト</note>
-<note type="mine">クレシェヴォ修道院が所有しているミーリー地が分かる</note>
-<note type="mine">DSCN0371.JPGと比較するとこの文書の土地記録年が分かるかも</note>
-</notesStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2087/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/2087/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/392f9d227eea12d22c555b638e3cc4347ccb094b.jpg"/>
-<zone lrx="2556" lry="1672" ulx="494" uly="83" xml:id="zone_bpt_3cq_h3b"/>
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_bpt_3cq_h3b" type="‘öşr_bedeli_defteri">
-<l>hüve</l>
-<l><placename><placename type="proper">Foyniçe</placename> kazāsına tābiʿ <placename type="proper">Kirşevo</placename> kurbında
-               vākiʿ Latin milletinin kiliseleri</placename>ne merbūt arāzī mīrīnin</l>
-<l>aʿaşār bedelātı mübeyyin defteridir</l>
-<l>bedelāt</l>
-<l></l>
-<l></l>
-<l></l>
-<l></l>
-<l></l>
-<l></l>
-<l></l>
-<l></l>
-<l></l>
-<l></l>
-<l></l>
-<l></l>
-<l></l>
-<l></l>
-</div1>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9161</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">ウシュルの徴収されるミーリー地のリスト</note>
+        <note type="mine">クレシェヴォ修道院が所有しているミーリー地が分かる</note>
+        <note type="mine">DSCN0371.JPGと比較するとこの文書の土地記録年が分かるかも</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2087/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/392f9d227eea12d22c555b638e3cc4347ccb094b.jpg" n="https://diyhistory.org/public/phr2/iiif/2087/canvas/p1"/>
+        <zone xml:id="zone_bpt_3cq_h3b" lry="2022" lrx="2556" uly="83" ulx="478"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="defteri" subtype="‘öşr_bedeli" facs="#zone_bpt_3cq_h3b">
+          <p>
+            <lb/>hüve
+            <lb/><placename><placename type="proper">Foyniçe</placename> kazāsına tābiʿ <placename type="proper">Kirşevo</placename> kurbında vākiʿ Latin milletinin kiliseleri</placename>ne merbūt arāzī mīrīnin
+            <lb/>aʿaşār bedelātı mübeyyin defteridir
+            <lb/>bedelāt
+          </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
