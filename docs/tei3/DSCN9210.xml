@@ -1,31 +1,47 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9210</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2134/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2134/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b1ade31e4e7e2ef2db6dc340495a0ee034adeff1.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2134/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/547a1be3bae77031522ea0c5eac47c02caef5eed.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9210</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2134/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2134/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b1ade31e4e7e2ef2db6dc340495a0ee034adeff1.jpg" />
+        <zone lrx="1810" lry="1272" ulx="1472" uly="1127" xml:id="zone_hzc_xpt_klb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2134/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/547a1be3bae77031522ea0c5eac47c02caef5eed.jpg" />
+        <zone lrx="1854" lry="2945" ulx="454" uly="400" xml:id="zone_znj_ypt_klb" />
+        <zone lrx="1636" lry="2682" ulx="1209" uly="2253" xml:id="zone_wf5_zpt_klb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_znj_ypt_klb" next="#zone_hzc_xpt_klb" type="cizye_senedi">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 facs="#zone_wf5_zpt_klb" type="stamp">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_hzc_xpt_klb" type="memo">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

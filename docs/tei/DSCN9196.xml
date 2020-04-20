@@ -1,32 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9196</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2121/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2121/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3f131b285b1ddd79a1f5877bce9144f06143cdfd.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2121/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3414f69a5f423d5bd860c589b800ab5160adbf68.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9196</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2121/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/3f131b285b1ddd79a1f5877bce9144f06143cdfd.jpg" n="https://diyhistory.org/public/phr2/iiif/2121/canvas/p1"/>
+        <zone xml:id="zone_nst_kkt_klb" lry="1436" lrx="1950" uly="789" ulx="1389"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/3414f69a5f423d5bd860c589b800ab5160adbf68.jpg" n="https://diyhistory.org/public/phr2/iiif/2121/canvas/p2"/>
+        <zone xml:id="zone_dwv_mkt_klb" lry="1989" lrx="1679" uly="336" ulx="669"/>
+        <zone xml:id="zone_qqz_nkt_klb" lry="2863" lrx="1690" uly="2000" ulx="684"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="fetvā" facs="#zone_dwv_mkt_klb" next="#zone_qqz_nkt_klb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+      <div1 type="fetvā" facs="#zone_qqz_nkt_klb" next="#zone_nst_kkt_klb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_nst_kkt_klb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
