@@ -1,32 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9220</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2144/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2144/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4e2f004afd34b73932c5a509b36be163361b3797.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2144/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/735b809f9885d91937b464bdef7a953ff9b86661.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2144/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/533c7b94c3365ebccba06fb8bde9a1710995bb58.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9220</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2144/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/4e2f004afd34b73932c5a509b36be163361b3797.jpg" n="https://diyhistory.org/public/phr2/iiif/2144/canvas/p1"/>
+        <zone xml:id="zone_om2_53s_mlb" lry="1145" lrx="1450" uly="612" ulx="371"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/735b809f9885d91937b464bdef7a953ff9b86661.jpg" n="https://diyhistory.org/public/phr2/iiif/2144/canvas/p2"/>
+        <zone xml:id="zone_bkn_v3s_mlb" lry="976" lrx="1310" uly="520" ulx="879"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/533c7b94c3365ebccba06fb8bde9a1710995bb58.jpg" n="https://diyhistory.org/public/phr2/iiif/2144/canvas/p3"/>
+        <zone xml:id="zone_d5f_x3s_mlb" lry="2407" lrx="1493" uly="1542" ulx="135"/>
+        <zone xml:id="zone_fsk_y3s_mlb" lry="2370" lrx="532" uly="2111" ulx="259"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unkown" facs="#zone_d5f_x3s_mlb" next="#zone_bkn_v3s_mlb">
+        <p>
+          <lb/>fī <date when-custom="1210-12-21" type="created">21 Zı'l-hicce sene 1210</date><lb/>
+        </p>
+      </div1>
+      <div1 type="unkown" facs="#zone_bkn_v3s_mlb" next="#zone_om2_53s_mlb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+      <div1 type="sumary_Croatian" facs="#zone_om2_53s_mlb">
+        <p>
+          <lb/>na <date when="1796" type="summary_Croatian">1796</date><lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
