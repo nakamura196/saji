@@ -1,32 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9249</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2173/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2173/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/02b2b940d84096148caafa9110a6e18fc225395a.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2173/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/24dcca58d34502b77e6ac6161a6deb4a78662c6b.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9249</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2173/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/02b2b940d84096148caafa9110a6e18fc225395a.jpg" n="https://diyhistory.org/public/phr2/iiif/2173/canvas/p1"/>
+        <zone xml:id="zone_vgb_cyg_nlb" lry="1505" lrx="2623" uly="838" ulx="573"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/24dcca58d34502b77e6ac6161a6deb4a78662c6b.jpg" n="https://diyhistory.org/public/phr2/iiif/2173/canvas/p2"/>
+        <zone xml:id="zone_k33_dyg_nlb" lry="2300" lrx="2060" uly="46" ulx="293"/>
+        <zone xml:id="zone_yxw_2yg_nlb" lry="2282" lrx="728" uly="1933" ulx="400"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" subtype="zabt_temessük" facs="#zone_k33_dyg_nlb" next="#zone_vgb_cyg_nlb">
+        <p>
+          <lb/>işbu <date when-custom="1240" type="created">bin iki yüz krık senesinde</date> der ... 
+          <lb/>
+        </p>
+        <div2 type="sign" facs="#zone_yxw_2yg_nlb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_vgb_cyg_nlb">
+        <p>
+          <lb/><date when="1825" type="summary_Croatian">1825</date> - <date when-custom="1240" type="summary_Croatian">1240</date>.
+          <lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
