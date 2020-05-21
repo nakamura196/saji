@@ -1,32 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9299</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2223/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2223/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2d72f712d3c2e51c5c15e8f378c51d87e2c744e6.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2223/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1869f0d4e83cda6f7ce5e8e1b9e826792ddd7058.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9299</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">Tapuの代わりに一時的に与えられた証書の写し？要検討</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2223/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/2d72f712d3c2e51c5c15e8f378c51d87e2c744e6.jpg" n="https://diyhistory.org/public/phr2/iiif/2223/canvas/p1"/>
+        <zone xml:id="zone_ilx_2nl_tlb" lry="1450" lrx="2756" uly="861" ulx="489"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/1869f0d4e83cda6f7ce5e8e1b9e826792ddd7058.jpg" n="https://diyhistory.org/public/phr2/iiif/2223/canvas/p2"/>
+        <zone xml:id="zone_fcm_gnl_tlb" lry="2599" lrx="2200" uly="271" ulx="50"/>
+        <zone xml:id="zone_n44_hnl_tlb" lry="2570" lrx="929" uly="2141" ulx="158"/>
+        <zone xml:id="zone_jzd_3nl_tlb" lry="2558" lrx="912" uly="2227" ulx="568"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unkown" facs="#zone_fcm_gnl_tlb" next="#zone_ilx_2nl_tlb">
+        <p>
+          <lb/>... fī <date when-custom="1273-04-09" type="created">9 R sene 73</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_n44_hnl_tlb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp_sūret" facs="#zone_jzd_3nl_tlb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_ilx_2nl_tlb">
+        <p>
+          <lb/>... <date when-custom="1273" type="summary_Croatian">1273</date>.
+          <lb/>Nno 6.
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
