@@ -1,35 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9315</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B?"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "・表裏どちらも部分画像のみで、全体像の画像がない。\r\n・おそらくサイズ「B」の文書と推定できるが、確認のしようがないので「B?」とした。"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2239/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2239/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2546ff53bfb95cebd786813773001e7b13c4ce45.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2239/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/117d677dd80a6b1b2bf0aefce3cd0848c2136e5a.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9315</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B?" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・表裏どちらも部分画像のみで、全体像の画像がない。\r\n・おそらくサイズ「B」の文書と推定できるが、確認のしようがないので「B?」とした。" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2239/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/2546ff53bfb95cebd786813773001e7b13c4ce45.jpg" n="https://diyhistory.org/public/phr2/iiif/2239/canvas/p1"/>
+        <zone xml:id="zone_ohp_j1m_ylb" lry="1315" lrx="2530" uly="923" ulx="550"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/117d677dd80a6b1b2bf0aefce3cd0848c2136e5a.jpg" n="https://diyhistory.org/public/phr2/iiif/2239/canvas/p2"/>
+        <zone xml:id="zone_bpq_l1m_ylb" lry="2093" lrx="2625" uly="412" ulx="144"/>
+        <zone xml:id="zone_x5n_n1m_ylb" lry="2093" lrx="884" uly="1720" ulx="620"/>
+        <zone xml:id="zone_v3l_41m_ylb" lry="2075" lrx="522" uly="1693" ulx="257"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="tapu_nāme" facs="#zone_bpq_l1m_ylb" next="#zone_ohp_j1m_ylb">
+        <p>
+          <lb/>... <lb/>
+        </p>
+        <div2 type="sign">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+        <div2 type="sign">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_ohp_j1m_ylb">
+        <p>
+          <lb/>... <date when="1831" type="summary_Croatian">1831</date>.
+          <lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

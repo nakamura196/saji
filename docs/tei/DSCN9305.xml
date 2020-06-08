@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9305</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2229/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2229/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c610083694cb199d95ee0d3aab71d0cd003f39b1.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9305</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2229/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/c610083694cb199d95ee0d3aab71d0cd003f39b1.jpg" n="https://diyhistory.org/public/phr2/iiif/2229/canvas/p1"/>
+        <zone xml:id="zone_hxt_stl_ylb" lry="2549" lrx="1721" uly="71" ulx="321"/>
+        <zone xml:id="zone_ikt_vtl_ylb" lry="2517" lrx="766" uly="2293" ulx="528"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="mürāsele" facs="#zone_hxt_stl_ylb">
+        <p>
+          <lb/>... fī <date when-custom="1209-07-23" type="created">23 min Recebi'l-... sene 1209</date><lb/>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_ikt_vtl_ylb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

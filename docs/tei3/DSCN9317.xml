@@ -1,34 +1,118 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9317</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "・裏面補強跡あり（緑の布）。"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2241/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2241/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4aae6527505ff8e8c151862d223e1280304c77a8.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2241/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4d44088d29bdcb6ad9fd471f711c02aeb063643a.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9317</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・裏面補強跡あり（緑の布）。" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2241/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2241/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4aae6527505ff8e8c151862d223e1280304c77a8.jpg" />
+        <zone lrx="2817" lry="1400" ulx="400" uly="750" xml:id="zone_bfk_pbm_ylb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2241/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4d44088d29bdcb6ad9fd471f711c02aeb063643a.jpg" />
+        <zone lrx="1724" lry="2811" ulx="224" uly="1194" xml:id="zone_jj1_5bm_ylb" />
+        <zone lrx="1718" lry="1382" ulx="1015" uly="788" xml:id="zone_trr_5bm_ylb" />
+        <zone lrx="1250" lry="1371" ulx="1025" uly="1128" xml:id="zone_c5x_zbm_ylb" />
+        <zone lrx="1071" lry="1289" ulx="407" uly="667" xml:id="zone_qjb_bcm_ylb" />
+        <zone lrx="768" lry="1282" ulx="475" uly="1071" xml:id="zone_fxv_ccm_ylb" />
+        <zone lrx="1993" lry="1314" ulx="1371" uly="607" xml:id="zone_pr3_fcm_ylb" />
+        <zone lrx="1989" lry="1310" ulx="1739" uly="1060" xml:id="zone_ojt_hcm_ylb" />
+        <zone lrx="1143" lry="828" ulx="375" uly="292" xml:id="zone_trx_jcm_ylb" />
+        <zone lrx="1118" lry="817" ulx="879" uly="642" xml:id="zone_uc5_kcm_ylb" />
+        <zone lrx="2318" lry="2064" ulx="1711" uly="1392" xml:id="zone_un1_mcm_ylb" />
+        <zone lrx="2296" lry="2039" ulx="2061" uly="1796" xml:id="zone_rhx_ncm_ylb" />
+        <zone lrx="2150" lry="2714" ulx="1721" uly="2057" xml:id="zone_xwz_4cm_ylb" />
+        <zone lrx="2136" lry="2314" ulx="1932" uly="2078" xml:id="zone_xc4_qcm_ylb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 cert="low" facs="#zone_jj1_5bm_ylb" next="#zone_bfk_pbm_ylb" type="hüccet">
+        <p>
+          <lb />... fī <date cert="low" from="1567-09-04" from-custom="975-03-01" to-custom="975-03-10" type="created">evā’il şehr Rebi'ü'l-evvel 975</date><lb />
+        </p>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+        <div2 facs="#zone_trr_5bm_ylb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_c5x_zbm_ylb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 facs="#zone_qjb_bcm_ylb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_fxv_ccm_ylb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 facs="#zone_pr3_fcm_ylb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_ojt_hcm_ylb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 facs="#zone_trx_jcm_ylb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_uc5_kcm_ylb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 facs="#zone_un1_mcm_ylb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_rhx_ncm_ylb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 facs="#zone_xwz_4cm_ylb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_xc4_qcm_ylb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_bfk_pbm_ylb" type="summary_Serbian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
