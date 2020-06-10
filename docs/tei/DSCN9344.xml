@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9344</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2268/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2268/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/11ad60fa39aac68077d565e26b8ad9f812824218.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9344</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2268/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/11ad60fa39aac68077d565e26b8ad9f812824218.jpg" n="https://diyhistory.org/public/phr2/iiif/2268/canvas/p1"/>
+        <zone xml:id="zone_awj_k41_zlb" lry="2549" lrx="1664" uly="64" ulx="393"/>
+        <zone xml:id="zone_mtd_m41_zlb" lry="2500" lrx="794" uly="2265" ulx="542"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="mürāsele" facs="#zone_awj_k41_zlb">
+        <p>
+          <lb/>... hurira fī <date when-custom="1233-11-14" type="created">14 Za sene 1233</date><lb/>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_mtd_m41_zlb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

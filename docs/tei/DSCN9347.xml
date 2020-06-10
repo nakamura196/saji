@@ -1,32 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9347</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2271/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2271/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/40294553e9368febc72a5e1acb6bf0c54836cfce.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9347</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2271/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/40294553e9368febc72a5e1acb6bf0c54836cfce.jpg" n="https://diyhistory.org/public/phr2/iiif/2271/canvas/p1"/>
+        <zone xml:id="zone_o4q_cr1_zlb" lry="2661" lrx="1654" uly="253" ulx="293"/>
+        <zone xml:id="zone_ohz_dr1_zlb" lry="2632" lrx="984" uly="2051" ulx="480"/>
+        <zone xml:id="zone_ufd_fr1_zlb" lry="2609" lrx="963" uly="2369" ulx="692"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unkown" facs="#zone_o4q_cr1_zlb">
+        <p>
+          <lb/>... <date when-custom="1308" cert="low" type="created">sene 1308</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_ohz_dr1_zlb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_ufd_fr1_zlb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

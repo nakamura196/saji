@@ -1,32 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9352</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2276/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2276/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e514e0c691137d81cf8fb0da1019fffe6312a12f.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9352</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2276/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/e514e0c691137d81cf8fb0da1019fffe6312a12f.jpg" n="https://diyhistory.org/public/phr2/iiif/2276/canvas/p1"/>
+        <zone xml:id="zone_v5c_kw1_zlb" lry="3138" lrx="1622" uly="1644" ulx="222"/>
+        <zone xml:id="zone_v43_lw1_zlb" lry="3125" lrx="574" uly="2758" ulx="256"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="tezkire" facs="#zone_v5c_kw1_zlb">
+        <p>
+          <lb/>işbu <date when-custom="1187" type="created">bin yüz seksen yedi senesinde</date> Kirşevo gardiyāna irsāl eyledüğüm 
+          <lb/>...
+        </p>
+        <div2 type="sign" facs="#zone_v43_lw1_zlb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>
