@@ -1,32 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9358</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2282/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2282/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/fd7e0f6e98eac043d32297c80606671840fdc0ca.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9358</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2282/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/fd7e0f6e98eac043d32297c80606671840fdc0ca.jpg" n="https://diyhistory.org/public/phr2/iiif/2282/canvas/p1"/>
+        <zone xml:id="zone_zdp_21g_zlb" lry="2707" lrx="2347" uly="923" ulx="85"/>
+        <zone xml:id="zone_cmx_k1g_zlb" lry="2697" lrx="600" uly="2186" ulx="125"/>
+        <zone xml:id="zone_svm_p1g_zlb" lry="2681" lrx="588" uly="2474" ulx="346"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" subtype="zabt_temessük" facs="#zone_zdp_21g_zlb">
+        <p>
+          <lb/>... fī <date when-custom="1262-09-19" type="created">19 N sene 62</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_cmx_k1g_zlb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_svm_p1g_zlb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

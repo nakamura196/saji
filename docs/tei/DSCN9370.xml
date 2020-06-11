@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9370</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ],
-  "saji:memo": [
-    "・料紙に大きな欠損あり。本文の一部が読み取れない。"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2294/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2294/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/74f2e15427611a1f44b4687b50c1913e652f33bd.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9370</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・料紙に大きな欠損あり。本文の一部が読み取れない。" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2294/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/74f2e15427611a1f44b4687b50c1913e652f33bd.jpg" n="https://diyhistory.org/public/phr2/iiif/2294/canvas/p1"/>
+        <zone xml:id="zone_jnq_y3g_zlb" lry="1977" lrx="2628" uly="644" ulx="706"/>
+        <zone xml:id="zone_x25_z3g_zlb" lry="1946" lrx="1053" uly="1541" ulx="717"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" facs="#zone_jnq_y3g_zlb">
+        <p>
+          <lb/>işbu <date when-custom="1252" type="created">bin iki yüz elli iki senesinde</date> der ... 
+          <lb/>
+        </p>
+        <div2 type="sign" facs="#zone_x25_z3g_zlb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

@@ -1,31 +1,75 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9364</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2288/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2288/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ad59cb8f8e2104d8d82196286ec5603310e29295.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2288/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/bd8862abfe118f306d73dfaf0db2704fe2372a5b.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9364</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">文字、文法ともにかなり乱れている。これは手習いか写しのようなものなのか？</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2288/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2288/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ad59cb8f8e2104d8d82196286ec5603310e29295.jpg" />
+        <zone lrx="929" lry="916" ulx="691" uly="652" xml:id="zone_iws_bfg_zlb" />
+        <zone lrx="672" lry="939" ulx="466" uly="725" xml:id="zone_trk_cfg_zlb" />
+        <zone lrx="1506" lry="1956" ulx="954" uly="1306" xml:id="zone_txh_dfg_zlb" />
+        <zone lrx="881" lry="2516" ulx="360" uly="2129" xml:id="zone_yqd_2fg_zlb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2288/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/bd8862abfe118f306d73dfaf0db2704fe2372a5b.jpg" />
+        <zone lrx="1662" lry="2687" ulx="221" uly="1645" xml:id="zone_pmt_ffg_zlb" />
+        <zone lrx="851" lry="2630" ulx="549" uly="2337" xml:id="zone_bbh_kfg_zlb" />
+        <zone lrx="564" lry="2555" ulx="237" uly="2319" xml:id="zone_wsg_mfg_zlb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 cert="low" facs="#zone_pmt_ffg_zlb" next="#zone_txh_dfg_zlb" type="tezkire">
+        <p>
+          <lb />... işbu iki yüz senesinde
+          <lb />ve iki yüz bir senesi
+        </p>
+        <div2 facs="#zone_bbh_kfg_zlb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_iws_bfg_zlb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 facs="#zone_wsg_mfg_zlb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_trk_cfg_zlb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 cert="unknown" facs="#zone_txh_dfg_zlb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+      <div1 cert="unknown" facs="#zone_yqd_2fg_zlb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN9359</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 3"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2283/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2283/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d4cc5d578c7ee8682b0f7155992b2d99890f11a1.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9359</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要確認】裏面のみで、表面の画像が見当たらなかった。現物要確認。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2283/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/d4cc5d578c7ee8682b0f7155992b2d99890f11a1.jpg" n="https://diyhistory.org/public/phr2/iiif/2283/canvas/p1"/>
+        <zone xml:id="zone_x1b_5bg_zlb" lry="1594" lrx="2217" uly="672" ulx="684"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="summary_Serbian" facs="#zone_x1b_5bg_zlb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
