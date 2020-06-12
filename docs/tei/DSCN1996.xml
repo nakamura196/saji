@@ -1,32 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1996</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2326/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2326/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7407e1961808e4b17e7fb42826c3b735b2e30cdc.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1996</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2326/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/7407e1961808e4b17e7fb42826c3b735b2e30cdc.jpg" n="https://diyhistory.org/public/phr2/iiif/2326/canvas/p1"/>
+        <zone xml:id="zone_xxw_fsp_zlb" lry="3008" lrx="2167" uly="166" ulx="158"/>
+        <zone xml:id="zone_uds_hsp_zlb" lry="2954" lrx="521" uly="2585" ulx="257"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" cert="low" subtype="hurūf" facs="#zone_xxw_fsp_zlb">
+        <p>
+          <lb/>işbu <date when-custom="1231-08-01" type="created">bin iki yüz otuz bir senesinde māh-ı Şaʿbānİ'l-şerīf birinci gününde</date> olup
+          <lb/>
+        </p>
+        <div2 type="sign" facs="#zone_uds_hsp_zlb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>
