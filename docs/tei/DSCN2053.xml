@@ -1,32 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2053</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2383/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2383/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/293663f39f715770a722c0c6bf6adaf40027e6c3.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2383/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8fe646eb64134b8327733720d5a2bfc2bdf61dcb.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2053</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2383/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/293663f39f715770a722c0c6bf6adaf40027e6c3.jpg" n="https://diyhistory.org/public/phr2/iiif/2383/canvas/p1"/>
+        <zone xml:id="zone_ahm_qq4_bmb" lry="2930" lrx="2220" uly="850" ulx="80"/>
+        <zone xml:id="zone_yfq_vq4_bmb" lry="2747" lrx="488" uly="2461" ulx="185"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/8fe646eb64134b8327733720d5a2bfc2bdf61dcb.jpg" n="https://diyhistory.org/public/phr2/iiif/2383/canvas/p2"/>
+        <zone xml:id="zone_gqn_1r4_bmb" lry="811" lrx="679" uly="497" ulx="325"/>
+        <zone xml:id="zone_lj3_cr4_bmb" lry="1593" lrx="1618" uly="1336" ulx="200"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" cert="low" subtype="unkown" facs="#zone_ahm_qq4_bmb" next="#zone_lj3_cr4_bmb">
+        <p>
+          <lb/>... fī <date from-custom="1120-06-11" to-custom="1120-06-20" type="created">evāsit Cemaziye'l-āhir sene 1120</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_yfq_vq4_bmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_gqn_1r4_bmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="summary_Serbian" facs="#zone_lj3_cr4_bmb">
+        <p>
+          <lb/>... <lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

@@ -1,32 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2040</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2370/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2370/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/89da23ab4eec7dd7f07e5a09dc20a65179645373.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2370/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/bca0b8ec81996b4c6f59484600f4eec7bc4ca334.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2040</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2370/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/89da23ab4eec7dd7f07e5a09dc20a65179645373.jpg" n="https://diyhistory.org/public/phr2/iiif/2370/canvas/p1"/>
+        <zone xml:id="zone_fqj_rg4_bmb" lry="3172" lrx="1909" uly="81" ulx="145"/>
+        <zone xml:id="zone_ldc_tg4_bmb" lry="3147" lrx="985" uly="2479" ulx="199"/>
+        <zone xml:id="zone_fkb_5g4_bmb" lry="3132" lrx="961" uly="2823" ulx="576"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/bca0b8ec81996b4c6f59484600f4eec7bc4ca334.jpg" n="https://diyhistory.org/public/phr2/iiif/2370/canvas/p2"/>
+        <zone xml:id="zone_tts_vg4_bmb" lry="516" lrx="1729" uly="241" ulx="346"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" subtype="tezkire" cert="low" facs="#zone_fqj_rg4_bmb" next="#zone_tts_vg4_bmb">
+        <p>
+          <lb/>... fī <lb/>
+        </p>
+        <div2 type="sign" facs="#zone_ldc_tg4_bmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_fkb_5g4_bmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="unkown" facs="#zone_tts_vg4_bmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

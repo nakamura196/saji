@@ -1,32 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2047</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2377/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2377/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8eea14a003e3854b600b928acd3c573198958464.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2377/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2acaa019fe49630d54ab94827a8bba5730a94c9d.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2047</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2377/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/8eea14a003e3854b600b928acd3c573198958464.jpg" n="https://diyhistory.org/public/phr2/iiif/2377/canvas/p1"/>
+        <zone xml:id="zone_qsq_3l4_bmb" lry="3091" lrx="1742" uly="158" ulx="225"/>
+        <zone xml:id="zone_blg_kl4_bmb" lry="3038" lrx="593" uly="2679" ulx="244"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/2acaa019fe49630d54ab94827a8bba5730a94c9d.jpg" n="https://diyhistory.org/public/phr2/iiif/2377/canvas/p2"/>
+        <zone xml:id="zone_e1q_4l4_bmb" lry="683" lrx="846" uly="325" ulx="454"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="mürāsele" facs="#zone_qsq_3l4_bmb">
+        <p>
+          <lb/>... fī <date when-custom="1192-03-11" cert="low" type="created">11 Ra sene 1192</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_blg_kl4_bmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_e1q_4l4_bmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

@@ -1,32 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2035</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2365/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2365/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a0953cf7e935f07b8c70faa29bdf303cc8cec7d1.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2365/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/36ada4bc10dd919e3c51aac994a5f4e7beb4bc00.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2035</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2365/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/a0953cf7e935f07b8c70faa29bdf303cc8cec7d1.jpg" n="https://diyhistory.org/public/phr2/iiif/2365/canvas/p1"/>
+        <zone xml:id="zone_mwj_td4_bmb" lry="3083" lrx="1783" uly="8" ulx="108"/>
+        <zone xml:id="zone_uvj_vd4_bmb" lry="3060" lrx="522" uly="2812" ulx="127"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/36ada4bc10dd919e3c51aac994a5f4e7beb4bc00.jpg" n="https://diyhistory.org/public/phr2/iiif/2365/canvas/p2"/>
+        <zone xml:id="zone_s23_xd4_bmb" lry="383" lrx="1458" uly="100" ulx="229"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" cert="unknown" subtype="tezkire" facs="#zone_mwj_td4_bmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign" facs="#zone_uvj_vd4_bmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_s23_xd4_bmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

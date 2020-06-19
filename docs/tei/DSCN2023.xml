@@ -16,16 +16,45 @@
   <facsimile>
     <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2353/manifest">
       <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2353/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5510b074605c58757483a1dd5099932468dee211.jpg"/>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/5510b074605c58757483a1dd5099932468dee211.jpg" n="https://diyhistory.org/public/phr2/iiif/2353/canvas/p1"/>
+        <zone xml:id="zone_dxq_dxn_bmb" lry="3036" lrx="2200" uly="100" ulx="54"/>
+        <zone xml:id="zone_j1w_gxn_bmb" lry="2983" lrx="407" uly="2669" ulx="143"/>
       </surface>
       <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2353/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7dd0aadb64a7053bab868088e4fe61fbb055d489.jpg"/>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/7dd0aadb64a7053bab868088e4fe61fbb055d489.jpg" n="https://diyhistory.org/public/phr2/iiif/2353/canvas/p2"/>
+        <zone xml:id="zone_grv_jxn_bmb" lry="341" lrx="463" uly="73" ulx="153"/>
+        <zone xml:id="zone_rqm_lxn_bmb" lry="2158" lrx="2154" uly="1387" ulx="696"/>
       </surface>
     </surfaceGrp>
   </facsimile>
   <text>
     <body>
-      <p/>
+      <div1 type="EMIN" subtype="tapu_nāme" facs="#zone_dxq_dxn_bmb" next="#zone_rqm_lxn_bmb">
+        <p>
+          <lb/>... <date when-custom="1230" type="created">sene 1230</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_j1w_gxn_bmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_grv_jxn_bmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_rqm_lxn_bmb">
+        <p>
+          <lb/>... 
+          <lb/><date when="1816" type="summary_Croatian">1816</date>.
+        </p>
+      </div1>
     </body>
   </text>
 </TEI>
