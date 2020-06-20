@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2080</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2409/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2409/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6504293b38ac94753f0b4d6dc4c387a5a239d072.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2080</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2409/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/6504293b38ac94753f0b4d6dc4c387a5a239d072.jpg" n="https://diyhistory.org/public/phr2/iiif/2409/canvas/p1"/>
+        <zone xml:id="zone_oyl_y45_bmb" lry="2823" lrx="1754" uly="323" ulx="416"/>
+        <zone xml:id="zone_ftd_1p5_bmb" lry="2816" lrx="866" uly="2578" ulx="559"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="mürāsele" facs="#zone_oyl_y45_bmb">
+        <p>
+          <lb/>... hurira fī <date when-custom="1220-05-07" cert="unknown">7 Ca sene 1220</date><lb/>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_ftd_1p5_bmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

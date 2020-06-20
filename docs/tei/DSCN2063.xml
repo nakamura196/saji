@@ -1,32 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2063</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2393/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2393/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/39b1a2b2ee82188be0ae24eb04858352c9e7d04f.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2393/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/263c61005cb5ba6dc6337e096452540bbb9aeee1.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2063</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2393/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/39b1a2b2ee82188be0ae24eb04858352c9e7d04f.jpg" n="https://diyhistory.org/public/phr2/iiif/2393/canvas/p1"/>
+        <zone xml:id="zone_cdc_5f5_bmb" lry="3185" lrx="2121" uly="1071" ulx="121"/>
+        <zone xml:id="zone_jbk_vf5_bmb" lry="3095" lrx="455" uly="2727" ulx="137"/>
+        <zone xml:id="zone_c1t_wf5_bmb" lry="1209" lrx="2084" uly="109" ulx="672"/>
+        <zone xml:id="zone_fpv_xf5_bmb" lry="606" lrx="1015" uly="281" ulx="687"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/263c61005cb5ba6dc6337e096452540bbb9aeee1.jpg" n="https://diyhistory.org/public/phr2/iiif/2393/canvas/p2"/>
+        <zone xml:id="zone_erk_1g5_bmb" lry="461" lrx="787" uly="177" ulx="485"/>
+        <zone xml:id="zone_v3j_bg5_bmb" lry="3046" lrx="2168" uly="2790" ulx="518"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" cert="low" subtype="tezkire" facs="#zone_cdc_5f5_bmb" next="#zone_c1t_wf5_bmb">
+        <p>
+          <lb/>işbu <date when-iso="1186" type="created">bin yüz seksen altı senesinde</date> yevm
+          <lb/>... fī 
+        </p>
+        <div2 type="sign" facs="#zone_jbk_vf5_bmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_erk_1g5_bmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="unkown" facs="#zone_c1t_wf5_bmb" next="#zone_v3j_bg5_bmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_fpv_xf5_bmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_v3j_bg5_bmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
