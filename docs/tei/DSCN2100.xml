@@ -16,16 +16,39 @@
   <facsimile>
     <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2429/manifest">
       <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2429/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/db20ceb09f50c3f12de9ff59f46c93f0c09fd7e0.jpg"/>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/db20ceb09f50c3f12de9ff59f46c93f0c09fd7e0.jpg" n="https://diyhistory.org/public/phr2/iiif/2429/canvas/p1"/>
+        <zone xml:id="zone_rgy_x4j_cmb" lry="2666" lrx="1762" uly="1675" ulx="116"/>
+        <zone xml:id="zone_p2x_y4j_cmb" lry="2628" lrx="491" uly="2356" ulx="138"/>
       </surface>
       <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2429/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3f82e19ad48e93028d4f15ef2259cc17e1e77954.jpg"/>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/3f82e19ad48e93028d4f15ef2259cc17e1e77954.jpg" n="https://diyhistory.org/public/phr2/iiif/2429/canvas/p2"/>
+        <zone xml:id="zone_jgk_1pj_cmb" lry="827" lrx="553" uly="548" ulx="227"/>
+        <zone xml:id="zone_ir2_bpj_cmb" lry="2758" lrx="2235" uly="2293" ulx="181"/>
       </surface>
     </surfaceGrp>
   </facsimile>
   <text>
     <body>
-      <p/>
+      <div1 type="mürāsele" facs="#zone_rgy_x4j_cmb">
+        <p>
+          <lb/>... hurira fī <date when-custom="1194-08-17" cert="low" type="created">17 Ş sene 194</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_p2x_y4j_cmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_jgk_1pj_cmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_ir2_bpj_cmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
     </body>
   </text>
 </TEI>

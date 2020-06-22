@@ -1,32 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2103</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2432/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2432/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d6a932430039d4c253b26b21974b9f30f8e185dc.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2432/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f7c7471f6086546db370cd1b22b9eecd4f7cf615.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2103</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2432/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/d6a932430039d4c253b26b21974b9f30f8e185dc.jpg" n="https://diyhistory.org/public/phr2/iiif/2432/canvas/p1"/>
+        <zone xml:id="zone_oj2_2qj_cmb" lry="3081" lrx="2300" uly="372" ulx="209"/>
+        <zone xml:id="zone_o1r_fqj_cmb" lry="3038" lrx="720" uly="2740" ulx="370"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2432/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f7c7471f6086546db370cd1b22b9eecd4f7cf615.jpg"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" cert="unknown" subtype="temessük" facs="#zone_oj2_2qj_cmb">
+        <p>
+          <lb/>...  işbu <date when-custom="1236" type="created">bin 
+          <lb/>iki yüz otuz beş altıncı senesinde</date> ...
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_o1r_fqj_cmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>
