@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2211</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2539/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2539/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6aa92448414b8ba8b1a8b20dafdffd39d39a9d27.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2211</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2539/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/6aa92448414b8ba8b1a8b20dafdffd39d39a9d27.jpg" n="https://diyhistory.org/public/phr2/iiif/2539/canvas/p1"/>
+        <zone xml:id="zone_hbm_4xy_cmb" lry="1738" lrx="2289" uly="550" ulx="1006"/>
+        <zone xml:id="zone_nzx_pxy_cmb" lry="1711" lrx="1534" uly="1311" ulx="1089"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unknown" facs="#zone_hbm_4xy_cmb">
+        <p>
+          <lb/>... fī <date when-custom="1255-10-16" cert="low" type="created">16 L sene 55</date><lb/>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_nzx_pxy_cmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

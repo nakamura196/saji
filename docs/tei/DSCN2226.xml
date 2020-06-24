@@ -1,32 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2226</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2554/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2554/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/557c8dde60468d817aaf42e91e2e577041c48bcc.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2226</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2554/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/557c8dde60468d817aaf42e91e2e577041c48bcc.jpg" n="https://diyhistory.org/public/phr2/iiif/2554/canvas/p1"/>
+        <zone xml:id="zone_ujh_mdz_cmb" lry="2766" lrx="2183" uly="400" ulx="300"/>
+        <zone xml:id="zone_xw3_ndz_cmb" lry="2715" lrx="1384" uly="1731" ulx="518"/>
+        <zone xml:id="zone_atj_4dz_cmb" lry="2684" lrx="1356" uly="2309" ulx="915"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="tezkire" facs="#zone_ujh_mdz_cmb">
+        <p>
+          <lb/>... fī <date when-custom="1168-05-23" type="created">23 Ca sene 1168</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_xw3_ndz_cmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_atj_4dz_cmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2198</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2526/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2526/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0c139eb17cf6976f8cc4ac0e7c06622eb4c57cc7.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2198</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2526/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/0c139eb17cf6976f8cc4ac0e7c06622eb4c57cc7.jpg" n="https://diyhistory.org/public/phr2/iiif/2526/canvas/p1"/>
+        <zone xml:id="zone_lsy_yqy_cmb" lry="3190" lrx="1390" uly="290" ulx="150"/>
+        <zone xml:id="zone_xhd_bry_cmb" lry="3161" lrx="628" uly="2880" ulx="307"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="mürāsele" facs="#zone_lsy_yqy_cmb">
+        <p>
+          <lb/>... hurira fī <date when-custom="1184-05-16" type="created">16 Ca sene 1184</date><lb/>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_xhd_bry_cmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

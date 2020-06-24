@@ -1,32 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2199</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2527/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2527/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/84e35b8ecf531fdf498fd70ea3f7e7950f73d5e7.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2527/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/0f7a14b54dca2a84b6a68ffbf1e85f0cd249ebcd.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2199</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要】画像回転。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2527/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/84e35b8ecf531fdf498fd70ea3f7e7950f73d5e7.jpg" n="https://diyhistory.org/public/phr2/iiif/2527/canvas/p1"/>
+        <zone xml:id="zone_k5t_pry_cmb" lry="2400" lrx="3261" uly="415" ulx="269"/>
+        <zone xml:id="zone_fwm_sry_cmb" lry="1439" lrx="3258" uly="1187" ulx="2760"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/0f7a14b54dca2a84b6a68ffbf1e85f0cd249ebcd.jpg" n="https://diyhistory.org/public/phr2/iiif/2527/canvas/p2"/>
+        <zone xml:id="zone_ny5_try_cmb" lry="2972" lrx="1754" uly="400" ulx="1309"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" subtype="temessük" facs="#zone_k5t_pry_cmb" next="#zone_ny5_try_cmb">
+        <p>
+          <lb/>... işbu <date when-custom="1245-03" type="created">bin iki yüz krık beş senesinden Martı iʿtibārıyla</date>
+          <lb/>
+        </p>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_ny5_try_cmb">
+        <p>
+          <lb/>... <date when="1830" type="summary_Croatian">1830</date>. ...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

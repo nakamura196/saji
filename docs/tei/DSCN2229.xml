@@ -1,32 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2229</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2557/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2557/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/422ffd9e7c07a6730990e074ce80917dfce1270c.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2229</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2557/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/422ffd9e7c07a6730990e074ce80917dfce1270c.jpg" n="https://diyhistory.org/public/phr2/iiif/2557/canvas/p1"/>
+        <zone xml:id="zone_lkc_rfz_cmb" lry="2900" lrx="2092" uly="91" ulx="275"/>
+        <zone xml:id="zone_ez2_sfz_cmb" lry="2895" lrx="1036" uly="1981" ulx="418"/>
+        <zone xml:id="zone_jy2_tfz_cmb" lry="2895" lrx="990" uly="2427" ulx="477"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unknown" facs="#zone_lkc_rfz_cmb">
+        <p>
+          <lb/>... fī <date when-custom="1288--10" cert="low" type="created">10 sene 88</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_ez2_sfz_cmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_jy2_tfz_cmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

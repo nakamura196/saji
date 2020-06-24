@@ -1,32 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2213</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2541/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2541/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8776e0fa9571017c1711893a849b0b5a915a2df0.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2541/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f98f51d6a643e0079866cc78f0005b9bedd9d7c4.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2213</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">両面とも文章が切れている。何かの文書を途中で切り取ったように見える。内容は要検討だが、切れ端なのでそもそも読めないと思われる。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2541/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/8776e0fa9571017c1711893a849b0b5a915a2df0.jpg" n="https://diyhistory.org/public/phr2/iiif/2541/canvas/p1"/>
+        <zone xml:id="zone_ff2_5yy_cmb" lry="2215" lrx="2278" uly="357" ulx="800"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/f98f51d6a643e0079866cc78f0005b9bedd9d7c4.jpg" n="https://diyhistory.org/public/phr2/iiif/2541/canvas/p2"/>
+        <zone xml:id="zone_cry_xyy_cmb" lry="2250" lrx="2519" uly="306" ulx="1006"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unknown" facs="#zone_ff2_5yy_cmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+      <div1 type="unknown" facs="#zone_cry_xyy_cmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
