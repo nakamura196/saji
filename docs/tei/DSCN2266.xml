@@ -1,32 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2266</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2594/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2594/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/12df4b94582e08626c37db5534f074a7b4ffc7ca.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2266</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要検討】暦がルーミー暦。換算が合っているか要検討。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2594/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/12df4b94582e08626c37db5534f074a7b4ffc7ca.jpg" n="https://diyhistory.org/public/phr2/iiif/2594/canvas/p1"/>
+        <zone xml:id="zone_lhq_fyf_dmb" lry="3025" lrx="2317" uly="300" ulx="67"/>
+        <zone xml:id="zone_tph_hyf_dmb" lry="3009" lrx="643" uly="2331" ulx="109"/>
+        <zone xml:id="zone_fxs_3yf_dmb" lry="2997" lrx="595" uly="2675" ulx="222"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="ʿilmühaber" facs="#zone_lhq_fyf_dmb">
+        <p>
+          <lb/>... fī <date when-custom="1269-01-03">3 Kānūn-u Sānī sene 69</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_tph_hyf_dmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_fxs_3yf_dmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

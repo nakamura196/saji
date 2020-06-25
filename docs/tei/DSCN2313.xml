@@ -1,32 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2313</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2641/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2641/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/faa4a36d701fcff7b63671d31053cdbe00f2787c.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2641/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f01c13e50064dc0dde995e0c2ee387ab22855842.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2313</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2641/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/faa4a36d701fcff7b63671d31053cdbe00f2787c.jpg" n="https://diyhistory.org/public/phr2/iiif/2641/canvas/p1"/>
+        <zone xml:id="zone_apm_cvg_dmb" lry="2963" lrx="1936" uly="109" ulx="427"/>
+        <zone xml:id="zone_efk_hvg_dmb" lry="2930" lrx="844" uly="2604" ulx="544"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/f01c13e50064dc0dde995e0c2ee387ab22855842.jpg" n="https://diyhistory.org/public/phr2/iiif/2641/canvas/p2"/>
+        <zone xml:id="zone_ehh_kvg_dmb" lry="3187" lrx="1891" uly="2916" ulx="1579"/>
+        <zone xml:id="zone_phx_kvg_dmb" lry="483" lrx="2216" uly="262" ulx="691"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="EMIN" subtype="temessük" facs="#zone_apm_cvg_dmb" next="#zone_phx_kvg_dmb">
+        <p>
+          <lb/>... fī <date when-custom="1239-01-03" cert="low" type="created">3 M sene 239</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_efk_hvg_dmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_ehh_kvg_dmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_phx_kvg_dmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

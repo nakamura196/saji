@@ -1,32 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2290</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2618/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2618/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8965e817617d9b57c3f9a229d81cd041a2cb2ef2.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2290</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2618/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/8965e817617d9b57c3f9a229d81cd041a2cb2ef2.jpg" n="https://diyhistory.org/public/phr2/iiif/2618/canvas/p1"/>
+        <zone xml:id="zone_dlh_ljg_dmb" lry="2453" lrx="2062" uly="330" ulx="339"/>
+        <zone xml:id="zone_edp_mjg_dmb" lry="2396" lrx="1496" uly="1834" ulx="931"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="tezkire" facs="#zone_dlh_ljg_dmb">
+        <p>
+          <lb/>
+          <lb/>... fī <date when-custom="1256-01-10" type="created">10 M sene 56</date>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_edp_mjg_dmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

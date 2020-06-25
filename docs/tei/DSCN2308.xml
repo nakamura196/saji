@@ -1,32 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2308</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2636/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2636/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/efff2b9b6e273eb94b1cfa3c6b1f5d204813ff25.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2308</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2636/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/efff2b9b6e273eb94b1cfa3c6b1f5d204813ff25.jpg" n="https://diyhistory.org/public/phr2/iiif/2636/canvas/p1"/>
+        <zone xml:id="zone_uq1_srg_dmb" lry="3118" lrx="2145" uly="1036" ulx="173"/>
+        <zone xml:id="zone_qcd_trg_dmb" lry="3039" lrx="1213" uly="2658" ulx="793"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unknown" facs="#zone_uq1_srg_dmb">
+        <p>
+          <lb/>...  
+          <lb/>ve'l-hurira fī <date when-custom="1242-03-27" type="created">27 Ra sene 1242</date>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_qcd_trg_dmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

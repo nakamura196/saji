@@ -1,32 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2268</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2596/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2596/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d1d1432791822852cb0e5b26589a6bad996d3e94.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2596/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c20ec146b1cc10c6d107aea63c49b25187bf81fc.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2268</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2596/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/d1d1432791822852cb0e5b26589a6bad996d3e94.jpg" n="https://diyhistory.org/public/phr2/iiif/2596/canvas/p1"/>
+        <zone xml:id="zone_ujn_31g_dmb" lry="2876" lrx="2139" uly="169" ulx="462"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/c20ec146b1cc10c6d107aea63c49b25187bf81fc.jpg" n="https://diyhistory.org/public/phr2/iiif/2596/canvas/p2"/>
+        <zone xml:id="zone_ynt_k1g_dmb" lry="1813" lrx="2173" uly="326" ulx="346"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unknown" facs="#zone_ujn_31g_dmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_ynt_k1g_dmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
