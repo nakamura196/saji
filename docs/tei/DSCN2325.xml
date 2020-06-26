@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2325</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2653/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2653/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5cae78f3d11f98de7562808b8bd0fe67f3c0d251.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2325</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2653/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/5cae78f3d11f98de7562808b8bd0fe67f3c0d251.jpg" n="https://diyhistory.org/public/phr2/iiif/2653/canvas/p1"/>
+        <zone xml:id="zone_mcf_mwm_dmb" lry="3058" lrx="1935" uly="1288" ulx="100"/>
+        <zone xml:id="zone_mqk_nwm_dmb" lry="3015" lrx="663" uly="2693" ulx="315"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="mürāsele" cert="unknown" facs="#zone_mcf_mwm_dmb">
+        <p>
+          <lb/>... hurira fī <date when-custom="1215-08-24" cert="unknown" type="created">24 Ş 15</date><lb/>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_mqk_nwm_dmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>
