@@ -1,35 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2421</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2749/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2749/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/21201dda5cd55376b20fe61a65ba4991a084efea.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2421</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">妻の受け取った遺産分割に関するもの。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2749/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/21201dda5cd55376b20fe61a65ba4991a084efea.jpg" n="https://diyhistory.org/public/phr2/iiif/2749/canvas/p1"/>
+        <zone xml:id="zone_ewh_kw5_dmb" lry="2521" lrx="2235" uly="257" ulx="93"/>
+        <zone xml:id="zone_sbl_lw5_dmb" lry="2487" lrx="1493" uly="2175" ulx="1146"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="defter" facs="#zone_ewh_kw5_dmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign" facs="#zone_sbl_lw5_dmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

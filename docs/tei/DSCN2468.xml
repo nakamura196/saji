@@ -1,32 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2468</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2795/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2795/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/dc694c548122b4a0f381a8048e7205e5ac207c14.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2468</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2795/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/dc694c548122b4a0f381a8048e7205e5ac207c14.jpg" n="https://diyhistory.org/public/phr2/iiif/2795/canvas/p1"/>
+        <zone xml:id="zone_hwm_qvv_dmb" lry="2833" lrx="1767" uly="100" ulx="383"/>
+        <zone xml:id="zone_omn_rvv_dmb" lry="2786" lrx="1313" uly="2270" ulx="483"/>
+        <zone xml:id="zone_qfc_svv_dmb" lry="2767" lrx="1297" uly="2491" ulx="954"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="hurūf" cert="low" facs="#zone_hwm_qvv_dmb">
+        <p>
+          <lb/>... hurira fī <date when-custom="1162-02-23" type="created">23 Saferi'l-... sene 1162</date>
+          <lb/>
+        </p>
+        <div2 type="sign" facs="#zone_omn_rvv_dmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_qfc_svv_dmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

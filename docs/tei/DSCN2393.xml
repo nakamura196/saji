@@ -1,32 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2393</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2721/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2721/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c740f95ebcd5907f090941caad09d1820a132e8e.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2721/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d53775af820efbc2b7998a681e354564d76ee9f6.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2393</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要】年代らしきものが文中に出てくるが、これが作成年なのか何を指しているのかを要検討。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2721/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/c740f95ebcd5907f090941caad09d1820a132e8e.jpg" n="https://diyhistory.org/public/phr2/iiif/2721/canvas/p1"/>
+        <zone xml:id="zone_s1p_txs_dmb" lry="3163" lrx="1891" uly="336" ulx="182"/>
+        <zone xml:id="zone_gkv_5xs_dmb" lry="3117" lrx="1186" uly="2821" ulx="867"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/d53775af820efbc2b7998a681e354564d76ee9f6.jpg" n="https://diyhistory.org/public/phr2/iiif/2721/canvas/p2"/>
+        <zone xml:id="zone_xmy_vxs_dmb" lry="666" lrx="1716" uly="345" ulx="191"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="tezkire" facs="#zone_s1p_txs_dmb">
+        <p>
+          <lb/>... <date when-custom="1219" cert="low">1219</date> ...
+          <lb/>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_gkv_5xs_dmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="unknown" facs="#zone_xmy_vxs_dmb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

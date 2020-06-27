@@ -1,35 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2440</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ],
-  "saji:memo": [
-    "文字に金箔が混ざっている"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2768/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2768/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c877c613551f21ae0ab111936388e1b5cdcc79bf.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2768/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d24abcefebb9e6535a5bb315ed3465973b3c0717.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2440</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "文字に金箔が混ざっている" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2768/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/c877c613551f21ae0ab111936388e1b5cdcc79bf.jpg" n="https://diyhistory.org/public/phr2/iiif/2768/canvas/p1"/>
+        <zone xml:id="zone_h4q_wfv_dmb" lry="2966" lrx="1725" uly="83" ulx="175"/>
+        <zone xml:id="zone_vlr_xfv_dmb" lry="2879" lrx="655" uly="2412" ulx="264"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/d24abcefebb9e6535a5bb315ed3465973b3c0717.jpg" n="https://diyhistory.org/public/phr2/iiif/2768/canvas/p2"/>
+        <zone xml:id="zone_wnm_zfv_dmb" lry="3177" lrx="2040" uly="2931" ulx="1768"/>
+        <zone xml:id="zone_k53_1gv_dmb" lry="822" lrx="2296" uly="411" ulx="152"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="tezkire" facs="#zone_h4q_wfv_dmb" next="#zone_k53_1gv_dmb">
+        <p>
+          <lb/>... fī <date when-custom="1187--02" cert="unknown" type="created">2 ... sene 1187</date><lb/>
+        </p>
+        <div2 type="sign" facs="#zone_vlr_xfv_dmb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_wnm_zfv_dmb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Serbian" facs="#zone_k53_1gv_dmb">
+        <p>
+          <lb/>...
+          <lb/>... <date when="1773" type="summary_Serbian">1773</date>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
