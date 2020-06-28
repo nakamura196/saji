@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2482</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 5"
-  ],
-  "saji:memo": [
-    "・はがきサイズかそれより小さい？"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2809/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2809/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/019e1041826af1a149a23a6309ac44497672b485.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2482</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 5" ], "saji:memo": [ "・はがきサイズかそれより小さい？" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2809/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/019e1041826af1a149a23a6309ac44497672b485.jpg" n="https://diyhistory.org/public/phr2/iiif/2809/canvas/p1"/>
+        <zone xml:id="zone_o1k_bgb_2mb" lry="3154" lrx="2145" uly="1000" ulx="227"/>
+        <zone xml:id="zone_agn_cgb_2mb" lry="2977" lrx="677" uly="2505" ulx="285"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="temessük" facs="#zone_o1k_bgb_2mb">
+        <p>
+          <lb/>... 
+          <lb/>... <date from-custom="1186-01-01" to-custom="1186-01-10" type="created">evā’il Muharremi'l-harām sene 1186</date>
+        </p>
+        <div2 type="sign" facs="#zone_agn_cgb_2mb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

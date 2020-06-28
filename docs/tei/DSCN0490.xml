@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0490</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 6"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2897/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2897/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c8d94261d5fd8fe91be5813831e66b65c81907b5.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0490</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2897/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/c8d94261d5fd8fe91be5813831e66b65c81907b5.jpg" n="https://diyhistory.org/public/phr2/iiif/2897/canvas/p1"/>
+        <zone xml:id="zone_uxw_ykc_2mb" lry="3218" lrx="1769" uly="1481" ulx="144"/>
+        <zone xml:id="zone_qvg_1lc_2mb" lry="3183" lrx="433" uly="2801" ulx="198"/>
+        <zone xml:id="zone_pwg_blc_2mb" lry="1425" lrx="1387" uly="782" ulx="210"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="mürāsele_sūret" facs="#zone_uxw_ykc_2mb" next="#zone_pwg_blc_2mb">
+        <p>
+          <lb/>
+          <lb/>... hurira fī <date when-custom="1198-03" type="created">Rebi'ü'l-evvel sene 198</date>
+        </p>
+      </div1>
+      <div1 type="buyuruldu_sūret" facs="#zone_pwg_blc_2mb">
+        <p>
+          <lb/>... buyuruldu <date when-custom="1198-02-13" cert="low" type="created">13 S sene 198</date><lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

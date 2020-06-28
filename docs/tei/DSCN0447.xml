@@ -1,32 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0447</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 6"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2854/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2854/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f73998857b7c4befb49f43b14bbc2e4b9af3b472.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2854/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/668c962aee35c3e4dc2962cd311f49a812e0803e.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0447</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2854/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2854/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f73998857b7c4befb49f43b14bbc2e4b9af3b472.jpg"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/668c962aee35c3e4dc2962cd311f49a812e0803e.jpg" n="https://diyhistory.org/public/phr2/iiif/2854/canvas/p2"/>
+        <zone xml:id="zone_prj_ywb_2mb" lry="2269" lrx="2638" uly="815" ulx="207"/>
+        <zone xml:id="zone_rgw_zwb_2mb" lry="2187" lrx="816" uly="1790" ulx="305"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="iʿlām_maʿrūz" facs="#zone_prj_ywb_2mb">
+        <p>
+          <lb/>
+          <lb/>... hurira fī <date when-custom="1216-01-13" type="created">13 Muharrem sene 1216</date>
+        </p>
+        <div2 type="sign" facs="#zone_rgw_zwb_2mb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

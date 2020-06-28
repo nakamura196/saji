@@ -1,31 +1,50 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0493</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 6"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2900/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2900/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f06a0d7a0d8208e4a2f3c7322fbde5ea675c588e.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0493</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2900/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2900/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f06a0d7a0d8208e4a2f3c7322fbde5ea675c588e.jpg" />
+        <zone lrx="1645" lry="3172" ulx="645" uly="600" xml:id="zone_a4f_pnc_2mb" />
+        <zone lrx="1155" lry="1116" ulx="687" uly="614" xml:id="zone_lj1_rnc_2mb" />
+        <zone lrx="1041" lry="1108" ulx="882" uly="987" xml:id="zone_wyr_rnc_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_a4f_pnc_2mb" type="hüccet">
+        <p>
+          <lb />... hurira fī evāhir ... 
+          <lb />... <date cert="low" type="created" when="1719-11-12" when-custom="1131">sene ahad ve selasin ve mie ve elif</date>
+        </p>
+        <div2 facs="#zone_lj1_rnc_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_wyr_rnc_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

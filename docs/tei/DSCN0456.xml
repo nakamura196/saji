@@ -1,32 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0456</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "E"
-  ],
-  "saji:fond": [
-    "Tursko 6"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2863/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/52e47d5efa91a7616220140e520ac1f8fc3f86b7.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f5689d51349dd60e423700ca370ea35971c79319.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/015889df51eb9fa6a6303acb69d13404b3da0706.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/8eaecc9da20c1dfdb0213d527044fa78f886b7d8.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/fde9389aae9852d015bf27103806d098b3cb7864.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/27952b8d04ffb447ef0a78255d62a6ccb9d5906d.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p7" url="https://diyhistory.org/public/phr2/files/original/fe940f95176bac14a100f9388ead48381614c2fe.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p8" url="https://diyhistory.org/public/phr2/files/original/78f32a7c287ebbba8ff509fea894570c0622522e.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p9" url="https://diyhistory.org/public/phr2/files/original/601cef82fe27a7abec1d39045e5575db10d1900a.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0456</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2863/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/52e47d5efa91a7616220140e520ac1f8fc3f86b7.jpg" n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p1"/>
+        <zone xml:id="zone_xh3_t1c_2mb" lry="3050" lrx="1492" uly="383" ulx="592"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/f5689d51349dd60e423700ca370ea35971c79319.jpg" n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p2"/>
+        <zone xml:id="zone_szt_v1c_2mb" lry="2468" lrx="1829" uly="1919" ulx="1095"/>
+        <zone xml:id="zone_j1n_w1c_2mb" lry="2459" lrx="1497" uly="2314" ulx="1336"/>
+        <zone xml:id="zone_fwh_x1c_2mb" lry="2555" lrx="1076" uly="1981" ulx="601"/>
+        <zone xml:id="zone_f1c_y1c_2mb" lry="2542" lrx="968" uly="2429" ulx="834"/>
+        <zone xml:id="zone_flj_z1c_2mb" lry="2019" lrx="1131" uly="1401" ulx="616"/>
+        <zone xml:id="zone_b2w_z1c_2mb" lry="2014" lrx="1027" uly="1897" ulx="884"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/015889df51eb9fa6a6303acb69d13404b3da0706.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/8eaecc9da20c1dfdb0213d527044fa78f886b7d8.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/fde9389aae9852d015bf27103806d098b3cb7864.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/27952b8d04ffb447ef0a78255d62a6ccb9d5906d.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p7" url="https://diyhistory.org/public/phr2/files/original/fe940f95176bac14a100f9388ead48381614c2fe.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p8" url="https://diyhistory.org/public/phr2/files/original/78f32a7c287ebbba8ff509fea894570c0622522e.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2863/canvas/p9" url="https://diyhistory.org/public/phr2/files/original/601cef82fe27a7abec1d39045e5575db10d1900a.jpg"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="hüccet" facs="#zone_xh3_t1c_2mb">
+        <p>
+          <lb/>... fī <lb/>
+        </p>
+        <div2 type="sign" facs="#zone_szt_v1c_2mb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_j1n_w1c_2mb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign" facs="#zone_fwh_x1c_2mb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_f1c_y1c_2mb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign" facs="#zone_flj_z1c_2mb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_b2w_z1c_2mb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>        
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

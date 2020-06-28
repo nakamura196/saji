@@ -1,32 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0498</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 6"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2905/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2905/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1df4a1aef2cd888e03b4422dc4fd37dfc9d8cafb.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0498</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2905/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/1df4a1aef2cd888e03b4422dc4fd37dfc9d8cafb.jpg" n="https://diyhistory.org/public/phr2/iiif/2905/canvas/p1"/>
+        <zone xml:id="zone_zys_4qc_2mb" lry="3107" lrx="1685" uly="1471" ulx="78"/>
+        <zone xml:id="zone_ml5_pqc_2mb" lry="3055" lrx="482" uly="2728" ulx="236"/>
+        <zone xml:id="zone_kys_qqc_2mb" lry="1485" lrx="1674" uly="733" ulx="155"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="mürāsele" cert="low" facs="#zone_zys_4qc_2mb" next="#zone_kys_qqc_2mb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign" facs="#zone_ml5_pqc_2mb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="buyuruldu" facs="#zone_kys_qqc_2mb">
+        <p>
+          <lb/>
+          <lb/>... fī <date when-custom="1198-02-13" type="created">13 S sene 198</date>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

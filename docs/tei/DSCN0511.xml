@@ -1,32 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0511</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "A"
-  ],
-  "saji:fond": [
-    "Tursko 6"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2918/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2918/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ae0f0c2364a451c06d3765daf32babd4a205875c.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0511</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2918/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/ae0f0c2364a451c06d3765daf32babd4a205875c.jpg" n="https://diyhistory.org/public/phr2/iiif/2918/canvas/p1"/>
+        <zone xml:id="zone_qqf_3wc_2mb" lry="3133" lrx="1608" uly="116" ulx="367"/>
+        <zone xml:id="zone_obk_jwc_2mb" lry="818" lrx="1097" uly="173" ulx="450"/>
+        <zone xml:id="zone_ajb_kwc_2mb" lry="800" lrx="873" uly="639" ulx="657"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="hüccet" facs="#zone_qqf_3wc_2mb">
+        <p>
+          <lb/>
+          <lb/>... hurira fī <date when-custom="1161-09" type="created">Ramazānı'l-mubārek sene ahad ve sittin ve mie ve elif</date>
+        </p>
+        <div2 type="sign" facs="#zone_obk_jwc_2mb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_ajb_kwc_2mb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>
