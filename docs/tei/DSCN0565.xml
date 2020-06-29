@@ -1,32 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0565</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 6"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2970/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2970/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3306bfbdee396263969a64ef88e0c0ee1726a1a8.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2970/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2229fbda62ce9f0f9411ce9d526597757b3e8ffe.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2970/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/9894844d29f0d3238f1fadcab614db141ec16caf.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2970/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/edbeaea4b7c5d5ba8265f3cdf858274dc2d50bb8.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0565</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2970/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/3306bfbdee396263969a64ef88e0c0ee1726a1a8.jpg" n="https://diyhistory.org/public/phr2/iiif/2970/canvas/p1"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/2229fbda62ce9f0f9411ce9d526597757b3e8ffe.jpg" n="https://diyhistory.org/public/phr2/iiif/2970/canvas/p2"/>
+        <zone xml:id="zone_hlf_k3j_2mb" lry="1438" lrx="1962" uly="255" ulx="1200"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/9894844d29f0d3238f1fadcab614db141ec16caf.jpg" n="https://diyhistory.org/public/phr2/iiif/2970/canvas/p3"/>
+        <zone xml:id="zone_znm_l3j_2mb" lry="1961" lrx="2945" uly="772" ulx="123"/>
+        <zone xml:id="zone_uxg_43j_2mb" lry="1910" lrx="1390" uly="1715" ulx="1187"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/edbeaea4b7c5d5ba8265f3cdf858274dc2d50bb8.jpg" n="https://diyhistory.org/public/phr2/iiif/2970/canvas/p4"/>
+        <zone xml:id="zone_p12_q3j_2mb" lry="2654" lrx="1641" uly="2129" ulx="508"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="iʿlām_maʿrūz" facs="#zone_znm_l3j_2mb">
+        <p facs="#zone_hlf_k3j_2mb">
+          <lb/>...<lb/>
+        </p>
+        <p>
+          <lb/>
+          <lb/>... hurira <date when-custom="1271-04-03" type="created">fi'l-yevmi'l-sālis min şehr Rebī'ü'l-āhir sene ahadī ve sabʿīn ve mieteyn ve elif</date>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_uxg_43j_2mb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_p12_q3j_2mb">
+        <p>
+          <lb/>
+          <lb/>... <date when="1855" type="summary_Croatian">1855</date>.
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

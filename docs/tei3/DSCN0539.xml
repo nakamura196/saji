@@ -1,31 +1,54 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0539</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 6"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2945/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2945/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b165d202ccfe8b6f92a6c71313aa807cdae0bf0a.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2945/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/01855b99ee548afa8e957cea94560e7c34d06fd3.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0539</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2945/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2945/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b165d202ccfe8b6f92a6c71313aa807cdae0bf0a.jpg" />
+        <zone lrx="2025" lry="3208" ulx="150" uly="1116" xml:id="zone_nnf_wt3_2mb" />
+        <zone lrx="378" lry="3091" ulx="210" uly="2862" xml:id="zone_z4p_yt3_2mb" />
+        <zone lrx="2146" lry="1137" ulx="1075" uly="291" xml:id="zone_bml_153_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2945/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/01855b99ee548afa8e957cea94560e7c34d06fd3.jpg" />
+        <zone lrx="1666" lry="3145" ulx="812" uly="2441" xml:id="zone_ot2_c53_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 cert="unknown" facs="#zone_nnf_wt3_2mb" next="#zone_bml_153_2mb" type="ʿarz-ıhāl">
+        <p>
+          <lb />
+          <lb />... fī <date type="created" when="1846-12-29" when-custom="1263-01-11">11 M sene 263</date>
+        </p>
+        <div2 facs="#zone_z4p_yt3_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_bml_153_2mb" next="#zone_ot2_c53_2mb" type="unknown">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+      <div1 facs="#zone_ot2_c53_2mb" type="unknown">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

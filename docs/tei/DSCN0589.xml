@@ -1,35 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0589</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 6"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2993/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2993/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f5efd31153627cd187a5edc82c3ef42642508be7.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0589</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 6" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2993/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/f5efd31153627cd187a5edc82c3ef42642508be7.jpg" n="https://diyhistory.org/public/phr2/iiif/2993/canvas/p1"/>
+        <zone xml:id="zone_ejh_hpj_2mb" lry="3136" lrx="1809" uly="1345" ulx="118"/>
+        <zone xml:id="zone_mv4_3pj_2mb" lry="3091" lrx="509" uly="2812" ulx="168"/>
+        <zone xml:id="zone_x5w_kpj_2mb" lry="1468" lrx="1763" uly="318" ulx="163"/>
+        <zone xml:id="zone_j5x_4pj_2mb" lry="1297" lrx="2104" uly="976" ulx="1727"/>
+        <zone xml:id="zone_jbx_vpj_2mb" lry="1214" lrx="2102" uly="1075" ulx="1982"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="ʿarz-ıhāl_sūret" facs="#zone_ejh_hpj_2mb" next="#zone_x5w_kpj_2mb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign" facs="#zone_mv4_3pj_2mb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="buyuruldu_sūret" facs="#zone_x5w_kpj_2mb" next="#zone_j5x_4pj_2mb">
+        <p>
+          <lb/>
+          <lb/>... fī <date when-custom="1199-02-27" type="created">27 S sene 199</date>
+        </p>
+      </div1>
+      <div1 type="note" facs="#zone_j5x_4pj_2mb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_jbx_vpj_2mb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

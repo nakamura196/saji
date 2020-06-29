@@ -1,31 +1,51 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0590</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 6"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2994/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2994/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d2e0c0a369c1031924a7b4004c633e6bb84dab75.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2994/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/32544d37466c63ca71a9ec6ba664dbdcc350eb34.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0590</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">用紙の一部が欠損している。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2994/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2994/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d2e0c0a369c1031924a7b4004c633e6bb84dab75.jpg" />
+        <zone lrx="2387" lry="2220" ulx="613" uly="767" xml:id="zone_ihw_rqj_2mb" />
+        <zone lrx="1096" lry="2161" ulx="904" uly="1928" xml:id="zone_dlb_tqj_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2994/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/32544d37466c63ca71a9ec6ba664dbdcc350eb34.jpg" />
+        <zone lrx="2063" lry="1675" ulx="669" uly="318" xml:id="zone_cpq_5qj_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_ihw_rqj_2mb" next="#zone_cpq_5qj_2mb" type="ʿarz-ıhāl_sūret">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 facs="#zone_dlb_tqj_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_cpq_5qj_2mb" type="summary_Croatian">
+        <p>
+          <lb />... 
+          <lb /><date type="summary_Croatian" when="1873">1873</date>.
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

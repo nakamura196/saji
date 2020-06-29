@@ -1,34 +1,37 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0525</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "?"
-  ],
-  "saji:fond": [
-    "Tursko 6"
-  ],
-  "saji:memo": [
-    "・何を示しているか不明。\r\n・ボスニア語梗概？"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2931/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2931/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1ff189786655ddd7ebdcb5eac005bf9555853b42.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2931/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/40a39101fbbc1b28b109fa07ade44b96cf3d98f6.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2931/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/ba4fadd4b0aac6da7dc764cbbc7bd59a2baa5adc.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0525</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 6" ], "saji:memo": [ "・何を示しているか不明。\r\n・ボスニア語梗概？" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2931/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2931/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1ff189786655ddd7ebdcb5eac005bf9555853b42.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2931/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/40a39101fbbc1b28b109fa07ade44b96cf3d98f6.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2931/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/ba4fadd4b0aac6da7dc764cbbc7bd59a2baa5adc.jpg" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

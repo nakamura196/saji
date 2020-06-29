@@ -1,32 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0622</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 7"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3026/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/3026/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1e22fddc3265d4aa2f2d11ebcf31bd78e7f0b288.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3026/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/012ecc9a45e48a3294a1e13eac515eea3b4fa159.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0622</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 7" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3026/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/1e22fddc3265d4aa2f2d11ebcf31bd78e7f0b288.jpg" n="https://diyhistory.org/public/phr2/iiif/3026/canvas/p1"/>
+        <zone xml:id="zone_nst_zbk_2mb" lry="2976" lrx="1668" uly="45" ulx="39"/>
+        <zone xml:id="zone_tvb_cck_2mb" lry="2942" lrx="353" uly="2730" ulx="63"/>
+        <zone xml:id="zone_i3b_dck_2mb" lry="1595" lrx="1254" uly="45" ulx="63"/>
+        <zone xml:id="zone_dgj_fck_2mb" lry="2336" lrx="1963" uly="1965" ulx="1628"/>
+        <zone xml:id="zone_v5f_gck_2mb" lry="2206" lrx="1947" uly="2071" ulx="1834"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/012ecc9a45e48a3294a1e13eac515eea3b4fa159.jpg" n="https://diyhistory.org/public/phr2/iiif/3026/canvas/p2"/>
+        <zone xml:id="zone_wtn_hck_2mb" lry="538" lrx="3078" uly="316" ulx="62"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="ʿarz-ıhāl_sūret" facs="#zone_nst_zbk_2mb" next="#zone_i3b_dck_2mb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign" facs="#zone_tvb_cck_2mb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="buyuruldu_sūret" facs="#zone_i3b_dck_2mb" next="#zone_dgj_fck_2mb">
+        <p>
+          <lb/>
+          <lb/>deyu buyuruldu fī <date when-custom="1200-11-05" type="created">5 Za sene 1200</date>
+        </p>
+      </div1>
+      <div1 type="note" facs="#zone_dgj_fck_2mb" next="#zone_wtn_hck_2mb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_v5f_gck_2mb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_wtn_hck_2mb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
