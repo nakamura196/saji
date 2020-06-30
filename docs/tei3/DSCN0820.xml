@@ -1,31 +1,54 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0820</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 8"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3210/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/3210/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e0aa65b910d33c1f6dd316a710c23c51c3db32f7.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3210/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1c518acf10804c6450bcf40573d1a28ad27f1783.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0820</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">通行許可証。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 8" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3210/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3210/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e0aa65b910d33c1f6dd316a710c23c51c3db32f7.jpg" />
+        <zone lrx="2100" lry="3054" ulx="300" uly="27" xml:id="zone_pgd_qbr_2mb" />
+        <zone lrx="1454" lry="2537" ulx="1156" uly="2272" xml:id="zone_blh_rbr_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3210/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1c518acf10804c6450bcf40573d1a28ad27f1783.jpg" />
+        <zone lrx="2054" lry="1341" ulx="350" uly="162" xml:id="zone_xtj_sbr_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_pgd_qbr_2mb" next="#zone_xtj_sbr_2mb" subtype="mürūr" type="tezkire">
+        <p>
+          <lb />
+          <lb />... fī <date type="created" when="1864-07-27" when-custom="1281-02-23">23 S sene 81</date>
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_blh_rbr_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_xtj_sbr_2mb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1864">1864</date>.
+          <lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

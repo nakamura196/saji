@@ -1,35 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0665</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:fond": [
-    "Tursko 7"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3069/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/3069/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c63c3bba0a58dd7fe323aa89ec999f0cffca4834.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3069/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/53f7d63d84857415441f4bf625784ac10e01846d.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3069/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/901a889825a3ed09b4622274b5f39cfa6c3d2a77.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3069/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/b9444a12350e15696e9ce1c87bb4b3bc1a1248db.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0665</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">1181年の教会火事に関する調査結果。</note>
+        <note type="mine">DSCN2401.JPGと同じ火事。その2年2か月後の調査であると思われる。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 7" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3069/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/c63c3bba0a58dd7fe323aa89ec999f0cffca4834.jpg" n="https://diyhistory.org/public/phr2/iiif/3069/canvas/p1"/>
+        <zone xml:id="zone_l2h_1jq_2mb" lry="3250" lrx="2180" uly="40" ulx="1000"/>
+        <zone xml:id="zone_vhx_cjq_2mb" lry="3209" lrx="1603" uly="3055" ulx="1425"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3069/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/53f7d63d84857415441f4bf625784ac10e01846d.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3069/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/901a889825a3ed09b4622274b5f39cfa6c3d2a77.jpg"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/b9444a12350e15696e9ce1c87bb4b3bc1a1248db.jpg" n="https://diyhistory.org/public/phr2/iiif/3069/canvas/p4"/>
+        <zone xml:id="zone_rkk_4jq_2mb" lry="888" lrx="3184" uly="466" ulx="384"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="defter" subtype="keşf" facs="#zone_l2h_1jq_2mb" next="#zone_rkk_4jq_2mb">
+        <p>
+          <lb/>
+          <lb/>... hurira <date when-custom="1181-01-21" type="created">fi'l-yevmi'l-hādā ve'l-ʿaşrīn min Muharremi'l-harām sene 1181</date>
+        </p>
+        <div2 type="sign">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_vhx_cjq_2mb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_rkk_4jq_2mb">
+        <p>
+          <lb/><date when="1767" type="summary_Croatian">1767</date> ... 
+          <lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

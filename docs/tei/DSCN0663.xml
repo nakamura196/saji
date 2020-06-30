@@ -1,35 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0663</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "D"
-  ],
-  "saji:fond": [
-    "Tursko 7"
-  ],
-  "saji:memo": [
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3067/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/3067/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/543b2f1e2fa446f7608a11bd4ec197d08d555dd2.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3067/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3e299d2368a2871dfe6eda7147669c81391e15b5.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0663</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">関税の領収書。103個の鉄製鋤などの国内関税？</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 7" ], "saji:memo": [ "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3067/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/543b2f1e2fa446f7608a11bd4ec197d08d555dd2.jpg" n="https://diyhistory.org/public/phr2/iiif/3067/canvas/p1"/>
+        <zone xml:id="zone_xcn_cgq_2mb" lry="3200" lrx="1945" uly="209" ulx="354"/>
+        <zone xml:id="zone_urv_dgq_2mb" lry="2760" lrx="1150" uly="2594" ulx="966"/>
+        <zone xml:id="zone_j3k_2gq_2mb" lry="2776" lrx="876" uly="2469" ulx="551"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/3e299d2368a2871dfe6eda7147669c81391e15b5.jpg" n="https://diyhistory.org/public/phr2/iiif/3067/canvas/p2"/>
+        <zone xml:id="zone_w3w_fgq_2mb" lry="2054" lrx="2815" uly="1008" ulx="207"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unknown" facs="#zone_xcn_cgq_2mb" next="#zone_w3w_fgq_2mb">
+        <p>
+          <lb/>
+          <lb/>... fī <date when-custom="1284-02-03" type="created">3 Şubat sene 284</date>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_urv_dgq_2mb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_j3k_2gq_2mb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_w3w_fgq_2mb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

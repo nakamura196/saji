@@ -1,35 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0842</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "C"
-  ],
-  "saji:date_M": [
-    "1269-Ş-evāḫir"
-  ],
-  "saji:fond": [
-    "Tursko 8"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3231/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6cdf6866f3fd6a05c6faa5352bf6213fc8d82b9d.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c64beae783bb3d3f5d32232b37f82e6ef75566bd.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/e9ddb0f195dc4f5c9b7aad0cd34bf777cdeef054.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/f3e568851d67bb355536871018ef5435e9170b6f.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/49725e102b8de53646a51bd1fa1f86d88380aab6.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0842</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:date_M": [ "1269-Ş-evāḫir" ], "saji:fond": [ "Tursko 8" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3231/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/6cdf6866f3fd6a05c6faa5352bf6213fc8d82b9d.jpg" n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p1"/>
+        <zone xml:id="zone_tfw_jjr_2mb" lry="2940" lrx="2350" uly="390" ulx="520"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c64beae783bb3d3f5d32232b37f82e6ef75566bd.jpg"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/e9ddb0f195dc4f5c9b7aad0cd34bf777cdeef054.jpg" n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p3"/>
+        <zone xml:id="zone_x4f_qjr_2mb" lry="1928" lrx="3147" uly="1426" ulx="2686"/>
+        <zone xml:id="zone_spz_qjr_2mb" lry="1637" lrx="3128" uly="1484" ulx="2998"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/f3e568851d67bb355536871018ef5435e9170b6f.jpg" n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p4"/>
+        <zone xml:id="zone_al2_sjr_2mb" lry="1694" lrx="1256" uly="905" ulx="489"/>
+      </surface>
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/49725e102b8de53646a51bd1fa1f86d88380aab6.jpg" n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p5"/>
+        <zone xml:id="zone_l2h_tjr_2mb" lry="1561" lrx="2262" uly="1077" ulx="545"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="fermān_sūret" facs="#zone_tfw_jjr_2mb" next="#zone_x4f_qjr_2mb">
+        <p>
+          <lb/>... tahrīren fī <date from-custom="1269-08-21" to-custom="1269-08-30" type="created">evāhir şehri Şaʿbānı'l-muʿazzam
+          <lb/>sene tisʿ ve sittīn ve mieteyn ve elif</date>
+        </p>
+        <div2 type="sign_sūret" facs="#zone_al2_sjr_2mb">
+          <p>
+            <lb/>... <lb/>
+          </p>
+        </div2>
+      </div1>
+      <div1 type="note" facs="#zone_x4f_qjr_2mb" next="#zone_l2h_tjr_2mb">
+        <p>
+          <lb/>...<lb/>
+        </p>
+        <div2 type="sign">
+          <p>
+            <lb/>...<lb/>
+          </p>
+          <div3 type="stamp" facs="#zone_spz_qjr_2mb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="summary_Croatian" facs="#zone_l2h_tjr_2mb">
+        <p>
+          <lb/>... <date when="1854" type="summary_Croatian">1854</date> ...
+          <lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

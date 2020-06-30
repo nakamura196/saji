@@ -1,32 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0748</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 8"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3145/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/3145/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ab6fe61b46c69cdefed4912e955b649501ca81e7.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0748</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 8" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3145/manifest">
+      <surface>
+        <graphic url="https://diyhistory.org/public/phr2/files/original/ab6fe61b46c69cdefed4912e955b649501ca81e7.jpg" n="https://diyhistory.org/public/phr2/iiif/3145/canvas/p1"/>
+        <zone xml:id="zone_d4w_hvq_2mb" lry="2909" lrx="2182" uly="163" ulx="236"/>
+        <zone xml:id="zone_qsz_3vq_2mb" lry="2863" lrx="968" uly="2486" ulx="672"/>
+        <zone xml:id="zone_ddv_jvq_2mb" lry="2829" lrx="627" uly="2409" ulx="388"/>
+        <zone xml:id="zone_zp5_kvq_2mb" lry="668" lrx="2040" uly="202" ulx="1568"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="sened" facs="#zone_d4w_hvq_2mb">
+        <p>
+          <lb/>
+          <lb/>... fī <date when-custom="1285-08-08" type="created">8 Şaʿbān sene 85</date>
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp" facs="#zone_zp5_kvq_2mb">
+            <p>
+              <lb/>...<lb/>
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign" facs="#zone_qsz_3vq_2mb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+        <div2 type="sign" facs="#zone_ddv_jvq_2mb">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb/>...<lb/>
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

@@ -1,31 +1,41 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0747</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 8"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3144/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/3144/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3b24974ff17607b5a04b3d0baba615650d04eed4.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0747</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 8" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3144/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3144/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3b24974ff17607b5a04b3d0baba615650d04eed4.jpg" />
+        <zone lrx="2200" lry="2936" ulx="245" uly="109" xml:id="zone_ugx_s5q_2mb" />
+        <zone lrx="1745" lry="2331" ulx="1162" uly="1751" xml:id="zone_yrj_55q_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 cert="low" facs="#zone_ugx_s5q_2mb" type="cizye_senedi">
+        <p>
+          <lb />
+          <lb />... <date type="created" when="0681-08-21" when-custom="1261">sene 1261</date>
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_yrj_55q_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

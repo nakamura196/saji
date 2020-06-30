@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0709</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "?"
-  ],
-  "saji:fond": [
-    "Tursko 8"
-  ],
-  "saji:memo": [
-    "・何を示しているか不明。\r\n・ボスニア語梗概？"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3110/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/3110/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6ec180c31a16c1ceaf716185c9c7154ceb87576d.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3110/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fedf214df31d67cacd3ab5930951180d064307fb.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3110/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5694c3ce53d317ea063105a940a0c5657bc23b1a.jpg"/></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3110/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/792222286836a781db76ac90e9132ed72960d24e.jpg"/></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p/>
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0709</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 8" ], "saji:memo": [ "・何を示しているか不明。\r\n・ボスニア語梗概？" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3110/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3110/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6ec180c31a16c1ceaf716185c9c7154ceb87576d.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3110/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fedf214df31d67cacd3ab5930951180d064307fb.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3110/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5694c3ce53d317ea063105a940a0c5657bc23b1a.jpg"/>
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3110/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/792222286836a781db76ac90e9132ed72960d24e.jpg"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 type="unknown_Croatian">
+        <p>
+          <lb/>...<lb/>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

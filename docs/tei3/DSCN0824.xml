@@ -1,34 +1,53 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0824</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 8"
-  ],
-  "saji:memo": [
-    "・フォンド5に含まれている、「4つのオスマン朝スタンプ／日付／何らかの定型／短いオスマン語」の要素から構成される小片文書"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3214/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/3214/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/874022ef22ae79a55fc6fc999f5c4e23933c136d.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/3214/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1ce6f08acfbbaa4d3fd7205d8a2e060884910987.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0824</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">諸税の支払い証明書？</note>
+        <note type="mine">フォンド5に含まれている、「4つのオスマン朝スタンプ／日付／何らかの定型／短いオスマン語」の要素から構成される小片文書</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 8" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3214/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3214/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/874022ef22ae79a55fc6fc999f5c4e23933c136d.jpg" />
+        <zone lrx="2017" lry="2666" ulx="317" uly="66" xml:id="zone_ifb_fdr_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3214/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1ce6f08acfbbaa4d3fd7205d8a2e060884910987.jpg" />
+        <zone lrx="2308" lry="2775" ulx="542" uly="166" xml:id="zone_ctf_gdr_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_ifb_fdr_2mb" next="#zone_ctf_gdr_2mb" type="sened">
+        <p>
+          <lb />
+          <lb />... <date type="created" when="0673-11-16" when-custom="1253">sene 253</date>
+        </p>
+      </div1>
+      <div1 facs="#zone_ctf_gdr_2mb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 type="sign">
+          <div3 type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>
