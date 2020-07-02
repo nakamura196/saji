@@ -1,55 +1,61 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2076</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="summary">メイハーネのリスト（追放者の名前も含む）</note>
-<note type="mine">すでにこの街区から追放されるようにというmürāseleとbuyurulduがある</note>
-<note type="mine">修道院とメイハーネには何らかの関係があった？</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ]
-               }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2405/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/2405/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/64f224df82ec89041c9fcab8ad2fef0d668033ce.jpg" />
-<zone lrx="2229" lry="1858" ulx="247" uly="182" xml:id="zone_zkz_l2h_j3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/2405/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/93aa388d3e499a5a80e1d28c342a12bd533d176b.jpg" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_zkz_l2h_j3b" type="defter">
-<l>Defter budur ki <placename><placename cert="unknown" type="proper">...</placename>
-                  mahallesinde</placename> kuşāde meyhāneler beyāndır</l>
-<l />
-<l />
-<l />
-<l />
-<l />
-<l><persname>Marya</persname> nasrānniye</l>
-<l />
-<l />
-<l cert="medium">Mahallimizde durmasın(?)</l>
-<l />
-<l cert="medium">Mahallimizden ihrāc olummak mürāsele ve buyuruld-u şerīf vardır</l>
-<l />
-<l />
-<l />
-<l />
-</div1>
-</body>
-</text>
+               <teiHeader>
+                              <fileDesc>
+                                             <titleStmt>
+                                                            <title>DSCN2076</title>
+                                             </titleStmt>
+                                             <publicationStmt>
+                                                            <p>Publication Information</p>
+                                             </publicationStmt>
+                                             <notesStmt>
+                                                            <note type="summary">メイハーネのリスト（追放者の名前も含む）</note>
+                                                            <note type="mine">すでにこの街区から追放されるようにというmürāseleとbuyurulduがある</note>
+                                                            <note type="mine">修道院とメイハーネには何らかの関係があった？</note>
+                                             </notesStmt>
+                                             <sourceDesc>
+                                                            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ] }</p>
+                                             </sourceDesc>
+                              </fileDesc>
+               </teiHeader>
+               <facsimile>
+                              <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2405/manifest">
+                                             <surface>
+                                                            <graphic n="https://diyhistory.org/public/phr2/iiif/2405/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/64f224df82ec89041c9fcab8ad2fef0d668033ce.jpg" />
+                                                            <zone lrx="2229" lry="1858" ulx="247" uly="182" xml:id="zone_zkz_l2h_j3b" />
+                                             </surface>
+                                             <surface>
+                                                            <graphic n="https://diyhistory.org/public/phr2/iiif/2405/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/93aa388d3e499a5a80e1d28c342a12bd533d176b.jpg" />
+                                                            <zone lrx="2131" lry="1236" ulx="150" uly="109" xml:id="zone_zvg_dn5_bmb" />
+                                             </surface>
+                              </surfaceGrp>
+               </facsimile>
+               <text>
+                              <body>
+                                             <div1 facs="#zone_zkz_l2h_j3b" type="defter">
+                                                            <p>
+                                                                           <lb />Defter budur ki <placeName><placeName cert="unknown" type="proper">...</placeName> mahallesinde</placeName> kuşāde meyhāneler beyāndır
+                                                                           <lb />
+                                                                           <lb />
+                                                                           <lb />
+                                                                           <lb />
+                                                                           <lb />
+                                                                           <lb /><persName>Marya</persName> nasrānniye
+                                                                           <lb />
+                                                                           <lb />
+                                                            <lb cert="medium" />Mahallimizde durmasın(?)
+                                                                           <lb />
+                                                            <lb cert="medium" />Mahallimizden ihrāc olummak mürāsele ve buyuruld-u şerīf vardır
+                                                                           <lb />
+                                                                           <lb />
+                                                                           <lb />
+                                                                           <lb />
+                                                            </p>
+                                             </div1>
+                                             <div1 facs="#zone_zvg_dn5_bmb" type="defter">
+                                                            <p>
+                                                                           <lb />... fī <lb />
+                                                            </p>
+                                             </div1>
+                              </body>
+               </text>
 </TEI>

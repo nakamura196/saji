@@ -1,31 +1,54 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2397</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2725/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2725/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/903fdfbb54a8217c8d9bb16054c2a7abc52c741a.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2725/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b4ca4e373d8c4c910508d14258995eb8d59ccdb4.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2397</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2725/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2725/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/903fdfbb54a8217c8d9bb16054c2a7abc52c741a.jpg" />
+        <zone lrx="1667" lry="3058" ulx="92" uly="66" xml:id="zone_wtv_3zs_dmb" />
+        <zone lrx="848" lry="3030" ulx="174" uly="2384" xml:id="zone_ns1_lzs_dmb" />
+        <zone lrx="830" lry="3023" ulx="530" uly="2730" xml:id="zone_dcd_nzs_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2725/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b4ca4e373d8c4c910508d14258995eb8d59ccdb4.jpg" />
+        <zone lrx="3034" lry="1505" ulx="239" uly="588" xml:id="zone_pzv_4zs_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_wtv_3zs_dmb" next="#zone_pzv_4zs_dmb" type="mürāsele">
+        <p>
+          <lb />... fī <date type="created" when="1792-09-01" when-custom="1207-01-15">15 M sene 1207</date><lb />
+        </p>
+        <div2 facs="#zone_ns1_lzs_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_dcd_nzs_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_pzv_4zs_dmb" type="summary_Croatian">
+        <p>
+          <lb />...
+          <lb />... <date type="summary_Croatian" when="1792">1792</date>.
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

@@ -1,31 +1,53 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2098</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2427/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2427/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/fdb03357e10feffe5ee2cc1137b70f65a1090e84.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2427/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/797128895950c237e69e0df229b86420afeb3151.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2098</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2427/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2427/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/fdb03357e10feffe5ee2cc1137b70f65a1090e84.jpg" />
+        <zone lrx="1808" lry="3141" ulx="358" uly="141" xml:id="zone_xpl_sw5_bmb" />
+        <zone lrx="735" lry="3123" ulx="435" uly="2871" xml:id="zone_m25_tw5_bmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2427/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/797128895950c237e69e0df229b86420afeb3151.jpg" />
+        <zone lrx="2166" lry="3083" ulx="1825" uly="2766" xml:id="zone_gcb_vw5_bmb" />
+        <zone lrx="2025" lry="608" ulx="454" uly="300" xml:id="zone_qww_vw5_bmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_xpl_sw5_bmb" next="#zone_qww_vw5_bmb" type="unkown">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 facs="#zone_m25_tw5_bmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_gcb_vw5_bmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_qww_vw5_bmb" type="unkown">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

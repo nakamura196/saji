@@ -1,31 +1,55 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2300</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2628/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2628/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e8bde8835acdf30e08f012e3560ac7ff24c8085d.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2628/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3fe791c4b8858659055b9f9de3518800b4055ade.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2300</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2628/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2628/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e8bde8835acdf30e08f012e3560ac7ff24c8085d.jpg" />
+        <zone lrx="1908" lry="2638" ulx="362" uly="176" xml:id="zone_ddt_g4g_dmb" />
+        <zone lrx="954" lry="2600" ulx="454" uly="2161" xml:id="zone_vss_h4g_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2628/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3fe791c4b8858659055b9f9de3518800b4055ade.jpg" />
+        <zone lrx="1908" lry="3066" ulx="1625" uly="2845" xml:id="zone_fzb_j4g_dmb" />
+        <zone lrx="2091" lry="783" ulx="271" uly="412" xml:id="zone_mrt_j4g_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_ddt_g4g_dmb" next="#zone_mrt_j4g_dmb" type="unknown">
+        <p>
+          <lb />... 
+          <lb />... <date cert="low" type="created" when="0706-10-13" when-custom="1187">sene 1187</date>
+        </p>
+        <div2 facs="#zone_vss_h4g_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_fzb_j4g_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_mrt_j4g_dmb" type="summary_Croatian">
+        <p>
+          <lb />...
+          <lb />... <date type="summary_Croatian" when="1773">1773</date>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

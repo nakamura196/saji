@@ -1,31 +1,46 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2105</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2434/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2434/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ee1ebfbaaab42e93ce6cda13823219afcd2bdbb1.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2105</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2434/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2434/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ee1ebfbaaab42e93ce6cda13823219afcd2bdbb1.jpg" />
+        <zone lrx="1920" lry="3030" ulx="70" uly="40" xml:id="zone_nr1_zqj_cmb" />
+        <zone lrx="551" lry="2905" ulx="281" uly="2658" xml:id="zone_k3v_1rj_cmb" />
+        <zone lrx="1908" lry="1162" ulx="1033" uly="70" xml:id="zone_cny_brj_cmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_nr1_zqj_cmb" next="#zone_cny_brj_cmb" type="unkown">
+        <p>
+          <lb />... hurira fī <date cert="low" type="created" when="1816-03-19" when-custom="1231-04-20">20 R sene 1231</date><lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_k3v_1rj_cmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_cny_brj_cmb" type="unkown">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

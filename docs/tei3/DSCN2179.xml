@@ -1,31 +1,57 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2179</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2507/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2507/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/92f2bff58ea3ef0e97761e1c9fbed0c68f276b0e.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2507/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f1972017cefb5acc9d583acd8158bed0c479ac63.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2179</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要】画像が1枚目も2枚目も要回転。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2507/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2507/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/92f2bff58ea3ef0e97761e1c9fbed0c68f276b0e.jpg" />
+        <zone lrx="2225" lry="2037" ulx="800" uly="206" xml:id="zone_csf_x3y_cmb" />
+        <zone lrx="2200" lry="620" ulx="1675" uly="262" xml:id="zone_zzx_ljy_cmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2507/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f1972017cefb5acc9d583acd8158bed0c479ac63.jpg" />
+        <zone lrx="3165" lry="1036" ulx="2904" uly="708" xml:id="zone_pwp_z3y_cmb" />
+        <zone lrx="542" lry="2142" ulx="215" uly="421" xml:id="zone_svg_bjy_cmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_csf_x3y_cmb" next="#zone_svg_bjy_cmb" type="mürāsele">
+        <p>
+          <lb />...
+          <lb />... <date type="created" when="1780-12-26" when-custom="1194">sene 194</date>
+        </p>
+        <div2 facs="#zone_zzx_ljy_cmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_pwp_z3y_cmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_svg_bjy_cmb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

@@ -1,31 +1,44 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2433</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2761/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2761/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f2382e8c069c88823f782c380f106705212d1afa.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2433</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2761/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2761/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f2382e8c069c88823f782c380f106705212d1afa.jpg" />
+        <zone lrx="1800" lry="2917" ulx="245" uly="9" xml:id="zone_hrl_vcv_dmb" />
+        <zone lrx="608" lry="2868" ulx="264" uly="2177" xml:id="zone_kzb_xcv_dmb" />
+        <zone lrx="597" lry="2862" ulx="366" uly="2666" xml:id="zone_srt_xcv_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_hrl_vcv_dmb" type="mürāsele">
+        <p>
+          <lb />... fī <date type="created" when="1785-04-16" when-custom="1199-06-07">7 C sene 1199</date><lb />
+        </p>
+        <div2 facs="#zone_kzb_xcv_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_srt_xcv_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

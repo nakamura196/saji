@@ -1,35 +1,313 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2483</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 5"
-  ],
-  "saji:memo": [
-    "・はがきサイズと思われる同サイズの文書は、6枚ずつ並べられて撮影されている。\r\n・このフォンド内の文書は、最初の1点を除いて、すべて同様の方法で撮影されており、1枚ずつの画像はない。\r\n・これらの文書は基本的に、「4つのオスマン朝スタンプ／日付／何らかの定型／短いオスマン語」の要素から構成されている。\r\n・これらの文書サイズは、暫定的に「B」としておく。",
-    "典型"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2810/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2810/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e1330b0182d6947597c5d79a3e6868100addc24a.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2810/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ed3e68425120079bbb9d595e80718706b4d0a9d8.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2483</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">諸税の支払い証明書？</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 5" ], "saji:memo": [ "・はがきサイズと思われる同サイズの文書は、6枚ずつ並べられて撮影されている。\r\n・このフォンド内の文書は、最初の1点を除いて、すべて同様の方法で撮影されており、1枚ずつの画像はない。\r\n・これらの文書は基本的に、「4つのオスマン朝スタンプ／日付／何らかの定型／短いオスマン語」の要素から構成されている。\r\n・これらの文書サイズは、暫定的に「B」としておく。", "典型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2810/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2810/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e1330b0182d6947597c5d79a3e6868100addc24a.jpg" />
+        <zone lrx="996" lry="1140" ulx="280" uly="93" xml:id="zone_v1w_sgb_2mb" />
+        <zone lrx="910" lry="451" ulx="720" uly="288" xml:id="zone_olc_vgb_2mb" />
+        <zone lrx="600" lry="481" ulx="397" uly="325" xml:id="zone_hrs_vgb_2mb" />
+        <zone lrx="968" lry="1002" ulx="797" uly="828" xml:id="zone_uvj_wgb_2mb" />
+        <zone lrx="545" lry="1045" ulx="391" uly="898" xml:id="zone_msy_wgb_2mb" />
+        <zone lrx="1866" lry="1170" ulx="1041" uly="108" xml:id="zone_vfb_ygb_2mb" />
+        <zone lrx="1706" lry="445" ulx="1481" uly="250" xml:id="zone_pbm_1hb_2mb" />
+        <zone lrx="1443" lry="479" ulx="1234" uly="288" xml:id="zone_ddj_bhb_2mb" />
+        <zone lrx="1672" lry="972" ulx="1495" uly="813" xml:id="zone_vtb_chb_2mb" />
+        <zone lrx="2767" lry="1167" ulx="2058" uly="141" xml:id="zone_k1f_dhb_2mb" />
+        <zone lrx="2661" lry="535" ulx="2474" uly="366" xml:id="zone_a22_2hb_2mb" />
+        <zone lrx="2466" lry="466" ulx="2238" uly="276" xml:id="zone_hf5_2hb_2mb" />
+        <zone lrx="2630" lry="1112" ulx="2484" uly="979" xml:id="zone_lgs_fhb_2mb" />
+        <zone lrx="2410" lry="1097" ulx="2276" uly="964" xml:id="zone_d14_ghb_2mb" />
+        <zone lrx="940" lry="2368" ulx="148" uly="1244" xml:id="zone_dcx_hhb_2mb" />
+        <zone lrx="497" lry="2102" ulx="295" uly="1909" xml:id="zone_r1j_jhb_2mb" />
+        <zone lrx="758" lry="2130" ulx="548" uly="1934" xml:id="zone_ydl_khb_2mb" />
+        <zone lrx="532" lry="1479" ulx="372" uly="1332" xml:id="zone_fpm_lhb_2mb" />
+        <zone lrx="820" lry="1513" ulx="676" uly="1381" xml:id="zone_bnk_mhb_2mb" />
+        <zone lrx="1846" lry="2356" ulx="1116" uly="1230" xml:id="zone_scm_nhb_2mb" />
+        <zone lrx="1507" lry="2115" ulx="1285" uly="1920" xml:id="zone_op4_4hb_2mb" />
+        <zone lrx="1772" lry="2112" ulx="1562" uly="1930" xml:id="zone_jqf_phb_2mb" />
+        <zone lrx="1455" lry="1527" ulx="1277" uly="1375" xml:id="zone_rkv_phb_2mb" />
+        <zone lrx="1790" lry="1510" ulx="1632" uly="1365" xml:id="zone_bph_qhb_2mb" />
+        <zone lrx="2851" lry="2317" ulx="2120" uly="1258" xml:id="zone_jxc_rhb_2mb" />
+        <zone lrx="2725" lry="1725" ulx="2530" uly="1543" xml:id="zone_esm_shb_2mb" />
+        <zone lrx="2463" lry="1691" ulx="2247" uly="1492" xml:id="zone_us1_thb_2mb" />
+        <zone lrx="2714" lry="2217" ulx="2563" uly="2067" xml:id="zone_lsm_thb_2mb" />
+        <zone lrx="2425" lry="2204" ulx="2279" uly="2066" xml:id="zone_yyb_5hb_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2810/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ed3e68425120079bbb9d595e80718706b4d0a9d8.jpg" />
+        <zone lrx="1116" lry="1164" ulx="316" uly="87" xml:id="zone_rxz_vhb_2mb" />
+        <zone lrx="726" lry="922" ulx="594" uly="816" xml:id="zone_sfc_xhb_2mb" />
+        <zone lrx="2000" lry="1146" ulx="1247" uly="115" xml:id="zone_y5c_xhb_2mb" />
+        <zone lrx="1707" lry="940" ulx="1583" uly="819" xml:id="zone_zfl_zhb_2mb" />
+        <zone lrx="2774" lry="1155" ulx="2091" uly="143" xml:id="zone_yxs_13b_2mb" />
+        <zone lrx="2460" lry="869" ulx="2343" uly="766" xml:id="zone_ttb_d3b_2mb" />
+        <zone lrx="1087" lry="2250" ulx="312" uly="1187" xml:id="zone_d1c_23b_2mb" />
+        <zone lrx="733" lry="1446" ulx="614" uly="1333" xml:id="zone_wqh_33b_2mb" />
+        <zone lrx="1964" lry="2284" ulx="1260" uly="1220" xml:id="zone_nwt_j3b_2mb" />
+        <zone lrx="1682" lry="1500" ulx="1564" uly="1385" xml:id="zone_wpc_l3b_2mb" />
+        <zone lrx="2744" lry="2255" ulx="2062" uly="1241" xml:id="zone_ycc_m3b_2mb" />
+        <zone lrx="2447" lry="2139" ulx="2317" uly="2020" xml:id="zone_gdc_43b_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_v1w_sgb_2mb" type="sened">
+        <p>
+          <lb />... fī <lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_olc_vgb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_hrs_vgb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_uvj_wgb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_msy_wgb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>         
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_sfc_xhb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>        
+      </div1>
+      <div1 facs="#zone_vtb_chb_2mb" type="sened">
+        <p>
+          <lb />... fī <lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_pbm_1hb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_ddj_bhb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_vfb_ygb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_k1f_dhb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>         
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_zfl_zhb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>        
+      </div1>
+      <div1 facs="#zone_a22_2hb_2mb" type="sened">
+        <p>
+          <lb />... fī <lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_hf5_2hb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_lgs_fhb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_d14_ghb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_dcx_hhb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>         
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_ttb_d3b_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>        
+      </div1>
+      <div1 facs="#zone_r1j_jhb_2mb" type="sened">
+        <p>
+          <lb />... fī <lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_ydl_khb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_fpm_lhb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_bnk_mhb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_scm_nhb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>         
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_wqh_33b_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>        
+      </div1>
+      <div1 facs="#zone_op4_4hb_2mb" type="sened">
+        <p>
+          <lb />... fī <lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_jqf_phb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_rkv_phb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_bph_qhb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_jxc_rhb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>         
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_wpc_l3b_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>        
+      </div1>
+      <div1 facs="#zone_esm_shb_2mb" type="sened">
+        <p>
+          <lb />... fī <lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_us1_thb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_lsm_thb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_yyb_5hb_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>         
+        </div2>
+        <div2 type="sign">
+          <div3 type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>        
+      </div1>      
+    </body>
+  </text>
 </TEI>

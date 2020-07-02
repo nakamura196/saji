@@ -1,31 +1,60 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2385</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2713/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2713/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ddb1ceeaabf62172cc32f65ec375b0fe1bf62ec6.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2713/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b3c2d23c33a74dc2285c2dac55c3ed6103712f6f.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2385</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2713/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2713/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ddb1ceeaabf62172cc32f65ec375b0fe1bf62ec6.jpg" />
+        <zone lrx="2209" lry="3209" ulx="227" uly="90" xml:id="zone_dd1_szn_dmb" />
+        <zone lrx="573" lry="3134" ulx="270" uly="2843" xml:id="zone_lxj_tzn_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2713/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b3c2d23c33a74dc2285c2dac55c3ed6103712f6f.jpg" />
+        <zone lrx="537" lry="316" ulx="187" uly="33" xml:id="zone_d2z_5zn_dmb" />
+        <zone lrx="2258" lry="2420" ulx="150" uly="1575" xml:id="zone_krt_vzn_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 cert="unknown" facs="#zone_dd1_szn_dmb" next="#zone_krt_vzn_dmb" subtype="tapu" type="EMIN">
+        <p>
+          <lb />işbu <date when="0654-06-22" when-custom="1233">bin iki yüz otuz üç senesinde</date> Saray-ı Bosna'sında der ...
+          <lb />... fī <date type="created" when="1817-12-04" when-custom="1233-01-25">25 M sene 1233</date>
+        </p>
+        <div2 facs="#zone_lxj_tzn_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_d2z_5zn_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="unknown">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_krt_vzn_dmb" type="summary_Croatian">
+        <p>
+          <lb />...
+          <lb />... <date type="summary_Croatian" when="1818">1818</date>.
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

@@ -174,6 +174,8 @@ items = []
 for i in range(len(files)):
     file = files[i]
 
+    print(i+1, len(files), file)
+
     flg_add = True
     stmts = []
     stmts2 = {}

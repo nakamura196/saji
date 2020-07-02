@@ -1,31 +1,45 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2285</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2613/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2613/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/505180245367ec30cccb553da12ddcba75fb4603.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2285</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2613/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2613/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/505180245367ec30cccb553da12ddcba75fb4603.jpg" />
+        <zone lrx="2000" lry="2507" ulx="293" uly="185" xml:id="zone_bkn_nhg_dmb" />
+        <zone lrx="1086" lry="2484" ulx="329" uly="1909" xml:id="zone_owj_phg_dmb" />
+        <zone lrx="1070" lry="2470" ulx="741" uly="2160" xml:id="zone_wpk_qhg_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_bkn_nhg_dmb" type="edā_tahvīl">
+        <p>
+          <lb />işbu <date type="created" when="0689-05-26" when-custom="1269">bin iki yüz altmış dokuz senesinde</date> ... 
+          <lb />
+        </p>
+        <div2 facs="#zone_owj_phg_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_wpk_qhg_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
 </TEI>

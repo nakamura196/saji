@@ -1,31 +1,55 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2431</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "B"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2759/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2759/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d097fdbcdd351083c3502be0909cc6a78241e4dc.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2759/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a4adbd9464fb48d37608a9dbef9bf11d89428c73.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2431</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2759/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2759/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d097fdbcdd351083c3502be0909cc6a78241e4dc.jpg" />
+        <zone lrx="1578" lry="2994" ulx="172" uly="1416" xml:id="zone_cfd_ccv_dmb" />
+        <zone lrx="1060" lry="2986" ulx="234" uly="2215" xml:id="zone_p3h_dcv_dmb" />
+        <zone lrx="1044" lry="2963" ulx="692" uly="2657" xml:id="zone_eh1_2cv_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2759/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a4adbd9464fb48d37608a9dbef9bf11d89428c73.jpg" />
+        <zone lrx="2191" lry="725" ulx="187" uly="325" xml:id="zone_ysb_fcv_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 cert="low" facs="#zone_cfd_ccv_dmb" next="#zone_ysb_fcv_dmb" type="memhūr">
+        <p>
+          <lb />
+          <lb />hurira fī <date type="created" when="1768-12-01" when-custom="1182-07-22">22 māh-ı Receb sene 1182</date>
+        </p>
+        <div2 facs="#zone_p3h_dcv_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_eh1_2cv_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_ysb_fcv_dmb" type="summary_Croatian">
+        <p>
+          <lb />...
+          <lb />... <date type="summary_Croatian" when="1768">1768</date>
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>

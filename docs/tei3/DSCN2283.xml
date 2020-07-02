@@ -1,31 +1,52 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN2283</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{
-  "saji:aspectRatioType": [
-    "G"
-  ],
-  "saji:fond": [
-    "Tursko 4"
-  ]
-}</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2611/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/2611/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c38db6507c97ed713d711b84fbfedd3814458cef.jpg" /></surface><surface><graphic n="https://diyhistory.org/public/phr2/iiif/2611/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/745490b29a1d94093b9abfbbaf00ca06222c4fa6.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2283</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2611/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2611/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c38db6507c97ed713d711b84fbfedd3814458cef.jpg" />
+        <zone lrx="2350" lry="2942" ulx="164" uly="835" xml:id="zone_mfy_zgg_dmb" />
+        <zone lrx="728" lry="2394" ulx="228" uly="2074" xml:id="zone_mjs_bhg_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2611/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/745490b29a1d94093b9abfbbaf00ca06222c4fa6.jpg" />
+        <zone lrx="2267" lry="811" ulx="784" uly="494" xml:id="zone_yb5_chg_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_mfy_zgg_dmb" type="temessük">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 facs="#zone_mjs_bhg_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_yb5_chg_dmb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
 </TEI>
