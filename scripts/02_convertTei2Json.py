@@ -44,17 +44,17 @@ def conv_date(hd):
     if l == 1:
         year = dd[0]
         if year.isdecimal():
-            hd2 = year + "-12-30"
+            hd2 = year + "-12-29"
     elif l == 2:
         
         year = dd[0]
         month = dd[1]
         if year.isdecimal() and month.isdecimal():
-            hd2 = year+"-"+month+"-30"
+            hd2 = year+"-"+month+"-29"
     elif l == 3:
         year = dd[0]
         month = "12" if dd[1].strip() == "" else dd[1].strip()
-        day = "30" if dd[2].strip() == "" else dd[2].strip()
+        day = "29" if dd[2].strip() == "" else dd[2].strip()
         if year.isdecimal() and month.isdecimal() and day.isdecimal():
             hd2 = year + "-" + month + "-" + day
     return hd2
@@ -72,13 +72,16 @@ g = Graph()
 
 div1_tmp = {}
 
-for i in range(len(files)):
-    file = files[i]
+for l in range(len(files)):
+    file = files[l]
+
+    if l % 10 == 0:
+        print(l+1, len(files))
 
     flg_add = True
     stmts = []
 
-    subject = URIRef(uri+"#"+str(i+1))
+    subject = URIRef(uri+"#"+str(l+1))
 
     prefix = ".//{http://www.tei-c.org/ns/1.0}"
     tree = ET.parse(file)
@@ -120,7 +123,7 @@ for i in range(len(files)):
                     created.append(sd)
 
         if date.get("cert"):
-            value = "date_cert_"+date.get("cert")
+            value = date.get("cert") #"date_cert_"+
             stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/cert"), Literal(value)))
 
     if len(created) > 0:
@@ -241,7 +244,7 @@ for i in range(len(files)):
         stmts.append((subject, URIRef("http://purl.org/dc/terms/description"), Literal(text)))
           
     # tei_url = uri_prefix + "/"+dirname+"/" + file.split("\\"+dirname+"\\")[1]
-    tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"\\")[1]
+    tei_url = uri_prefix + "/"+dirname+"/" + file.split("/"+dirname+"/")[1]
     # g.add((subject, URIRef("http://purl.org/dc/terms/relation"), URIRef("https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url="+tei_url)))
     stmts.append((subject, URIRef("http://purl.org/dc/terms/relation"), URIRef("https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url="+tei_url)))
 
