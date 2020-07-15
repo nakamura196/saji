@@ -9,7 +9,7 @@
 
 - 画像切り出し
   - [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?curation=https://nakamura196.github.io/saji/data/curation.json)
-  - [IIIF Curation Comparison](https://nakamura196.github.io/icc/app/#/?curation=https://nakamura196.github.io/saji/data/curation.json)
+  - [IIIF Curation Comparison](https://nakamura196.github.io/icc2/?u=https://nakamura196.github.io/saji/data/curation.json)
 
 # ファイルのアップロード方法
 - D:\一次史料\Kreševo\saji で右クリックして、GIT Bash Here をクリックし、以下を貼り付ける
