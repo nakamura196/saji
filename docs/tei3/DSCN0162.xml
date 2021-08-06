@@ -1,51 +1,78 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0162</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">【要】再撮影：署名の裏にスタンプがありそうだが、裏面画像にスタンプが写っていないので再撮影する。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1644/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1644/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d95213a13a3dae2f4a1dadab534e1f7336683a18.jpg" />
-<zone lrx="2425" lry="2833" ulx="75" uly="-8" xml:id="zone_wtq_mpd_fjb" />
-<zone lrx="562" lry="2148" ulx="179" uly="1886" xml:id="zone_dqb_spd_fjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1644/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/91bbc4a134f68767c1b3633477eba8bbd5875421.jpg" />
-<zone lrx="3100" lry="1550" ulx="428" uly="672" xml:id="zone_cdp_tpd_fjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 cert="low" facs="#zone_wtq_mpd_fjb" type="zabt_temessük">
-<p>
-<lb />... fī <date type="created" when="1839-02-03" when-custom="1254-11-20">20 Za sene 254</date><lb />
-</p>
-<div2 facs="#zone_dqb_spd_fjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_cdp_tpd_fjb" type="summary_Croatian">
-<p>
-<lb />... <date type="summary_Croatian" when="1839">1839</date>.<lb />
-<lb /><date type="summary_Coatian" when="1839-03-14" when-custom="1254">1254</date>.<lb />
-</p>
-</div1>
-</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DSCN0162</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ</note>
+                <note type="summary">共同保有地iştirākとなっているムスリム街区の土地</note>
+                <note type="summary">元の保有者KINDI？→クレシェヴォ教会gardiyanへの土地移転の承認文書</note>
+                <note type="mine">【要】再撮影：署名の裏にスタンプがありそうだが、裏面画像にスタンプが写っていないので再撮影する。</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1644/manifest">
+            <surface>
+                <graphic n="https://diyhistory.org/public/phr2/iiif/1644/canvas/p1"
+                    url="https://diyhistory.org/public/phr2/files/original/d95213a13a3dae2f4a1dadab534e1f7336683a18.jpg"/>
+                <zone lrx="2425" lry="2833" ulx="75" uly="-8" xml:id="zone_wtq_mpd_fjb"/>
+                <zone lrx="562" lry="2148" ulx="179" uly="1886" xml:id="zone_dqb_spd_fjb"/>
+            </surface>
+            <surface>
+                <graphic n="https://diyhistory.org/public/phr2/iiif/1644/canvas/p2"
+                    url="https://diyhistory.org/public/phr2/files/original/91bbc4a134f68767c1b3633477eba8bbd5875421.jpg"/>
+                <zone lrx="3100" lry="1550" ulx="428" uly="672" xml:id="zone_cdp_tpd_fjb"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div1 type="EMIN_zabt_temessük" facs="#zone_wtq_mpd_fjb">
+                <p>
+                    <lb/>Hüve
+                    <lb/>Vech-i tahrīr-i hurūf budur ki
+                    <lb/>bā-berāt-ı Pādişāhyla ber-vech-i iştirāk mutasarrıf olduğumuz tımārımız kurālarında Müslimīn mahallesinde
+                    <lb/>tābiʿ nefs-i <placeName>YLUYK</placeName> karyesinde hudūd dāhilinde mutasarrıf eyledüğü nām <persName>KİNDİ</persName> taht-ı tasarrıfında bulunan bir kıtʿa
+                    <lb/><placeName>TALAYURICE</placeName> demekle bir taraf müşteri <persName>ruhbān</persName> tarlası ve taraf-ı sānī ve sālis <persName>ruhbān</persName> mezlā-
+                    <lb/>sı ve taraf-ı rābiʿ ormanı varınca işbu dārende-i <placeName>Kirşevo</placeName> kilisaya <persName>gardiyān</persName> nām kimesne yalnız
+                    <lb/>yüz on guruş resmiyle bedel mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp ol dahi ...
+                    <lb/>muharrer(?) üzere kabūl biz dahi ... bulunduğumuz hasebiyle ...  mesfūre <persName>gardiyān</persName> yedine
+                    <lb/>ve yedleri işbu temessük zabt ve tasarrıfına bir kimesne māniʿ olunmaya fī <date when-custom="1254-11-20" when="1839-02-03" type="created">20 Za sene 254</date>
+                </p>
+                <div2 type="sign" facs="#zone_dqb_spd_fjb">
+                    <p>
+                        <lb/>El-me'mūr bi'l-...
+                        <lb/>El-hāccı <persName>Mehmed</persName>
+                        <lb/>El-me'mūr
+                    </p>
+                </div2>
+                <div2 type="şühūdu'l-hāl">
+                    <p>
+                        <lb/>Şühūdu'l-hāl
+                        <lb/>CYYK ve <persName>Sālih</persName>
+                        <lb/>Mollā <persName>Sālih</persName> MUNŞİK
+                        <lb/>Mollā <persName>Mustafa</persName> HUDDİN
+                        <lb/>ve gayrihim
+                    </p>
+                </div2>
+            </div1>
+            <div1 type="summary_Croatian" facs="#zone_cdp_tpd_fjb">
+                <p>
+                    <lb/>Trevaez od Ule Nwıha gr: 110.
+                    <lb/>Nno 28.
+                    <lb/><date when="1839" type="summary_Croatian">1839</date>.
+                    <lb/><date when-custom="1254" type="summary_Coatian" when="1839-03-15">1254</date>.
+                    <lb/>45
+                </p>
+            </div1>
+        </body>
+    </text>
 </TEI>

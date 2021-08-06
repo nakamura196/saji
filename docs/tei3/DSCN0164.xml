@@ -1,50 +1,82 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0164</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">【要】再撮影：署名の裏にスタンプがありそうだが、裏面画像にスタンプが写っていないので再撮影する。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1646/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1646/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a4b9d79ffc90ad7faf7e3abd68f16f321e1b8517.jpg" />
-<zone lrx="2354" lry="3090" ulx="82" uly="90" xml:id="zone_gwg_kqd_fjb" />
-<zone lrx="450" lry="2919" ulx="134" uly="2679" xml:id="zone_fnk_lqd_fjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1646/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d1bb084bac521cc16530423c3e70b7c3199d4c55.jpg" />
-<zone lrx="2812" lry="1438" ulx="556" uly="227" xml:id="zone_s1q_mqd_fjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_gwg_kqd_fjb" type="unknown">
-<p>
-<lb />... fī <date cert="medium" type="created" when="1821-09-20" when-custom="1236--23">23 sene 36</date><lb />
-</p>
-<div2 facs="#zone_fnk_lqd_fjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_s1q_mqd_fjb" type="summary_Croatian">
-<p>
-<lb /><date type="summrary_Croatian" when="1821-09-26" when-custom="1236">1236</date><lb />
-</p>
-</div1>
-</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DSCN0164</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ</note>
+                <note type="summary">土地移転の承認と、その土地からの徴税命令</note>
+                <note type="summary">本文中の徴税は、後に中止された</note>
+                <note type="mine">【要】再撮影：署名の裏にスタンプがありそうだが、裏面画像にスタンプが写っていないので再撮影する。</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1646/manifest">
+            <surface>
+                <graphic n="https://diyhistory.org/public/phr2/iiif/1646/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a4b9d79ffc90ad7faf7e3abd68f16f321e1b8517.jpg"/>
+                <zone lrx="2354" lry="3090" ulx="82" uly="90" xml:id="zone_gwg_kqd_fjb"/>
+                <zone lrx="450" lry="2919" ulx="134" uly="2679" xml:id="zone_fnk_lqd_fjb"/>
+            </surface>
+            <surface>
+                <graphic url="https://diyhistory.org/public/phr2/files/original/d1bb084bac521cc16530423c3e70b7c3199d4c55.jpg" n="https://diyhistory.org/public/phr2/iiif/1646/canvas/p2"/>
+                <zone xml:id="zone_s1q_mqd_fjb" lry="1661" lrx="2794" uly="227" ulx="556"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div1 type="EMIN_temessük" facs="#zone_gwg_kqd_fjb">
+                <p>
+                    <lb/>Hüve
+                    <lb/>Vech-i tahrīr-i temessük oldur(?) ki
+                    <lb/>berāt-ı Pādişāhımıla(?) mutasarrıf alduğumuz tımārmız kurālarında ... hudūdunda mutasarrıf eyledüğüm
+                    <lb/>bir kıtʿa <placeName>KOŞRA</placeName> demekle bir tarafı su ve taraf-ı sānī ve taraf-ı sālis taşlık ve taraf-ı
+                    <lb/>rābiʿ tarīk-i ʿām ile mahdūd ve MÜMTāZ demekle işbu dārende-i temessük <placeName>Kirşevo</placeName> varoş(?)
+                    <lb/>kilisanın <persName>rāhiblere</persName> yüz guruş mukābelesinde beyʿ-i bāt katʿiyle beyʿ eyledüm
+                    <lb/>ve MBLAʿ mezbūri tımāran ahz ve kabz eyledüğüm mā-dām ki sāl be-sāl ʿaşār-ı şerʿiye
+                    <lb/>ve rüsūmāt-ı ʿörfiye edā ile tarafımızdan ve taraf-ı āhardan ... kimesne māniʿ olmaya
+                    <lb/>fī <date when-custom="1236--23" cert="unknown" when="1821-09-20" type="created">23 sene 36</date></p>
+                <div2 type="sign" facs="#zone_fnk_lqd_fjb">
+                    <p>
+                        <lb/>El-... i'l-me'mūr
+                        <lb/><persName>Mehmed</persName>
+                    </p>
+                </div2>
+                <div2 type="şühūdul-hāl">
+                    <p>
+                        <lb/>Şühūdu'l-hāl
+                        <lb/>Kirşevo İmām <persName>MONAK</persName> ʿAlemdār
+                        <lb/>... <persName>Hüseyin</persName> Ağa
+                        <lb/>... <persName>Dervīş</persName> Ağa
+                        <lb/>... <persName>ʿAbdī</persName> ʿAlemdār ...※上下逆でコメント？が付いている
+                        <lb/>Medīne-i SRAYESKAN'dan <persName>Hüseyin</persName> ʿAlemdār
+                        <lb/>ve gayrihim mine'l-HAZIRIN </p>
+                </div2>
+                <div2 type="note">
+                    <p>
+                        <lb/>Bosna tarafından(?) tekâlif-i mezbūr terk üzerinde kayd ŞOD olundu
+                        <lb/>... 80 </p>
+                </div2>
+            </div1>
+            <div1 type="summary_Croatian" facs="#zone_s1q_mqd_fjb">
+                <p>
+                    <lb/>Tapia od koshara, leko kupismo
+                    <lb/>od Muhamed = Oçxe Iakubovichia
+                    <lb/>za 100. grosha na <date when="1821-03-30" type="summary_Croatian">30. Marcha 1821</date>
+                    <lb/>za keççe ne Koshare dajese porena
+                    <lb/>na godınu u ive po dva gvosha povichina
+                    <lb/>Nno 33.
+                    <lb/><date when-custom="1236" type="summrary_Croatian" when="0657-05-20">1236</date>
+                    <lb/>39 </p>
+            </div1>
+        </body>
+    </text>
 </TEI>

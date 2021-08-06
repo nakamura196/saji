@@ -1,66 +1,102 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0131</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1615/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1615/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7e8310eae58ea276c52bb53330bf9b77c9b1fbf0.jpg" />
-<zone lrx="2290" lry="2840" ulx="150" uly="0" xml:id="zone_y2m_54v_2jb" />
-<zone lrx="1095" lry="2814" ulx="720" uly="2539" xml:id="zone_nf1_w4v_2jb" />
-<zone lrx="638" lry="2797" ulx="189" uly="2530" xml:id="zone_pqm_w4v_2jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1615/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9b1947fbcff921400b6a6bba0c8f1b040cc2b630.jpg" />
-<zone lrx="1237" lry="417" ulx="1030" uly="251" xml:id="zone_bky_y4v_2jb" />
-<zone lrx="751" lry="501" ulx="477" uly="289" xml:id="zone_tyk_z4v_2jb" />
-<zone lrx="1318" lry="2276" ulx="713" uly="1449" xml:id="zone_emk_1pv_2jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_y2m_54v_2jb" type="unknown">
-<p>
-<lb />işbu <date when="1819-10-18" when-custom="1234">bin iki yüz otuz dört senesinde</date> der ʿuhde ... <lb />
-<lb />... fī <date type="created" when="1819-07-25" when-custom="1234-10-03">3 Ş sene 1234</date><lb />
-</p>
-<div2 facs="#zone_nf1_w4v_2jb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_bky_y4v_2jb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-<div2 facs="#zone_pqm_w4v_2jb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_tyk_z4v_2jb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-</div1>
-<div1 facs="#zone_emk_1pv_2jb" type="summary_Croatian">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DSCN0131</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">田などの土地の売買契約：絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ ü ferāğ</note>
+                <note type="mine">文字も文章も非常に整っている。同内容の文書を解読する際の手本になる。</note>
+            </notesStmt>            
+            <sourceDesc>
+                <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1615/manifest">
+            <surface>
+                <graphic n="https://diyhistory.org/public/phr2/iiif/1615/canvas/p1"
+                    url="https://diyhistory.org/public/phr2/files/original/7e8310eae58ea276c52bb53330bf9b77c9b1fbf0.jpg"/>
+                <zone lrx="2290" lry="2840" ulx="150" uly="0" xml:id="zone_y2m_54v_2jb"/>
+                <zone lrx="1095" lry="2814" ulx="720" uly="2539" xml:id="zone_nf1_w4v_2jb"/>
+                <zone lrx="638" lry="2797" ulx="189" uly="2530" xml:id="zone_pqm_w4v_2jb"/>
+            </surface>
+            <surface>
+                <graphic n="https://diyhistory.org/public/phr2/iiif/1615/canvas/p2"
+                    url="https://diyhistory.org/public/phr2/files/original/9b1947fbcff921400b6a6bba0c8f1b040cc2b630.jpg"/>
+                <zone lrx="1237" lry="417" ulx="1030" uly="251" xml:id="zone_bky_y4v_2jb"/>
+                <zone lrx="751" lry="501" ulx="477" uly="289" xml:id="zone_tyk_z4v_2jb"/>
+                <zone lrx="1318" lry="2276" ulx="713" uly="1449" xml:id="zone_emk_1pv_2jb"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div1 type="EMIN_hurūf" facs="#zone_y2m_54v_2jb">
+                <p>
+                    <lb/>Hüve
+                    <lb/>Vech-i tahrīr-i hurūf budur ki
+                    <lb/>işbu <date when="0655-06-11" when-custom="1234">bin iki yüz otuz dört senesinde</date> der ʿuhde ve iltizāmımızda bulunan <placeName type="proper">Kirşevo</placeName> mukātaʿasına
+                    <lb/>tābiʿ arāzī-i mīrīye mutasarrıflarından <persName>Hadīce bint-i [空欄]</persName> taht-ı tasarrıfında bulunan <placeName type="proper">KOMAR</placeName>
+                    <lb/>karyesi altında <placeName type="proper">MUÇİNAK</placeName> demekle bir kıtʿ tarla-ı bir taraf <persName>el-Haccı TİHU</persName>'nın tarlası
+                    <lb/>ve bir taraf <persName>PUTOK</persName> ve taraf-ı sālis ... zimmī <persName>MİHU</persName>'nın tarlası ve taraf-ı rābiʿ tarīk-i ʿām ile
+                    <lb/>mahdūd olan tarla-ı merkūmeyı işbu dārende-i hurūf <placeName type="proper">ÇİRKİNAK</placeName> karyesinden ÇİÇE zimmī <persName>PAVOYA
+                    <lb/>veled-i Īwān</persName> nām kimesneye resmiyle altı yüz altmış guruş bedel mukābelesinde beyʿ katʿiyle beyʿ
+                    <lb/>ve hakk-ı tasarrifīn ferāgat etmekle biz dahi me'mūriz hasebiyle beyʿ ... tecvīz görüb
+                    <lb/>ve ferāğ-ı mezkūrī tafvīz edüb mā-dām ki ... taraf-ı mīrīye ʿāyit olan ʿāşār-ı 
+                    <lb/>şerʿiye edā ede(?) ʿarz-ı mezkūrī zabt ve tasarrıfına taraf-ı mīrīden mesfūr zimmī <persName>PAVOYA</persName>
+                    <lb/>izin berle zabt-ı zirāʿatına tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olunmaya hurira fī <date  when-custom="1234-10-03" type="created" when="1819-07-25">3 Ş sene 1234</date>
+                </p>
+                <div2 type="sign" facs="#zone_nf1_w4v_2jb">
+                    <p>
+                        <lb/>... POPO
+                        <lb/>ʿAlemdārı'l-me'mūr
+                    </p>
+                    <div3 type="stamp" facs="#zone_bky_y4v_2jb">
+                        <p>
+                            <lb/>...
+                            <lb/>...
+                        </p>
+                    </div3>
+                </div2>
+                <div2 type="sign" facs="#zone_pqm_w4v_2jb">
+                    <p>
+                        <lb/>... El-Hāccı ʿÖmer ʿAlemdār
+                        <lb/>el-me'mūr
+                    </p>
+                    <div3 type="stamp" facs="#zone_tyk_z4v_2jb">
+                        <p>
+                           <lb/>...
+                           <lb/>ʿÖmer
+                        </p>
+                    </div3>
+                </div2>
+                <div2 type="şühūdu'l-hāl">
+                    <p>
+                        <lb/>Şühūdu'l-hāl
+                        <lb/>Feyzüllāh Ağa ...
+                        <lb/>KOGİK Sālih ʿAlemdār İmām-i Kirşevo
+                        <lb/>Şeyh Yaʿkūbzāde Mollā Muhammad
+                        <lb/>ʿAbdüllāh ʿAlemdāre ÇİZMİK
+                        <lb/>Ahmad Paşa ŞĀLENKİYE
+                        <lb/>Mollā Sālih İbn Bekir Ağa
+                        <lb/>Mustafa Paşa tābʿ AHYINA
+                        <lb/>ve gayrihim
+                    </p>
+                </div2>
+            </div1>
+            <div1 type="summary_Croatian" facs="#zone_emk_1pv_2jb">
+                <p>
+                    <lb/>...
+                    <lb/>...
+                    <lb/>...
+                    <lb/>Nno 11.
+                </p>
+            </div1>
+        </body>
+    </text>
 </TEI>

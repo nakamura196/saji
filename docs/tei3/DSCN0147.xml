@@ -1,48 +1,86 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0147</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1630/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1630/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ecac6bc8c6b581a66109648e6dce7beeab1e0c38.jpg" />
-<zone lrx="2425" lry="3000" ulx="25" uly="116" xml:id="zone_bw1_xrw_2jb" />
-<zone lrx="393" lry="2951" ulx="59" uly="2506" xml:id="zone_syd_yrw_2jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1630/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c6e8c7bd09b8e63a1b25172414a4a26a8ef86fce.jpg" />
-<zone lrx="2289" lry="1355" ulx="1500" uly="238" xml:id="zone_edj_1sw_2jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_bw1_xrw_2jb" type="EMIN_zabt_tezkire">
-<p>
-<lb />işbu <date when="1845-01-08" when-custom="1260">bin iki yüz altmış senesinde</date> der ʿuhde ... <lb />
-<lb />fī <date type="created" when="1844-10-28" when-custom="1260-10-16">16 Şevvāl sene 1260</date><lb />
-</p>
-<div2 facs="#zone_syd_yrw_2jb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_edj_1sw_2jb" type="summary_Croatian">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DSCN0147</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">田などの土地の売買契約：絶対に取り消せない売却 beyʿ-i bāt katʿiyle beyʿ</note>
+                <note type="summary">キリスト教徒とムスリムの共同体間</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1630/manifest">
+            <surface>
+                <graphic n="https://diyhistory.org/public/phr2/iiif/1630/canvas/p1"
+                    url="https://diyhistory.org/public/phr2/files/original/ecac6bc8c6b581a66109648e6dce7beeab1e0c38.jpg"/>
+                <zone lrx="2425" lry="3000" ulx="25" uly="116" xml:id="zone_bw1_xrw_2jb"/>
+                <zone lrx="393" lry="2951" ulx="59" uly="2506" xml:id="zone_syd_yrw_2jb"/>
+            </surface>
+            <surface>
+                <graphic n="https://diyhistory.org/public/phr2/iiif/1630/canvas/p2"
+                    url="https://diyhistory.org/public/phr2/files/original/c6e8c7bd09b8e63a1b25172414a4a26a8ef86fce.jpg"/>
+                <zone lrx="2289" lry="1355" ulx="1500" uly="238" xml:id="zone_edj_1sw_2jb"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div1 type="EMIN_zabt_tezkire" facs="#zone_bw1_xrw_2jb">
+                <p>
+                    <lb/>Hüve Tekâlif-i ...
+                    <lb/>Vech-i tahrīr-i hurūf oldur ki
+                    <lb/>işbu <date when-custom="1260" when="0680-09-01">bin iki yüz altmış senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasına tābiʿ
+                    <lb/>... cemāʿatı hudūd dāhilinde bir kıtʿa tarla müsliman mahallesinde ... el-Hāccı ... 'llāh
+                    <lb/>Oğulu Mollā ... taht-ı tasarrıfında bulunan bir taraf-ı ... [行間にもう一行名前らしきものが書かれている] tarlası ve taraf-ı
+                    <lb/>sānī karındaşı Hasan tarlası ve taraf-ı sālis ve rābiʿ tarīk-i ʿām ile mahdūd ve mumtāz
+                    <lb/>olub işbu dārende-i hurūf Kirşevo varoş kilisada sākin ruhbān PRALUK'a zimmmī(?)
+                    <lb/>dahi tapu ile beş yüz guruş bedeli mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb ol dahi
+                    <lb/>kabūl biz dahi mukātaʿa emīni bulunduğumuz hasebiyle ruhbān PRALUK'ya tafvīz virle
+                    <lb/>ve yedine işbu zabt tezkire vir[il]di taratımzda[n] ve taraf-ı āharda[n] bir kimesne māniʿ ve müdāhale
+                    <lb/>olunmaya fī <date when-custom="1260-10-16" type="created" when="1844-10-28">16 Şevvāl sene 1260</date>
+                </p>
+                <div2 type="sign" facs="#zone_syd_yrw_2jb">
+                    <p>
+                        <lb/>El-me'mūru'l-memhūr
+                        <lb/>Mehmed Emīn-i Mukā-
+                        <lb/>taʿa-i Kirşevo
+                        <lb/>Hālā
+                        <lb/>M
+                    </p>
+                </div2>
+                <div2 type="şühūdu'l-hāl">
+                    <p>
+                        <lb/>Şühūdu'l-hāl
+                        <lb/>Paşa Ağa El-hāccı İbrāhīm Oğulu ʿan Visoka
+                        <lb/>BİRANK Mollā İbrāhīm ʿan Kirşevo
+                        <lb/>Zimmī İLYAKO Īwān VPLE
+                        <lb/>ve gayrihim
+                    </p>
+                </div2>
+            </div1>
+            <div1 type="summary_Croatian" facs="#zone_edj_1sw_2jb">
+                <p>
+                    <lb/>...
+                    <lb/>Na
+                    <lb/>...
+                    <lb/>az
+                    <lb/>uzze
+                    <lb/>...
+                    <lb/>... 18 HH. Za. gr. 500.
+                    <lb/>Na ovoj ... po
+                    <lb/>...
+                    <lb/>u
+                    <lb/>Nno 26.
+                </p>
+            </div1>
+        </body>
+    </text>
 </TEI>

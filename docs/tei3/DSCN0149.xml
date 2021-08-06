@@ -1,53 +1,85 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0149</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1632/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1632/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/dcbb1ba36f9d230aa5dd07c1c7989158f044061f.jpg" />
-<zone lrx="2362" lry="2553" ulx="93" uly="61" xml:id="zone_o33_qsw_2jb" />
-<zone lrx="372" lry="2198" ulx="131" uly="1958" xml:id="zone_dg4_rsw_2jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1632/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/32b72fa77d82ba67f9c7bc8b8f9b14be47b9bb95.jpg" />
-<zone lrx="677" lry="1157" ulx="426" uly="940" xml:id="zone_d3q_tsw_2jb" />
-<zone lrx="2110" lry="3100" ulx="951" uly="2800" xml:id="zone_gcm_5sw_2jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_o33_qsw_2jb" type="tapu_tezkire">
-<p>
-<lb />... fī <date type="created" when="1849-12-30" when-custom="1266-02-15">15 S sene 266</date><lb />
-</p>
-<div2 facs="#zone_dg4_rsw_2jb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_d3q_tsw_2jb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-</div1>
-<div1 facs="#zone_gcm_5sw_2jb" type="summary_Croatian">
-<p>
-<lb />... <date type="summary_Croatian" when="1849">1849</date><lb />
-</p>
-</div1>
-</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DSCN0149</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="summary">絶対に取り消せない売却および移転</note>
+                <note type="summary">修道院による土地の集積事例</note>
+                <note type="mine">スペルはとても怪しい。</note>
+                <note type="mine">スタンプは潰れていて見づらいが、この前の文書のMehmedと同一人物の可能性が高いので、そのスタンプなどと比べてみる。</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1632/manifest">
+            <surface>
+                <graphic n="https://diyhistory.org/public/phr2/iiif/1632/canvas/p1"
+                    url="https://diyhistory.org/public/phr2/files/original/dcbb1ba36f9d230aa5dd07c1c7989158f044061f.jpg"/>
+                <zone lrx="2362" lry="2553" ulx="93" uly="61" xml:id="zone_o33_qsw_2jb"/>
+                <zone lrx="372" lry="2198" ulx="131" uly="1958" xml:id="zone_dg4_rsw_2jb"/>
+            </surface>
+            <surface>
+                <graphic n="https://diyhistory.org/public/phr2/iiif/1632/canvas/p2"
+                    url="https://diyhistory.org/public/phr2/files/original/32b72fa77d82ba67f9c7bc8b8f9b14be47b9bb95.jpg"/>
+                <zone lrx="677" lry="1157" ulx="426" uly="940" xml:id="zone_d3q_tsw_2jb"/>
+                <zone lrx="2110" lry="3100" ulx="951" uly="2800" xml:id="zone_gcm_5sw_2jb"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div1 type="EMIN_tapu_tezkire" facs="#zone_o33_qsw_2jb">
+                <p>
+                    <lb/>Hüve
+                    <lb/>Vech-i tahrīr-i hurūf oldur ki
+                    <lb/>bi'l-berāt-ı pādişāhiyle ver vech-i mutasarrıf olduğun timārların kurālarında müslimān cemāʿatında KMARI karyesinde
+                    <lb/>hudūdunda(?) mutasarrıf olan zimmī Īwān GAGULA veled-i YÜZÜ nām zimmīnin taht-ı tasarrıfından bulunan
+                    <lb/>bir katʿa BKÇ demekle bir taraf NTRNI KATTABIKÇE'si ve bir tarafda rāhib gardiyān müşterinin ...'si
+                    <lb/>ve iki tarafda tarīk-i ʿām hudūdyla mahdūd ve mumtāz mesfūrin BKÇEsi hakk ve karār ve ...
+                    <lb/>işbu dārende-i hurūf Kirşevo varoş kilisasının gardiyān nām ... teskire ile dört
+                    <lb/>yüz krık guruş bedel-i ferāğ mukābelesinde beyʿ-i bāt katʿ ... şerʿler beyʿ edüp ol dahi
+                    <lb/>minvāl-i muharrer üzere kabūl biz dahi sāhibi'l-arz bulduğumuz hasebiyle binā'en ferāğ-ı mesfūrun
+                    <lb/>... ve ferāğat meşteri gardiyān tafvīz ve zabt(?) ve zirāʿat izin ...
+                    <lb/>işbu tapu[-ı] tezkire ... ve iʿtā olundu zabt(?) ve tarassıfına ve zirāʿatına tarafımızdan ve taraf-ı
+                    <lb/>āhardan kabz(?) ve ahz bir kimesne māniʿ ve müdāhale olunmaya fī <date when-custom="1266-02-15" type="created" when="1849-12-30">15 S sene 266</date>
+                </p>
+                <div2 type="sign" facs="#zone_dg4_rsw_2jb">
+                    <p>
+                        <lb/>...
+                        <lb/>El-Hāccı Mehmed
+                        <lb/>El-me'mūr
+                    </p>
+                    <div3 type="stamp" facs="#zone_d3q_tsw_2jb">
+                        <p>
+                            <lb/>...
+                            <lb/>
+                        </p>
+                    </div3>
+                </div2>
+                <div2 type="şühūdu'l-hāl">
+                    <p>
+                        <lb/>Şühūdu'l-hāl
+                        <lb/>Kuliş Īwān
+                        <lb/>KİÇE Īwān
+                        <lb/>MHT MCAR
+                        <lb/>ve gayrihim ...
+                    </p>
+                </div2>
+            </div1>
+            <div1 type="summary_Croatian" facs="#zone_gcm_5sw_2jb">
+                <p>
+                    <lb/>Na ... <date type="summary_Croatian" when="1849">1849</date>
+                    <lb/>Nno 20.
+                </p>
+            </div1>
+        </body>
+    </text>
 </TEI>
