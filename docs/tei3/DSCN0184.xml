@@ -7,6 +7,10 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="summary">絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ</note>
+				<note type="summary">ムスリムが保有していた土地の、クレシェヴォ修道院の修道士に対する売却に関する承認文書、またそこからの徴税権の承認文書</note>
+			</notesStmt>
 			<sourceDesc>
 				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
 			</sourceDesc>
@@ -15,9 +19,18 @@
 	<facsimile>
 		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1664/manifest">
 			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1664/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/db9fae13b00e2604106736fa28f9a3789307112b.jpg"/>
-				<zone lrx="2339" lry="2684" ulx="116" uly="138" xml:id="zone_cw1_5tm_3jb"/>
-				<zone lrx="412" lry="2648" ulx="169" uly="2269" xml:id="zone_lr4_wtm_3jb"/>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/db9fae13b00e2604106736fa28f9a3789307112b.jpg" n="https://diyhistory.org/public/phr2/iiif/1664/canvas/p1"/>
+				<zone xml:id="zone_cw1_5tm_3jb" lry="2684" lrx="2339" uly="138" ulx="116"/>
+				<zone xml:id="zone_lr4_wtm_3jb" lry="2648" lrx="412" uly="2269" ulx="169"/>
+				<zone xml:id="zone_rcn_t2q_qqb" lry="1700" lrx="1618" uly="1574" ulx="1456"/>
+				<zone xml:id="zone_zdb_2gq_qqb" lry="1590" lrx="694" uly="1362" ulx="138"/>
+				<zone xml:id="zone_yy4_mgq_qqb" lry="1844" lrx="1698" uly="1695" ulx="1479"/>
+				<zone xml:id="zone_w3r_xgq_qqb" lry="1737" lrx="554" uly="1596" ulx="390"/>
+				<zone xml:id="zone_xwf_skq_qqb" lry="2509" lrx="2307" uly="2100" ulx="1996"/>
+				<zone xml:id="zone_pnj_tkq_qqb" lry="2276" lrx="2305" uly="1986" ulx="2011"/>
+				<zone xml:id="zone_xpf_5kq_qqb" lry="2088" lrx="2307" uly="1866" ulx="2011"/>
+				<zone xml:id="zone_ypg_wkq_qqb" lry="1905" lrx="2274" uly="1721" ulx="2013"/>
+				<zone xml:id="zone_pnc_xkq_qqb" lry="1772" lrx="2207" uly="1627" ulx="2021"/>
 			</surface>
 			<surface>
 				<graphic n="https://diyhistory.org/public/phr2/iiif/1664/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/62061e10e3d8f48f123175cc88fb2f4534d4ac57.jpg"/>
@@ -27,27 +40,46 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 cert="unknown" facs="#zone_cw1_5tm_3jb" type="EMIN">
+			<div1 type="EMIN" cert="unknown" facs="#zone_cw1_5tm_3jb">
 				<p>
-					<lb/>İşbu <date when="1849-11-14" when-custom="1265">bin iki yüz altmış beş senesinde</date> der ʿuhde ve ...
-					<lb/>
-					<lb/>... fī <date type="created" when="1850-02-22" when-custom="1266-04-10">10 R sene 266</date>
-					<lb/>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date when-custom="1265" when="1849-11-14">bin iki yüz altmış beş senesinde</date> der ʿuhde ve iltizāmımızda bulunan Mart iʿtibārıyla Kirşevo mukātaʿası
+					<lb/>müslimīn cemāʿatında <placeName facs="#zone_rcn_t2q_qqb">KOYSINA</placeName> hudūd dāhilinde arāz[ī]-i mīrīye mutasarrıf eyledüğü NATIRINI(?) <persName
+						facs="#zone_zdb_2gq_qqb">İNCE</persName> veled-i Īwān LOKIK
+					<lb/>bir kıtʿa tarla <placeName facs="#zone_yy4_mgq_qqb">ZAKUTINKE</placeName> demekle üç tarafa(?) <persName>rubānların</persName> tarlalası ve taraf-ı rābiʿ <placeName
+						facs="#zone_w3r_xgq_qqb">BUTUKA</placeName> hudūd ile mahdūd
+					<lb/>ve mümtāz olup işbu dārende-i hurūf <placeName>Kirşevo</placeName> varoş kilisadan <persName>gardiyān</persName> nām-ı mesfūre resm tapu ile iki yüz
+					<lb/>iğirmi guruş bedeli ve ... mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp ol dahi kabūl biz dahi me'mūr
+					<lb/>olduğumuz hasebiyle mezkūr arāzīyı <persName>gardiyāna</persName> tafvīz ve yedine tapu virdim mā-dām ki taraf-ı mīrīye
+					<lb/>rāciʿ olan aʿaşār-ı şerʿiyesi sāl be-sāl edā tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ ve müdāhale
+					<lb/>olunmaya fī <date when-custom="1266-04-10" type="created" when="1850-02-22">10 R sene 266</date>
 				</p>
-				<div2 facs="#zone_lr4_wtm_3jb" type="sign">
+				<div2 type="sign" facs="#zone_lr4_wtm_3jb">
 					<p>
-						<lb/>...
-						<lb/>
-					</p>
+						<lb/>El-me'mūr
+						<lb/><persName>Mehmed</persName> Emīn-i Mukā-
+						<lb/>taʿa-i <placeName>Kirşevo</placeName>
+						<lb/>Hālā
+						<lb/>M </p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Mollā <persName facs="#zone_xwf_skq_qqb">Mehmed</persName> MRZAN ʿan kasaba-i <placeName>Kirşevo</placeName>
+						<lb/>Mollā <persName facs="#zone_pnj_tkq_qqb">Mehmed</persName> Hāccı Oğlu
+						<lb/>Mollā <persName facs="#zone_xpf_5kq_qqb">Sālih</persName> CZMIK
+						<lb/><persName facs="#zone_ypg_wkq_qqb">PETAR</persName> ŞONIK
+						<lb/><persName facs="#zone_pnc_xkq_qqb">TONAYAN</persName>
+						<lb/>ve gayrihim </p>
 				</div2>
 			</div1>
-			<div1 facs="#zone_uj2_ytm_3jb" type="summary_Croatian">
+			<div1 type="summary_Croatian" facs="#zone_uj2_ytm_3jb">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1850">1850</date> ...
-					<lb/>
-					<lb/><date type="summary_Croatian" when="1850-11-04" when-custom="1266">1266</date>. Nno 21.
-					<lb/>
-				</p>
+					<lb/>Tojna na Diliku u Zakutojko od Auge Sukila <date when="1850" type="summary_Croatian">1850</date>
+					<lb/>gr[:] 220 + 29.
+					<lb/><date when-custom="1266" type="summary_Croatian" when="1850-11-04">1266</date>. Nno 21.
+					<lb/>109(?) </p>
 			</div1>
 		</body>
 	</text>
