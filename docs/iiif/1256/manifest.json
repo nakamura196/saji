@@ -1,0 +1,250 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://diyhistory.org/public/phr2/iiif/1256/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "Provided by Example Organization",
+    "label": "DSCN1723.JPG",
+    "license": "http://www.example.org/license.html",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "DSCN1723.JPG"
+        },
+        {
+            "label": "Identifier",
+            "value": "DSCN1723.JPG"
+        },
+        {
+            "label": "Fond",
+            "value": "Tursko 1"
+        },
+        {
+            "label": "Aspect Ratio Type",
+            "value": "E"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://diyhistory.org/public/phr2/iiif/1256/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1256/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3264,
+                    "images": [
+                        {
+                            "@id": "https://diyhistory.org/public/phr2/iiif/1256/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://diyhistory.org/public/phr2/iiif/1256/canvas/p1",
+                            "resource": {
+                                "@id": "https://diyhistory.org/public/phr2/files/original/22ddec4f89c3db846f6df921ed0585b4bcaa9fd4.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3264,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://diyhistory.org/public/phr2/iiif-img/4913",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 2448
+                            }
+                        }
+                    ],
+                    "label": {
+                        "@value": "DSCN1723.JPG",
+                        "is_public": true,
+                        "property_id": 1,
+                        "property_label": "Title",
+                        "type": "literal"
+                    },
+                    "thumbnail": {
+                        "@id": "https://diyhistory.org/public/phr2/iiif-img/4913/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://diyhistory.org/public/phr2/iiif-img/4913",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 2448
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1256/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2448,
+                    "images": [
+                        {
+                            "@id": "https://diyhistory.org/public/phr2/iiif/1256/annotation/p0002-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://diyhistory.org/public/phr2/iiif/1256/canvas/p2",
+                            "resource": {
+                                "@id": "https://diyhistory.org/public/phr2/files/original/64b08df6e0b5894aceb89fd702b21e8cd7172c33.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2448,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://diyhistory.org/public/phr2/iiif-img/4914",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 3264
+                            }
+                        }
+                    ],
+                    "label": {
+                        "@value": "DSCN1724.JPG",
+                        "is_public": true,
+                        "property_id": 1,
+                        "property_label": "Title",
+                        "type": "literal"
+                    },
+                    "thumbnail": {
+                        "@id": "https://diyhistory.org/public/phr2/iiif-img/4914/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://diyhistory.org/public/phr2/iiif-img/4914",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 3264
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1256/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 3264,
+                    "images": [
+                        {
+                            "@id": "https://diyhistory.org/public/phr2/iiif/1256/annotation/p0003-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://diyhistory.org/public/phr2/iiif/1256/canvas/p3",
+                            "resource": {
+                                "@id": "https://diyhistory.org/public/phr2/files/original/79c434fb66303bd7c2ee4210db88c8c3696020a9.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3264,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://diyhistory.org/public/phr2/iiif-img/4915",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 2448
+                            }
+                        }
+                    ],
+                    "label": {
+                        "@value": "DSCN1725.JPG",
+                        "is_public": true,
+                        "property_id": 1,
+                        "property_label": "Title",
+                        "type": "literal"
+                    },
+                    "thumbnail": {
+                        "@id": "https://diyhistory.org/public/phr2/iiif-img/4915/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://diyhistory.org/public/phr2/iiif-img/4915",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 2448
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1256/canvas/p4",
+                    "@type": "sc:Canvas",
+                    "height": 3264,
+                    "images": [
+                        {
+                            "@id": "https://diyhistory.org/public/phr2/iiif/1256/annotation/p0004-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://diyhistory.org/public/phr2/iiif/1256/canvas/p4",
+                            "resource": {
+                                "@id": "https://diyhistory.org/public/phr2/files/original/e57b760f684913528a50aa0c3f011aaab06318dc.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3264,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://diyhistory.org/public/phr2/iiif-img/4916",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 2448
+                            }
+                        }
+                    ],
+                    "label": {
+                        "@value": "DSCN1726.JPG",
+                        "is_public": true,
+                        "property_id": 1,
+                        "property_label": "Title",
+                        "type": "literal"
+                    },
+                    "thumbnail": {
+                        "@id": "https://diyhistory.org/public/phr2/iiif-img/4916/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://diyhistory.org/public/phr2/iiif-img/4916",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 2448
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1256/canvas/p5",
+                    "@type": "sc:Canvas",
+                    "height": 2448,
+                    "images": [
+                        {
+                            "@id": "https://diyhistory.org/public/phr2/iiif/1256/annotation/p0005-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://diyhistory.org/public/phr2/iiif/1256/canvas/p5",
+                            "resource": {
+                                "@id": "https://diyhistory.org/public/phr2/files/original/75c510ef6c8f4b3cb3aac24a272dd9b27d4d70f9.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2448,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://diyhistory.org/public/phr2/iiif-img/4917",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 3264
+                            }
+                        }
+                    ],
+                    "label": {
+                        "@value": "DSCN1727.JPG",
+                        "is_public": true,
+                        "property_id": 1,
+                        "property_label": "Title",
+                        "type": "literal"
+                    },
+                    "thumbnail": {
+                        "@id": "https://diyhistory.org/public/phr2/iiif-img/4917/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://diyhistory.org/public/phr2/iiif-img/4917",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 3264
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://diyhistory.org/public/phr2/iiif-img/4913/full/200,200/0/default.jpg",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://diyhistory.org/public/phr2/iiif-img/4913",
+            "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+    },
+    "viewingDirection": "left-to-right"
+}

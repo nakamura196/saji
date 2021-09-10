@@ -1,0 +1,193 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://diyhistory.org/public/phr2/iiif/1067/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "Provided by Example Organization",
+    "label": "DSCN0951.JPG",
+    "license": "http://www.example.org/license.html",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "DSCN0951.JPG"
+        },
+        {
+            "label": "Identifier",
+            "value": "DSCN0951.JPG"
+        },
+        {
+            "label": "Fond",
+            "value": "Tursko 1"
+        },
+        {
+            "label": "Date(M.)",
+            "value": "1857-03-17"
+        },
+        {
+            "label": "Date(H.)",
+            "value": "1273-B-21"
+        },
+        {
+            "label": "Lang.",
+            "value": "ota"
+        },
+        {
+            "label": "Type",
+            "value": [
+                "ḥüccet",
+                "略式\r\n端書に、紙がなかったため略式で書いた旨、記されている。"
+            ]
+        },
+        {
+            "label": "Item",
+            "value": "・hüve\r\n・本文\r\n・証人\r\n・欄外の記述"
+        },
+        {
+            "label": "オスマン朝スタンプ",
+            "value": "0"
+        },
+        {
+            "label": "クレシェヴォのスタンプ",
+            "value": "0"
+        },
+        {
+            "label": "hüve",
+            "value": "1"
+        },
+        {
+            "label": "証人",
+            "value": "1"
+        },
+        {
+            "label": "Relation with Another Items",
+            "value": "表全体像"
+        },
+        {
+            "label": "Number",
+            "value": "125"
+        },
+        {
+            "label": "Aspect Ratio Type",
+            "value": "B"
+        },
+        {
+            "label": "Folding Method",
+            "value": "4x1"
+        },
+        {
+            "label": "Calligraphy",
+            "value": "Rıkʿa"
+        },
+        {
+            "label": "Lineage",
+            "value": "13+3"
+        },
+        {
+            "label": "Memo",
+            "value": [
+                "・裏面ボスニア語梗概には「1857. gr. 110」「Redjer 1254」という記述が見られるが、オスマン語本文の記述は「1(2?)73-B-21」と読めたので、日付はそちらを採用した。西暦もその読みに従って入力した。",
+                "典型\r\n・ḥüccetのように見えるが、料紙のアスペクト比が異なり、上部の定型句なども見られない"
+            ]
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://diyhistory.org/public/phr2/iiif/1067/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1067/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3264,
+                    "images": [
+                        {
+                            "@id": "https://diyhistory.org/public/phr2/iiif/1067/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://diyhistory.org/public/phr2/iiif/1067/canvas/p1",
+                            "resource": {
+                                "@id": "https://diyhistory.org/public/phr2/files/original/831b2ad59bde54368317590d77c4a01784b3e939.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3264,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://diyhistory.org/public/phr2/iiif-img/4724",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 2448
+                            }
+                        }
+                    ],
+                    "label": {
+                        "@value": "DSCN0951.JPG",
+                        "is_public": true,
+                        "property_id": 1,
+                        "property_label": "Title",
+                        "type": "literal"
+                    },
+                    "thumbnail": {
+                        "@id": "https://diyhistory.org/public/phr2/iiif-img/4724/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://diyhistory.org/public/phr2/iiif-img/4724",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 2448
+                },
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1067/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2448,
+                    "images": [
+                        {
+                            "@id": "https://diyhistory.org/public/phr2/iiif/1067/annotation/p0002-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://diyhistory.org/public/phr2/iiif/1067/canvas/p2",
+                            "resource": {
+                                "@id": "https://diyhistory.org/public/phr2/files/original/352c3b9993ab60baf171abdb174d3449c4566615.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2448,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://diyhistory.org/public/phr2/iiif-img/4725",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 3264
+                            }
+                        }
+                    ],
+                    "label": {
+                        "@value": "DSCN0952.JPG",
+                        "is_public": true,
+                        "property_id": 1,
+                        "property_label": "Title",
+                        "type": "literal"
+                    },
+                    "thumbnail": {
+                        "@id": "https://diyhistory.org/public/phr2/iiif-img/4725/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://diyhistory.org/public/phr2/iiif-img/4725",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 3264
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://diyhistory.org/public/phr2/iiif-img/4724/full/200,200/0/default.jpg",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://diyhistory.org/public/phr2/iiif-img/4724",
+            "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+    },
+    "viewingDirection": "left-to-right"
+}

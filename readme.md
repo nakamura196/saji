@@ -15,6 +15,9 @@
 - D:\一次史料\Kreševo\saji で右クリックして、GIT Bash Here をクリックし、以下を貼り付ける
 - sh batch.sh
 
+# 参考ドキュメント
+- https://docs.google.com/document/d/1JJTONF82FGY0vRXlGzF784quVnJlJ5b93Xi042-GLWM/edit?usp=sharing
+
 # 【OLD】アプリケーション
 - 可視化
   - [集計](https://nakamura196.github.io/min3/vis.html?u=https://nakamura196.github.io/saji/data/data.json)

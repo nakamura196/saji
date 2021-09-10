@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://diyhistory.org/public/phr2/iiif/3016/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "Provided by Example Organization",
+    "label": "DSCN0612.JPG",
+    "license": "http://www.example.org/license.html",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "DSCN0612.JPG"
+        },
+        {
+            "label": "Identifier",
+            "value": "DSCN0612.JPG"
+        },
+        {
+            "label": "Fond",
+            "value": "Tursko 7"
+        },
+        {
+            "label": "Aspect Ratio Type",
+            "value": "?"
+        },
+        {
+            "label": "Memo",
+            "value": "・何を示しているか不明。\r\n・ボスニア語梗概？"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://diyhistory.org/public/phr2/iiif/3016/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/3016/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3264,
+                    "images": [
+                        {
+                            "@id": "https://diyhistory.org/public/phr2/iiif/3016/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://diyhistory.org/public/phr2/iiif/3016/canvas/p1",
+                            "resource": {
+                                "@id": "https://diyhistory.org/public/phr2/files/original/9492ccd36ee93207625d3a49ad347dcc34fe42db.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3264,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://diyhistory.org/public/phr2/iiif-img/6673",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 2448
+                            }
+                        }
+                    ],
+                    "label": {
+                        "@value": "DSCN0612.JPG",
+                        "is_public": true,
+                        "property_id": 1,
+                        "property_label": "Title",
+                        "type": "literal"
+                    },
+                    "thumbnail": {
+                        "@id": "https://diyhistory.org/public/phr2/iiif-img/6673/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://diyhistory.org/public/phr2/iiif-img/6673",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 2448
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://diyhistory.org/public/phr2/iiif-img/6673/full/200,200/0/default.jpg",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://diyhistory.org/public/phr2/iiif-img/6673",
+            "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+    },
+    "viewingDirection": "left-to-right"
+}

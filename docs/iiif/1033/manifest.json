@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://diyhistory.org/public/phr2/iiif/1033/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "Provided by Example Organization",
+    "label": "DSCN0915.JPG",
+    "license": "http://www.example.org/license.html",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "DSCN0915.JPG"
+        },
+        {
+            "label": "Identifier",
+            "value": "DSCN0915.JPG"
+        },
+        {
+            "label": "Fond",
+            "value": "Tursko 1"
+        },
+        {
+            "label": "Date(M.)",
+            "value": "1860-08-03"
+        },
+        {
+            "label": "Date(H.)",
+            "value": "(12)77-M-15"
+        },
+        {
+            "label": "Lang.",
+            "value": "ota"
+        },
+        {
+            "label": "Type",
+            "value": "beyaz üzerine buyuruldu"
+        },
+        {
+            "label": "Item",
+            "value": [
+                "\"hüve\"",
+                "オスマン朝スタンプ",
+                "本文",
+                "小さな印@左下"
+            ]
+        },
+        {
+            "label": "オスマン朝スタンプ",
+            "value": "1"
+        },
+        {
+            "label": "hüve",
+            "value": "1"
+        },
+        {
+            "label": "Relation with Another Items",
+            "value": [
+                "DSCN0915.JPG_表",
+                "表全体像"
+            ]
+        },
+        {
+            "label": "Number",
+            "value": "61"
+        },
+        {
+            "label": "Aspect Ratio Type",
+            "value": "B"
+        },
+        {
+            "label": "Folding Method",
+            "value": "7"
+        },
+        {
+            "label": "Calligraphy",
+            "value": "Dīvānī"
+        },
+        {
+            "label": "Lineage",
+            "value": "5"
+        },
+        {
+            "label": "Memo",
+            "value": [
+                "文末：特徴的な形, \"buyuruldu\"(?)",
+                "日付：下二桁しか記されていないが、100の位が偶数の場合省略する慣習(çift yüzyıl)があるので、ヒジュラ暦1200年代であると判断した。日は横向きになっている「15」であると考え処理したが、要検討。",
+                "典型"
+            ]
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://diyhistory.org/public/phr2/iiif/1033/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://diyhistory.org/public/phr2/iiif/1033/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3264,
+                    "images": [
+                        {
+                            "@id": "https://diyhistory.org/public/phr2/iiif/1033/annotation/p0001-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://diyhistory.org/public/phr2/iiif/1033/canvas/p1",
+                            "resource": {
+                                "@id": "https://diyhistory.org/public/phr2/files/original/a78c805bf302f2d981a809fc2f9ced0e1fb0eab0.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3264,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://diyhistory.org/public/phr2/iiif-img/4690",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 2448
+                            }
+                        }
+                    ],
+                    "label": {
+                        "@value": "DSCN0915.JPG",
+                        "is_public": true,
+                        "property_id": 1,
+                        "property_label": "Title",
+                        "type": "literal"
+                    },
+                    "thumbnail": {
+                        "@id": "https://diyhistory.org/public/phr2/iiif-img/4690/full/200,200/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://diyhistory.org/public/phr2/iiif-img/4690",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    },
+                    "width": 2448
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://diyhistory.org/public/phr2/iiif-img/4690/full/200,200/0/default.jpg",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://diyhistory.org/public/phr2/iiif-img/4690",
+            "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+    },
+    "viewingDirection": "left-to-right"
+}

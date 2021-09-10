@@ -6,235 +6,9 @@ import argparse
 import urllib.request
 from rdflib import URIRef, BNode, Literal, Graph
 import glob
-
+import os
 import requests
 import json
-
-def get_mani_data(manifest):
-
-    id = manifest.split("/")[-2]
-
-    with open('/Users/nakamurasatoru/git/d_omeka2/dataset_saji/docs/iiif/'+id+"/manifest.json") as f:
-        data = json.load(f)
-
-    '''
-    headers = {"content-type": "application/json"}
-    r = requests.get(manifest, headers=headers)
-    data = r.json()
-    '''
-
-    map_ = {}
-
-    canvases = data["sequences"][0]["canvases"]
-    for canvas in canvases:
-        canvas_id = canvas["@id"]
-        service = canvas["thumbnail"]["service"]["@id"]
-        map_[canvas_id] = service
-
-    return map_, data["label"].split(".")[0]
-
-def arrangeType(value):
-    map = {
-        "EMIN": "EMIN",
-        "unknown": "unknown",
-        "unkown": "unknown",
-        "summary_Serbian": "summary_Serbian",
-        "summary_Croatian": "summary_Croatian",
-        "sumamry_Croatian": "summary_Croatian",
-        "summay_Crotatioan": "summary_Croatian",
-        "summay_Croatian": "summary_Croatian",
-        "summary_Crotatian": "summary_Croatian",
-        "summary_Cratian": "summary_Croatian",
-        "summary_Craotian": "summary_Croatian",
-        "summery_Croatia": "summary_Croatian",
-        "hüccet": "hüccet",
-        "note": "note",
-        "mürāsele": "mürāsele",
-        "iʿlām": "iʿlām",
-        "tapu": "tapu",
-        "buyuruldu": "buyuruldu",
-        "kassām": "kassām",
-        "Kassām_defteri": "kassām",
-        "fetvā": "fetvā",
-        "tezkire": "tezkire",
-        "fermān": "fermān",
-        "ʿilmühaber": "ʿilmühaber",
-        "ʿarz-ı_hāl": "ʿarz-ı_hāl",
-        "tuğra": "tuğra",
-        "şühūdu’l-hāl": "şühūdu’l-hāl",
-        "Şühūdu’l-hāl": "şühūdu’l-hāl",
-        "zabt_temessük": "temessük",
-        "temessük": "temessük",
-        "ṣūret": "ṣūret",
-        "sūret": "ṣūret",
-    }
-
-    for key in map:
-        if key in value:
-            value = map[key]
-            break
-
-    return value
-
-
-dirname = "tei3"
-dir = "../docs/"+dirname
-files = glob.glob(dir+"/*.xml")
-files = sorted(files)
-
-curation_uri = "https://nakamura196.github.io/saji/data/curation.json"
-
-curation_data = {
-    "@context": [
-        "http://iiif.io/api/presentation/2/context.json",
-        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
-    ],
-    "@type": "cr:Curation",
-    "@id": curation_uri,
-    "label": "オスマン・トルコ語文書群のデータ整理",
-    "selections": []
-}
-
-count = 1
-
-ld_map = {}
-
-'''
-with open('../docs/data/data.json') as f:
-    ld = json.load(f)
-
-
-for obj in ld:
-    ld_map[obj["http://purl.org/dc/terms/title"][0]["@value"].replace("tei\\", "")] = obj
-'''
-
-properties = {
-    '''
-    "http://diyhistory.org/public/phr2/ns/saji/aspectRatioType" : {
-        "label" : "ファイル：aspectRatio",
-        "term" : "saji:aspectRatioType",
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/cert" : {
-        "label" : "ファイル：作成年月日の確かさ",
-        "term" : "saji:cert",
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/fond" : {
-        "label" : "ファイル：フォルダ",
-        "term" : "saji:fond",
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/note" : {
-        "label" : "ファイル：備考",
-        "term" : "saji:note",
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/type0" : {
-        "label" : "ファイル：DIV1の整形済みタイプ",
-        "term" : "saji:type0",
-        "description" : "EMIN XXXX => EMIN など",
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/type1" : {
-        "label" : "ファイル：DIV1タイプ",
-        "term" : "saji:type1"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/type2" : {
-        "label" : "ファイル：DIV2タイプ",
-        "term" : "saji:type2"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/type3" : {
-        "label" : "ファイル：DIV3タイプ",
-        "term" : "saji:type3"
-    },
-    "http://purl.org/dc/terms/created" : {
-        "label" : "ファイル：作成年月日",
-        "term" : "dcterms:created",
-        "description" : "複数ある場合には最も若い値",
-        "type" : "date"
-    },
-    "http://purl.org/dc/terms/description" : {
-        "label" : "ファイル：テキスト",
-        "term" : "dcterms:description"
-    },
-    "http://purl.org/dc/terms/title" : {
-        "label" : "ファイル：名前",
-        "term" : "dcterms:title"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/memo" : {
-        "label" : "Omeka：メモ",
-        "term" : "saji:memo"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/type" : {
-        "label" : "Omeka：タイプ",
-        "term" : "saji:type",
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/transcription" : {
-        "label" : "Omeka：翻刻文",
-        "term" : "saji:transcription"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/relationWithAnotherItems" : {
-        "label" : "Omeka：他アイテムとの関係",
-        "term" : "saji:relationWithAnotherItems"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/date_M" : {
-        "label" : "Omeka：date_M",
-        "term" : "saji:date_M"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/calligraphy" : {
-        "label" : "Omeka：calligraphy",
-        "term" : "saji:calligraphy"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/date_H" : {
-        "label" : "Omeka：date_H",
-        "term" : "saji:date_H"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/foldingMethod" : {
-        "label" : "Omeka：foldingMethod",
-        "term" : "saji:foldingMethod"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/huve" : {
-        "label" : "Omeka：huve",
-        "term" : "saji:huve"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/item" : {
-        "label" : "Omeka：item",
-        "term" : "saji:item"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/lang" : {
-        "label" : "Omeka：lang",
-        "term" : "saji:lang"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/lineage" : {
-        "label" : "Omeka：lineage",
-        "term" : "saji:lineage"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/number" : {
-        "label" : "Omeka：number",
-        "term" : "saji:number"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/openingPhrase" : {
-        "label" : "Omeka：openingPhrase",
-        "term" : "saji:openingPhrase"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/placeFull" : {
-        "label" : "Omeka：placeFull",
-        "term" : "saji:placeFull"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/stamp_c" : {
-        "label" : "Omeka：stamp_c",
-        "term" : "saji:stamp_c"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/stamp_o" : {
-        "label" : "Omeka：stamp_o",
-        "term" : "saji:stamp_o"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/from" : {
-        "label" : "Omeka：from",
-        "term" : "saji:from"
-    },
-    "http://diyhistory.org/public/phr2/ns/saji/witness" : {
-        "label" : "Omeka：witness",
-        "term" : "saji:witness"
-    }
-    '''
-}
 
 def getDate(div):
     # <-- 作成年月日の取得
@@ -401,6 +175,241 @@ def addMembers(members, member):
 
     return members
 
+def get_mani_data(manifest):
+
+    id = manifest.split("/")[-2]
+
+    path = "../docs/iiif/" + id + "/manifest.json"
+
+    if not os.path.exists(path):
+        m = requests.get(manifest).json()
+
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+
+        fw = open(path, 'w')
+        json.dump(m, fw, ensure_ascii=False, indent=4,
+                sort_keys=True, separators=(',', ': '))
+        fw.close()
+
+    with open(path) as f:
+        data = json.load(f)
+
+    map_ = {}
+
+    canvases = data["sequences"][0]["canvases"]
+    for canvas in canvases:
+        canvas_id = canvas["@id"]
+        service = canvas["thumbnail"]["service"]["@id"]
+        map_[canvas_id] = service
+
+    return map_, data["label"].split(".")[0]
+
+def arrangeType(value):
+    map = {
+        "EMIN": "EMIN",
+        "unknown": "unknown",
+        "unkown": "unknown",
+        "summary_Serbian": "summary_Serbian",
+        "summary_Croatian": "summary_Croatian",
+        "sumamry_Croatian": "summary_Croatian",
+        "summay_Crotatioan": "summary_Croatian",
+        "summay_Croatian": "summary_Croatian",
+        "summary_Crotatian": "summary_Croatian",
+        "summary_Cratian": "summary_Croatian",
+        "summary_Craotian": "summary_Croatian",
+        "summery_Croatia": "summary_Croatian",
+        "hüccet": "hüccet",
+        "note": "note",
+        "mürāsele": "mürāsele",
+        "iʿlām": "iʿlām",
+        "tapu": "tapu",
+        "buyuruldu": "buyuruldu",
+        "kassām": "kassām",
+        "Kassām_defteri": "kassām",
+        "fetvā": "fetvā",
+        "tezkire": "tezkire",
+        "fermān": "fermān",
+        "ʿilmühaber": "ʿilmühaber",
+        "ʿarz-ı_hāl": "ʿarz-ı_hāl",
+        "tuğra": "tuğra",
+        "şühūdu’l-hāl": "şühūdu’l-hāl",
+        "Şühūdu’l-hāl": "şühūdu’l-hāl",
+        "zabt_temessük": "temessük",
+        "temessük": "temessük",
+        "ṣūret": "ṣūret",
+        "sūret": "ṣūret",
+    }
+
+    for key in map:
+        if key in value:
+            value = map[key]
+            break
+
+    return value
+
+#######################
+
+dirname = "tei3"
+dir = "../docs/"+dirname
+files = glob.glob(dir+"/*.xml")
+files = sorted(files)
+
+curation_uri = "https://nakamura196.github.io/saji/data/curation.json"
+
+curation_data = {
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@type": "cr:Curation",
+    "@id": curation_uri,
+    "label": "オスマン・トルコ語文書群のデータ整理",
+    "selections": []
+}
+
+count = 1
+
+ld_map = {}
+
+'''
+with open('../docs/data/data.json') as f:
+    ld = json.load(f)
+
+
+for obj in ld:
+    ld_map[obj["http://purl.org/dc/terms/title"][0]["@value"].replace("tei\\", "")] = obj
+'''
+
+properties = {
+    '''
+    "http://diyhistory.org/public/phr2/ns/saji/aspectRatioType" : {
+        "label" : "ファイル：aspectRatio",
+        "term" : "saji:aspectRatioType",
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/cert" : {
+        "label" : "ファイル：作成年月日の確かさ",
+        "term" : "saji:cert",
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/fond" : {
+        "label" : "ファイル：フォルダ",
+        "term" : "saji:fond",
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/note" : {
+        "label" : "ファイル：備考",
+        "term" : "saji:note",
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/type0" : {
+        "label" : "ファイル：DIV1の整形済みタイプ",
+        "term" : "saji:type0",
+        "description" : "EMIN XXXX => EMIN など",
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/type1" : {
+        "label" : "ファイル：DIV1タイプ",
+        "term" : "saji:type1"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/type2" : {
+        "label" : "ファイル：DIV2タイプ",
+        "term" : "saji:type2"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/type3" : {
+        "label" : "ファイル：DIV3タイプ",
+        "term" : "saji:type3"
+    },
+    "http://purl.org/dc/terms/created" : {
+        "label" : "ファイル：作成年月日",
+        "term" : "dcterms:created",
+        "description" : "複数ある場合には最も若い値",
+        "type" : "date"
+    },
+    "http://purl.org/dc/terms/description" : {
+        "label" : "ファイル：テキスト",
+        "term" : "dcterms:description"
+    },
+    "http://purl.org/dc/terms/title" : {
+        "label" : "ファイル：名前",
+        "term" : "dcterms:title"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/memo" : {
+        "label" : "Omeka：メモ",
+        "term" : "saji:memo"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/type" : {
+        "label" : "Omeka：タイプ",
+        "term" : "saji:type",
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/transcription" : {
+        "label" : "Omeka：翻刻文",
+        "term" : "saji:transcription"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/relationWithAnotherItems" : {
+        "label" : "Omeka：他アイテムとの関係",
+        "term" : "saji:relationWithAnotherItems"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/date_M" : {
+        "label" : "Omeka：date_M",
+        "term" : "saji:date_M"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/calligraphy" : {
+        "label" : "Omeka：calligraphy",
+        "term" : "saji:calligraphy"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/date_H" : {
+        "label" : "Omeka：date_H",
+        "term" : "saji:date_H"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/foldingMethod" : {
+        "label" : "Omeka：foldingMethod",
+        "term" : "saji:foldingMethod"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/huve" : {
+        "label" : "Omeka：huve",
+        "term" : "saji:huve"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/item" : {
+        "label" : "Omeka：item",
+        "term" : "saji:item"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/lang" : {
+        "label" : "Omeka：lang",
+        "term" : "saji:lang"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/lineage" : {
+        "label" : "Omeka：lineage",
+        "term" : "saji:lineage"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/number" : {
+        "label" : "Omeka：number",
+        "term" : "saji:number"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/openingPhrase" : {
+        "label" : "Omeka：openingPhrase",
+        "term" : "saji:openingPhrase"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/placeFull" : {
+        "label" : "Omeka：placeFull",
+        "term" : "saji:placeFull"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/stamp_c" : {
+        "label" : "Omeka：stamp_c",
+        "term" : "saji:stamp_c"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/stamp_o" : {
+        "label" : "Omeka：stamp_o",
+        "term" : "saji:stamp_o"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/from" : {
+        "label" : "Omeka：from",
+        "term" : "saji:from"
+    },
+    "http://diyhistory.org/public/phr2/ns/saji/witness" : {
+        "label" : "Omeka：witness",
+        "term" : "saji:witness"
+    }
+    '''
+}
+
+
+
 ids = []
 
 for i in range(len(files)):
@@ -408,6 +417,9 @@ for i in range(len(files)):
     file = files[i]
 
     filename = file.split("/")[-1].split(".")[0]
+    
+
+    
 
     related = "https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url=https://nakamura196.github.io/saji/tei/"+filename+".xml"
 
@@ -418,10 +430,11 @@ for i in range(len(files)):
     ET.register_namespace('', "http://www.tei-c.org/ns/1.0")
     root = tree.getroot()
 
+    # <画像の取得>
     surfaceGrp = root.find(prefix+"surfaceGrp")
     manifest = surfaceGrp.get("facs")
-
     mani_data, label = get_mani_data(manifest)
+    # </画像の取得>
 
     members = []
 
@@ -553,6 +566,7 @@ for i in range(len(files)):
 
         curation_data["selections"].append(selection)
 
+    
 
 fw = open("../docs/data/curation.json", 'w')
 json.dump(curation_data, fw, ensure_ascii=False, indent=4,
