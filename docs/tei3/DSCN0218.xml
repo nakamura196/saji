@@ -1,58 +1,80 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0218</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1697/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/06dd53b97c01be5988bc94cea88622ff8f25e233.jpg" />
-<zone lrx="2060" lry="3150" ulx="360" uly="170" xml:id="zone_bll_1ck_kjb" />
-<zone lrx="871" lry="3146" ulx="391" uly="2688" xml:id="zone_nm4_cck_kjb" />
-<zone lrx="864" lry="3135" ulx="605" uly="2910" xml:id="zone_fwk_dck_kjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e3a722699986684b39fe2a75565eafb3e4d96bd3.jpg" />
-<zone lrx="2850" lry="1672" ulx="234" uly="705" xml:id="zone_wg4_2ck_kjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 cert="unknown" facs="#zone_bll_1ck_kjb" type="EMIN_varaka">
-<p>
-<lb />... <date type="created" when="1850-11-04" when-custom="1266">sene 66</date><lb />
-</p>
-<div2 facs="#zone_nm4_cck_kjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_fwk_dck_kjb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-<div1 type="şühūdu’l-hāl">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-</div1>
-<div1 facs="#zone_wg4_2ck_kjb" type="summary_Croatian">
-<p>
-<lb /><date type="summary_Croatian" when="1850-11-04" when-custom="1266">g. 1266</date>.<lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0218</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1697/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/06dd53b97c01be5988bc94cea88622ff8f25e233.jpg"/>
+				<zone lrx="2060" lry="3150" ulx="360" uly="170" xml:id="zone_bll_1ck_kjb"/>
+				<zone lrx="871" lry="3146" ulx="391" uly="2688" xml:id="zone_nm4_cck_kjb"/>
+				<zone lrx="864" lry="3135" ulx="605" uly="2910" xml:id="zone_fwk_dck_kjb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e3a722699986684b39fe2a75565eafb3e4d96bd3.jpg"/>
+				<zone lrx="2850" lry="1672" ulx="234" uly="705" xml:id="zone_wg4_2ck_kjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="unknown" facs="#zone_bll_1ck_kjb" type="EMIN_varaka">
+				<p>
+					<lb/>... <date type="created" when="1850-11-04" when-custom="1266">sene 66</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_nm4_cck_kjb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+					</p>
+					<div3 facs="#zone_fwk_dck_kjb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+							<lb/>
+							<lb/>
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="note">
+					<p>
+						<lb/>... fī 
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_wg4_2ck_kjb" type="summary_Croatian">
+				<p>
+					<lb/>Tapja na nıchn jadnn na Ponijari
+					<lb/>Koju je Kvjvo Tka Luka Drojuzrıv
+					<lb/><date type="summary_Croatian" when="1850-11-04" when-custom="1266">g. 1266</date>.
+					<lb/>66
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
