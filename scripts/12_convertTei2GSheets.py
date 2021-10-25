@@ -171,12 +171,16 @@ div1_tmp = {}
 
 items = []
 
+with open('../docs/etc/dict.json') as f:
+    dictMap = json.load(f)
+
 print("ファイルサイズ", len(files))
 
 for i in range(len(files)):
     file = files[i]
 
-    print(i+1, len(files), file)
+    if i % 100 == 0:
+        print(i+1, len(files), file)
 
     flg_add = True
     stmts = []
@@ -253,40 +257,7 @@ for i in range(len(files)):
 
             # print(value)
 
-            map = {
-                "EMIN": "EMIN",
-                "unknown": "unknown",
-                "unkown": "unknown",
-                "summary_Serbian": "summary_Serbian",
-                "summary_Croatian": "summary_Croatian",
-                "sumamry_Croatian": "summary_Croatian",
-                "summay_Crotatioan": "summary_Croatian",
-                "summay_Croatian": "summary_Croatian",
-                "summary_Crotatian": "summary_Croatian",
-                "summary_Cratian": "summary_Croatian",
-                "summary_Craotian": "summary_Croatian",
-                "summery_Croatia": "summary_Croatian",
-                "hüccet": "hüccet",
-                "note": "note",
-                "mürāsele": "mürāsele",
-                "iʿlām": "iʿlām",
-                "tapu": "tapu",
-                "buyuruldu": "buyuruldu",
-                "kassām": "kassām",
-                "Kassām_defteri": "kassām",
-                "fetvā": "fetvā",
-                "tezkire": "tezkire",
-                "fermān": "fermān",
-                "ʿilmühaber": "ʿilmühaber",
-                "ʿarz-ı_hāl": "ʿarz-ı_hāl",
-                "tuğra": "tuğra",
-                "şühūdu’l-hāl": "şühūdu’l-hāl",
-                "Şühūdu’l-hāl": "şühūdu’l-hāl",
-                "zabt_temessük": "temessük",
-                "temessük": "temessük",
-                "ṣūret": "ṣūret",
-                "sūret": "ṣūret",
-            }
+            map = dictMap
             flg = False
             for key in map:
 
