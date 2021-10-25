@@ -39,7 +39,7 @@ def handleDiv(div, file_thumbnail, file_canvas_uri, divStr, mani_data, filename,
     facs_id = div.get("facs")
 
     if facs_id == None:
-        print(filename, "facs: None")
+        # print(filename, "facs: None")
         # continue
 
         thumbnail = file_thumbnail

@@ -46,6 +46,9 @@ service = build('sheets', 'v4', credentials=creds)
 
 spreadsheet_id = '1W2akkXwfDENiC78Cbx1qs3rx39RvIz4ZEGMio0ZMRYs'
 
+with open("data/hutime.json") as f:
+    hutime = json.load(f)
+
 def get_hutime(hd2):
     """
     HuTime APIを利用して、ヒジュラ暦の日付を西暦の日付に変換
