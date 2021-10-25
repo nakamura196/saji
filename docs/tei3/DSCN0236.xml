@@ -1,46 +1,49 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0236</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">【要】日付：月日の読み取りができていない。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1715/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1715/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/67a34936f651bf05e9e7c0ab8efab76de9d0e643.jpg" />
-<zone lrx="2291" lry="3018" ulx="245" uly="172" xml:id="zone_qyz_gfk_kjb" />
-<zone lrx="613" lry="2700" ulx="322" uly="2456" xml:id="zone_dvq_jfk_kjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_qyz_gfk_kjb" type="EMIN_temessük">
-<p>
-<lb />... fī <date type="created" when="1821-09-26" when-custom="1236">sene 236</date><lb />
-</p>
-<div2 facs="#zone_dvq_jfk_kjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-<div1 cert="medium" type="şühūdu’l-hāl">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0236</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">【要】日付：月日の読み取りができていない。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1715/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1715/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/67a34936f651bf05e9e7c0ab8efab76de9d0e643.jpg"/>
+				<zone lrx="2291" lry="3018" ulx="245" uly="172" xml:id="zone_qyz_gfk_kjb"/>
+				<zone lrx="613" lry="2700" ulx="322" uly="2456" xml:id="zone_dvq_jfk_kjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_qyz_gfk_kjb" type="EMIN_temessük">
+				<p>
+					<lb/>... fī <date type="created" when="1821-09-26" when-custom="1236">sene 236</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_dvq_jfk_kjb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+				<div2 cert="medium" type="şühūdu'l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

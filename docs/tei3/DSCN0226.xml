@@ -18,9 +18,10 @@
 	<facsimile>
 		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1705/manifest">
 			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1705/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/fe99239fc62dddd5d51ea58cd9e1c47599a538bb.jpg"/>
-				<zone lrx="2270" lry="2807" ulx="347" uly="1076" xml:id="zone_tyr_pdk_kjb"/>
-				<zone lrx="752" lry="2561" ulx="523" uly="2280" xml:id="zone_o2d_rdk_kjb"/>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/fe99239fc62dddd5d51ea58cd9e1c47599a538bb.jpg" n="https://diyhistory.org/public/phr2/iiif/1705/canvas/p1"/>
+				<zone xml:id="zone_tyr_pdk_kjb" lry="2807" lrx="2270" uly="1076" ulx="347"/>
+				<zone xml:id="zone_o2d_rdk_kjb" lry="2561" lrx="752" uly="2280" ulx="523"/>
+				<zone xml:id="zone_drq_jc3_jrb" lry="1532" lrx="1311" uly="1403" ulx="1094"/>
 			</surface>
 			<surface>
 				<graphic n="https://diyhistory.org/public/phr2/iiif/1705/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/946109b765d902eeadb83809229133797c0b85da.jpg"/>
@@ -32,9 +33,9 @@
 		<body>
 			<div1 type="EMIN" cert="unknown" facs="#zone_tyr_pdk_kjb">
 				<p>
-					<lb/>
-					<lb/>işbu <date when-custom="1213" cert="low" type="created" when="1799-06-02">bin iki yüz on üç senesine</date> ... fī
-					<lb/>
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date when-custom="1213" cert="low" type="created" when="1799-06-02">bin iki yüz on üç senesine</date> mahsūben(?) der ʿuhde ve iltizāmımızda olunan
+					<lb/><placeName>Kirşevo</placeName> mukātaʿsı kurālarından <placeName facs="#zone_drq_jc3_jrb">DZJUCE</placeName> karyesine
 					<lb/>
 					<lb/>
 					<lb/>
@@ -70,8 +71,7 @@
 					<lb/>Tapija Kako Kupismo od Male i Mi=
 					<lb/>jaka Okiea u Tnieem 4. parečeka zem=
 					<lb/>lje. <date when-custom="1213" type="summary_Croatian" when="1799-06-02">1213</date>.
-					<lb/>Nno 3.
-				</p>
+					<lb/>Nno 3. </p>
 			</div1>
 		</body>
 	</text>
