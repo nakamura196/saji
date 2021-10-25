@@ -4,7 +4,6 @@ import urllib
 import json
 import argparse
 import urllib.request
-from rdflib import URIRef, BNode, Literal, Graph
 import glob
 import os
 import requests
