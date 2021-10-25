@@ -54,6 +54,7 @@ for i in range(len(files)):
 
         map4index = map[conf_id]
 
+        # タグの取得
         tags = body.find_all(conf_tag)
         for tag in tags:
             

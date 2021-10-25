@@ -39,7 +39,7 @@ def handleDiv(div, file_thumbnail, file_canvas_uri, divStr, mani_data, filename,
     facs_id = div.get("facs")
 
     if facs_id == None:
-        print("facs: None")
+        print(filename, "facs: None")
         # continue
 
         thumbnail = file_thumbnail
@@ -423,7 +423,8 @@ for i in range(len(files)):
 
     related = "https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url=https://nakamura196.github.io/saji/tei/"+filename+".xml"
 
-    print(str(i+1)+"/"+str(len(files))+"\t"+file)
+    if i % 500 == 0:
+        print(str(i+1)+"/"+str(len(files))+"\t"+file)
 
     prefix = ".//{http://www.tei-c.org/ns/1.0}"
     tree = ET.parse(file)
