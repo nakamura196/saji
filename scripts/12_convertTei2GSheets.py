@@ -329,19 +329,25 @@ for i in range(len(files)):
     if len(text) > 0:
         # g.add((subject, URIRef("http://purl.org/dc/terms/description"), Literal(text)))
         ## stmts.append((subject, URIRef("http://purl.org/dc/terms/description"), Literal(text)))
-        add("tei:description", str(text), stmts2)
+        
+        # これは実施しない
+        # add("tei:description", str(text), stmts2)
         # a = "a"
+        pass
           
     # tei_url = uri_prefix + "/"+dirname+"/" + file.split("\\"+dirname+"\\")[1]
     tei_url = uri_prefix + "/"+dirname+"/" + file.split(os.sep+dirname+os.sep)[1]
     # g.add((subject, URIRef("http://purl.org/dc/terms/relation"), URIRef("https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url="+tei_url)))
     ## stmts.append((subject, URIRef("http://purl.org/dc/terms/relation"), URIRef("https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url="+tei_url)))
-    add("tei:relation", "https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url="+tei_url, stmts2)
+    
+    # add("tei:relation", "https://tei-eaj.github.io/aozora_tei/tools/visualization/facs/?url="+tei_url, stmts2)
+
 
     thumbnail = root.find(prefix+"graphic").get("url").replace("/original/", "/medium/")
     # g.add((subject, URIRef("http://xmlns.com/foaf/0.1/thumbnail"), URIRef(thumbnail)))
     ## stmts.append((subject, URIRef("http://xmlns.com/foaf/0.1/thumbnail"), URIRef(thumbnail)))
-    add("tei:thumbnail", thumbnail, stmts2)
+    
+    # add("tei:thumbnail", thumbnail, stmts2)
 
     metadata = root.find(prefix+"sourceDesc").find(prefix+"p")
     try:
