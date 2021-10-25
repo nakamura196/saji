@@ -14,6 +14,7 @@ from rdflib import URIRef, BNode, Literal, Graph
 import glob
 import requests
 import os
+from datetime import date,timedelta
 
 """
 Shows basic usage of the Sheets API.
@@ -63,14 +64,54 @@ def get_hutime(hd2):
         XXXX-XX-XXの形の日付文字列
     """
 
-    url = "http://ap.hutime.org/cal/?ival="+hd2+"&ical=103.1&method=conv&ep=b&ocal=101.1&otype=date&oprop=text&oform=gg%20YYYY-MM-dd"
+    try:
+        spl = hd2.split("-")
 
-    r = requests.get(url)
-    sd = r.text.replace("C.E. ", "").strip()
+        if int(spl[0]) < 1000:
+            return None
+
+        date(int(spl[0]), int(spl[1]), int(spl[2]))
+    except Exception as e:
+        print(hd2, e)
+        return None
+        
+
+    date2 = hd2
+
+    flg = True
+
+    while flg:
+        if date2 not in hutime:
+
+
+            url = "http://ap.hutime.org/cal/?ival="+date2+"&ical=103.1&method=conv&ep=b&ocal=101.1&otype=date&oprop=text&oform=gg%20YYYY-MM-dd"
+
+            r = requests.get(url)
+            sd = r.text.replace("C.E. ", "").strip()
+
+            hutime[date2] = sd
+
+        sd = hutime[date2]
+
+        # 変換ミスによって、3桁になる場合
+        year = int(sd.split("-")[0])
+
+        if year > 1000:
+            flg = False
+        else:
+            # 1日前の日付を取得
+            td = timedelta(days=1)
+
+            spl = date2.split("-")
+
+            d = date(int(spl[0]), int(spl[1]), int(spl[2]))
+            d2 = d - td
+
+            date2 = str(d2)
 
     return sd
 
-def get_hd(date):
+def get_hd(_date):
     """
     ヒジュラ暦の取得
 
@@ -91,14 +132,14 @@ def get_hd(date):
     hd = None
     n_type = None
 
-    if date.get("when-custom"):
-        hd = date.get("when-custom")
+    if _date.get("when-custom"):
+        hd = _date.get("when-custom")
         n_type = "when"
-    elif date.get("from-custom"):
-        hd = date.get("from-custom")
+    elif _date.get("from-custom"):
+        hd = _date.get("from-custom")
         n_type = "from"
-    elif date.get("to-custom"):
-        hd = date.get("to-custom")
+    elif _date.get("to-custom"):
+        hd = _date.get("to-custom")
         n_type = "to"
 
     return hd, n_type
@@ -216,24 +257,26 @@ for i in range(len(files)):
     dates = body.findall(prefix+"date")
     created = []
     for i in range(len(dates)):
-        date = dates[i]
+        _date = dates[i]
         #g.add((subject, URIRef("http://purl.org/dc/terms/date"), Literal(date.get("when-custom"))))
         ## stmts.append((subject, URIRef("http://purl.org/dc/terms/date"), Literal(date.get("when-custom"))))
-        add("tei:date", date.get("when-custom"), stmts2)
+        add("tei:date", _date.get("when-custom"), stmts2)
         
-        hd, n_type = get_hd(date)
+        hd, n_type = get_hd(_date)
         if hd != None:
             hd2 = conv_date(hd)
             if hd2 != "unknown":
                 sd = get_hutime(hd2)
                 # print(sd)
-                date.set(n_type, sd)
+                # 入力ミスによって、Noneになる場合あり
+                if sd:
+                    _date.set(n_type, sd)
 
-                if date.get("type") == "created":
-                    created.append(sd)
+                    if _date.get("type") == "created":
+                        created.append(sd)
 
-        if date.get("cert"):
-            value = "date_cert_"+date.get("cert")
+        if _date.get("cert"):
+            value = "date_cert_"+_date.get("cert")
             ## stmts.append((subject, URIRef("http://diyhistory.org/public/phr2/ns/saji/cert"), Literal(value)))
             add("tei:cert", value, stmts2)
 
@@ -461,3 +504,7 @@ result = service.spreadsheets().values().update(
     valueInputOption=value_input_option, body=body).execute()
 
 print('{0} cells updated.'.format(result.get('updatedCells')))
+
+fw = open("data/hutime.json", 'w')
+json.dump(hutime, fw, ensure_ascii=False, indent=4,
+        sort_keys=True, separators=(',', ': '))
