@@ -1,6 +1,6 @@
 set -e
 git pull
-# cd scripts
+cd scripts
 # python 02_convertTei2Curation.py
 # python 12_convertTei2GSheets.py
 cd ../
