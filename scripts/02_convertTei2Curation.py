@@ -190,7 +190,7 @@ def get_mani_data(manifest):
                 sort_keys=True, separators=(',', ': '))
         fw.close()
 
-    with open(path) as f:
+    with open(path, encoding="utf8") as f:
         data = json.load(f)
 
     map_ = {}
@@ -567,8 +567,8 @@ for i in range(len(files)):
         curation_data["selections"].append(selection)
 
     
-
+'''
 fw = open("../docs/data/curation.json", 'w')
 json.dump(curation_data, fw, ensure_ascii=False, indent=4,
           sort_keys=True, separators=(',', ': '))
-
+'''

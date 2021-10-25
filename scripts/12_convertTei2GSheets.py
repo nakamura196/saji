@@ -46,7 +46,7 @@ service = build('sheets', 'v4', credentials=creds)
 
 spreadsheet_id = '1W2akkXwfDENiC78Cbx1qs3rx39RvIz4ZEGMio0ZMRYs'
 
-with open("conf/hutime.json") as f:
+with open("conf/hutime.json", encoding="utf8") as f:
     hutime = json.load(f)
 
 def get_hutime(hd2):
@@ -214,10 +214,10 @@ div1_tmp = {}
 
 items = []
 
-with open('../docs/etc/dict.json') as f:
+with open('../docs/etc/dict.json', encoding="utf8") as f:
     dictMap = json.load(f)
 
-print("ファイルサイズ", len(files))
+print("file size", len(files))
 
 for i in range(len(files)):
     file = files[i]
