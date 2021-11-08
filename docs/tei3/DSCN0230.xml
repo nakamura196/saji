@@ -7,6 +7,11 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="summary">絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ</note>
+				<note type="summary">非ムスリムの土地の、クレシェヴォ修道院の修道士に対する売却に関する承認文書</note>
+				<note type="mine">menzilhāneが出てくる類似の内容の文書がこれ以前にも出てきた。これは文字が汚くて読めないので、【要】比較、読み直し。</note>
+			</notesStmt>
 			<sourceDesc>
 				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
 			</sourceDesc>
@@ -15,9 +20,18 @@
 	<facsimile>
 		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1709/manifest">
 			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1709/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/09ac763e41f87ec68396ef12d53d15a658ec4a54.jpg"/>
-				<zone lrx="2277" lry="2530" ulx="77" uly="53" xml:id="zone_pt3_f2k_kjb"/>
-				<zone lrx="334" lry="2498" ulx="90" uly="1981" xml:id="zone_nbh_h2k_kjb"/>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/09ac763e41f87ec68396ef12d53d15a658ec4a54.jpg" n="https://diyhistory.org/public/phr2/iiif/1709/canvas/p1"/>
+				<zone xml:id="zone_pt3_f2k_kjb" lry="2530" lrx="2277" uly="53" ulx="77"/>
+				<zone xml:id="zone_nbh_h2k_kjb" lry="2498" lrx="334" uly="1981" ulx="90"/>
+				<zone xml:id="zone_n1g_trg_krb" lry="1520" lrx="783" uly="1376" ulx="604"/>
+				<zone xml:id="zone_zsr_zsg_krb" lry="1660" lrx="1114" uly="1532" ulx="913"/>
+				<zone xml:id="zone_ibr_btg_krb" lry="1608" lrx="594" uly="1492" ulx="351"/>
+				<zone xml:id="zone_gjc_t5g_krb" lry="2001" lrx="639" uly="1863" ulx="481"/>
+				<zone xml:id="zone_usb_wvg_krb" lry="633" lrx="1717" uly="232" ulx="1001"/>
+				<zone xml:id="zone_tyw_yvg_krb" lry="2339" lrx="2129" uly="2060" ulx="1826"/>
+				<zone xml:id="zone_s1b_1wg_krb" lry="2253" lrx="2273" uly="1966" ulx="1835"/>
+				<zone xml:id="zone_jwl_bwg_krb" lry="1977" lrx="2049" uly="1873" ulx="1839"/>
+				<zone xml:id="zone_ucn_fwg_krb" lry="1907" lrx="2091" uly="1747" ulx="1850"/>
 			</surface>
 			<surface>
 				<graphic n="https://diyhistory.org/public/phr2/iiif/1709/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1fc83c1a81156190438f931d15799ae2d9d33ca8.jpg"/>
@@ -27,31 +41,48 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 facs="#zone_pt3_f2k_kjb" type="EMIN_temessük">
+			<div1 type="EMIN_temessük" facs="#zone_pt3_f2k_kjb">
 				<p>
-					<lb/>işbu <date type="created" when="1836-04-15" when-custom="1251">bin iki yüz elli bir senesinde</date> der ʿuhde ve ...
-					<lb/>
-				</p>
-				<div2 facs="#zone_nbh_h2k_kjb" type="sign">
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i temessük oldur ki
+					<lb/>işbu <date when-custom="1251" type="created" when="1836-04-15">bin iki yüz elli bir senesinde</date> der ʿuhde ve iltizāmımızda bulunan <placeName>Kirşevo</placeName>
+					mukātaʿasına tābiʿ nefs-i <placeName>Kirşevo</placeName>
+					<lb/>mukātaʿasına tābiʿ nefs-i <placeName>Kirşevo</placeName> varoş ... <placeName facs="#zone_n1g_trg_krb">TOMİÇ</placeName> mahallesinde vākiʿ ... mülki
+					<lb/>menzilhāne ile ... bir kıtʿa <placeName facs="#zone_zsr_zsg_krb">KŞANİÇ</placeName> mutasarrıf eyledüğü zimmī <placeName facs="#zone_ibr_btg_krb">TADYA PULU</placeName> nām-ı
+					mesfūr
+					<lb/>dārende-i temessük <placeName>Kirşevo</placeName> varoş kilisanın rāhiblerine üç yüz otuz guruş mukābelesinde beyʿ-i bāt
+					<lb/>katʿiyle beyʿ edüb ol dahi kabūl biz dahi mukātaʿa emīni bulunduğumuz hasebiyle resm-i tapu nāmesin
+					<lb/>... rāhiblere mülk-i emlāk mutasarrıf eyledüğü mesfūr <persName facs="#zone_gjc_t5g_krb">TADYA</persName> tafvīz birle ve yedine
+					<lb/>işbu temessük virildi(?) zabt ve tasarrıfına tarafımızdan ve taraf-ı āhardan kimesne māniʿ olunmaya </p>
+				<div2 type="sign" facs="#zone_nbh_h2k_kjb">
 					<p>
 						<lb/>...
-						<lb/>
-					</p>
+						<lb/><persName>Mehmed</persName> Emīn-i
+						<lb/><placeName>Kirşevo</placeName>
+						<lb/>Hālā
+						<lb/>M </p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>...
-						<lb/>
+						<lb/>Şühūdu'l-hāl
+						<lb/><persName facs="#zone_tyw_yvg_krb">Paşa İbrāhīm Ağa</persName>
+						<lb/><persName facs="#zone_s1b_1wg_krb">ʿAbdüllāh(?) ʿAlemdār HRMUzāde</persName>
+						<lb/><persName facs="#zone_jwl_bwg_krb">Mollā ʿĀİD</persName>
+						<lb/><persName facs="#zone_ucn_fwg_krb">Peter ŞUNİÇ</persName>
 					</p>
 				</div2>
+				<div2 type="note" facs="#zone_usb_wvg_krb">
+					<p>
+						<lb/>Tekâlif-i ... olunan tekâlif
+						<lb/>...
+						<lb/>sene(?) 20(?) </p>
+				</div2>
 			</div1>
-			<div1 facs="#zone_ev4_32k_kjb" type="summary_Croatian">
+			<div1 type="summary_Croatian" facs="#zone_ev4_32k_kjb">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1836">1836</date>.
-					<lb/>
-					<lb/>= <date type="summary_Croatian" when="1836-04-15" when-custom="1251">1251</date>.
-					<lb/>
-				</p>
+					<lb/>Tapia na Kuchu Tadie Tulisicha. <date when="1836" type="summary_Croatian">1836</date>.
+					<lb/>= <date when-custom="1251" type="summary_Croatian" when="1836-04-15">1251</date>.
+					<lb/>58 </p>
 			</div1>
 		</body>
 	</text>

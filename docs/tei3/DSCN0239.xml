@@ -1,52 +1,82 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0239</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1718/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1718/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/78e4f38655bd22535f31af6ec5a6063e250ee3b6.jpg" />
-<zone lrx="2091" lry="2918" ulx="127" uly="145" xml:id="zone_tk4_5fk_kjb" />
-<zone lrx="453" lry="2773" ulx="141" uly="2490" xml:id="zone_spz_wfk_kjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1718/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1cd7a7e4dc2f68a789c13b94af83f93c5ca5a558.jpg" />
-<zone lrx="3023" lry="1261" ulx="156" uly="816" xml:id="zone_wkd_zfk_kjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_tk4_5fk_kjb" type="EMIN">
-<p>
-<lb />... fī <date when="1806-05-07" when-custom="1221-02-19">19 S sene 1221</date><lb />
-</p>
-<div2 facs="#zone_spz_wfk_kjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-<div1 type="şühūdu’l-hāl">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-</div1>
-<div1 facs="#zone_wkd_zfk_kjb" type="summary_Croatian">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0239</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ</note>
+				<note type="summary">よく登場するクレシェヴォのKOYSINE村を、サラエヴォのパシャに売却することについて？</note>
+				<note type="mine">文書の見た目はEMIN文書に似ているが、EMINやme'murなどの単語が読み取れず、語彙も違うことから、EMIN文書には分類しなかった。</note>
+				<note type="mine">語彙が他の文書と違う。字はきれいなので、辞書があればもう少し読めそう。【要】読み直し。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1718/manifest">
+			<surface>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/78e4f38655bd22535f31af6ec5a6063e250ee3b6.jpg" n="https://diyhistory.org/public/phr2/iiif/1718/canvas/p1"/>
+				<zone xml:id="zone_tk4_5fk_kjb" lry="2918" lrx="2091" uly="145" ulx="127"/>
+				<zone xml:id="zone_spz_wfk_kjb" lry="2773" lrx="453" uly="2490" ulx="141"/>
+				<zone xml:id="zone_ft5_ddj_lrb" lry="1906" lrx="1204" uly="1811" ulx="1059"/>
+				<zone xml:id="zone_oml_s2j_lrb" lry="2088" lrx="1205" uly="1953" ulx="746"/>
+				<zone xml:id="zone_zlf_yfj_lrb" lry="2254" lrx="1184" uly="2136" ulx="1004"/>
+				<zone xml:id="zone_sll_1hj_lrb" lry="2344" lrx="563" uly="2208" ulx="297"/>
+				<zone xml:id="zone_trf_m3j_lrb" lry="2786" lrx="1986" uly="2481" ulx="1618"/>
+				<zone xml:id="zone_apd_n3j_lrb" lry="2608" lrx="1959" uly="2352" ulx="1640"/>
+				<zone xml:id="zone_jfg_43j_lrb" lry="2434" lrx="2022" uly="2201" ulx="1661"/>
+				<zone xml:id="zone_qjb_p3j_lrb" lry="2218" lrx="2030" uly="2053" ulx="1673"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1718/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1cd7a7e4dc2f68a789c13b94af83f93c5ca5a558.jpg"/>
+				<zone lrx="3023" lry="1261" ulx="156" uly="816" xml:id="zone_wkd_zfk_kjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="hurūf" facs="#zone_tk4_5fk_kjb">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>Kirşevo nāhiyesinden baʿ(?) <placeName facs="#zone_ft5_ddj_lrb">KOYSİNE</placeName> karyesinde taht ve tasarrıfımızda bulunan arāzī ...
+					<lb/>olan ... işbu dārende-i hurūf
+					<lb/>Madīne-i Saray sukkāndan <persName facs="#zone_oml_s2j_lrb">Paşa HYKU Mollā İbrāhīm</persName> nām kimesneye iki yüz on iki guruş
+					<lb/>mukābelesinde beyʿ-i bāt katʿiyle beyʿ ve ferāğ ... ile ferāğ ve katʿ ʿalāka ve ...
+					<lb/>mezkūri merkūmun oğulu <persName facs="#zone_zlf_yfj_lrb">Mustafa Beşe</persName> yedinden ... ahz ve kabz olunub ...
+					<lb/>karye-i mezbūrede ... kalmayub merkūm <persName facs="#zone_sll_1hj_lrb">Mollā İbrāhīm</persName>'in mülkü
+					<lb/>... zabt ve tasarrıf edüb ve sāhib
+					<lb/>el-arz olanları merkūme tafvīz edüb zabt ve tasarrıfına ...
+					<lb/>tarafımızdan ve taraf-ı āhardan hiç ahad(?) māniʿ ve müdāhale olunmaya(?) fī <date when-custom="1221-02-19" when="1806-05-07">19 S sene 1221</date>
+				</p>
+				<div2 type="sign" facs="#zone_spz_wfk_kjb">
+					<p>
+						<lb/>...
+						<lb/>...
+						<lb/>...
+						<lb/>M </p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/><persName facs="#zone_trf_m3j_lrb">Mustafa Beşe tābiʿ Aʿayān Ağa</persName>
+						<lb/><persName facs="#zone_apd_n3j_lrb">ZNHAzāde İbrāhīm Ağa</persName>
+						<lb/><persName facs="#zone_jfg_43j_lrb">Mollā Ahmad Alay BGLA</persName>
+						<lb/><persName facs="#zone_qjb_p3j_lrb">HUDU Mollā İbrāhīm</persName>
+						<lb/>ve gayrihim </p>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian" facs="#zone_wkd_zfk_kjb">
+				<p>
+					<lb/>Tove...
+					<lb/>Sheıchu illaku u Kejfini, a on nama. </p>
+			</div1>
+		</body>
+	</text>
 </TEI>

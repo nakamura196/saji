@@ -1,48 +1,65 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0237</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1716/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1716/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7c853503adf2e72725b8c130b535a9a339d91e47.jpg" />
-<zone lrx="1616" lry="2730" ulx="116" uly="107" xml:id="zone_pd5_4fk_kjb" />
-<zone lrx="402" lry="2678" ulx="167" uly="2420" xml:id="zone_oyf_qfk_kjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1716/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7a9e160cc0c4de5f18ac0f551d0512141d27fa1e.jpg" />
-<zone lrx="2078" lry="677" ulx="467" uly="305" xml:id="zone_vgf_rfk_kjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_pd5_4fk_kjb" type="EMIN_zabt_temessük">
-<p>
-<lb />işbu <date type="created" when="1789-09-19" when-custom="1203">bin iki yüz üç senesine</date>
-               mahsūben ... fī <lb />
-</p>
-<div2 facs="#zone_oyf_qfk_kjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_vgf_rfk_kjb" type="sumamry_Croatian">
-<p>
-<lb />... <date type="summary_Croatian" when="1789">1789</date>. ...<lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0237</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">土地の売却 beyʿ</note>
+				<note type="summary">非ムスリムの土地の、クレシェヴォ修道院の修道士に対する売却に関する承認文書</note>
+				<note type="mine">綴りのミスが多い印象。【要】読み直し。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1716/manifest">
+			<surface>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/7c853503adf2e72725b8c130b535a9a339d91e47.jpg" n="https://diyhistory.org/public/phr2/iiif/1716/canvas/p1"/>
+				<zone xml:id="zone_pd5_4fk_kjb" lry="2730" lrx="1616" uly="107" ulx="116"/>
+				<zone xml:id="zone_oyf_qfk_kjb" lry="2678" lrx="402" uly="2420" ulx="167"/>
+				<zone xml:id="zone_fcd_dkc_lrb" lry="1792" lrx="937" uly="1674" ulx="657"/>
+				<zone xml:id="zone_jr1_zkc_lrb" lry="1928" lrx="891" uly="1757" ulx="656"/>
+				<zone xml:id="zone_g4g_plc_lrb" lry="2045" lrx="1442" uly="1928" ulx="1211"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1716/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7a9e160cc0c4de5f18ac0f551d0512141d27fa1e.jpg"/>
+				<zone lrx="2078" lry="677" ulx="467" uly="305" xml:id="zone_vgf_rfk_kjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_zabt_temessük" facs="#zone_pd5_4fk_kjb">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf <sic>aldur</sic><corr>oldur</corr> ki
+					<lb/>işbu <date when-custom="1203" type="created" when="1789-09-19">bin iki yüz üç senesine</date> mahsūben der ʿuhde ve iltizāmımızda bulunan
+					<lb/>Kirşevo mukātaʿasında vākiʿ <persName facs="#zone_fcd_dkc_lrb">KULLİ SÇFNLU</persName> kendi(?) senedi(?) ...
+					<lb/>hāsıl olan ʿöşr-i mahsūlāt <persName facs="#zone_jr1_zkc_lrb">KULLİ SAİ</persName> mezbūr mutavattınlarından <persName facs="#zone_g4g_plc_lrb">gardiyān
+						<lb/>zimmī FRAMIHAT</persName> nām zimmīye yüz esedī guruş bedel mukābelesinde beyʿ edüb
+					<lb/>ol dahi minvāli muharrer üzere ahz ve kabūl eyledüklara biz dahi mukātaʿa-i
+					<lb/>mezbūrda meʿmūr bulunduğumuz hasebiyle mesfūrun yedine işbu zabt <sic>tezkire</sic>
+					<lb/><corr>temessük</corr> virildi ... vech üzere(?) zabt ve ... eylesiz tarafımızdan
+					<lb/>ve taraf-ı āhardan ... ve ne kimesne māniʿ ve müdāhale olunmaya </p>
+				<div2 type="sign" facs="#zone_oyf_qfk_kjb">
+					<p>
+						<lb/>...
+						<lb/>Ahmad Emīn-i
+						<lb/>mukātaʿa-i
+						<lb/>mezbūr </p>
+				</div2>
+			</div1>
+			<div1 type="sumamry_Croatian" facs="#zone_vgf_rfk_kjb">
+				<p>
+					<lb/>Ouoja Tgkava od Dolldınse Koju Popuodymo
+					<lb/>lamaniom dje <date when="1789-06-25" type="summary_Croatian">25 Junij. 1789</date>. ... </p>
+			</div1>
+		</body>
+	</text>
 </TEI>
