@@ -9,7 +9,7 @@
 			</publicationStmt>
 			<notesStmt>
 				<note type="summary">売却および移転 beyʿ ü ferāğ</note>
-				<note type="summary">非ムスリムが保有していた田の、クレシェヴォ修道院の修道士に対する売却に関する承認文書</note>				
+				<note type="summary">非ムスリムが保有していた田の、クレシェヴォ修道院の修道士に対する売却に関する承認文書</note>
 			</notesStmt>
 			<sourceDesc>
 				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
@@ -44,35 +44,36 @@
 				<p>
 					<lb/>Vech-i tahrīr-i hurūf oldur ki
 					<lb/>işbu <date when-custom="1204" type="created" when="1790-09-08">bin iki yüz dört senesinde</date> der ʿuhde ve iltizā-
-					<lb/>mımızda bulunan <placeName>Kirşevo</placeName> mukātaʿası kurālarında
-					<lb/><placeName facs="#zone_xlv_dvb_qqb">KOYSINA</placeName> karyesi hudūd dāhilinde arāz[ī]-ı mīrīye-
-					<lb/>si mutasarrıflarında zimmī <persName facs="#zone_jxr_vvb_qqb">YUZB</persName> veled-i Nikila YÖRK
+					<lb/>mımızda bulunan <placeName corresp="#Kirşevo">Kirşevo</placeName> mukātaʿası kurālarında
+					<lb/><placeName facs="#zone_xlv_dvb_qqb" corresp="#KYSN">KOYSINA</placeName> karyesi hudūd dāhilinde arāz[ī]-ı mīrīye-
+					<lb/>si mutasarrıflarında <persName facs="#zone_jxr_vvb_qqb" corresp="#mutasarrıf_YUZB">zimmī YUZB veled-i Nikola YÖRK</persName> 
 					<lb/>nām zimmīnin kendi taht-ı tasarrıfında bir kıtʿa tarla ...
-					<lb/><placeName facs="#zone_cwm_3wb_qqb">LOÇÇE</placeName> demekle hudūd ... -sıyla işbu dārende-i hurūf
-					<lb/><placeName>Kirşevo</placeName> kilisanın gardiyān <persName facs="#zone_rgt_dxb_qqb">HRA Marko KRAKIK</persName>
+					<lb/><placeName facs="#zone_cwm_3wb_qqb" corresp="#LOÇÇE">LOÇÇE</placeName> demekle hudūd ... -sıyla işbu dārende-i hurūf
+					<lb/><placeName corresp="#Kirşevo">Kirşevo</placeName> kilisanın gardiyān <persName facs="#zone_rgt_dxb_qqb" corresp="#gardiyān_Marko">HRA Marko KRAKİÇ</persName>
 					<lb/>nām zimmīnin resmiyle on beş asadī guruş mukābele-
 					<lb/>sinde beyʿ ve ferāğ edüp onlar dahi kabūl edüb
 					<lb/>biz dahi me'mūrimiz ... cāiz
-					<lb/>görüp tasarrıfına kimesne māniʿ olunmaya b </p>
+					<lb/>görüp tasarrıfına kimesne māniʿ olunmaya
+				</p>
 				<div2 type="sign" facs="#zone_wry_spm_3jb">
 					<p>
-						<lb/>El-fakīr
-						<lb/><persName>Ahmed</persName> Emīn-i
-						<lb/><placeName>Kirşevo</placeName>
+						<lb/><persName corresp="#emīn_Ahmed">El-fakīr
+						<lb/>Ahmed Emīn-i
+						<lb/><placeName>Kirşevo</placeName></persName>
 					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
 						<lb/>Şühūdu'l-hāl
-						<lb/>Mollā(?) <persName facs="#zone_ecx_p53_qqb">Sālih</persName>
+						<lb/><persName facs="#zone_ecx_p53_qqb">Mollā(?) Sālih
 						<lb/>Paşalık ʿan
-						<lb/>Müslimīn
-						<lb/><persName facs="#zone_o5p_t53_qqb">Sālih</persName> ʿAlemdār(?)
-						<lb/>GOGAzāde
-						<lb/>Zimmī <persName facs="#zone_wfs_nv3_qqb">Mato</persName> LALK
-						<lb/>Zimmī <persName facs="#zone_lz2_pv3_qqb">PETRORAK</persName>
-						<lb/>Zimmī <persName facs="#zone_afj_qv3_qqb">GAŞO</persName> KRAKK
-						<lb/>ʿan VARNK </p>
+						<lb/>Müslimīn<persName></persName>
+							<lb/><persName facs="#zone_o5p_t53_qqb">Sālih ʿAlemdār(?)
+								<lb/>GOGAzāde</persName>
+							<lb/><persName facs="#zone_wfs_nv3_qqb">Zimmī Mato LALK</persName>
+							<lb/><persName facs="#zone_lz2_pv3_qqb">Zimmī PETRORAK</persName>
+							<lb/><persName facs="#zone_afj_qv3_qqb">Zimmī GAŞO KRAKK
+								<lb/>ʿan VARNK</persName></p>
 				</div2>
 				<div2 type="note">
 					<p>
@@ -92,5 +93,152 @@
 					<lb/><date when-custom="1204" type="summary_Croatian" when="1790-09-08">1204</date>. </p>
 			</div1>
 		</body>
+		<back>
+			<listPerson>
+				<person xml:id="mutasarrıf_YUZB">
+					<name>YUZB</name>
+					<occupation>zimmī</occupation>
+					<state type="他の登場人物との関係性"><ab>veled-i Nikola YÖRK</ab></state>
+					<state type="文書内の立場"><ab>KOYSINE村内のミーリー地のムタサッルフ</ab></state>
+					<state type="文書内の立場"><ab>土地の売却者</ab></state>
+				</person>
+				<person xml:id="gardiyān_Marko">
+					<name>HRA Marko KRAKİÇ</name>
+					<occupation>zimmī</occupation>
+					<occupation>Kirşevo kilisanın gardiyān</occupation>
+					<state type="文書内の立場"><ab>土地の購入者</ab></state>
+					<state type="文書内の立場"><ab>文書の受領者</ab></state>
+				</person>
+				<person xml:id="emīn_Ahmed">
+					<name>Ahmed</name>
+					<occupation>emīn-i Kirşevo</occupation>
+					<state type="文書内の立場"><ab>クレシェヴォのムタサッルフ</ab></state>
+					<state type="文書内の立場"><ab>文書の作成者</ab></state>
+				</person>
+			</listPerson>
+			<listRelation>
+				<!-- beyʿ ü ferāğ という関係を作成し、activeが主語、passiveが目的語-->
+				<relation name="landsale" active="#mutasarrıf_YUZB" passive="#gardiyān_Marko"/>
+				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
+				<relation name="iltizām" active="#emīn_Ahmed" passive="#mutasarrıf_YUZB"/>
+				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
+				<relation name="iltizām" active="#emīn_Ahmed" passive="#gardiyān_Marko"/>
+				<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
+				<relation name="issue" active="#emīn_Ahmed" passive="#gardiyān_Marko"/>
+			</listRelation>
+			<listPlace>
+				<place xml:id="Kirşevo">
+					<placeName></placeName>
+					<trait>
+						<label>土地の種類</label>
+						<desc></desc>
+					</trait>
+					<trait>
+						<label>土地の規模</label>
+						<desc></desc>
+					</trait>
+					<trait>
+						<label>土地の所有者</label>
+						<desc><persName corresp="#"></persName></desc>
+					</trait>
+					<region></region>
+					<district></district>
+					<settlement></settlement>
+					<note>
+						<table rows="4" cols="2"></table>
+						<row role="data">
+							<cell role="label">1辺目</cell>
+							<objectName xml:id="正規化した検索ワード"></objectName>
+						</row>
+						<row role="data">
+							<cell role="label">2辺目</cell>
+							<objectName xml:id="正規化した検索ワード"></objectName>
+						</row>
+						<row role="data">
+							<cell role="label">3辺目</cell>
+							<objectName xml:id="正規化した検索ワード"></objectName>
+						</row>
+						<row role="data">
+							<cell role="label">4辺目</cell>
+							<objectName xml:id="正規化した検索ワード"></objectName>
+						</row>
+					</note>
+				</place>				
+				<place xml:id="KYSN">
+					<placeName></placeName>
+					<trait>
+						<label>土地の種類</label>
+						<desc></desc>
+					</trait>
+					<trait>
+						<label>土地の規模</label>
+						<desc></desc>
+					</trait>
+					<trait>
+						<label>土地の所有者</label>
+						<desc><persName corresp="#"></persName></desc>
+					</trait>
+					<region></region>
+					<district></district>
+					<settlement></settlement>
+					<note>
+						<table rows="4" cols="2"></table>
+						<row role="data">
+							<cell role="label">1辺目</cell>
+							<objectName xml:id="正規化した検索ワード"></objectName>
+						</row>
+						<row role="data">
+							<cell role="label">2辺目</cell>
+							<objectName xml:id="正規化した検索ワード"></objectName>
+						</row>
+						<row role="data">
+							<cell role="label">3辺目</cell>
+							<objectName xml:id="正規化した検索ワード"></objectName>
+						</row>
+						<row role="data">
+							<cell role="label">4辺目</cell>
+							<objectName xml:id="正規化した検索ワード"></objectName>
+						</row>
+					</note>
+				</place>
+				<place xml:id="LOÇÇE">
+					<placeName></placeName>
+					<trait>
+						<label>土地の種類</label>
+						<desc></desc>
+					</trait>
+					<trait>
+						<label>土地の規模</label>
+						<desc></desc>
+					</trait>
+					<trait>
+						<label>土地の所有者</label>
+						<desc><persName corresp="#"></persName></desc>
+					</trait>
+					<region></region>
+					<district></district>
+					<settlement></settlement>
+					<note>
+						<table rows="4" cols="2"></table>
+						<row role="data">
+							<cell role="label">1辺目</cell>
+							<objectName xml:id="正規化した検索ワード"></objectName>
+						</row>
+						<row role="data">
+							<cell role="label">2辺目</cell>
+							<objectName xml:id="正規化した検索ワード"></objectName>
+						</row>
+						<row role="data">
+							<cell role="label">3辺目</cell>
+							<objectName xml:id="正規化した検索ワード"></objectName>
+						</row>
+						<row role="data">
+							<cell role="label">4辺目</cell>
+							<objectName xml:id="正規化した検索ワード"></objectName>
+						</row>
+					</note>
+				</place>				
+			</listPlace>
+		</back>
 	</text>
 </TEI>
