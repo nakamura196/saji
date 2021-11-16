@@ -96,7 +96,7 @@
 		<back>
 			<listPerson>
 				<person xml:id="mutasarrıf_YUZB">
-					<name>YUZB</name>
+					<name>zimmī YUZB veled-i Nikola YÖRK</name>
 					<occupation>zimmī</occupation>
 					<state type="他の登場人物との関係性"><ab>veled-i Nikola YÖRK</ab></state>
 					<state type="文書内の立場"><ab>KOYSINE村内のミーリー地のムタサッルフ</ab></state>
@@ -115,6 +115,33 @@
 					<state type="文書内の立場"><ab>クレシェヴォのムタサッルフ</ab></state>
 					<state type="文書内の立場"><ab>文書の作成者</ab></state>
 				</person>
+				<person xml:id="şühūdu'l-hāl_Sālih_1">
+					<name>Mollā(?) Sālih Paşalık ʿan Müslimīn</name>
+					<occupation cert="medium">Mollā</occupation>
+					<occupation>Müslimīn</occupation>
+					<state type="文書内の立場"><ab>証人</ab></state>
+				</person>
+				<person xml:id="şühūdu'l-hāl_Sālih_2">
+					<name>Sālih ʿAlemdār(?) GOGAzāde</name>
+					<occupation cert="medium">ʿAlemdār</occupation>
+					<state type="文書内の立場"><ab>証人</ab></state>
+				</person>
+				<person xml:id="şühūdu'l-hāl_Mato">
+					<name>Zimmī Mato LALK</name>
+					<occupation>zimmī</occupation>
+					<state type="文書内の立場"><ab>証人</ab></state>
+				</person>
+				<person xml:id="şühūdu'l-hāl_PETRORAK">
+					<name>Zimmī PETRORAK</name>
+					<occupation>zimmī</occupation>
+					<state type="文書内の立場"><ab>証人</ab></state>
+				</person>
+				<person xml:id="şühūdu'l-hāl_GAŞO">
+					<name>Zimmī GAŞO KRAKK ʿan VARNK</name>
+					<occupation>zimmī</occupation>
+					<state type="出身地">VARNK</state>					
+					<state type="文書内の立場"><ab>証人</ab></state>
+				</person>
 			</listPerson>
 			<listRelation>
 				<!-- beyʿ ü ferāğ という関係を作成し、activeが主語、passiveが目的語-->
@@ -128,115 +155,62 @@
 			</listRelation>
 			<listPlace>
 				<place xml:id="Kirşevo">
-					<placeName></placeName>
+					<placeName>Kirşevo</placeName>
 					<trait>
 						<label>土地の種類</label>
-						<desc></desc>
+						<desc>mukātaʿa</desc>
 					</trait>
 					<trait>
 						<label>土地の規模</label>
-						<desc></desc>
+						<desc>nāhiye</desc>
 					</trait>
 					<trait>
 						<label>土地の所有者</label>
-						<desc><persName corresp="#"></persName></desc>
+						<desc><persName corresp="#emīn_Ahmed">Ahmed Emīn-i Kirşevo</persName></desc>
 					</trait>
-					<region></region>
-					<district></district>
-					<settlement></settlement>
-					<note>
-						<table rows="4" cols="2"></table>
-						<row role="data">
-							<cell role="label">1辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-						<row role="data">
-							<cell role="label">2辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-						<row role="data">
-							<cell role="label">3辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-						<row role="data">
-							<cell role="label">4辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-					</note>
+					<region>Bosna Vilāyeti</region>
+					<settlement>Bosna Sancağı</settlement>
+					<district type="kadılık">Saraybosna Kadılığı</district>
 				</place>				
 				<place xml:id="KYSN">
-					<placeName></placeName>
+					<placeName>KOYSINA</placeName>
 					<trait>
 						<label>土地の種類</label>
-						<desc></desc>
+						<desc>mukātaʿa</desc>
 					</trait>
 					<trait>
 						<label>土地の規模</label>
-						<desc></desc>
+						<desc>karye</desc>
 					</trait>
 					<trait>
 						<label>土地の所有者</label>
-						<desc><persName corresp="#"></persName></desc>
+						<desc><persName corresp="#emīn_Ahmed">Ahmed Emīn-i Kirşevo</persName></desc>
 					</trait>
-					<region></region>
-					<district></district>
-					<settlement></settlement>
-					<note>
-						<table rows="4" cols="2"></table>
-						<row role="data">
-							<cell role="label">1辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-						<row role="data">
-							<cell role="label">2辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-						<row role="data">
-							<cell role="label">3辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-						<row role="data">
-							<cell role="label">4辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-					</note>
+					<region>Bosna Vilāyeti</region>
+					<settlement>Bosna Sancağı</settlement>
+					<district type="kadılık">Saraybosna Kadılığı</district>
+					<district type="mukātaʿa">Kirşevo</district>
 				</place>
 				<place xml:id="LOÇÇE">
 					<placeName></placeName>
 					<trait>
 						<label>土地の種類</label>
-						<desc></desc>
+						<desc>tarla</desc>
+						<desc>arāzī-yi mīrīyesi</desc>
 					</trait>
 					<trait>
 						<label>土地の規模</label>
-						<desc></desc>
+						<desc>bir kıtʿa tarla</desc>
 					</trait>
 					<trait>
 						<label>土地の所有者</label>
-						<desc><persName corresp="#"></persName></desc>
+						<desc><persName corresp="#mutasarrıf_YUZB">zimmī YUZB veled-i Nikola YÖRK</persName></desc>
 					</trait>
-					<region></region>
-					<district></district>
-					<settlement></settlement>
-					<note>
-						<table rows="4" cols="2"></table>
-						<row role="data">
-							<cell role="label">1辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-						<row role="data">
-							<cell role="label">2辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-						<row role="data">
-							<cell role="label">3辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-						<row role="data">
-							<cell role="label">4辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-					</note>
+					<region>Bosna Vilāyeti</region>
+					<settlement>Bosna Sancağı</settlement>
+					<district type="kadılık">Saraybosna Kadılığı</district>
+					<district type="mukātaʿa">Kirşevo mukātaʿası</district>
+					<district type="karye">KOYSINA karyesi</district>
 				</place>				
 			</listPlace>
 		</back>
