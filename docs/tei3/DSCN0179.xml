@@ -97,15 +97,16 @@
 			<listPerson>
 				<person xml:id="mutasarrıf_YUZB">
 					<name>zimmī YUZB veled-i Nikola YÖRK</name>
-					<occupation>zimmī</occupation>
+					<occupation>mutasarrıf</occupation>
+					<socecStatus>zimmī</socecStatus>
 					<state type="他の登場人物との関係性"><ab>veled-i Nikola YÖRK</ab></state>
 					<state type="文書内の立場"><ab>KOYSINE村内のミーリー地のムタサッルフ</ab></state>
 					<state type="文書内の立場"><ab>土地の売却者</ab></state>
 				</person>
 				<person xml:id="gardiyān_Marko">
 					<name>HRA Marko KRAKİÇ</name>
-					<occupation>zimmī</occupation>
-					<occupation>Kirşevo kilisanın gardiyān</occupation>
+					<occupation>kilisanın gardiyān</occupation>
+					<socecStatus>zimmī</socecStatus>
 					<state type="文書内の立場"><ab>土地の購入者</ab></state>
 					<state type="文書内の立場"><ab>文書の受領者</ab></state>
 				</person>
@@ -118,7 +119,7 @@
 				<person xml:id="şühūdu'l-hāl_Sālih_1">
 					<name>Mollā(?) Sālih Paşalık ʿan Müslimīn</name>
 					<occupation cert="medium">Mollā</occupation>
-					<occupation>Müslimīn</occupation>
+					<socecStatus>Müslimīn</socecStatus>
 					<state type="文書内の立場"><ab>証人</ab></state>
 				</person>
 				<person xml:id="şühūdu'l-hāl_Sālih_2">
@@ -128,17 +129,17 @@
 				</person>
 				<person xml:id="şühūdu'l-hāl_Mato">
 					<name>Zimmī Mato LALK</name>
-					<occupation>zimmī</occupation>
+					<socecStatus>zimmī</socecStatus>
 					<state type="文書内の立場"><ab>証人</ab></state>
 				</person>
 				<person xml:id="şühūdu'l-hāl_PETRORAK">
 					<name>Zimmī PETRORAK</name>
-					<occupation>zimmī</occupation>
+					<socecStatus>zimmī</socecStatus>
 					<state type="文書内の立場"><ab>証人</ab></state>
 				</person>
 				<person xml:id="şühūdu'l-hāl_GAŞO">
 					<name>Zimmī GAŞO KRAKK ʿan VARNK</name>
-					<occupation>zimmī</occupation>
+					<socecStatus>zimmī</socecStatus>
 					<state type="出身地">VARNK</state>					
 					<state type="文書内の立場"><ab>証人</ab></state>
 				</person>
