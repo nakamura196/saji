@@ -1,53 +1,94 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0253</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1732/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1732/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/035aeae64398d1c318a0c2847d76e83141991d3b.jpg" />
-<zone lrx="2092" lry="3033" ulx="192" uly="316" xml:id="zone_r3b_rqt_xjb" />
-<zone lrx="520" lry="2985" ulx="284" uly="2662" xml:id="zone_yny_rqt_xjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1732/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6be5d59d4d81acdaf8711526bc34f2306d1503d1.jpg" />
-<zone lrx="421" lry="375" ulx="179" uly="158" xml:id="zone_qj2_tqt_xjb" />
-<zone lrx="2241" lry="2295" ulx="1308" uly="1516" xml:id="zone_pq1_5qt_xjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_r3b_rqt_xjb" subtype="tapu_nāme" type="EMIN">
-<p>
-<lb />... <date type="created" when="1815-12-01" when-custom="1230">sene 1230</date><lb />
-</p>
-<div2 facs="#zone_yny_rqt_xjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_qj2_tqt_xjb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-</div1>
-<div1 facs="#zone_pq1_5qt_xjb" type="summary_Croatian">
-<p>
-<lb />... <date type="summary_Croatian" when="1816">1816</date>.<lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0253</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">絶対に取り消せない売却および移転 beyʿ katʿiyle beyʿ</note>
+				<note type="summary">非ムスリムが保有していた土地の、クレシェヴォ修道院の修道士に対する売却に関する承認文書、またそこからの徴税権の承認文書</note>
+				<note type="mine">"Hālā"から始まるタイプのEMIN文書。しかし、土地の売買 beyʿ ü ferāğ を扱っている。</note>
+				<note type="mine">DSCN0249.JPGと類似の語彙。【要】比較・読み直し。DSCN0251.JPGの方がやや読みやすい。</note>
+				<note type="mine">同じ単語を重ねて書くなど、綴りには不安定な面があるが、DSCN0249, 0251と併せて人名などを読む手掛かりになりそう。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1732/manifest">
+			<surface>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/035aeae64398d1c318a0c2847d76e83141991d3b.jpg" n="https://diyhistory.org/public/phr2/iiif/1732/canvas/p1"/>
+				<zone xml:id="zone_r3b_rqt_xjb" lry="3033" lrx="2092" uly="316" ulx="192"/>
+				<zone xml:id="zone_yny_rqt_xjb" lry="2985" lrx="520" uly="2662" ulx="284"/>
+				<zone xml:id="zone_pyk_j3c_qrb" lry="1355" lrx="478" uly="1255" ulx="302"/>
+				<zone xml:id="zone_j14_hjc_qrb" points="364,1512 409,1449 345,1372 204,1370 205,1456 445,1602 1693,1647 1689,1745 1551,1760 1542,1633 935,1610 448,1591"/>
+				<zone xml:id="zone_ozp_njc_qrb" lry="1769" lrx="1512" uly="1612" ulx="1262"/>
+				<zone xml:id="zone_vts_bkc_qrb" lry="1763" lrx="1227" uly="1627" ulx="1100"/>
+				<zone xml:id="zone_lyt_ckc_qrb" lry="1768" lrx="1055" uly="1655" ulx="927"/>
+				<zone xml:id="zone_zfr_dkc_qrb" lry="1743" lrx="927" uly="1597" ulx="582"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1732/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6be5d59d4d81acdaf8711526bc34f2306d1503d1.jpg"/>
+				<zone lrx="421" lry="375" ulx="179" uly="158" xml:id="zone_qj2_tqt_xjb"/>
+				<zone lrx="2241" lry="2295" ulx="1308" uly="1516" xml:id="zone_pq1_5qt_xjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_tapu_nāme" facs="#zone_r3b_rqt_xjb">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr hurūf budur ki
+					<lb/>hālā ʿuhde ve iltizāmımızda bulunan <placeName>Kirşevo</placeName> mukātaʿası kurālarından <placeName facs="#zone_pyk_j3c_qrb">DRJCE</placeName> karye
+					<lb/>hudūdu hudūdu dāhilinde arāzī-i <sic>emīrīye</sic><corr>mīrīye</corr> ... mutasarrıf olan <persName facs="#zone_j14_hjc_qrb">RUKUBİÇ
+						<lb/>Īwān</persName> ve <persName facs="#zone_ozp_njc_qrb">BAKIR Īwān</persName> ve <persName facs="#zone_vts_bkc_qrb">ʿĀNİCE</persName> ve <persName facs="#zone_lyt_ckc_qrb">MARYA</persName> ve <persName facs="#zone_zfr_dkc_qrb">ʿALK
+						BAŞBİÇ</persName> demekle maʿrūf
+					<lb/>maʿrūm ... işbu dārende-i temessük <placeName>Kirşevo</placeName> kilisanın
+					<lb/>baş rāhib zimmī PTR ruhbān bedle mukābelesinde yalnız krık dört guruş
+					<lb/>resmiyle beyʿi katʿiyle beyʿ edüb al dahi minvāl-i muharrer(?) ve kabūl eyledikden
+					<lb/>sonra tarafımızda ... biz dahi me'mūrimiz hasebiyle tafvīz
+					<lb/>ve cā'iz görüb mā-dām ki sāl be-sāl ʿaşār-ı şerʿiyesi ve rüsūmāt ...
+					<lb/>tarafımıza edā ... işbu yedine tapu nāme iʿtā ve tasarrıfıçün izin virildi
+					<lb/>tarafımıza ve taraf-ı āhardan bir kimesne māniʿ ve müdāhale olmayalar <date when-custom="1230" type="created" when="1815-12-01">sene 1230</date>
+				</p>
+				<div2 type="sign" facs="#zone_yny_rqt_xjb">
+					<p>
+						<lb/>...
+						<lb/><persName>Dervīş
+							<lb/>Mehmed El-me'mūr</persName>
+						<lb/>... </p>
+					<div3 type="stamp" facs="#zone_qj2_tqt_xjb">
+						<p>
+							<lb/>Dervīş
+							<lb/>...
+							<lb/>Mehmed </p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>
+						<lb/>
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian" facs="#zone_pq1_5qt_xjb">
+				<p>
+					<lb/>Tapia na Zairu
+					<lb/>na BaosRichi
+					<lb/>kuju kupiosam
+					<lb/>za 40. gr. od
+					<lb/>Jvana Roko
+					<lb/>vichia ia F.O.M.
+					<lb/>Ghuapdcan <date when="1816" type="summary_Croatian">1816</date>. </p>
+			</div1>
+		</body>
+	</text>
 </TEI>
