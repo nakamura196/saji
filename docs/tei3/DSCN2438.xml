@@ -1,54 +1,57 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2438</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2766/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2766/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5e6a0d73b7b204a85983bc41fd500dc344d2a549.jpg" />
-        <zone lrx="1764" lry="2414" ulx="-14" uly="1107" xml:id="zone_dvl_1fv_dmb" />
-        <zone lrx="552" lry="2382" ulx="164" uly="2078" xml:id="zone_ohx_bfv_dmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2766/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9a948fb02a9a2ab34c59d3b8cc919f47a32095ed.jpg" />
-        <zone lrx="691" lry="1255" ulx="382" uly="985" xml:id="zone_ucj_dfv_dmb" />
-        <zone lrx="2082" lry="2960" ulx="139" uly="2571" xml:id="zone_hrd_2fv_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_dvl_1fv_dmb" next="#zone_hrd_2fv_dmb" type="mürāsele">
-        <p>
-          <lb />... hurira fī <date cert="unknown" type="created" when-custom="--11-28">28 Zı'l-kaʿda</date><lb />
-        </p>
-        <div2 facs="#zone_ohx_bfv_dmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_ucj_dfv_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_hrd_2fv_dmb" type="summary_Croatian">
-        <p>
-          <lb />... 
-          <lb />... <date type="summary_Croatian" when="1773">1773</date>
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2438</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2766/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2766/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5e6a0d73b7b204a85983bc41fd500dc344d2a549.jpg"/>
+				<zone lrx="1764" lry="2414" ulx="-14" uly="1107" xml:id="zone_dvl_1fv_dmb"/>
+				<zone lrx="552" lry="2382" ulx="164" uly="2078" xml:id="zone_ohx_bfv_dmb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2766/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9a948fb02a9a2ab34c59d3b8cc919f47a32095ed.jpg"/>
+				<zone lrx="691" lry="1255" ulx="382" uly="985" xml:id="zone_ucj_dfv_dmb"/>
+				<zone lrx="2082" lry="2960" ulx="139" uly="2571" xml:id="zone_hrd_2fv_dmb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_dvl_1fv_dmb" next="#zone_hrd_2fv_dmb" type="mürāsele">
+				<p>
+					<lb/>... hurira fī <date cert="unknown" type="created" when-custom="xx-11-28">28 Zı'l-kaʿda</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_ohx_bfv_dmb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_ucj_dfv_dmb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_hrd_2fv_dmb" type="summary_Croatian">
+				<p>
+					<lb/>...
+					<lb/>... <date type="summary_Croatian" when="1773">1773</date>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
