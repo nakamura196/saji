@@ -169,9 +169,9 @@
 						<label>土地の所有者</label>
 						<desc><persName corresp="#emīn_Ahmed">Ahmed Emīn-i Kirşevo</persName></desc>
 					</trait>
-					<region>Bosna Vilāyeti</region>
-					<settlement>Bosna Sancağı</settlement>
-					<district type="kadılık">Saraybosna Kadılığı</district>
+					<region type="vilāyet">Bosna</region>
+					<settlement type="sancak">Bosna</settlement>
+					<district type="kadılık">Saraybosna</district>
 				</place>				
 				<place xml:id="KYSN">
 					<placeName>KOYSINA</placeName>
@@ -187,9 +187,9 @@
 						<label>土地の所有者</label>
 						<desc><persName corresp="#emīn_Ahmed">Ahmed Emīn-i Kirşevo</persName></desc>
 					</trait>
-					<region>Bosna Vilāyeti</region>
-					<settlement>Bosna Sancağı</settlement>
-					<district type="kadılık">Saraybosna Kadılığı</district>
+					<region type="vilāyet">Bosna</region>
+					<settlement type="sancak">Bosna</settlement>
+					<district type="kadılık">Saraybosna</district>
 					<district type="mukātaʿa">Kirşevo</district>
 				</place>
 				<place xml:id="LOÇÇE">
@@ -207,11 +207,11 @@
 						<label>土地の所有者</label>
 						<desc><persName corresp="#mutasarrıf_YUZB">zimmī YUZB veled-i Nikola YÖRK</persName></desc>
 					</trait>
-					<region>Bosna Vilāyeti</region>
-					<settlement>Bosna Sancağı</settlement>
-					<district type="kadılık">Saraybosna Kadılığı</district>
-					<district type="mukātaʿa">Kirşevo mukātaʿası</district>
-					<district type="karye">KOYSINA karyesi</district>
+					<region type="vilāyet">Bosna</region>
+					<settlement type="sancak">Bosna</settlement>
+					<district type="kadılık">Saraybosna</district>
+					<district type="mukātaʿa">Kirşevo</district>
+					<district type="karye">KOYSINA</district>
 				</place>				
 			</listPlace>
 		</back>

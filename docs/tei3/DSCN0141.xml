@@ -1,78 +1,73 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>DSCN0141</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <notesStmt>
-                <note type="summary">鉄鉱山のある地域の田の売却承認</note>
-                <note type="mine">DSCN0138.JPGの内容と酷似している。不明な人名など参考にする。</note>
-            </notesStmt>            
-            <sourceDesc>
-                <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <facsimile>
-        <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1624/manifest">
-            <surface>
-                <graphic n="https://diyhistory.org/public/phr2/iiif/1624/canvas/p1"
-                    url="https://diyhistory.org/public/phr2/files/original/bc6fa5db523e782889c298b787f98b63c28672a1.jpg"/>
-                <zone lrx="2050" lry="2550" ulx="225" uly="141" xml:id="zone_a4h_4pw_2jb"/>
-                <zone lrx="700" lry="2375" ulx="472" uly="2019" xml:id="zone_ovj_ppw_2jb"/>
-            </surface>
-            <surface>
-                <graphic n="https://diyhistory.org/public/phr2/iiif/1624/canvas/p2"
-                    url="https://diyhistory.org/public/phr2/files/original/b474c178f9a840a8fe3c9929af84120e21107480.jpg"/>
-                <zone lrx="2834" lry="916" ulx="123" uly="455" xml:id="zone_nnh_qpw_2jb"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <div1 type="EMIN_hurūf" facs="#zone_a4h_4pw_2jb">
-                <p>
-                    <lb/>Hüve
-                    <lb/>Vech-i tahrīr-i hurūf oldur ki
-                    <lb/>işbu <date when="0686-06-28" when-custom="1266">iki yüz altmış altı senesinde</date> der ʿuhde [ve] iltizāmımızda bulunan maʿden-i āhen-i Kirşevo mukātaʿası
-                    <lb/>varoş hudūd dāhilinde LPA demekle arāzī-i mīrīye bir kıtʿa tarla bir taraf DUMİN tarlası bir taraf
-                    <lb/>KOBIK tarlası bir taraf JAPU tarlası bir taraf müşteri gardiyān ʿA'nın tarlası mahdūd ve mumtāz
-                    <lb/>olub Kirşevo varoş ... mutasarrıf eyledüğü işbu dārende-i hurūf Kirşevo
-                    <lb/>varoş kilisadan gardiyān nām-ı mesfūre iki yüz beş guruş ... mukābelesinde beyʿ edüb
-                    <lb/>ol dahi kabūl bizim dahi me'mūrimiz(?) hasebiyle mezkūr tarlayı gardiyāna tafvīz ve zabt ve tasarrıfına
-                    <lb/>izin virdim mā-dām ki taraf-ı mīrīye rāciʿ olan ʿöşri sāl be-sāl edā ve tarafımızdan
-                    <lb/>ve taraf-ı āhardan bir kimesne māniʿ olunmaya <date when-custom="1266" type="created" when="0686-06-28">sene 66</date>
-                </p>
-                <div2 type="sign" facs="#zone_ovj_ppw_2jb">
-                    <p>
-                        <lb/>El-me'mūr
-                        <lb/>Mehmed Emīn-i
-                        <lb/>Mukātaʿa-i Kirşevo
-                        <lb/>Hālā
-                        <lb/>M
-                    </p>
-                </div2>
-                <div2 type="şühūdu'l-hāl">
-                    <p>
-                        <lb/>Şühūdu'l-hāl
-                        <lb/>Zimmī PTAPOPNK
-                        <lb/>Zimmī Marko ÇAPL
-                        <lb/>Zimmī YOZU SAINK
-                        <lb/>Īwān PURPTK
-                        <lb/>TUNA BAN
-                        <lb/>ve gayrihim
-                    </p>
-                </div2>
-            </div1>
-            <div1 type="summary_Croatian" facs="#zone_nnh_qpw_2jb">
-                <p>
-                    <lb/>... od zemlje na ... <date when="1851" type="summary_Croatian">1851</date>.
-                    <lb/>Nno 25.
-                </p>
-            </div1>
-        </body>
-    </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0141</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">鉄鉱山のある地域の田の売却承認</note>
+				<note type="mine">DSCN0138.JPGの内容と酷似している。不明な人名など参考にする。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1624/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1624/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/bc6fa5db523e782889c298b787f98b63c28672a1.jpg"/>
+				<zone lrx="2050" lry="2550" ulx="225" uly="141" xml:id="zone_a4h_4pw_2jb"/>
+				<zone lrx="700" lry="2375" ulx="472" uly="2019" xml:id="zone_ovj_ppw_2jb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1624/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b474c178f9a840a8fe3c9929af84120e21107480.jpg"/>
+				<zone lrx="2834" lry="916" ulx="123" uly="455" xml:id="zone_nnh_qpw_2jb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_hurūf" facs="#zone_a4h_4pw_2jb">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date when="0686-06-28" when-custom="1266">iki yüz altmış altı senesinde</date> der ʿuhde [ve] iltizāmımızda bulunan maʿden-i āhen-i Kirşevo mukātaʿası
+					<lb/>varoş hudūd dāhilinde LPA demekle arāzī-i mīrīye bir kıtʿa tarla bir taraf DUMİN tarlası bir taraf
+					<lb/>KOBIK tarlası bir taraf JAPU tarlası bir taraf müşteri gardiyān Şa'nın tarlası mahdūd ve mumtāz
+					<lb/>olub Kirşevo varoş ... mutasarrıf eyledüğü işbu dārende-i hurūf Kirşevo
+					<lb/>varoş kilisadan gardiyān nām-ı mesfūre iki yüz beş guruş ... mukābelesinde beyʿ edüb
+					<lb/>ol dahi kabūl bizim dahi me'mūrimiz(?) hasebiyle mezkūr tarlayı gardiyāna tafvīz ve zabt ve tasarrıfına
+					<lb/>izin virdim mā-dām ki taraf-ı mīrīye rāciʿ olan ʿöşri sāl be-sāl edā ve tarafımızdan
+					<lb/>ve taraf-ı āhardan bir kimesne māniʿ olunmaya <date when-custom="1266" type="created" when="0686-06-28">sene 66</date>
+				</p>
+				<div2 type="sign" facs="#zone_ovj_ppw_2jb">
+					<p>
+						<lb/>El-me'mūr
+						<lb/>Mehmed Emīn-i
+						<lb/>Mukātaʿa-i Kirşevo
+						<lb/>Hālā
+						<lb/>M </p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Zimmī PTAPOPNK
+						<lb/>Zimmī Marko ÇAPL
+						<lb/>Zimmī YOZU SAINK
+						<lb/>Īwān PURPTK
+						<lb/>TUNA BAN
+						<lb/>ve gayrihim </p>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian" facs="#zone_nnh_qpw_2jb">
+				<p>
+					<lb/>... od zemlje na ... <date when="1851" type="summary_Croatian">1851</date>.
+					<lb/>Nno 25. </p>
+			</div1>
+		</body>
+	</text>
 </TEI>
