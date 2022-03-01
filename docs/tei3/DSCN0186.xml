@@ -47,7 +47,9 @@
 					<lb/>işbu <date when-custom="1201" cert="medium" type="created" when="1793-08-06">bin iki yüz bir senesine mahsūben</date> der ʿuhde ve iltizāmımızda bulunan
 						<placeName>Kirşevo</placeName> mukātaʿası
 					<lb/>... <placeName facs="#zone_xwk_nsq_qqb">KOYSINA</placeName> ... arz-ı mīrīye mutasarrıfya(?) olan bir kıtʿa tarlası mutasarrıfıya(?) olan
-					<lb/> <persName facs="#zone_fqx_ctq_qqb">zimmī MATO veled-i PETRE ZAKUÇNK</persName> demekle maʿrūf bir taraf-ı <persName facs="#zone_lsc_wtq_qqb">zimmī MATOH OLYK SRAKE</persName>
+					<lb/>
+					<persName facs="#zone_fqx_ctq_qqb" corresp="#mutasarrıf_Mato">zimmī MATO veled-i PETRE ZAKUÇNK</persName> demekle maʿrūf bir taraf-ı <persName facs="#zone_lsc_wtq_qqb">zimmī MATOH
+						OLYK SRAKE</persName>
 					<lb/>ve bir tarafıya(?) <persName facs="#zone_arr_m5q_qqb">DMTYE PALOH TZRATINA</persName> tarlası ve bir tarafıya(?) <persName>müşter-i mezbūr</persName> ... tarlası ve taraf-ı
 					...
 					<lb/>ve birinci(?) işbu dārende-i hurūf <persName cert="unknown" facs="#zone_um2_fwq_qqb">ÇOH DKARRA ZIMMI VIRLİK MINA</persName> nām-ı mesfūr
@@ -84,48 +86,78 @@
 					<name>zimmī MATO veled-i PETRE ZAKUÇNK</name>
 					<occupation>mutasarrıf</occupation>
 					<socecStatus>zimmī</socecStatus>
-					<state type="他の登場人物との関係性"><ab>veled-i PETRE ZAKUÇNK</ab></state>
-					<state type="文書内の立場"><ab>KOYSINE村内のミーリー地のムタサッルフ</ab></state>
-					<state type="文書内の立場2"><ab>土地の売却者</ab></state>
+					<state type="他の登場人物との関係性">
+						<ab>veled-i PETRE ZAKUÇNK</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>KOYSINE村内のミーリー地のムタサッルフ</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>土地の売却者</ab>
+					</state>
 				</person>
 				<person xml:id="mutasarrıf_MATOH">
 					<name>zimmī MATOH OLYK SRAKE</name>
 					<occupation>mutasarrıf</occupation>
 					<socecStatus>zimmī</socecStatus>
-					<state type="他の登場人物との関係性"><ab>mutasarrıf_Matoの周囲の土地のムタサッルフ</ab></state>
-					<state type="文書内の立場"><ab>KOYSINE村内の土地のムタサッルフ</ab></state>
+					<state type="他の登場人物との関係性">
+						<ab>mutasarrıf_Matoの周囲の土地のムタサッルフ</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>KOYSINE村内の土地のムタサッルフ</ab>
+					</state>
 				</person>
 				<person xml:id="mutasarrıf_DMTYE">
 					<name>DMTYE PALOH TZRATINA</name>
 					<occupation>mutasarrıf</occupation>
-					<state type="他の登場人物との関係性"><ab>mutasarrıf_Matoの周囲の土地（田）のムタサッルフ</ab></state>
-					<state type="文書内の立場"><ab>KOYSINE村内の土地のムタサッルフ</ab></state>
+					<state type="他の登場人物との関係性">
+						<ab>mutasarrıf_Matoの周囲の土地（田）のムタサッルフ</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>KOYSINE村内の土地のムタサッルフ</ab>
+					</state>
 				</person>
 				<person xml:id="mutasarrıf_müşter">
 					<name>müşter-i mezbūr</name>
 					<occupation>mutasarrıf</occupation>
-					<state type="他の登場人物との関係性"><ab>mutasarrıf_Matoの周囲の土地のムタサッルフ</ab></state>
-					<state type="文書内の立場"><ab>KOYSINE村内の土地のムタサッルフ</ab></state>
+					<state type="他の登場人物との関係性">
+						<ab>mutasarrıf_Matoの周囲の土地のムタサッルフ</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>KOYSINE村内の土地のムタサッルフ</ab>
+					</state>
 				</person>
 				<person xml:id="mutasarrıf_ÇOH">
 					<name>ÇOH DKARRA ZIMMI VIRLİK MINA</name>
 					<occupation>mutasarrıf</occupation>
 					<socecStatus>zimmī</socecStatus>
-					<state type="他の登場人物との関係性"><ab>mutasarrıf_Matoの周囲の土地のムタサッルフ</ab></state>
-					<state type="文書内の立場"><ab>KOYSINE村内のミーリー地のムタサッルフ</ab></state>
-					<state type="文書内の立場2"><ab>土地の購入者</ab></state>
-					<state type="文書内の立場3"><ab>文書の受領者</ab></state>
-				</person>				
+					<state type="他の登場人物との関係性">
+						<ab>mutasarrıf_Matoの周囲の土地のムタサッルフ</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>KOYSINE村内のミーリー地のムタサッルフ</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>土地の購入者</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>文書の受領者</ab>
+					</state>
+				</person>
 			</listPerson>
 			<listRelation>
+				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
+				<relation name="iltizām" active="#emīn_XXX" passive="#mutasarrıf_Mato" type="before"/>
 				<!-- beyʿ ü ferāğ という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="landsale" active="#mutasarrıf_Mato" passive="#mutasarrıf_ÇOH"/>
-				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
-				<relation name="iltizām" active="#emīn_XXX" passive="#mutasarrıf_Mato"/>
 				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="iltizām" active="#emīn_XXX" passive="#mutasarrıf_ÇOH"/>
 				<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="issue" active="#emīn_XXX" passive="#mutasarrıf_ÇOH"/>
+				<!-- 隣接する土地 という関係を作成し、activeが主語、passiveが目的語-->
+				<relation name="隣接する土地" active="#Matoの土地" passive="#MATOHの土地" type="before"/>
+				<relation name="隣接する土地" active="#Matoの土地" passive="#DMTYEの土地" type="before"/>
+				<relation name="隣接する土地" active="#Matoの土地" passive="#müşterの土地" type="before"/>
 			</listRelation>
 			<listPlace>
 				<place xml:id="Matoの土地">
@@ -136,39 +168,40 @@
 						<desc>arāzī-yi mīrīyesi</desc>
 					</trait>
 					<trait>
-						<label>土地の規模</label>
+						<label>土地の単位</label>
 						<desc>bir kıtʿa tarlası</desc>
 					</trait>
 					<trait>
 						<label>土地の所有者</label>
-						<desc><persName corresp="#mutasarrıf_Mato">zimmī MATO veled-i PETRE ZAKUÇNK</persName></desc>
+						<desc><persName corresp="#mutasarrıf_Mato"/></desc>
+					</trait>
+					<trait>
+						<label>金額</label>
+						<desc><measure type="price" unit="#asadī_guruş"><num value="20">yiğirmi</num></measure></desc>
 					</trait>
 					<region>Bosna Vilāyeti</region>
 					<settlement>Bosna Sancağı</settlement>
 					<district type="kadılık">Saraybosna Kadılığı</district>
 					<district type="mukātaʿa">Kirşevo mukātaʿası</district>
 					<district type="karye">KOYSINA karyesi</district>
-					<note>
-						<table rows="4" cols="2"></table>
-						<row role="data">
-							<cell role="label">1辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-						<row role="data">
-							<cell role="label">2辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-						<row role="data">
-							<cell role="label">3辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-						<row role="data">
-							<cell role="label">4辺目</cell>
-							<objectName xml:id="正規化した検索ワード"></objectName>
-						</row>
-					</note>
+				</place>
+				<place xml:id="MATOHの土地">
+					<placeName>bir taraf-ı zimmī MATOH OLYK SRAKE</placeName>
+					<trait>
+						<label>土地の種類</label>
+						<desc>arāzī-yi mīrīyesi</desc>
+					</trait>
+					<trait>
+						<label>土地の所有者</label>
+						<desc><persName corresp="#mutasarrıf_MATOH"/></desc>
+					</trait>
+					<region>Bosna Vilāyeti</region>
+					<settlement>Bosna Sancağı</settlement>
+					<district type="kadılık">Saraybosna Kadılığı</district>
+					<district type="mukātaʿa">Kirşevo mukātaʿası</district>
+					<district type="karye">KOYSINA karyesi</district>
 				</place>
 			</listPlace>
-		</back>		
+		</back>
 	</text>
 </TEI>

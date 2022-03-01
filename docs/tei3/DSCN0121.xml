@@ -1,56 +1,54 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>DSCN0121</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <notesStmt>
-                <note type="summary" cert="low">果樹園、田などの売買契約書？</note>
-                <note type="mine">文書の破損がひどく、読み取りが困難。</note>
-                <note type="mine">文中にtapuと明示。差出人部分は破損していて分からないが、文中に"biz dahi me'mūr olduğumuz"と書かれていること、şühūdu'l-hālがあること、用紙の大きさや書式そのものがEMIN文書に似ていることからEMIN文書であると推定する。</note>
-                <note type="mine">しかし、書き出しが"bā-berāt"となっているのでEMIN文書ではない可能性も。同様の書き出しの事例と比較して要検討。</note>
-            </notesStmt>
-            <sourceDesc>
-                <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <facsimile>
-        <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1605/manifest">
-            <surface>
-                <graphic n="https://diyhistory.org/public/phr2/iiif/1605/canvas/p1"
-                    url="https://diyhistory.org/public/phr2/files/original/0689fefcf139df2f38dab1fde10b5030e38351d0.jpg"/>
-                <zone lrx="2375" lry="2458" ulx="92" uly="1166" xml:id="zone_l3t_13v_2jb"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <div1 type="EMIN_tapu" cert="unknown" facs="#zone_l3t_13v_2jb">
-                <p>
-                    <lb/>[破損] tahrīr-i temessük [破損]
-                    <lb/>bā-berāt [破損] ... kurālarında KÇAR karyesinin hudūdu dāhilinde
-                    <lb/>bir kıtʿa [破損] bağçesine ve bir ... bağçesine ve bir kıtʿa tarla
-                    <lb/>demekle [破損] ve tarla demekle zikr olunan tarla [破損]
-                    <lb/>[破損] ... etmekle ve mesfūr yüz [破損]
-                    <lb/>olup biz dahi me'mūr olduğumuz [破損]
-                    <lb/>ve yedine işbu tapu virildi zabt
-                    <lb/>... kimesne māniʿ olunmaya fī <date type="created" when="1829-05-12" when-custom="1244-11-09">9 Za sene 244</date>
-                </p>
-                <div2 type="şühūdu’l-hāl">
-                    <p>
-                        <lb/>FYNS Ağa
-                        <lb/>ʿĀMĀN ...
-                        <lb/>KİÇEPVV
-                        <lb/>RUKIM
-                        <lb/>FOİŞ Īwān
-                        <lb/>ve gayrihim mine'l-[破損]
-                    </p>
-                </div2>
-            </div1>
-        </body>
-    </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0121</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary" cert="low">果樹園、田などの売買契約書？</note>
+				<note type="mine">文書の破損がひどく、読み取りが困難。</note>
+				<note type="mine">文中にtapuと明示。差出人部分は破損していて分からないが、文中に"biz dahi me'mūr olduğumuz"と書かれていること、şühūdu'l-hālがあること、用紙の大きさや書式そのものがEMIN文書に似ていることからEMIN文書であると推定する。</note>
+				<note type="mine">しかし、書き出しが"bā-berāt"となっているのでEMIN文書ではない可能性も。同様の書き出しの事例と比較して要検討。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1605/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1605/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0689fefcf139df2f38dab1fde10b5030e38351d0.jpg"/>
+				<zone lrx="2375" lry="2458" ulx="92" uly="1166" xml:id="zone_l3t_13v_2jb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_tapu" cert="unknown" facs="#zone_l3t_13v_2jb">
+				<p>
+					<lb/>[破損] tahrīr-i temessük [破損]
+					<lb/>bā-berāt [破損] ... kurālarında KÇAR karyesinin hudūdu dāhilinde
+					<lb/>bir kıtʿa [破損] bağçesine ve bir ... bağçesine ve bir kıtʿa tarla
+					<lb/>demekle [破損] ve tarla demekle zikr olunan tarla [破損]
+					<lb/>[破損] ... etmekle ve mesfūr yüz [破損]
+					<lb/>olup biz dahi me'mūr olduğumuz [破損]
+					<lb/>ve yedine işbu tapu virildi zabt
+					<lb/>... kimesne māniʿ olunmaya fī <date type="created" when="1829-05-12" when-custom="1244-11-09">9 Za sene 244</date>
+				</p>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>FYNS Ağa
+						<lb/>ʿĀMĀN ...
+						<lb/>KİÇEPVV
+						<lb/>RUKIM
+						<lb/>FOİŞ Īwān
+						<lb/>ve gayrihim mine'l-[破損] </p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

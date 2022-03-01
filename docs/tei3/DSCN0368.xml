@@ -1,61 +1,66 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0368</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1845/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1845/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/bcbcb47ac95077801e1111d022ec1e5d2d900015.jpg" />
-        <zone lrx="2127" lry="2954" ulx="218" uly="90" xml:id="zone_jk4_r1f_pkb" />
-        <zone lrx="689" lry="2930" ulx="326" uly="2403" xml:id="zone_r4r_s1f_pkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1845/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9e23b502448a3a86a738bf0d49cd5e3243e3a98b.jpg" />
-        <zone lrx="3050" lry="1972" ulx="78" uly="627" xml:id="zone_ey2_z1f_pkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1845/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/8f8fc7b0b86b0ea9f4460aeda27f406d49c30594.jpg" />
-        <zone lrx="802" lry="805" ulx="515" uly="570" xml:id="zone_f1t_w1f_pkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_jk4_r1f_pkb" next="#zone_ey2_z1f_pkb" type="EMIN_sūret">
-        <p>
-          <lb />... fī <date cert="unknown" type="created" when-custom="1244-??-29">29 sene 244</date><lb />
-        </p>
-        <div2 facs="#zone_r4r_s1f_pkb" type="sign">
-          <p>
-            <lb />... <lb />
-          </p>
-          <div3 facs="#zone_f1t_w1f_pkb" type="stamp_sūret">
-            <p>
-              <lb />... fī <lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_ey2_z1f_pkb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1829-07-01" when-custom="1244">1244</date>.<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0368</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1845/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1845/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/bcbcb47ac95077801e1111d022ec1e5d2d900015.jpg"/>
+				<zone lrx="2127" lry="2954" ulx="218" uly="90" xml:id="zone_jk4_r1f_pkb"/>
+				<zone lrx="689" lry="2930" ulx="326" uly="2403" xml:id="zone_r4r_s1f_pkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1845/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9e23b502448a3a86a738bf0d49cd5e3243e3a98b.jpg"/>
+				<zone lrx="3050" lry="1972" ulx="78" uly="627" xml:id="zone_ey2_z1f_pkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1845/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/8f8fc7b0b86b0ea9f4460aeda27f406d49c30594.jpg"/>
+				<zone lrx="802" lry="805" ulx="515" uly="570" xml:id="zone_f1t_w1f_pkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_jk4_r1f_pkb" next="#zone_ey2_z1f_pkb" type="EMIN_sūret">
+				<p>
+					<lb/>... fī <date cert="unknown" type="created" when-custom="1244-??-29">29 sene 244</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_r4r_s1f_pkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_f1t_w1f_pkb" type="stamp_sūret">
+						<p>
+							<lb/>... fī
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_ey2_z1f_pkb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1829-07-01" when-custom="1244">1244</date>.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

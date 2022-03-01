@@ -1,68 +1,69 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0987</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">maʿden関係？</note>
-<note type="mine">Dostūrで始まっており、何か重要な命令などの写しの可能性。内容をきちんと読んで要検討。</note>
-<note type="mine">DSCN1025.JPGと全く同じ画像・文書。重複している。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "C" ], "saji:date_M": [ "1197-Za-15" ], "saji:fond": [
-               "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1103/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1103/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4973109106f663c91de2826967417763c4f45738.jpg" />
-<zone lrx="2140" lry="2730" ulx="90" uly="50" xml:id="zone_vdc_jkf_z3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1103/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ef0bd76bd6a3e4ca90b435ad9a985aad1484936f.jpg" />
-<zone lrx="539" lry="1982" ulx="228" uly="1793" xml:id="zone_h3k_lkf_z3b" />
-<zone lrx="2954" lry="1041" ulx="2834" uly="900" xml:id="zone_fzg_mkf_z3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1103/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/aced1c70381c74d7f6c3c8cd33e6eddee376b0d9.jpg" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1103/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/030534b209d1180f2e0e75ee790bbc2dfccb4e0d.jpg" />
-<zone lrx="2962" lry="2072" ulx="412" uly="427" xml:id="zone_olg_3l3_1jb" />
-<zone lrx="733" lry="1950" ulx="459" uly="1762" xml:id="zone_qsl_kl3_1jb" />
-<zone lrx="2933" lry="1093" ulx="2824" uly="937" xml:id="zone_mnf_ml3_1jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 cert="unknown" facs="#zone_vdc_jkf_z3b" type="_sūret">
-<l>tahrīren <date type="created" when="1783-10-11" when-custom="1197-11-15">fi'l-yevmi'l-hāmis ʿaşar Zi'l-kaʿade sene sabʿ ve tisʿīn ve miye ve elif</date></l>
-<div3 facs="#zone_h3k_lkf_z3b" type="stamp_sūret" />
-<div3 facs="#zone_fzg_mkf_z3b" type="stamp" />
-</div1>
-<div1 cert="unknown" facs="#zone_olg_3l3_1jb" type="_sūret">
-<p>
-<lb />... <date type="created" when="1783-10-11" when-custom="1197-11-15">fi'l-yevmi'l-hāmis ʿaşar Zi'l-kaʿade sene
-                  sabʿ ve tisʿīn ve miye ve elif</date><lb />
-</p>
-<div3 facs="#zone_qsl_kl3_1jb" type="stamp_sūret">
-<p>
-<lb />... <lb />
-</p>
-</div3>
-<div3 facs="#zone_mnf_ml3_1jb" type="stamp">
-<p>
-<lb />... <lb />
-</p>
-</div3>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0987</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">maʿden関係？</note>
+				<note type="mine">Dostūrで始まっており、何か重要な命令などの写しの可能性。内容をきちんと読んで要検討。</note>
+				<note type="mine">DSCN1025.JPGと全く同じ画像・文書。重複している。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:date_M": [ "1197-Za-15" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1103/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1103/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4973109106f663c91de2826967417763c4f45738.jpg"/>
+				<zone lrx="2140" lry="2730" ulx="90" uly="50" xml:id="zone_vdc_jkf_z3b"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1103/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ef0bd76bd6a3e4ca90b435ad9a985aad1484936f.jpg"/>
+				<zone lrx="539" lry="1982" ulx="228" uly="1793" xml:id="zone_h3k_lkf_z3b"/>
+				<zone lrx="2954" lry="1041" ulx="2834" uly="900" xml:id="zone_fzg_mkf_z3b"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1103/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/aced1c70381c74d7f6c3c8cd33e6eddee376b0d9.jpg"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1103/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/030534b209d1180f2e0e75ee790bbc2dfccb4e0d.jpg"/>
+				<zone lrx="2962" lry="2072" ulx="412" uly="427" xml:id="zone_olg_3l3_1jb"/>
+				<zone lrx="733" lry="1950" ulx="459" uly="1762" xml:id="zone_qsl_kl3_1jb"/>
+				<zone lrx="2933" lry="1093" ulx="2824" uly="937" xml:id="zone_mnf_ml3_1jb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="unknown" facs="#zone_vdc_jkf_z3b" type="_sūret">
+				<l>tahrīren <date type="created" when="1783-10-11" when-custom="1197-11-15">fi'l-yevmi'l-hāmis ʿaşar Zi'l-kaʿade sene sabʿ ve tisʿīn ve miye ve elif</date></l>
+				<div3 facs="#zone_h3k_lkf_z3b" type="stamp_sūret"/>
+				<div3 facs="#zone_fzg_mkf_z3b" type="stamp"/>
+			</div1>
+			<div1 cert="unknown" facs="#zone_olg_3l3_1jb" type="_sūret">
+				<p>
+					<lb/>... <date type="created" when="1783-10-11" when-custom="1197-11-15">fi'l-yevmi'l-hāmis ʿaşar Zi'l-kaʿade sene sabʿ ve tisʿīn ve miye ve elif</date>
+					<lb/>
+				</p>
+				<div3 facs="#zone_qsl_kl3_1jb" type="stamp_sūret">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div3>
+				<div3 facs="#zone_mnf_ml3_1jb" type="stamp">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div3>
+			</div1>
+		</body>
+	</text>
 </TEI>
