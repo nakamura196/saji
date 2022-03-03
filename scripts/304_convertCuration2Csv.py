@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-with open('../docs/data/curation2.json') as f:
+with open('../docs/data/curation.json') as f:
     df = json.load(f)
 
     selections = df["selections"]

@@ -297,7 +297,7 @@ class Item:
             if value.get("cert"):
                 value = "date_cert_" + value.get("cert")
                 # self.metadata.cert.append(value)
-                values.append(value)
+                values.append(value.strip())
                 
         return values
             

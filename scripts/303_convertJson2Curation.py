@@ -153,11 +153,11 @@ curation = {
     "label": "オスマン・トルコ語文書群のデータ整理"
 }
 
-fw = open("../docs/data/curation2.json", 'w')
+fw = open("../docs/data/curation.json", 'w')
 json.dump(curation, fw, ensure_ascii=False, indent=4,
         sort_keys=True, separators=(',', ': '))
 fw.close()
 
-fw = open("../docs/data/curation2.min.json", 'w')
+fw = open("../docs/data/curation.min.json", 'w')
 json.dump(curation, fw)
 fw.close()
