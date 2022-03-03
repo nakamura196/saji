@@ -11,7 +11,7 @@ class Item:
 
     skip = False
     
-    dirname = "tei3"
+    dirname = "tei_mod"
     uri_prefix = "https://nakamura196.github.io/saji"
     
     dict4div1 = {}
@@ -21,6 +21,7 @@ class Item:
     # 不具合の保存用
     dateErrors = {}
     missingTypes = set()
+    # missingTypes2 = set()
     
     item = {
         
