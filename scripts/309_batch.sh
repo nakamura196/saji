@@ -10,4 +10,4 @@ python 304_convertCuration2Csv.py
 # 漏れているtypeのリストアップ
 python 501_mergetMissingTypes.py
 # 統合用の辞書の修正
-pyhton 502_div1.py
+python 502_div1.py
