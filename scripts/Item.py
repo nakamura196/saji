@@ -188,6 +188,7 @@ class Item:
         df = pd.read_csv('data/map4div2item.csv')
         map = {}
         for index, row in df.iterrows():
+            '''
             value = row["まとめ"]
             if pd.isnull(value):
                 continue
@@ -195,6 +196,8 @@ class Item:
             div1 = "|".join(div1s)
             
             map[div1] = value.lower()
+            '''
+            map[row["type"]] = row["type_formatted"]
 
         self.dict4div2item = map
 
