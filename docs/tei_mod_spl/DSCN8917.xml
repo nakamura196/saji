@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8917</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">差出人：ボスナのカーイムマカーム＝ボスナのワーリーの代理人（not ボスナのサンジャクベイ）※Vilayet nizamnamesi
+          (1865?)の後だから</note>
+<note type="mine">署名：傘型</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ]
+          }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1507/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1507/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e7a591aa03fbf6d8b652c7c6085d66f4c9714d26.jpg"/>
+<zone lrx="2208" lry="3133" ulx="175" uly="66" xml:id="zone_e4t_kgz_djb"/>
+<zone lrx="1257" lry="3054" ulx="463" uly="2203" xml:id="zone_vjf_mgz_djb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1507/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/59f2c93c9dc27285bae9a9693c98e1358cc01e54.jpg"/>
+<zone lrx="3245" lry="1461" ulx="6" uly="716" xml:id="zone_rrp_ngz_djb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_e4t_kgz_djb" type="beyāz_üzerine_buyuruldu">
+<p>
+<lb/>... fī <date type="created" when="1785-08-23" when-custom="1199-10-18">18 L 199</date><lb/>
+</p>
+<div2 facs="#zone_vjf_mgz_djb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_rrp_ngz_djb" type="summary_Croatian">
+<p>
+<lb/>Datum: <date type="summary_Croatian" when="1785-08-23" when-custom="1199-10-18">18. şevval 1199</date> - <date type="summary_Croatian" when="1785-08-24">24. avgust 1785.</date><lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

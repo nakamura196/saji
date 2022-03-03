@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0421</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1897/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1897/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1ddb5a6dac2510bbacd7cdc392bc88cb1b20330f.jpg"/>
+<zone lrx="1825" lry="3133" ulx="431" uly="11" xml:id="zone_jnh_nch_skb"/>
+<zone lrx="1096" lry="668" ulx="525" uly="11" xml:id="zone_pgy_4ch_skb"/>
+<zone lrx="982" lry="652" ulx="746" uly="456" xml:id="zone_i15_pch_skb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_jnh_nch_skb" type="hüccet">
+<p>
+<lb/>... <date cert="low" type="created" when="1753-06-09" when-custom="1166-08-08">fī yevmi'l-... min şehr şaʿbānı'l-muʿazzam sene sitte ve sittīn ve mie ve elif</date><lb/>
+</p>
+<div2 facs="#zone_pgy_4ch_skb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_i15_pch_skb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>... <lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

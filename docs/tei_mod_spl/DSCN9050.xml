@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9050</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1977/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1977/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6db0bcc72f41f61ef95426c852c5e1d937f82da5.jpg"/>
+<zone lrx="2489" lry="1239" ulx="612" uly="872" xml:id="zone_l1g_hlc_ykb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1977/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1d951ced014e9f824d6266dfbece7e1f54462ae1.jpg"/>
+<zone lrx="1631" lry="3015" ulx="200" uly="300" xml:id="zone_oly_3lc_ykb"/>
+<zone lrx="566" lry="2998" ulx="295" uly="2537" xml:id="zone_dcf_klc_ykb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_oly_3lc_ykb" next="#zone_l1g_hlc_ykb" subtype="edā_tezkire" type="EMIN">
+<p>
+<lb/>... <date from="1774-03-13" from-custom="1188-01-01" to="1774-03-22" to-custom="1188-01-10" type="created">sene 1188 tahrīren fī evā’il MuharramI'l-harām</date><lb/>
+</p>
+<div2 facs="#zone_dcf_klc_ykb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_l1g_hlc_ykb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1774">1774</date><lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

@@ -2,6 +2,9 @@ set -e
 # TEI/XMLの日付の修正
 python 200_convertDate.py
 
+# 分割
+python 306_splitFiles.py
+
 
 python 302_convertTei2Json.py
 python 303_convertJson2Curation.py

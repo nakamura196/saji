@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1774</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1306/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1306/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/25e08a5bc75e017076b3a516742190fb2ddc5a55.jpg"/>
+<zone lrx="2053" lry="1852" ulx="95" uly="105" xml:id="zone_off_kg3_cjb"/>
+<zone lrx="423" lry="1819" ulx="232" uly="1641" xml:id="zone_abf_lg3_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_off_kg3_cjb" type="şukka">
+<p>
+<lb/>... fī <date type="created" when="1837-11-11" when-custom="1253-08-13">13 Ş sene 253</date><lb/>
+</p>
+<div3 facs="#zone_abf_lg3_cjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div1>
+</body>
+</text>
+</TEI>

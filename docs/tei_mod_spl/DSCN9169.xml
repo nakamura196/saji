@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9169</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2094/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2094/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8ca698aa263581c6c0df9aa361cc226e77e07fba.jpg"/>
+<zone lrx="2025" lry="1125" ulx="1341" uly="250" xml:id="zone_e3n_3sq_jlb"/>
+<zone lrx="2293" lry="3078" ulx="335" uly="821" xml:id="zone_jk4_lsq_jlb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2094/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b4663b950c66ac620263d60e7ac29f8a764841e0.jpg"/>
+<zone lrx="2191" lry="2963" ulx="158" uly="83" xml:id="zone_fxt_nsq_jlb"/>
+<zone lrx="435" lry="2140" ulx="225" uly="1948" xml:id="zone_qd3_psq_jlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_fxt_nsq_jlb" next="#zone_e3n_3sq_jlb" type="unkown">
+<p>
+<lb/>...<lb/>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_qd3_psq_jlb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_e3n_3sq_jlb" next="#zone_jk4_lsq_jlb" type="unkown">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+<div1 cert="unknown" facs="#zone_jk4_lsq_jlb" type="summary_Serbian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

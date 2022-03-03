@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2051</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2381/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2381/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a2d605256b8f86551ee94a8aa09c2a53ec96e794.jpg"/>
+<zone lrx="1590" lry="3100" ulx="130" uly="160" xml:id="zone_nj1_hp4_bmb"/>
+<zone lrx="648" lry="3005" ulx="171" uly="2648" xml:id="zone_lsl_jp4_bmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2381/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/16dda2f9cc44303f47d47298d6fcb36809fb7d96.jpg"/>
+<zone lrx="837" lry="820" ulx="529" uly="533" xml:id="zone_hsf_lp4_bmb"/>
+<zone lrx="2125" lry="2925" ulx="366" uly="2633" xml:id="zone_tnk_mp4_bmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_nj1_hp4_bmb" next="#zone_tnk_mp4_bmb" type="mürāsele">
+<p>
+<lb/>... fī <date type="created" when="1794-05-18" when-custom="1208-10-18">18 L sene 1208</date><lb/>
+</p>
+<div2 facs="#zone_lsl_jp4_bmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_hsf_lp4_bmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_tnk_mp4_bmb" type="sumamry_Croatian">
+<p>
+<lb/>... 
+          <lb/><date type="summary_Croatian" when="1794">1794</date>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

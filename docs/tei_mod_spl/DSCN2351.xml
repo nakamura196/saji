@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2351</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2679/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2679/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5cc99d94cf5b6cd5febeb18f0b4012c8e10b429d.jpg"/>
+<zone lrx="1850" lry="2975" ulx="65" uly="1370" xml:id="zone_eyn_t3n_dmb"/>
+<zone lrx="765" lry="2942" ulx="338" uly="2621" xml:id="zone_brn_v3n_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2679/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e1b018846576487fda64935dedb8bef21dc6b505.jpg"/>
+<zone lrx="3139" lry="1800" ulx="184" uly="950" xml:id="zone_o1y_w3n_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_eyn_t3n_dmb" next="#zone_o1y_w3n_dmb" type="ʿilmühaber">
+<p>
+<lb/>... fī <date type="created" when="1798-03-25" when-custom="1212-10-08">8 L sene 1212</date><lb/>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_brn_v3n_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_o1y_w3n_dmb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1798">1798</date>.
+          <lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

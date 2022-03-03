@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9351</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2275/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2275/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d5e50dae8654e6452c4b8a877ec767f98df39bdd.jpg"/>
+<zone lrx="1816" lry="2715" ulx="239" uly="1261" xml:id="zone_x2d_w51_zlb"/>
+<zone lrx="650" lry="2673" ulx="430" uly="2400" xml:id="zone_qcn_y51_zlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_qcn_y51_zlb" type="unkown">
+<p>
+<lb/>... <date type="created" when="1727-08-16" when-custom="1139-12">Zı'l-hicce-i şerīf sene 1139</date><lb/>
+</p>
+<div2 facs="#zone_x2d_w51_zlb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

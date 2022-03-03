@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1860</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：1208年 or 1209年？クロアチア語要約の西暦と照合させるなど要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1390/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1390/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8590b7bd41a5d3fba9d10f3d01f574e76f25b0ce.jpg"/>
+<zone lrx="1573" lry="2863" ulx="273" uly="172" xml:id="zone_hmk_msv_cjb"/>
+<zone lrx="722" lry="2802" ulx="332" uly="2592" xml:id="zone_phm_nsv_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1390/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/74573c746c7e7e570afee7be97519485f50c95f1.jpg"/>
+<zone lrx="1750" lry="1322" ulx="678" uly="838" xml:id="zone_gv3_psv_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_hmk_msv_cjb" type="iʿlām">
+<p>
+<lb/>... fī <date cert="medium" type="created" when="1794-10-18" when-custom="1209-03-24">24 Ra sene 1209</date><lb/>
+</p>
+<div2 facs="#zone_phm_nsv_cjb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_gv3_psv_cjb" type="summary_Croatian">
+<p>
+<lb/>na ... <date type="summary_Croatian" when="1793">1793</date><lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

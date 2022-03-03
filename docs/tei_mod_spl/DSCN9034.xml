@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9034</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1961/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1961/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/446796e6d3929a9016c8cbab2b375411dd8159c9.jpg"/>
+<zone lrx="295" lry="2433" ulx="50" uly="2172" xml:id="zone_nzs_yhp_xkb"/>
+<zone lrx="2282" lry="1589" ulx="1296" uly="649" xml:id="zone_uzs_zhp_xkb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1961/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/94fa0918bba3fb45d6c9b5f110a54d6304d03f8c.jpg"/>
+<zone lrx="2400" lry="3125" ulx="142" uly="1050" xml:id="zone_gt2_b3p_xkb"/>
+<zone lrx="658" lry="2667" ulx="429" uly="2291" xml:id="zone_x3k_c3p_xkb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_gt2_b3p_xkb" next="#zone_uzs_zhp_xkb" type="EMIN">
+<p>
+<lb/>... fī <date type="created" when="1820-10-02" when-custom="1235-12-25">25 Z sene 235</date><lb/>
+</p>
+<div2 facs="#zone_x3k_c3p_xkb" type="sign">
+<p>
+<lb/>... <lb/>
+</p>
+<div3 facs="#zone_nzs_yhp_xkb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_uzs_zhp_xkb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1848">1848</date> ...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

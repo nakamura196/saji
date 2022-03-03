@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0595</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2999/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2999/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e44c3fa6eacc1050b7eb74fafcfc76860ce79383.jpg"/>
+<zone lrx="2325" lry="3000" ulx="175" uly="91" xml:id="zone_mts_5sj_2mb"/>
+<zone lrx="574" lry="2972" ulx="341" uly="2645" xml:id="zone_rx1_wsj_2mb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2999/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/91a8535eeae91af3d0df28d7a13ef14956fd0c91.jpg"/>
+<zone lrx="2712" lry="1155" ulx="250" uly="766" xml:id="zone_ssd_ysj_2mb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2999/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/bac002a28f0aa498761413d7622fe26616366a2a.jpg"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_mts_5sj_2mb" next="#zone_ssd_ysj_2mb" subtype="temessük" type="EMIN">
+<p>
+<lb/>
+<lb/>temessük virildi hurira fī <date type="created" when="1821-04-23" when-custom="1236-07-21">21 B sene 236</date>
+</p>
+<div2 facs="#zone_rx1_wsj_2mb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_ssd_ysj_2mb" type="summary_Croatian">
+<p>
+<lb/>
+<lb/>... <date type="summary_Croatian" when="1826">1826</date> ...
+        </p>
+</div1>
+</body>
+</text>
+</TEI>

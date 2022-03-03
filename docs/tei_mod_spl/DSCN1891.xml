@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1891</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1421/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1421/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f6c60878a1b71ad8922f9293724a8ba562950a60.jpg"/>
+<zone lrx="1954" lry="3145" ulx="273" uly="345" xml:id="zone_jhv_4ww_cjb"/>
+<zone lrx="1750" lry="3082" ulx="1580" uly="2912" xml:id="zone_lyj_qww_cjb"/>
+<zone lrx="1729" lry="3068" ulx="1600" uly="2962" xml:id="zone_wkx_qww_cjb"/>
+<zone lrx="1453" lry="3072" ulx="1257" uly="2917" xml:id="zone_glp_rww_cjb"/>
+<zone lrx="1103" lry="3117" ulx="913" uly="2852" xml:id="zone_wrd_sww_cjb"/>
+<zone lrx="1101" lry="3117" ulx="936" uly="2973" xml:id="zone_lss_sww_cjb"/>
+<zone lrx="753" lry="3089" ulx="574" uly="2874" xml:id="zone_i43_tww_cjb"/>
+<zone lrx="746" lry="3084" ulx="581" uly="2949" xml:id="zone_dkb_5ww_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1421/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/006a69b668ddc0a2830d0d5967fcd52030458d4f.jpg"/>
+<zone lrx="2956" lry="1805" ulx="256" uly="611" xml:id="zone_u3j_vww_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_jhv_4ww_cjb" type="ʿilmühaber_tapu_senedi">
+<p>
+<lb/>... fī <date type="created" when-custom="12xx-xx-xx"> sene 12[空欄]</date>
+<lb/>
+</p>
+<div2 facs="#zone_lyj_qww_cjb" type="sign">
+<p>
+<lb/>...
+						<lb/>
+</p>
+<div3 facs="#zone_wkx_qww_cjb" type="stamp">
+<p>
+<lb/>...
+							<lb/>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_glp_rww_cjb" type="sign">
+<p>
+<lb/>...
+						<lb/>
+</p>
+</div2>
+<div2 facs="#zone_wrd_sww_cjb" type="sign">
+<p>
+<lb/>...
+						<lb/>
+</p>
+<div3 facs="#zone_lss_sww_cjb" type="stamp">
+<p>
+<lb/>...
+							<lb/>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_i43_tww_cjb" type="sign">
+<p>
+<lb/>...
+						<lb/>
+</p>
+<div3 facs="#zone_dkb_5ww_cjb" type="stamp">
+<p>
+<lb/>...
+							<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_u3j_vww_cjb" type="summary_Croatian">
+<p>
+<lb/>...
+					<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

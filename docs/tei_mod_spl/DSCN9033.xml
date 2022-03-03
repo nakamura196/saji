@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9033</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1960/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1960/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/53b85b9859713d84dee222a082ed8b0243143f3c.jpg"/>
+<zone lrx="2150" lry="3000" ulx="133" uly="908" xml:id="zone_s4c_jhp_xkb"/>
+<zone lrx="464" lry="2975" ulx="158" uly="2495" xml:id="zone_q23_khp_xkb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_s4c_jhp_xkb" subtype="zabt_temessük" type="EMIN">
+<p>
+<lb/>işbu <date type="created" when="1830-06-20" when-custom="1245">bin iki yüz kırk beş senesinde</date> der ...<lb/>
+</p>
+<div2 facs="#zone_q23_khp_xkb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

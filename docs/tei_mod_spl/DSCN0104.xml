@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0104</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">複数のズィンミーに対する、森林(?)・果樹園・ミュルク地などの土地の売買(beyʿ)契約</note>
+<note type="mine">【要】再撮影：署名の裏にスタンプがあるようだが、裏面画像には写っていないので再撮影する。</note>
+<note type="mine">【要】スペルミスが非常に多いので、まずは意味をとるために転写を差し引いて行った。後々、原綴りを再現して、誤っている個所にタグ付けをする？</note>
+<note type="mine">【要】listPerson, listRelation, listPlaceなどを作成する</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1588/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1588/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b4f517581bccaf8d6961c5ffa207c56a755177e7.jpg"/>
+<zone lrx="2336" lry="3072" ulx="82" uly="81" xml:id="zone_azy_lv5_2jb"/>
+<zone lrx="655" lry="2968" ulx="356" uly="2623" xml:id="zone_ynz_mv5_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_azy_lv5_2jb" type="EMIN_zabt_tezkire">
+<p>
+<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf <sic>aldır</sic><corr>oldur</corr> ki işbu <date type="created" when="1773-03-22" when-custom="1186">bin yüz seksen altı senesinde</date> der ʿuhde ve
+					iltizāmımızdan <sic>bulunun</sic><corr>bulunan</corr>
+<lb/><placeName type="proper">Kirşevo</placeName> mukātaʿasına tābiʿ <placeName cert="unknown" type="proper">KOYSNA</placeName> karyesinde bir mikdār bağçe ve olman(?) ve bostanlık
+					<lb/>ve mülk-i emlāk ve değirmende sekiz ... hāssa ve gāyede sekiz ... hāssa ve koruda(?)
+					<lb/>hāssasıyla zimmī <persName>İstepan VİRLİÇ</persName> mutasarrıfnda ... işbu
+					<lb/>sāhibi'l-hurūf zimmī <persName>ʿAnton</persName> ve karındaş[ı] <persName>Īvān</persName> ve <persName>MATO veledān-ı Luka</persName> nāmān kimesnelere
+					<lb/>altımış guruş mukābelesinde beyʿ-i katʿiyle beyʿ edüb ol dahi beyʿ ve kabūl
+					<lb/>edüb biz dahi beyʿlerine cāiz görüb ve yedine işbu zabt-ı tezkire <sic>viraldi</sic><corr>virildi</corr>
+<lb/>tasarrıfına bir kimesne māniʿ ve müdāhale olunmaya
+				</p>
+<div2 facs="#zone_ynz_mv5_2jb" type="sign">
+<p>
+<lb/>... Emīn-i
+						<lb/>mukātaʿ-i Kirşevo
+						<lb/>hālā
+					</p>
+</div2>
+<div2 type="şühūdu'l-hāl">
+<p>
+<lb/>NUVASI Zāde Süyeyman Ağa
+						<lb/>HAŞLIK Sālih Paşa
+						<lb/>İsmāʿil Solak ʿan LAPNIÇE
+						<lb/>PRANOKOŞU KOPK
+						<lb/>Peter PODO
+						<lb/>Īvān veled-i ROK
+						<lb/>Īvān YOK
+						<lb/>MATO LALK </p>
+</div2>
+</div1>
+</body>
+<back>
+<listPerson>
+<person xml:id="">
+<persName/>
+<occupation/>
+<occupation/>
+<socecStatus/>
+<state/>
+<state/>
+</person>
+</listPerson>
+<listRelation>
+<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
+<relation active="#" name="beyʿ" passive="#"/>
+<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
+<relation active="#" name="issue" passive="#"/>
+</listRelation>
+</back>
+</text>
+</TEI>

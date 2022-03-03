@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9201</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2126/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2126/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b81140f8575b1923e77585290309207ce1c832a3.jpg"/>
+<zone lrx="1854" lry="3081" ulx="291" uly="190" xml:id="zone_f1v_xnt_klb"/>
+<zone lrx="1517" lry="2662" ulx="1038" uly="2220" xml:id="zone_lnc_znt_klb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_f1v_xnt_klb" type="cizye_senedi">
+<p>
+<lb/>...<lb/>
+</p>
+<div2 facs="#zone_lnc_znt_klb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

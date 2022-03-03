@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9136</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2063/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2063/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/56ff4035e98498c21776ebd4927103448f9d426b.jpg"/>
+<zone lrx="913" lry="1920" ulx="590" uly="1643" xml:id="zone_hyl_g2k_hlb"/>
+<zone lrx="2860" lry="1073" ulx="386" uly="803" xml:id="zone_mdk_h2k_hlb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2063/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f6a94076001022ab6ad30596c275d93f861a01b6.jpg"/>
+<zone lrx="1700" lry="2827" ulx="82" uly="190" xml:id="zone_ccc_j2k_hlb"/>
+<zone lrx="537" lry="2788" ulx="211" uly="2458" xml:id="zone_a2m_k2k_hlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ccc_j2k_hlb" next="#zone_mdk_h2k_hlb" type="mürāsele">
+<p>
+<lb/>... fī <date type="created" when="1780-04-01" when-custom="1194-03-27">27 Ra sene 194</date><lb/>
+</p>
+<div2 facs="#zone_a2m_k2k_hlb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_hyl_g2k_hlb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_mdk_h2k_hlb" type="summary_Serbian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

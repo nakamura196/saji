@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0499</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 6" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2906/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2906/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e9d5e3dcbc4f7146569997c91956d2240309c571.jpg"/>
+<zone lrx="1573" lry="3172" ulx="409" uly="381" xml:id="zone_sjy_3sc_2mb"/>
+<zone lrx="1123" lry="948" ulx="583" uly="409" xml:id="zone_gf2_4sc_2mb"/>
+<zone lrx="930" lry="937" ulx="751" uly="769" xml:id="zone_xzd_psc_2mb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2906/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/67bd25062ce7a2032d88ba46a67438e5695a5340.jpg"/>
+<zone lrx="2800" lry="1272" ulx="434" uly="572" xml:id="zone_u4s_2tc_2mb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_sjy_3sc_2mb" next="#zone_u4s_2tc_2mb" type="hüccet">
+<p>
+<lb/>
+<lb/>ve hurira <date type="created" when="1769-03-25" when-custom="1182-11-18">fi'l-yevmi'l-sāmin ʿaşr min Zı'l-kaʿda sene isnain ve semanin ve mie ve elif</date>
+</p>
+<div2 facs="#zone_gf2_4sc_2mb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_xzd_psc_2mb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_u4s_2tc_2mb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1769">1769</date> ...
+          <lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1921</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】DSCN1921.JPGは、DSCN1925.JPGの写しの可能性あり。要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1451/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1451/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a402f08eeb756e7960fc3479442ff8c976319373.jpg"/>
+<zone lrx="1873" lry="3127" ulx="491" uly="81" xml:id="zone_yfl_l5x_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1451/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/347186aa4a7152f5d0a828efb6102ca777bb750b.jpg"/>
+<zone lrx="962" lry="1116" ulx="304" uly="391" xml:id="zone_efl_n5x_cjb"/>
+<zone lrx="887" lry="1079" ulx="629" uly="875" xml:id="zone_w5z_n5x_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1451/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5f4c244b6d5e351e8fb3e3e78c06709273b39241.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1451/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/0c3b95d6daf9fd16b55347006fd93629c4b9227b.jpg"/>
+<zone lrx="3200" lry="2207" ulx="80" uly="560" xml:id="zone_mzk_p5x_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_yfl_l5x_cjb" type="hüccet_sūret">
+<p>
+<lb/>... fī <date type="created" when="1841-01-01" when-custom="1256-11-09">yevmi'l-tāsiʿ min şehr Zi'l-kaʿade sene
+                  sitte ve hamsīn ve mieteyn<lb/>
+<lb/>ve elif</date><lb/>
+</p>
+<div2 facs="#zone_efl_n5x_cjb" type="sign_sūret">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_w5z_n5x_cjb" type="stamp_sūret">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_mzk_p5x_cjb" type="summary_Croatian">
+<p>
+<lb/><date type="summary_Croatian" when="1841">1841</date>.<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

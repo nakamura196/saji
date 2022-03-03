@@ -32,6 +32,15 @@ def getMetadata(metadata_org):
 
         else:
 
+            # 人物・地名
+            if key == "persName" or key == "placeName":
+                values = []
+
+                for obj in value:
+                    values.append(obj["text"])
+
+                value = values
+
             # 日時
             if key == "date":
                 values = []

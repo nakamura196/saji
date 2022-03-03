@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9039</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1966/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1966/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/71a7acf3a97e8dec2615a396818af3f32292daca.jpg"/>
+<zone lrx="341" lry="1050" ulx="104" uly="833" xml:id="zone_xpj_tlp_xkb"/>
+<zone lrx="2221" lry="2462" ulx="2008" uly="1700" xml:id="zone_etd_5lp_xkb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1966/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b08df793677b73f41af31085e24eb556aafc53c5.jpg"/>
+<zone lrx="1862" lry="2338" ulx="116" uly="-7" xml:id="zone_x3t_vlp_xkb"/>
+<zone lrx="471" lry="2293" ulx="181" uly="1912" xml:id="zone_yzt_wlp_xkb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_x3t_vlp_xkb" next="#zone_etd_5lp_xkb" subtype="edā_tahvīl" type="EMIN">
+<p>
+<lb/>... işbu <date type="created" when="1835-04-27" when-custom="1250">bin
+          <lb/>iki yüz elli senesinin</date>
+</p>
+<div2 facs="#zone_yzt_wlp_xkb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_xpj_tlp_xkb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_etd_5lp_xkb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1875">1875</date>.<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2406</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2734/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2734/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7d428307f2ceb14831ba1b6821104bdfeec1b89a.jpg"/>
+<zone lrx="1808" lry="2761" ulx="339" uly="146" xml:id="zone_rrp_nct_dmb"/>
+<zone lrx="807" lry="2686" ulx="511" uly="2411" xml:id="zone_ff2_pct_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_rrp_nct_dmb" type="unknown">
+<p>
+<lb/>... hurira fī <date type="created" when="1803-08-17" when-custom="1218-04">şehr Rebī'ü'l-āhir sene 1218</date><lb/>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_ff2_pct_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

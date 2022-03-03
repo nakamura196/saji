@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2279</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2607/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2607/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/632bf0b44c0229890759df679426d83755d198ec.jpg"/>
+<zone lrx="1725" lry="2933" ulx="158" uly="1208" xml:id="zone_nd5_gfg_dmb"/>
+<zone lrx="560" lry="2744" ulx="187" uly="2385" xml:id="zone_ihd_3fg_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2607/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/abe470c0df56dbe0c834ce61b7576cb2c0762f4b.jpg"/>
+<zone lrx="1040" lry="1092" ulx="735" uly="819" xml:id="zone_zsc_nfg_dmb"/>
+<zone lrx="2163" lry="3000" ulx="452" uly="2737" xml:id="zone_try_nfg_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_nd5_gfg_dmb" next="#zone_try_nfg_dmb" type="mürāsele">
+<p>
+<lb/>hurira fī <date type="created" when="1773-07-04" when-custom="1187-04-14">14 Rebī'ü'l-āhir sene 1187</date><lb/>
+</p>
+<div2 facs="#zone_ihd_3fg_dmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_zsc_nfg_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_try_nfg_dmb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

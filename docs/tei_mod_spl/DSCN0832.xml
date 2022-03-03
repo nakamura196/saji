@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0832</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 8" ], "saji:memo": [ "典型" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3222/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/3222/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2833d7a828fe1c8fa6c37e23a67369335733e43e.jpg"/>
+<zone lrx="1900" lry="2815" ulx="100" uly="1653" xml:id="zone_hml_vfr_2mb"/>
+<zone lrx="479" lry="2743" ulx="150" uly="2517" xml:id="zone_j1n_wfr_2mb"/>
+<zone lrx="1132" lry="1505" ulx="132" uly="305" xml:id="zone_emx_ggr_2mb"/>
+<zone lrx="2253" lry="1747" ulx="890" uly="1294" xml:id="zone_hgt_hgr_2mb"/>
+<zone lrx="1635" lry="1721" ulx="1509" uly="1611" xml:id="zone_yby_3gr_2mb"/>
+<zone lrx="2145" lry="1419" ulx="1213" uly="535" xml:id="zone_jyj_4gr_2mb"/>
+<zone lrx="2190" lry="861" ulx="1152" uly="83" xml:id="zone_gyw_rgr_2mb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/3222/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9312a29619847296384a4c67a1c92eba322268e3.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/3222/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/edb81ef44f94f64a743b32a239531ff0d68f9250.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/3222/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/5b31ec0d6d00657acc4319458dc3ea3b102dd4f2.jpg"/>
+<zone lrx="2850" lry="1577" ulx="212" uly="1144" xml:id="zone_ird_5gr_2mb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_hml_vfr_2mb" next="#zone_emx_ggr_2mb" type="ʿarz-ıhāl">
+<p>
+<lb/>...<lb/>
+</p>
+<div2 facs="#zone_j1n_wfr_2mb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_emx_ggr_2mb" next="#zone_hgt_hgr_2mb" type="buyuruldu">
+<p>
+<lb/>
+<lb/>... fī <date cert="medium" type="created" when="1833-10-13" when-custom="1249-05-29">29 Ca sene 49</date>
+</p>
+</div1>
+<div1 facs="#zone_hgt_hgr_2mb" next="#zone_jyj_4gr_2mb" type="iʿlām_maʿrūz">
+<p>
+<lb/>
+<lb/>... fī <date type="created" when="1834-05-02" when-custom="1249-12-23">23 Z sene 49</date>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_yby_3gr_2mb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_jyj_4gr_2mb" next="#zone_gyw_rgr_2mb" type="buyuruldu">
+<p>
+<lb/>
+<lb/>... fī <date type="created" when="1834-05-15" when-custom="1250-01-07">7 Muharrem sene 250</date>
+</p>
+</div1>
+<div1 facs="#zone_gyw_rgr_2mb" type="buyuruldu">
+<p>
+<lb/>
+<lb/>... fī <date cert="low" type="created" when="1836-12-08" when-custom="1252-08-29">29 Ş sene 252</date>
+</p>
+</div1>
+<div1 facs="#zone_ird_5gr_2mb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

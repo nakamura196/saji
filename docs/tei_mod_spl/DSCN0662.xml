@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0662</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">国内の通行許可証 mürūr tezkiresi</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 7" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3066/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/3066/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/587cf5a46a4d6f906ef709657aeb9249e5995e9f.jpg"/>
+<zone lrx="2170" lry="3250" ulx="230" uly="40" xml:id="zone_dnj_bfq_2mb"/>
+<zone lrx="1273" lry="2771" ulx="965" uly="2485" xml:id="zone_llt_gfq_2mb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_dnj_bfq_2mb" subtype="mürūr" type="tezkire">
+<p>
+<lb/>... fī <date type="created" when="1858-06-21" when-custom="1274-11-10">10 Za sene 74</date><lb/>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_llt_gfq_2mb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

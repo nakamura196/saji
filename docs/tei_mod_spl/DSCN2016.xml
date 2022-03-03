@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2016</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2346/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2346/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2676aaf4b753ee956d35ca44e25fadda9e251622.jpg"/>
+<zone lrx="1957" lry="2521" ulx="214" uly="892" xml:id="zone_dlg_mbx_zlb"/>
+<zone lrx="753" lry="2434" ulx="424" uly="2157" xml:id="zone_hyt_nbx_zlb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2346/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2b744420ecd7e4c219641473d7942e650e687fd2.jpg"/>
+<zone lrx="2279" lry="716" ulx="721" uly="470" xml:id="zone_ljb_pbx_zlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_dlg_mbx_zlb" next="#zone_ljb_pbx_zlb" type="tezkire">
+<p>
+<lb/>... fī <date type="created" when="1758-09-02" when-custom="1171">sene 1171</date><lb/>
+</p>
+<div2 facs="#zone_hyt_nbx_zlb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_ljb_pbx_zlb" type="unkown">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

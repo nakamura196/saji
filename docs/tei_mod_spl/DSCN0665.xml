@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0665</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">1181年の教会火事に関する調査結果。</note>
+<note type="mine">DSCN2401.JPGと同じ火事。その2年2か月後の調査であると思われる。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 7" ], "saji:memo": [ "典型" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3069/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/3069/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c63c3bba0a58dd7fe323aa89ec999f0cffca4834.jpg"/>
+<zone lrx="2180" lry="3250" ulx="1000" uly="40" xml:id="zone_l2h_1jq_2mb"/>
+<zone lrx="1603" lry="3209" ulx="1425" uly="3055" xml:id="zone_vhx_cjq_2mb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/3069/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/53f7d63d84857415441f4bf625784ac10e01846d.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/3069/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/901a889825a3ed09b4622274b5f39cfa6c3d2a77.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/3069/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/b9444a12350e15696e9ce1c87bb4b3bc1a1248db.jpg"/>
+<zone lrx="3184" lry="888" ulx="384" uly="466" xml:id="zone_rkk_4jq_2mb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_l2h_1jq_2mb" next="#zone_rkk_4jq_2mb" subtype="keşf" type="defter">
+<p>
+<lb/>
+<lb/>... hurira <date type="created" when="1767-06-18" when-custom="1181-01-21">fi'l-yevmi'l-hādā ve'l-ʿaşrīn min Muharremi'l-harām sene 1181</date>
+</p>
+<div2 type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_vhx_cjq_2mb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_rkk_4jq_2mb" type="summary_Croatian">
+<p>
+<lb/><date type="summary_Croatian" when="1767">1767</date> ... 
+          <lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

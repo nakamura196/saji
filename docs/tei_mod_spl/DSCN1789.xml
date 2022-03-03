@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1789</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1320/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1320/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0c84dbc5b3b08feda84616755cf4d0f15dcbc6aa.jpg"/>
+<zone lrx="2050" lry="3166" ulx="283" uly="50" xml:id="zone_gqd_1x3_cjb"/>
+<zone lrx="1551" lry="965" ulx="789" uly="336" xml:id="zone_fxf_bx3_cjb"/>
+<zone lrx="1239" lry="2944" ulx="959" uly="2666" xml:id="zone_bhd_cx3_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1320/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a4dcc2aae63c21f35dcecbf4aa21417387e4ccd3.jpg"/>
+<zone lrx="1950" lry="704" ulx="671" uly="233" xml:id="zone_tz1_2x3_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1320/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/b6c148ab5b56ca6fadf41291495f245ff51bd631.jpg"/>
+<zone lrx="3189" lry="1166" ulx="528" uly="600" xml:id="zone_grs_fx3_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1320/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/7606b0217801ca8600593726453e9407d4e9e3d1.jpg"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_gqd_1x3_cjb" type="tapu_senedi">
+<p>
+<lb/>... fī <date type="created" when="1864-09-06" when-custom="1281-04-05">5 Rebī'ü'l-āhir sene1281</date><lb/>
+</p>
+<div1 facs="#zone_fxf_bx3_cjb" type="tuğura">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+<div3 facs="#zone_bhd_cx3_cjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div1>
+<div1 facs="#zone_grs_fx3_cjb" type="unkown">
+<p>
+<lb/>... 867<lb/>
+</p>
+</div1>
+<div1 facs="#zone_tz1_2x3_cjb" type="summary_Croatian">
+<p>
+<lb/>Na ... <date type="summary_Croatian" when="1863">1863</date>.<lb/>
+<lb/><date type="summary_Croatian" when="1864-08-31" when-custom="1281-03">Rebijul evel 1281.</date><lb/>
+<lb/>Nno 38.<lb/>
+<lb/>129<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

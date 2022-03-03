@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1955</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1485/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1485/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/446399bdbe93a6f50d24c7d2a5c390add90e7c73.jpg"/>
+<zone lrx="2100" lry="3100" ulx="360" uly="200" xml:id="zone_m12_4l2_djb"/>
+<zone lrx="1665" lry="1089" ulx="828" uly="377" xml:id="zone_qwp_pl2_djb"/>
+<zone lrx="1483" lry="2833" ulx="1171" uly="2537" xml:id="zone_c2m_vl2_djb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1485/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2805f44abcf8e6b32f2d1fd316dded4e39bd87a9.jpg"/>
+<zone lrx="1825" lry="325" ulx="1566" uly="50" xml:id="zone_pzm_rl2_djb"/>
+<zone lrx="2195" lry="2973" ulx="2058" uly="2874" xml:id="zone_jtw_sl2_djb"/>
+<zone lrx="2012" lry="3000" ulx="1229" uly="1862" xml:id="zone_tmr_tl2_djb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_m12_4l2_djb" type="tapu_senedi">
+<p>
+<lb/>... fī <date type="created" when="1866-06-12" when-custom="1283-01-29">29 Muharrem sene 1283</date><lb/>
+</p>
+<div1 facs="#zone_qwp_pl2_djb" type="tuğra">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+<div3 facs="#zone_c2m_vl2_djb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div1>
+<div1 cert="unknown" facs="#zone_pzm_rl2_djb" type="note">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+<div1 cert="unknown" facs="#zone_jtw_sl2_djb" type="note">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+<div1 facs="#zone_tmr_tl2_djb" type="summary_Croatian">
+<p>
+<lb/>... <lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

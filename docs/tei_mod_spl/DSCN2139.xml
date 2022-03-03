@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2139</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2467/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2467/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3933591d236232534ea277660b91d27d242e4cd0.jpg"/>
+<zone lrx="2050" lry="2991" ulx="75" uly="175" xml:id="zone_ttw_33k_cmb"/>
+<zone lrx="436" lry="2974" ulx="101" uly="2742" xml:id="zone_kq2_k3k_cmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2467/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c072b6934240174fc73846e5186a91daa073a1b9.jpg"/>
+<zone lrx="483" lry="691" ulx="237" uly="460" xml:id="zone_hbz_m3k_cmb"/>
+<zone lrx="1843" lry="2226" ulx="212" uly="1069" xml:id="zone_hfz_n3k_cmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ttw_33k_cmb" next="#zone_hfz_n3k_cmb" subtype="unkown" type="EMIN">
+<p>
+<lb/>... işbu <date type="created" when="1772-04-02" when-custom="1185">bin yüz seksen beş senesinde</date>
+<lb/>der ...
+        </p>
+<div2 facs="#zone_kq2_k3k_cmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_hbz_m3k_cmb" type="stamp">
+<p>
+<lb/>... <lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_hfz_n3k_cmb" type="summary_Croatian">
+<p>
+<lb/>...
+          <lb/>Nno 20.
+        </p>
+</div1>
+</body>
+</text>
+</TEI>

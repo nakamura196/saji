@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0245</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1724/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1724/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3e8bd027a0250d2e1682dec8c613b854dccbe9a0.jpg"/>
+<zone lrx="2254" lry="2746" ulx="8" uly="1207" xml:id="zone_zcq_5gk_kjb"/>
+<zone lrx="535" lry="2525" ulx="215" uly="2197" xml:id="zone_rqx_vgk_kjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_zcq_5gk_kjb" type="tezkire">
+<p>
+<lb/>Hālā <placeName>Kirşevo</placeName> kilisada gardiyāna ... islām ... olunur ki
+					<lb/>bāis-i tezkire budur ki bu defaʿ ... zimmī ... yedile tarafınıza beş yüz seksen
+					<lb/>
+<lb/>
+</p>
+<div2 facs="#zone_rqx_vgk_kjb" type="sign">
+<p>
+<lb/>...
+						<lb/>
+<lb/>
+</p>
+</div2>
+<div2 cert="low" type="şühūdu'l-hāl">
+<p>
+<lb/>...
+						<lb/>
+<lb/>
+<lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0257</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">土地売却および徴税権の移譲 bey ve iltizām</note>
+<note type="summary">非ムスリムの田、牧草地の、クレシェヴォ修道院の修道士に対する売却に関する承認文書、またそこからの徴税権の承認文書</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1736/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1736/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ba955c9e17e4d6508462b439d6bc5df85c4ad9e8.jpg"/>
+<zone lrx="1867" lry="2975" ulx="67" uly="150" xml:id="zone_ixl_grt_xjb"/>
+<zone lrx="562" lry="2848" ulx="291" uly="2551" xml:id="zone_rg4_hrt_xjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1736/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/291187d8d2a9b026df130143f8c7031b8f663a37.jpg"/>
+<zone lrx="721" lry="904" ulx="500" uly="691" xml:id="zone_smh_jrt_xjb"/>
+<zone lrx="1541" lry="3070" ulx="1316" uly="2950" xml:id="zone_t5x_jrt_xjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ixl_grt_xjb" type="EMIN_zabat_temessük">
+<p>
+<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>işbu <date when="1810-02-03" when-custom="1224">bin iki yüz iğirmi dört senesinin</date> der ʿuhde ve iltizāmımızda bulunan <placeName>Kirşevo</placeName>
+<lb/>mukātaʿası hudūduna dāhil GARAD ve LUYATA ve RAVNA ve ZAPUN ce DUBUNİÇE ve OKBİÇ
+					<lb/>-dan iştirā eyledilkeri İSTERANA demekle nāmūn tarlaları ve çayırları işbu dārende-i
+					<lb/>hurūf <placeName>Kirşevo</placeName> kilisanın rāhiblerinin ʿalākası olmağala mesfūr anlara mezkūr
+					<lb/>tarlalarının ve çayırların ʿöşr mahsūlātını ... tapu yüz yiğirmi
+					<lb/>asadī(?) guruş bedel mukābelesinde beyʿ ve iltizām edüb mesfūrān dahi
+					<lb/>der ʿuhde ve kabūl etmekle işbu zabt temessük mesfūr anlardan yedine
+					<lb/>iʿtā olundu mezkūr ʿöşr mahsūlātını ahz ve kabz ve ...
+					<lb/>tarafımızdan ve taraf-ı āhardan kimesne māniʿ olmaya
+					<lb/>... fī <date type="created" when="1809-03-14" when-custom="1224-01-28">28 M sene 224</date>
+</p>
+<div2 facs="#zone_rg4_hrt_xjb" type="sign">
+<p>
+<lb/>El-hakīr
+						<lb/>Emīn Mehmed
+						<lb/>Kirşevo
+						<lb/>Emīn
+					</p>
+<div3 facs="#zone_smh_jrt_xjb" type="stamp">
+<p>
+<lb/>Mehmed Emīn
+						</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_t5x_jrt_xjb" type="summary_Croatian">
+<p>
+<lb/><date type="summary_Croatian" when="1809">1809</date>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

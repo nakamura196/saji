@@ -32,7 +32,7 @@ def handleFile(file):
     
     return copy.deepcopy(item.convert2json())
 
-dirname = "tei_mod"
+dirname = "tei_mod_spl"
 dir = "../docs/"+dirname
 files = glob.glob(dir+"/*.xml")
 

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2094</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2423/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2423/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3ada7895016eb945862bfd8fd3c318a1db3d58b6.jpg"/>
+<zone lrx="1806" lry="2800" ulx="312" uly="1258" xml:id="zone_pq3_cv5_bmb"/>
+<zone lrx="1006" lry="2781" ulx="451" uly="2406" xml:id="zone_mth_dv5_bmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2423/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d26a11e45e932e2bdb2db51ba82cf91ee1fba30a.jpg"/>
+<zone lrx="2878" lry="1344" ulx="373" uly="794" xml:id="zone_ozv_2v5_bmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_pq3_cv5_bmb" next="#zone_ozv_2v5_bmb" type="mürāsele">
+<p>
+<lb/>...hurira fī <date cert="low" type="created" when="1782-10-19" when-custom="1196-11-13">13 Za sene 1196</date><lb/>
+</p>
+<div2 facs="#zone_mth_dv5_bmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_ozv_2v5_bmb" type="summary_Croatian">
+<p>
+<lb/>... 
+          <lb/><date type="summary_Croatian" when="1782">1782</date>.
+        </p>
+</div1>
+</body>
+</text>
+</TEI>

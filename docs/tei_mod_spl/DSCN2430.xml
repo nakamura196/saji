@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2430</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2758/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2758/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f5a11416ece7dcc02cbccff2c2a11324e93f6043.jpg"/>
+<zone lrx="1685" lry="2749" ulx="185" uly="614" xml:id="zone_qkr_sbv_dmb"/>
+<zone lrx="829" lry="2697" ulx="525" uly="2406" xml:id="zone_rfy_tbv_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_qkr_sbv_dmb" type="mürāsele">
+<p>
+<lb/>...
+          <lb/>... fī <date type="created" when="1813-08-08" when-custom="1228-08-11">11 Ş sene 1228</date>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_rfy_tbv_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

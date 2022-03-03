@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0984</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">DSCN1027.JPGと同じ画像・文書。重複している。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+          "1181-M-21" ], "saji:date_M": [ "1767-06-19" ], "saji:foldingMethod": [ "4x2" ],
+          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [
+          "・hüve\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・日付\r\n・署名(?)" ], "saji:lang": [ "ota" ], "saji:lineage":
+          [ "11+2" ], "saji:memo": [ "・非常にきれいな文字で書かれているので読みやすそう。読解の参考にする。" ], "saji:number": [ "155"
+          ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [
+          "0" ], "saji:witness": [ "0" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1100/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1100/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/55113562a04282e5a23c5b9ca4551fd92831905b.jpg"/>
+<zone lrx="1830" lry="3120" ulx="120" uly="50" xml:id="zone_mcq_njf_z3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1100/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6d170e640c373c5216c3997919666ff98005ffc9.jpg"/>
+<zone lrx="2717" lry="1222" ulx="134" uly="1027" xml:id="zone_wsh_qjf_z3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1100/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5ea2e011791322b03d7caefe7a982f8c803323b6.jpg"/>
+<zone lrx="1806" lry="2806" ulx="1640" uly="2668" xml:id="zone_fgg_sjf_z3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1100/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/eb2fade78aa55df8ed3c92c4b41e269c632ca378.jpg"/>
+<zone lrx="1792" lry="3058" ulx="158" uly="91" xml:id="zone_v4v_z43_1jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1100/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/2f062947b8a60262a80a7bbe7a1c5afecf3a702d.jpg"/>
+<zone lrx="2867" lry="1233" ulx="62" uly="994" xml:id="zone_nwd_bp3_1jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1100/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/9d334cdcc36ba58f90264dbaecc585e5c2c47910.jpg"/>
+<zone lrx="679" lry="579" ulx="500" uly="416" xml:id="zone_txl_cp3_1jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="medium" facs="#zone_mcq_njf_z3b" type="mürāsele">
+<l>fī <date type="created" when="1767-06-18" when-custom="1181-01-21">21 M 1181</date></l>
+</div1>
+<div3 facs="#zone_fgg_sjf_z3b" type="stamp"/>
+<div1 facs="#zone_wsh_qjf_z3b" type="summary_Croatian">
+<l><date type="summary_Croatian" when="1767">1767</date> ... </l>
+</div1>
+<div1 cert="medium" facs="#zone_v4v_z43_1jb" type="mürāsele">
+<p>
+<lb/>fī <date type="created" when="1767-06-18" when-custom="1181-01-21">21 M 1181</date><lb/>
+</p>
+</div1>
+<div3 facs="#zone_txl_cp3_1jb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+<div1 facs="#zone_nwd_bp3_1jb" type="summay_Crotatioan">
+<p>
+<lb/><date type="summary_Croatian" when="1767">1767</date> ... <lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

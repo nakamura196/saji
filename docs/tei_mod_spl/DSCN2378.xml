@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2378</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2706/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2706/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/341d7e62576da4f1de8f43bbb8372b9ffc629784.jpg"/>
+<zone lrx="2129" lry="3152" ulx="188" uly="1494" xml:id="zone_mcg_3vn_dmb"/>
+<zone lrx="558" lry="3116" ulx="194" uly="2810" xml:id="zone_jyd_lvn_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_mcg_3vn_dmb" subtype="temessük" type="EMIN">
+<p>
+<lb/>işbu <date from="1763-07-11" from-custom="1177-01-01" to="1764-06-29" to-custom="1177-12-30" type="created">bin yüz yetmiş yedi senesinin ibtidāsından sene tamāmına varınca</date> Kirşevo
+          <lb/>...
+        </p>
+<div2 facs="#zone_jyd_lvn_dmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

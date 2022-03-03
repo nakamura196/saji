@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0542</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2948/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2948/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/026452ec7624238d8c0ef0d63778fa563c940b4c.jpg"/>
+<zone lrx="2391" lry="3051" ulx="127" uly="36" xml:id="zone_fzd_tv3_2mb"/>
+<zone lrx="2070" lry="1075" ulx="1629" uly="659" xml:id="zone_nw3_vv3_2mb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_fzd_tv3_2mb" type="beyāz_üzerine_buyuruldu">
+<p>
+<lb/>
+<lb/>... fī <date type="created" when="1709-04-21" when-custom="1121-02-11">11 S sene 1121</date>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_nw3_vv3_2mb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

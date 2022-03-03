@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8982</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1910/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1910/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/43d740e613933fc7d4aa735ac4aaff030015a042.jpg"/>
+<zone lrx="837" lry="1091" ulx="596" uly="866" xml:id="zone_flt_sgs_wkb"/>
+<zone lrx="1224" lry="2951" ulx="418" uly="2755" xml:id="zone_bwz_tgs_wkb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1910/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6f35e9ade807120d7066b6f3cbf9c07efb1e0e98.jpg"/>
+<zone lrx="2307" lry="2542" ulx="143" uly="42" xml:id="zone_vcq_qgs_wkb"/>
+<zone lrx="726" lry="2507" ulx="343" uly="2019" xml:id="zone_pxt_rgs_wkb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_vcq_qgs_wkb" next="#zone_bwz_tgs_wkb" type="EMIN">
+<p>
+<lb/>... fī <date type="created" when="1828-03-13" when-custom="1243-08-27">27 Ş sene 43</date><lb/>
+</p>
+<div2 facs="#zone_pxt_rgs_wkb" type="sign">
+<p>
+<lb/>... <lb/>
+</p>
+<div3 facs="#zone_flt_sgs_wkb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_bwz_tgs_wkb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1828">1828</date>.<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

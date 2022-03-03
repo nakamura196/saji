@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9225</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2149/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2149/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/39cc9f4ef62587e97f9fe682df47fd5f652f8a81.jpg"/>
+<zone lrx="2289" lry="1616" ulx="462" uly="700" xml:id="zone_apn_lls_mlb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2149/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3203f69cbd25298cc5f11d89d9c6ac751d2c1fe9.jpg"/>
+<zone lrx="2650" lry="1927" ulx="562" uly="566" xml:id="zone_op1_nls_mlb"/>
+<zone lrx="1095" lry="1812" ulx="825" uly="1502" xml:id="zone_amh_4ls_mlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="medium" facs="#zone_op1_nls_mlb" next="#zone_apn_lls_mlb" subtype="temessük" type="EMIN">
+<p>
+<lb/>... fī <date cert="low" type="created" when="1820-10-10" when-custom="1236-01-03">3 Muharremi'l-harām sene 1236</date><lb/>
+</p>
+<div2 facs="#zone_amh_4ls_mlb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_apn_lls_mlb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1821-09-26" when-custom="1236">1236</date>.<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2122</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2451/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2451/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0dc521a2a75dd88e43999c79f2231d6ad104d585.jpg"/>
+<zone lrx="2400" lry="2963" ulx="100" uly="100" xml:id="zone_c4z_4zj_cmb"/>
+<zone lrx="888" lry="2897" ulx="429" uly="2532" xml:id="zone_kdd_c1k_cmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2451/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/5f0ed04ea1f02b30ab23824812a192ea25835a57.jpg"/>
+<zone lrx="2534" lry="1572" ulx="245" uly="744" xml:id="zone_vp5_d1k_cmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2451/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/da2d8982b77b2c9924d7ba8ffc4cf221d01dc813.jpg"/>
+<zone lrx="637" lry="739" ulx="381" uly="522" xml:id="zone_m2n_f1k_cmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_c4z_4zj_cmb" next="#zone_vp5_d1k_cmb" subtype="tapu" type="EMIN">
+<p>
+<lb/>işbu <date type="created" when="1830-06-20" when-custom="1245">bin iki yüz krık beş senesinde</date> der ... 
+          <lb/>
+</p>
+<div2 facs="#zone_kdd_c1k_cmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_m2n_f1k_cmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_vp5_d1k_cmb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1831">1831</date>.
+          <lb/>Nno 34. <date type="summary_Croatian" when="1830-06-20" when-custom="1245">1245</date>.
+        </p>
+</div1>
+</body>
+</text>
+</TEI>

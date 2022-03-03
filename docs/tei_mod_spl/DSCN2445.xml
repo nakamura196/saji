@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2445</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2773/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2773/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/99357d9433738bf32406b999ac7d95be4d521ce4.jpg"/>
+<zone lrx="1947" lry="3153" ulx="208" uly="1038" xml:id="zone_rz5_c3v_dmb"/>
+<zone lrx="720" lry="3114" ulx="310" uly="2483" xml:id="zone_oss_d3v_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2773/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7174de53010280472e60e814b39470804c7fe837.jpg"/>
+<zone lrx="3106" lry="1500" ulx="323" uly="544" xml:id="zone_x1b_f3v_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2773/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5eb36ba73594e8a72515a13af07e8fb7090cb743.jpg"/>
+<zone lrx="737" lry="316" ulx="346" uly="-12" xml:id="zone_a5j_g3v_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_rz5_c3v_dmb" next="#zone_x1b_f3v_dmb" subtype="tezkire" type="EMIN">
+<p>
+<lb/>... işbu <date type="created" when="1772-04-02" when-custom="1185">bin yüz seksen beş senesinde</date> Kirşevo
+          <lb/>...
+        </p>
+<div2 facs="#zone_oss_d3v_dmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_a5j_g3v_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_x1b_f3v_dmb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1768">1768</date>
+<lb/>...
+        </p>
+</div1>
+</body>
+</text>
+</TEI>

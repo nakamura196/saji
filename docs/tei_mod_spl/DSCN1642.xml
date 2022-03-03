@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1642</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1181/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1181/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/df5c43e19fcd514fc296b1779c39ebfb191006a1.jpg"/>
+<zone lrx="1327" lry="3127" ulx="136" uly="163" xml:id="zone_ckh_h2k_1jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1181/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ed6745e8737697480b97d66258c08dfa728ccbe8.jpg"/>
+<zone lrx="2978" lry="883" ulx="189" uly="583" xml:id="zone_k5w_32k_1jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ckh_h2k_1jb" type="iʿlām">
+<p>
+<lb/>... fī <date from="1768-12-30" from-custom="1182-08-21" to="1769-01-07" to-custom="1182-08-30" type="created">evāhir şehr Şaʿabāni'l-muʿazzam<lb/>
+<lb/>sene isnayn ve semānīn ve mie ve elifī</date><lb/>
+</p>
+</div1>
+<div1 facs="#zone_k5w_32k_1jb" type="summary_Serbian">
+<p>
+<lb/><date type="summary_Serbian" when="1769">1769</date> ...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

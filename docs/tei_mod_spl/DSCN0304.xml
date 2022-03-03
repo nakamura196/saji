@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0304</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1783/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1783/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4a49df35908c39e63d62d902acff9c0a9dd56162.jpg"/>
+<zone lrx="2300" lry="2407" ulx="135" uly="114" xml:id="zone_npj_wwn_2kb"/>
+<zone lrx="596" lry="2347" ulx="344" uly="2082" xml:id="zone_hsd_ywn_2kb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1783/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3ba1ec85756d196037d297db5eb08591582c30dd.jpg"/>
+<zone lrx="2545" lry="1344" ulx="184" uly="777" xml:id="zone_gkg_zwn_2kb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_npj_wwn_2kb" subtype="tapu_tezkire" type="EMIN">
+<p>
+<lb/>... fī <date when="1849-12-30" when-custom="1266-02-15">15 S sene 1266</date><lb/>
+</p>
+<div2 facs="#zone_hsd_ywn_2kb" type="sign">
+<p>
+<lb/>... <lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_gkg_zwn_2kb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1849">1849</date>.<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

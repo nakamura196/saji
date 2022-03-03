@@ -1,4 +1,4 @@
-from Item import Item
+from Items import Items
 import glob
 from tqdm import tqdm
 import copy
@@ -7,27 +7,37 @@ import json
 def handleFile(file):
     
     
-    item = Item(file)
+    item = Items(file)
 
     if item.skip:
         return {}
 
     item.extractDivs()
+
     '''
     item.extractMedia()
-    item.extractCreated()
-    
+    item.extractDivs()
     item.extractNotes()
     item.extractSourceDesc()
     item.attachFullText()
-    '''
-    item.extractNotes()
+    item.attachFormattedType()
+
+    # 日付関係
     item.attachDate()
     item.attachCreated()
+
+    if len(item.dateErrors) > 0:
+        dateErrors[item.convert2json()["metadata"]["title"]] = copy.deepcopy(item.dateErrors)
+
+    for type in item.missingTypes:
+        missingTypes.add(type)
     
     return copy.deepcopy(item.convert2json())
+    '''
 
-dirname = "tei3"
+    return {}
+
+dirname = "tei_mod"
 dir = "../docs/"+dirname
 files = glob.glob(dir+"/*.xml")
 
@@ -35,13 +45,10 @@ items = []
 
 for i in tqdm(range(len(files))):
     file = files[i]
+
+    if "DSCN2495" not in file:
+        continue
+
     res = handleFile(file)
     if len(res) > 0:
         items.append(res)
-
-filename = "400_test_date"
-    
-fw = open("data/{}.json".format(filename), 'w')
-json.dump(items, fw, ensure_ascii=False, indent=4,
-        sort_keys=True, separators=(',', ': '))
-fw.close()

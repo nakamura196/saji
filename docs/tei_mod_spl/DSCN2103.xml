@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2103</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2432/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2432/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d6a932430039d4c253b26b21974b9f30f8e185dc.jpg"/>
+<zone lrx="2300" lry="3081" ulx="209" uly="372" xml:id="zone_oj2_2qj_cmb"/>
+<zone lrx="720" lry="3038" ulx="370" uly="2740" xml:id="zone_o1r_fqj_cmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2432/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f7c7471f6086546db370cd1b22b9eecd4f7cf615.jpg"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_oj2_2qj_cmb" subtype="temessük" type="EMIN">
+<p>
+<lb/>...  işbu <date type="created" when="1821-09-26" when-custom="1236">bin 
+          <lb/>iki yüz otuz beş altıncı senesinde</date> ...
+        </p>
+<div2 type="sign">
+<div3 facs="#zone_o1r_fqj_cmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

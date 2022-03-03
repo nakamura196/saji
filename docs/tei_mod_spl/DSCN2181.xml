@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2181</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】画像を回転させる。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2509/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2509/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4dce4e1ae778ba06b697ca73361c6f66707adac2.jpg"/>
+<zone lrx="2111" lry="3223" ulx="766" uly="67" xml:id="zone_a5t_hky_cmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_a5t_hky_cmb" type="defter">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

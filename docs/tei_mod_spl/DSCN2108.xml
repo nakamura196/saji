@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2108</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2437/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2437/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a356ce1851a64b2266091f6fc6080544bb597feb.jpg"/>
+<zone lrx="2363" lry="3190" ulx="154" uly="163" xml:id="zone_ytx_vsj_cmb"/>
+<zone lrx="1031" lry="3010" ulx="697" uly="2494" xml:id="zone_p1h_xsj_cmb"/>
+<zone lrx="565" lry="2926" ulx="302" uly="2473" xml:id="zone_unq_ysj_cmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2437/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ce2715a8239dff946c3e20fa3e4fede3920df414.jpg"/>
+<zone lrx="3150" lry="1455" ulx="173" uly="477" xml:id="zone_khh_1tj_cmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2437/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/2c1aca2bb698f9b3afb2f573cc09e68cbc12852d.jpg"/>
+<zone lrx="1158" lry="708" ulx="850" uly="429" xml:id="zone_nvd_ctj_cmb"/>
+<zone lrx="741" lry="762" ulx="396" uly="437" xml:id="zone_u2x_ctj_cmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ytx_vsj_cmb" next="#zone_khh_1tj_cmb" subtype="tezkire" type="EMIN">
+<p>
+<lb/>... işbu <date when="1777-02-07" when-custom="1190">bin yüz dokusan senesinde</date> der ...
+          <lb/>... fī <date cert="low" type="created" when="1776-06-16" when-custom="1190-04-29">29 Rebī'ü'l-āhir sene 1190</date>
+</p>
+<div2 facs="#zone_p1h_xsj_cmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_nvd_ctj_cmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_unq_ysj_cmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_u2x_ctj_cmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_khh_1tj_cmb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

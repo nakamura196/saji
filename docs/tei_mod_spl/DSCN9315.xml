@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9315</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B?" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・表裏どちらも部分画像のみで、全体像の画像がない。\r\n・おそらくサイズ「B」の文書と推定できるが、確認のしようがないので「B?」とした。" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2239/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2239/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2546ff53bfb95cebd786813773001e7b13c4ce45.jpg"/>
+<zone lrx="2530" lry="1315" ulx="550" uly="923" xml:id="zone_ohp_j1m_ylb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2239/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/117d677dd80a6b1b2bf0aefce3cd0848c2136e5a.jpg"/>
+<zone lrx="2625" lry="2093" ulx="144" uly="412" xml:id="zone_bpq_l1m_ylb"/>
+<zone lrx="884" lry="2093" ulx="620" uly="1720" xml:id="zone_x5n_n1m_ylb"/>
+<zone lrx="522" lry="2075" ulx="257" uly="1693" xml:id="zone_v3l_41m_ylb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_bpq_l1m_ylb" next="#zone_ohp_j1m_ylb" type="tapu_nāme">
+<p>
+<lb/>... <lb/>
+</p>
+<div2 type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+<div2 type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_ohp_j1m_ylb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1831">1831</date>.
+          <lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

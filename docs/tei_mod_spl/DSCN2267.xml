@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2267</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2595/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2595/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a03680ea7eaeafaecc6c5d5d4143f7a407f52823.jpg"/>
+<zone lrx="2285" lry="2435" ulx="50" uly="628" xml:id="zone_tms_szf_dmb"/>
+<zone lrx="696" lry="2405" ulx="118" uly="1827" xml:id="zone_cxx_tzf_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_tms_szf_dmb" type="tezkire">
+<p>
+<lb/>... fī <date type="created" when="1839-05-01" when-custom="1255-02-17">17 S sene 255</date><lb/>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_cxx_tzf_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

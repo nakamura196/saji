@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2012</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2342/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2342/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2a6fa55d067bfd9b772f06d9ce08777aa5a5ad73.jpg"/>
+<zone lrx="2300" lry="3133" ulx="158" uly="100" xml:id="zone_cs5_myw_zlb"/>
+<zone lrx="528" lry="2983" ulx="233" uly="2695" xml:id="zone_ofs_4yw_zlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_cs5_myw_zlb" type="EMIN">
+<p>
+<lb/>... fī <date type="created" when="1817-05-13" when-custom="1232-06-27">27 C sene 232</date><lb/>
+</p>
+<div2 facs="#zone_ofs_4yw_zlb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

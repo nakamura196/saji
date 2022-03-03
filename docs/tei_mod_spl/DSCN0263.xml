@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0263</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">森林の共同保有 istirak mutasarrıf</note>
+<note type="mine">【要】エミンが文書を作成したと思われるが、内容が森林の共同保有だけあって契約者の署名がずらりと並んでおり、文書作成者（責任者）の署名がどれであるか判然としない。とりあえずそのうちのひとつをzoneで囲ったが要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1742/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1742/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/80b7e77c94e3de610f0d20b09d790c41f79d5db0.jpg"/>
+<zone lrx="1847" lry="2946" ulx="116" uly="200" xml:id="zone_x5j_dj5_xjb"/>
+<zone lrx="570" lry="2356" ulx="316" uly="2123" xml:id="zone_sgj_hj5_xjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="high" facs="#zone_x5j_dj5_xjb" subtype="temessük,izin_nāme" type="EMIN">
+<p>
+<lb/>... fī <date type="created" when="1832-01-24" when-custom="1247-08-21">21 Ş sene 1247</date><lb/>
+</p>
+<div2 facs="#zone_sgj_hj5_xjb" type="sign">
+<p>
+<lb/>... <lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1849</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">定型句の形が装飾的で面白い</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [
+          "典型" ]}</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1380/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1380/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/102b44f0ebd78777abf31641c0abb753c422abf2.jpg"/>
+<zone lrx="1530" lry="3120" ulx="590" uly="110" xml:id="zone_o3q_c3q_cjb"/>
+<zone lrx="1121" lry="942" ulx="674" uly="151" xml:id="zone_htz_d3q_cjb"/>
+<zone lrx="976" lry="944" ulx="806" uly="800" xml:id="zone_sxb_f3q_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_o3q_c3q_cjb" type="hüccet">
+<p>
+<lb/>... <date type="created" when="1835-08-01" when-custom="1251-04-07">fi'l-yevmi'l-sābiʿ min şehr<lb/>
+<lb/>Rebī'ü'l-āhir sene ahadā ve hamsīn ve mieteyn ve elif</date><lb/>
+</p>
+<div2 facs="#zone_htz_d3q_cjb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_sxb_f3q_cjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0286</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1765/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1765/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d53d4407735f85582fc13e26b2198df33656eca5.jpg"/>
+<zone lrx="1773" lry="3081" ulx="145" uly="9" xml:id="zone_p5j_hf5_xjb"/>
+<zone lrx="526" lry="3073" ulx="215" uly="2679" xml:id="zone_b45_3f5_xjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1765/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8370ebc66c48e9a87dc803552958b86ebafecdea.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1765/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/618b3f9873fd10cfbd94b9bbb465297622356a13.jpg"/>
+<zone lrx="1916" lry="2825" ulx="1700" uly="2633" xml:id="zone_yk4_kf5_xjb"/>
+<zone lrx="796" lry="266" ulx="162" uly="91" xml:id="zone_tk3_lf5_xjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_p5j_hf5_xjb" subtype="zabt_temessük" type="EMIN">
+<p>
+<lb/>... <date type="created" when="1818-10-29" when-custom="1233">233</date><lb/>
+</p>
+<div2 facs="#zone_b45_3f5_xjb" type="sign">
+<p>
+<lb/>... fī <lb/>
+</p>
+<div3 facs="#zone_yk4_kf5_xjb" type="stamp">
+<p>
+<lb/>... fī <lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_tk3_lf5_xjb" type="summary_Croatian">
+<p>
+<lb/>Od ... <date type="summary_Croatian" when="1818">1818</date><lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

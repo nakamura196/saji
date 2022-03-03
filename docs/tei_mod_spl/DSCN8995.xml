@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8995</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1923/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1923/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ebceaef3445db970db9352ddc2eb4d7754f5d152.jpg"/>
+<zone lrx="637" lry="866" ulx="346" uly="591" xml:id="zone_lwx_fly_wkb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1923/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6e446ca9ff917153ed9f110d79e77e82f4b775e1.jpg"/>
+<zone lrx="2325" lry="3000" ulx="67" uly="266" xml:id="zone_ajk_hly_wkb"/>
+<zone lrx="457" lry="2951" ulx="113" uly="2551" xml:id="zone_qmn_3ly_wkb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ajk_hly_wkb" subtype="tapu_nāme" type="EMIN">
+<p>
+<lb/>... fī <date cert="low" type="created" when="1806-01-05" when-custom="1220-10-15">15 L sene 1220</date><lb/>
+</p>
+<div2 facs="#zone_qmn_3ly_wkb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_lwx_fly_wkb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

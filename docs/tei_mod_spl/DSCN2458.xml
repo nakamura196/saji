@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2458</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2785/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2785/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/26b31ade0aa31f0f5516d464d65f1154ed34b13a.jpg"/>
+<zone lrx="1809" lry="3072" ulx="145" uly="136" xml:id="zone_gj5_ksv_dmb"/>
+<zone lrx="620" lry="3029" ulx="329" uly="2777" xml:id="zone_rzw_lsv_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_gj5_ksv_dmb" type="mürāsele">
+<p>
+<lb/>... fī <date cert="unknown" type="created" when="1824-01-08" when-custom="1239-05-07">7 Cemaziye'l-evvel sene 1239</date><lb/>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_rzw_lsv_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9305</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2229/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2229/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c610083694cb199d95ee0d3aab71d0cd003f39b1.jpg"/>
+<zone lrx="1721" lry="2549" ulx="321" uly="71" xml:id="zone_hxt_stl_ylb"/>
+<zone lrx="766" lry="2517" ulx="528" uly="2293" xml:id="zone_ikt_vtl_ylb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_hxt_stl_ylb" type="mürāsele">
+<p>
+<lb/>... fī <date type="created" when="1795-02-12" when-custom="1209-07-23">23 min Recebi'l-... sene 1209</date><lb/>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_ikt_vtl_ylb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>
