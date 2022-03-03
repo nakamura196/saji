@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2131</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2460/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2460/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/05ca1cafadfb93af14bf13474567024fdd07c4fb.jpg"/>
+<zone lrx="2367" lry="2966" ulx="367" uly="216" xml:id="zone_onc_lfk_cmb"/>
+<zone lrx="702" lry="2955" ulx="432" uly="2524" xml:id="zone_e44_mfk_cmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2460/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/90400981257d0585a208d781d696d749af1abd97.jpg"/>
+<zone lrx="2116" lry="2795" ulx="1858" uly="2554" xml:id="zone_l1z_nfk_cmb"/>
+<zone lrx="2121" lry="1270" ulx="300" uly="354" xml:id="zone_ljw_4fk_cmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_onc_lfk_cmb" next="#zone_ljw_4fk_cmb" subtype="tapu" type="EMIN">
+<p>
+<lb/>işbu <date when="1825-08-13" when-custom="1240">bin iki yüz krık senesinde</date> der ...
+          <lb/>... fī <date type="created" when="1825-01-20" when-custom="1240-06-01">1 C sene 1240</date>
+</p>
+<div2 facs="#zone_e44_mfk_cmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_l1z_nfk_cmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_ljw_4fk_cmb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1826">1826</date> ... 
+          <lb/><date type="summary_Croatian" when="1825-08-13" when-custom="1240">1240</date>. Nno 12.
+        </p>
+</div1>
+</body>
+</text>
+</TEI>

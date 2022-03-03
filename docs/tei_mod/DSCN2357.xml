@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2357</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2685/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2685/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1019636611fe93469d016fa524ccf6613a84ac40.jpg"/>
+<zone lrx="2383" lry="2933" ulx="492" uly="108" xml:id="zone_qfb_wmn_dmb"/>
+<zone lrx="843" lry="2882" ulx="528" uly="2615" xml:id="zone_xbg_zmn_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2685/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/79dc4a9745827eba8ee9de5ff8905be441751865.jpg"/>
+<zone lrx="2078" lry="2973" ulx="1763" uly="2665" xml:id="zone_s4t_bnn_dmb"/>
+<zone lrx="2176" lry="438" ulx="947" uly="114" xml:id="zone_nrv_cnn_dmb"/>
+<zone lrx="2367" lry="1190" ulx="276" uly="738" xml:id="zone_jjn_2nn_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_qfb_wmn_dmb" next="#zone_nrv_cnn_dmb" type="tezkire">
+<p>
+<lb/>... <date cert="low" type="created" when="1809-12-11" when-custom="1224-11-05">5 Za sene 1224</date><lb/>
+</p>
+<div2 facs="#zone_xbg_zmn_dmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_s4t_bnn_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_nrv_cnn_dmb" next="#zone_jjn_2nn_dmb" type="unknown">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+<div1 facs="#zone_jjn_2nn_dmb" type="summary_Croatian">
+<p>
+<lb/>...
+          <lb/><date type="summary_Croatian" when="1809">1809</date>.
+        </p>
+</div1>
+</body>
+</text>
+</TEI>

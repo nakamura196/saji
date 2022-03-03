@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1752</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：2日でいいか？</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1284/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1284/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7e46f797dd73cc6e8873983815dd056bb78afce2.jpg"/>
+<zone lrx="1483" lry="3108" ulx="417" uly="175" xml:id="zone_hfc_13h_cjb"/>
+<zone lrx="807" lry="992" ulx="442" uly="558" xml:id="zone_zhm_b3h_cjb"/>
+<zone lrx="774" lry="978" ulx="625" uly="833" xml:id="zone_rvh_c3h_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1284/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/be14531247870c77e9c3e0914fadccb021a77973.jpg"/>
+<zone lrx="1350" lry="1416" ulx="896" uly="879" xml:id="zone_xyw_d3h_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1284/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/b7b91820fd0201f809c567f8d65085a67b5d99ee.jpg"/>
+<zone lrx="2912" lry="1300" ulx="206" uly="727" xml:id="zone_zfd_f3h_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_hfc_13h_cjb" type="hüccet">
+<p>
+<lb/>... <date cert="low" type="created" when="1829-01-07" when-custom="1244-07-02">fi'l-sānī min şehr Recebi'l-müreccib sene arbaʿa ve arbaʿin ve mieteyn ve elif</date><lb/>
+</p>
+<div2 facs="#zone_zhm_b3h_cjb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_rvh_c3h_cjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_xyw_d3h_cjb" type="unkown">
+<p>
+<lb/>... fī <date type="created" when="1829-01-14" when-custom="1244-07-09">9 B sene 244</date><lb/>
+</p>
+</div1>
+<div1 facs="#zone_zfd_f3h_cjb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

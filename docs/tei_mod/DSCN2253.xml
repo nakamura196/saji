@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2253</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2581/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2581/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/970c983da539d3d5eb397a927d27f4d5410400c8.jpg"/>
+<zone lrx="2200" lry="3040" ulx="30" uly="180" xml:id="zone_hwx_rrf_dmb"/>
+<zone lrx="1152" lry="3032" ulx="181" uly="2219" xml:id="zone_evm_trf_dmb"/>
+<zone lrx="1119" lry="2961" ulx="748" uly="2635" xml:id="zone_lds_5rf_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2581/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fe35426b6797eea2669c004cf192274343889a0c.jpg"/>
+<zone lrx="3139" lry="1216" ulx="434" uly="511" xml:id="zone_k35_vrf_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_hwx_rrf_dmb" next="#zone_k35_vrf_dmb" subtype="edā_tezkire" type="EMIN">
+<p>
+<lb/>işbu <date type="created" when="1817-11-08" when-custom="1232">bin iki yüz otuz iki senesinde</date> Kirşevo
+          <lb/>
+</p>
+<div2 facs="#zone_evm_trf_dmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_lds_5rf_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_k35_vrf_dmb" type="summary_Croatian">
+<p>
+<lb/>... 
+          <lb/><date type="summary_Croatian" when="1816">1816</date>.
+        </p>
+</div1>
+</body>
+</text>
+</TEI>

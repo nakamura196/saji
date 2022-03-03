@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8957</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ]
+               }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1547/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1547/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2a09f19e08bbeef1ea38059c8fac68fb170722c4.jpg"/>
+<zone lrx="1967" lry="2808" ulx="150" uly="508" xml:id="zone_ln2_v3n_2jb"/>
+<zone lrx="547" lry="2807" ulx="339" uly="2574" xml:id="zone_lgt_w3n_2jb"/>
+<zone lrx="2370" lry="1286" ulx="1943" uly="891" xml:id="zone_j3s_x3n_2jb"/>
+<zone lrx="2355" lry="1150" ulx="2245" uly="1027" xml:id="zone_w4j_y3n_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1547/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/69b82b407670d694ee9f27ade691aed34d0d9ef6.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1547/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/a7d8e9d305042f5977dd550cf67852d422728b3c.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1547/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/864e9fa0a7deb582c973167744ecd54954ccbd06.jpg"/>
+<zone lrx="3139" lry="1572" ulx="106" uly="761" xml:id="zone_ps5_1jn_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ln2_v3n_2jb" type="fermān_sūret">
+<p>
+<lb/>... <date type="created" when="1783-10-11" when-custom="1197-11-15">fi'l-yevmi'l-hāmis ʿaşar Zi'l-kaʿade sene sabʿ tisʿīn<lb/>
+<lb/>ve mie ve elif</date><lb/>
+</p>
+<div2 facs="#zone_lgt_w3n_2jb" type="sign_sūret">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div2 facs="#zone_j3s_x3n_2jb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_w4j_y3n_2jb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div1 facs="#zone_ps5_1jn_2jb" type="summary_Croatian">
+<p>
+<lb/>Datum: <date type="summary_Croatian" when="1783-10-11" when-custom="1197-11-15">15. zilkade 1197</date> - <date type="summary_Croatian" when="1783-10-12">12. oktobar 1783</date>.<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

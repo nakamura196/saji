@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0578</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2982/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2982/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/192777ef9bf34bdeb0c9a7f4fbaa2cb1061117ab.jpg"/>
+<zone lrx="1970" lry="2700" ulx="30" uly="50" xml:id="zone_qg5_bmj_2mb"/>
+<zone lrx="439" lry="2672" ulx="153" uly="2195" xml:id="zone_prz_cmj_2mb"/>
+<zone lrx="420" lry="2648" ulx="179" uly="2430" xml:id="zone_ebp_dmj_2mb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2982/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/5b1793cdb89853afc02800f9283591e65663c8dc.jpg"/>
+<zone lrx="3239" lry="1322" ulx="2400" uly="38" xml:id="zone_vkg_hmj_2mb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_qg5_bmj_2mb" next="#zone_vkg_hmj_2mb" subtype="tapu_nāme" type="EMIN">
+<p>
+<lb/>
+<lb/>... fī <date type="created" when="1848-01-05" when-custom="1264-01">M sene 264</date>
+</p>
+<div2 facs="#zone_prz_cmj_2mb" type="sign">
+<p>
+<lb/>...
+						<lb/>
+</p>
+<div3 facs="#zone_ebp_dmj_2mb" type="stamp">
+<p>
+<lb/>...
+							<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...
+						<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_vkg_hmj_2mb" type="summary_Croatian">
+<p>
+<lb/>... <date type="created" when="1848">1848</date>.
+					<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

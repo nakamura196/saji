@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2229</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2557/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2557/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/422ffd9e7c07a6730990e074ce80917dfce1270c.jpg"/>
+<zone lrx="2092" lry="2900" ulx="275" uly="91" xml:id="zone_lkc_rfz_cmb"/>
+<zone lrx="1036" lry="2895" ulx="418" uly="1981" xml:id="zone_ez2_sfz_cmb"/>
+<zone lrx="990" lry="2895" ulx="477" uly="2427" xml:id="zone_jy2_tfz_cmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_lkc_rfz_cmb" type="unknown">
+<p>
+<lb/>... fī <date cert="low" type="created" when="1872-02-19" when-custom="1288--10">10 sene 88</date><lb/>
+</p>
+<div2 facs="#zone_ez2_sfz_cmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_jy2_tfz_cmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0214</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">土地移転 ferāğ</note>
+<note type="summary">非ムスリムの土地とその徴税権の、クレシェヴォ修道院の修道士に対する譲渡に関する証文 tapu nāme</note>
+<note type="mine">文字が独特の崩れ方をしていたり、不要な点がついていたりして、読みにくい。語彙もEMIN文書によく使われるものと少し違う。語彙はDSCN0216と似ている？【要】読み直し。</note>
+<note type="mine">裏面のクロアチア語要約に、地名がクロアチア語で記されている。表面の地名解読の手掛かりになりそう。</note>
+<note type="mine">また裏面では、他文書では"gr:"としか記されていない部分が、"gros:"と略さずに記されている。</note>
+<note type="mine">用紙にアルファベットの透かし"EGA"が入っている。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1693/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1693/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ee6d92d4ea907ecaacdc8f3978af0109dd97ec96.jpg"/>
+<zone lrx="2300" lry="3141" ulx="150" uly="333" xml:id="zone_w1m_hbk_kjb"/>
+<zone lrx="496" lry="2945" ulx="209" uly="2606" xml:id="zone_vh2_jbk_kjb"/>
+<zone lrx="830" lry="1635" ulx="601" uly="1505" xml:id="zone_twy_y4p_grb"/>
+<zone lrx="1824" lry="2181" ulx="1394" uly="1981" xml:id="zone_vzn_grp_grb"/>
+<zone lrx="2261" lry="3110" ulx="1916" uly="2986" xml:id="zone_qsz_pvp_grb"/>
+<zone lrx="2232" lry="3002" ulx="1925" uly="2814" xml:id="zone_jfk_rvp_grb"/>
+<zone lrx="2184" lry="2817" ulx="1908" uly="2643" xml:id="zone_e4s_tvp_grb"/>
+<zone lrx="2239" lry="2645" ulx="1916" uly="2495" xml:id="zone_tct_vvp_grb"/>
+<zone lrx="2196" lry="2495" ulx="1934" uly="2351" xml:id="zone_jly_wvp_grb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1693/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/390d5f30c866a327f0b6a0c98f2cfce0dd1d4bc5.jpg"/>
+<zone lrx="3173" lry="1850" ulx="45" uly="477" xml:id="zone_n3d_kbk_kjb"/>
+<zone lrx="533" lry="843" ulx="70" uly="710" xml:id="zone_fk5_pkh_grb"/>
+<zone lrx="1180" lry="896" ulx="629" uly="688" xml:id="zone_mxy_qkh_grb"/>
+<zone lrx="2221" lry="888" ulx="1479" uly="746" xml:id="zone_jzx_rkh_grb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_w1m_hbk_kjb" type="EMIN_tapu_nāme">
+<p>
+<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>der ʿuhde ve iltizāmımızda bulunan <placeName>Kirşevo</placeName> mukātaʿası kurālarında <placeName facs="#zone_twy_y4p_grb">KUYSİNE</placeName> karyesi hudūd dāhilinde
+					<lb/>vākiʿ iki kıtʿa... demekle maʿrūf hudūd … ila mutasarrıf olan
+					<lb/>... zimmī ... işbu dārende-i hurūf <placeName>Kirşevo</placeName> kilisanın
+					<lb/>gardiyān zimmī(?) <persName facs="#zone_vzn_grp_grb">PRAINYA</persName> ve sāi'ir ruhbānlarına krık dört buçuk guruş mukābeleside tasarrıfına
+					<lb/>ferāğ ve tefevvuz ve tesellüm virüb mesfūrlar kabūl eyledikden sonra tasarrıfyçün tarafımızdan
+					<lb/>ve ... etmelerile biz dahi me'mūrimiz hasebiyle tapu ile tafvīz edüb
+					<lb/>mā-dām ki sāl be-sāl ʿaşār-ı şerʿiye ve rüsūmāt-ı sā'ir ... geldüğü …
+					<lb/>üzere sāhib-i arzı <sic>olnlara</sic><corr>olanlara</corr> edā etmeleriyle tarafımızdan işbu tapu nāme
+					<lb/>virildi taraf-ı āhardan kimesne māniʿ olunmaya <date type="created" when="1800-05-23" when-custom="1214">sene 1214</date>
+</p>
+<div2 facs="#zone_vh2_jbk_kjb" type="sign">
+<p>
+<lb/>...
+						<lb/><persName>ʿATAADE</persName>
+<lb/>Emīn-i
+						<lb/><placeName>Kirşevo</placeName>
+</p>
+</div2>
+<div2 type="şühūdu'l-hāl">
+<p>
+<lb/>Şühūdu'l-hāl
+						<lb/><persName facs="#zone_qsz_pvp_grb">TOMİÇ</persName> Andriye
+						<lb/><persName facs="#zone_jfk_rvp_grb">TİDİÇ</persName> Peter
+						<lb/><persName facs="#zone_e4s_tvp_grb">ŞLAVİÇE</persName> Peter
+						<lb/><persName facs="#zone_tct_vvp_grb">TOYİÇ</persName> Martan
+						<lb/><persName facs="#zone_jly_wvp_grb">Marko</persName> BUÇU </p>
+</div2>
+</div1>
+<div1 facs="#zone_n3d_kbk_kjb" type="summary_Croatian">
+<p>
+<lb/>Maritat kako ... od ... okicha rava
+					<lb/><placeName facs="#zone_fk5_pkh_grb">Haruna</placeName> i <placeName facs="#zone_mxy_qkh_grb">Luçizu</placeName> do <placeName facs="#zone_jzx_rkh_grb">Miatova</placeName>
+<date type="summary_Croatian" when="1800">1800</date> za goga
+					<lb/>da do gros: 44 par 20
+					<lb/>Nno 5. <date type="summary_Croatian" when="1800-05-23" when-custom="1214">1214</date>.
+					<lb/>85 </p>
+</div1>
+</body>
+</text>
+</TEI>

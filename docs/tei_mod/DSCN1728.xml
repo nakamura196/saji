@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1728</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：14日でいいか？</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1261/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b588fe901edcff16c793a4bc113a731526897b6b.jpg"/>
+<zone lrx="1720" lry="3250" ulx="590" uly="70" xml:id="zone_jxq_lm2_bjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a4ad81550e49a3ce64c3b185e2fee22eae1cffcc.jpg"/>
+<zone lrx="1839" lry="1088" ulx="1384" uly="638" xml:id="zone_bx3_4m2_bjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/4e4e3c34279f0e81970ad957b797450c7a3b98c5.jpg"/>
+<zone lrx="1221" lry="962" ulx="787" uly="341" xml:id="zone_c25_pm2_bjb"/>
+<zone lrx="1185" lry="930" ulx="1063" uly="823" xml:id="zone_exs_qm2_bjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/7e31a1688a4f2d8dfb4e806a0d73b3ec15e3f313.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/be5ef149cb30f9e4f678d04400f18e6e84c1c713.jpg"/>
+<zone lrx="3023" lry="1077" ulx="262" uly="655" xml:id="zone_zsl_sm2_bjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1261/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/45d698b45759827bdc2b099ae92d6bdb669421e5.jpg"/>
+<zone lrx="2862" lry="1755" ulx="467" uly="1088" xml:id="zone_rjp_tm2_bjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_jxq_lm2_bjb" type="hüccet">
+<p>
+<lb/>... <date cert="low" type="created" when="1805-11-06" when-custom="1220-08-14">fi'l-yevm<lb/>
+<lb/>el-rābīʿ ve'l-ʿaşr min şehr Şaʿabānı'l-muʿazzam sene<lb/>
+<lb/>ʿaşrīn ve mieteyn ve elif</date><lb/>
+</p>
+<div3 facs="#zone_bx3_4m2_bjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+<div2 facs="#zone_c25_pm2_bjb" type="sign">
+<p>
+<lb/>...<lb/>
+</p><div3 facs="#zone_exs_qm2_bjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_zsl_sm2_bjb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+<div1 facs="#zone_rjp_tm2_bjb" type="unknown">
+<p>
+<lb/><lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

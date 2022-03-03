@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1914</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">オスマン帝国史料解題にfetvāの様式について解説がある。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1444/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1444/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/43a85a3a5f28b69bf6f83a461de9a39db3df8d13.jpg"/>
+<zone lrx="1944" lry="3267" ulx="144" uly="56" xml:id="zone_dkp_ygx_cjb"/>
+<zone lrx="753" lry="2356" ulx="218" uly="1552" xml:id="zone_wmj_bhx_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_dkp_ygx_cjb" type="fetvā">
+<p>
+<lb/>...<lb/>
+</p>
+<div2 facs="#zone_wmj_bhx_cjb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

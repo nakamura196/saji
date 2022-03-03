@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0491</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 6" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2898/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2898/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0e1cfe9df37a37cc281e2b7e72051e68e9b8d165.jpg"/>
+<zone lrx="1642" lry="3000" ulx="400" uly="358" xml:id="zone_es3_fmc_2mb"/>
+<zone lrx="1002" lry="1121" ulx="513" uly="400" xml:id="zone_gnh_hmc_2mb"/>
+<zone lrx="934" lry="1106" ulx="766" uly="962" xml:id="zone_bhm_3mc_2mb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2898/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/76d944455297e941cd0fb9daee72d8eb17b6836b.jpg"/>
+<zone lrx="2950" lry="1027" ulx="395" uly="600" xml:id="zone_uxf_kmc_2mb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_es3_fmc_2mb" next="#zone_uxf_kmc_2mb" type="hüccet">
+<p>
+<lb/>... <date type="created" when="1760-08-11" when-custom="1173">sene
+          <lb/>selāse ve sabʿīn mie ve elif</date>
+</p>
+<div2 facs="#zone_gnh_hmc_2mb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_bhm_3mc_2mb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_uxf_kmc_2mb" type="summary_Croatian">
+<p>
+<lb/>...
+          <lb/>... <date type="summary_Croatian" when="1779">1779</date>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

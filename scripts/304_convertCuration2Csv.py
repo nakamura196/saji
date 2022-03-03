@@ -28,7 +28,11 @@ with open('../docs/data/curation2.json') as f:
                 keys.add(label)
 
                 if type(value) is list:
-                    value = "|".join(value)
+                    try:
+                        value = "|".join(value)
+                    except Exception as e:
+                        print(member["label"], e)
+                        value = ""
 
                 item[label] = value
 
@@ -50,6 +54,8 @@ rows4div1 = []
 row = []
 rows.append(row)
 rows4div1.append(row)
+
+keys = sorted(keys)
 
 for key in keys:
     row.append(key)

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9101</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2028/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2028/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a45abda81c5be64ce7e32105be5108301e1ae85f.jpg"/>
+<zone lrx="2193" lry="3015" ulx="100" uly="276" xml:id="zone_d42_131_glb"/>
+<zone lrx="347" lry="2959" ulx="154" uly="2699" xml:id="zone_sqp_b31_glb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="medium" facs="#zone_d42_131_glb" subtype="tezkire" type="EMIN">
+<p>
+<lb/>... <date type="created" when="1760-08-11" when-custom="1173">sene 1173</date><lb/>
+</p>
+<div2 facs="#zone_sqp_b31_glb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

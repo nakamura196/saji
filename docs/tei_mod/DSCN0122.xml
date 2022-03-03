@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0122</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">徴税請負iltizāmの更新承認</note>
+<note type="mine">文法、文字の乱れ、誤字など多数。不慣れな筆跡から、ズィンミーが作成したか写しかであると推察される。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1606/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1606/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b301bb8c70c9b410a8548d4c8817fdffd41c4ac0.jpg"/>
+<zone lrx="1831" lry="2876" ulx="185" uly="7" xml:id="zone_fzn_k3v_2jb"/>
+<zone lrx="487" lry="2857" ulx="221" uly="2412" xml:id="zone_pwq_l3v_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1606/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/595ad553fad0d554a961f1e01535d356e0c52833.jpg"/>
+<zone lrx="1945" lry="1266" ulx="889" uly="911" xml:id="zone_tkg_n3v_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_fzn_k3v_2jb" type="EMIN_zabt_temessük">
+<p>
+<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>işbu <date type="created" when="1824-08-24" when-custom="1239">bin iki yüz otuz dokuz senseinde</date> der ʿuhde ve iltizāmımızda bulunan
+					<lb/><placeName type="proper">Kirşevo</placeName> mukātaʿasına <placeName type="proper">Kirşevo</placeName> varoş kilisasının olan <placeName cert="unknown" type="proper">GRAYNE</placeName> ve <placeName cert="unknown" type="proper">RAVN</placeName>
+<lb/>ve <placeName cert="unknown" type="proper">LOBAT</placeName> ve <placeName type="proper">Dubuniçe</placeName> ve <placeName cert="unknown" type="proper">HULINE</placeName> ve
+						<placeName cert="unknown" type="proper">DRZVANV</placeName> ve <placeName cert="unknown" type="proper">HINIÇE</placeName> ve <placeName cert="unknown" type="proper">BUʿUŞKMA</placeName> mahallerinde
+					<lb/>hāsıl olan [誤字] mahsūlāt-ı küllī ve cüzv aʿşār ve rüsūmātını işbu
+					<lb/>dārende-i temessük kilisa-ı mezbūre rāhibi olan <persName corresp="#gardiyān">gardiyān</persName> sene-i sābık bedel-i iltizāmımız
+					<lb/>olan yüz yiğirmi guruş mukābelesinde ve bedel-i iltizāmımızda olan meblağ
+					<lb/>mezkūri tarafımız edā ve teslīm işbu bedel-i muharrerler zabt temessüğü iʿtāya
+					<lb/>olundu habz ve taʿşīrine tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olunmaya </p>
+<div2 facs="#zone_pwq_l3v_2jb" type="sign">
+<p>
+<lb/>...
+						<lb/><persName corresp="#Mustafa">Mustafa</persName>
+<lb/>Emīn-i
+						<lb/>Kirşevo
+						<lb/>hālā
+						<lb/>M </p>
+</div2>
+</div1>
+<div1 facs="#zone_tkg_n3v_2jb" type="summary_Croatian">
+<p>
+<lb/>Desetina <date type="summary_Croatian" when="1824">1824</date>. </p>
+</div1>
+</body>
+<back>
+<listPerson>
+<person xml:id="gardiyān">
+<persName>unknown</persName>
+<occupation>dārende-i temessük</occupation>
+<occupation>Kirşevo kilisa rāhibi</occupation>
+<occupation>gardiyān</occupation>
+<socecStatus/>
+<state>徴税請負人</state>
+<state>文書の受領者</state>
+</person>
+</listPerson>
+<listPerson>
+<person xml:id="Mustafa">
+<persName>Mustafa</persName>
+<occupation>Emīn-i Kirşevo hālā</occupation>
+<state>徴税請負の承認者</state>
+<state>文書の差出人</state>
+</person>
+</listPerson>
+<listRelation>
+<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
+<relation active="#Mustafa" name="iltizām" passive="#gardiyān"/>
+<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
+<relation active="#Mustafa" name="issue" passive="#gardiyān"/>
+</listRelation>
+</back>
+</text>
+</TEI>

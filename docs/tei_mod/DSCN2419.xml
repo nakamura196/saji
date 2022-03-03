@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2419</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2747/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2747/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/bf99a45944fa959430389c679c227fbc724d68c5.jpg"/>
+<zone lrx="1906" lry="2647" ulx="318" uly="1017" xml:id="zone_o43_hv5_dmb"/>
+<zone lrx="1014" lry="2623" ulx="370" uly="1999" xml:id="zone_kfk_3v5_dmb"/>
+<zone lrx="997" lry="2608" ulx="697" uly="2352" xml:id="zone_fxc_jv5_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2747/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a6466af1189d4eb73c329b530c6bc86b6317b08a.jpg"/>
+<zone lrx="2337" lry="2233" ulx="83" uly="1191" xml:id="zone_alr_kv5_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_o43_hv5_dmb" next="#zone_alr_kv5_dmb" subtype="edā_tahvīl" type="EMIN">
+<p>
+<lb/>işbu <date from="1839-06-11" from-custom="1255-03">bin iki yüz elli beş senesinde māh Mart
+          <lb/>iʿtibār ile</date> der ...
+          <lb/>... fī <date type="created" when="1840-04-26" when-custom="1256-02-24">24 S sene 256</date>
+</p>
+<div2 facs="#zone_kfk_3v5_dmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_fxc_jv5_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_alr_kv5_dmb" type="summary_Croatian">
+<p>
+<lb/>...
+          <lb/><date type="summary_Croatian" when="1840">1840</date>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

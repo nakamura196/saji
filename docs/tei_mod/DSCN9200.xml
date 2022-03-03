@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9200</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">ジズヤの支払い証明書</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2125/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2125/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7376bbe8eba8163e67881ad07cb92e16129f9447.jpg"/>
+<zone lrx="1726" lry="2872" ulx="308" uly="118" xml:id="zone_d2h_xhq_h3b"/>
+<zone lrx="1600" lry="2618" ulx="1109" uly="2154" xml:id="zone_jgh_yhq_h3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_d2h_xhq_h3b" type="cizye_senedi">
+<p>
+<lb/>ednā 15
+        <lb/><placename type="proper">Foyniçe</placename> kazā
+        <lb/><persname cert="medium">Miu veledi Miu</persname> nām zimmī
+        <lb/><date when="1850-11-04" when-custom="1266">altmış altı senesine</date> mahsūben mustahakk
+        <lb/>olduğu cizye-i şerʿiyyesini me'mūrı
+        <lb/>tarafına teslīm etmiş olduğunu mübeyyin
+        <lb/>işbu sened yedine virıldi <date when="1850-11-04" when-custom="1266">sene 1266</date>
+<lb/>numero
+        <lb/>102
+        <lb/>işkâl
+        <lb/>sin 36
+        <lb/>boy uzun
+        <lb/>sakar ...
+        <lb/> cert="unknown"&gt;...
+        <lb/>göz ...
+        <lb/>işkâl mahsūsa
+        <lb/>defteri numerosı
+        </p>
+<div2 facs="#zone_jgh_yhq_h3b" type="stamp">
+<p>
+<lb/>Sened-i makbūz-ı <placename>eyālet-i <placename type="proper">Bosna</placename></placename>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0201</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ</note>
+<note type="summary">ムスリムが保有していた草原の、クレシェヴォ修道院の修道士に対する売却に関する承認文書</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1680/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1680/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/be8690c79e03831b09cbb013fc31acafd8449132.jpg"/>
+<zone lrx="2193" lry="2776" ulx="200" uly="23" xml:id="zone_uqs_4xj_kjb"/>
+<zone lrx="903" lry="2421" ulx="487" uly="1993" xml:id="zone_qgt_pxj_kjb"/>
+<zone lrx="600" lry="1111" ulx="421" uly="947" xml:id="zone_r4z_fvt_brb"/>
+<zone lrx="612" lry="1255" ulx="235" uly="1096" xml:id="zone_ayz_1wt_brb"/>
+<zone lrx="935" lry="1402" ulx="784" uly="1268" xml:id="zone_u3p_lwt_brb"/>
+<zone lrx="1939" lry="2724" ulx="1776" uly="2440" xml:id="zone_qsn_4zt_brb"/>
+<zone lrx="2026" lry="2615" ulx="1840" uly="2364" xml:id="zone_qqj_pzt_brb"/>
+<zone lrx="2125" lry="2579" ulx="1849" uly="2265" xml:id="zone_yfb_qzt_brb"/>
+<zone lrx="2174" lry="2478" ulx="1889" uly="2161" xml:id="zone_hdx_qzt_brb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1680/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e08193198965f4ff7134c22a8332d402868ec4d9.jpg"/>
+<zone lrx="3184" lry="1800" ulx="584" uly="733" xml:id="zone_avb_rxj_kjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_uqs_4xj_kjb" type="EMIN_zabt_temessük">
+<p>
+<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>bā-berāt-ı pādişāhıla ber vech-i iştirāk mutasarrıf olduğumuz kurālarında <placeName facs="#zone_r4z_fvt_brb">RADANUİK</placeName> karyesinde
+					<lb/>sākinlerinden tābiʿ nefs-i BLUYK hudūdunda mutasarrıf eyledüğü nām <persName facs="#zone_ayz_1wt_brb">ʿAlī</persName> NUÇİK
+					<lb/>nām kimense taht-ı tasarrıfında bulunan bir kıtʿa çayır <placeName facs="#zone_u3p_lwt_brb">GVAYİÇE</placeName> demekle bir taraf müşteri <persName>gardiyān</persName>
+<lb/>ta(?) tarlası ve taraf-ı sānī ve sālis <persName>gardiyān</persName> tarlası ormanı işbu dārende-i hurūf
+					<lb/>Kirşevo kilisada mutavattınlarında <persName>gardiyān</persName>-ı nām-ı kimesne yalnız yüz yiğirmi bir guruş
+					<lb/>resmiyle(?) bedeli mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp ol dahi kabūl(?) muharrer
+					<lb/>işbu temessüğ-ı zabt ve tasarrıfına tarafımızdan ve taraf-ı āhardan bir kimesne
+					<lb/>māniʿ ve müdāhale olunmaya fī <date type="created" when="1839-02-03" when-custom="1254-11-20">20 Za sene 254</date>
+</p>
+<div2 facs="#zone_qgt_pxj_kjb" type="sign">
+<p>
+<lb/>El-me'mūr be'l-memhūr
+						<lb/>El-hāccı <persName>Mehmed</persName>
+<lb/>El-me'mūr
+						<lb/>M </p>
+</div2>
+<div2 type="şühūdu'l-hāl">
+<p>
+<lb/>Şühūdu'l-hāl
+						<lb/><persName facs="#zone_qsn_4zt_brb">Hüseyin</persName> NUHİK
+						<lb/><persName facs="#zone_qqj_pzt_brb">CİYYDU</persName> Sālih
+						<lb/>Mollā <persName facs="#zone_yfb_qzt_brb">Sālih</persName> DUŞİK
+						<lb/>Mollā <persName facs="#zone_hdx_qzt_brb">Mustafa</persName> DUZİŞ
+						<lb/>ve gayrihim </p>
+</div2>
+</div1>
+<div1 facs="#zone_avb_rxj_kjb" type="summary_Croatian">
+<p>
+<lb/>Govapse Nuhicha gr: 121.
+					<lb/>Nno 31. <date type="summary_Croatian" when="1839-03-14" when-custom="1254">1254</date>. <date type="summary_Croatian" when="1839">1839</date>.
+					<lb/>126 </p>
+</div1>
+</body>
+</text>
+</TEI>

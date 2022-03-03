@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1939</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】日付：1270 or 1170 年　要検討。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ],
+          "saji:type": [ "mürāsele" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1469/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1469/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7df271d8714c0fbfda4055b12bb46f859db0dcee.jpg"/>
+<zone lrx="1893" lry="2535" ulx="435" uly="971" xml:id="zone_tkp_dvd_djb"/>
+<zone lrx="1234" lry="2488" ulx="1002" uly="2300" xml:id="zone_glw_2vd_djb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1469/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ce55a0dca595d09d2f486a6c34db88c0246f0494.jpg"/>
+<zone lrx="3154" lry="2345" ulx="118" uly="381" xml:id="zone_vp3_gvd_djb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_tkp_dvd_djb" type="mürāsele">
+<p>
+<lb/>... fī <date cert="medium" type="created" when="1854-06-28" when-custom="1270-10-03">3 L sene 70</date><lb/>
+</p>
+<div3 facs="#zone_glw_2vd_djb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div1>
+<div1 facs="#zone_vp3_gvd_djb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

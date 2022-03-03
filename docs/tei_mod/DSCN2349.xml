@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2349</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2677/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2677/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d37e05a0b83e4bf37f6bd13ce5b7cc9715f33c3d.jpg"/>
+<zone lrx="2327" lry="3018" ulx="236" uly="36" xml:id="zone_qcs_yhn_dmb"/>
+<zone lrx="700" lry="2986" ulx="291" uly="2494" xml:id="zone_zzk_13n_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2677/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/66024c5cc227a4df6de9040630a65ec69daaab73.jpg"/>
+<zone lrx="2945" lry="1350" ulx="423" uly="683" xml:id="zone_xf5_b3n_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_qcs_yhn_dmb" next="#zone_xf5_b3n_dmb" subtype="edā_tahvīl" type="EMIN">
+<p>
+<lb/>... hurira fī <date type="created" when="1807-06-09" when-custom="1222-04-03">3 R sene 1222</date><lb/>
+</p>
+<div2 facs="#zone_zzk_13n_dmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_xf5_b3n_dmb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

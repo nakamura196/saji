@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8984</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1912/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1912/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/24e546107459da780f0a17bde5842af8b9b4b02c.jpg"/>
+<zone lrx="2734" lry="1244" ulx="562" uly="868" xml:id="zone_g2k_wtx_wkb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1912/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6c4980e88a75557c42aa7e3971a23d3cb5d08f72.jpg"/>
+<zone lrx="812" lry="970" ulx="596" uly="781" xml:id="zone_kcs_ytx_wkb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1912/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5c4fd1644d81fa9fe11bbf6e43ecb707a9790855.jpg"/>
+<zone lrx="2308" lry="2615" ulx="162" uly="123" xml:id="zone_lpz_ztx_wkb"/>
+<zone lrx="678" lry="2559" ulx="200" uly="2278" xml:id="zone_e5g_b5x_wkb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_lpz_ztx_wkb" next="#zone_g2k_wtx_wkb" type="EMIN">
+<p>
+<lb/>... fī <date cert="low" type="created" when="1791-01-12" when-custom="1205-05-08">8 Ca sene 1205</date><lb/>
+</p>
+<div2 facs="#zone_e5g_b5x_wkb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_kcs_ytx_wkb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_g2k_wtx_wkb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

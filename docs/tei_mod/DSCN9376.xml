@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9376</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2300/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2300/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e49ca376977cc79e514e65a2d45ec2b1f09755f3.jpg"/>
+<zone lrx="1985" lry="2784" ulx="200" uly="184" xml:id="zone_t1l_rmg_zlb"/>
+<zone lrx="1029" lry="2779" ulx="388" uly="2308" xml:id="zone_tpp_smg_zlb"/>
+<zone lrx="1020" lry="2773" ulx="741" uly="2523" xml:id="zone_tqp_tmg_zlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_t1l_rmg_zlb" type="unknown">
+<p>
+<lb/>...<lb/>
+</p>
+<div2 facs="#zone_tpp_smg_zlb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_tqp_tmg_zlb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

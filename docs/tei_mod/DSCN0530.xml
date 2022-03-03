@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0530</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2936/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2936/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5771c33b3a49fe818a2dbcecacd8d14aff93a00c.jpg"/>
+<zone lrx="1380" lry="3080" ulx="100" uly="190" xml:id="zone_ugt_lr3_2mb"/>
+<zone lrx="645" lry="2930" ulx="132" uly="2634" xml:id="zone_urb_nr3_2mb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2936/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ef94a607a26a698bc70e2e83eb7cb275bdc7dfa4.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2936/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/1cee9b68b74234cfa16f276e0d03b119547ce8ff.jpg"/>
+<zone lrx="703" lry="666" ulx="512" uly="485" xml:id="zone_ek4_4r3_2mb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ugt_lr3_2mb" type="iʿlām_maʿrūz">
+<p>
+<lb/>
+<lb/> fī <date type="created" when="1789-09-06" when-custom="1203-12-16">16 Z sene 1203</date>
+</p>
+<div2 facs="#zone_urb_nr3_2mb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_ek4_4r3_2mb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

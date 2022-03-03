@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1830</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1361/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1361/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/82340c44b9fc13a6716b0457ddf9b1c1186d7f4b.jpg"/>
+<zone lrx="1227" lry="3245" ulx="554" uly="700" xml:id="zone_ox3_vsp_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1361/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/67cc821efd17dd97d84c751d5f526788687c9a8b.jpg"/>
+<zone lrx="1361" lry="773" ulx="932" uly="9" xml:id="zone_k4z_xsp_cjb"/>
+<zone lrx="1250" lry="758" ulx="1000" uly="567" xml:id="zone_nbm_ysp_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1361/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/e81722a169790b204939b807176a62d1ccaa44e7.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1361/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/8746db9d25c725845844673a428a4e7ad9ac66ff.jpg"/>
+<zone lrx="3006" lry="1294" ulx="139" uly="966" xml:id="zone_usb_1tp_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ox3_vsp_cjb" type="hüccet">
+<p>
+<lb/>... <date type="created" when="1774-10-30" when-custom="1188-08-25">fi'l-yevmi'l-hāmis ve'l-ʿaşrīn min şehr Şaʿabān<lb/>
+<lb/>el-muʿazzam sene semān ve semānīn ve mie ve elif</date> ...<lb/>
+</p>
+<div2 facs="#zone_k4z_xsp_cjb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_nbm_ysp_cjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_usb_1tp_cjb" type="summary_Croatian">
+<p>
+<lb/><date type="summary_Croatian" when="1774">1774</date>: ... <date type="summary_Croatian" when="1776">1776</date> ...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0916</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa/Dīvānī" ], "saji:date_H":
+          [ "1175-R-13" ], "saji:date_M": [ "1762-01-09" ], "saji:foldingMethod": [ "6" ],
+          "saji:fond": [ "Tursko 1" ], "saji:item": [ "定型文(?)", "オスマン朝スタンプ", "本文", "証人",
+          "クレシェヴォのスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "25" ], "saji:memo": [
+          "最後に、？名の証人の名前：\"Şuhūdu'l-ḥāl\"",
+          "日付：裏面のボスニア語梗概では、「1760年」と読んでいるようだが、本文中の年代は「1762(1175)年」と読めるのでそちらを採用した。" ],
+          "saji:nameFull": [ "・Mevlānā Meḥmed Efendi ibn Aḥmad Efendi" ], "saji:number": [ "217/214"
+          ], "saji:relationWithAnotherItems": [ "DSCN0916.JPG_表", "表全体像" ], "saji:stamp_c": [ "1" ],
+          "saji:stamp_o": [ "1" ], "saji:transcription": [ "...\n... şerʿ-i ... Mevlānā Meḥmed
+          Efendi ibn Aḥmad Efendi\n... olunub" ], "saji:type": [ "hüccet(?)" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1034/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1034/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9bb0faaec5fc2ae9981a3e8eef6977b07fae77d3.jpg"/>
+<zone lrx="1508" lry="3130" ulx="531" uly="700" xml:id="zone_t2z_pry_y3b"/>
+<zone lrx="1023" lry="1117" ulx="870" uly="988" xml:id="zone_rmd_sry_y3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1034/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fdbc3f94a68e64b7cacaf0a910b9388220741bc6.jpg"/>
+<zone lrx="1617" lry="2983" ulx="1183" uly="-8" xml:id="zone_r5z_try_y3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_t2z_pry_y3b" type="hüccet">
+<l>... <date type="created" when-custom="117?-04-13">fi'l-yevmi'l-sālis ʿaşar min Rebīʿ'l-āhir</date></l>
+<l>sene ... sabʿīn ve miye ve elif</l>
+<div3 facs="#zone_rmd_sry_y3b" type="stamp"/>
+</div1>
+<div1 type="summary_Serbian">
+<l>... <date type="summary_Serbian" when="1760">1760</date></l>
+</div1>
+</body>
+</text>
+</TEI>

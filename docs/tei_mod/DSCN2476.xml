@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2476</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2803/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2803/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d3046d99dd6b49cba14ddbe454bf2798537a3233.jpg"/>
+<zone lrx="2436" lry="3054" ulx="300" uly="45" xml:id="zone_mkk_czv_dmb"/>
+<zone lrx="763" lry="2969" ulx="472" uly="2676" xml:id="zone_rv5_dzv_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2803/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fd8f72dc88f3229a8cdcc3cae486256610bb24e0.jpg"/>
+<zone lrx="508" lry="516" ulx="129" uly="179" xml:id="zone_x51_fzv_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_mkk_czv_dmb" type="tezkire">
+<p>
+<lb/>hurira fī <date type="created" when="1767-11-15" when-custom="1181-06-23">23 Cemaziye'l-āhir sene 1181</date><lb/>
+</p>
+<div2 facs="#zone_rv5_dzv_dmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_x51_fzv_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

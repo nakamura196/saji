@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1985</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2315/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2315/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/00b3e8b18bbcefb67eb4b2ac25d49e20a0ffa65b.jpg"/>
+<zone lrx="1583" lry="2708" ulx="125" uly="116" xml:id="zone_whs_xkp_zlb"/>
+<zone lrx="589" lry="2665" ulx="275" uly="2385" xml:id="zone_krf_zkp_zlb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2315/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ecceb8310cd2b840501ae3d9f56dd66862016b41.jpg"/>
+<zone lrx="2256" lry="605" ulx="1678" uly="261" xml:id="zone_yjt_1lp_zlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_whs_xkp_zlb" next="#zone_yjt_1lp_zlb" type="mürāsele">
+<p>
+<lb/>fī <date type="created" when="1794-04-24" when-custom="1208-09-24">24 N sene 208</date><lb/>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_krf_zkp_zlb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_yjt_1lp_zlb" type="unkown">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

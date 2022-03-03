@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9241</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2165/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2165/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c65204a994aeb178f4a218116c98bc22bfadf9e1.jpg"/>
+<zone lrx="2642" lry="2150" ulx="392" uly="957" xml:id="zone_zwy_tws_mlb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2165/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/604194abb88c0a0a7377c91f00a629c07b976bfa.jpg"/>
+<zone lrx="1914" lry="2457" ulx="171" uly="164" xml:id="zone_fxn_wws_mlb"/>
+<zone lrx="628" lry="2293" ulx="344" uly="1973" xml:id="zone_fl2_yws_mlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_fxn_wws_mlb" next="#zone_zwy_tws_mlb" subtype="zabt_temessük" type="EMIN">
+<p>
+<lb/>işbu <date type="created" when="1825-08-13" when-custom="1240">bin iki yüz krık senesinde</date> der ... <lb/>
+</p>
+<div2 facs="#zone_fl2_yws_mlb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_zwy_tws_mlb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1826">1826</date> - <date type="summary_Croatian" when="1825-08-13" when-custom="1240">1240</date>.<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

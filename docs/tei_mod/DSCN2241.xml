@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2241</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2569/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2569/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/aa8cdf36e653dae9e8919ad538511c4c327d4e0b.jpg"/>
+<zone lrx="2200" lry="2321" ulx="157" uly="128" xml:id="zone_bx2_vmz_cmb"/>
+<zone lrx="671" lry="2094" ulx="246" uly="1730" xml:id="zone_ur4_wmz_cmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_bx2_vmz_cmb" type="mürāsele">
+<p>
+<lb/>... fī <date cert="low" type="created" when="1734-06-01" when-custom="1146">8 M sene 146</date><lb/>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_ur4_wmz_cmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2466</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2793/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2793/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3d5d4ef9ac7db263f7a7bfe1abff9157b16c08a2.jpg"/>
+<zone lrx="1724" lry="2815" ulx="177" uly="192" xml:id="zone_hzh_2vv_dmb"/>
+<zone lrx="749" lry="2776" ulx="205" uly="2256" xml:id="zone_jf1_gvv_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2793/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4e0a25623de6e2f470e5cfb6253fc8bc915ae9fd.jpg"/>
+<zone lrx="1958" lry="550" ulx="25" uly="120" xml:id="zone_zgd_hvv_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_hzh_2vv_dmb" next="#zone_zgd_hvv_dmb" type="tezkire">
+<p>
+<lb/>...
+					<lb/>
+</p>
+<div2 facs="#zone_jf1_gvv_dmb" type="sign">
+<p>
+<lb/>...
+						<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_zgd_hvv_dmb" type="unknown">
+<p>
+<lb/>...
+					<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

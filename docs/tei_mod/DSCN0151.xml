@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0151</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ</note>
+<note type="mine">非ムスリムの名前がたくさん出てくる。ひとつの土地を複数の非ムスリムで共同保有している？</note>
+<note type="mine">一方、証人にはムスリムも含まれている、</note>
+<note type="mine">【要】文字が乱れていて読みにくい。前後の似たような文書と比較しながら読み直す。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1634/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1634/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/754d45e7e7c3e0f9e78b847488f09dc7dc0eac9a.jpg"/>
+<zone lrx="2336" lry="2900" ulx="82" uly="190" xml:id="zone_ohn_htw_2jb"/>
+<zone lrx="392" lry="2349" ulx="110" uly="2112" xml:id="zone_sq5_3tw_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1634/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b2e79dfbcbafcd1cf09e8fc48406e28e4685ffef.jpg"/>
+<zone lrx="713" lry="1325" ulx="468" uly="1104" xml:id="zone_khx_ktw_2jb"/>
+<zone lrx="1833" lry="766" ulx="566" uly="415" xml:id="zone_fs5_ltw_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_ohn_htw_2jb" type="EMIN_tapu_nāme">
+<p>
+<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūh oldur ki
+					<lb/>bā-berāt-ı Pādişāhıyla ber-vech-i mutasarrıf oldığı tımār ... kurālarında <placeName type="proper">Kirşevo</placeName> nāhiyesinde <placeName type="proper">KOMARI</placeName>
+<lb/>karyesinde hudū[d] dāhilinde mutasarrıf olan <persName>MHT KOLIŞ veled-i YAVO</persName> nām kendi taht-ı tasarrıfından
+					<lb/>bulunan bir kıtʿa tarla PRAPKA... demekle bir taraf Īvān KOYŞ tarlası … varınca bir taraf
+					<lb/><persName>gardiyān</persName> tarlası ve yine bir kıtʿa tarlaya … varınca ve yine bir kıtʿa tarla <persName>... YKARUK</persName> ve yine bir kıtʿa tarla
+					<lb/><persName>BITO</persName> demekle ve yine bir kıtʿa <persName>VRTO</persName> demekle bir taraf <persName>gardiyān VIRTLI</persName> ve yine bir kıtʿa ve bir taraf
+						<persName>VNAK</persName> demekle
+					<lb/>ve yine bir kıtʿa bağçe demekle bir taraf tarīk ve taraf GAGOLA bağçesi ve yine ormanın ... bir taraf
+					<lb/>GAGOLA varınca gāye GRADİÇ hudud(?) ile ve ...tevābiʿ ve ... ne bulundukça ...
+					<lb/>biz dahi sāhşbi'l-arz bulunduğu ... biz dahi ... kānūn-uı pādişāh üzere işbu dārende-i
+					<lb/>dārende-i hurūf-u Kirşevo kilisada <persName>gardiyān</persName> nām ... tapu ile iki bin guruş bedel-i ferāğ hakk
+					<lb/>... beyʿ-i bāt katʿiyle beyʿ edüp ... tapusunu ... baʿde'l-ahz ... mesfūrun ...
+					<lb/>feragatında müşteri gardiyān tafviz ve zabt ve zirāʿat izin ve ruhsat virdüm işbu tapu nām[e] iʿtā
+					<lb/>olundu zabt ve tasarrufuna içün bir tarafdan mānʿ ve müdāhale olunmaya fī <date type="created" when="1848-03-26" when-custom="1264-04-21">21 R sene 264</date>
+</p>
+<div2 facs="#zone_sq5_3tw_2jb" type="sign">
+<p>
+<lb/>El-HAKIRi'l-Hāccı
+						<lb/><persName>Mehmed</persName> el-me'mūr </p>
+<div3 facs="#zone_khx_ktw_2jb" type="stamp">
+<p>
+<lb/>ʿAbdü'l-hāccı
+							<lb/>Mehmed Emīn-i
+							<lb/>... </p>
+</div3>
+</div2>
+<div2 type="şühūdu'l-hāl">
+<p>
+<lb/>Şühūdu'l-hāl
+						<lb/>PRAYLE Mollā Ahmed KMMACI
+						<lb/>Mehmed KBNUR
+						<lb/>Mollā ʿAlī KBNUR
+						<lb/>Mollā Mehmed RZAN
+						<lb/>İlya KURU
+						<lb/>İstepan KURU
+						<lb/>İVU KOLİŞ
+						<lb/>ve gayrihim mine'l-... </p>
+</div2>
+</div1>
+<div1 facs="#zone_fs5_ltw_2jb" type="summary_Croatian">
+<p>
+<lb/>Kulisheva <date type="summary_Croatian" when="1848">1848</date>
+<lb/>gr 2000. Nno 19. </p>
+</div1>
+</body>
+</text>
+</TEI>

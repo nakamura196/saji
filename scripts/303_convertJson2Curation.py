@@ -1,5 +1,55 @@
 import json
 
+def getWhen(value):
+    if "when" in value:
+        return value["when"]
+    elif "from" in value:
+        return value["from"]
+    else:
+        return None
+
+def getMetadata(metadata_org):
+    metadata = []
+    for key in metadata_org:
+
+        value = metadata_org[key]
+
+        if key == "note":
+            values = {}
+            
+            for obj in value:
+
+                key2 = "note-" + obj["type"] if "type" in obj else "note"
+                if key2 not in values:
+                    values[key2] = []
+                values[key2].append(obj["text"])
+
+            for key2 in values:
+                metadata.append({
+                    "label" : key2,
+                    "value": values[key2]
+                })
+
+        else:
+
+            # 日時
+            if key == "date":
+                values = []
+
+                for obj in value:
+                    whenValue = getWhen(obj)
+                    if whenValue:
+                        values.append(getWhen(obj))
+
+                value = values
+
+            metadata.append({
+                "label" : key,
+                "value": value
+            })
+
+    return metadata
+
 with open('data/items.json') as f:
     df = json.load(f)
 
@@ -13,7 +63,7 @@ for item in df:
         "label": "Automatic curation by TEI",
         "members": members,
         "within" : {
-            "label" : item["title"],
+            "label" : item["metadata"]["title"],
             "@type" : "sc:Manifest",
             "@id" : manifest
         }
@@ -25,42 +75,19 @@ for item in df:
     
     div1s = item["children"]
 
-    fond = item["fond"]
+    fond = item["metadata"]["fond"]
     
     for div1 in div1s:
         
         if "member" in div1:
+
+            metadata = getMetadata(div1["metadata"])
         
             member1 = {
-                "label": div1["title"],
+                "label": div1["metadata"]["title"],
                 "@type": "sc:Canvas",
                 "@id": div1["member"],
-                "metadata": [
-                   {
-                       "label": "type",
-                       "value": div1["type"]
-                   },
-                    {
-                       "label": "type_formatted",
-                       "value": div1["type_formatted"]
-                   },
-                    {
-                       "label": "element",
-                       "value": div1["element"]
-                   },
-                   {
-                       "label": "created",
-                       "value": div1["created"]
-                   },
-                   {
-                       "label": "fond",
-                       "value": fond
-                   },
-                    {
-                        "label": "title",
-                        "value": div1["title"]
-                    }
-                ],
+                "metadata": metadata,
                 "thumbnail": div1["thumbnail"],
                 "related ": related 
             }
@@ -69,41 +96,44 @@ for item in df:
         div2s = div1["children"]
         
         for div2 in div2s:
+
+            if "member" in div2:
+
+                metadata = getMetadata(div2["metadata"])
+            
+                member2 = {
+                    "label": div2["metadata"]["title"],
+                    "@type": "sc:Canvas",
+                    "@id": div2["member"],
+                    "metadata": metadata,
+                    "thumbnail": div2["thumbnail"],
+                    "related ": related 
+                }
+                members.append(member2)
+
             div3s = div2["children"]
             
             for div3 in div3s:
-                member3 = {
-                    
-                }
-                # members.append(member3)
+                if "member" in div3:
+                    metadata = getMetadata(div3["metadata"])
+                
+                    member3 = {
+                        "label": div3["metadata"]["title"],
+                        "@type": "sc:Canvas",
+                        "@id": div3["member"],
+                        "metadata": metadata,
+                        "thumbnail": div3["thumbnail"],
+                        "related ": related 
+                    }
+                    members.append(member3)
     
+    metadata = getMetadata(item["metadata"])
     
     member = {
-        "label": item["title"],
+        "label": item["metadata"]["title"],
         "@type": "sc:Canvas",
         "@id": item["canvas"],
-        "metadata": [
-           {
-               "label": "element",
-               "value": item["element"]
-           },
-            {
-                "label": "created",
-                "value": item["created"]
-            },
-            {
-                "label": "fond",
-                "value": fond
-            },
-            {
-                "label": "type_formatted",
-                "value": item["type_formatted"]
-            },
-            {
-                "label": "title",
-                "value": item["title"]
-            }
-        ],
+        "metadata": metadata,
         "thumbnail": item["thumbnail"],
         "related": related
     }

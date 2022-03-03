@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2008</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2338/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2338/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2731fb5263157e4a2288a4ddbf081b6bf50b708b.jpg"/>
+<zone lrx="1673" lry="3063" ulx="127" uly="127" xml:id="zone_x4l_sww_zlb"/>
+<zone lrx="1182" lry="3007" ulx="872" uly="2727" xml:id="zone_ups_tww_zlb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2338/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ec08027736263d182fd4b81b5c6a1dd641462052.jpg"/>
+<zone lrx="2312" lry="820" ulx="1237" uly="320" xml:id="zone_jk3_vww_zlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_x4l_sww_zlb" next="#zone_jk3_vww_zlb" type="mürāsele">
+<p>
+<lb/>... hurira fī <date type="created" when="1799-12-08" when-custom="1214-07-11">11 şehr Receb
+          <lb/>sene 1214</date>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_ups_tww_zlb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_jk3_vww_zlb" type="sumamry_Croatian">
+<p>
+<lb/>... 
+          <lb/><date type="summary_Croatian" when="1799">1799</date>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

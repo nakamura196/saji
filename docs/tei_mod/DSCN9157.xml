@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9157</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2083/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2083/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/54b6107fdedfdcdff4da99068d9e3f36c9e8bb25.jpg"/>
+<zone lrx="2695" lry="644" ulx="578" uly="283" xml:id="zone_ons_3vk_hlb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2083/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4f4de5dc052ed78206d15af1d9cb0115bdc1b0b1.jpg"/>
+<zone lrx="1663" lry="2890" ulx="673" uly="245" xml:id="zone_xyq_qvk_hlb"/>
+<zone lrx="1373" lry="773" ulx="913" uly="276" xml:id="zone_tr5_rvk_hlb"/>
+<zone lrx="1323" lry="763" ulx="1156" uly="610" xml:id="zone_xsm_svk_hlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_xyq_qvk_hlb" next="#zone_ons_3vk_hlb" type="hüccet">
+<p>
+<lb/>huria fī <date type="created" when="1790-10-13" when-custom="1205-02-05">yevmi'l-hāmis min şehri Saferi'l-... li-sene hams ve mieteyn ve elif</date><lb/>
+</p>
+<div2 facs="#zone_tr5_rvk_hlb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_xsm_svk_hlb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_ons_3vk_hlb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

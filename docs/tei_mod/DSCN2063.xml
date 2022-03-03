@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2063</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2393/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2393/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/39b1a2b2ee82188be0ae24eb04858352c9e7d04f.jpg"/>
+<zone lrx="2121" lry="3185" ulx="121" uly="1071" xml:id="zone_cdc_5f5_bmb"/>
+<zone lrx="455" lry="3095" ulx="137" uly="2727" xml:id="zone_jbk_vf5_bmb"/>
+<zone lrx="2084" lry="1209" ulx="672" uly="109" xml:id="zone_c1t_wf5_bmb"/>
+<zone lrx="1015" lry="606" ulx="687" uly="281" xml:id="zone_fpv_xf5_bmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2393/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/263c61005cb5ba6dc6337e096452540bbb9aeee1.jpg"/>
+<zone lrx="787" lry="461" ulx="485" uly="177" xml:id="zone_erk_1g5_bmb"/>
+<zone lrx="2168" lry="3046" ulx="518" uly="2790" xml:id="zone_v3j_bg5_bmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_cdc_5f5_bmb" next="#zone_c1t_wf5_bmb" subtype="tezkire" type="EMIN">
+<p>
+<lb/>işbu <date type="created" when="1773-03-22" when-custom="1186">bin yüz seksen altı senesinde</date> yevm
+					<lb/>... fī </p>
+<div2 facs="#zone_jbk_vf5_bmb" type="sign">
+<p>
+<lb/>...
+						<lb/>
+</p>
+<div3 facs="#zone_erk_1g5_bmb" type="stamp">
+<p>
+<lb/>...
+							<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu'l-hāl">
+<p>
+<lb/>...
+						<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_c1t_wf5_bmb" next="#zone_v3j_bg5_bmb" type="unkown">
+<p>
+<lb/>...
+					<lb/>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_fpv_xf5_bmb" type="stamp">
+<p>
+<lb/>...
+							<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_v3j_bg5_bmb" type="summary_Croatian">
+<p>
+<lb/>...
+					<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

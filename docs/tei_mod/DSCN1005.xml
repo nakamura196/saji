@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1005</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">日付：要検討</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1121/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1121/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6d527d4ec82163509def3d8da1df20aed0151af8.jpg"/>
+<zone lrx="2293" lry="2678" ulx="7" uly="421" xml:id="zone_bmx_lqg_z3b"/>
+<zone lrx="874" lry="1822" ulx="658" uly="1641" xml:id="zone_bd3_nqg_z3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1121/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f0dd7074cee5a5e0b5bbb66fd4b52cc0326d7469.jpg"/>
+<zone lrx="2139" lry="1769" ulx="1324" uly="515" xml:id="zone_ahk_pqg_z3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_bmx_lqg_z3b" type="unknown">
+<l><date type="created" when="1823-09-05" when-custom="1238">... 238</date></l>
+<div3 facs="#zone_bd3_nqg_z3b" type="stamp"/>
+</div1>
+<div1 facs="#zone_ahk_pqg_z3b" type="unknown"/>
+</body>
+</text>
+</TEI>

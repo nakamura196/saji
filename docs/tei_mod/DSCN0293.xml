@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0293</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1772/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1772/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f4b6b8ce1ccdffc594d145e6ccc159031b642971.jpg"/>
+<zone lrx="2017" lry="3125" ulx="825" uly="600" xml:id="zone_kz4_zms_yjb"/>
+<zone lrx="1992" lry="1075" ulx="1678" uly="619" xml:id="zone_azj_bns_yjb"/>
+<zone lrx="1953" lry="1069" ulx="1827" uly="960" xml:id="zone_ix2_cns_yjb"/>
+<zone lrx="1690" lry="1094" ulx="1355" uly="621" xml:id="zone_ytc_dns_yjb"/>
+<zone lrx="1521" lry="1090" ulx="1373" uly="951" xml:id="zone_ebj_2ns_yjb"/>
+<zone lrx="1382" lry="1132" ulx="1011" uly="611" xml:id="zone_ef3_fns_yjb"/>
+<zone lrx="1294" lry="1128" ulx="1150" uly="1002" xml:id="zone_trb_gns_yjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1772/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2ec76e4dd135e5515f97261ad7f330cd3a8049fa.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1772/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/d75c6a05577cbf5f0faab08091821157e0974ab3.jpg"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_kz4_zms_yjb" type="hüccet">
+<p>
+<lb/>... <date type="created" when="1784-05-04" when-custom="1198-06-14">fi'l-yevmi'l-rābiʿ ve ʿaşr min<lb/>
+<lb/>māh-ı Cemaziye'l-āhir sene semān ve tisʿīn ve mie ve elif</date><lb/>
+</p>
+<div2 facs="#zone_azj_bns_yjb" type="sign">
+<p>
+<lb/>... fī <lb/>
+</p>
+<div3 facs="#zone_ix2_cns_yjb" type="stamp">
+<p>
+<lb/>... fī <lb/>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_ytc_dns_yjb" type="sign">
+<p>
+<lb/>... fī <lb/>
+</p>
+<div3 facs="#zone_ebj_2ns_yjb" type="stamp">
+<p>
+<lb/>... fī <lb/>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_ef3_fns_yjb" type="sign">
+<p>
+<lb/>... fī <lb/>
+</p>
+<div3 facs="#zone_trb_gns_yjb" type="stamp">
+<p>
+<lb/>... fī <lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

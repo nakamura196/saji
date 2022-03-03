@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0306</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1785/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1785/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e89a002b10cb5c0c00bf90f0924bc168d247b9a6.jpg"/>
+<zone lrx="2275" lry="2333" ulx="108" uly="41" xml:id="zone_z1x_rxn_2kb"/>
+<zone lrx="1168" lry="2310" ulx="598" uly="2015" xml:id="zone_tpt_txn_2kb"/>
+<zone lrx="1163" lry="2300" ulx="954" uly="2107" xml:id="zone_rrp_5xn_2kb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1785/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d75f334ae1f55b229b82c8524943c6dd28547dfe.jpg"/>
+<zone lrx="2706" lry="1394" ulx="395" uly="861" xml:id="zone_wgh_wxn_2kb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="medium" facs="#zone_z1x_rxn_2kb" type="mürāsele">
+<p>
+<lb/>... fī <date type="created" when="1858-02-22" when-custom="1274-07-09">9 B sene 74</date><lb/>
+</p>
+<div2 facs="#zone_tpt_txn_2kb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_rrp_5xn_2kb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_wgh_wxn_2kb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1857-08-19" when-custom="1273">1273</date>.<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

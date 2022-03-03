@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9297</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2221/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2221/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/15871ef1868b353966224344eea543454c4d55e3.jpg"/>
+<zone lrx="2628" lry="1355" ulx="739" uly="872" xml:id="zone_gks_vll_tlb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2221/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a5cbf50f11dd73458778b271aecf513b746a3bb6.jpg"/>
+<zone lrx="2354" lry="2763" ulx="109" uly="290" xml:id="zone_gwl_xll_tlb"/>
+<zone lrx="1017" lry="2621" ulx="309" uly="2168" xml:id="zone_mrn_yll_tlb"/>
+<zone lrx="1000" lry="2543" ulx="719" uly="2317" xml:id="zone_s4g_zll_tlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_gwl_xll_tlb" next="#zone_gks_vll_tlb" subtype="hurūf" type="EMIN">
+<p>
+<lb/>işbu <date when="1849-11-14" when-custom="1265">bin iki yüz altmış beş senesinde</date> ...
+          <lb/>... <date type="created" when="1849-11-14" when-custom="1265">sene 65</date>
+</p>
+<div2 facs="#zone_mrn_yll_tlb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_s4g_zll_tlb" type="stamp_sūret">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_gks_vll_tlb" type="summary_Croatian">
+<p>
+<lb/><date from="1847-12-07" from-custom="1263" to="1849-11-14" to-custom="1265" type="summary_Croatian">1263. - 1265</date>.
+          <lb/>Nno. 8.
+        </p>
+</div1>
+</body>
+</text>
+</TEI>

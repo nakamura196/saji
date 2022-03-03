@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0124</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">果樹園などの土地の売買契約：絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ ü ferāğ</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1608/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1608/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/78bfe223e54bab1a77b56b56a9ea5efe35d17893.jpg"/>
+<zone lrx="2317" lry="3058" ulx="183" uly="1475" xml:id="zone_mms_tlv_2jb"/>
+<zone lrx="584" lry="3020" ulx="292" uly="2605" xml:id="zone_pdx_5lv_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_mms_tlv_2jb" type="temessük">
+<p>
+<lb/>Vech-i tahrīr-i hurūf-ı temessük budur ki
+                    <lb/>medīne-i Bosna ... mahallesi ...-da ve VKUDUL nām ... bākiʿ taht ve tasarrıfında bulunan ... altmış
+                    <lb/>zimmī <persName>İztepān Mārik</persName> nām zimmī on iki çiçelik ...taraf-ı ... tarafı ve taraf-ı sānī ...
+                    <lb/>bāğı ve taraf-ı sālis dağ ve taraf-ı rābiʿ tarīk-ı ... ile ... ve ... olub ve yine bağ-ı mezkūrenin üstesinde ...-ı
+                    <lb/>maʿrūf <persName cert="low">Ali</persName> dahi bağıyle ve Hasan ...-yle ve dört yüz elli guruş nakd akçe mukābelesinde beyʿ-i bāt katʿiyle beyʿ ...
+                    <lb/>...-ler nāmūn zimmīlere beyʿ edüb ve ferāğ ...-yle ferāğ ve ...-ı mezkūri ... nāmān-ı mesfūrlerden tamāmen ve ...
+                    <lb/>ahz ü kabz eylediğim ecilden işbu hurūf ver-vech-i temessük ... olunub ve merkūmūn-ı ... yedlerine iʿtā olundu baʿde'l-yevm
+                    <lb/>mahalle-i mezkūre üstesinde zimmī <persName>İstepān Mārik</persName> ... eylediği olan bağın ...-da ve üstesinde olan ... 
+                    <lb/>... kalmayub musfūrlerin ... zabt ve tasarrıf ... tarafımızdan 
+                    <lb/>ve taraf-ı āhardan zabt ve tasarrıflarına ... mānʿ olumaya fī <date type="created" when="1832-08-14" when-custom="1248-03-18">18 Ra sene 248</date>
+</p>
+<div2 facs="#zone_pdx_5lv_2jb" type="sign">
+<p>
+<lb/>...
+                        <lb/><persName>İbrāhīm</persName>
+<lb/>LUHYAK
+                        <lb/>M
+                    </p>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>Sālih <persName>Akındı</persName> HUMUZAH
+                        <lb/>Mollā <persName>İbrāhīm</persName> HUMU
+                        <lb/>Mollā <persName>Mehmed</persName> HUMU
+                        <lb/>ve gayrihim
+                    </p>
+</div2>
+</div1>
+</body>
+<back>
+<listPerson>
+<person xml:id="">
+<persName/>
+<occupation/>
+<occupation/>
+<socecStatus/>
+<state/>
+<state/>
+</person>
+</listPerson>
+<listRelation>
+<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
+<relation active="#" name="iltizām" passive="#"/>
+<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
+<relation active="#" name="issue" passive="#"/>
+</listRelation>
+</back>
+</text>
+</TEI>

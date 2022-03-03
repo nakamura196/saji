@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2434</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2762/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2762/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d7f186331c2fa169c2820ac912161e940563ea20.jpg"/>
+<zone lrx="2235" lry="3107" ulx="264" uly="921" xml:id="zone_qbq_hdv_dmb"/>
+<zone lrx="644" lry="3074" ulx="334" uly="2723" xml:id="zone_cfq_ndv_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2762/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/efa175e507d1c7b41001f08c02a0d779c99b06f0.jpg"/>
+<zone lrx="696" lry="482" ulx="412" uly="242" xml:id="zone_acm_pdv_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_qbq_hdv_dmb" type="EMIN">
+<p>
+<lb/>...
+          <lb/><date type="created" when="1739-04-08" when-custom="1151">sene 1151</date>
+</p>
+<div2 facs="#zone_cfq_ndv_dmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_acm_pdv_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

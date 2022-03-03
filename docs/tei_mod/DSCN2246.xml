@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2246</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2574/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2574/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/64888f92c4eb214a38d98a88817cf26c140a145a.jpg"/>
+<zone lrx="2317" lry="2891" ulx="142" uly="241" xml:id="zone_z34_bpf_dmb"/>
+<zone lrx="783" lry="2864" ulx="530" uly="2541" xml:id="zone_v5q_cpf_dmb"/>
+<zone lrx="377" lry="2833" ulx="158" uly="2371" xml:id="zone_bjm_dpf_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2574/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/23a83b304dc4e302a9288043810c1e420c7c3f31.jpg"/>
+<zone lrx="1129" lry="820" ulx="754" uly="458" xml:id="zone_tyq_gpf_dmb"/>
+<zone lrx="691" lry="766" ulx="308" uly="445" xml:id="zone_epn_hpf_dmb"/>
+<zone lrx="2304" lry="2929" ulx="154" uly="2241" xml:id="zone_nbr_3pf_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="low" facs="#zone_z34_bpf_dmb" next="#zone_nbr_3pf_dmb" subtype="tezkire" type="EMIN">
+<p>
+<lb/>...<lb/>
+</p>
+<div2 facs="#zone_v5q_cpf_dmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_tyq_gpf_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 facs="#zone_bjm_dpf_dmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_epn_hpf_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_nbr_3pf_dmb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

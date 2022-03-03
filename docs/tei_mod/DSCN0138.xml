@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0138</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">鉄鉱山のある地域の田の売却承認</note>
+<note type="mine">DSCN0141.JPGの内容と酷似している。不明な人名など参考にする。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": ["典型" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1622/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1622/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ad41de87b46436d5e3eb3775875d014aef555db5.jpg"/>
+<zone lrx="2214" lry="2492" ulx="221" uly="85" xml:id="zone_a2v_s4w_2jb"/>
+<zone lrx="531" lry="2428" ulx="289" uly="2049" xml:id="zone_ddc_54w_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1622/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a572ba5638e7a6da0dbd1a9fa73f43718314f3f9.jpg"/>
+<zone lrx="2728" lry="961" ulx="323" uly="500" xml:id="zone_udc_v4w_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_a2v_s4w_2jb" type="EMIN_hurūf">
+<p>
+<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date type="created" when="1850-11-04" when-custom="1266">iki yüz altmış altı senesinde</date> der ʿuhde [ve] iltizāmımızda bulunan maʿden-i āhen-i Kirşevo mukātaʿası
+					<lb/>varoş hudūd dāhilinde LPA demekle arāzī-i mīrīye bir kıtʿa tarla bir taraf DUMIN tarlası bir taraf
+					<lb/>KOPAB tarlası bir taraf JABU tarlası bir taraf müşteri gardiyān VŞA'nın tarlası mahdūd ve mumtāz olub
+					<lb/>Kirşevo varoş mutavattınlarından nasrani(?) MANDA mutasarrıf eyledüğü işbu dārende-i hurūf Kirşevo
+					<lb/>varoş kilisadan gardiyān nām-ı mesfūre iki yüz beş guruş semen mukābelesinde beyʿ edüb
+					<lb/>ol dahi kabūl bizim dahi me'mūriyetimiz hasebiyle mezkūr tarlayı gardiyāna tafvīz ve zabt
+					<lb/>ve tasarrıfına izin virdüm mā-dām ki taraf-ı mīrīye rāciʿ olan ʿöşri sāl be-sāl
+					<lb/>edā tarafımızdan ve taraf-ı āhardan bir kimesine māniʿ olunmaya <date type="created" when="1850-11-04" when-custom="1266">sene 66</date>
+</p>
+<div2 facs="#zone_ddc_54w_2jb" type="sign">
+<p>
+<lb/>El-me'mūr
+						<lb/>Mehmed Emīni Mukā-
+						<lb/>taʿa-i Kirşevo
+						<lb/>Hālā
+						<lb/>M </p>
+</div2>
+<div2 type="şühūdu'l-hāl">
+<p>
+<lb/>Şühūdu'l-hāl
+						<lb/>Zimmī PTAEŞUNYAB
+						<lb/>Zimmī Marko KAGAB
+						<lb/>Zimmī YÜZÜ ŞANYAN
+						<lb/>Īwān PURPTK
+						<lb/>TONA BAN
+						<lb/>ve gayrihim </p>
+</div2>
+</div1>
+<div1 facs="#zone_udc_v4w_2jb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1852">1852</date>.
+					<lb/>Nno 25ç </p>
+</div1>
+</body>
+</text>
+</TEI>

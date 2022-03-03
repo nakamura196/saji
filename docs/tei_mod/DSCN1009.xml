@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1009</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ],
+          "saji:type": [ "ḳassām deftrei" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1125/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1125/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/79a2f00c2173c9848889b76e5875296df33e1fe8.jpg"/>
+<zone lrx="1817" lry="2733" ulx="517" uly="50" xml:id="zone_eml_jsg_z3b"/>
+<zone lrx="1418" lry="2690" ulx="1204" uly="2500" xml:id="zone_pbs_ksg_z3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1125/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/53d1d54a14d301c0d49bb7df89d585b9ba3b988c.jpg"/>
+<zone lrx="1316" lry="1729" ulx="591" uly="1283" xml:id="zone_fp3_msg_z3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_eml_jsg_z3b" type="kassām_defteri">
+<l>... fī <date cert="unknown" type="created" when="1816-01-29" when-custom="1231-02-">... S 231</date></l>
+<div3 facs="#zone_pbs_ksg_z3b" type="stamp"/>
+</div1>
+<div1 type="unknown"/>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2047</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2377/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2377/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8eea14a003e3854b600b928acd3c573198958464.jpg"/>
+<zone lrx="1742" lry="3091" ulx="225" uly="158" xml:id="zone_qsq_3l4_bmb"/>
+<zone lrx="593" lry="3038" ulx="244" uly="2679" xml:id="zone_blg_kl4_bmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2377/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2acaa019fe49630d54ab94827a8bba5730a94c9d.jpg"/>
+<zone lrx="846" lry="683" ulx="454" uly="325" xml:id="zone_e1q_4l4_bmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_qsq_3l4_bmb" type="mürāsele">
+<p>
+<lb/>... fī <date cert="low" type="created" when="1778-04-08" when-custom="1192-03-11">11 Ra sene 1192</date><lb/>
+</p>
+<div2 facs="#zone_blg_kl4_bmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_e1q_4l4_bmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

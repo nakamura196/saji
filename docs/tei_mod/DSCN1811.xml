@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1811</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1342/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1342/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2c82310a88cd6e06666986549cc2b5b848853ef5.jpg"/>
+<zone lrx="1550" lry="3025" ulx="442" uly="316" xml:id="zone_jpb_sl4_cjb"/>
+<zone lrx="1106" lry="875" ulx="716" uly="349" xml:id="zone_xzj_tl4_cjb"/>
+<zone lrx="1026" lry="865" ulx="863" uly="737" xml:id="zone_rnj_5l4_cjb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1342/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6b243b8bfb4afcfbcd6af435ea8434ebc03d34c1.jpg"/>
+<zone lrx="2701" lry="1255" ulx="512" uly="700" xml:id="zone_bbp_vl4_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_jpb_sl4_cjb" type="hüccet">
+<p>
+<lb/>... <date type="created" when="1839-10-13" when-custom="1255-08-05">fi'l-yevmi'l-hāmis min şehr Şaʿabānı'l-muʿazzam<lb/>
+<lb/>sene hamıs ve hamsīn ve mieteyn ve elif</date><lb/>
+</p>
+<div2 facs="#zone_xzj_tl4_cjb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_rnj_5l4_cjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_bbp_vl4_cjb" type="summary_Croatian">
+<p>
+<lb/><date type="summary_Croatian" when="1839">1839</date>.<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

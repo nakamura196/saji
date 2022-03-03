@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2227</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2555/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2555/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9f9889ed9280452e2d241f90e06c9ed7d1d5f3bd.jpg"/>
+<zone lrx="2089" lry="2666" ulx="300" uly="1205" xml:id="zone_q1y_b2z_cmb"/>
+<zone lrx="1117" lry="2644" ulx="589" uly="2283" xml:id="zone_q5m_22z_cmb"/>
+<zone lrx="1944" lry="2994" ulx="306" uly="2683" xml:id="zone_s3r_f2z_cmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_q1y_b2z_cmb" next="#zone_s3r_f2z_cmb" type="unknown">
+<p>
+<lb/>...<lb/>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_q5m_22z_cmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_s3r_f2z_cmb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

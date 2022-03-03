@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0494</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 6" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2901/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2901/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cafa0003dee54ade3e6181e326f9b41cbe8c6c4a.jpg"/>
+<zone lrx="2064" lry="2825" ulx="33" uly="1299" xml:id="zone_yyl_s4c_2mb"/>
+<zone lrx="457" lry="2769" ulx="242" uly="2587" xml:id="zone_dms_z4c_2mb"/>
+<zone lrx="1784" lry="1247" ulx="90" uly="10" xml:id="zone_s33_cpc_2mb"/>
+<zone lrx="2313" lry="2271" ulx="2006" uly="1815" xml:id="zone_m5y_2pc_2mb"/>
+<zone lrx="2297" lry="2064" ulx="2171" uly="1937" xml:id="zone_enz_fpc_2mb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2901/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fafc5163d54b4df6565fb68d651e081c4aa68426.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2901/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/40e3c0597d1778ca0e2afd0612b99f0a04057a11.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2901/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/fcd8887b3f1dc8cde15739312c3b299b38ef2f05.jpg"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_yyl_s4c_2mb" next="#zone_s33_cpc_2mb" type="ʿarz-ıhāl_sūret">
+<p>
+<lb/>...<lb/>
+</p>
+<div2 facs="#zone_dms_z4c_2mb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_s33_cpc_2mb" next="#zone_m5y_2pc_2mb" type="buyuruldu">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+<div1 facs="#zone_m5y_2pc_2mb" type="note">
+<p>
+<lb/>... <lb/>
+</p>
+<div2 type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_enz_fpc_2mb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

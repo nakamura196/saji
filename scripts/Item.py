@@ -23,9 +23,11 @@ class Item:
     missingTypes = set()
     
     item = {
-        # "element": "item",
+        
         "children": [],
-        "metadata": {}
+        "metadata": {
+            "element": "item",
+        }
         # "note" : []
     }
     
@@ -51,7 +53,7 @@ class Item:
             map = {}
             df = json.load(f)
             for key in df:
-                map[key.upper()] = df[key].upper()
+                map[key.lower()] = df[key].lower()
             self.dict4div1= map
 
         self.getDict4div2item()
@@ -60,6 +62,113 @@ class Item:
         self.getCanvases()
 
         self.getHutime()
+
+    @staticmethod
+    def staticGetHutime(path):
+        import pandas as pd
+        df = pd.read_csv(path)
+        map = {}
+        for index, row in df.iterrows():
+            key = row["row"]
+            value = row["hutime"]
+            
+            map[key] = value
+        return map
+
+    @staticmethod
+    def staticConvertDate(date, hutime):
+        print(date)
+        date2 = copy.copy(date)
+        attrs = date.attrs
+
+        '''
+        for attr in attrs:
+            if attr == "when-custom":
+                date2["when"] = 
+            print(attr, date[attr])
+        '''
+
+        '''
+        import pandas as pd
+        df = pd.read_csv(path)
+        map = {}
+        for index, row in df.iterrows():
+            key = row["row"]
+            value = row["hutime"]
+            
+            map[key] = value
+        return map
+        '''
+
+    @staticmethod
+    def staticConvertDate2(value, hutime):
+
+        if value in hutime:
+            return hutime[value]
+
+        flg = True
+
+        while flg:
+
+            # time.sleep(1)
+            url = "http://ap.hutime.org/cal/?ival="+value+"&ical=103.1&method=conv&ep=b&ocal=101.1&otype=date&oprop=text&oform=gg%20YYYY-MM-dd"
+
+            # print(url)
+            r = requests.get(url)
+            sd = r.text.replace("C.E. ", "").strip()
+
+            year = int(sd.split("-")[0])
+
+            if year < 1000:
+                # 一日前
+                spl = hd2.split("-")
+
+                try:
+                    hd2 = "{}-{}-{}".format(spl[0], spl[1], int(spl[2]) - 1)
+                except:
+                    sd = None
+                    flg = False
+            elif year > 2000:
+                sd = None
+                flg = False
+            else:
+                flg = False
+
+        return sd
+
+    @staticmethod
+    def formatDate(date):
+        dd = date.split("-")
+
+        hd2 = None
+        
+        l = len(dd)
+        if l == 1:
+            year = dd[0]
+            if year.isdecimal():
+                hd2 = year + "-12-29"
+        elif l == 2:
+            
+            year = dd[0]
+            month = dd[1]
+            if year.isdecimal() and month.isdecimal():
+                hd2 = year+"-"+month+"-29"
+        elif l == 3:
+            year = dd[0]
+            month = "12" if dd[1].strip() == "" else dd[1].strip()
+            day = "29" if dd[2].strip() == "" else dd[2].strip()
+            if year.isdecimal() and month.isdecimal() and day.isdecimal():
+                hd2 = year + "-" + month + "-" + day
+
+        if not hd2:
+            return None
+
+         # convert後のチェック
+        year = int(hd2.split("-")[0])
+        if year > 2000 or year < 1000:
+            return None
+
+        return hd2
 
     def getHutime(self):
         import pandas as pd
@@ -81,10 +190,10 @@ class Item:
             value = row["まとめ"]
             if pd.isnull(value):
                 continue
-            div1s = sorted(list(set(row["tei:div1_formatted"].upper().split("|"))))
+            div1s = sorted(list(set(row["tei:div1_formatted"].lower().split("|"))))
             div1 = "|".join(div1s)
             
-            map[div1] = value.upper()
+            map[div1] = value.lower()
 
         self.dict4div2item = map
 
@@ -158,25 +267,19 @@ class Item:
                 attr = None
 
                 title = self.item["metadata"]["title"]
+                
 
-                if date.get("when-custom"):
-                    attr = date.get("when-custom")
-                elif date.get("from-custom"):
-                    attr = date.get("from-custom")
+                if date.get("when"):
+                    value = date.get("when")
+                elif date.get("from"):
+                    value = date.get("from")
+                elif date.get("to"):
+                    value = date.get("from")
                 else:
                     error = copy.deepcopy(date)
-                    error["reason"] = "createdに不具合あり"
+                    error["reason"] = "不具合あり"
                     hash = hashlib.md5(json.dumps(error).encode()).hexdigest()
                     self.dateErrors[hash] = error
-
-                if attr:
-                    if attr in hutime:
-                        value = hutime[attr]
-                    else:
-                        error = copy.deepcopy(date)
-                        error["reason"] = "hutimeに存在しない"
-                        hash = hashlib.md5(json.dumps(error).encode()).hexdigest()
-                        self.dateErrors[hash] = error
 
                 if value and value > created:
                     created = value
@@ -254,17 +357,17 @@ class Item:
     def getFormattedType(self, value):
         for key in self.dict4div1:
             '''
-            if key in value.upper():
+            if key in value.lower():
                 return self.dict4div1[key]
             '''
-            if key == value.upper():
+            if key == value.lower():
                 return self.dict4div1[key]
 
-        # print("[Missing D] "+value.upper())
+        # print("[Missing D] "+value.lower())
         # 変換できなかったtype
-        self.missingTypes.add(value.upper())
+        self.missingTypes.add(value.lower())
             
-        return "[Missing D] "+value.upper()
+        return "[Missing D] "+value.lower()
                 
     def extractDiv2s(self, div_):
         children = []
@@ -381,16 +484,16 @@ class Item:
             map[canvas['@id']] = canvas["images"][0]["resource"]["service"]["@id"]
             
             if i == 0:
-                self.item["metadata"]["canvas"] = canvas["@id"]
+                self.item["canvas"] = canvas["@id"]
         self.canvases = map
         
         # 以下、重複。要検討。
         self.manifest =  manifest
-        self.item["metadata"]["manifest"] = manifest
+        self.item["manifest"] = manifest
         
     def extractMedia(self):
-        self.item["metadata"]["thumbnail"] = self.soup.find("graphic").get("url").replace("/original/", "/medium/")
-        self.item["metadata"]["tei_url"] = self.uri_prefix + "/"+ self.dirname+"/" + self.item["metadata"]["title"] + ".xml"
+        self.item["thumbnail"] = self.soup.find("graphic").get("url").replace("/original/", "/medium/")
+        self.item["tei_url"] = self.uri_prefix + "/"+ self.dirname+"/" + self.item["metadata"]["title"] + ".xml"
         
     def extractSourceDesc(self):
         sourceDesc = self.soup.find("sourceDesc").find("p")
@@ -415,6 +518,10 @@ class Item:
         # 二つのIDの場合、どうするか
         
         for facs_id in facs_ids:
+            
+            # 入力ミスにより、空の場合あり
+            if facs_id == "":
+                continue
         
             zone = self.soup.find(attrs={"xml:id" : facs_id})
             
@@ -427,6 +534,8 @@ class Item:
             graphic = surface.find("graphic")
 
             canvas_uri = graphic.get("n")
+
+            # print(zone)
 
             ulx = int(zone.get("ulx"))
             uly = int(zone.get("uly"))

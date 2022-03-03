@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0745</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 8" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3142/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/3142/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2a23003ad1096fd3af547252a8dd50d953e0840c.jpg"/>
+<zone lrx="1839" lry="2323" ulx="600" uly="115" xml:id="zone_tqf_ttq_2mb"/>
+<zone lrx="958" lry="2253" ulx="625" uly="1790" xml:id="zone_vm2_5tq_2mb"/>
+<zone lrx="951" lry="2241" ulx="765" uly="2048" xml:id="zone_tmw_5tq_2mb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_tqf_ttq_2mb" type="ʿilmühaber">
+<p>
+<lb/>... <date type="created" when="1872-03-09" when-custom="1288">sene 88</date>
+<lb/>
+</p>
+<div2 facs="#zone_vm2_5tq_2mb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_tmw_5tq_2mb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

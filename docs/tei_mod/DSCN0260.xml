@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0260</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1739/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1739/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5562c3be52b776083cdcf9c25b38d8c5a76dc561.jpg"/>
+<zone lrx="1647" lry="2792" ulx="200" uly="223" xml:id="zone_pch_pst_xjb"/>
+<zone lrx="669" lry="2739" ulx="459" uly="2557" xml:id="zone_gbj_qst_xjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_pch_pst_xjb" type="unknown">
+<p>
+<lb/>... fī <date type="created" when="1814-06-26" when-custom="1229-07-09">9 B sene 221</date><lb/>
+</p>
+<div2 type="sign">
+<div3 facs="#zone_gbj_qst_xjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

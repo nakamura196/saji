@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9329</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2253/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2253/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/90c17900e2041c0a7e95a7881da3a33fc5a6cc33.jpg"/>
+<zone lrx="2572" lry="2499" ulx="2167" uly="2333" xml:id="zone_zn4_qjm_ylb"/>
+<zone lrx="2584" lry="1327" ulx="623" uly="883" xml:id="zone_r5g_sjm_ylb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2253/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8632f35f0505c66f8f3258d26dda83b285bcd94b.jpg"/>
+<zone lrx="2200" lry="2545" ulx="-8" uly="227" xml:id="zone_exl_5jm_ylb"/>
+<zone lrx="448" lry="2066" ulx="115" uly="1757" xml:id="zone_yfq_wjm_ylb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_exl_5jm_ylb" next="#zone_r5g_sjm_ylb" type="EMIN">
+<p>
+<lb/>işbu <date when="1833-05-18" when-custom="1248">bin iki yüz krık sekiz senesinde</date> der ...
+          <lb/><date type="created" when="1833-05-18" when-custom="1248">sene 248</date>
+</p>
+<div2 facs="#zone_yfq_wjm_ylb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_zn4_qjm_ylb" type="stamp_sūret">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_r5g_sjm_ylb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1833">1833</date> - <date type="summary_Croatian" when="1833-05-18" when-custom="1248">1248</date>.
+          <lb/>Nno 8.
+        </p>
+</div1>
+</body>
+</text>
+</TEI>

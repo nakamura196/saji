@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1658</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
+          "本来、このbuyurulduに基づいてfermānが作成されるので、なぜこの文書が州僧院に保管されているのか謎。vālī作成のbuyurulduか？" ],
+          "saji:type": [ "‘arż-ı ḥāl ve buyuruldu" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1197/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1197/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/18165dfe53d4557dec9aeb508a0bf1a241b22bb6.jpg"/>
+<zone lrx="1791" lry="2936" ulx="91" uly="-9" xml:id="zone_lsh_2pk_1jb"/>
+<zone lrx="1254" lry="1990" ulx="109" uly="545" xml:id="zone_uzh_2pk_1jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1197/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2f027dff45739c0fbe1473cafd92b5867e089437.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1197/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/e5234fd342cb154bf87d10f096c144a810a4a929.jpg"/>
+<zone lrx="3145" lry="705" ulx="34" uly="427" xml:id="zone_rzc_3pk_1jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_lsh_2pk_1jb" type="ʿarz-ı_hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+<div1 facs="#zone_uzh_2pk_1jb" type="buyuruldu">
+<p>
+<lb/>... buyuruldu fī <date cert="medium" type="created" when="1782-07-17" when-custom="1196-08-07">7 Ş 196</date><lb/>
+</p>
+</div1>
+<div1 facs="#zone_rzc_3pk_1jb" type="summary_Croatian">
+<p>
+<lb/><date type="summary_Croatian" when="1782">1782</date> ...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2443</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="summary">オスマン語の練習。内容は良く分からない。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2771/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2771/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d1d2888b4332499debfc059f7bd38d8f9e57f207.jpg"/>
+<zone lrx="2182" lry="3081" ulx="173" uly="263" xml:id="zone_vzp_thv_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2771/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/269108ad42964203bb7233d1730660f683f41169.jpg"/>
+<zone lrx="2318" lry="3036" ulx="182" uly="200" xml:id="zone_lhv_5hv_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_vzp_thv_dmb" type="note">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+<div1 facs="#zone_lhv_5hv_dmb" type="note">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

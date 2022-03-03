@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN9247</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2171/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2171/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9c9f87e2b0862fe6b456d043324aeb3e27791b35.jpg"/>
+<zone lrx="2712" lry="1472" ulx="467" uly="705" xml:id="zone_qtt_gxg_nlb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2171/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/0be559ed78e88bd20dd93c0abcdbeff17e1ec8d5.jpg"/>
+<zone lrx="2286" lry="2393" ulx="146" uly="200" xml:id="zone_wsv_3xg_nlb"/>
+<zone lrx="624" lry="2293" ulx="267" uly="1875" xml:id="zone_dmy_jxg_nlb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_wsv_3xg_nlb" next="#zone_qtt_gxg_nlb" subtype="zabt_temessük" type="EMIN">
+<p>
+<lb/>işbu <date type="created" when="1838-03-25" when-custom="1253">bin iki yüz elli uç senesinde</date> der ... <lb/>
+</p>
+<div2 facs="#zone_dmy_jxg_nlb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+<div2 type="şühūdu’l-hāl">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div1 facs="#zone_qtt_gxg_nlb" type="summary_Croatian">
+<p>
+<lb/>... <date type="summary_Croatian" when="1838">1838</date>. - <date type="summary_Croatian" when="1838-03-25" when-custom="1253">1253</date><lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

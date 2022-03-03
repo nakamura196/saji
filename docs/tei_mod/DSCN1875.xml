@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1875</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1405/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1405/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/68eeed469789ca6e35c5c1712bb1e789087a2f68.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1405/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/435b09f44bc0ba154afac93a012e744f98d621ce.jpg"/>
+<zone lrx="1545" lry="3227" ulx="527" uly="300" xml:id="zone_sfm_vdw_cjb"/>
+<zone lrx="1287" lry="846" ulx="791" uly="317" xml:id="zone_w3q_wdw_cjb"/>
+<zone lrx="1113" lry="836" ulx="943" uly="684" xml:id="zone_ok2_xdw_cjb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_sfm_vdw_cjb" type="hüccet">
+<p>
+<lb/>... <date type="created" when="1766-03-16" when-custom="1179-10-05">fi'l-yevmi'l-hāmis min şehr-i Şevvāl sene<lb/>
+<lb/>tisʿ ve sabʿīn ve mie ve elif</date><lb/>
+</p>
+<div2 facs="#zone_w3q_wdw_cjb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_ok2_xdw_cjb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

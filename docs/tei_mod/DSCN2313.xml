@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN2313</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2641/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2641/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/faa4a36d701fcff7b63671d31053cdbe00f2787c.jpg"/>
+<zone lrx="1936" lry="2963" ulx="427" uly="109" xml:id="zone_apm_cvg_dmb"/>
+<zone lrx="844" lry="2930" ulx="544" uly="2604" xml:id="zone_efk_hvg_dmb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/2641/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f01c13e50064dc0dde995e0c2ee387ab22855842.jpg"/>
+<zone lrx="1891" lry="3187" ulx="1579" uly="2916" xml:id="zone_ehh_kvg_dmb"/>
+<zone lrx="2216" lry="483" ulx="691" uly="262" xml:id="zone_phx_kvg_dmb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_apm_cvg_dmb" next="#zone_phx_kvg_dmb" subtype="temessük" type="EMIN">
+<p>
+<lb/>... fī <date cert="low" type="created" when="1823-09-08" when-custom="1239-01-03">3 M sene 239</date><lb/>
+</p>
+<div2 facs="#zone_efk_hvg_dmb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_ehh_kvg_dmb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+</div1>
+<div1 facs="#zone_phx_kvg_dmb" type="summary_Croatian">
+<p>
+<lb/>...<lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>

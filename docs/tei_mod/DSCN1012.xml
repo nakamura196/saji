@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1012</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">DSCN0994.JPGとよく似ている。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1128/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1128/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cff0547cf86ae794ca5a1cf8158a4e3687aea4b7.jpg"/>
+<zone lrx="1836" lry="3027" ulx="263" uly="372" xml:id="zone_ngv_25g_z3b"/>
+<zone lrx="1265" lry="2775" ulx="1057" uly="2584" xml:id="zone_k3w_f5g_z3b"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1128/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6c487419e801a515ef481cf39e9b91870da62d02.jpg"/>
+<zone lrx="3206" lry="988" ulx="250" uly="722" xml:id="zone_qjm_h5g_z3b"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ngv_25g_z3b" type="unknown">
+<l>fī <date cert="low" type="created" when="1825-03-29" when-custom="1240-08-10">ʿaşar Şaʿbān 240</date></l>
+<div3 facs="#zone_k3w_f5g_z3b" type="stamp"/>
+</div1>
+<div1 type="summary_Croatian">
+<l>... <date type="summary_Croatian" when="1844">1844</date> gr. 1500</l>
+</div1>
+</body>
+</text>
+</TEI>

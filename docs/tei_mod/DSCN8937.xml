@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN8937</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1527/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1527/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3bc288ee8a14d18e3654dc8d46214d746cc11ef2.jpg"/>
+<zone lrx="2550" lry="2250" ulx="312" uly="281" xml:id="zone_h12_tg1_2jb"/>
+<zone lrx="1212" lry="2236" ulx="372" uly="1738" xml:id="zone_fgx_5g1_2jb"/>
+<zone lrx="2865" lry="916" ulx="2501" uly="605" xml:id="zone_rlw_vg1_2jb"/>
+<zone lrx="2857" lry="791" ulx="2792" uly="703" xml:id="zone_hj1_xg1_2jb"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1527/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/0823d9d39d80a78cfa9b726b13e0017e03dfea60.jpg"/>
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1527/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/c575738ada8f034210d88667b7a78eda52cddd9a.jpg"/>
+<zone lrx="2862" lry="1250" ulx="428" uly="427" xml:id="zone_bx3_zg1_2jb"/>
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_h12_tg1_2jb" type="fermān_sūret">
+<p>
+<lb/>... <date from="1775-04-02" from-custom="1189-02-01" to="1775-04-11" to-custom="1189-02-10" type="created">evāil şehr<lb/>
+<lb/>Saferi'l-... sene tisʿ ve semānīn ve mie ve elif</date><lb/>
+</p>
+<div2 facs="#zone_fgx_5g1_2jb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+</div2>
+</div1>
+<div2 facs="#zone_rlw_vg1_2jb" type="sign">
+<p>
+<lb/>...<lb/>
+</p>
+<div3 facs="#zone_hj1_xg1_2jb" type="stamp">
+<p>
+<lb/>...<lb/>
+</p>
+</div3>
+</div2>
+<div1 facs="#zone_bx3_zg1_2jb" type="summary_Croatian">
+<p>
+<lb/>Datum: <date from="1775-04-02" from-custom="1189-02-01" to="1775-04-11" to-custom="1189-02-10" type="summary_Croatian">I dekada sefer 1189</date> - <date from="1775-04-03" to="1775-04-12" type="summary_Croatian">3-12 aprila 1775</date><lb/>
+</p>
+</div1>
+</body>
+</text>
+</TEI>
