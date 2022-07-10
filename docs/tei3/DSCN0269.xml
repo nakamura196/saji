@@ -1,70 +1,94 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0269</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1748/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1748/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/965fb5ef17b971399ab21321b5401a4bf5a96e6e.jpg" />
-<zone lrx="2318" lry="3118" ulx="73" uly="163" xml:id="zone_dmf_c25_xjb" />
-<zone lrx="662" lry="2884" ulx="415" uly="2556" xml:id="zone_hld_d25_xjb" />
-<zone lrx="356" lry="2850" ulx="121" uly="2478" xml:id="zone_tmx_d25_xjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1748/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6600b77efccd3c7f59c471e59e8f6e7bd2aac2a8.jpg" />
-<zone lrx="762" lry="645" ulx="525" uly="412" xml:id="zone_esm_325_xjb" />
-<zone lrx="425" lry="816" ulx="183" uly="587" xml:id="zone_lyy_325_xjb" />
-<zone lrx="1458" lry="3108" ulx="329" uly="2933" xml:id="zone_hy4_j25_xjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_dmf_c25_xjb" subtype="zabt_temessük" type="EMIN">
-<p>
-<lb />... fī <date type="created" when="1795-03-17" when-custom="1209-08-26">26 Şaʿabāni'l-muʿazzam sene 1209</date><lb />
-</p>
-<div2 facs="#zone_hld_d25_xjb" type="sign">
-<p>
-<lb />... <lb />
-</p>
-<div3 facs="#zone_esm_325_xjb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-<div2 facs="#zone_tmx_d25_xjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_lyy_325_xjb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-<div2 type="şühūdu’l-hāl">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_hy4_j25_xjb" type="summary_Croatian">
-<p>
-<lb />Od ... <date type="summary_Croatian" when="1793">1793</date> ...<lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0269</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">エミンから修道院長へ、マーリキャーネ耕作地の収穫物と徴税権を委任tafvīz</note>
+				<note type="mine">エミンから修道院長に対する、マーリキャーネの下請け契約</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1748/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1748/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/965fb5ef17b971399ab21321b5401a4bf5a96e6e.jpg"/>
+				<zone lrx="2318" lry="3118" ulx="73" uly="163" xml:id="zone_dmf_c25_xjb"/>
+				<zone lrx="662" lry="2884" ulx="415" uly="2556" xml:id="zone_hld_d25_xjb"/>
+				<zone lrx="356" lry="2850" ulx="121" uly="2478" xml:id="zone_tmx_d25_xjb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1748/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6600b77efccd3c7f59c471e59e8f6e7bd2aac2a8.jpg"/>
+				<zone lrx="762" lry="645" ulx="525" uly="412" xml:id="zone_esm_325_xjb"/>
+				<zone lrx="425" lry="816" ulx="183" uly="587" xml:id="zone_lyy_325_xjb"/>
+				<zone lrx="1458" lry="3108" ulx="329" uly="2933" xml:id="zone_hy4_j25_xjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_dmf_c25_xjb" subtype="zabt_temessük" type="EMIN">
+				<p>
+					<lb/>Hüve
+					<lb/>Vechr-i tahrīr-i hurūf budur ki
+					<lb/>işbu <date from-custom="1209-03-01" to-custom="1210-02-29">bin iki yüz dokuz senesinde Martı itidāsıından Şubatı gāyesine varınca</date> der ʿuhde ve iltizāmımızda
+					<lb/>bulunan Kirşevo mukātaʿa mālikânesi kurālarında vākiʿ nefs-i Kirşevo kilisanın karyesi ve civārında
+					<lb/>olan tarlaların aʿşār-ı şerʿiye mahsūlāt cüzī ve küllī her ne ... ahz ve kabzına zabt
+					<lb/>ve rabtına tāleb ve rāgib mezbūr kilisanın gardiyān PRAYLLYA/parayila(?) yüz yiğirmi guruş mukābelesinde
+					<lb/>mahsūlāt ve aʿşār-ı şerʿiye mesfūre ahāle(?) ve tafvīz olunub ve bedel-i iltizām tarafımıza
+					<lb/>tamāmen teslīm olunub işbu zabt temessük taʿşīr içün mesfūre iʿtā olundu
+					<lb/>taraf-ı āhardan kimesne māniʿ olmaya
+					<lb/>fī <date type="created" when="1795-03-17" when-custom="1209-08-26">26 Şaʿabāni'l-muʿazzam sene 1209</date>
+				</p>
+				<div2 facs="#zone_hld_d25_xjb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>...
+						<lb/>Emīn-i 
+						<lb/>Kirşevo
+					</p>
+					<div3 facs="#zone_esm_325_xjb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_tmx_d25_xjb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Mustafa
+						<lb/>Emīn-i 
+						<lb/>Kirşevo
+					</p>
+					<div3 facs="#zone_lyy_325_xjb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>İbrāhīm Paşa SUSİÇ
+						<lb/>Mahmūd tābiʿ Emini
+						<lb/>KATU ʿAbdülhamīd
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_hy4_j25_xjb" type="summary_Croatian">
+				<p>
+					<lb/>Od ... <date type="summary_Croatian" when="1793">1793</date> ... grosa 120
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
