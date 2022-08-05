@@ -1,53 +1,93 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0291</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1770/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1770/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/44e5a8d0cfd7fbc03420642796bab4ea9b0f83ff.jpg" />
-<zone lrx="2217" lry="3116" ulx="133" uly="183" xml:id="zone_wrw_bks_yjb" />
-<zone lrx="464" lry="3116" ulx="202" uly="2748" xml:id="zone_gxd_dks_yjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1770/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/407c39af8b8910d7e0518384fd901dbe993f46d9.jpg" />
-<zone lrx="454" lry="358" ulx="208" uly="154" xml:id="zone_iqt_2ks_yjb" />
-<zone lrx="1429" lry="2279" ulx="125" uly="1475" xml:id="zone_yb1_gks_yjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_wrw_bks_yjb" subtype="tezkire" type="EMIN">
-<p>
-<lb />işbu <date type="created" when="1813-01-02" when-custom="1227">bin iki yüz yiğirmi yedi senesinde</date> der ʿuhde ve iltizāmımızda<lb />
-</p>
-<div2 facs="#zone_gxd_dks_yjb" type="sign">
-<p>
-<lb />... fī <lb />
-</p>
-<div3 facs="#zone_iqt_2ks_yjb" type="stamp">
-<p>
-<lb />... fī <lb />
-</p>
-</div3>
-</div2>
-</div1>
-<div1 facs="#zone_yb1_gks_yjb" type="summary_Croatian">
-<p>
-<lb />... fī <lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0291</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">非ムスリムTOMİÇ Andriyeの私有地(emlāk)である鉱山の、修道院長に対する売却の承認</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1770/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1770/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/44e5a8d0cfd7fbc03420642796bab4ea9b0f83ff.jpg"/>
+				<zone lrx="2217" lry="3116" ulx="133" uly="183" xml:id="zone_wrw_bks_yjb"/>
+				<zone lrx="464" lry="3116" ulx="202" uly="2748" xml:id="zone_gxd_dks_yjb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1770/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/407c39af8b8910d7e0518384fd901dbe993f46d9.jpg"/>
+				<zone lrx="454" lry="358" ulx="208" uly="154" xml:id="zone_iqt_2ks_yjb"/>
+				<zone lrx="1429" lry="2279" ulx="125" uly="1475" xml:id="zone_yb1_gks_yjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_wrw_bks_yjb" type="EMIN_tezkire">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>işbu <date type="created" when="1813-01-02" when-custom="1227">bin iki yüz yiğirmi yedi senesinde</date> der ʿuhde ve iltizāmımızda
+					<lb/>bulunan Kirşevo mukātaʿasında nefs-i Kirşevo varoş hudūd dāhilinde
+					<lb/>TOMİÇ maʿden-i emlāk mutasarrıf olan zimmī TOMİÇ Andriye üçüncü(?)
+					<lb/>hāssa maʿden-i emlākde ve yanında(?) ... hāssa maʿlūm'l-hadd(?) ile ʿaşār-ı(?)
+					<lb/>hakk ve karar işbu dārende-i tezkire Kirşevo kilisanın baş rāhibi
+					<lb/>zimmī YARLUR bedel mukābelesinde yalnız elli beş guruş resmiyle
+					<lb/>beyʿ katʿiyle beyʿ <sic>al dahi</sic><corr>ol dahi</corr> minvāl-i muharr(?) ve kabūl eyledikten sonra
+					<lb/>tarafımızdan(?) iştirādan(?) ... -laryile biz dahi me'mūrimiz hasebiyle tafvīz
+					<lb/>ve cāiz görüb mā-dām ki ... mukātaʿa rāciʿ oluna edā etme-
+					<lb/>leriyle işbu mesfūrun edine tezkire iʿtā ve tasarrıf içün izin
+					<lb/>virleri tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ <sic>almayalar</sic><corr>olmayalar</corr>
+				</p>
+				<div2 facs="#zone_gxd_dks_yjb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Dervīş
+						<lb/>Mehmed
+						<lb/>El-me'mūr
+						<lb/>M
+					</p>
+					<div3 facs="#zone_iqt_2ks_yjb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>... Hasan Ağa
+						<lb/>Mollā ...
+						<lb/>Kara Mehmed SRAYLİ
+						<lb/>JUBU ʿAnton
+						<lb/>TOMİÇ Īvān
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_yb1_gks_yjb" type="summary_Croatian">
+				<p>
+					<lb/>Ovoje teme...
+					<lb/>od Kupghene
+					<lb/>Zemglie Mil
+					<lb/>Chia od Majda
+					<lb/>na Na ...
+					<lb/>chiı, gaja ...
+					<lb/>1812
+					<lb/>... od
+					<lb/>Andrie Thommi
+					<lb/>chia, iz Crejheva
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
