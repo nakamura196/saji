@@ -1,48 +1,75 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0318</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1797/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1797/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e3c0a26df1e8e8d63ffb7a7ac1f39631940d8c68.jpg" />
-        <zone lrx="2221" lry="2657" ulx="114" uly="228" xml:id="zone_dqz_ncp_2kb" />
-        <zone lrx="504" lry="2437" ulx="217" uly="2036" xml:id="zone_iqx_4cp_2kb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1797/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1088a344338e81317d1999b5808d3a55012c4cfe.jpg" />
-        <zone lrx="3050" lry="1255" ulx="195" uly="705" xml:id="zone_jwz_pcp_2kb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_dqz_ncp_2kb" subtype="zabt_tezkire" type="EMIN">
-        <p>
-          <lb />işbu <date when="1844-01-19" when-custom="1259">bin iki yüz elli dokuz senesinde</date> der ...
-          <lb />... fī <date type="created" when="1843-04-07" when-custom="1259-03-08">8 Ra sene 259</date>
-        </p>
-        <div2 facs="#zone_iqx_4cp_2kb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_jwz_pcp_2kb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0318</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">非ムスリムの耕作地の、修道院長に対する売却の承認</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1797/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1797/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e3c0a26df1e8e8d63ffb7a7ac1f39631940d8c68.jpg"/>
+				<zone lrx="2221" lry="2657" ulx="114" uly="228" xml:id="zone_dqz_ncp_2kb"/>
+				<zone lrx="504" lry="2437" ulx="217" uly="2036" xml:id="zone_iqx_4cp_2kb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1797/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1088a344338e81317d1999b5808d3a55012c4cfe.jpg"/>
+				<zone lrx="3050" lry="1255" ulx="195" uly="705" xml:id="zone_jwz_pcp_2kb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_dqz_ncp_2kb" type="EMIN_zabt_tezkire">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date when="1844-01-19" when-custom="1259">bin iki yüz elli dokuz senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasında ...
+					<lb/>hudūd dāhilinde bir kıtʿa tarla CFRİNE demekle bir taraf TİLU tarlası ve taraf-ı sānī gardiyān tarlası
+					<lb/>ve tarafeyin tarīk-i ʿāmyile mahdūd ve mumtāz olub Kirşevo varoş mutavattınlarında zimmī MATO TOLİÇ
+					<lb/>mutasarrıf eyledüğü işbu dārende-i hurūf Kirşevo kilisadan gardiyān nām-ı mesfūre resmiyle üç yüz
+					<lb/>otuz guruş bedel mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb ol dahi kabūl biz dahi mukātaʿa
+					<lb/>bulunduğumuz hasebiyle gardiyāna tafvīz ve yedine işbu zabt tezkire virildi
+					<lb/>fī <date type="created" when="1843-04-07" when-custom="1259-03-08">8 Ra sene 259</date>
+				</p>
+				<div2 facs="#zone_iqx_4cp_2kb" type="sign">
+					<p>
+						<lb/>El-meʿmūri'l-memhūr
+						<lb/>Mehmed Emīn-i Mukā-
+						<lb/>taʿa-i Kirşevo
+						<lb/>Hālā
+						<lb/>M
+					</p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>CNKİZADE Ahmad ʿAlemdār
+						<lb/>KOGİÇ İmām
+						<lb/>Zimmī Īwān YOİÇ
+						<lb/>Zimmī Īwān PRATKUİÇ
+						<lb/>Zimmī TUNA KORİÇ
+						<lb/>ve gayrihim
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_jwz_pcp_2kb" type="summary_Croatian">
+				<p>
+					<lb/>Tapija na njiiu na Komenipu, Koyu ...
+					<lb/>pismo od Nale Deliea, gr. 525. ...
+					<lb/>Nno 14.
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

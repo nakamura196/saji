@@ -1,53 +1,85 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0316</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1795/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1795/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2f46752962c6d0f07b0f8db29ff7aa6460cea07d.jpg" />
-        <zone lrx="2309" lry="2954" ulx="163" uly="1445" xml:id="zone_zdg_fbp_2kb" />
-        <zone lrx="591" lry="2885" ulx="227" uly="2480" xml:id="zone_ppq_nbp_2kb" />
-        <zone lrx="577" lry="2865" ulx="385" uly="2674" xml:id="zone_qzq_4bp_2kb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1795/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/293e944f0cf5332df735ade70ef5dcb384c3c92e.jpg" />
-        <zone lrx="1017" lry="605" ulx="128" uly="205" xml:id="zone_o4c_qbp_2kb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_zdg_fbp_2kb" type="EMIN">
-        <p>
-          <lb />işbu <date type="created" when="1847-12-07" when-custom="1263">bin iki yüz altmış üç senesinde</date> der... <lb />
-        </p>
-        <div2 facs="#zone_ppq_nbp_2kb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_qzq_4bp_2kb" type="stamp">
-            <p>
-              <lb />... <lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_o4c_qbp_2kb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1848">1848</date>.<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0316</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">クレシェヴォの鉄鉱山地域にある非ムスリムの耕作地の、修道院長に対する売却・譲渡の承認</note>
+				<note type="mine">フォイニツァが出てくる。クレシェヴォとの行政区分関係のようなものの参考になるか？</note>
+				<note type="mine">文字が比較的きれいで読みやすいので、前後の文書(※特にDSCN01341)で読めない箇所・地名・人名などを【要】確認。特に、cemāʿat-ı ...。ほぼ同じ内容な気がする。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1795/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1795/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2f46752962c6d0f07b0f8db29ff7aa6460cea07d.jpg"/>
+				<zone lrx="2309" lry="2954" ulx="163" uly="1445" xml:id="zone_zdg_fbp_2kb"/>
+				<zone lrx="591" lry="2885" ulx="227" uly="2480" xml:id="zone_ppq_nbp_2kb"/>
+				<zone lrx="577" lry="2865" ulx="385" uly="2674" xml:id="zone_qzq_4bp_2kb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1795/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/293e944f0cf5332df735ade70ef5dcb384c3c92e.jpg"/>
+				<zone lrx="1017" lry="605" ulx="128" uly="205" xml:id="zone_o4c_qbp_2kb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_zdg_fbp_2kb" type="EMIN">
+				<p>
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date type="created" when="1847-12-07" when-custom="1263">bin iki yüz altmış üç senesinde</date> der ʿuhde ve iltizāmımızda bulunan maʿden-i āhen-i Kirşevo mukātaʿsı
+					<lb/>tevābiʿnden arāziīsinden Foyniçe nāhiyesine tābiʿ Kirşevo cemāʿatında KMNİK hudūd dāhilinde bir kıtʿa tarla KOKEVİÇ
+					<lb/>demekle bir tarafı MRKİÇE ZMİNİÇ tarlası ve taraf-ı sānī DUL(?) ve taraf-ı sālis ruhbānların tarlası ve taraf-ı rābiʿ
+					<lb/>tarīk-i ʿām ve arāzī-i mīrīyenin mutasarrıfı Kirşevo varoş mutavattınlarından zimmī PRANO PALE işbu dārende-i hurūf
+					<lb/>arāzī-i mezbūre müşterisin(?) kilisadan gardiyān nām-ı mesfūre iki yüz elli guruş semen-i beyʿ ve bedel-i ferāğ mukābelesinde
+					<lb/>beyʿ ve ferāğ ve ... etmekle mesfūr gardiyān tafvīzına taleb ve tasarrıfına rāgib olmağın bizim dahi me'mūrimiz
+					<lb/>hasebiyle resm-i tapusini(?) baʿde'l-ahz ferāğ ve ... tecvīz arāzī-i mīrīye-i mezkūre zabt ve tasarrıfına izin virdik
+					<lb/>mā-dām ki be her sene taraf-ı mukātaʿaya ʿāit ve rāciʿ olan aʿşār-ı şerʿiyesin ve rüsūmāt-ı ʿörfiyesin edā eyledüğü zabt ve zirāʿatına
+					<lb/>hiç bir tarafından māniʿ ve müdāhale olunmaya
+				</p>
+				<div2 facs="#zone_ppq_nbp_2kb" type="sign">
+					<p>
+						<lb/>El-me'mūr
+						<lb/>Mehmed Emīn-i Mukā-
+						<lb/>taʿa-i Kirşevo
+						<lb/>Hālā
+						<lb/>M
+					</p>
+					<div3 facs="#zone_qzq_4bp_2kb" type="stamp">
+						<p>
+							<lb/>Mehmed ...
+							<lb/>... 221(?)
+							<lb/>...
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>MRZAN Mollā Mehmed Kirşevolı
+						<lb/>ŞAKINVAÇE Mollā İbrāhīm Saraylı(?)
+						<lb/>BİRNİÇ Mollā İbrāhīm
+						<lb/>Zimmī PARİÇE ŞUNİÇ
+						<lb/>Zimmī TONABAN
+						<lb/>ve gayrihim
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_o4c_qbp_2kb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1848">1848</date>.
+					<lb/>Nno 9.
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
