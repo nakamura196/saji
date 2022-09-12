@@ -18,17 +18,19 @@
 	<facsimile>
 		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1005/manifest">
 			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1005/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c961cb50b1afafc568313909ec20b70d72c73fcc.jpg"/>
-				<zone lrx="1536" lry="3000" ulx="591" uly="454" xml:id="zone_mxh_nz1_x3b"/>
-				<zone lrx="1010" lry="1074" ulx="863" uly="960" xml:id="zone_djm_4z1_x3b"/>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/c961cb50b1afafc568313909ec20b70d72c73fcc.jpg" n="https://diyhistory.org/public/phr2/iiif/1005/canvas/p1"/>
+				<zone xml:id="zone_mxh_nz1_x3b" lry="3000" lrx="1477" uly="51" ulx="591"/>
+				<zone xml:id="zone_djm_4z1_x3b" lry="1081" lrx="1130" uly="500" ulx="786"/>
+				<zone xml:id="zone_xpj_vfj_v5b" lry="1073" lrx="1003" uly="961" ulx="870"/>
 			</surface>
 			<surface>
 				<graphic n="https://diyhistory.org/public/phr2/iiif/1005/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a2f5904620bb12d421e677196087127ed9d8a6ca.jpg"/>
 			</surface>
 			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1005/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/800132247e6d6bf336e848ebde1638418d0ad685.jpg"/>
-				<zone lrx="2100" lry="2058" ulx="94" uly="611" xml:id="zone_enx_rz1_x3b"/>
-				<zone lrx="1600" lry="1334" ulx="1371" uly="1094" xml:id="zone_gct_sz1_x3b"/>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/800132247e6d6bf336e848ebde1638418d0ad685.jpg" n="https://diyhistory.org/public/phr2/iiif/1005/canvas/p3"/>
+				<zone xml:id="zone_enx_rz1_x3b" lry="2058" lrx="2100" uly="611" ulx="94"/>
+				<zone xml:id="zone_gct_sz1_x3b" lry="2008" lrx="2063" uly="679" ulx="600"/>
+				<zone xml:id="zone_j4p_ygj_v5b" lry="1318" lrx="1579" uly="1116" ulx="1385"/>
 			</surface>
 			<surface>
 				<graphic n="https://diyhistory.org/public/phr2/iiif/1005/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/508bb61f9d41d3822e4bfe1657e81c866bfd85c0.jpg"/>
@@ -39,18 +41,81 @@
 	<text>
 		<body>
 			<div1 facs="#zone_mxh_nz1_x3b" type="hüccet">
-				<l>... <date type="created" when="1774-07-25" when-custom="1188-05-17">Sene samān ve samāniyya ve miye ve alfin</date></l>
-				<div3 facs="#zone_djm_4z1_x3b" type="stamp"/>
+				<p>
+					<lb/>Hüve
+					<lb/>もっしゃ
+					<lb/>Fi'l-asl ÇANİÇE kazāsında KHRUŞİNCE karyesin ahālisinden olub medīne-i Saray Bosna kazāsına müzāf KONİÇE
+					<lb/>nāhiyesine tābiʿ Kirşevoda bekârlık tarīkile ber vech-i ticāret ... ve ... edüb bundan akdem ... ile
+					<lb/>... ʿan ... olan Nuh bun Hasan nām kimesnenin ... er karındaşı Mehmed Ibn Hasan ve ... kız karındaşı
+					<lb/>...tarafılarından husūs atı ... taleb ve daʿvāya ... el-şerʿī bā hüccet-i şerʿiye ve ... sābit
+					<lb/>ve ... ve ... hüküm-ü şerʿī lā hakkı olan  ÇANİÇE kazīyesin ahālisinden Ahmed Beşe İbn ʿAbdülkāh nām kimesne
+					<lb/>meclis-i şerʿi ... lāzım ... Kirşevo varoş karībinde vākiʿ kilisa rāhiblerinden işbu ...
+					<lb/>... veled-i Īwān ve varoş Kirşevo mutemekkinlerinden MATYE veled-i PRANO ve İstepān veled-i Īwān ve Nikola
+					<lb/>veled-i MATYE ve Īwān veled-i PAVLA ve İstepān veled-i TOMA ve Anton veled-i PAVR ve Nıkola veled-i PRANO ve sā'ireleri
+					<lb/>...lerinde ... üzerlerine daʿvā ve takrīr-i kelām edüb tārīh-i kitābdan iki buçuk ay mukaddem ...
+					<lb/>lā hakk olub ...-i mezbūrān Mehmed ve ... kız karndaşlar-ı mezbūr Nuh nām ... işbu zimmīler katl ve ...
+					<lb/>etmeleriyle ... olunub mūcib-i şerʿisi icrā olunması bi'l-... ...
+					<lb/>... mezbūr Ahmed Beşe'den daʿvā ise ... taleb oludukta ...
+					<lb/>... edüb ... dahi tālib olmağla husūs-ı mezkūr tārīh-i kitābdan iki sene 
+					<lb/>mukaddem eyālet-i Bosna kāimakām-ı mīr-i mīrān kerāmdan saʿādetlü Mustafa Paşa ve baʿdeh ... eyālet-i
+					<lb/>mezbūre kāimakāmı ... Mehmed Paşa tarafılarından bā buyuruldu ... taʿīn olunan ... ve ...
+					<lb/>şerʿile teftīş ve ... mezbūr Nuh ... olunduğunu iki kıtʿa hüccet-i şerʿiye ibrāz olunub feth ve ...
+					<lb/>olundukta ve refʿ ...lerine ... ve şerʿ-i şerīfe ... bulunub mezbūr Nuh'un ...
+					<lb/>sābit ve zāhir olub reʿāyā-ı mesfūr ve ... seneden bir sene
+					<lb/>şerʿan lāzım gelmeyüb ve ... mezbūr Ahmed Beşe'nin ... şerʿi ... müdāhalesi menʿ ve refʿ
+					<lb/>... bi'l-taleb ... olundu ... zālika ve hurira fī <date type="created" when="1774-07-25" when-custom="1188-05-17">el-yevmi'l-sābiʿ ʿöşr ... Cemaziye'l-evvel
+					<lb/>sene samān ve samāniyya ve miye ve elfin</date>
+				</p>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Mollā Mehmed İbn ʿÖmer Efendī
+						<lb/>Mollā Ahmed İbn ʿAmer ʿan Foyniçe
+						<lb/>Mollā ʿÖmer İbn ʿAlī Efendī ʿan Foyniçe
+						<lb/>... Ağa Serdār-ı Fiyniçe
+						<lb/>... Süleymān Ağa Emīn-i Kirşevo
+						<lb/>... Ağa Emīn-i Foyniçe
+						<lb/>... Paşa İbn Mustafa ...
+						<lb/>Mehmed Paşa İbn Şāhin ʿan Foyniçe
+						<lb/>Ahmed Efendī El-imām ...
+					</p>
+				</div2>
+				<div2 type="sign" facs="#zone_djm_4z1_x3b">
+					<p>
+						<lb/>El-amer ...
+						<lb/>Feyzullāh Lütfllāh Efendīzāde El-... Saray Bosna ...
+					</p>
+					<div3 type="stamp" facs="#zone_xpj_vfj_v5b">
+						<p>
+							<lb/>Feizüllāh
+						</p>
+					</div3>
+				</div2>
 			</div1>
 			<div1 facs="#zone_enx_rz1_x3b" type="buyuruldu">
-				<l>fī <date type="created" when-custom="1188-05-17">17 Ca 188</date></l>
-				<div3 facs="#zone_gct_sz1_x3b" type="stamp"/>
+				<p>
+					<lb/>
+					<lb/>fī <date type="created" when-custom="1188-05-17">17 Ca 188</date>
+				</p>
+				<div2 type="sign" facs="#zone_gct_sz1_x3b">
+					<p>
+						<lb/>... fī
+						<lb/>
+					</p>
+					<div3 type="stamp" facs="#zone_j4p_ygj_v5b">
+						<p>
+							<lb/>
+							<lb/>
+						</p>
+					</div3>
+				</div2>
 			</div1>
 			<div1 facs="#zone_qkj_5z1_x3b" type="summary_Serbian">
-				<l><date type="summary_Serbian" when="1774">1774</date> ...</l>
-				<l>...</l>
-				<l>...</l>
-				<l>... <date type="summary_Serbian" when="1774">1774</date></l>
+				<p>
+				<lb/><date type="summary_Serbian" when="1774">1774</date>: ... 24 Agusta ...
+				<lb/>
+				<lb/>... <date type="summary_Serbian" when="1774">1774</date>
+				</p>
 			</div1>
 		</body>
 	</text>
