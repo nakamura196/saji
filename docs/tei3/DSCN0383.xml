@@ -1,44 +1,87 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0383</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1860/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1860/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7644808b8bfdb517ad7eeb0dc26fef7bf27a1eaa.jpg" />
-        <zone lrx="2350" lry="3130" ulx="59" uly="56" xml:id="zone_l5q_h51_qkb" />
-        <zone lrx="462" lry="3075" ulx="203" uly="2715" xml:id="zone_qpw_j51_qkb" />
-        <zone lrx="451" lry="3046" ulx="255" uly="2855" xml:id="zone_hnh_l51_qkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="unknown" facs="#zone_l5q_h51_qkb" next="#zone_hnh_l51_qkb" type="unknown">
-        <p>
-          <lb />... fī <date type="created" when="1858-09-30" when-custom="1275-02-22">22 S sene 75</date><lb />
-        </p>
-        <div2 facs="#zone_qpw_j51_qkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_hnh_l51_qkb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0383</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">辞書なしではほとんど読めていないので、後で【要】要約。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1860/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1860/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7644808b8bfdb517ad7eeb0dc26fef7bf27a1eaa.jpg"/>
+				<zone lrx="2350" lry="3130" ulx="59" uly="56" xml:id="zone_l5q_h51_qkb"/>
+				<zone lrx="462" lry="3075" ulx="203" uly="2715" xml:id="zone_qpw_j51_qkb"/>
+				<zone lrx="451" lry="3046" ulx="255" uly="2855" xml:id="zone_hnh_l51_qkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_l5q_h51_qkb" type="nāme">
+					<p>
+						<lb/>Hüve
+						<lb/>Madīne-i Saray Bosna kazāsına müzāf Foyniçe nāhiyesine tābiʿ Kirşevo varoş mahalātından LKIK mahallesin(?)
+						<lb/>sākinlerinden PAVO veled-i YAKODUKA nām kimesne bi-nefs-i(?) meclis-i şerʿ-i şerīf ... varoş-ı
+						<lb/>mezbūrun gardiyān Fra Andriye veled-i Anton nām rāhibenin ... 						
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>mā hüve'l-vākiʿ bi'l-taleb ve iʿtā olundu cirā zālika ve hurrire fī <date type="created" when="1858-09-30" when-custom="1275-02-22">22 S sene 75</date>
+					</p>
+				<div2 facs="#zone_qpw_j51_qkb" type="sign">
+						<p>
+							<lb/>...
+							<lb/>Kirşevo
+						</p>
+					<div3 facs="#zone_hnh_l51_qkb" type="stamp">
+							<p>
+								<lb/>ʿAbdüllāh
+								<lb/>Mustafa </p>
+						</div3>
+					</div2>
+					<div2 type="şühūdu'l-hāl">
+						<p>
+							<lb/>Şühūdu'l-hāl
+							<lb/>PAROTAŞKO ʿan varoş
+							<lb/>Peter ŞANO ʿan mezbūr
+							<lb/>Anton KALİYE ʿan mezbūr
+							<lb/>İstepan SORO
+							<lb/>İlya Kara RİVAYVİÇ
+							<lb/>ve gayrihim
+						</p>
+					</div2>
+					<div2 type="note">
+						<p>
+							<lb/>Guruş
+							<lb/>500
+							<lb/>Yüz guruştan beş yüz guruşe kadar
+							<lb/>... yazılmak içün ...
+							<lb/>kıymet-i pare
+							<lb/>20
+							<lb/>
+						</p>
+					</div2>
+				</div1>
+		</body>
+	</text>
 </TEI>
