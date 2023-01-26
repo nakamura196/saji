@@ -1,43 +1,58 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN8979</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1907/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1907/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b500cb8e35161b12569ab947aa9e54c97cd5470a.jpg" />
-        <zone lrx="2054" lry="2792" ulx="8" uly="823" xml:id="zone_uq5_q2s_wkb" />
-        <zone lrx="512" lry="2781" ulx="165" uly="2460" xml:id="zone_uhn_v2s_wkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_uq5_q2s_wkb" type="EMIN">
-        <p>
-          <lb />... fī <date cert="low" type="created" when="1819-09-30" when-custom="1234--11">11 ... sene 1234</date><lb />
-        </p>
-        <div2 facs="#zone_uhn_v2s_wkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />... fī <lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN8979</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary"></note>
+				<note type="mine">非常に状態が悪い。【要】読み直し。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1907/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1907/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b500cb8e35161b12569ab947aa9e54c97cd5470a.jpg"/>
+				<zone lrx="2054" lry="2792" ulx="8" uly="823" xml:id="zone_uq5_q2s_wkb"/>
+				<zone lrx="512" lry="2781" ulx="165" uly="2460" xml:id="zone_uhn_v2s_wkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_uq5_q2s_wkb" type="EMIN">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>bā berāt-ı şerīf ... kurālarından <placeName>KOMAR</placeName> karyesi
+					<lb/>hudūd dāhilinde arāzī-i mīrīye mutasarrıflarından RMYMNDE veled-i YUZP ...
+					<lb/>ve ... olub taht-ı tasarrıfına bulunan arāzī-i mīrīye ...
+					<lb/>mustahakk ... mesfūre ... zimmī MAYRYE ve
+					<lb/>zimmīler tapuya tālebler ol... biz dahi sāhib-i arz bulunduğumuz
+					<lb/>merkūm ... ber-mucib... mesfūrenin ...
+					<lb/>
+					<lb/>
+					<lb/>
+					<lb/>... fī <date cert="low" type="created" when="1819-09-30" when-custom="1234--11">11 ... sene 1234</date>
+				</p>
+				<div2 facs="#zone_uhn_v2s_wkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="şühūdu'-hāl">
+					<p>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

@@ -1,47 +1,61 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN8980</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1908/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1908/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b46481d6a3d23240835b9484c3d85d7697da63cb.jpg" />
-        <zone lrx="2713" lry="568" ulx="551" uly="148" xml:id="zone_ztc_5fs_wkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1908/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/84daefa7498597bb1a6063e8613dd47979928629.jpg" />
-        <zone lrx="1808" lry="2723" ulx="193" uly="223" xml:id="zone_slk_vfs_wkb" />
-        <zone lrx="788" lry="2704" ulx="461" uly="2454" xml:id="zone_zjt_wfs_wkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_ztc_5fs_wkb" next="#zone_zjt_wfs_wkb" subtype="mürāsele" type="EMIN">
-        <p>
-          <lb />... fī <date type="created" when="1770-06-10" when-custom="1184-02-16">16 Saferi'l-... sene 1184</date><lb />
-        </p>
-        <div2 facs="#zone_slk_vfs_wkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_zjt_wfs_wkb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1770">1770</date><lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN8980</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary"></note>
+				<note type="mine">mürāsele、かつEMINが作成したものかどうか署名からは判断できなかったので、転写見送り。またmürāseleを集中的に読むときに【要】再読。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1908/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1908/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b46481d6a3d23240835b9484c3d85d7697da63cb.jpg"/>
+				<zone lrx="2713" lry="568" ulx="551" uly="148" xml:id="zone_ztc_5fs_wkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1908/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/84daefa7498597bb1a6063e8613dd47979928629.jpg"/>
+				<zone lrx="1808" lry="2723" ulx="193" uly="223" xml:id="zone_slk_vfs_wkb"/>
+				<zone lrx="788" lry="2704" ulx="461" uly="2454" xml:id="zone_zjt_wfs_wkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_ztc_5fs_wkb" next="#zone_zjt_wfs_wkb" type="mürāsele">
+				<p>
+					<lb/>Hüve
+					<lb/>Kirşevo varoş karyede(?) vākiʿ kilisa ruhbānları baʿde'l- ... budur(?) ki
+					<lb/>kilisa-i mezkūre ruhbānlarından
+					<lb/>
+					<lb/>
+					<lb/>
+					<lb/>
+					<lb/>... fī <date type="created" when="1770-06-10" when-custom="1184-02-16">16 Saferi'l-... sene 1184</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_slk_vfs_wkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_zjt_wfs_wkb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1770">1770</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

@@ -1,58 +1,76 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN8991</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1919/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1919/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/73e38b5823ec9b5ad2d12db324865ba819f44ea3.jpg" />
-        <zone lrx="566" lry="445" ulx="325" uly="237" xml:id="zone_fkc_5yx_wkb" />
-        <zone lrx="2316" lry="2704" ulx="279" uly="2387" xml:id="zone_knf_vyx_wkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1919/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1279d3a900ddcaee545fbc8e84983f34c06f7e3f.jpg" />
-        <zone lrx="2283" lry="3125" ulx="17" uly="66" xml:id="zone_f2q_wyx_wkb" />
-        <zone lrx="351" lry="3057" ulx="53" uly="2684" xml:id="zone_fwb_yyx_wkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_f2q_wyx_wkb" next="#zone_knf_vyx_wkb" subtype="zabt_tezkire" type="EMIN">
-        <p>
-          <lb />işbu <date type="created" when="1798-06-13" when-custom="1212">bin iki yüz on iki senesinde</date> der ... <lb />
-        </p>
-        <div2 facs="#zone_fwb_yyx_wkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_fkc_5yx_wkb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_knf_vyx_wkb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN8991</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">非ムスリムから非ムスリムへの、マーリキャーネの取り分hisseの売却の承認。</note>
+				<note type="mine">前半読めていないところが多いので【要】再読。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1919/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1919/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/73e38b5823ec9b5ad2d12db324865ba819f44ea3.jpg"/>
+				<zone lrx="566" lry="445" ulx="325" uly="237" xml:id="zone_fkc_5yx_wkb"/>
+				<zone lrx="2316" lry="2704" ulx="279" uly="2387" xml:id="zone_knf_vyx_wkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1919/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1279d3a900ddcaee545fbc8e84983f34c06f7e3f.jpg"/>
+				<zone lrx="2283" lry="3125" ulx="17" uly="66" xml:id="zone_f2q_wyx_wkb"/>
+				<zone lrx="351" lry="3057" ulx="53" uly="2684" xml:id="zone_fwb_yyx_wkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_f2q_wyx_wkb" next="#zone_knf_vyx_wkb" type="EMIN_zabt_tezkire">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf <sic>aldur</sic><corr>oldur</corr> ki
+					<lb/>işbu <date type="created" when="1798-06-13" when-custom="1212">bin iki yüz on iki senesinde</date> der ʿuhde ve iltizāmımızda
+					<lb/>bulunan Kirşevo mukātaʿa mālikânesinde hudūdu ... zimmī BAKİÇ
+					<lb/>TAVYE'nin nehr-i ... üzerinde ...
+					<lb/>... olan on altınca(?) hisseden bir hisse ... hakk ... işbu
+					<lb/>dārende-i tezkire zimmī VİRKİÇ İvān bedeli mukābelesinde yalnız yiğirmi
+					<lb/>iki guruş resmiyle beyʿ katʿiyle beyʿ edüb <sic>al</sic><corr>ol</corr> dahi minvāl-i muharrer
+					<lb/>ve ... eyledikten sonra tarafımıza istīzān etmeler bizlerde(?) dahi(?) me'mūrimiz
+					<lb/>hasebyle tafvīz görüb mā-dām ki be-her sene tarafa mukātaʿa mukātaʿa
+					<lb/>edā etmeleriyle işbu mesfūrun yedine zabt tezkire virildi
+					<lb/>tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olmalar </p>
+				<div2 facs="#zone_fwb_yyx_wkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Dervīş
+						<lb/>Mehmed
+						<lb/>El-me'mūr </p>
+					<div3 facs="#zone_fkc_5yx_wkb" type="stamp">
+						<p>
+							<lb/>Dervīş
+							<lb/>...
+							<lb/>Mehmed
+							<lb/>... </p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Mustafa TAʿİ Emīn
+						<lb/>JUYU ʿAnton
+						<lb/>TOMİÇ Andriye </p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_knf_vyx_wkb" type="summary_Croatian">
+				<p>
+					<lb/>... </p>
+			</div1>
+		</body>
+	</text>
 </TEI>
