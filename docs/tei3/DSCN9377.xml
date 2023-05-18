@@ -1,52 +1,56 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9377</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2301/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2301/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c401b5434812991cd5b05ae5aaa813aa828a7289.jpg" />
-        <zone lrx="2362" lry="1166" ulx="812" uly="711" xml:id="zone_wtp_lng_zlb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2301/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b80cdaad981a603b8393645839db3bfe4c18302c.jpg" />
-        <zone lrx="2225" lry="2908" ulx="242" uly="116" xml:id="zone_gx1_nng_zlb" />
-        <zone lrx="564" lry="2892" ulx="279" uly="2464" xml:id="zone_qmx_5ng_zlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_gx1_nng_zlb" next="#zone_wtp_lng_zlb" subtype="tezkire" type="EMIN">
-        <p>
-          <lb />... fī <date type="created" when="1821-03-05" when-custom="1236-06-01">1 Cemaziye'l-āhir sene 236</date><lb />
-        </p>
-        <div2 facs="#zone_qmx_5ng_zlb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_wtp_lng_zlb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9377</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2301/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2301/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c401b5434812991cd5b05ae5aaa813aa828a7289.jpg"/>
+				<zone lrx="2362" lry="1166" ulx="812" uly="711" xml:id="zone_wtp_lng_zlb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2301/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b80cdaad981a603b8393645839db3bfe4c18302c.jpg"/>
+				<zone lrx="2225" lry="2908" ulx="242" uly="116" xml:id="zone_gx1_nng_zlb"/>
+				<zone lrx="564" lry="2892" ulx="279" uly="2464" xml:id="zone_qmx_5ng_zlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_gx1_nng_zlb" next="#zone_wtp_lng_zlb" subtype="tezkire" type="EMIN">
+				<p>
+					<lb/>... fī <date type="created" when="1821-03-05" when-custom="1236-06-01">1 Cemaziye'l-āhir sene 236</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_qmx_5ng_zlb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_wtp_lng_zlb" type="summary_Croatian">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

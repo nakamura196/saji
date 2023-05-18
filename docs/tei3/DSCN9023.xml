@@ -1,53 +1,70 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9023</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1950/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1950/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0fab33452e7a08c4a6e15359a52efa1b42666967.jpg" />
-        <zone lrx="2978" lry="1472" ulx="439" uly="783" xml:id="zone_cw4_ww4_xkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1950/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/0ce7b8f19d513124f656198d147708b578364056.jpg" />
-        <zone lrx="2358" lry="3041" ulx="108" uly="50" xml:id="zone_atb_yw4_xkb" />
-        <zone lrx="689" lry="2512" ulx="124" uly="2137" xml:id="zone_l2n_zw4_xkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_atb_yw4_xkb" next="#zone_cw4_ww4_xkb" subtype="temessük" type="EMIN">
-        <p>
-          <lb />... işbu <date type="created" when="1769-05-05" when-custom="1182">bin yüz seksen iki senesinde</date> Kirşevo
-          <lb />
-        </p>
-        <div2 facs="#zone_l2n_zw4_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />... <lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_cw4_ww4_xkb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9023</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">あまりにスペルに誤りがあるので内容がよく分からない。【要】再読。</note>
+				<note type="mine">スペルに多数誤りあり。t, a, hなどの書き分けができておらず、音で文字を当てている模様。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1950/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1950/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0fab33452e7a08c4a6e15359a52efa1b42666967.jpg"/>
+				<zone lrx="2978" lry="1472" ulx="439" uly="783" xml:id="zone_cw4_ww4_xkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1950/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/0ce7b8f19d513124f656198d147708b578364056.jpg"/>
+				<zone lrx="2358" lry="3041" ulx="108" uly="50" xml:id="zone_atb_yw4_xkb"/>
+				<zone lrx="689" lry="2512" ulx="124" uly="2137" xml:id="zone_l2n_zw4_xkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_atb_yw4_xkb" next="#zone_cw4_ww4_xkb" type="EMIN_temessük">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki işbu <date type="created" when="1769-05-05" when-custom="1182">bin yüz seksen iki senesinde</date> Kirşevo
+					<lb/>varoş kilisa(?) sākin(?) rubānına(?) ve ... mezrāğda(?)
+					<lb/>ağaçe(?) ... eylemiş(?) yedinden akçesinde(?) bi-tamām(?) aldım(?)
+					<lb/>yalnız(?) bir akçe kalmaduğu(?) ecilden işbu ...
+					<lb/>... temessğk yedine virildi
+				</p>
+				<div2 facs="#zone_l2n_zw4_xkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Mustafa Beşe ...
+					</p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Mustafa Beşe
+						<lb/>Hüseyin Beşe BAŞİÇ
+						<lb/>İSHAK Beşe BRBR
+						<lb/>Mehmed Beşe ŞUKA
+						<lb/>İsmā'īl Beşe KURT
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_cw4_ww4_xkb" type="summary_Serbian">
+				<p>
+					<lb/>...
+					<lb/>...
+					<lb/>...
+					<lb/>...
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

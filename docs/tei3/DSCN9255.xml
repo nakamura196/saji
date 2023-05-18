@@ -1,53 +1,56 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9255</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2179/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2179/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cbf8d6dfb4e596ccfb5e21cead5c520a1090e706.jpg" />
-        <zone lrx="2678" lry="1638" ulx="467" uly="716" xml:id="zone_ugc_bch_nlb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2179/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/67ae5a886c228cb56c691a95eff444b76edb1dcc.jpg" />
-        <zone lrx="2247" lry="2723" ulx="124" uly="192" xml:id="zone_dkr_dch_nlb" />
-        <zone lrx="625" lry="2671" ulx="393" uly="2150" xml:id="zone_j1n_fch_nlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="medium" facs="#zone_dkr_dch_nlb" next="#zone_ugc_bch_nlb" subtype="temessük" type="EMIN">
-        <p>
-          <lb />işbu <date when="1849-11-14" when-custom="1265">bin iki yüz altmış beş senesinde</date> der ...
-          <lb />... fī <date type="created" when="1850-09-16" when-custom="1266-11-10">10 Za sene 266</date>
-        </p>
-        <div2 facs="#zone_j1n_fch_nlb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_ugc_bch_nlb" type="summary_Croatian">
-        <p>
-          <lb /><date type="summary_Croatian" when="1850-11-04" when-custom="1266">1266</date>. Nno 21.<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9255</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2179/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2179/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cbf8d6dfb4e596ccfb5e21cead5c520a1090e706.jpg"/>
+				<zone lrx="2678" lry="1638" ulx="467" uly="716" xml:id="zone_ugc_bch_nlb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2179/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/67ae5a886c228cb56c691a95eff444b76edb1dcc.jpg"/>
+				<zone lrx="2247" lry="2723" ulx="124" uly="192" xml:id="zone_dkr_dch_nlb"/>
+				<zone lrx="625" lry="2671" ulx="393" uly="2150" xml:id="zone_j1n_fch_nlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="medium" facs="#zone_dkr_dch_nlb" next="#zone_ugc_bch_nlb" subtype="temessük" type="EMIN">
+				<p>
+					<lb/>işbu <date when="1849-11-14" when-custom="1265">bin iki yüz altmış beş senesinde</date> der ...
+					<lb/>... fī <date type="created" when="1850-09-16" when-custom="1266-11-10">10 Za sene 266</date>
+				</p>
+				<div2 facs="#zone_j1n_fch_nlb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_ugc_bch_nlb" type="summary_Croatian">
+				<p>
+					<lb/><date type="summary_Croatian" when="1850-11-04" when-custom="1266">1266</date>. Nno 21.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

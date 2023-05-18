@@ -1,59 +1,60 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9307</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="summary">通行許可</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2231/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2231/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b298256b109bf7c07201f593b46676f845fca066.jpg" />
-        <zone lrx="2030" lry="1565" ulx="450" uly="635" xml:id="zone_mjb_rkq_h3b" />
-        <zone lrx="845" lry="1470" ulx="535" uly="1165" xml:id="zone_s3w_rkq_h3b" />
-        <zone lrx="1175" lry="1530" ulx="935" uly="1320" xml:id="zone_dms_skq_h3b" />
-        <zone lrx="1960" lry="2845" ulx="810" uly="2510" xml:id="zone_nh4_tkq_h3b" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_mjb_rkq_h3b" type="izin_belgesi">
-        <p>
-        <lb />hüve
-        <lb />Dārandegâr tezkire
-        <lb /><placename><placename type="proper">Kirşevo</placename> varoş kilise</placename>den zimmī <persname cert="unknown">...</persname> bir nefer hizmetkâr ile <placename cert="high">Sava</placename> tarafına
-        <lb />ʿāzim olup kiliseye ... gardiyān ... izin şöd fī <date when="1835-11-11" when-custom="1251-07-21">21 Receb sene 251</date>
-        </p>
-        <div2 type="sign">
-        <div3 facs="#zone_s3w_rkq_h3b" type="stamp">
-          <p>
-            <lb /><placename>Mahkeme-i nāhiye-i <placename type="proper">Kirşevo</placename></placename>
-          </p>
-        </div3>
-      </div2>
-          <div2 type="sign">
-        <div3 facs="#zone_dms_skq_h3b" type="stamp">
-          <p>
-            <lb /><persname cert="unknown">... Süleyman</persname>
-          </p>
-        </div3>
-      </div2>
-      </div1>
-      <div1 facs="#zone_nh4_tkq_h3b" type="summary_Croatian">
-        <lb />... <date type="summary_Croatian" when="1835">1835</date>
-        <lb />
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9307</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">通行許可</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2231/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2231/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b298256b109bf7c07201f593b46676f845fca066.jpg"/>
+				<zone lrx="2030" lry="1565" ulx="450" uly="635" xml:id="zone_mjb_rkq_h3b"/>
+				<zone lrx="845" lry="1470" ulx="535" uly="1165" xml:id="zone_s3w_rkq_h3b"/>
+				<zone lrx="1175" lry="1530" ulx="935" uly="1320" xml:id="zone_dms_skq_h3b"/>
+				<zone lrx="1960" lry="2845" ulx="810" uly="2510" xml:id="zone_nh4_tkq_h3b"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_mjb_rkq_h3b" type="izin_belgesi">
+				<p>
+					<lb/>hüve
+					<lb/>Dārandegâr tezkire
+					<lb/><placename><placename type="proper">Kirşevo</placename> varoş kilise</placename>den zimmī <persname cert="unknown">...</persname> bir nefer hizmetkâr ile <placename
+						cert="high">Sava</placename> tarafına
+					<lb/>ʿāzim olup kiliseye ... gardiyān ... izin şöd fī <date when="1835-11-11" when-custom="1251-07-21">21 Receb sene 251</date>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_s3w_rkq_h3b" type="stamp">
+						<p>
+							<lb/><placename>Mahkeme-i nāhiye-i <placename type="proper">Kirşevo</placename></placename>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="sign">
+					<div3 facs="#zone_dms_skq_h3b" type="stamp">
+						<p>
+							<lb/><persname cert="unknown">... Süleyman</persname>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_nh4_tkq_h3b" type="summary_Croatian">
+				<lb/>... <date type="summary_Croatian" when="1835">1835</date>
+				<lb/>
+			</div1>
+		</body>
+	</text>
 </TEI>

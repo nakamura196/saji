@@ -1,43 +1,46 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9348</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2272/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2272/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0dcd9452bc26644fac8d840b0ac65a338fbd4988.jpg" />
-        <zone lrx="2077" lry="2892" ulx="131" uly="23" xml:id="zone_kv5_2s1_zlb" />
-        <zone lrx="705" lry="2737" ulx="435" uly="2481" xml:id="zone_vlj_3s1_zlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="low" facs="#zone_kv5_2s1_zlb" type="EMIN">
-        <p>
-          <lb />tahrīren fī <date type="created" when="1705-10-18" when-custom="1117-07-01">gürre-i Recebi'l-... sene 1117</date><lb />
-        </p>
-        <div2 facs="#zone_vlj_3s1_zlb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9348</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2272/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2272/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0dcd9452bc26644fac8d840b0ac65a338fbd4988.jpg"/>
+				<zone lrx="2077" lry="2892" ulx="131" uly="23" xml:id="zone_kv5_2s1_zlb"/>
+				<zone lrx="705" lry="2737" ulx="435" uly="2481" xml:id="zone_vlj_3s1_zlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_kv5_2s1_zlb" type="EMIN">
+				<p>
+					<lb/>tahrīren fī <date type="created" when="1705-10-18" when-custom="1117-07-01">gürre-i Recebi'l-... sene 1117</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_vlj_3s1_zlb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

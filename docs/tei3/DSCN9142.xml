@@ -1,56 +1,60 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9142</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="summary">クレシェヴォの修道士たちruhbānが、Sālih Paşaの治療のため、Belgradcıkカザーに呼ばれた。</note>
-        <note type="sumamry">差出人は、Belgradcıkのナーイブ。</note>
-        <note type="summary">ナーイブ以外が出せるmürāseleかもしれない</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2069/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2069/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/570c01dc36f40fd051690cf20f1f412883ac0614.jpg" />
-        <zone lrx="1585" lry="2638" ulx="131" uly="23" xml:id="zone_cq1_w3k_hlb" />
-        <zone lrx="560" lry="2576" ulx="241" uly="2269" xml:id="zone_lv2_y3k_hlb" />
-        <zone lrx="2200" lry="2279" ulx="1541" uly="1455" xml:id="zone_ydq_z3k_hlb" />
-        <zone lrx="2185" lry="1911" ulx="1767" uly="1635" xml:id="zone_gpn_1jk_hlb" />
-        <zone lrx="2182" lry="1879" ulx="1985" uly="1644" xml:id="zone_igj_bjk_hlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_cq1_w3k_hlb" next="#zone_ydq_z3k_hlb" type="mürāsele">
-        <p>
-          <lb />... fī <date cert="medium" type="created" when="1762-06-22" when-custom="1175-12-01">1 Zı'l-hicce sene 1175</date><lb />
-        </p>
-      </div1>
-      <div1 cert="low" facs="#zone_ydq_z3k_hlb" type="note">
-        <p>
-          <lb />...<lb />
-        </p>
-        <div2 facs="#zone_gpn_1jk_hlb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_igj_bjk_hlb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9142</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">クレシェヴォの修道士たちruhbānが、Sālih Paşaの治療のため、Belgradcıkカザーに呼ばれた。</note>
+				<note type="sumamry">差出人は、Belgradcıkのナーイブ。</note>
+				<note type="summary">ナーイブ以外が出せるmürāseleかもしれない</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2069/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2069/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/570c01dc36f40fd051690cf20f1f412883ac0614.jpg"/>
+				<zone lrx="1585" lry="2638" ulx="131" uly="23" xml:id="zone_cq1_w3k_hlb"/>
+				<zone lrx="560" lry="2576" ulx="241" uly="2269" xml:id="zone_lv2_y3k_hlb"/>
+				<zone lrx="2200" lry="2279" ulx="1541" uly="1455" xml:id="zone_ydq_z3k_hlb"/>
+				<zone lrx="2185" lry="1911" ulx="1767" uly="1635" xml:id="zone_gpn_1jk_hlb"/>
+				<zone lrx="2182" lry="1879" ulx="1985" uly="1644" xml:id="zone_igj_bjk_hlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_cq1_w3k_hlb" next="#zone_ydq_z3k_hlb" type="mürāsele">
+				<p>
+					<lb/>... fī <date cert="medium" type="created" when="1762-06-22" when-custom="1175-12-01">1 Zı'l-hicce sene 1175</date>
+					<lb/>
+				</p>
+			</div1>
+			<div1 cert="low" facs="#zone_ydq_z3k_hlb" type="note">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+				<div2 facs="#zone_gpn_1jk_hlb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_igj_bjk_hlb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

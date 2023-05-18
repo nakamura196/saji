@@ -1,104 +1,123 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9028</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1955/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1955/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e1f12def0e8dcea6cb0a576471f7591f9f5afd43.jpg" />
-        <zone lrx="1592" lry="2858" ulx="242" uly="241" xml:id="zone_zbj_j1p_xkb" />
-        <zone lrx="1572" lry="2709" ulx="1351" uly="2458" xml:id="zone_vnr_p1p_xkb" />
-        <zone lrx="1274" lry="2813" ulx="1092" uly="2502" xml:id="zone_nz5_q1p_xkb" />
-        <zone lrx="1267" lry="2811" ulx="1111" uly="2683" xml:id="zone_lgx_r1p_xkb" />
-        <zone lrx="1090" lry="2804" ulx="832" uly="2488" xml:id="zone_uwx_s1p_xkb" />
-        <zone lrx="1093" lry="2795" ulx="896" uly="2642" xml:id="zone_lv4_t1p_xkb" />
-        <zone lrx="844" lry="2788" ulx="622" uly="2468" xml:id="zone_ng3_51p_xkb" />
-        <zone lrx="841" lry="2781" ulx="666" uly="2632" xml:id="zone_hyy_51p_xkb" />
-        <zone lrx="616" lry="2751" ulx="374" uly="2384" xml:id="zone_qcp_v1p_xkb" />
-        <zone lrx="609" lry="2744" ulx="429" uly="2600" xml:id="zone_yyc_w1p_xkb" />
-        <zone lrx="2311" lry="2777" ulx="1604" uly="1716" xml:id="zone_f4m_x1p_xkb" />
-        <zone lrx="2125" lry="2125" ulx="1818" uly="1736" xml:id="zone_nvm_x1p_xkb" />
-        <zone lrx="2065" lry="1917" ulx="1878" uly="1744" xml:id="zone_op1_z1p_xkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_zbj_j1p_xkb" next="#zone_f4m_x1p_xkb" subtype="izin_temessük" type="EMIN">
-        <p>
-          <lb />... <date type="created" when="1802-05-01" when-custom="1216">sene 1216</date><lb />
-        </p>
-        <div2 facs="#zone_vnr_p1p_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 facs="#zone_nz5_q1p_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_lgx_r1p_xkb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 facs="#zone_uwx_s1p_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_lv4_t1p_xkb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 facs="#zone_ng3_51p_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_hyy_51p_xkb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 facs="#zone_qcp_v1p_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_yyc_w1p_xkb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 cert="low" facs="#zone_f4m_x1p_xkb" subtype="tapu_nāme" type="EMIN">
-        <p>
-          <lb />...<lb />
-        </p>
-        <div2 facs="#zone_nvm_x1p_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_op1_z1p_xkb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9028</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">レアーヤーから修道士に対する物品の売却の許可文書？</note>
+				<note type="mine">Şühūdu'l-hālの書かれる場所にtapunameが書かれている。左手に書かれているizin temessükの内容を証明するものと思われる。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1955/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1955/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e1f12def0e8dcea6cb0a576471f7591f9f5afd43.jpg"/>
+				<zone lrx="1592" lry="2858" ulx="242" uly="241" xml:id="zone_zbj_j1p_xkb"/>
+				<zone lrx="1572" lry="2709" ulx="1351" uly="2458" xml:id="zone_vnr_p1p_xkb"/>
+				<zone lrx="1274" lry="2813" ulx="1092" uly="2502" xml:id="zone_nz5_q1p_xkb"/>
+				<zone lrx="1267" lry="2811" ulx="1111" uly="2683" xml:id="zone_lgx_r1p_xkb"/>
+				<zone lrx="1090" lry="2804" ulx="832" uly="2488" xml:id="zone_uwx_s1p_xkb"/>
+				<zone lrx="1093" lry="2795" ulx="896" uly="2642" xml:id="zone_lv4_t1p_xkb"/>
+				<zone lrx="844" lry="2788" ulx="622" uly="2468" xml:id="zone_ng3_51p_xkb"/>
+				<zone lrx="841" lry="2781" ulx="666" uly="2632" xml:id="zone_hyy_51p_xkb"/>
+				<zone lrx="616" lry="2751" ulx="374" uly="2384" xml:id="zone_qcp_v1p_xkb"/>
+				<zone lrx="609" lry="2744" ulx="429" uly="2600" xml:id="zone_yyc_w1p_xkb"/>
+				<zone lrx="2311" lry="2777" ulx="1604" uly="1716" xml:id="zone_f4m_x1p_xkb"/>
+				<zone lrx="2125" lry="2125" ulx="1818" uly="1736" xml:id="zone_nvm_x1p_xkb"/>
+				<zone lrx="2065" lry="1917" ulx="1878" uly="1744" xml:id="zone_op1_z1p_xkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_zbj_j1p_xkb" next="#zone_f4m_x1p_xkb" type="EMIN_izin_temessük">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <placeName>ŞKA</placeName> nāhiyenin reʿāyāsı tarafımıza gelüb <placeName>ŞYPUVAÇE</placeName> karyesinde rāhib içün
+					<lb/>birā(?) ve yapmak tāleb olmağyile ve senede ... olmak üzere yedi buçuk guruş
+					<lb/>ve iki ... yağ ve iki tāne kuzı kul(?) olunub ve işbu izin temessük
+					<lb/>mesfūr reʿāyānın yedlerine virildi mezkūr(?) husūs içün yapmağa tarafımızdan
+					<lb/>ve taraf-ı āhardan bir ferd māniʿ ve müdāhale(?) olunmaya <date type="created" when="1802-05-01" when-custom="1216">sene 1216</date>
+				</p>
+				<div2 facs="#zone_vnr_p1p_xkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>El-hāccı Ahmad
+						<lb/>El-me'mūr </p>
+				</div2>
+				<div2 facs="#zone_nz5_q1p_xkb" type="sign">
+					<p>
+						<lb/>Mehmed
+						<lb/>El-me'mūr </p>
+					<div3 facs="#zone_lgx_r1p_xkb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_uwx_s1p_xkb" type="sign">
+					<p>
+						<lb/>Hasan
+						<lb/>El-me'mūr </p>
+					<div3 facs="#zone_lv4_t1p_xkb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_ng3_51p_xkb" type="sign">
+					<p>
+						<lb/>ʿOsman(?)
+						<lb/>El-me'mūr </p>
+					<div3 facs="#zone_hyy_51p_xkb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_qcp_v1p_xkb" type="sign">
+					<p>
+						<lb/>Ahmad Ağa
+						<lb/>El-me'mūr </p>
+					<div3 facs="#zone_yyc_w1p_xkb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 cert="low" facs="#zone_f4m_x1p_xkb" type="EMIN_tapu_nāme">
+				<p>
+					<lb/>Vech-i tahrīr-i tapunāme budur ki
+					<lb/>... temessükte minvāl-i meşrūh
+					<lb/>üzere zikr olunan me'mūriyetmiz(?)
+					<lb/>üzere ... rāhiblere tecvīz
+					<lb/>ve tafvīz olundu </p>
+				<div2 facs="#zone_nvm_x1p_xkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Sālih el-me'mūr </p>
+					<div3 facs="#zone_op1_z1p_xkb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

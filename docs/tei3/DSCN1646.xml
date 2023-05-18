@@ -1,77 +1,98 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1646</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">日付：日が15と8どちらなのか、月はMでいいのか、年は1201でいいのか、要検討。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1185/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b897da3ed1c667ea419d9b78f7f6b1815e974d59.jpg" />
-<zone lrx="2233" lry="2933" ulx="75" uly="158" xml:id="zone_ebz_qgk_1jb" />
-<zone lrx="333" lry="2783" ulx="87" uly="2466" xml:id="zone_dnx_g1q_tjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d6fd5c892001be8098d0fac5eb7930e518114a2b.jpg" />
-<zone lrx="550" lry="1555" ulx="317" uly="1333" xml:id="zone_vs4_sgk_1jb" />
-<zone lrx="3117" lry="1244" ulx="156" uly="838" xml:id="zone_sd3_tgk_1jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_ebz_qgk_1jb" subtype="temessük" type="EMIN">
-<p>
-<lb />Hüve<lb />
-<lb />Vech-i tahrīr-i hurūf budur ki<lb />
-<lb />işbu <date cert="medium" when="1786-11-06" when-custom="1201-01-15">bin iki yüz bir senesinde māh-ı Muharremin on beşinci gününde</date> vākiʿ hālā Kirşevo sākinlerinden<lb />
-<lb />kilisada bulunan rāhibīnler ile arāzī-i mīrīye husūs içün mā-beinimizine olunan<lb />
-<lb />bā-maʿrifet-i şerʿiye ve maʿrifet-i sāhib ile arāzī-i mīrīye dāvāmız[daʿvāmız] olan bu defʿa<lb />
-<lb />cümlesine tarafından vekīl olan GAUDA nām rāhib ile dört yüz elli guruş <lb />
-<lb />bedeli mukābelesinden küllī ve cüzʿi mā-beynimizde olan dāvāʿi[daʿvāyı] ibrā' zimmet eyledüm<lb />
-<lb />bundan böyle bir türlü ise(?) tām zimmī rāhibinler ile hakk-ı aʿalāmız kalmadı-dığı ecilden işbu<lb />
-<lb />yedimizden memhūrlu ibrā' temessüğü yedilerine virildi bundan böyle tām zimmīler rāhibinler<lb />
-<lb />ile arāzī mezkūri içün dāvāmız[daʿvāmız] zuhūr eden eder olursa ʿamel olunmaya işbu temessük<lb />
-<lb />yedilerine virildi fī <date cert="low" type="created" when="1786-11-06" when-custom="1201-01-15">15 M 1201</date><lb />
-</p>
-<div2 facs="#zone_dnx_g1q_tjb" type="sign">
-<p>
-<lb />El-fakīr Küfeci zāde Ahmad M<lb />
-</p>
-<div3 facs="#zone_vs4_sgk_1jb" type="stamp">
-<p>
-<lb />... Ahmad ...<lb />
-</p>
-</div3>
-</div2>
-<div2 type="şühūdu’l-hāl">
-<p>
-<lb />Hālā Muftī Kâtib Fitnetlü İbrāhīm Efendī<lb />
-<lb />El-hācı BŞLİ Ağa<lb />
-<lb />Navālīzāde Süleymān Ağa<lb />
-<lb />Navālīzāde ʿAtaʿullā Ağa<lb />
-<lb />Kâtible Hurūf KAlATOLI ... Mustafa<lb />
-<lb />IIBRAG El-hācı Mehmed<lb />
-<lb />DAʿALU oğulu El-hācı Mustafa Ağa<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_sd3_tgk_1jb" type="summary_Croatian">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1646</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">日付：日が15と8どちらなのか、月はMでいいのか、年は1201でいいのか、要検討。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1185/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b897da3ed1c667ea419d9b78f7f6b1815e974d59.jpg"/>
+				<zone lrx="2233" lry="2933" ulx="75" uly="158" xml:id="zone_ebz_qgk_1jb"/>
+				<zone lrx="333" lry="2783" ulx="87" uly="2466" xml:id="zone_dnx_g1q_tjb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1185/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d6fd5c892001be8098d0fac5eb7930e518114a2b.jpg"/>
+				<zone lrx="550" lry="1555" ulx="317" uly="1333" xml:id="zone_vs4_sgk_1jb"/>
+				<zone lrx="3117" lry="1244" ulx="156" uly="838" xml:id="zone_sd3_tgk_1jb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_ebz_qgk_1jb" subtype="temessük" type="EMIN">
+				<p>
+					<lb/>Hüve
+					<lb/>
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					<lb/>işbu <date cert="medium" when="1786-11-06" when-custom="1201-01-15">bin iki yüz bir senesinde māh-ı Muharremin on beşinci gününde</date> vākiʿ hālā Kirşevo sākinlerinden
+					<lb/>
+					<lb/>kilisada bulunan rāhibīnler ile arāzī-i mīrīye husūs içün mā-beinimizine olunan
+					<lb/>
+					<lb/>bā-maʿrifet-i şerʿiye ve maʿrifet-i sāhib ile arāzī-i mīrīye dāvāmız[daʿvāmız] olan bu defʿa
+					<lb/>
+					<lb/>cümlesine tarafından vekīl olan GAUDA nām rāhib ile dört yüz elli guruş
+					<lb/>
+					<lb/>bedeli mukābelesinden küllī ve cüzʿi mā-beynimizde olan dāvāʿi[daʿvāyı] ibrā' zimmet eyledüm
+					<lb/>
+					<lb/>bundan böyle bir türlü ise(?) tām zimmī rāhibinler ile hakk-ı aʿalāmız kalmadı-dığı ecilden işbu
+					<lb/>
+					<lb/>yedimizden memhūrlu ibrā' temessüğü yedilerine virildi bundan böyle tām zimmīler rāhibinler
+					<lb/>
+					<lb/>ile arāzī mezkūri içün dāvāmız[daʿvāmız] zuhūr eden eder olursa ʿamel olunmaya işbu temessük
+					<lb/>
+					<lb/>yedilerine virildi fī <date cert="low" type="created" when="1786-11-06" when-custom="1201-01-15">15 M 1201</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_dnx_g1q_tjb" type="sign">
+					<p>
+						<lb/>El-fakīr Küfeci zāde Ahmad M
+						<lb/>
+					</p>
+					<div3 facs="#zone_vs4_sgk_1jb" type="stamp">
+						<p>
+							<lb/>... Ahmad ...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>Hālā Muftī Kâtib Fitnetlü İbrāhīm Efendī
+						<lb/>
+						<lb/>El-hācı BŞLİ Ağa
+						<lb/>
+						<lb/>Navālīzāde Süleymān Ağa
+						<lb/>
+						<lb/>Navālīzāde ʿAtaʿullā Ağa
+						<lb/>
+						<lb/>Kâtible Hurūf KAlATOLI ... Mustafa
+						<lb/>
+						<lb/>IIBRAG El-hācı Mehmed
+						<lb/>
+						<lb/>DAʿALU oğulu El-hācı Mustafa Ağa
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_sd3_tgk_1jb" type="summary_Croatian">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

@@ -1,46 +1,49 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9341</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2265/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2265/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0d85816abd933689d4e17cdba7d82963f15ebf69.jpg" />
-        <zone lrx="2756" lry="1883" ulx="617" uly="427" xml:id="zone_cgr_mm1_zlb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2265/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b4a3c1a944666eb6794225d5befdb71d46d628dc.jpg" />
-        <zone lrx="2240" lry="3093" ulx="253" uly="1226" xml:id="zone_vdd_pm1_zlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="low" facs="#zone_vdd_pm1_zlb" next="#zone_cgr_mm1_zlb" subtype="tapu_nāme" type="EMIN">
-        <p>
-          <lb />... fī <date type="created" when="1845-12-20" when-custom="1261--21">21 sene 261</date><lb />
-        </p>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 cert="unkown" facs="#zone_cgr_mm1_zlb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9341</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2265/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2265/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0d85816abd933689d4e17cdba7d82963f15ebf69.jpg"/>
+				<zone lrx="2756" lry="1883" ulx="617" uly="427" xml:id="zone_cgr_mm1_zlb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2265/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b4a3c1a944666eb6794225d5befdb71d46d628dc.jpg"/>
+				<zone lrx="2240" lry="3093" ulx="253" uly="1226" xml:id="zone_vdd_pm1_zlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_vdd_pm1_zlb" next="#zone_cgr_mm1_zlb" subtype="tapu_nāme" type="EMIN">
+				<p>
+					<lb/>... fī <date type="created" when="1845-12-20" when-custom="1261--21">21 sene 261</date>
+					<lb/>
+				</p>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 cert="unkown" facs="#zone_cgr_mm1_zlb" type="summary_Croatian">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

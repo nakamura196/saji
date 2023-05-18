@@ -1,57 +1,59 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9299</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="mine">Tapuの代わりに一時的に与えられた証書の写し？要検討</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2223/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2223/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2d72f712d3c2e51c5c15e8f378c51d87e2c744e6.jpg" />
-        <zone lrx="2756" lry="1450" ulx="489" uly="861" xml:id="zone_ilx_2nl_tlb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2223/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1869f0d4e83cda6f7ce5e8e1b9e826792ddd7058.jpg" />
-        <zone lrx="2200" lry="2599" ulx="50" uly="271" xml:id="zone_fcm_gnl_tlb" />
-        <zone lrx="929" lry="2570" ulx="158" uly="2141" xml:id="zone_n44_hnl_tlb" />
-        <zone lrx="912" lry="2558" ulx="568" uly="2227" xml:id="zone_jzd_3nl_tlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_fcm_gnl_tlb" next="#zone_ilx_2nl_tlb" type="unkown">
-        <p>
-          <lb />... fī <date type="created" when="1856-12-06" when-custom="1273-04-09">9 R sene 73</date><lb />
-        </p>
-        <div2 facs="#zone_n44_hnl_tlb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_jzd_3nl_tlb" type="stamp_sūret">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_ilx_2nl_tlb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1857-08-19" when-custom="1273">1273</date>.
-          <lb />Nno 6.
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9299</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">Tapuの代わりに一時的に与えられた証書の写し？要検討</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2223/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2223/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2d72f712d3c2e51c5c15e8f378c51d87e2c744e6.jpg"/>
+				<zone lrx="2756" lry="1450" ulx="489" uly="861" xml:id="zone_ilx_2nl_tlb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2223/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1869f0d4e83cda6f7ce5e8e1b9e826792ddd7058.jpg"/>
+				<zone lrx="2200" lry="2599" ulx="50" uly="271" xml:id="zone_fcm_gnl_tlb"/>
+				<zone lrx="929" lry="2570" ulx="158" uly="2141" xml:id="zone_n44_hnl_tlb"/>
+				<zone lrx="912" lry="2558" ulx="568" uly="2227" xml:id="zone_jzd_3nl_tlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_fcm_gnl_tlb" next="#zone_ilx_2nl_tlb" type="unkown">
+				<p>
+					<lb/>... fī <date type="created" when="1856-12-06" when-custom="1273-04-09">9 R sene 73</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_n44_hnl_tlb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_jzd_3nl_tlb" type="stamp_sūret">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_ilx_2nl_tlb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1857-08-19" when-custom="1273">1273</date>.
+					<lb/>Nno 6. </p>
+			</div1>
+		</body>
+	</text>
 </TEI>

@@ -1,53 +1,57 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1934</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1464/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1464/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/dae099106cb437955c1db00339b0462513e70e6c.jpg" />
-<zone lrx="2316" lry="2684" ulx="424" uly="230" xml:id="zone_bhh_4md_djb" />
-<zone lrx="773" lry="2563" ulx="530" uly="2366" xml:id="zone_yrs_pmd_djb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1464/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/368d5c9f37f4f76807c45e854345be4ee27fa9b3.jpg" />
-<zone lrx="2777" lry="785" ulx="2559" uly="568" xml:id="zone_kk4_rmd_djb" />
-<zone lrx="2925" lry="1606" ulx="1121" uly="946" xml:id="zone_sbh_smd_djb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 cert="unknown" facs="#zone_bhh_4md_djb" type="EMIN">
-<p>
-<lb />... fī <date type="created" when="1842-10-22" when-custom="1258-09-18">18 N sene 258</date><lb />
-</p>
-<div2 facs="#zone_yrs_pmd_djb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_kk4_rmd_djb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-</div1>
-<div1 facs="#zone_sbh_smd_djb" type="summary_Croatian">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1934</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1464/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1464/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/dae099106cb437955c1db00339b0462513e70e6c.jpg"/>
+				<zone lrx="2316" lry="2684" ulx="424" uly="230" xml:id="zone_bhh_4md_djb"/>
+				<zone lrx="773" lry="2563" ulx="530" uly="2366" xml:id="zone_yrs_pmd_djb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1464/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/368d5c9f37f4f76807c45e854345be4ee27fa9b3.jpg"/>
+				<zone lrx="2777" lry="785" ulx="2559" uly="568" xml:id="zone_kk4_rmd_djb"/>
+				<zone lrx="2925" lry="1606" ulx="1121" uly="946" xml:id="zone_sbh_smd_djb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="unknown" facs="#zone_bhh_4md_djb" type="EMIN">
+				<p>
+					<lb/>... fī <date type="created" when="1842-10-22" when-custom="1258-09-18">18 N sene 258</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_yrs_pmd_djb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_kk4_rmd_djb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_sbh_smd_djb" type="summary_Croatian">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

@@ -1,49 +1,54 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9355</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2279/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2279/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d64f02ac16a77bae2cf957cc7132a7ad426dcaf7.jpg" />
-        <zone lrx="1673" lry="3100" ulx="563" uly="327" xml:id="zone_uwc_vy1_zlb" />
-        <zone lrx="1276" lry="997" ulx="614" uly="372" xml:id="zone_elg_zy1_zlb" />
-        <zone lrx="959" lry="985" ulx="789" uly="825" xml:id="zone_wcg_1z1_zlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_uwc_vy1_zlb" type="hüccet">
-        <p>
-          <lb />hurira fī <date cert="low" from="1725-05-23" from-custom="1137-09-11" to-custom="1137-09-20" type="created">evāsit şehr Ramazāni'l-mubārek sene sabʿ ve selāsūn ve mie ve elif</date><lb />
-        </p>
-        <div2 facs="#zone_elg_zy1_zlb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_wcg_1z1_zlb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9355</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2279/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2279/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d64f02ac16a77bae2cf957cc7132a7ad426dcaf7.jpg"/>
+				<zone lrx="1673" lry="3100" ulx="563" uly="327" xml:id="zone_uwc_vy1_zlb"/>
+				<zone lrx="1276" lry="997" ulx="614" uly="372" xml:id="zone_elg_zy1_zlb"/>
+				<zone lrx="959" lry="985" ulx="789" uly="825" xml:id="zone_wcg_1z1_zlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_uwc_vy1_zlb" type="hüccet">
+				<p>
+					<lb/>hurira fī <date cert="low" from="1725-05-23" from-custom="1137-09-11" to-custom="1137-09-20" type="created">evāsit şehr Ramazāni'l-mubārek sene sabʿ ve selāsūn ve mie ve
+						elif</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_elg_zy1_zlb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_wcg_1z1_zlb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

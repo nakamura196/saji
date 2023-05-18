@@ -1,54 +1,57 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9356</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・この画像は、DSCN9355.JPGとDSCN9357.JPGのどちらの裏面かにわかには判断できない。\r\n・日付から判断できる可能性があるので、要検討。\r\n・サイズは「?」とした。" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2280/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2280/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7283be7ec0afac43a08975f2ef151fbc2d9bfb3f.jpg" />
-        <zone lrx="3006" lry="1394" ulx="300" uly="1022" xml:id="zone_zt1_bbb_zlb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2280/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ec63a7817568d2f18078bf3ef3cdfd27d00a15a0.jpg" />
-        <zone lrx="2323" lry="2372" ulx="350" uly="594" xml:id="zone_x44_dbb_zlb" />
-        <zone lrx="1240" lry="2346" ulx="870" uly="2016" xml:id="zone_o5k_fbb_zlb" />
-        <zone lrx="806" lry="2343" ulx="430" uly="1866" xml:id="zone_lbk_hbb_zlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_x44_dbb_zlb" next="#zone_zt1_bbb_zlb" subtype="zabt_temessük" type="EMIN">
-        <p>
-          <lb />işbu <date when="1783-11-24" when-custom="1197">bin yüz doksan yedi senesinde</date> der ...  
-          <lb />... <date type="created" when="1778-01-27" when-custom="1191">fi'l-tārīhi'l-mezbūr</date> sālih
-        </p>
-        <div2 facs="#zone_o5k_fbb_zlb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 facs="#zone_lbk_hbb_zlb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_zt1_bbb_zlb" type="summary_Serbian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9356</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・この画像は、DSCN9355.JPGとDSCN9357.JPGのどちらの裏面かにわかには判断できない。\r\n・日付から判断できる可能性があるので、要検討。\r\n・サイズは「?」とした。" ]
+					}</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2280/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2280/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7283be7ec0afac43a08975f2ef151fbc2d9bfb3f.jpg"/>
+				<zone lrx="3006" lry="1394" ulx="300" uly="1022" xml:id="zone_zt1_bbb_zlb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2280/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ec63a7817568d2f18078bf3ef3cdfd27d00a15a0.jpg"/>
+				<zone lrx="2323" lry="2372" ulx="350" uly="594" xml:id="zone_x44_dbb_zlb"/>
+				<zone lrx="1240" lry="2346" ulx="870" uly="2016" xml:id="zone_o5k_fbb_zlb"/>
+				<zone lrx="806" lry="2343" ulx="430" uly="1866" xml:id="zone_lbk_hbb_zlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_x44_dbb_zlb" next="#zone_zt1_bbb_zlb" subtype="zabt_temessük" type="EMIN">
+				<p>
+					<lb/>işbu <date when="1783-11-24" when-custom="1197">bin yüz doksan yedi senesinde</date> der ...
+					<lb/>... <date type="created" when="1778-01-27" when-custom="1191">fi'l-tārīhi'l-mezbūr</date> sālih </p>
+				<div2 facs="#zone_o5k_fbb_zlb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+				<div2 facs="#zone_lbk_hbb_zlb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_zt1_bbb_zlb" type="summary_Serbian">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

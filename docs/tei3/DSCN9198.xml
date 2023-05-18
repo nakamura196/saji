@@ -1,41 +1,43 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9198</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2123/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2123/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8363dac1a829ad5ac7f8daca46ae36ebdbb9686d.jpg" />
-        <zone lrx="1832" lry="1950" ulx="450" uly="275" xml:id="zone_bnq_blt_klb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2123/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/78cdeb58a0c427452ac3fb2abe6058fe0af51597.jpg" />
-        <zone lrx="1818" lry="2554" ulx="427" uly="163" xml:id="zone_byd_dlt_klb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_byd_dlt_klb" next="#zone_bnq_blt_klb" type="fetvā">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-      <div1 facs="#zone_bnq_blt_klb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1838">1838</date><lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9198</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2123/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2123/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8363dac1a829ad5ac7f8daca46ae36ebdbb9686d.jpg"/>
+				<zone lrx="1832" lry="1950" ulx="450" uly="275" xml:id="zone_bnq_blt_klb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2123/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/78cdeb58a0c427452ac3fb2abe6058fe0af51597.jpg"/>
+				<zone lrx="1818" lry="2554" ulx="427" uly="163" xml:id="zone_byd_dlt_klb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_byd_dlt_klb" next="#zone_bnq_blt_klb" type="fetvā">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+			</div1>
+			<div1 facs="#zone_bnq_blt_klb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1838">1838</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

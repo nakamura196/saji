@@ -1,54 +1,70 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9041</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1968/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1968/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8a8974061d77fe2e27d9de03993f8bc980c50bc6.jpg" />
-        <zone lrx="613" lry="179" ulx="405" uly="9" xml:id="zone_hyn_dnp_xkb" />
-        <zone lrx="2079" lry="2907" ulx="371" uly="2669" xml:id="zone_wh1_fnp_xkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1968/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/567edbd9027247858c2bd1167e8d636e11665c57.jpg" />
-        <zone lrx="1813" lry="3166" ulx="-13" uly="1186" xml:id="zone_evj_gnp_xkb" />
-        <zone lrx="529" lry="3145" ulx="186" uly="2911" xml:id="zone_x2x_hnp_xkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_evj_gnp_xkb" next="#zone_wh1_fnp_xkb" subtype="zabt_temessük" type="EMIN">
-        <p>
-          <lb />işbu <date when="1811-01-24" when-custom="1225">bin iki yüz yiğirmi beş senesinin</date> der ... 
-          <lb />fī <date type="created" when="1810-02-19" when-custom="1225-01-15">15 M sene 225</date>
-        </p>
-        <div2 facs="#zone_x2x_hnp_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_hyn_dnp_xkb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_wh1_fnp_xkb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1810">1810</date> ... <lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9041</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">字や文法が非常に乱れている。オスマン語に不慣れな書き手であることが推測される。こういう書き手も修道院をとりまく文書行政の中にいたのだということを示すには好例かもしれない。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1968/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1968/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8a8974061d77fe2e27d9de03993f8bc980c50bc6.jpg"/>
+				<zone lrx="613" lry="179" ulx="405" uly="9" xml:id="zone_hyn_dnp_xkb"/>
+				<zone lrx="2079" lry="2907" ulx="371" uly="2669" xml:id="zone_wh1_fnp_xkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1968/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/567edbd9027247858c2bd1167e8d636e11665c57.jpg"/>
+				<zone lrx="1813" lry="3166" ulx="-13" uly="1186" xml:id="zone_evj_gnp_xkb"/>
+				<zone lrx="529" lry="3145" ulx="186" uly="2911" xml:id="zone_x2x_hnp_xkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_evj_gnp_xkb" next="#zone_wh1_fnp_xkb" type="EMIN_zabt_temessük">
+				<p>
+					<lb/>Vech-i tahrīr-i hurūf(?) budur ki
+					<lb/>işbu <date when="1811-01-24" when-custom="1225">bin iki yüz yiğirmi beş senesinin</date> der ʿuhde ve iltiz-
+					<lb/>āmımızda bulunan Kirşevo mukātaʿası hudūduna dāhil
+					<lb/>
+					<lb/>... demekle ... tarlaları ve çayırları
+					<lb/>işbu dārende-i hurūf Kirşevo  kilisanın rāhiblerinin(?) ʿalāka(?)-
+					<lb/>sı olunmakla mesfūranlara mezkūr tarlaların ve çayırlar-
+					<lb/>ın ʿöşr mahsūlen ... yüz yiğirmi yedi(?) guruş
+					<lb/>bedel mukābelesinde beyʿ ve iltizām edüb mesfūran zimmī(?)
+					<lb/>der ʿuhde
+					<lb/>
+					<lb/>
+					<lb/>fī <date type="created" when="1810-02-19" when-custom="1225-01-15">15 M sene 225</date>
+				</p>
+				<div2 facs="#zone_x2x_hnp_xkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_hyn_dnp_xkb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_wh1_fnp_xkb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1810">1810</date> ...
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

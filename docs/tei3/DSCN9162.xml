@@ -1,56 +1,60 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9162</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2088/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2088/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/85bfc241473204fc80a2c9570310613064f0e3a0.jpg" />
-        <zone lrx="2667" lry="1250" ulx="623" uly="1027" xml:id="zone_tb5_bpq_jlb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2088/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/faefc5286ed60c84b97a48750452067a87a23e47.jpg" />
-        <zone lrx="1283" lry="1687" ulx="1008" uly="1429" xml:id="zone_zyk_dpq_jlb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2088/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/2651a5acfd8667e1f8f43875aa2745e4bb0230e1.jpg" />
-        <zone lrx="1900" lry="2313" ulx="100" uly="26" xml:id="zone_er5_fpq_jlb" />
-        <zone lrx="729" lry="2294" ulx="349" uly="1698" xml:id="zone_xwb_hpq_jlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_er5_fpq_jlb" next="#zone_tb5_bpq_jlb" subtype="tahvīl" type="EMIN">
-        <p>
-          <lb />... fī <date type="created" when="1835-06-03" when-custom="1251-02-07">7 S sene 251</date><lb />
-        </p>
-        <div2 facs="#zone_xwb_hpq_jlb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_zyk_dpq_jlb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_tb5_bpq_jlb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1836">1836</date> ...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9162</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2088/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2088/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/85bfc241473204fc80a2c9570310613064f0e3a0.jpg"/>
+				<zone lrx="2667" lry="1250" ulx="623" uly="1027" xml:id="zone_tb5_bpq_jlb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2088/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/faefc5286ed60c84b97a48750452067a87a23e47.jpg"/>
+				<zone lrx="1283" lry="1687" ulx="1008" uly="1429" xml:id="zone_zyk_dpq_jlb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2088/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/2651a5acfd8667e1f8f43875aa2745e4bb0230e1.jpg"/>
+				<zone lrx="1900" lry="2313" ulx="100" uly="26" xml:id="zone_er5_fpq_jlb"/>
+				<zone lrx="729" lry="2294" ulx="349" uly="1698" xml:id="zone_xwb_hpq_jlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_er5_fpq_jlb" next="#zone_tb5_bpq_jlb" subtype="tahvīl" type="EMIN">
+				<p>
+					<lb/>... fī <date type="created" when="1835-06-03" when-custom="1251-02-07">7 S sene 251</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_xwb_hpq_jlb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_zyk_dpq_jlb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_tb5_bpq_jlb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1836">1836</date> ...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

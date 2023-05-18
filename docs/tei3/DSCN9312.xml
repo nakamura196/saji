@@ -1,38 +1,40 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9312</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2236/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2236/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/25f29e05eacfe2dba8baf17008ab4b993538c9f2.jpg" />
-        <zone lrx="1784" lry="1836" ulx="526" uly="389" xml:id="zone_syq_pyl_ylb" />
-        <zone lrx="1195" lry="2657" ulx="526" uly="1836" xml:id="zone_ugg_ryl_ylb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_syq_pyl_ylb" next="#zone_ugg_ryl_ylb" type="fetvā">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-      <div1 facs="#zone_ugg_ryl_ylb" type="fetvā">
-        <p>
-          <lb />... <lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9312</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2236/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2236/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/25f29e05eacfe2dba8baf17008ab4b993538c9f2.jpg"/>
+				<zone lrx="1784" lry="1836" ulx="526" uly="389" xml:id="zone_syq_pyl_ylb"/>
+				<zone lrx="1195" lry="2657" ulx="526" uly="1836" xml:id="zone_ugg_ryl_ylb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_syq_pyl_ylb" next="#zone_ugg_ryl_ylb" type="fetvā">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+			</div1>
+			<div1 facs="#zone_ugg_ryl_ylb" type="fetvā">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
