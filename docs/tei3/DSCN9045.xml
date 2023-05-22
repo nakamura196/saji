@@ -1,43 +1,63 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9045</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1972/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1972/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/020533764a1549fc9596816470b0c27eddc5218f.jpg" />
-        <zone lrx="2325" lry="3158" ulx="100" uly="58" xml:id="zone_tdg_kpp_xkb" />
-        <zone lrx="656" lry="3071" ulx="202" uly="2628" xml:id="zone_vdg_lpp_xkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="low" facs="#zone_tdg_kpp_xkb" subtype="edā_temessük" type="EMIN">
-        <p>
-          <lb />... fī <date cert="low" type="created" when="1790-09-23" when-custom="1205-01-15">15 M sene1205</date><lb />
-        </p>
-        <div2 facs="#zone_vdg_lpp_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9045</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">非ムスリムからムスリムに対する○○の支払い証明書</note>
+				<note type="mine">○○の内容は、DSCN9043.JPGと同一。そちらが読めればこちらも読めるはず。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1972/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1972/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/020533764a1549fc9596816470b0c27eddc5218f.jpg"/>
+				<zone lrx="2325" lry="3158" ulx="100" uly="58" xml:id="zone_tdg_kpp_xkb"/>
+				<zone lrx="656" lry="3071" ulx="202" uly="2628" xml:id="zone_vdg_lpp_xkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_tdg_kpp_xkb" type="EMIN_edā_temessük">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>Kirşevo kasabasında mütemekkinlerinden zimmī <persName>Mayk TADI</persName>
+					<lb/>nām mesfūrīn üzerinin bulunan el-... balık hāneden(?)
+					<lb/>yüz iki guruş tarafımızdan taʿin olunan vekīimiz ...
+					<lb/>Ahmed Ağa nām kimesne mevlağ-ı mezbūrī yüz iki guruş
+					<lb/>yedinden yedime(?) bi-tamām ve kemāl(?) ahz ve kabz eyledüm ...
+					<lb/>bir durlu'l-... kalmayub işbu edā temessüğı Ahmed Ağa'nın
+					<lb/>yedine virldi vakt-i ... ibrāz oluna
+					<lb/><date cert="low" type="created" when="1790-09-23" when-custom="1205-01-15">sene 1205 māh R ... 15 M</date>
+				</p>
+				<div2 facs="#zone_vdg_lpp_xkb" type="sign">
+					<p>
+						<lb/>Bende-i
+						<lb/>Yūsuf Beşe
+						<lb/>VIH TIK BALKI
+					</p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>ʿATANA Ağa LAH
+						<lb/>MHAREM Ağa
+						<lb/>SKAM HBUŞ AME
+						<lb/>Arslān Beğ
+						<lb/>BAĞA KELCU
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

@@ -1,52 +1,69 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9043</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1970/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1970/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/27c95c2b15b38a83d0be7ce861536df2ef314d1e.jpg" />
-        <zone lrx="2300" lry="529" ulx="191" uly="195" xml:id="zone_i34_m4p_xkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1970/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f3f0abded1d31e7ae103b5385728f6452c6449f6.jpg" />
-        <zone lrx="1850" lry="2542" ulx="28" uly="21" xml:id="zone_q1w_n4p_xkb" />
-        <zone lrx="371" lry="2364" ulx="69" uly="1801" xml:id="zone_ihc_p4p_xkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="low" facs="#zone_q1w_n4p_xkb" next="#zone_i34_m4p_xkb" subtype="edā_temessük" type="EMIN">
-        <p>
-          <lb />... fī <date cert="low" type="created" when="1831-01-28" when-custom="1246-08-15">15 Ş sene 46</date><lb />
-        </p>
-        <div2 facs="#zone_ihc_p4p_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />... fī <lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_i34_m4p_xkb" type="summary_Croatian">
-        <p>
-          <lb />... 1320 ... <date type="summary_Croatian" when="1831">1831</date>.<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9043</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">クレシェヴォ住民から修道士に対する○○の支払い証明書</note>
+				<note type="mine">○○の内容は、DSCN9045.JPGと同一。そちらが読めればこちらも読めるはず。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1970/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1970/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/27c95c2b15b38a83d0be7ce861536df2ef314d1e.jpg"/>
+				<zone lrx="2300" lry="529" ulx="191" uly="195" xml:id="zone_i34_m4p_xkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1970/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f3f0abded1d31e7ae103b5385728f6452c6449f6.jpg"/>
+				<zone lrx="1850" lry="2542" ulx="28" uly="21" xml:id="zone_q1w_n4p_xkb"/>
+				<zone lrx="371" lry="2364" ulx="69" uly="1801" xml:id="zone_ihc_p4p_xkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_q1w_n4p_xkb" next="#zone_i34_m4p_xkb" type="EMIN_edā_temessük">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>işbu <date when-custom="1245-02-15">bin iki yüz krık elli senesinin māh-ı Şubat şerīfin on beşinci günğnde</date> işbu
+					<lb/>Kirşevo kasabası sākinlerinden el-kilisaya(?) papazı gardiyān <persName>Fra KEHT</persName> meblağ-ı mezkūri olan el-... mız
+					<lb/>bin üç yüz yiğirmi guruş olub mesfūr gardiyān yedinden bi-tamāmen(?) ahz ve kabz eyledüm
+					<lb/>mevlağ-ı mezbūr ... bir akçe bir habbe ... kalmadığı ecilden yedine işbu memhūr
+					<lb/>edā temessüğı virilmişdir vakt-i ... ibrāz oluna
+					<lb/>fī <date cert="low" type="created" when="1831-01-28" when-custom="1246-08-15">15 Ş sene 46</date>
+				</p>
+				<div2 facs="#zone_ihc_p4p_xkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>İBRA Haccızā
+						<lb/>ʿAbdī Ağa
+						<lb/>ʿan Saray
+						<lb/>Bosna
+						<lb/>M
+					</p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_i34_m4p_xkb" type="summary_Croatian">
+				<p>
+					<lb/>...
+					<lb/>... gr: 1320 ... <date type="summary_Croatian" when="1831">1831</date>.					
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
