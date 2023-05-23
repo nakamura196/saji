@@ -1,97 +1,128 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9048</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="mine">様式はEMINとbuyurulduに見えるが、差出人はガルディヤーンでbuyurulduはエミンが作成している。様式だけ模してるのかな？面白いかもしれない。</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1975/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1975/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/210ff4c2d09fd19da1bb062939a8fea19cff9c39.jpg" />
-        <zone lrx="2889" lry="1572" ulx="1595" uly="233" xml:id="zone_fpr_gvb_ykb" />
-        <zone lrx="3100" lry="1082" ulx="2876" uly="854" xml:id="zone_atd_jvb_ykb" />
-        <zone lrx="3139" lry="771" ulx="2898" uly="591" xml:id="zone_hhb_kvb_ykb" />
-        <zone lrx="3134" lry="478" ulx="2924" uly="274" xml:id="zone_cgx_kvb_ykb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1975/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8d3424b42ee3854fbd9956fae82a853fed7dbf5b.jpg" />
-        <zone lrx="2373" lry="3172" ulx="9" uly="109" xml:id="zone_lfr_mvb_ykb" />
-        <zone lrx="1051" lry="3155" ulx="739" uly="2634" xml:id="zone_bwd_4vb_ykb" />
-        <zone lrx="671" lry="3160" ulx="373" uly="2573" xml:id="zone_fhv_4vb_ykb" />
-        <zone lrx="351" lry="3026" ulx="77" uly="2494" xml:id="zone_ph4_pvb_ykb" />
-        <zone lrx="1639" lry="1238" ulx="410" uly="122" xml:id="zone_qd3_rvb_ykb" />
-        <zone lrx="899" lry="885" ulx="455" uly="526" xml:id="zone_ijp_vvb_ykb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="low" facs="#zone_lfr_mvb_ykb" next="#zone_qd3_rvb_ykb" type="unkown">
-        <p>
-          <lb />... fī <date type="created" when="1773-12-05" when-custom="1187-09-21">21 N sene 187</date><lb />
-        </p>
-        <div2 facs="#zone_bwd_4vb_ykb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_atd_jvb_ykb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 facs="#zone_fhv_4vb_ykb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_hhb_kvb_ykb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 facs="#zone_ph4_pvb_ykb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_cgx_kvb_ykb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 cert="low" facs="#zone_qd3_rvb_ykb" next="#zone_fpr_gvb_ykb" type="unkown">
-        <p>
-          <lb />...<lb />
-        </p>
-        <div2 facs="#zone_ijp_vvb_ykb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_fpr_gvb_ykb" type="unokown">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9048</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">☆様式はEMINとbuyurulduに見えるが、差出人はボスニアの3修道院のガルディヤーンで、buyurulduはエミンが作成している。様式だけ模してるのかな？面白いかもしれない。</note>
+				<note type="mine">☆裏面には、Kraljeva SutjeskaとFoyniceと思われる地名のガルディヤーンに清算書meblağが手渡された旨が記されている。ボスニア各地のガルディヤーン同士の繋がりが分かって面白いかもしれない。</note>
+				<note type="mine">文字に金粉が残っている。重要な文書であったことがうかがわれる。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1975/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1975/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/210ff4c2d09fd19da1bb062939a8fea19cff9c39.jpg"/>
+				<zone lrx="2889" lry="1572" ulx="1595" uly="233" xml:id="zone_fpr_gvb_ykb"/>
+				<zone lrx="3100" lry="1082" ulx="2876" uly="854" xml:id="zone_atd_jvb_ykb"/>
+				<zone lrx="3139" lry="771" ulx="2898" uly="591" xml:id="zone_hhb_kvb_ykb"/>
+				<zone lrx="3134" lry="478" ulx="2924" uly="274" xml:id="zone_cgx_kvb_ykb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1975/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8d3424b42ee3854fbd9956fae82a853fed7dbf5b.jpg"/>
+				<zone lrx="2373" lry="3172" ulx="9" uly="109" xml:id="zone_lfr_mvb_ykb"/>
+				<zone lrx="1051" lry="3155" ulx="739" uly="2634" xml:id="zone_bwd_4vb_ykb"/>
+				<zone lrx="671" lry="3160" ulx="373" uly="2573" xml:id="zone_fhv_4vb_ykb"/>
+				<zone lrx="351" lry="3026" ulx="77" uly="2494" xml:id="zone_ph4_pvb_ykb"/>
+				<zone lrx="1639" lry="1238" ulx="410" uly="122" xml:id="zone_qd3_rvb_ykb"/>
+				<zone lrx="899" lry="885" ulx="455" uly="526" xml:id="zone_ijp_vvb_ykb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_lfr_mvb_ykb" next="#zone_qd3_rvb_ykb" type="EMIN">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>işbu bin yüz seksen yedi senedinde māh-ı Ramazān şerīfin(?) yiğirminci gününden
+					<lb/>yiğirmi beş gün ...
+					<lb/>... yalnız bin üç yüz guruş ...
+					<lb/>altyüz elli guruş
+					<lb/>... ʿuhdemiz ... meblağ-ı mezkūri tamāmen ve kâmilen edā olundukta işbu
+					<lb/>... fī <date type="created" when="1773-12-05" when-custom="1187-09-21">21 N sene 187</date>
+				</p>
+				<div2 facs="#zone_bwd_4vb_ykb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>ʿAURU
+						<lb/>Gardiyān-ı
+						<lb/>Sutjeska
+					</p>
+					<div3 facs="#zone_atd_jvb_ykb" type="stamp">
+						<p>
+							<lb/>拇印(?)
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_fhv_4vb_ykb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>ORSA
+						<lb/>Gardiyān-ı
+						<lb/>Kreşevo
+					</p>
+					<div3 facs="#zone_hhb_kvb_ykb" type="stamp">
+						<p>
+							<lb/>拇印(?)
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_ph4_pvb_ykb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>Īvān
+						<lb/>Gardiyān-ı
+						<lb/>...
+						<lb/>Foyniçe
+					</p>
+					<div3 facs="#zone_cgx_kvb_ykb" type="stamp">
+						<p>
+							<lb/>拇印(?)
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Mehmed Ağa Mostarı
+						<lb/>Mustafa Ağa Sutjeska
+						<lb/>ʿAlī Ağa tābiʿ CADSUKA KRMRK
+						<lb/>İsmāʿīl tābiʿ Hasan Ağa
+					</p>
+				</div2>
+			</div1>
+			<div1 cert="low" facs="#zone_qd3_rvb_ykb" next="#zone_fpr_gvb_ykb" type="buyuruldu">
+				<p>
+					<lb/>İşbu derūn-ı temesskde zikr olunan mebrağ olan
+					<lb/>...
+				</p>
+				<div2 facs="#zone_ijp_vvb_ykb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Hasan
+						<lb/>Emīn-i
+						<lb/>RADRA
+						<lb/>M
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_fpr_gvb_ykb" type="note">
+				<p>
+					<lb/>Derūn-ı temessüğı olan meblağ ...<placeName>KRALJEVA(?)
+					<lb/>Sutleska</placeName> ve <placeName>Foyniçe</placeName> gardiyānān yediyle
+					<lb/>teslīm olunan beyān olunur
+					<lb/>Yarnız gurş 933
+					<lb/>Akçe ... 40
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
