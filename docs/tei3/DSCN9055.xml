@@ -1,49 +1,64 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9055</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="summary">法廷における、キリスト教徒同士の土地売買について。</note>
-        <note type="summary">Kata(?)という女性からBozo(?)という人物への土地売買？</note>
-        <note type="mine">カーディーの作成するmürāseleとは書式が違うが、ナーイブあるいはエミンが出したmürāsele？</note>
-        <note type="mine">差出人不明。土地を管理するエミンが出したもの？</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1982/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1982/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c6652e267acb06f0fd27eee89de5bc3cf5119fc2.jpg" />
-        <zone lrx="2367" lry="2988" ulx="0" uly="1366" xml:id="zone_vtk_r4c_ykb" />
-        <zone lrx="290" lry="2948" ulx="0" uly="2727" xml:id="zone_qgx_s4c_ykb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="low" facs="#zone_vtk_r4c_ykb" subtype="mürāsele" type="EMIN">
-        <p>
-          <lb />... <date cert="low" type="created" when="1817-11-08" when-custom="1232">sene 1232</date><lb />
-        </p>
-        <div2 facs="#zone_qgx_s4c_ykb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9055</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">法廷における、キリスト教徒同士の土地売買について。</note>
+				<note type="summary">Kata(?)という女性からBozo(?)という人物への土地売買？</note>
+				<note type="mine">カーディーの作成するmürāseleとは書式が違うが、ナーイブあるいはエミンが出したmürāsele？</note>
+				<note type="mine">差出人不明。土地を管理するエミンが出したもの？</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1982/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1982/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c6652e267acb06f0fd27eee89de5bc3cf5119fc2.jpg"/>
+				<zone lrx="2367" lry="2988" ulx="0" uly="1366" xml:id="zone_vtk_r4c_ykb"/>
+				<zone lrx="290" lry="2948" ulx="0" uly="2727" xml:id="zone_qgx_s4c_ykb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_vtk_r4c_ykb" type="EMIN_mürāsele">
+				<p>
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>berāt-ı pādişāhīle mutasarrıf olunduğum tımār kurālarından <placeName>KOMAR</placeName> karyesi hudūd dā-
+					<lb/>hilinde bir mikdār ... ve arāzī-i mīrīyeden bir kıtʿa tarla <placeName>BUNAK</placeName> demekle maʿrūf
+					<lb/>mutasarrıfına <persName>KATA VELEDET-i İSTEPAN</persName> nām tasarrıfiye(?) ahal-i karyeden <persName>YÜZÜ veled-i Īvān</persName>
+					<lb/>ve <persName>MYAT veled-i MYAT HACAR</persName> nām-ı mesfūre ... doksan guruş
+					<lb/>bedel mukābelesinde ferāğat ve yedine ... tamāmen ahz ve ... meclis-i
+					<lb/>şerʿide ... etmek(?) ... bināen ... işbu mürāsele tahrīr ve ... virilmiştir(?)
+					<lb/>... zikr ... tarlayı mezkūre mesfūre <persName>KATA</persName> ... ferāğatından mesfūr(?)
+					<lb/><persName>YÜZÜ</persName> ve <persName>MYAT</persName> ... olan mādem ki ... aʿşār-ı şerʿiyesin(?) ve rüsūmāt-ı sā're(?)
+					<lb/>edā ve ... olan ... māniʿ ola ... ve ...<date cert="low" type="created" when="1817-11-08" when-custom="1232">sene 1232</date>
+				</p>
+				<div2 facs="#zone_qgx_s4c_ykb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Mehmed Emīn
+					</p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Hasan Ağa SCALACA
+						<lb/>Dervīş Ağa SCALACA
+						<lb/>MMT ʿAlemdār
+						<lb/>KZMK MLMIH
+						<lb/>Feyzüllāh Ağa
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>
