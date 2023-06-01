@@ -1,47 +1,67 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9062</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1989/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1989/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f8c014d8ba010179dcdf1c8342899f2c6c99b250.jpg" />
-        <zone lrx="2289" lry="1261" ulx="989" uly="1016" xml:id="zone_e1n_pps_flb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1989/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ca06dcf1cc434e89f01d9c2cf2fd909ea2775986.jpg" />
-        <zone lrx="1950" lry="3212" ulx="50" uly="25" xml:id="zone_kd1_rps_flb" />
-        <zone lrx="412" lry="3180" ulx="72" uly="2552" xml:id="zone_ecq_sps_flb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_kd1_rps_flb" next="#zone_e1n_pps_flb" subtype="zabt_temessük" type="EMIN">
-        <p>
-          <lb />... fī <date type="created" when="1816-01-15" when-custom="1231-02-15">15 S sene 1231</date><lb />
-        </p>
-        <div2 facs="#zone_ecq_sps_flb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_e1n_pps_flb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1816">1816</date>.<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9062</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">エミンが請負っているクレシェヴォの鉄鉱山や夏営地の徴税権について、修道院長へ譲渡することの証文。</note>
+				<note type="mine">☆クレシェヴォの鉄鉱山のある村karyeの名前が分かる！</note>
+				<note type="mine">bādhavā税についての記述が出てくる。</note>				
+				<note type="mine">DSCN9061.JPGと出てくる村karyeの名前や税の名前などが重なっている。【要】綴りなどを見比べる。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1989/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1989/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f8c014d8ba010179dcdf1c8342899f2c6c99b250.jpg"/>
+				<zone lrx="2289" lry="1261" ulx="989" uly="1016" xml:id="zone_e1n_pps_flb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1989/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ca06dcf1cc434e89f01d9c2cf2fd909ea2775986.jpg"/>
+				<zone lrx="1950" lry="3212" ulx="50" uly="25" xml:id="zone_kd1_rps_flb"/>
+				<zone lrx="412" lry="3180" ulx="72" uly="2552" xml:id="zone_ecq_sps_flb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_kd1_rps_flb" next="#zone_e1n_pps_flb" type="EMIN_zabt_temessük">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>ʿuhdemize ... olan maʿden-i āhen-i Kirşevo mukātaʿası kurālarından kurā <placeName>DULUBNA</placeName> ve <placeName>ORAŞKA</placeName>
+					<lb/>ve <placeName>RAVN</placeName> ve <placeName>ZABTA</placeName> ve <placeName>DUVURCA</placeName> ve <placeName>KOYSINE</placeName> ve <placeName>DRZUYÇE</placeName> ve <placeName>İBNİCE</placeName>'de(?) <placeName>GRAVİÇE</placeName>'de olan ʿalāka-i
+					<lb/>... hāsıl olan aʿşār-ı şerʿiyesini ve çayırlarında hāsıl olan ... aʿşārına
+					<lb/>tapunāmeden ve bādhavādan gayri işbu <date from-custom="1231-03-01" to-custom="1232-02-30">bin iki yüz otuz bir senesinin Martı
+						<lb/>ibtidāsından Şubatı gāyesine gelince</date> hāsıl olan aʿşārına taleb ve rāgib olan
+					<lb/>manastır ruhbān başı gardiyān(?) mesfūre yalnız yüz yiğirmi guruş ferāğ tafvīz
+					<lb/>olunub mesfūr dahi ferāğatı kabūl eyleyüb bedeli mukābelesi olanı(?) tarafımıza
+					<lb/>edā eyleyüb yedine işbu zabt temessük iʿtā olundu mā-dām ki tarafımızdan ve taraf-ı
+					<lb/>āhardan bir kimesne māniʿ ve müdāhale(?) etmeyeler fī <date type="created" when="1816-01-15" when-custom="1231-02-15">15 S sene 1231</date>
+				</p>
+				<div2 facs="#zone_ecq_sps_flb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>ʿAlī el-me'mūr-i
+						<lb/>mukātaʿa-i
+						<lb/>mezbūr
+						<lb/>M
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_e1n_pps_flb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1816">1816</date>.
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
