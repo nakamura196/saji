@@ -1,39 +1,55 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9072</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1999/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1999/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/801349233fb49a23bd8b8f1efe148cfb222a65ca.jpg" />
-        <zone lrx="1954" lry="2892" ulx="116" uly="61" xml:id="zone_bvd_jys_flb" />
-        <zone lrx="512" lry="2853" ulx="143" uly="2373" xml:id="zone_hln_kys_flb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_bvd_jys_flb" subtype="izin_tezkire" type="EMIN">
-        <p>
-          <lb />işbu <date from="1801-07-11" from-custom="1216-03-01" to-custom="1217-02-30" type="created">bin iki yüz on altı senesinde Martı ibtidāsında Şubatı gāyene
-          <lb />değin</date> der ...
-        </p>
-        <div2 facs="#zone_hln_kys_flb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9072</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">エミンのマーリキャーネ地の中で、修道士が自らの私有地として保有している土地に水車を新設する許可をエミンに申請したため、その水車から年間10アクチェを納税することを条件に許可した証文。</note>
+				<note type="mine">☆エミン、修道士、マーリキャーネ地、私有地などの関係性がよく分かる証文。</note>
+				<note type="mine">「水車āsiyāb」は他の文書でも登場していたが読めなかったと思うので、これを念頭に【要】読み直す。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1999/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1999/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/801349233fb49a23bd8b8f1efe148cfb222a65ca.jpg"/>
+				<zone lrx="1954" lry="2892" ulx="116" uly="61" xml:id="zone_bvd_jys_flb"/>
+				<zone lrx="512" lry="2853" ulx="143" uly="2373" xml:id="zone_hln_kys_flb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_bvd_jys_flb" type="EMIN_izin_tezkire">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>işbu <date from="1801-07-11" from-custom="1216-03-01" to-custom="1217-02-30" type="created">bin iki yüz on altı senesinin Martı ibtidāsında Şubatı gāyene
+						<lb/>değin</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿa mālikânesi
+					<lb/>... bāʿis-i(?) tezkire Kirşevo kilisanın rāhibden <persName>Peter</persName> kendi emlākında
+					<lb/>... āsiyāb nehr-i <placeName>KOYSİNE</placeName> üzere(?) müceddiden(?) binā etmek içün tarafımızdan
+					<lb/>istīzān etmeleriyle biz dahi me'mūrimiz hasebiyle zikr olunan
+					<lb/>āsiyābında be-her sene on akçe tarafa mālikâneye resm edā etmek şartiyle
+					<lb/>tarafımızdan işbu izin tezkire mesfūr rāhibe(?) virildi
+					<lb/>taraf-ı āhardan kimesne māniʿ olmaya
+				</p>
+				<div2 facs="#zone_hln_kys_flb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>ʿAta ...
+						<lb/>Emīn-i
+						<lb/>Kirşevo
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>
