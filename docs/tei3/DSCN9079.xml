@@ -1,71 +1,94 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9079</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2006/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2006/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4867fd600a080f4728ce8467b66e53514ad17fc0.jpg" />
-        <zone lrx="596" lry="557" ulx="347" uly="331" xml:id="zone_pdr_4dt_flb" />
-        <zone lrx="283" lry="566" ulx="48" uly="337" xml:id="zone_twf_pdt_flb" />
-        <zone lrx="2152" lry="3191" ulx="158" uly="2873" xml:id="zone_jdf_qdt_flb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2006/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/24ebcdc71847174adf595546628376c7ba649347.jpg" />
-        <zone lrx="2310" lry="3170" ulx="20" uly="230" xml:id="zone_vmr_rdt_flb" />
-        <zone lrx="687" lry="3041" ulx="419" uly="2709" xml:id="zone_crv_sdt_flb" />
-        <zone lrx="330" lry="3016" ulx="70" uly="2670" xml:id="zone_xk3_tdt_flb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_vmr_rdt_flb" next="#zone_jdf_qdt_flb" subtype="zabt_temessük" type="EMIN">
-        <p>
-          <lb />işbu <date when="1793-10-06" when-custom="1208-03-01">bin iki yüz sekiz senesinde Martı ibtidāsında</date> der ...
-          <lb />... fī <date type="created" when="1794-07-27" when-custom="1208">sene 1208</date>
-        </p>
-        <div2 facs="#zone_crv_sdt_flb" type="sign">
-          <p>
-            <lb />... <lb />
-          </p>
-          <div3 facs="#zone_pdr_4dt_flb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 facs="#zone_xk3_tdt_flb" type="sign">
-          <p>
-            <lb />... <lb />
-          </p>
-          <div3 facs="#zone_twf_pdt_flb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_jdf_qdt_flb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1794">1794</date> ...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9079</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">エミンのマーリキャーネ地内の土地の一括徴税権を修道院長が買取りし、その対価を支払うことについての証文。</note>
+				<note type="mine">şühūdu'l-hālにパシャが2人もいる？beşeの間違いか？</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2006/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2006/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4867fd600a080f4728ce8467b66e53514ad17fc0.jpg"/>
+				<zone lrx="596" lry="557" ulx="347" uly="331" xml:id="zone_pdr_4dt_flb"/>
+				<zone lrx="283" lry="566" ulx="48" uly="337" xml:id="zone_twf_pdt_flb"/>
+				<zone lrx="2152" lry="3191" ulx="158" uly="2873" xml:id="zone_jdf_qdt_flb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2006/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/24ebcdc71847174adf595546628376c7ba649347.jpg"/>
+				<zone lrx="2310" lry="3170" ulx="20" uly="230" xml:id="zone_vmr_rdt_flb"/>
+				<zone lrx="687" lry="3041" ulx="419" uly="2709" xml:id="zone_crv_sdt_flb"/>
+				<zone lrx="330" lry="3016" ulx="70" uly="2670" xml:id="zone_xk3_tdt_flb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_vmr_rdt_flb" next="#zone_jdf_qdt_flb" type="EMIN_zabt_temessük">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>işbu <date when="1793-10-06" when-custom="1208-03-01">bin iki yüz sekiz senesinde Martı ibtidāsında</date> der ʿuhde ve iltizāmımızda bulunan
+					<lb/>Kirşevo mukātaʿa mālikânesi kurālarında vākiʿ nefs-i Kirşevo kilisanın karyesinde ve ...
+					<lb/>... olan aʿşār-ı şerʿiye-i mahsūlāt her ne ... ahz ve kabzına taleb ve rāgib
+					<lb/>mezkūr-i kilisanın rāhib gardiyān <persName>PRA İLİYA</persName> yüz iğirmi guruş mukābelesinin mahsūlāt
+					<lb/>ve aʿşār-ı şerʿiyeyi mefsūre ihāle olunub ve bedel-i iltizām tarafımıza tamāmen teslīm
+					<lb/>olunub işbu zabt temessük ... içün mesfūre iʿtā olundu
+					<lb/>taraf-ı āhardan kimesne māniʿ olmaya fī <date type="created" when="1794-07-27" when-custom="1208">sene 1208</date>
+				</p>
+				<div2 facs="#zone_crv_sdt_flb" type="sign">
+					<p>
+						<lb/>El-fakīr
+						<lb/>ʿAtāllāh
+						<lb/>Emīn-i
+						<lb/>Kirşevo
+					</p>
+					<div3 facs="#zone_pdr_4dt_flb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_xk3_tdt_flb" type="sign">
+					<p>
+						<lb/>El-fakīr
+						<lb/>Ahmed
+						<lb/>Emīn-i
+						<lb/>Kirşevo
+					</p>
+					<div3 facs="#zone_twf_pdt_flb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Mustafa tābiʿ emīn
+						<lb/>ʿAbdüllāh Paşa
+						<lb/>Hasan Pāşa
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_jdf_qdt_flb" type="summary_Croatian">
+				<p>
+					<lb/>Do ... <date type="summary_Croatian" when="1794">1794</date> gros 180, ...
+					<lb/>... nego 120
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
