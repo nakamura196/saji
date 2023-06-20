@@ -1,80 +1,103 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9098</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2025/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2025/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/622b58b263fe38b0c84af45ad8effed7f1f246e2.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2025/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6ba17bba863e9b73c3512de84a8b497e3e75a8ca.jpg" />
-        <zone lrx="1789" lry="1300" ulx="1562" uly="1091" xml:id="zone_bt5_zf1_glb" />
-        <zone lrx="1517" lry="1310" ulx="1258" uly="1050" xml:id="zone_zrt_1g1_glb" />
-        <zone lrx="1145" lry="1302" ulx="893" uly="1069" xml:id="zone_jcl_bg1_glb" />
-        <zone lrx="3102" lry="1508" ulx="2973" uly="741" xml:id="zone_edq_cg1_glb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2025/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/e133979256f3f8dc34ec38a1a21fe54c72afe4cf.jpg" />
-        <zone lrx="1954" lry="2963" ulx="173" uly="1018" xml:id="zone_i1g_2g1_glb" />
-        <zone lrx="1283" lry="2908" ulx="945" uly="2613" xml:id="zone_anw_fg1_glb" />
-        <zone lrx="964" lry="2875" ulx="632" uly="2605" xml:id="zone_lzx_gg1_glb" />
-        <zone lrx="586" lry="2686" ulx="270" uly="2389" xml:id="zone_vjv_hg1_glb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_i1g_2g1_glb" next="#zone_edq_cg1_glb" subtype="temessük" type="EMIN">
-        <p>
-          <lb />... fī <date type="created" when="1780-05-06" when-custom="1194-05-03">3 min Cemaziye'l-evvel sene 1194</date><lb />
-        </p>
-        <div2 facs="#zone_anw_fg1_glb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_bt5_zf1_glb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 facs="#zone_lzx_gg1_glb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_zrt_1g1_glb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 facs="#zone_jcl_bg1_glb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_vjv_hg1_glb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_edq_cg1_glb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1780">1780</date>.<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9098</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">エミンの保有するムカーターからの一定期間の徴税権を、修道院長に請負に出すことを承認した証文。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2025/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2025/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/622b58b263fe38b0c84af45ad8effed7f1f246e2.jpg"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2025/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6ba17bba863e9b73c3512de84a8b497e3e75a8ca.jpg"/>
+				<zone lrx="1789" lry="1300" ulx="1562" uly="1091" xml:id="zone_bt5_zf1_glb"/>
+				<zone lrx="1517" lry="1310" ulx="1258" uly="1050" xml:id="zone_zrt_1g1_glb"/>
+				<zone lrx="1145" lry="1302" ulx="893" uly="1069" xml:id="zone_jcl_bg1_glb"/>
+				<zone lrx="3102" lry="1508" ulx="2973" uly="741" xml:id="zone_edq_cg1_glb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2025/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/e133979256f3f8dc34ec38a1a21fe54c72afe4cf.jpg"/>
+				<zone lrx="1954" lry="2963" ulx="173" uly="1018" xml:id="zone_i1g_2g1_glb"/>
+				<zone lrx="1283" lry="2908" ulx="945" uly="2613" xml:id="zone_anw_fg1_glb"/>
+				<zone lrx="964" lry="2875" ulx="632" uly="2605" xml:id="zone_lzx_gg1_glb"/>
+				<zone lrx="586" lry="2686" ulx="270" uly="2389" xml:id="zone_vjv_hg1_glb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_i1g_2g1_glb" next="#zone_edq_cg1_glb" type="EMIN_temessük">
+				<p>
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>işbu <date from-custom="1194-03-01" to-custom="1195-02-30">bin yüz doksan dört senesinin Martı ibtidāsından Şubatı gāyesine değin</date> der ʿuhde ve iltizāmımızda
+					<lb/>olan Kirşevo mukātaʿsı kurālarından ruhbānların karyesinin aʿşār-ı şerʿiyesin ve rüsūmāt-ı sā'ireyi(?)
+					<lb/>olageldiği minvāl üzere taleb ve rāgib olan işbu dārende-i hurūf ruhbānların gardiyānı
+					<lb/>zimmī <persName>YÜZP TOMİÇ</persName> nām mesfūre yetmiş guruş bedeli mukābelesinde ber-vech-i peşīn der ʿuhde
+					<lb/>ve iltizām olunub karye-i mezkūrin aʿşār-ı şerʿiyesini ve rüsūmātı sā'iresini ola geldiği
+					<lb/>minvāl üzere zabt ve rabtına mesfūr gardiyān YÜZ'ye işbu temessüğümüz yedine virildi karye-i mezkūrenin
+					<lb/>aʿşār-ı şerʿiyesinden mezbūrin yanında bir akçe ve bir habbe kalmadığı ecilden işbu memhūrlu
+					<lb/>temessük yedine virildi karye-i mezkūrenin taʿşīr yine tarafımızdan ve taraf-ı āhardan kimesne 
+					<lb/>māniʿ ve müdāhale ve muʿāraza etmeye hurira fī <date type="created" when="1780-05-06" when-custom="1194-05-03">3 min Cemaziye'l-evvel sene 1194</date>
+				</p>
+				<div2 facs="#zone_anw_fg1_glb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Hasan 
+						<lb/>Emīn-i
+						<lb/>Kirşevo
+					</p>
+					<div3 facs="#zone_bt5_zf1_glb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_lzx_gg1_glb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Ahmed Emīn-i
+						<lb/>Kirşevo
+					</p>
+					<div3 facs="#zone_zrt_1g1_glb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_jcl_bg1_glb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Abdüllāh
+						<lb/>Emīn-i
+						<lb/>Kirşevo
+					</p>
+					<div3 facs="#zone_vjv_hg1_glb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_edq_cg1_glb" type="summary_Croatian">
+				<p>
+					<lb/>... : od ... <date type="summary_Croatian" when="1780">1780</date>.
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
