@@ -32,6 +32,36 @@
 			</surface>
 		</surfaceGrp>
 	</facsimile>
+	<standoff>
+		<listPerson>
+			<person xml:id="person1">
+				<persName>YAKO KRAK'in veled-i GAŞO</persName>
+				<occupation>unknown</occupation>
+				<occupation key="推定値">農民</occupation>
+				<state type="立場">売り手</state>
+				<state type="属性">非ムスリム</state>
+			</person>
+			<person xml:id="person2">
+				<persName>MİHT</persName>
+				<occupation>gardiyān</occupation>
+				<state type="立場">買い手</state>
+				<state type="属性">非ムスリム</state>
+			</person>
+			<person xml:id="person3">
+				<persName>ʿAbdüllāh</persName>
+				<occupation>Emīn-i Mukātaʿa-i Kirşevo</occupation>
+				<state type="立場">作成者</state>
+				<state type="属性">ムスリム</state>
+			</person>
+		</listPerson>
+		<listPlace> <!-- 明日、検討 -->
+			<place>
+				<placeName>VAJAVİÇE</placeName>
+			</place>
+		</listPlace>
+		<!-- 金額 -->
+		<!-- 内容 -->
+	</standoff>
 	<text>
 		<body>
 			<div1 facs="#zone_l3f_gxs_flb" next="#zone_nrq_jxs_flb" type="EMIN">
@@ -39,11 +69,11 @@
 					<lb/>Hüve
 					<lb/>Vech-i tahrīr-i hurūf budur ki
 					<lb/>işbu <date when-custom="1223">bin iki yüz yiğirmi üç senesinin</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası
-					<lb/>kurālarından <placeName>VAJAVİÇE</placeName> karyesi hudūdunda arāzī-i mīrīye mutasarrıf olan zimmī <persName>YAKO KRAK'in
+					<lb/>kurālarından <placeName>VAJAVİÇE</placeName> karyesi hudūdunda arāzī-i mīrīye mutasarrıf olan zimmī <persName corresp="#person1">YAKO KRAK'in
 						<lb/>veled-i GAŞO</persName> karye-i merkūmde arāzī-i mezkūri tasarrıfında bulunan bir kıtʿa çayır bir taraf
 					<lb/><persName>PUPU</persName> çayırı ve bir taraf <persName>Peter KRAK</persName>'in çayırı ve taraf-ı sālis <placeName>Kraşova(Kirşevo)</placeName> rāhibleri çayırı
 					<lb/>ve taraf-ı rābiʿ olmankık <persName>BAVŞ</persName>'in çayır demekle maʿrūf olunan çayırı işbu dārendeyān-ı
-					<lb/>hurūf gardiyān <persName>MİHT</persName> ve sā'ir-i rāhiblere resmiyle seksen sekiz esedī guruş bedel
+					<lb/>hurūf gardiyān <persName corresp="#person2">MİHT</persName> ve sā'ir-i rāhiblere resmiyle seksen sekiz esedī guruş bedel
 					<lb/>mukābelesinde beyʿ katʿiyle beyʿ ve hakk-ı tasarrıfīn ferāğat etmekle mesfūrūn dahi ber-minvāl-i
 					<lb/>muharreru üzere iştirā ve kabūl ve meblağ-ı mezkūri tamāmen edā ve teslīm etmeleriyle zabt içün
 					<lb/>taraf-ı mīrīyeden istīzān etmeleriyle biz dahi me'mūrimiz hasebiyle beyʿ [ü] şirā'larīn tecvīz
@@ -54,7 +84,7 @@
 				<div2 facs="#zone_hz2_3xs_flb" type="sign">
 					<p>
 						<lb/>...
-						<lb/>ʿAbdüllāh Emīn-i
+						<lb/><persName corresp="#person3">ʿAbdüllāh</persName> Emīn-i
 						<lb/>Mukātaʿa-i Kirşevo
 						<lb/>M
 					</p>
