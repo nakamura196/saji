@@ -54,10 +54,25 @@
 				<state type="属性">ムスリム</state>
 			</person>
 		</listPerson>
-		<listPlace> <!-- 明日、検討 -->
-			<place>
+		<listPlace>
+			<place type="村" xml:id="place1">
 				<placeName>VAJAVİÇE</placeName>
+				<state type="地位">国有地</state>
 			</place>
+			<place xml:id="place2">
+				<!-- <placeName>BAVŞ'in çayır</placeName> -->
+				<state type="立場">取引対象</state>
+				<state type="種類">採草地</state>
+			</place>
+			<relation name="包含" active="#place1" passive="#place2">
+        		<desc>place2はplace1の内部に位置する</desc>
+    		</relation>
+			<relation name="保有" active="#person1" passive="#place2">
+				<desc>person1はplace2の保有者である</desc>
+			</relation>
+			<relation name="保有" active="#person3" passive="#place1">
+				<desc>person3はplace1の保有者である</desc>
+			</relation>
 		</listPlace>
 		<!-- 金額 -->
 		<!-- 内容 -->
@@ -69,10 +84,10 @@
 					<lb/>Hüve
 					<lb/>Vech-i tahrīr-i hurūf budur ki
 					<lb/>işbu <date when-custom="1223">bin iki yüz yiğirmi üç senesinin</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası
-					<lb/>kurālarından <placeName>VAJAVİÇE</placeName> karyesi hudūdunda arāzī-i mīrīye mutasarrıf olan zimmī <persName corresp="#person1">YAKO KRAK'in
+					<lb/>kurālarından <placeName corresp="#place1">VAJAVİÇE</placeName> karyesi hudūdunda arāzī-i mīrīye mutasarrıf olan zimmī <persName corresp="#person1">YAKO KRAK'in
 						<lb/>veled-i GAŞO</persName> karye-i merkūmde arāzī-i mezkūri tasarrıfında bulunan bir kıtʿa çayır bir taraf
 					<lb/><persName>PUPU</persName> çayırı ve bir taraf <persName>Peter KRAK</persName>'in çayırı ve taraf-ı sālis <placeName>Kraşova(Kirşevo)</placeName> rāhibleri çayırı
-					<lb/>ve taraf-ı rābiʿ olmankık <persName>BAVŞ</persName>'in çayır demekle maʿrūf olunan çayırı işbu dārendeyān-ı
+					<lb/>ve taraf-ı rābiʿ olmankık <placeName corresp="#place2"><persName>BAVŞ</persName>'in çayır</placeName> demekle maʿrūf olunan çayırı işbu dārendeyān-ı
 					<lb/>hurūf gardiyān <persName corresp="#person2">MİHT</persName> ve sā'ir-i rāhiblere resmiyle seksen sekiz esedī guruş bedel
 					<lb/>mukābelesinde beyʿ katʿiyle beyʿ ve hakk-ı tasarrıfīn ferāğat etmekle mesfūrūn dahi ber-minvāl-i
 					<lb/>muharreru üzere iştirā ve kabūl ve meblağ-ı mezkūri tamāmen edā ve teslīm etmeleriyle zabt içün
