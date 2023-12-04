@@ -18,6 +18,11 @@
 				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
 			</sourceDesc>
 		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<classCode>土地譲渡</classCode>
+			</textClass>
+		</profileDesc>
 	</teiHeader>
 	<facsimile>
 		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1997/manifest">
@@ -74,8 +79,6 @@
 				<desc>person3はplace1の保有者である</desc>
 			</relation>
 		</listPlace>
-		<!-- 金額 -->
-		<!-- 内容 -->
 	</standoff>
 	<text>
 		<body>
@@ -88,7 +91,7 @@
 						<lb/>veled-i GAŞO</persName> karye-i merkūmde arāzī-i mezkūri tasarrıfında bulunan bir kıtʿa çayır bir taraf
 					<lb/><persName>PUPU</persName> çayırı ve bir taraf <persName>Peter KRAK</persName>'in çayırı ve taraf-ı sālis <placeName>Kraşova(Kirşevo)</placeName> rāhibleri çayırı
 					<lb/>ve taraf-ı rābiʿ olmankık <placeName corresp="#place2"><persName>BAVŞ</persName>'in çayır</placeName> demekle maʿrūf olunan çayırı işbu dārendeyān-ı
-					<lb/>hurūf gardiyān <persName corresp="#person2">MİHT</persName> ve sā'ir-i rāhiblere resmiyle seksen sekiz esedī guruş bedel
+					<lb/>hurūf gardiyān <persName corresp="#person2">MİHT</persName> ve sā'ir-i rāhiblere resmiyle <measure quantity="88" unit="esedī guruş">seksen sekiz esedī guruş</measure> bedel
 					<lb/>mukābelesinde beyʿ katʿiyle beyʿ ve hakk-ı tasarrıfīn ferāğat etmekle mesfūrūn dahi ber-minvāl-i
 					<lb/>muharreru üzere iştirā ve kabūl ve meblağ-ı mezkūri tamāmen edā ve teslīm etmeleriyle zabt içün
 					<lb/>taraf-ı mīrīyeden istīzān etmeleriyle biz dahi me'mūrimiz hasebiyle beyʿ [ü] şirā'larīn tecvīz
