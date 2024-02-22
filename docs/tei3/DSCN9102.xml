@@ -1,61 +1,177 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9102</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2029/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2029/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/38c161eb75cbf1a012a3affd7cce59500746e351.jpg" />
-        <zone lrx="1964" lry="1254" ulx="1056" uly="1062" xml:id="zone_bj4_bk1_glb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2029/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fe0664aed5bb56b727b4983775b3267c7de3648a.jpg" />
-        <zone lrx="1936" lry="2416" ulx="1696" uly="2190" xml:id="zone_nxv_dk1_glb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2029/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/3f82c524c0e9fc121ea182aec31f9a0f80d70c3d.jpg" />
-        <zone lrx="2125" lry="2941" ulx="133" uly="158" xml:id="zone_mry_2k1_glb" />
-        <zone lrx="697" lry="2881" ulx="371" uly="2538" xml:id="zone_pyw_gk1_glb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_mry_2k1_glb" next="#zone_bj4_bk1_glb" type="EMIN">
-        <p>
-          <lb />... fī <date type="created" when="1822-04-26" when-custom="1237-08-05">5 Ş sene 37</date><lb />
-        </p>
-        <div2 facs="#zone_pyw_gk1_glb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_nxv_dk1_glb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_bj4_bk1_glb" type="summary_Croatian">
-        <p>
-          <lb />... <date cert="medium" type="summary_Croatian" when="1823">1823</date>.<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9102</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">エミンの保有する国有地の徴税権を、修道院長が徴税請負することについての証書。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<classCode scheme="">徴税請負</classCode>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2029/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2029/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/38c161eb75cbf1a012a3affd7cce59500746e351.jpg"/>
+				<zone lrx="1964" lry="1254" ulx="1056" uly="1062" xml:id="zone_bj4_bk1_glb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2029/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fe0664aed5bb56b727b4983775b3267c7de3648a.jpg"/>
+				<zone lrx="1936" lry="2416" ulx="1696" uly="2190" xml:id="zone_nxv_dk1_glb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2029/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/3f82c524c0e9fc121ea182aec31f9a0f80d70c3d.jpg"/>
+				<zone lrx="2125" lry="2941" ulx="133" uly="158" xml:id="zone_mry_2k1_glb"/>
+				<zone lrx="697" lry="2881" ulx="371" uly="2538" xml:id="zone_pyw_gk1_glb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<standOff>
+		<listPerson>
+			<person xml:id="person1">
+				<persName>unknown</persName>
+				<occupation>gardiān</occupation>
+				<state type="立場">
+					<label>徴税請負人</label>
+				</state>
+				<state type="属性">
+					<label>非ムスリム</label>
+				</state>
+			</person>
+			<person xml:id="person2">
+				<persName>Ahmed</persName>
+				<occupation>Emīn-i Mukātaʿa-i Kirşevo</occupation>
+				<state type="立場">
+					<label>ムカーター保有者</label>
+					<label>作成者</label>					
+				</state>
+				<state type="属性">
+					<label>ムスリム</label>
+				</state>
+			</person>
+		</listPerson>
+		<listPlace>
+			<place type="karye" xml:id="place1">
+				<placeName>nefs-i varoş-ı Kirşevo</placeName>
+				<state type="地位">
+					<label>arāzī-i mīrīye</label>
+				</state>
+				<state type="立場">
+					<label>取引対象</label>
+				</state>
+				<state type="種類">
+					<label>unknown</label>
+				</state>
+			</place>
+			<place type="karye" xml:id="place2">
+				<placeName>Koysina</placeName>
+				<state type="地位">
+					<label>arāzī-i mīrīye</label>
+				</state>
+				<state type="立場">
+					<label>取引対象</label>
+				</state>
+				<state type="種類">
+					<label>unknown</label>
+				</state>
+			</place>
+			<place type="karye" xml:id="place3">
+				<placeName>AŞKA</placeName>
+				<state type="地位">
+					<label>arāzī-i mīrīye</label>
+				</state>
+				<state type="立場">
+					<label>取引対象</label>
+				</state>
+				<state type="種類">
+					<label>unknown</label>
+				</state>
+			</place>
+			<place type="karye" xml:id="place4">
+				<placeName>DESVİÇE</placeName>
+				<state type="地位">
+					<label>arāzī-i mīrīye</label>
+				</state>
+				<state type="立場">
+					<label>取引対象</label>
+				</state>
+				<state type="種類">
+					<label>unknown</label>
+				</state>
+			</place>
+			<relation name="保有" active="#person2" passive="#place1">
+				<desc>person2はplace1の保有者である</desc>
+			</relation>
+			<relation name="保有" active="#person2" passive="#place2">
+				<desc>person2はplace2の保有者である</desc>
+			</relation>
+			<relation name="保有" active="#person2" passive="#place3">
+				<desc>person2はplace3の保有者である</desc>
+			</relation>
+			<relation name="保有" active="#person2" passive="#place4">
+				<desc>person2はplace4の保有者である</desc>
+			</relation>
+		</listPlace>
+	</standOff>
+	<text>
+		<body>
+			<div1 facs="#zone_mry_2k1_glb" next="#zone_bj4_bk1_glb" type="EMIN_hurūf">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası kurāhālar(?)ından mukātāʿ-i mezbūre
+					<lb/>kilisanın ruhbānların <persName corresp="#person1">gardiyān</persName> <placeName corresp="#place1">nefs-i varoş-ı Kirşevo</placeName> ve <placeName corresp="#place2">Koysina</placeName> ve karye-i <placeName corresp="#place3">AŞKA</placeName>
+					<lb/>ve <placeName corresp="#place4">DESVİÇE</placeName> ve gayride taht ve tasarrıflarında bulunan arāzī-i mīrīyede işbu
+					<lb/><date when-custom="1237">bin iki yüz otuz yedi senesinde</date> hāsıl olan aʿşār-ı şerʿiye
+					<lb/>ve rüsūmāt ʿörfiye ... ve ... işbu dārende-i hurūf
+					<lb/>Kirşevo kilisanın <persName corresp="#person1">gardiyān</persName> nām zimmīye <measure quantity="200" unit="guruş">iki yüz guruş</measure> bedel mukābelesinde
+					<lb/>der ʿuhde ve iltizām edüb ve bedel-i iltizām olan ... el-beyān olan
+					<lb/>... tarafımıza bi'l-tamām edā ve teslīm eyledüğü ecilden işubu hurūf KTB ve tahrīr
+					<lb/>ve mesfūr gardiyānın yedine iʿtā olundu tarafımızdan ve taraf-ı āhardan bir kimesne
+					<lb/>māniʿ ve müdāhale olunmaya ve'l-kelām hurira fī <date type="created" when="1822-04-26" when-custom="1237-08-05">5 Ş sene 37</date>
+				</p>
+				<div2 facs="#zone_pyw_gk1_glb" type="sign">
+					<p>
+						<lb/>...
+						<lb/><persName corresp="#person2">Ahmed</persName> Emīn-i Kirşevo
+						<lb/>M
+					</p>
+					<div3 facs="#zone_nxv_dk1_glb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>...
+							<lb/>...
+							<lb/>...
+							<lb/>...
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Zimmī NIPO ʿAnton
+						<lb/>Zimmī PAVORAYA
+						<lb/>Zimmī İSTRUKO
+						<lb/>ve gayrihim mine'l-hāzırīn
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_bj4_bk1_glb" type="summary_Croatian">
+				<p>
+					<lb/>od ... <date cert="medium" type="summary_Croatian" when="1823">1823</date>.
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
