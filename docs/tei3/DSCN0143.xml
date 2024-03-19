@@ -15,6 +15,11 @@
 				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
 			</sourceDesc>
 		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<classCode scheme="">土地譲渡・売買</classCode>
+			</textClass>
+		</profileDesc>
 	</teiHeader>
 	<facsimile>
 		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1626/manifest">
@@ -37,7 +42,8 @@
 					<lb/>tekâlif iki onlık(?)
 					<lb/>Hüve
 					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date when-custom="1260" type="created" when="0680-09-01">bin iki yüz altmış senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasında <placeName>MRATNIÇ</placeName>
+					<lb/>işbu <date when-custom="1260" type="created" when="0680-09-01">bin iki yüz altmış senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasında
+						<placeName>MRATNIÇ</placeName>
 					<lb/>cemāʿatında RASNIK hudūd dāhilinde bir kıtʿa tarla <placeName>BUÇİRKOLA</placeName> demekle bir taraf <persName>Hāccıoğlu</persName> tarlası
 					<lb/>ve taraf-ı sānī <persName>MUMN Mollā Mustafa</persName> tarlası ve taraf-ı sālis ve rābiʿ tarīk-i ʿām ile mahdūd ve mumtāz olub
 					<lb/>Kirşevo kasabasında müsliman cemāʿatında <persName>BİRNİÇoğulu Sālih</persName> mutasarrıf eyledüğü işbu dārende-i hurūf

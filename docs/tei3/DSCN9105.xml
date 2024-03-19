@@ -18,7 +18,7 @@
 			<textClass>
 				<classCode scheme="">徴税請負</classCode>
 			</textClass>
-		</profileDesc>		
+		</profileDesc>
 	</teiHeader>
 	<facsimile>
 		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2032/manifest">
@@ -38,7 +38,7 @@
 		<listPerson>
 			<person xml:id="person1">
 				<persName>unknown</persName>
-				<occupation>kilisa rāhihibi</occupation>				
+				<occupation>kilisa rāhihibi</occupation>
 				<occupation>gardiān-ı sābık</occupation>
 				<state type="立場">
 					<label>徴税請負人</label>
@@ -52,7 +52,7 @@
 				<occupation>Emīn-i Mukātaʿa-i Kirşevo</occupation>
 				<state type="立場">
 					<label>ムカーター保有者</label>
-					<label>作成者</label>					
+					<label>作成者</label>
 				</state>
 				<state type="属性">
 					<label>ムスリム</label>
@@ -108,7 +108,7 @@
 					<label>unknown</label>
 				</state>
 			</place>
-			<place type="mahalle" xml:id="place4">
+			<place type="mahalle" xml:id="place5">
 				<placeName>BUʿUŞK</placeName>
 				<state type="地位">
 					<label>unknown</label>
@@ -119,7 +119,7 @@
 				<state type="種類">
 					<label>unknown</label>
 				</state>
-			</place>			
+			</place>
 			<relation name="保有" active="#person2" passive="#place1">
 				<desc>person2はplace1の保有者である</desc>
 			</relation>

@@ -1,58 +1,62 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0323</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="summary">税納付書</note>
-        <note type="mine">未完成のもののようだ</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1802/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1802/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e68c2a06df4ff47c9d0ebea395c6d7a297c4a47e.jpg" />
-        <zone lrx="1682" lry="3218" ulx="591" uly="63" xml:id="zone_w2r_dfp_2kb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1802/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c86673534fb11fc8d5fa7335a1075acbf772b701.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1802/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/35661e0b98cded026326ffa8093e74b8ab96ce48.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1802/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/7e05c640fb1140c3ac4ff41e914bddb7f7582104.jpg" />
-        <zone lrx="2889" lry="1372" ulx="634" uly="572" xml:id="zone_nqx_jfp_2kb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1802/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/be3dbddb4ce1d2728bbe59418e79622e7623da87.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1802/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/064afd93e01275c8a1ed90090e4079164a7c8660.jpg" />
-        <zone lrx="1771" lry="1916" ulx="708" uly="1375" xml:id="zone_sds_lfp_2kb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_w2r_dfp_2kb" type="ʿilmühaber">
-        <p>
-          <lb />Altı senekik vergü ʿilmühaberdir
-        </p>
-      </div1>
-      <div1 facs="#zone_nqx_jfp_2kb" type="summary_Croatian">
-        <p>
-          <lb />...
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0323</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">税納付書</note>
+				<note type="mine">未完成のもののようだ</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<classCode scheme="">納税証明</classCode>
+			</textClass>
+		</profileDesc>
+		
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1802/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1802/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e68c2a06df4ff47c9d0ebea395c6d7a297c4a47e.jpg"/>
+				<zone lrx="1682" lry="3218" ulx="591" uly="63" xml:id="zone_w2r_dfp_2kb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1802/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c86673534fb11fc8d5fa7335a1075acbf772b701.jpg"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1802/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/35661e0b98cded026326ffa8093e74b8ab96ce48.jpg"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1802/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/7e05c640fb1140c3ac4ff41e914bddb7f7582104.jpg"/>
+				<zone lrx="2889" lry="1372" ulx="634" uly="572" xml:id="zone_nqx_jfp_2kb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1802/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/be3dbddb4ce1d2728bbe59418e79622e7623da87.jpg"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1802/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/064afd93e01275c8a1ed90090e4079164a7c8660.jpg"/>
+				<zone lrx="1771" lry="1916" ulx="708" uly="1375" xml:id="zone_sds_lfp_2kb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_w2r_dfp_2kb" type="ʿilmühaber">
+				<p>
+					<lb/>Altı senekik vergü ʿilmühaberdir </p>
+			</div1>
+			<div1 facs="#zone_nqx_jfp_2kb" type="summary_Croatian">
+				<p>
+					<lb/>... </p>
+			</div1>
+		</body>
+	</text>
 </TEI>
