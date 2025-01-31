@@ -1,44 +1,47 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1843</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1374/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1374/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/236904cd7b07c3b84f41fd44d431dad587e2f0ed.jpg" />
-<zone lrx="1782" lry="3063" ulx="109" uly="109" xml:id="zone_xht_rbq_cjb" />
-<zone lrx="450" lry="3042" ulx="139" uly="2663" xml:id="zone_rhx_sbq_cjb" />
-<zone lrx="1292" lry="1547" ulx="148" uly="126" xml:id="zone_cjv_tbq_cjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_xht_rbq_cjb" type="ʿarz-ı_hāl">
-<p>
-<lb />...<lb />
-</p>
-<div2 facs="#zone_rhx_sbq_cjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_cjv_tbq_cjb" type="buyuruldu">
-<p>
-<lb />buyuruldu fī <date type="created" when="1826-06-03" when-custom="1241-10-27">27 Ş sene 241</date><lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1843</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1374/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1374/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/236904cd7b07c3b84f41fd44d431dad587e2f0ed.jpg"/>
+				<zone lrx="1782" lry="3063" ulx="109" uly="109" xml:id="zone_xht_rbq_cjb"/>
+				<zone lrx="450" lry="3042" ulx="139" uly="2663" xml:id="zone_rhx_sbq_cjb"/>
+				<zone lrx="1292" lry="1547" ulx="148" uly="126" xml:id="zone_cjv_tbq_cjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_xht_rbq_cjb" type="ʿarz-ı_hāl">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+				<div2 facs="#zone_rhx_sbq_cjb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_cjv_tbq_cjb" type="buyuruldu">
+				<p>
+					<lb/>buyuruldu fī <date type="created" when="1826-06-03" when-custom="1241-10-27">27 Ş sene 241</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>
