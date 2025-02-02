@@ -1,40 +1,43 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2201</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2529/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2529/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d573ab584fe277c0eb90e59a231c6d08b38b07d5.jpg" />
-        <zone lrx="2107" lry="2056" ulx="207" uly="50" xml:id="zone_tyj_tsy_cmb" />
-        <zone lrx="749" lry="1974" ulx="479" uly="1732" xml:id="zone_enk_wsy_cmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_tyj_tsy_cmb" type="unkown">
-        <p>
-          <lb />... fī <date type="created" when="1841-09-07" when-custom="1257-07-21">21 B sene 57</date><lb />
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_enk_wsy_cmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2201</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2201.JPG"/>
+			<zone ulx="50" uly="50" lrx="2107" lry="2056" xml:id="zone_tyj_tsy_cmb"/>
+			<zone ulx="1732" uly="1732" lrx="749" lry="1974" xml:id="zone_enk_wsy_cmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_tyj_tsy_cmb" type="unkown">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1841-09-07" when-custom="1257-07-21">21 B sene 57</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_enk_wsy_cmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

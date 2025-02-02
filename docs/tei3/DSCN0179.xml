@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -22,80 +23,128 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1659/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/ad5a1477960d50f508e54ffd7cfb8781a9bf0dbf.jpg" n="https://diyhistory.org/public/phr2/iiif/1659/canvas/p1"/>
-				<zone xml:id="zone_wdy_qpm_3jb" lry="3154" lrx="2400" uly="45" ulx="136"/>
-				<zone xml:id="zone_wry_spm_3jb" lry="3123" lrx="572" uly="2816" ulx="179"/>
-				<zone xml:id="zone_xlv_dvb_qqb" lry="1921" lrx="1661" uly="1752" ulx="1384"/>
-				<zone xml:id="zone_jxr_vvb_qqb" lry="2088" lrx="936" uly="1913" ulx="145"/>
-				<zone xml:id="zone_cwm_3wb_qqb" lry="2469" lrx="1662" uly="2277" ulx="1403"/>
-				<zone xml:id="zone_rgt_dxb_qqb" lry="2586" lrx="757" uly="2406" ulx="152"/>
-				<zone xml:id="zone_ecx_p53_qqb" lry="2976" lrx="2330" uly="2422" ulx="1777"/>
-				<zone xml:id="zone_o5p_t53_qqb" lry="2409" lrx="2331" uly="2019" ulx="1775"/>
-				<zone xml:id="zone_wfs_nv3_qqb" lry="2009" lrx="2341" uly="1803" ulx="1777"/>
-				<zone xml:id="zone_lz2_pv3_qqb" lry="1754" lrx="2239" uly="1584" ulx="1773"/>
-				<zone xml:id="zone_afj_qv3_qqb" lry="1607" lrx="2375" uly="1230" ulx="1775"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1659/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/26626bcbf4f80b6c6a4582ff87cc345c60bab969.jpg"/>
-				<zone lrx="3092" lry="2108" ulx="184" uly="615" xml:id="zone_hcg_2qm_3jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0179.JPG"/>
+			<zone ulx="45" uly="45" lrx="2400" lry="3154" xml:id="zone_wdy_qpm_3jb"/>
+			<zone ulx="2816" uly="2816" lrx="572" lry="3123" xml:id="zone_wry_spm_3jb"/>
+			<zone ulx="1752" uly="1752" lrx="1661" lry="1921" xml:id="zone_xlv_dvb_qqb"/>
+			<zone ulx="1913" uly="1913" lrx="936" lry="2088" xml:id="zone_jxr_vvb_qqb"/>
+			<zone ulx="2277" uly="2277" lrx="1662" lry="2469" xml:id="zone_cwm_3wb_qqb"/>
+			<zone ulx="2406" uly="2406" lrx="757" lry="2586" xml:id="zone_rgt_dxb_qqb"/>
+			<zone ulx="2422" uly="2422" lrx="2330" lry="2976" xml:id="zone_ecx_p53_qqb"/>
+			<zone ulx="2019" uly="2019" lrx="2331" lry="2409" xml:id="zone_o5p_t53_qqb"/>
+			<zone ulx="1803" uly="1803" lrx="2341" lry="2009" xml:id="zone_wfs_nv3_qqb"/>
+			<zone ulx="1584" uly="1584" lrx="2239" lry="1754" xml:id="zone_lz2_pv3_qqb"/>
+			<zone ulx="1230" uly="1230" lrx="2375" lry="1607" xml:id="zone_afj_qv3_qqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0180.JPG"/>
+			<zone ulx="615" uly="615" lrx="3092" lry="2108" xml:id="zone_hcg_2qm_3jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN" facs="#zone_wdy_qpm_3jb">
 				<p>
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date when-custom="1204" type="created" when="1790-09-08">bin iki yüz dört senesinde</date> der ʿuhde ve iltizā-
-					<lb/>mımızda bulunan <placeName corresp="#Kirşevo">Kirşevo</placeName> mukātaʿası kurālarında
-					<lb/><placeName facs="#zone_xlv_dvb_qqb" corresp="#KYSN">KOYSINA</placeName> karyesi hudūd dāhilinde arāz[ī]-ı mīrīye-
-					<lb/>si mutasarrıflarında <persName facs="#zone_jxr_vvb_qqb" corresp="#mutasarrıf_YUZB">zimmī YUZB veled-i Nikola YÖRK</persName> 
-					<lb/>nām zimmīnin kendi taht-ı tasarrıfında bir kıtʿa tarla ...
-					<lb/><placeName facs="#zone_cwm_3wb_qqb" corresp="#LOÇÇE">LOÇÇE</placeName> demekle hudūd ... -sıyla işbu dārende-i hurūf
-					<lb/><placeName corresp="#Kirşevo">Kirşevo</placeName> kilisanın gardiyān <persName facs="#zone_rgt_dxb_qqb" corresp="#gardiyān_Marko">HRA Marko KRAKİÇ</persName>
-					<lb/>nām zimmīnin resmiyle on beş asadī guruş mukābele-
-					<lb/>sinde beyʿ ve ferāğ edüp onlar dahi kabūl edüb
-					<lb/>biz dahi me'mūrimiz ... cāiz
-					<lb/>görüp tasarrıfına kimesne māniʿ olunmaya
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date when-custom="1204" type="created" when="1790-09-08">bin iki yüz dört senesinde</date>
+					 der ʿuhde ve iltizā-
+					<lb/>
+					mımızda bulunan					<placeName corresp="#Kirşevo">Kirşevo</placeName>
+					 mukātaʿası kurālarında
+					<lb/>
+					<placeName facs="#zone_xlv_dvb_qqb" corresp="#KYSN">KOYSINA</placeName>
+					 karyesi hudūd dāhilinde arāz[ī]-ı mīrīye-
+					<lb/>
+					si mutasarrıflarında					<persName facs="#zone_jxr_vvb_qqb" corresp="#mutasarrıf_YUZB">zimmī YUZB veled-i Nikola YÖRK</persName>
+					<lb/>
+					nām zimmīnin kendi taht-ı tasarrıfında bir kıtʿa tarla ...
+					<lb/>
+					<placeName facs="#zone_cwm_3wb_qqb" corresp="#LOÇÇE">LOÇÇE</placeName>
+					 demekle hudūd ... -sıyla işbu dārende-i hurūf
+					<lb/>
+					<placeName corresp="#Kirşevo">Kirşevo</placeName>
+					 kilisanın gardiyān					<persName facs="#zone_rgt_dxb_qqb" corresp="#gardiyān_Marko">HRA Marko KRAKİÇ</persName>
+					<lb/>
+					nām zimmīnin resmiyle on beş asadī guruş mukābele-
+					<lb/>
+					sinde beyʿ ve ferāğ edüp onlar dahi kabūl edüb
+					<lb/>
+					biz dahi me'mūrimiz ... cāiz
+					<lb/>
+					görüp tasarrıfına kimesne māniʿ olunmaya
 				</p>
 				<div2 type="sign" facs="#zone_wry_spm_3jb">
 					<p>
-						<lb/><persName corresp="#emīn_Ahmed">El-fakīr
-						<lb/>Ahmed Emīn-i
-						<lb/><placeName>Kirşevo</placeName></persName>
+						<lb/>
+						<persName corresp="#emīn_Ahmed">
+							El-fakīr
+							<lb/>
+							Ahmed Emīn-i
+							<lb/>
+							<placeName>Kirşevo</placeName>
+						</persName>
 					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/><persName facs="#zone_ecx_p53_qqb">Mollā(?) Sālih
-						<lb/>Paşalık ʿan
-						<lb/>Müslimīn<persName></persName>
-							<lb/><persName facs="#zone_o5p_t53_qqb">Sālih ʿAlemdār(?)
-								<lb/>GOGAzāde</persName>
-							<lb/><persName facs="#zone_wfs_nv3_qqb">Zimmī Mato LALK</persName>
-							<lb/><persName facs="#zone_lz2_pv3_qqb">Zimmī PETRORAK</persName>
-							<lb/><persName facs="#zone_afj_qv3_qqb">Zimmī GAŞO KRAKK
-								<lb/>ʿan VARNK</persName></p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						<persName facs="#zone_ecx_p53_qqb">
+							Mollā(?) Sālih
+							<lb/>
+							Paşalık ʿan
+							<lb/>
+							Müslimīn
+						</persName>
+						<lb/>
+						<persName facs="#zone_o5p_t53_qqb">
+							Sālih ʿAlemdār(?)
+							<lb/>
+							GOGAzāde
+						</persName>
+						<lb/>
+						<persName facs="#zone_wfs_nv3_qqb">Zimmī Mato LALK</persName>
+						<lb/>
+						<persName facs="#zone_lz2_pv3_qqb">Zimmī PETRORAK</persName>
+						<lb/>
+						<persName facs="#zone_afj_qv3_qqb">
+							Zimmī GAŞO KRAKK
+							<lb/>
+							ʿan VARNK
+						</persName>
+					</p>
 				</div2>
 				<div2 type="note">
 					<p>
-						<lb/>Be-her nakit para ... </p>
+						<lb/>
+						Be-her nakit para ...					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_hcg_2qm_3jb">
 				<p>
-					<lb/>Die <date when="1791-03-10" cert="low" type="summary_Croatian">10 Mar(?) 1791</date>
-					<lb/>Kupi manashi od ...
-					<lb/>mahu ...
-					<lb/>ljednu ...
-					<lb/>goporida ...
-					<lb/>mo dovniki ...
-					<lb/>sanla, u ...
-					<lb/>Nno 1.
-					<lb/><date when-custom="1204" type="summary_Croatian" when="1790-09-08">1204</date>. </p>
+					<lb/>
+					Die					<date when="1791-03-10" cert="low" type="summary_Croatian">10 Mar(?) 1791</date>
+					<lb/>
+					Kupi manashi od ...
+					<lb/>
+					mahu ...
+					<lb/>
+					ljednu ...
+					<lb/>
+					goporida ...
+					<lb/>
+					mo dovniki ...
+					<lb/>
+					sanla, u ...
+					<lb/>
+					Nno 1.
+					<lb/>
+					<date when-custom="1204" type="summary_Croatian" when="1790-09-08">1204</date>
+					.				</p>
 			</div1>
 		</body>
 		<back>
@@ -104,59 +153,79 @@
 					<name>zimmī YUZB veled-i Nikola YÖRK</name>
 					<occupation>mutasarrıf</occupation>
 					<socecStatus>zimmī</socecStatus>
-					<state type="他の登場人物との関係性"><ab>veled-i Nikola YÖRK</ab></state>
-					<state type="文書内の立場"><ab>KOYSINE村内のミーリー地のムタサッルフ</ab></state>
-					<state type="文書内の立場"><ab>土地の売却者</ab></state>
+					<state type="他の登場人物との関係性">
+						<ab>veled-i Nikola YÖRK</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>KOYSINE村内のミーリー地のムタサッルフ</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>土地の売却者</ab>
+					</state>
 				</person>
 				<person xml:id="gardiyān_Marko">
 					<name>HRA Marko KRAKİÇ</name>
 					<occupation>kilisanın gardiyān</occupation>
 					<socecStatus>zimmī</socecStatus>
-					<state type="文書内の立場"><ab>土地の購入者</ab></state>
-					<state type="文書内の立場"><ab>文書の受領者</ab></state>
+					<state type="文書内の立場">
+						<ab>土地の購入者</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>文書の受領者</ab>
+					</state>
 				</person>
 				<person xml:id="emīn_Ahmed">
 					<name>Ahmed</name>
 					<occupation>emīn-i Kirşevo</occupation>
-					<state type="文書内の立場"><ab>クレシェヴォのムタサッルフ</ab></state>
-					<state type="文書内の立場"><ab>文書の作成者</ab></state>
+					<state type="文書内の立場">
+						<ab>クレシェヴォのムタサッルフ</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>文書の作成者</ab>
+					</state>
 				</person>
 				<person xml:id="şühūdu'l-hāl_Sālih_1">
 					<name>Mollā(?) Sālih Paşalık ʿan Müslimīn</name>
 					<occupation cert="medium">Mollā</occupation>
 					<socecStatus>Müslimīn</socecStatus>
-					<state type="文書内の立場"><ab>証人</ab></state>
+					<state type="文書内の立場">
+						<ab>証人</ab>
+					</state>
 				</person>
 				<person xml:id="şühūdu'l-hāl_Sālih_2">
 					<name>Sālih ʿAlemdār(?) GOGAzāde</name>
 					<occupation cert="medium">ʿAlemdār</occupation>
-					<state type="文書内の立場"><ab>証人</ab></state>
+					<state type="文書内の立場">
+						<ab>証人</ab>
+					</state>
 				</person>
 				<person xml:id="şühūdu'l-hāl_Mato">
 					<name>Zimmī Mato LALK</name>
 					<socecStatus>zimmī</socecStatus>
-					<state type="文書内の立場"><ab>証人</ab></state>
+					<state type="文書内の立場">
+						<ab>証人</ab>
+					</state>
 				</person>
 				<person xml:id="şühūdu'l-hāl_PETRORAK">
 					<name>Zimmī PETRORAK</name>
 					<socecStatus>zimmī</socecStatus>
-					<state type="文書内の立場"><ab>証人</ab></state>
+					<state type="文書内の立場">
+						<ab>証人</ab>
+					</state>
 				</person>
 				<person xml:id="şühūdu'l-hāl_GAŞO">
 					<name>Zimmī GAŞO KRAKK ʿan VARNK</name>
 					<socecStatus>zimmī</socecStatus>
-					<state type="出身地">VARNK</state>					
-					<state type="文書内の立場"><ab>証人</ab></state>
+					<state type="出身地">VARNK</state>
+					<state type="文書内の立場">
+						<ab>証人</ab>
+					</state>
 				</person>
 			</listPerson>
 			<listRelation>
-				<!-- beyʿ ü ferāğ という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="landsale" active="#mutasarrıf_YUZB" passive="#gardiyān_Marko"/>
-				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="iltizām" active="#emīn_Ahmed" passive="#mutasarrıf_YUZB"/>
-				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="iltizām" active="#emīn_Ahmed" passive="#gardiyān_Marko"/>
-				<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="issue" active="#emīn_Ahmed" passive="#gardiyān_Marko"/>
 			</listRelation>
 			<listPlace>
@@ -172,12 +241,14 @@
 					</trait>
 					<trait>
 						<label>土地の所有者</label>
-						<desc><persName corresp="#emīn_Ahmed">Ahmed Emīn-i Kirşevo</persName></desc>
+						<desc>
+							<persName corresp="#emīn_Ahmed">Ahmed Emīn-i Kirşevo</persName>
+						</desc>
 					</trait>
 					<region type="vilāyet">Bosna</region>
 					<settlement type="sancak">Bosna</settlement>
 					<district type="kadılık">Saraybosna</district>
-				</place>				
+				</place>
 				<place xml:id="KYSN">
 					<placeName>KOYSINA</placeName>
 					<trait>
@@ -190,7 +261,9 @@
 					</trait>
 					<trait>
 						<label>土地の所有者</label>
-						<desc><persName corresp="#emīn_Ahmed">Ahmed Emīn-i Kirşevo</persName></desc>
+						<desc>
+							<persName corresp="#emīn_Ahmed">Ahmed Emīn-i Kirşevo</persName>
+						</desc>
 					</trait>
 					<region type="vilāyet">Bosna</region>
 					<settlement type="sancak">Bosna</settlement>
@@ -210,14 +283,16 @@
 					</trait>
 					<trait>
 						<label>土地の所有者</label>
-						<desc><persName corresp="#mutasarrıf_YUZB">zimmī YUZB veled-i Nikola YÖRK</persName></desc>
+						<desc>
+							<persName corresp="#mutasarrıf_YUZB">zimmī YUZB veled-i Nikola YÖRK</persName>
+						</desc>
 					</trait>
 					<region type="vilāyet">Bosna</region>
 					<settlement type="sancak">Bosna</settlement>
 					<district type="kadılık">Saraybosna</district>
 					<district type="mukātaʿa">Kirşevo</district>
 					<district type="karye">KOYSINA</district>
-				</place>				
+				</place>
 			</listPlace>
 		</back>
 	</text>

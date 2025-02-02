@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,33 +14,34 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1759/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1759/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/324b0ea322f309a34f28630157fd06d0675e5721.jpg"/>
-				<zone lrx="1609" lry="2954" ulx="109" uly="109" xml:id="zone_fys_cg5_xjb"/>
-				<zone lrx="705" lry="2839" ulx="265" uly="2578" xml:id="zone_h25_dg5_xjb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1759/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/5d32d7eca4406cf29d840ee3184b6d241aed6b9b.jpg"/>
-				<zone lrx="662" lry="775" ulx="425" uly="570" xml:id="zone_myf_fg5_xjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0280.JPG"/>
+			<zone ulx="109" uly="109" lrx="1609" lry="2954" xml:id="zone_fys_cg5_xjb"/>
+			<zone ulx="2578" uly="2578" lrx="705" lry="2839" xml:id="zone_h25_dg5_xjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0281.JPG"/>
+			<zone ulx="570" uly="570" lrx="662" lry="775" xml:id="zone_myf_fg5_xjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_fys_cg5_xjb" type="mürāsele">
 				<p>
-					<lb/>... fī <date type="created" when="1777-11-29" when-custom="1191-10">L sene 191</date>
+					<lb/>
+					... fī					<date type="created" when="1777-11-29" when-custom="1191-10">L sene 191</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_h25_dg5_xjb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_myf_fg5_xjb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>

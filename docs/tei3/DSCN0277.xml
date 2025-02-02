@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -17,55 +18,74 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1756/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1756/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/91a0010f8e6943e4144ece87632434dfc3b69a44.jpg"/>
-				<zone lrx="1745" lry="3100" ulx="100" uly="100" xml:id="zone_ljv_s25_xjb"/>
-				<zone lrx="454" lry="3094" ulx="135" uly="2696" xml:id="zone_fbw_t25_xjb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1756/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e0377bcf82758fc6886cad3461f60e5cf451b66e.jpg"/>
-				<zone lrx="466" lry="533" ulx="233" uly="308" xml:id="zone_zzh_v25_xjb"/>
-				<zone lrx="1712" lry="3258" ulx="1141" uly="3066" xml:id="zone_iqz_v25_xjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0277.JPG"/>
+			<zone ulx="100" uly="100" lrx="1745" lry="3100" xml:id="zone_ljv_s25_xjb"/>
+			<zone ulx="2696" uly="2696" lrx="454" lry="3094" xml:id="zone_fbw_t25_xjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0278.JPG"/>
+			<zone ulx="308" uly="308" lrx="466" lry="533" xml:id="zone_zzh_v25_xjb"/>
+			<zone ulx="3066" uly="3066" lrx="1712" lry="3258" xml:id="zone_iqz_v25_xjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_ljv_s25_xjb" subtype="zabt_temessük" type="EMIN">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>hālā ʿuhde-i iltizāmımızda bulunan Kirşevo mukātaʿasında arāzī-i mīrīye mutasarrıflarından
-					<lb/>varoş-ı Kirşevo kilisasına merbūt olan GRADINE ve RAVAN ve LUPATA ve DUBUNIÇE ve KOYSINE
-					<lb/>ve DRAJVİÇE ve HYNİÇE ve GLAVİÇE nām mahallerde hāsıl olan mahsūlāt küllī ve cüzvī aʿşār
-					<lb/>ve rüsūmātı işbu <date from-custom="1235-03" to-custom="1236-02">bin iki yüz otüz elli senesinde mahsūben Martı ibtidāsından Şubatı
-					<lb/>gāyesinde değin</date> bir sene-i kâmile ... tarafımızda âʿit ve rāciʿ olan aʿşārı işbu dārende-i temessük
-					<lb/>kilisa-i mezbūre rāhibi olan gardiyāna sene-i sābık bedel-i iltizām olan yüz yiğirmi guruş
-					<lb/>mukābelesinde ʿuhdesine ahāle(?) ve iltizām(?) ol dahi der ʿuhde ve iltizām ve kabūl edüb bedel-i
-					<lb/>iltizāmı olan ... mezkūri tamāmen tarafımıza edā ve teslīm etmeğe(?) yedine işbu memhūrlu zabt-ı
-					<lb/>temessük iʿtā olundu zabt ve teʿşīr yine tarafımızdan ve taraf-ı āhardan kimesne māniʿ olmaya
-					<lb/>tahrīren fī <date type="created" when="1821-04-02" when-custom="1236-06-29">29 C sene 1236</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					hālā ʿuhde-i iltizāmımızda bulunan Kirşevo mukātaʿasında arāzī-i mīrīye mutasarrıflarından
+					<lb/>
+					varoş-ı Kirşevo kilisasına merbūt olan GRADINE ve RAVAN ve LUPATA ve DUBUNIÇE ve KOYSINE
+					<lb/>
+					ve DRAJVİÇE ve HYNİÇE ve GLAVİÇE nām mahallerde hāsıl olan mahsūlāt küllī ve cüzvī aʿşār
+					<lb/>
+					ve rüsūmātı işbu					<date from-custom="1235-03" to-custom="1236-02">
+						bin iki yüz otüz elli senesinde mahsūben Martı ibtidāsından Şubatı
+						<lb/>
+						gāyesinde değin
+					</date>
+					 bir sene-i kâmile ... tarafımızda âʿit ve rāciʿ olan aʿşārı işbu dārende-i temessük
+					<lb/>
+					kilisa-i mezbūre rāhibi olan gardiyāna sene-i sābık bedel-i iltizām olan yüz yiğirmi guruş
+					<lb/>
+					mukābelesinde ʿuhdesine ahāle(?) ve iltizām(?) ol dahi der ʿuhde ve iltizām ve kabūl edüb bedel-i
+					<lb/>
+					iltizāmı olan ... mezkūri tamāmen tarafımıza edā ve teslīm etmeğe(?) yedine işbu memhūrlu zabt-ı
+					<lb/>
+					temessük iʿtā olundu zabt ve teʿşīr yine tarafımızdan ve taraf-ı āhardan kimesne māniʿ olmaya
+					<lb/>
+					tahrīren fī					<date type="created" when="1821-04-02" when-custom="1236-06-29">29 C sene 1236</date>
 				</p>
 				<div2 facs="#zone_fbw_t25_xjb" type="sign">
 					<p>
-						<lb/>... 
-						<lb/>Ahmad Emīn-i
-						<lb/>mukātaʿa-i
-						<lb/>Kirşevo
-						<lb/>M 
-					</p>
+						<lb/>
+						...						<lb/>
+						Ahmad Emīn-i
+						<lb/>
+						mukātaʿa-i
+						<lb/>
+						Kirşevo
+						<lb/>
+						M					</p>
 					<div3 facs="#zone_zzh_v25_xjb" type="stamp">
 						<p>
-							<lb/>... 
-							<lb/>... Ahmad
+							<lb/>
+							...							<lb/>
+							... Ahmad
 						</p>
 					</div3>
 				</div2>
 			</div1>
 			<div1 facs="#zone_iqz_v25_xjb" type="summary_Croatian">
 				<p>
-					<lb/>D. <date type="summary_Croatian" when="1821">1821</date>.
+					<lb/>
+					D.					<date type="summary_Croatian" when="1821">1821</date>
+					.
 				</p>
 			</div1>
 		</body>

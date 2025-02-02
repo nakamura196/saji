@@ -1,0 +1,61 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2274</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2602/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2602/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c7f5df50d5a389cfd325fa7f8d62b1b02d8f35c0.jpg"/>
+				<zone lrx="1983" lry="2875" ulx="250" uly="125" xml:id="zone_yhc_pcg_dmb"/>
+				<zone lrx="1543" lry="2832" ulx="982" uly="2278" xml:id="zone_vqg_qcg_dmb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2602/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/651c6acb5067174993751415b43a26b652674e7b.jpg"/>
+				<zone lrx="1908" lry="929" ulx="800" uly="308" xml:id="zone_cpx_rcg_dmb"/>
+				<zone lrx="1200" lry="804" ulx="829" uly="462" xml:id="zone_okn_scg_dmb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_yhc_pcg_dmb" next="#zone_cpx_rcg_dmb" type="tezkire">
+				<p>
+					<lb/>... fī <date type="created" when="1838-04-03" when-custom="1254-01-09">9 M sene 254</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_vqg_qcg_dmb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_cpx_rcg_dmb" type="unknown">
+				<p>
+					<lb/>fī <date type="created" when-custom="1256-xx-09">9 sene 256</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_okn_scg_dmb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

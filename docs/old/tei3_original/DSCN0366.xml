@@ -1,0 +1,82 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0366</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">ムスリム集住地に属するムスリム村内の、非ムスリムが保有する耕作地(?)の、修道院長に対する売却の承認。</note>
+				<note type="mine">文法・スペル崩壊気味…</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1843/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1843/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/aec5953abcebd79187a3873b2009704a89c3ec02.jpg"/>
+				<zone lrx="2247" lry="2846" ulx="270" uly="169" xml:id="zone_fqn_fx2_pkb"/>
+				<zone lrx="773" lry="2443" ulx="443" uly="2132" xml:id="zone_sft_gx2_pkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1843/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ecd2f6747b6f9851565a9daaedddc2f4e61fcef3.jpg"/>
+				<zone lrx="872" lry="1056" ulx="687" uly="891" xml:id="zone_hqm_mx2_pkb"/>
+				<zone lrx="2189" lry="2825" ulx="485" uly="2303" xml:id="zone_kkk_nx2_pkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_fqn_fx2_pkb" next="#zone_kkk_nx2_pkb" type="EMIN_temessük">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date when-custom="1253">bin iki yüz elli üç senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasına Müslimīn cemāʿatına tābiʿ
+					<lb/>nefs-i Müslimīn KOYSİNE karyesi hudūdunda mutavattınlarından zimmī YURULUKFİÇ veled-i Īwān mutasarrıfılarında(?) nām kendi
+					<lb/>taht-ı tasarrıfında bulunan bir kıtʿa TALALUHÇE demekle bir taraf MHTLALÇ tarlası ve taraf-ı sānīde
+					<lb/>ve taraf-ı sālis müşteri ruhbān tarlası ve taraf-ı rābiʿde işbu dārende-i hurūf Kirşevo varoş kilisada
+					<lb/>gardiyān(?) ... içün bir akçe(?) akçe ... yalnız iki yüz elli guruş resmiyle ... içün ahz ve kavz 
+					<lb/>beyʿ-i bāt katʿiyle beyʿ edüb ol dahi minvāl-i muharrer üzere kabūl biz dahi mukātaʿa emīni bulunduğumuz hasebiyle
+					<lb/>ve mesfūr gardiyān yedine(?) virildi işbu temessük zabt tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ ve müdāhale
+					<lb/>olunmaya tārīh fī <date type="created" when="1839-03-06" when-custom="1254-12-21">21 Z sene 254</date>
+				</p>
+				<div2 facs="#zone_sft_gx2_pkb" type="sign">
+					<p>
+						<lb/>El-me'mūru'l-memhūr
+						<lb/>RSDİ SAʿAN
+						<lb/>Mukātaʿa Emīn-i
+						<lb/>Kirşevo M
+					</p>
+					<div3 facs="#zone_hqm_mx2_pkb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Mollā Mustafa Mü'ezzin
+						<lb/>Süleymān ...
+						<lb/>PTR ŞUNİÇ
+						<lb/>GAŞO KUSNİÇ
+						<lb/>ve gayrihim
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_kkk_nx2_pkb" type="summary_Croatinan">
+				<p>
+					<lb/>Tapija od ...
+					<lb/>od ... gr: 192.
+					<lb/><date type="summary_Croatian" when="1839">1839</date>. <date type="summary_Croatian" when="1838-03-25" when-custom="1253">1253</date>. Nno 3.
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,30 +14,32 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2294/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2294/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/74f2e15427611a1f44b4687b50c1913e652f33bd.jpg"/>
-				<zone lrx="2628" lry="1977" ulx="706" uly="644" xml:id="zone_jnq_y3g_zlb"/>
-				<zone lrx="1053" lry="1946" ulx="717" uly="1541" xml:id="zone_x25_z3g_zlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9370.JPG"/>
+			<zone ulx="644" uly="644" lrx="2628" lry="1977" xml:id="zone_jnq_y3g_zlb"/>
+			<zone ulx="1541" uly="1541" lrx="1053" lry="1946" xml:id="zone_x25_z3g_zlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_jnq_y3g_zlb" type="EMIN">
 				<p>
-					<lb/>işbu <date type="created" when="0672-11-27" when-custom="1252">bin iki yüz elli iki senesinde</date> der ...
+					<lb/>
+					işbu					<date type="created" when="0672-11-27" when-custom="1252">bin iki yüz elli iki senesinde</date>
+					 der ...
 					<lb/>
 				</p>
 				<div2 facs="#zone_x25_z3g_zlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>

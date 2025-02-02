@@ -1,18 +1,19 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0076</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="summary">「Tursko 3」フォルダ表紙</note>
-<note type="mine">【要】文書数カウントから除外する。</note>
-</notesStmt>
-<sourceDesc>
-<p>{
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0076</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">「Tursko 3」フォルダ表紙</note>
+				<note type="mine">【要】文書数カウントから除外する。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{
   "saji:aspectRatioType": [
     "n/a"
   ],
@@ -20,16 +21,17 @@
     "Tursko 3"
   ]
 }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1560/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1560/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/28ee0e194d41b89ea8fa986798704a18d2722ae8.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 type="folder_cover_Tursko3" />
-</body>
-</text>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0076.JPG"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="folder_cover_Tursko3"/>
+		</body>
+	</text>
 </TEI>

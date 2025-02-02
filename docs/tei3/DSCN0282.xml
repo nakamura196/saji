@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,66 +17,90 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1761/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1761/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/68f9c3ef571db94d37245b89badc90575a2e5aa8.jpg"/>
-				<zone lrx="2200" lry="3172" ulx="182" uly="90" xml:id="zone_vpr_w35_xjb"/>
-				<zone lrx="598" lry="2978" ulx="348" uly="2701" xml:id="zone_dp4_x35_xjb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1761/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/74d4ba8b4a71b9afb441670b9afc0c33e3ff18d2.jpg"/>
-				<zone lrx="487" lry="504" ulx="254" uly="287" xml:id="zone_agz_y35_xjb"/>
-				<zone lrx="2316" lry="1212" ulx="91" uly="816" xml:id="zone_stk_z35_xjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0282.JPG"/>
+			<zone ulx="90" uly="90" lrx="2200" lry="3172" xml:id="zone_vpr_w35_xjb"/>
+			<zone ulx="2701" uly="2701" lrx="598" lry="2978" xml:id="zone_dp4_x35_xjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0283.JPG"/>
+			<zone ulx="287" uly="287" lrx="487" lry="504" xml:id="zone_agz_y35_xjb"/>
+			<zone ulx="816" uly="816" lrx="2316" lry="1212" xml:id="zone_stk_z35_xjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_vpr_w35_xjb" subtype="temessük" type="EMIN">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>bā berāt-ı pādişāhı ber vech-i iştirāk mutasarrıf olduğu tīmār(?) ...
-					<lb/>hudūd dāhilinde ... demekle mʿarūf çayır yine Ahmad bun(?) Hüseyin
-					<lb/>mutasarruf iken dārende-i temessük PRAMHAT nām rāhib ... tarafından ...
-					<lb/>üç yüz seksen beş guruş akçe mukābelesinde beyʿ-i bāt katʿiyle beyʿ
-					<lb/>ü ferāğ tamāmen merkūm ... rāhib yedine(?) ahz edüb biz dahi
-					<lb/>sāhibi'l-arz bulunduğumuz hasebiyle beyʿ ... tahvīz görüb resm-i
-					<lb/>tapusını baʿde'l-ahz çayır mezkūrı merkūm rāhib MHATA nām mesfūre
-					<lb/>tafvīz ve ...-i mezkūreye rabt ve ... olmak içün işbu ...
-					<lb/>temessük rāhib merkūm iʿtā olnub mā-dām ki tarafımıza rāciʿ aʿşār-ı
-					<lb/>şerʿiyesini edā eylediğince tarafımızdan ve taraf-ı āhardan zirāʿatına ... müdāhale
-					<lb/>olunmaya ve islām fī <date cert="medium" type="created" when="1840-05-14" when-custom="1256-03-13">13 Ra sene 56</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					bā berāt-ı pādişāhı ber vech-i iştirāk mutasarrıf olduğu tīmār(?) ...
+					<lb/>
+					hudūd dāhilinde ... demekle mʿarūf çayır yine Ahmad bun(?) Hüseyin
+					<lb/>
+					mutasarruf iken dārende-i temessük PRAMHAT nām rāhib ... tarafından ...
+					<lb/>
+					üç yüz seksen beş guruş akçe mukābelesinde beyʿ-i bāt katʿiyle beyʿ
+					<lb/>
+					ü ferāğ tamāmen merkūm ... rāhib yedine(?) ahz edüb biz dahi
+					<lb/>
+					sāhibi'l-arz bulunduğumuz hasebiyle beyʿ ... tahvīz görüb resm-i
+					<lb/>
+					tapusını baʿde'l-ahz çayır mezkūrı merkūm rāhib MHATA nām mesfūre
+					<lb/>
+					tafvīz ve ...-i mezkūreye rabt ve ... olmak içün işbu ...
+					<lb/>
+					temessük rāhib merkūm iʿtā olnub mā-dām ki tarafımıza rāciʿ aʿşār-ı
+					<lb/>
+					şerʿiyesini edā eylediğince tarafımızdan ve taraf-ı āhardan zirāʿatına ... müdāhale
+					<lb/>
+					olunmaya ve islām fī					<date cert="medium" type="created" when="1840-05-14" when-custom="1256-03-13">13 Ra sene 56</date>
 				</p>
 				<div2 facs="#zone_dp4_x35_xjb" type="sign">
 					<p>
-						<lb/>El-... İbrāhīm
-						<lb/>El-...
-						<lb/>El-me'mūr
+						<lb/>
+						El-... İbrāhīm
+						<lb/>
+						El-...
+						<lb/>
+						El-me'mūr
 					</p>
 					<div3 facs="#zone_agz_y35_xjb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>Sālih Efendi
-						<lb/>ʿAbdüllāh bin Merhūm
-						<lb/>Hüseyin DUFVİÇ
-						<lb/>KOLĀ RFKULA
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						Sālih Efendi
+						<lb/>
+						ʿAbdüllāh bin Merhūm
+						<lb/>
+						Hüseyin DUFVİÇ
+						<lb/>
+						KOLĀ RFKULA
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_stk_z35_xjb" type="summary_Croatian">
 				<p>
-					<lb/>Temesuk od ...
-					<lb/>Mijo ...1840 Za 350. gro...
-					<lb/>...
-					<lb/>...
+					<lb/>
+					Temesuk od ...
+					<lb/>
+					Mijo ...1840 Za 350. gro...
+					<lb/>
+					...
+					<lb/>
+					...
 				</p>
 			</div1>
 		</body>

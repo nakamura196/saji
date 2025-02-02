@@ -1,59 +1,68 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2152</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2480/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2480/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4d37e522296bf7248b420e2b8a3f2c39030ecc5c.jpg" />
-        <zone lrx="2309" lry="3163" ulx="145" uly="145" xml:id="zone_njf_q4k_cmb" />
-        <zone lrx="489" lry="3089" ulx="196" uly="2786" xml:id="zone_nds_v4k_cmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2480/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6149ef91c44d39c218f6a77f9ac921348e58b1a6.jpg" />
-        <zone lrx="604" lry="416" ulx="275" uly="141" xml:id="zone_fxc_y4k_cmb" />
-        <zone lrx="2375" lry="2287" ulx="287" uly="1437" xml:id="zone_fqv_z4k_cmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_njf_q4k_cmb" next="#zone_fqv_z4k_cmb" subtype="tapu_nāme" type="EMIN">
-        <p>
-          <lb />... <date type="created" when="1825-08-14" when-custom="1240">sene 1240</date><lb />
-        </p>
-        <div2 facs="#zone_nds_v4k_cmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_fxc_y4k_cmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_fqv_z4k_cmb" type="summary_Croatian">
-        <p>
-          <lb />... 
-          <lb /><date type="summary_Croatian" when="1816">1816</date>.
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2152</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2152.JPG"/>
+			<zone ulx="145" uly="145" lrx="2309" lry="3163" xml:id="zone_njf_q4k_cmb"/>
+			<zone ulx="2786" uly="2786" lrx="489" lry="3089" xml:id="zone_nds_v4k_cmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2153.JPG"/>
+			<zone ulx="141" uly="141" lrx="604" lry="416" xml:id="zone_fxc_y4k_cmb"/>
+			<zone ulx="1437" uly="1437" lrx="2375" lry="2287" xml:id="zone_fqv_z4k_cmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_njf_q4k_cmb" next="#zone_fqv_z4k_cmb" subtype="tapu_nāme" type="EMIN">
+				<p>
+					<lb/>
+					...					<date type="created" when="1825-08-14" when-custom="1240">sene 1240</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_nds_v4k_cmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_fxc_y4k_cmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_fqv_z4k_cmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<lb/>
+					<date type="summary_Croatian" when="1816">1816</date>
+					.
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

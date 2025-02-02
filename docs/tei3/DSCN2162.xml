@@ -1,61 +1,71 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2162</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2490/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2490/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/32c4c25aaf3f00324426d799dd568a90864f284d.jpg" />
-        <zone lrx="2291" lry="3163" ulx="82" uly="127" xml:id="zone_mkb_y5k_cmb" />
-        <zone lrx="804" lry="3002" ulx="282" uly="2631" xml:id="zone_gw1_1vk_cmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2490/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ed14a69d4755933c70b79c82b415ae41e4a74aea.jpg" />
-        <zone lrx="1887" lry="2904" ulx="1579" uly="2637" xml:id="zone_h4k_bvk_cmb" />
-        <zone lrx="2350" lry="1341" ulx="221" uly="287" xml:id="zone_v4f_cvk_cmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_mkb_y5k_cmb" next="#zone_v4f_cvk_cmb" subtype="tapu_tezkire" type="EMIN">
-        <p>
-          <lb />işbu <date cert="low" type="created" when="0668-01-21" when-custom="1247">bin iki yüz krık yedi senesinde</date> der ... 
-          <lb />
-        </p>
-        <div2 facs="#zone_gw1_1vk_cmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_h4k_bvk_cmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_v4f_cvk_cmb" type="summary_Croatian">
-        <p>
-          <lb />
-          <lb /><date type="summary_Croatian" when="1833">1833</date>. <date type="summary_Croatian" when="1825-08-14" when-custom="1240">1240</date>. Nno 7.
-          <lb />77
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2162</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2162.JPG"/>
+			<zone ulx="127" uly="127" lrx="2291" lry="3163" xml:id="zone_mkb_y5k_cmb"/>
+			<zone ulx="2631" uly="2631" lrx="804" lry="3002" xml:id="zone_gw1_1vk_cmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2163.JPG"/>
+			<zone ulx="2637" uly="2637" lrx="1887" lry="2904" xml:id="zone_h4k_bvk_cmb"/>
+			<zone ulx="287" uly="287" lrx="2350" lry="1341" xml:id="zone_v4f_cvk_cmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_mkb_y5k_cmb" next="#zone_v4f_cvk_cmb" subtype="tapu_tezkire" type="EMIN">
+				<p>
+					<lb/>
+					işbu					<date cert="low" type="created" when="0668-01-21" when-custom="1247">bin iki yüz krık yedi senesinde</date>
+					 der ...					<lb/>
+				</p>
+				<div2 facs="#zone_gw1_1vk_cmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_h4k_bvk_cmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_v4f_cvk_cmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					<lb/>
+					<date type="summary_Croatian" when="1833">1833</date>
+					.					<date type="summary_Croatian" when="1825-08-14" when-custom="1240">1240</date>
+					. Nno 7.
+					<lb/>
+					77
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

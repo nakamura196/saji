@@ -1,82 +1,93 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0423</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 6" ], "saji:memo": [ "・何を示しているのか現状分からない。要検討。" ], "saji:transcription": [ "NEMA 132" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2831/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2831/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3a76087376ed869fec08d89a4d21fdaae08aecae.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2831/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c5deddd197ac1d8878cb2b6549eef2342edf1e02.jpg" />
-        <zone lrx="1450" lry="2940" ulx="670" uly="230" xml:id="zone_vl2_24b_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2831/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/3574db17341782955e8a49b7d688fd803737407e.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2831/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/bd3e8ffd7dca5355d046729bafd5f89bbbfb4194.jpg" />
-        <zone lrx="1488" lry="1288" ulx="944" uly="100" xml:id="zone_bm4_g4b_2mb" />
-        <zone lrx="1414" lry="1254" ulx="1267" uly="1116" xml:id="zone_czv_h4b_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2831/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/9527b49093886916b238fd66de456c34b4a29c38.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2831/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/7b45884b1d7d3a33cd6e93910b736f5d0269177f.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2831/canvas/p7" url="https://diyhistory.org/public/phr2/files/original/79b05f241cbd161f591be69dc06549e18a34f69b.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2831/canvas/p8" url="https://diyhistory.org/public/phr2/files/original/2609739e3c7838a5526026b05ab537df65684699.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2831/canvas/p9" url="https://diyhistory.org/public/phr2/files/original/20bf07bc7488932663eb258dcab7b7f0f32c6935.jpg" />
-        <zone lrx="2884" lry="1577" ulx="1117" uly="288" xml:id="zone_xdv_m4b_2mb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_vl2_24b_2mb" next="#zone_xdv_m4b_2mb" type="hüccet">
-        <p>
-          <lb />...hurira <date type="created" when="1864-02-06" when-custom="1280-08-28">fi'l-yevmi'l-semāni ve'l-ʿaşrun
-          <lb />min şehr Şaʿbāni'l-muʿazzam sene 
-          <lb />semānīn ve mieteyn ve elif</date>
-        </p>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />... <lb />
-          </p>
-        </div2>
-        <div2 facs="#zone_bm4_g4b_2mb" type="sign">
-          <p>
-            <lb />..<lb />
-          </p>
-          <div3 facs="#zone_czv_h4b_2mb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_xdv_m4b_2mb" type="summary_Croatian">
-        <p>
-          <lb />...
-          <lb />... <date type="summary_Croatian" when="1864">1864</date> ...
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0423</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 6" ], "saji:memo": [ "・何を示しているのか現状分からない。要検討。" ], "saji:transcription": [ "NEMA 132" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0423.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0424.JPG"/>
+			<zone ulx="230" uly="230" lrx="1450" lry="2940" xml:id="zone_vl2_24b_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0425.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0426.JPG"/>
+			<zone ulx="100" uly="100" lrx="1488" lry="1288" xml:id="zone_bm4_g4b_2mb"/>
+			<zone ulx="1116" uly="1116" lrx="1414" lry="1254" xml:id="zone_czv_h4b_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0427.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0428.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0430.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0431.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0432.JPG"/>
+			<zone ulx="288" uly="288" lrx="2884" lry="1577" xml:id="zone_xdv_m4b_2mb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_vl2_24b_2mb" next="#zone_xdv_m4b_2mb" type="hüccet">
+				<p>
+					<lb/>
+					...hurira					<date type="created" when="1864-02-06" when-custom="1280-08-28">
+						fi'l-yevmi'l-semāni ve'l-ʿaşrun
+						<lb/>
+						min şehr Şaʿbāni'l-muʿazzam sene						<lb/>
+						semānīn ve mieteyn ve elif
+					</date>
+				</p>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...						<lb/>
+					</p>
+				</div2>
+				<div2 facs="#zone_bm4_g4b_2mb" type="sign">
+					<p>
+						<lb/>
+						..
+						<lb/>
+					</p>
+					<div3 facs="#zone_czv_h4b_2mb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_xdv_m4b_2mb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+					...					<date type="summary_Croatian" when="1864">1864</date>
+					 ...
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

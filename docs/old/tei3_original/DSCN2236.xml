@@ -1,0 +1,40 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2236</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2564/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2564/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/27156fc3d46d13651a1ab8a85402563c18948286.jpg" />
+        <zone lrx="2182" lry="2845" ulx="573" uly="318" xml:id="zone_gdg_dkz_cmb" />
+        <zone lrx="1218" lry="2821" ulx="625" uly="2221" xml:id="zone_yft_2kz_cmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_gdg_dkz_cmb" type="tezkire">
+        <p>
+          <lb />... fī <date cert="low" type="created" when="1823-11-30" when-custom="1239-03-27">27 Ra sene 39</date><lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_yft_2kz_cmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

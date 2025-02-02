@@ -1,0 +1,35 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2189</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要】画像回転。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2517/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2517/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c3feedca1ce662787223d54d723ce6bca5c12f8c.jpg" />
+        <zone lrx="3234" lry="1883" ulx="184" uly="366" xml:id="zone_t13_j4y_cmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_t13_j4y_cmb" type="fetvā">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

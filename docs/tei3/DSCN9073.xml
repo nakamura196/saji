@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,60 +20,85 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2000/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2000/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5a448a4f64ae0058baafd86f9e093cd2306e226e.jpg"/>
-				<zone lrx="1788" lry="2776" ulx="1567" uly="2588" xml:id="zone_a4j_dzs_flb"/>
-				<zone lrx="2126" lry="2800" ulx="1888" uly="2591" xml:id="zone_rvy_2zs_flb"/>
-				<zone lrx="1270" lry="414" ulx="402" uly="223" xml:id="zone_p5q_fzs_flb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2000/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a9988727ee90bfef668d779a61c5c31be80bcf67.jpg"/>
-				<zone lrx="1782" lry="3136" ulx="63" uly="200" xml:id="zone_oy3_hzs_flb"/>
-				<zone lrx="814" lry="3020" ulx="562" uly="2781" xml:id="zone_n44_3zs_flb"/>
-				<zone lrx="454" lry="3016" ulx="187" uly="2731" xml:id="zone_pbd_jzs_flb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9073.JPG"/>
+			<zone ulx="2588" uly="2588" lrx="1788" lry="2776" xml:id="zone_a4j_dzs_flb"/>
+			<zone ulx="2591" uly="2591" lrx="2126" lry="2800" xml:id="zone_rvy_2zs_flb"/>
+			<zone ulx="223" uly="223" lrx="1270" lry="414" xml:id="zone_p5q_fzs_flb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9074.JPG"/>
+			<zone ulx="200" uly="200" lrx="1782" lry="3136" xml:id="zone_oy3_hzs_flb"/>
+			<zone ulx="2781" uly="2781" lrx="814" lry="3020" xml:id="zone_n44_3zs_flb"/>
+			<zone ulx="2731" uly="2731" lrx="454" lry="3016" xml:id="zone_pbd_jzs_flb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="medium" facs="#zone_oy3_hzs_flb" next="#zone_p5q_fzs_flb" type="EMIN_zabt_temessük">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date type="created" when="1819-10-18" when-custom="1234">bin iki yüz otuz dört senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo
-					<lb/>maʿden-i āhen mukātaʿası kurālarında <placeName>KURADUBNA</placeName> ve <placeName>DAVAN LUBATA</placeName> ve <placeName>DUBUYÇE</placeName> ve <placeName>KOYSİNE</placeName> ve <placeName>JRUYÇE</placeName>
-					<lb/>[ve] <placeName>DABNİÇE</placeName> ve <placeName>GRAVYÇE</placeName> olan ʿalāka manastırdan(?) hāsıl olan aʿşār-ı şerʿiyesine		
-					<lb/>ve cā'izden(?) hāsıl olan ... aʿşārına tapuçenāmeden(?) ve bādhavādan gayri ...
-					<lb/>işbu <date from-custom="1234-03-01" to-custom="1235-02-30">sene-i mübārek Mart ibtidāsından Şubat gāyesine gelince</date> hāsıl olan
-					<lb/>aʿşārına taleb ve rāgib olan manastıre(?) ruhbān başı gardiyān mesfūriye(?)
-					<lb/>yalnız yüz yiğirmi guruş ferāğ ve tafvīz olunub mesfūr dahi ferāğat kabūl eyleyüb
-					<lb/>bedel mukābelesi olan ... tarafımızdan edā ve teslīm eyleyüb yedine
-					<lb/>işbu temessük zabt temessül iʿtā olunduğu tarafımızdan ve taraf-ı āhardan
-					<lb/>kimesne māniʿ olmaya fī(?) <date when-custom="1234-06-18">18 Cemaziye'l-āhir</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date type="created" when="1819-10-18" when-custom="1234">bin iki yüz otuz dört senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan Kirşevo
+					<lb/>
+					maʿden-i āhen mukātaʿası kurālarında					<placeName>KURADUBNA</placeName>
+					 ve					<placeName>DAVAN LUBATA</placeName>
+					 ve					<placeName>DUBUYÇE</placeName>
+					 ve					<placeName>KOYSİNE</placeName>
+					 ve					<placeName>JRUYÇE</placeName>
+					<lb/>
+					[ve]					<placeName>DABNİÇE</placeName>
+					 ve					<placeName>GRAVYÇE</placeName>
+					 olan ʿalāka manastırdan(?) hāsıl olan aʿşār-ı şerʿiyesine					<lb/>
+					ve cā'izden(?) hāsıl olan ... aʿşārına tapuçenāmeden(?) ve bādhavādan gayri ...
+					<lb/>
+					işbu					<date from-custom="1234-03-01" to-custom="1235-02-30">sene-i mübārek Mart ibtidāsından Şubat gāyesine gelince</date>
+					 hāsıl olan
+					<lb/>
+					aʿşārına taleb ve rāgib olan manastıre(?) ruhbān başı gardiyān mesfūriye(?)
+					<lb/>
+					yalnız yüz yiğirmi guruş ferāğ ve tafvīz olunub mesfūr dahi ferāğat kabūl eyleyüb
+					<lb/>
+					bedel mukābelesi olan ... tarafımızdan edā ve teslīm eyleyüb yedine
+					<lb/>
+					işbu temessük zabt temessül iʿtā olunduğu tarafımızdan ve taraf-ı āhardan
+					<lb/>
+					kimesne māniʿ olmaya fī(?)					<date when-custom="1234-06-18">18 Cemaziye'l-āhir</date>
 				</p>
 				<div2 facs="#zone_n44_3zs_flb" type="sign">
 					<p>
-						<lb/>Bende
-						<lb/>Yūsuf
-						<lb/>ʿAlemdār
+						<lb/>
+						Bende
+						<lb/>
+						Yūsuf
+						<lb/>
+						ʿAlemdār
 					</p>
 					<div3 facs="#zone_a4j_dzs_flb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 facs="#zone_pbd_jzs_flb" type="sign">
 					<p>
-						<lb/>Bende
-						<lb/>ASBD el-hāccı
-						<lb/>ʿÖmer ʿAlemdār
+						<lb/>
+						Bende
+						<lb/>
+						ASBD el-hāccı
+						<lb/>
+						ʿÖmer ʿAlemdār
 					</p>
 					<div3 facs="#zone_rvy_2zs_flb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -80,8 +106,9 @@
 			</div1>
 			<div1 facs="#zone_p5q_fzs_flb" type="summary_Croatian">
 				<p>
-					<lb/>Od ... <date type="summary_Croatian" when="1819">1819</date>.					
-				</p>
+					<lb/>
+					Od ...					<date type="summary_Croatian" when="1819">1819</date>
+					.				</p>
 			</div1>
 		</body>
 	</text>

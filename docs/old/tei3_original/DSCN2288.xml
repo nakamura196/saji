@@ -1,0 +1,33 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2288</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2616/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2616/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6dfcde8cda3aed584268f119f872d1e3b5eb11fd.jpg" />
+        <zone lrx="2928" lry="1788" ulx="200" uly="488" xml:id="zone_spd_x3g_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_spd_x3g_dmb" type="unknown_Croatian">
+        <p>
+          <lb />
+          <lb />... <date type="unknown_Croatian" when="1807">1807</date>.
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -17,34 +18,40 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1940/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1940/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7419bd7e0954f70fb5adddee07cf2cc7731b9aee.jpg"/>
-				<zone lrx="2917" lry="1405" ulx="495" uly="638" xml:id="zone_ujp_vfz_wkb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1940/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a6c52ce05a20c8618d96773c6612b5dc0ba640cb.jpg"/>
-				<zone lrx="1733" lry="2850" ulx="108" uly="1233" xml:id="zone_plz_1gz_wkb"/>
-				<zone lrx="616" lry="2809" ulx="131" uly="2266" xml:id="zone_qy3_cgz_wkb"/>
-				<zone lrx="604" lry="2780" ulx="397" uly="2583" xml:id="zone_jzz_cgz_wkb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9013.JPG"/>
+			<zone ulx="638" uly="638" lrx="2917" lry="1405" xml:id="zone_ujp_vfz_wkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9014.JPG"/>
+			<zone ulx="1233" uly="1233" lrx="1733" lry="2850" xml:id="zone_plz_1gz_wkb"/>
+			<zone ulx="2266" uly="2266" lrx="616" lry="2809" xml:id="zone_qy3_cgz_wkb"/>
+			<zone ulx="2583" uly="2583" lrx="604" lry="2780" xml:id="zone_jzz_cgz_wkb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_edā_tezkire">
 				<p>
-					<lb/>Vech-i ... budur ki
-					<lb/><date from="1771-04-15" from-custom="1185-01-01">bin yüz seksen beş senesinde Muharremi'l-harāmı gürresinden</date> der ʿuhde iltizāmımızda bulunan
-					<lb/>... Kirşrvo(?) emīn
 					<lb/>
-					<lb/>tamām ... mūcibince ... ve akçesi tamām olunmuştur yadlerine
-					<lb/>otüz üç ... leri virilmiştir(?) işbu edā tezkire iʿtā olundu
-					<lb/>... oluna fī <date cert="low" type="created" when="1771-05-06" when-custom="1185-01-22">22 M ... sene 1185</date>
+					Vech-i ... budur ki
+					<lb/>
+					<date from="1771-04-15" from-custom="1185-01-01">bin yüz seksen beş senesinde Muharremi'l-harāmı gürresinden</date>
+					 der ʿuhde iltizāmımızda bulunan
+					<lb/>
+					... Kirşrvo(?) emīn
+					<lb/>
+					<lb/>
+					tamām ... mūcibince ... ve akçesi tamām olunmuştur yadlerine
+					<lb/>
+					otüz üç ... leri virilmiştir(?) işbu edā tezkire iʿtā olundu
+					<lb/>
+					... oluna fī					<date cert="low" type="created" when="1771-05-06" when-custom="1185-01-22">22 M ... sene 1185</date>
 				</p>
 				<div2 facs="#zone_qy3_cgz_wkb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 						<lb/>
 						<lb/>
@@ -53,7 +60,8 @@
 					</p>
 					<div3 facs="#zone_jzz_cgz_wkb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -61,10 +69,15 @@
 			</div1>
 			<div1 facs="#zone_ujp_vfz_wkb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1771">1771</date>.
-					<lb/>...
-					<lb/>smo ...
-					<lb/>... 600. </p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1771">1771</date>
+					.
+					<lb/>
+					...
+					<lb/>
+					smo ...
+					<lb/>
+					... 600.				</p>
 			</div1>
 		</body>
 	</text>

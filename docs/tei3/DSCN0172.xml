@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -23,76 +24,124 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1653/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/ccc086671dc8d5699bfccbdfca01a19d7fac14b1.jpg" n="https://diyhistory.org/public/phr2/iiif/1653/canvas/p1"/>
-				<zone xml:id="zone_w1b_plm_3jb" lry="2950" lrx="2383" uly="75" ulx="117"/>
-				<zone xml:id="zone_dw5_qlm_3jb" lry="2893" lrx="586" uly="2530" ulx="218"/>
-				<zone xml:id="zone_fsm_g3b_4qb" lry="1811" lrx="1349" uly="1659" ulx="1066"/>
-				<zone xml:id="zone_xpl_r3b_4qb" lry="1887" lrx="1657" uly="1790" ulx="1449"/>
-				<zone xml:id="zone_qq1_fjb_4qb" lry="1899" lrx="677" uly="1765" ulx="555"/>
-				<zone xml:id="zone_bj5_ljb_4qb" lry="2018" lrx="1627" uly="1884" ulx="1491"/>
-				<zone xml:id="zone_gpx_xrb_4qb" lry="2031" lrx="345" uly="1868" ulx="164"/>
-				<zone xml:id="zone_vt2_4sb_4qb" lry="2200" lrx="1049" uly="2030" ulx="907"/>
-				<zone xml:id="zone_rqy_jvb_4qb" lry="2859" lrx="2214" uly="2585" ulx="1843"/>
-				<zone xml:id="zone_jth_lvb_4qb" lry="2552" lrx="2227" uly="2294" ulx="1845"/>
-				<zone xml:id="zone_ch2_mvb_4qb" lry="2217" lrx="2208" uly="2041" ulx="1844"/>
-				<zone xml:id="zone_rmx_mvb_4qb" lry="2015" lrx="2268" uly="1823" ulx="1822"/>
-				<zone xml:id="zone_ad5_nvb_4qb" lry="1776" lrx="2358" uly="1622" ulx="1826"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1653/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/5bc932b1a71f25ff729a35c9928b548a23f4aebf.jpg"/>
-				<zone lrx="3013" lry="2054" ulx="73" uly="460" xml:id="zone_dpt_tlm_3jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0172.JPG"/>
+			<zone ulx="75" uly="75" lrx="2383" lry="2950" xml:id="zone_w1b_plm_3jb"/>
+			<zone ulx="2530" uly="2530" lrx="586" lry="2893" xml:id="zone_dw5_qlm_3jb"/>
+			<zone ulx="1659" uly="1659" lrx="1349" lry="1811" xml:id="zone_fsm_g3b_4qb"/>
+			<zone ulx="1790" uly="1790" lrx="1657" lry="1887" xml:id="zone_xpl_r3b_4qb"/>
+			<zone ulx="1765" uly="1765" lrx="677" lry="1899" xml:id="zone_qq1_fjb_4qb"/>
+			<zone ulx="1884" uly="1884" lrx="1627" lry="2018" xml:id="zone_bj5_ljb_4qb"/>
+			<zone ulx="1868" uly="1868" lrx="345" lry="2031" xml:id="zone_gpx_xrb_4qb"/>
+			<zone ulx="2030" uly="2030" lrx="1049" lry="2200" xml:id="zone_vt2_4sb_4qb"/>
+			<zone ulx="2585" uly="2585" lrx="2214" lry="2859" xml:id="zone_rqy_jvb_4qb"/>
+			<zone ulx="2294" uly="2294" lrx="2227" lry="2552" xml:id="zone_jth_lvb_4qb"/>
+			<zone ulx="2041" uly="2041" lrx="2208" lry="2217" xml:id="zone_ch2_mvb_4qb"/>
+			<zone ulx="1823" uly="1823" lrx="2268" lry="2015" xml:id="zone_rmx_mvb_4qb"/>
+			<zone ulx="1622" uly="1622" lrx="2358" lry="1776" xml:id="zone_ad5_nvb_4qb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0174.JPG"/>
+			<zone ulx="460" uly="460" lrx="3013" lry="2054" xml:id="zone_dpt_tlm_3jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_tezkire" facs="#zone_w1b_plm_3jb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>İşbu <date when-custom="1222">bin iki yüz yiğirmi iki senesinde</date> der ʿuhde ve iltizāmımızda bulunan <placeName>Kirşevo</placeName>
-					<lb/>mukātaʿası <placeName>KOYSINE</placeName> hudūd dāhilinde ... ahālī ve'l-cīrān maʿrūmu'l-hudūd <placeName>KOYSINE</placeName>
-					<lb/>sākinlerinden zimmī <persName facs="#zone_fsm_g3b_4qb">MIHK OKPK</persName> nām kendi taht-ı tasarrıfında bulunan bir kıtʿa
-					<lb/>tarla <placeName facs="#zone_xpl_r3b_4qb">İSTRANAH</placeName> demekle ve bir taraf tarīk-i ʿām taraf <persName facs="#zone_qq1_fjb_4qb">ŞİR</persName> ve
-						<persName>OKPK</persName> tarlası
-					<lb/>ve taraf <persName facs="#zone_bj5_ljb_4qb">LALPK</persName> tarlası ve taraf <persName>gardiyān</persName> tarlası mahdūd ve mümtāz <sic>alup</sic><corr>olup</corr> yine
-						<placeName facs="#zone_gpx_xrb_4qb">Kirşevo</placeName>
-					<lb/>varoş sükkânından gardiyān <persName facs="#zone_vt2_4sb_4qb">BIZM</persName> nām kimesne resmiyle krık dokuz guruş
-					<lb/>mukābelesinde beyʿ-i kıtʿa birle beyʿ edüp ve mevlağ-ı mezbūr ʿāitinden bi-tamām ahz
-					<lb/>ettikten sonra biz dahi mukātaʿa-i mezbūre me'mūr olduğumuz(?) hasebiyle tezvīz(?)
-					<lb/>görüb mutasarrıfiyçün işbu maʿarifet-i tezkire virildi mutasarrıfyiçün kimesne
-					<lb/>māniʿ olmaya ve selām <date when-custom="1222" type="created" when="1808-02-26">sene 1222</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					İşbu					<date when-custom="1222">bin iki yüz yiğirmi iki senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan					<placeName>Kirşevo</placeName>
+					<lb/>
+					mukātaʿası					<placeName>KOYSINE</placeName>
+					 hudūd dāhilinde ... ahālī ve'l-cīrān maʿrūmu'l-hudūd					<placeName>KOYSINE</placeName>
+					<lb/>
+					sākinlerinden zimmī					<persName facs="#zone_fsm_g3b_4qb">MIHK OKPK</persName>
+					 nām kendi taht-ı tasarrıfında bulunan bir kıtʿa
+					<lb/>
+					tarla					<placeName facs="#zone_xpl_r3b_4qb">İSTRANAH</placeName>
+					 demekle ve bir taraf tarīk-i ʿām taraf					<persName facs="#zone_qq1_fjb_4qb">ŞİR</persName>
+					 ve
+					<persName>OKPK</persName>
+					 tarlası
+					<lb/>
+					ve taraf					<persName facs="#zone_bj5_ljb_4qb">LALPK</persName>
+					 tarlası ve taraf					<persName>gardiyān</persName>
+					 tarlası mahdūd ve mümtāz					<sic>alup</sic>
+					<corr>olup</corr>
+					 yine
+					<placeName facs="#zone_gpx_xrb_4qb">Kirşevo</placeName>
+					<lb/>
+					varoş sükkânından gardiyān					<persName facs="#zone_vt2_4sb_4qb">BIZM</persName>
+					 nām kimesne resmiyle krık dokuz guruş
+					<lb/>
+					mukābelesinde beyʿ-i kıtʿa birle beyʿ edüp ve mevlağ-ı mezbūr ʿāitinden bi-tamām ahz
+					<lb/>
+					ettikten sonra biz dahi mukātaʿa-i mezbūre me'mūr olduğumuz(?) hasebiyle tezvīz(?)
+					<lb/>
+					görüb mutasarrıfiyçün işbu maʿarifet-i tezkire virildi mutasarrıfyiçün kimesne
+					<lb/>
+					māniʿ olmaya ve selām					<date when-custom="1222" type="created" when="1808-02-26">sene 1222</date>
 				</p>
 				<div2 type="sign" facs="#zone_dw5_qlm_3jb">
 					<p>
-						<lb/>...
-						<lb/>Haseki <persName>Mehmed</persName> Ağa
-						<lb/>El-me'mūr Kirşevolı </p>
+						<lb/>
+						...
+						<lb/>
+						Haseki						<persName>Mehmed</persName>
+						 Ağa
+						<lb/>
+						El-me'mūr Kirşevolı					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/><persName facs="#zone_rqy_jvb_4qb">Sālih</persName> Beğ ...
-						<lb/>ʿan HUMIL
-						<lb/><persName facs="#zone_jth_lvb_4qb">Sālih</persName> ʿAlemdār Mü'ezzin
-						<lb/>ʿan Müsliman
-						<lb/>Zimmī <persName facs="#zone_ch2_mvb_4qb">Īwān</persName> KVAC
-						<lb/>Zimmī <persName facs="#zone_rmx_mvb_4qb">İstepān</persName> KORYL
-						<lb/><persName facs="#zone_ad5_nvb_4qb">ʿAlī</persName> Beşe DEKD Emīn-i tābiʿ </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						<persName facs="#zone_rqy_jvb_4qb">Sālih</persName>
+						 Beğ ...
+						<lb/>
+						ʿan HUMIL
+						<lb/>
+						<persName facs="#zone_jth_lvb_4qb">Sālih</persName>
+						 ʿAlemdār Mü'ezzin
+						<lb/>
+						ʿan Müsliman
+						<lb/>
+						Zimmī						<persName facs="#zone_ch2_mvb_4qb">Īwān</persName>
+						 KVAC
+						<lb/>
+						Zimmī						<persName facs="#zone_rmx_mvb_4qb">İstepān</persName>
+						 KORYL
+						<lb/>
+						<persName facs="#zone_ad5_nvb_4qb">ʿAlī</persName>
+						 Beşe DEKD Emīn-i tābiʿ					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_dpt_tlm_3jb">
 				<p>
-					<lb/>Teskera kako kupismo od miata Okichia u
-					<lb/>koirni gnivu, po jeit vipe garlieze zrieg
-					<lb/>do theinene gnive, i do putal saskavolieno
-					<lb/>tonim Holmo od joze kupili, i dadojmg gr: 44. p: 20
-					<lb/>na <date when="1807-03-30" cert="medium" type="summary_Croatian">30 Marza 1807</date>. ta gvadcan hahano millohevish.
-					<lb/>Nno 4.
-					<lb/><date when-custom="1222" type="summary_Croatian" when="1808-02-26">1222</date>.
-					<lb/>94(?) </p>
+					<lb/>
+					Teskera kako kupismo od miata Okichia u
+					<lb/>
+					koirni gnivu, po jeit vipe garlieze zrieg
+					<lb/>
+					do theinene gnive, i do putal saskavolieno
+					<lb/>
+					tonim Holmo od joze kupili, i dadojmg gr: 44. p: 20
+					<lb/>
+					na					<date when="1807-03-30" cert="medium" type="summary_Croatian">30 Marza 1807</date>
+					. ta gvadcan hahano millohevish.
+					<lb/>
+					Nno 4.
+					<lb/>
+					<date when-custom="1222" type="summary_Croatian" when="1808-02-26">1222</date>
+					.
+					<lb/>
+					94(?)				</p>
 			</div1>
 		</body>
 		<back> </back>

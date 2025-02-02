@@ -1,53 +1,61 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9016</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1943/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1943/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/48fdbdf23fd506bb6cb5f71a4ea1cda6318f0ac9.jpg" />
-        <zone lrx="2745" lry="1355" ulx="423" uly="1066" xml:id="zone_q2k_fq4_xkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1943/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b8f7c9949043e7179bd6005310b8ab5072e6c4fc.jpg" />
-        <zone lrx="1954" lry="3245" ulx="82" uly="200" xml:id="zone_u1n_hq4_xkb" />
-        <zone lrx="1329" lry="3216" ulx="232" uly="2305" xml:id="zone_fbz_3q4_xkb" />
-        <zone lrx="975" lry="3035" ulx="699" uly="2764" xml:id="zone_b5z_jq4_xkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_u1n_hq4_xkb" next="#zone_q2k_fq4_xkb" type="tezkire">
-        <p>
-          <lb />... fī <date type="created" when="1768-09-20" when-custom="1182-05-09">9 Ca sene 1182</date><lb />
-        </p>
-        <div2 facs="#zone_fbz_3q4_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_b5z_jq4_xkb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_q2k_fq4_xkb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1769">1769</date> ...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9016</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9016.JPG"/>
+			<zone ulx="1066" uly="1066" lrx="2745" lry="1355" xml:id="zone_q2k_fq4_xkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9017.JPG"/>
+			<zone ulx="200" uly="200" lrx="1954" lry="3245" xml:id="zone_u1n_hq4_xkb"/>
+			<zone ulx="2305" uly="2305" lrx="1329" lry="3216" xml:id="zone_fbz_3q4_xkb"/>
+			<zone ulx="2764" uly="2764" lrx="975" lry="3035" xml:id="zone_b5z_jq4_xkb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_u1n_hq4_xkb" next="#zone_q2k_fq4_xkb" type="tezkire">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1768-09-20" when-custom="1182-05-09">9 Ca sene 1182</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_fbz_3q4_xkb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_b5z_jq4_xkb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_q2k_fq4_xkb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1769">1769</date>
+					 ...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

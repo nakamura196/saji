@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,48 +17,52 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2288/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2288/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ad59cb8f8e2104d8d82196286ec5603310e29295.jpg"/>
-				<zone lrx="929" lry="916" ulx="691" uly="652" xml:id="zone_iws_bfg_zlb"/>
-				<zone lrx="672" lry="939" ulx="466" uly="725" xml:id="zone_trk_cfg_zlb"/>
-				<zone lrx="1506" lry="1956" ulx="954" uly="1306" xml:id="zone_txh_dfg_zlb"/>
-				<zone lrx="881" lry="2516" ulx="360" uly="2129" xml:id="zone_yqd_2fg_zlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2288/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/bd8862abfe118f306d73dfaf0db2704fe2372a5b.jpg"/>
-				<zone lrx="1662" lry="2687" ulx="221" uly="1645" xml:id="zone_pmt_ffg_zlb"/>
-				<zone lrx="851" lry="2630" ulx="549" uly="2337" xml:id="zone_bbh_kfg_zlb"/>
-				<zone lrx="564" lry="2555" ulx="237" uly="2319" xml:id="zone_wsg_mfg_zlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9364.JPG"/>
+			<zone ulx="652" uly="652" lrx="929" lry="916" xml:id="zone_iws_bfg_zlb"/>
+			<zone ulx="725" uly="725" lrx="672" lry="939" xml:id="zone_trk_cfg_zlb"/>
+			<zone ulx="1306" uly="1306" lrx="1506" lry="1956" xml:id="zone_txh_dfg_zlb"/>
+			<zone ulx="2129" uly="2129" lrx="881" lry="2516" xml:id="zone_yqd_2fg_zlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9365.JPG"/>
+			<zone ulx="1645" uly="1645" lrx="1662" lry="2687" xml:id="zone_pmt_ffg_zlb"/>
+			<zone ulx="2337" uly="2337" lrx="851" lry="2630" xml:id="zone_bbh_kfg_zlb"/>
+			<zone ulx="2319" uly="2319" lrx="564" lry="2555" xml:id="zone_wsg_mfg_zlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="low" facs="#zone_pmt_ffg_zlb" next="#zone_txh_dfg_zlb" type="tezkire">
 				<p>
-					<lb/>... işbu iki yüz senesinde
-					<lb/>ve iki yüz bir senesi </p>
+					<lb/>
+					... işbu iki yüz senesinde
+					<lb/>
+					ve iki yüz bir senesi				</p>
 				<div2 facs="#zone_bbh_kfg_zlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_iws_bfg_zlb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 facs="#zone_wsg_mfg_zlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_trk_cfg_zlb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -65,13 +70,15 @@
 			</div1>
 			<div1 cert="unknown" facs="#zone_txh_dfg_zlb" type="summary_Croatian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>
 			<div1 cert="unknown" facs="#zone_yqd_2fg_zlb" type="summary_Croatian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

@@ -1,0 +1,92 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0348</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">マーリキャーネとして共同保有していたKYSINE村の国有地arāzī-i mīrīyeにあるムスリムの耕作地の、複数の非ムスリムに対する売却・譲渡の承認</note>
+				<note type="mine">裏面のスタンプ写しは、かなりはっきり書かれているので、他のスタンプを読む際の参考になる。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1827/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1827/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2a3a77434014658960fbd300d7af42ebd1d97c1d.jpg"/>
+				<zone lrx="2225" lry="2725" ulx="300" uly="108" xml:id="zone_mmd_rlr_kkb"/>
+				<zone lrx="856" lry="2687" ulx="437" uly="2323" xml:id="zone_ryp_slr_kkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1827/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/0beb1ba2a090633b02712042799e8c709b491ffd.jpg"/>
+				<zone lrx="900" lry="975" ulx="596" uly="642" xml:id="zone_dn4_vlr_kkb"/>
+				<zone lrx="2171" lry="2975" ulx="658" uly="2254" xml:id="zone_n3g_wlr_kkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_mmd_rlr_kkb" type="EMIN">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>bā-berāt-ı pādişāh ber vech-i mākikâne iştirākan semen-i ... hassası(?) ʿuhdemizde olan 
+					<lb/>Kirşevo mukātaʿa varoşda(?) vākiʿ KOYSİNE karyesinde arāzī-i mīrīye mutasarrıflarından Hasan Beşe Uzun
+					<lb/>karye-i mezbūrede(?) taht-ı tasarrıf eylediği BUKULA demekle ʿarīf(?) bir kıtʿa tarla-ı veled-i el-ahāli
+					<lb/>ve'l-cīrān ... el-hudūd ve'l-mekân tarla-i mezbūreyi işbu dārende-i hurūf
+					<lb/>İSTİYAN ve YUZ ve BNAN Marko ve VNAR nām kimesne bir miyan(?) altmış guruş bedel-i
+					<lb/>ferāğ mukābelesinde beyʿ ve ferāğ ve ... edüb mesfūran dahi ber vech-i muharrer
+					<lb/>tarlayı ... iştirā ve teferrug ve zabt ve ... içün tarafımızdan ... etmekle
+					<lb/>kānūn ... üzere ferāğ ve teferruglerin tecvīz ve fārig-i merkūmun
+					<lb/>tarla-i mezbūre ferāgatından müşter-i mesfūrāna tafvīz ve zabt ve tasarrıfına
+					<lb/>izin virilüb mā-dām ki senesine(?) tarafımıza ʿāit ve rāciʿ olan aʿşār
+					<lb/>ve rüsūmātı edā eyleye zabt ve zirāʿat tarafımızdan ve taraf-ı āhardan kimesne
+					<lb/>māniʿ ve ... olumaya fī <date type="created" when="1820-02-20" when-custom="1235-05-07">7 C sene 35</date>
+				</p>
+				<div2 facs="#zone_ryp_slr_kkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Mehmed ...
+						<lb/>Mukātaʿa ...
+						<lb/>M
+					</p>
+					<div3 facs="#zone_dn4_vlr_kkb" type="stamp_sūret">
+						<p>
+							<lb/>Be-her kârī(?)
+							<lb/>Mehmed bun
+							<lb/>...
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Mollā Hasan Saraylı(?)
+						<lb/>ʿÖmer Beşe HAGİÇ
+						<lb/>ʿan ÇRNİÇ
+						<lb/>İbrāhīm ʿAlemdār ŞUNİÇ
+						<lb/>MHŞ tābiʿ Emīn
+						<lb/>ve gayrihim
+					</p>
+				</div2>
+				<div2 type="note">
+					<p>
+						<lb/>Tarla-ı mezkūreye kadīmden ... geldiği tekâlif-i hassasında edā etmel mukābele olunmuşdur
+					</p>
+				</div2>				
+			</div1>
+			<div1 facs="#zone_n3g_wlr_kkb" type="summary_Croatian">
+				<p>
+					<lb/>Tapija od ... <date type="summary_Croatian" when="1820">1820</date> - <date type="summary_Croatian" when="1820-10-06" when-custom="1235">1235</date>.
+					<lb/>Nno 42.
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

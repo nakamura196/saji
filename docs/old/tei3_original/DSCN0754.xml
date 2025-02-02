@@ -1,0 +1,55 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0754</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 8" ], "saji:memo": [ "・封筒の内容物か？" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3151/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3151/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/59b363ea9568a6e15149795307611b5816476b6b.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3151/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/474d2b26beaf71831dcde27b24c05dfedaf755ec.jpg" />
+        <zone lrx="2861" lry="2431" ulx="369" uly="-14" xml:id="zone_v2h_cxq_2mb" />
+        <zone lrx="2440" lry="2420" ulx="2114" uly="2124" xml:id="zone_rg5_dxq_2mb" />
+        <zone lrx="1938" lry="2383" ulx="1614" uly="2074" xml:id="zone_opk_2xq_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3151/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/7faaae4338d8c5088db9f9a470217854c890b6e3.jpg" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_v2h_cxq_2mb" type="virgü_varaka">
+        <p>
+          <lb />... <date type="created" when="1866-05-14" when-custom="1282">sene 1282</date>
+          <lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_rg5_dxq_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="sign">
+          <div3 facs="#zone_opk_2xq_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

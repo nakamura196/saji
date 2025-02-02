@@ -1,0 +1,44 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0399</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "F" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1875/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1875/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/31be7262987f713fc0311775429cd3744f6ea366.jpg" />
+        <zone lrx="2220" lry="2900" ulx="240" uly="673" xml:id="zone_axh_sg3_qkb" />
+        <zone lrx="1600" lry="2880" ulx="433" uly="1900" xml:id="zone_qbf_tg3_qkb" />
+        <zone lrx="1600" lry="2860" ulx="1033" uly="2373" xml:id="zone_gjw_tg3_qkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_axh_sg3_qkb" subtype="cizye_ödeme" type="makbūz">
+        <p>
+          <lb />... fī <date cert="low" type="created" when="1842-02-10" when-custom="1257">... sene 57</date><lb />
+        </p>
+        <div2 facs="#zone_qbf_tg3_qkb" type="sign">
+          <p>
+            <lb />Bende ... Ahmad<lb />
+          </p>
+          <div3 facs="#zone_gjw_tg3_qkb" type="stamp">
+            <p>
+              <lb /><lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>    
+    </body>
+  </text>
+</TEI>

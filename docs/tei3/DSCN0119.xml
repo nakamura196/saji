@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -18,23 +19,22 @@
 		</fileDesc>
 		<profileDesc>
 			<textClass>
-				<classCode scheme="">その他/classCode>
+				<classCode scheme="">その他</classCode>
 			</textClass>
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1603/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1603/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/53450a4ba1bb9167a92bc3fb6dbc52bdcba73807.jpg"/>
-				<zone lrx="1642" lry="3021" ulx="503" uly="108" xml:id="zone_cwr_pgv_2jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0119.JPG"/>
+			<zone ulx="108" uly="108" lrx="1642" lry="3021" xml:id="zone_cwr_pgv_2jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_cwr_pgv_2jb" type="tezkire_ruhsatiye_esnaf">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 			</div1>

@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9116</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="mine">【要検討】署名部分の用紙欠損。おそらくエミン文書であると思われるが、内容を読んで断定する必要がある。</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2043/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2043/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1acc2d7bd548442f24f7e8949f3a8fd2a765536a.jpg" />
+        <zone lrx="1654" lry="2070" ulx="804" uly="575" xml:id="zone_vmq_4tv_glb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2043/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/85409e38c4133364566b2a0b97b3c244ff789f8a.jpg" />
+        <zone lrx="2355" lry="3135" ulx="73" uly="190" xml:id="zone_kgs_rtv_glb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 cert="medium" facs="#zone_kgs_rtv_glb" next="#zone_vmq_4tv_glb" type="EMIN">
+        <p>
+          <lb />... fī <date type="created" when="1848-03-22" when-custom="1264-04-17">17 R sene 264</date><lb />
+        </p>
+        <div2 type="sign">
+          <p>
+            <lb />[欠損]<lb />
+          </p>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_vmq_4tv_glb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1848">1848</date> ...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

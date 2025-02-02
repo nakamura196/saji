@@ -1,0 +1,87 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0107</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">【要】日付：年の読み方を確認する。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1591/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1591/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a0be21bc4ffbcf1f3c410c07f0926302dedf104a.jpg"/>
+				<zone lrx="1945" lry="2781" ulx="182" uly="63" xml:id="zone_f2h_s1v_2jb"/>
+				<zone lrx="905" lry="2744" ulx="621" uly="2252" xml:id="zone_djj_t1v_2jb"/>
+				<zone lrx="522" lry="2643" ulx="238" uly="2203" xml:id="zone_x1h_51v_2jb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1591/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8dfcf12815dfbc814f50bb4daef61b057725ee18.jpg"/>
+				<zone lrx="3078" lry="905" ulx="178" uly="455" xml:id="zone_afl_v1v_2jb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_temessük" cert="unknown" facs="#zone_f2h_s1v_2jb">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oludur ki
+					<lb/>İşbu <date cert="low" type="created" when="0717-06-15" when-custom="1198">bin yüz doksan sekiz</date> der ʿuhde ve iltizāmımızda bulunan
+					<lb/><placeName type="proper">Kirşevo</placeName> mukātaʿası kuālarında <placeName type="proper" cert="low">Ruhbān</placeName> karyesinine ʿāşār-ı şerʿisi ve sā'ir-i
+					<lb/>olgeldiği minvāl[ı] üzere zabt ve rabtına tālib ve rāgib olan Kirşevo kilisanın
+					<lb/><persName>ruhbān</persName> yiğirmi beş guruş mukābelesinde ʿāşār-ı şerʿisi ve sā'iri olgeldiği
+					<lb/>üzere rabtına ve zabtına temessüğmüz virildi tarafımızdan ve taraf-ı āhardan bir kimesne
+					<lb/>.. māniʿ olumaya ve mezbūr-ı ruhbānlardan bir akçe ve bir habbe kalmadığı ecilden
+					<lb/>buldum ve hakkı(?) teslīm temessük yedine birildi </p>
+				<div2 type="sign" facs="#zone_djj_t1v_2jb">
+					<p>
+						<lb/>...
+						<lb/>El-hacc-ı
+						<lb/><persName>Ahmad</persName>
+						<lb/>Emin-i
+						<lb/>Kirşevo </p>
+				</div2>
+				<div2 type="sign" facs="#zone_x1h_51v_2jb">
+					<p>
+						<lb/>...
+						<lb/>...
+						<lb/>Emin-i
+						<lb/>Kirşevo </p>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian" facs="#zone_afl_v1v_2jb">
+				<p>
+					<lb/>...
+					<lb/>...
+					<lb/>... </p>
+			</div1>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="">
+					<persName/>
+					<occupation/>
+					<occupation/>
+					<socecStatus/>
+					<state/>
+					<state/>
+				</person>
+			</listPerson>
+			<listRelation>
+				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
+				<relation name="iltizām" active="#" passive="#"/>
+				<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
+				<relation name="issue" active="#" passive="#"/>
+			</listRelation>
+		</back>
+	</text>
+</TEI>

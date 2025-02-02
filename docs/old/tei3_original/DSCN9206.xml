@@ -1,0 +1,38 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN9206</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2130/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2130/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a818c2704c08c891bb4e3bc0e894f8796c8fee5c.jpg" />
+        <zone lrx="1825" lry="2816" ulx="375" uly="275" xml:id="zone_zx4_1pt_klb" />
+        <zone lrx="1579" lry="2523" ulx="1161" uly="2102" xml:id="zone_kmx_dpt_klb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_zx4_1pt_klb" type="cizye_senedi">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 facs="#zone_kmx_dpt_klb" type="stamp">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

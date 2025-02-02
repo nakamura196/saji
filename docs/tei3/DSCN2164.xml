@@ -1,63 +1,74 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2164</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2492/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2492/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/079fb81f79041838ec6c2e613a70304e18d4542e.jpg" />
-        <zone lrx="2317" lry="3083" ulx="142" uly="158" xml:id="zone_ocb_rcy_cmb" />
-        <zone lrx="821" lry="3041" ulx="293" uly="2528" xml:id="zone_tyf_scy_cmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2492/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d71224102445ddd8b4aeed69597f3f2d77099161.jpg" />
-        <zone lrx="3112" lry="2238" ulx="56" uly="516" xml:id="zone_ew1_vcy_cmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2492/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/357da3b218fe3fe3265041a861b69fdef33f7e2d.jpg" />
-        <zone lrx="696" lry="508" ulx="354" uly="200" xml:id="zone_whm_wcy_cmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="low" facs="#zone_ocb_rcy_cmb" next="#zone_ew1_vcy_cmb" subtype="tezkire" type="EMIN">
-        <p>
-          <lb />işbu <date when="1833-05-19" when-custom="1248">bin iki yüz krık sekiz senesinde</date> der ... 
-          <lb /><date type="created" when="1833-05-19" when-custom="1248">sene 248</date>
-        </p>
-        <div2 facs="#zone_tyf_scy_cmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_whm_wcy_cmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_ew1_vcy_cmb" type="summary_Croatian">
-        <p>
-          <lb /><date type="summary_Croatian" when="1833">1833</date>.
-          <lb />Nno 8. <date type="summary_Croatian" when="1833-05-19" when-custom="1248">1248</date>.
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2164</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2164.JPG"/>
+			<zone ulx="158" uly="158" lrx="2317" lry="3083" xml:id="zone_ocb_rcy_cmb"/>
+			<zone ulx="2528" uly="2528" lrx="821" lry="3041" xml:id="zone_tyf_scy_cmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2165.JPG"/>
+			<zone ulx="516" uly="516" lrx="3112" lry="2238" xml:id="zone_ew1_vcy_cmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2166.JPG"/>
+			<zone ulx="200" uly="200" lrx="696" lry="508" xml:id="zone_whm_wcy_cmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_ocb_rcy_cmb" next="#zone_ew1_vcy_cmb" subtype="tezkire" type="EMIN">
+				<p>
+					<lb/>
+					işbu					<date when="1833-05-19" when-custom="1248">bin iki yüz krık sekiz senesinde</date>
+					 der ...					<lb/>
+					<date type="created" when="1833-05-19" when-custom="1248">sene 248</date>
+				</p>
+				<div2 facs="#zone_tyf_scy_cmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_whm_wcy_cmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_ew1_vcy_cmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					<date type="summary_Croatian" when="1833">1833</date>
+					.
+					<lb/>
+					Nno 8.					<date type="summary_Croatian" when="1833-05-19" when-custom="1248">1248</date>
+					.
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

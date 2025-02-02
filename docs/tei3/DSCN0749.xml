@@ -1,59 +1,63 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0749</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 8" ], "saji:memo": [ "・封筒の内容物か？" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3146/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3146/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8da7bd3b24d835e8cd7c31b618048b42f44a5391.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3146/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7b10bebb5f2bd0086cef2695d719a75afbc78125.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3146/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/c5a6bc4eb66a5363eb0428731835f5e08bdf4882.jpg" />
-        <zone lrx="2291" lry="2963" ulx="54" uly="290" xml:id="zone_jz5_3wq_2mb" />
-        <zone lrx="1991" lry="2900" ulx="1678" uly="2619" xml:id="zone_dl4_kwq_2mb" />
-        <zone lrx="1584" lry="2913" ulx="1278" uly="2632" xml:id="zone_fwm_lwq_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3146/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/995706cfc62f82111df6e1a05d82ce07c46e7740.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3146/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/834a8a49af5134f05d16d98a19aa37a5d6caeea3.jpg" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_jz5_3wq_2mb" type="virgü_varaka">
-        <p>
-          <lb />
-          <lb />... <date cert="medium" type="created" when="1868-04-21" when-custom="1284">sene 1284</date>
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_dl4_kwq_2mb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-          <div3 facs="#zone_fwm_lwq_2mb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0749</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 8" ], "saji:memo": [ "・封筒の内容物か？" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0749.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0750.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0751.JPG"/>
+			<zone ulx="290" uly="290" lrx="2291" lry="2963" xml:id="zone_jz5_3wq_2mb"/>
+			<zone ulx="2619" uly="2619" lrx="1991" lry="2900" xml:id="zone_dl4_kwq_2mb"/>
+			<zone ulx="2632" uly="2632" lrx="1584" lry="2913" xml:id="zone_fwm_lwq_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0752.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0753.JPG"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_jz5_3wq_2mb" type="virgü_varaka">
+				<p>
+					<lb/>
+					<lb/>
+					...					<date cert="medium" type="created" when="1868-04-21" when-custom="1284">sene 1284</date>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_dl4_kwq_2mb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+					<div3 facs="#zone_fwm_lwq_2mb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

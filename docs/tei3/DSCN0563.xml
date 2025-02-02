@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,22 +14,21 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2968/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2968/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e83c3e5ae883f46bb39f420f3ef3a2532c7080f9.jpg"/>
-				<zone lrx="2523" lry="2369" ulx="61" uly="385" xml:id="zone_b1c_v2j_2mb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2968/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8c537f4e7a81a0c4d0a271f8628ed06363ef7245.jpg"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0563.JPG"/>
+			<zone ulx="385" uly="385" lrx="2523" lry="2369" xml:id="zone_b1c_v2j_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0564.JPG"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_b1c_v2j_2mb" type="düstūr">
 				<p>
 					<lb/>
-					<lb/>... tahrīren fī <date from-custom="1253-11-01" to="1838-02-04" to-custom="1253-11-10" type="created">evā’il'l-şehr Zı'l-kaʿdaı'l-şerīfe sene suls ve hamsīn ve mieteyn ve elif</date>
+					<lb/>
+					... tahrīren fī					<date from-custom="1253-11-01" to="1838-02-04" to-custom="1253-11-10" type="created">evā’il'l-şehr Zı'l-kaʿdaı'l-şerīfe sene suls ve hamsīn ve mieteyn ve elif</date>
 				</p>
 			</div1>
 		</body>

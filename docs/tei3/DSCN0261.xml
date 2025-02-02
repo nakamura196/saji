@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,48 +14,63 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1740/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1740/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7bf513b96ecc8ddb06ac874e529ae5c4b0939d3a.jpg"/>
-				<zone lrx="2157" lry="2335" ulx="314" uly="957" xml:id="zone_q3w_xst_xjb"/>
-				<zone lrx="797" lry="2287" ulx="324" uly="1795" xml:id="zone_lhz_yst_xjb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1740/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4987956c19abee2676173ac95a5d778c44c24ba1.jpg"/>
-				<zone lrx="604" lry="1117" ulx="383" uly="908" xml:id="zone_vpj_1tt_xjb"/>
-				<zone lrx="1021" lry="3137" ulx="375" uly="2358" xml:id="zone_lmk_btt_xjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0261.JPG"/>
+			<zone ulx="957" uly="957" lrx="2157" lry="2335" xml:id="zone_q3w_xst_xjb"/>
+			<zone ulx="1795" uly="1795" lrx="797" lry="2287" xml:id="zone_lhz_yst_xjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0262.JPG"/>
+			<zone ulx="908" uly="908" lrx="604" lry="1117" xml:id="zone_vpj_1tt_xjb"/>
+			<zone ulx="2358" uly="2358" lrx="1021" lry="3137" xml:id="zone_lmk_btt_xjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_tapu" cert="low" facs="#zone_q3w_xst_xjb">
 				<p>
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>işbu bin iki yüz elli yedi der ʿuhde ve iltizāmımızda bulunan Kirşevo kasabasında
-					<lb/>... el-hakk ve'l-... olunan arāzinin ʿöşr-i hakk sene-i mezbūre
-					<lb/>der işbu dārende-i hurūf ... merkūmun <persName>gardiyān Fra Īvān</persName> nām iki yüz
-					<lb/>elli guruş bedel mukābelesinde beyʿ ve iltizām ve merkūm zimmī akçe-i mezbūreyi
-					<lb/>bize tamāmen edā ve teslīm eyle ... bināen işbu hurūf ... olunan ve yedine ...
-					<lb/>iʿtā olundu fī <date type="created" when="1842-01-23" when-custom="1257-05-11" cert="low">11 Ca(?) 257</date>
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					işbu bin iki yüz elli yedi der ʿuhde ve iltizāmımızda bulunan Kirşevo kasabasında
+					<lb/>
+					... el-hakk ve'l-... olunan arāzinin ʿöşr-i hakk sene-i mezbūre
+					<lb/>
+					der işbu dārende-i hurūf ... merkūmun					<persName>gardiyān Fra Īvān</persName>
+					 nām iki yüz
+					<lb/>
+					elli guruş bedel mukābelesinde beyʿ ve iltizām ve merkūm zimmī akçe-i mezbūreyi
+					<lb/>
+					bize tamāmen edā ve teslīm eyle ... bināen işbu hurūf ... olunan ve yedine ...
+					<lb/>
+					iʿtā olundu fī					<date type="created" when="1842-01-23" when-custom="1257-05-11" cert="low">11 Ca(?) 257</date>
 				</p>
 				<div2 facs="#zone_lhz_yst_xjb" type="sign">
 					<p>
-						<lb/>Bende
-						<lb/>Sālih ... el-vekīl-i
-						<lb/>... Emīn-i Kirşevo
-						<lb/>El-me'mūr
-						<lb/>Hālā </p>
+						<lb/>
+						Bende
+						<lb/>
+						Sālih ... el-vekīl-i
+						<lb/>
+						... Emīn-i Kirşevo
+						<lb/>
+						El-me'mūr
+						<lb/>
+						Hālā					</p>
 					<div3 facs="#zone_vpj_1tt_xjb" type="stamp">
 						<p>
-							<lb/>...
-							<lb/>... </p>
+							<lb/>
+							...
+							<lb/>
+							...						</p>
 					</div3>
 				</div2>
 			</div1>
 			<div1 facs="#zone_lmk_btt_xjb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1842">1842</date>.
+					<lb/>
+					...					<date type="summary_Croatian" when="1842">1842</date>
+					.
 					<lb/>
 				</p>
 			</div1>

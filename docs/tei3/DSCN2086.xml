@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -21,42 +22,51 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2415/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2415/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a606f444fa6b3361a124d42fb994a168d40df68f.jpg"/>
-				<zone lrx="2106" lry="1952" ulx="474" uly="399" xml:id="zone_kws_c5h_j3b"/>
-				<zone lrx="800" lry="3052" ulx="450" uly="2725" xml:id="zone_nfv_25h_j3b"/>
-				<zone lrx="2047" lry="3170" ulx="263" uly="1212" xml:id="zone_j2w_j5h_j3b"/>
-			</surface>
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/9fdaa6c216f447ddc66f49babc3e55139aaf7420.jpg" n="https://diyhistory.org/public/phr2/iiif/2415/canvas/p2"/>
-				<zone xml:id="zone_c1s_m5h_j3b" lry="1262" lrx="1462" uly="288" ulx="483"/>
-				<zone xml:id="zone_frm_n5h_j3b" lry="662" lrx="2300" uly="262" ulx="1645"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2086.JPG"/>
+			<zone ulx="399" uly="399" lrx="2106" lry="1952" xml:id="zone_kws_c5h_j3b"/>
+			<zone ulx="2725" uly="2725" lrx="800" lry="3052" xml:id="zone_nfv_25h_j3b"/>
+			<zone ulx="1212" uly="1212" lrx="2047" lry="3170" xml:id="zone_j2w_j5h_j3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2087.JPG"/>
+			<zone ulx="288" uly="288" lrx="1462" lry="1262" xml:id="zone_c1s_m5h_j3b"/>
+			<zone ulx="262" uly="262" lrx="2300" lry="662" xml:id="zone_frm_n5h_j3b"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_kws_c5h_j3b" type="hüccet_note">
 				<p>
-					<lb/>Dört sene kadīm 55 re's oküz 45 guruşden
-					<lb/>şimdi 48 guruşdan hesāb görüb 165 guruş
-					<lb/>ziyāde olub yine nuhāsı 160 kıye nuhāsı
-					<lb/>dörder buçuk guruşdan virmişken dörder guruşdan
-					<lb/>hesāb görüb 82 guruş dahi ol hesābdan
-					<lb/>cemʿ yekûn
-					<lb/>247 guruş taleb daʿvā
-					<lb/>min min </p>
+					<lb/>
+					Dört sene kadīm 55 re's oküz 45 guruşden
+					<lb/>
+					şimdi 48 guruşdan hesāb görüb 165 guruş
+					<lb/>
+					ziyāde olub yine nuhāsı 160 kıye nuhāsı
+					<lb/>
+					dörder buçuk guruşdan virmişken dörder guruşdan
+					<lb/>
+					hesāb görüb 82 guruş dahi ol hesābdan
+					<lb/>
+					cemʿ yekûn
+					<lb/>
+					247 guruş taleb daʿvā
+					<lb/>
+					min min				</p>
 			</div1>
 			<div3 facs="#zone_nfv_25h_j3b" type="stamp">
-				<lb/>Hādım-ı şerʿ-i nevī ʿAbdhu Mustafa Muhibbī </div3>
+				<lb/>
+				Hādım-ı şerʿ-i nevī ʿAbdhu Mustafa Muhibbī			</div3>
 			<div1 facs="#zone_j2w_j5h_j3b" type="note">
 				<lb/>
 			</div1>
 			<div1 facs="#zone_c1s_m5h_j3b" type="sign">
-				<lb/>Sūret-i </div1>
+				<lb/>
+				Sūret-i			</div1>
 			<div1 facs="#zone_frm_n5h_j3b" type="sign">
-				<lb/>同様のことが書いてある </div1>
+				<lb/>
+				同様のことが書いてある			</div1>
 		</body>
 	</text>
 </TEI>

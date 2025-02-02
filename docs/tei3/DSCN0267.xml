@@ -1,49 +1,54 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0267</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1746/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1746/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/82a7581de49c02e600f23cf386ae5bf10c848332.jpg" />
-<zone lrx="1964" lry="2578" ulx="93" uly="35" xml:id="zone_vlw_f35_xjb" />
-<zone lrx="1316" lry="2535" ulx="1085" uly="2310" xml:id="zone_zsx_g35_xjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1746/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2a592aa2155a9ce5ba939a8fd940b2c90192b4c5.jpg" />
-<zone lrx="2283" lry="912" ulx="71" uly="200" xml:id="zone_fgg_335_xjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_vlw_f35_xjb" type="mürāsele">
-<p>
-<lb />... fī <date type="created" when="1834-01-08" when-custom="1249-08-27">27 Ş sene 249</date><lb />
-</p>
-<div2 type="sign">
-<div3 facs="#zone_zsx_g35_xjb" type="stamp">
-<p>
-<lb />... Mustafa ...<lb />
-</p>
-</div3>
-</div2>
-</div1>
-<div1 facs="#zone_fgg_335_xjb" type="summary_Croatian">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0267</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0267.JPG"/>
+			<zone ulx="35" uly="35" lrx="1964" lry="2578" xml:id="zone_vlw_f35_xjb"/>
+			<zone ulx="2310" uly="2310" lrx="1316" lry="2535" xml:id="zone_zsx_g35_xjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0268.JPG"/>
+			<zone ulx="200" uly="200" lrx="2283" lry="912" xml:id="zone_fgg_335_xjb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_vlw_f35_xjb" type="mürāsele">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1834-01-08" when-custom="1249-08-27">27 Ş sene 249</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_zsx_g35_xjb" type="stamp">
+						<p>
+							<lb/>
+							... Mustafa ...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_fgg_335_xjb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

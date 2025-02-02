@@ -1,0 +1,50 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0511</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2918/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2918/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ae0f0c2364a451c06d3765daf32babd4a205875c.jpg" />
+        <zone lrx="1608" lry="3133" ulx="367" uly="116" xml:id="zone_qqf_3wc_2mb" />
+        <zone lrx="1097" lry="818" ulx="450" uly="173" xml:id="zone_obk_jwc_2mb" />
+        <zone lrx="873" lry="800" ulx="657" uly="639" xml:id="zone_ajb_kwc_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_qqf_3wc_2mb" type="hüccet">
+        <p>
+          <lb />
+          <lb />... hurira fī <date type="created" when="1748-09-21" when-custom="1161-09">Ramazānı'l-mubārek sene ahad ve sittin ve mie ve elif</date>
+        </p>
+        <div2 facs="#zone_obk_jwc_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_ajb_kwc_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,57 +17,68 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1409/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1409/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e3549641576e002c709512ce567c31600014c81d.jpg"/>
-				<zone lrx="2142" lry="2991" ulx="258" uly="150" xml:id="zone_i3p_bgw_cjb"/>
-				<zone lrx="583" lry="2913" ulx="328" uly="2722" xml:id="zone_qpq_cgw_cjb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1409/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3de01f80544652a1c3e0b864f7a4a67dae00ff6b.jpg"/>
-				<zone lrx="2945" lry="1122" ulx="312" uly="533" xml:id="zone_plt_dgw_cjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1879.JPG"/>
+			<zone ulx="150" uly="150" lrx="2142" lry="2991" xml:id="zone_i3p_bgw_cjb"/>
+			<zone ulx="2722" uly="2722" lrx="583" lry="2913" xml:id="zone_qpq_cgw_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1880.JPG"/>
+			<zone ulx="533" uly="533" lrx="2945" lry="1122" xml:id="zone_plt_dgw_cjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="unknown" facs="#zone_i3p_bgw_cjb" type="EMIN">
 				<p>
-					<lb/>Hüve
 					<lb/>
-					<lb/>Bāʿis ... hurūf budur ki
-					<lb/>
-					<lb/>madīne-i Saray Bosna kazā ... Foyniçe nāhiyesine tābiʿ varoş Kirşevo'da vākiʿ kinisada mütemekkinlerin rāhiblerinden
-					<lb/>
-					<lb/>YOSB ve Anton ve GORU ve sā'irlere ... beş sene hizmet eyledüğüm ... mezkūre
-					<lb/>
-					<lb/>hizmet mukābelesinde bi-... Müslimīn ... geldi yüz elli guruş ... mesfūrdan rāhiblerden taleb ve ...
-					<lb/>
-					<lb/>eylediğide ... hālā Müslimūn altmış beş guruş
-					<lb/>
-					<lb/>.... eylediğimizde mesfūrdan rāhibler taraflarından sulh mezkūre ve ... olan madīne-i Saray'da
-					<lb/>
-					<lb/>... mahallesi mütemekkinlerinden ... bedel-i sulh olan meblağ-ı mezkūr altmış beş guruş akçe ... ve teslīm
-					<lb/>
-					<lb/>... yedinden beş senenin ... mukābelesinde yedinden ahz ve kabūl ve mesfūrdan YOSB ve ʿAnton ve GORU
-					<lb/>
-					<lb/>ve sā'irlerinin zimmetlerinde bir akçe ve bir habbe ...
+					Hüve
 					<lb/>
 					<lb/>
+					Bāʿis ... hurūf budur ki
 					<lb/>
-					<lb/>... fī <date type="created" when="1786-06-17" when-custom="1200-08-20">20 Şaʿabān sene 1200</date>
+					<lb/>
+					madīne-i Saray Bosna kazā ... Foyniçe nāhiyesine tābiʿ varoş Kirşevo'da vākiʿ kinisada mütemekkinlerin rāhiblerinden
+					<lb/>
+					<lb/>
+					YOSB ve Anton ve GORU ve sā'irlere ... beş sene hizmet eyledüğüm ... mezkūre
+					<lb/>
+					<lb/>
+					hizmet mukābelesinde bi-... Müslimīn ... geldi yüz elli guruş ... mesfūrdan rāhiblerden taleb ve ...
+					<lb/>
+					<lb/>
+					eylediğide ... hālā Müslimūn altmış beş guruş
+					<lb/>
+					<lb/>
+					.... eylediğimizde mesfūrdan rāhibler taraflarından sulh mezkūre ve ... olan madīne-i Saray'da
+					<lb/>
+					<lb/>
+					... mahallesi mütemekkinlerinden ... bedel-i sulh olan meblağ-ı mezkūr altmış beş guruş akçe ... ve teslīm
+					<lb/>
+					<lb/>
+					... yedinden beş senenin ... mukābelesinde yedinden ahz ve kabūl ve mesfūrdan YOSB ve ʿAnton ve GORU
+					<lb/>
+					<lb/>
+					ve sā'irlerinin zimmetlerinde bir akçe ve bir habbe ...
+					<lb/>
+					<lb/>
+					<lb/>
+					<lb/>
+					... fī					<date type="created" when="1786-06-17" when-custom="1200-08-20">20 Şaʿabān sene 1200</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_qpq_cgw_cjb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_plt_dgw_cjb" type="summary_Croatian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

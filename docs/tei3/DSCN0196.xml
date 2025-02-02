@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,65 +20,96 @@
 			<textClass>
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
-		</profileDesc>		
+		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1676/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/80b05c49324be1de45a53b7690cb30fccd0b049d.jpg" n="https://diyhistory.org/public/phr2/iiif/1676/canvas/p1"/>
-				<zone xml:id="zone_zbq_2yt_3jb" lry="2800" lrx="2400" uly="66" ulx="92"/>
-				<zone xml:id="zone_jpf_gyt_3jb" lry="2612" lrx="696" uly="2203" ulx="406"/>
-				<zone xml:id="zone_sqh_yys_wqb" lry="1345" lrx="614" uly="1220" ulx="397"/>
-				<zone xml:id="zone_mpc_kzs_wqb" lry="1470" lrx="357" uly="1324" ulx="122"/>
-				<zone xml:id="zone_i22_tbt_wqb" lry="2706" lrx="2248" uly="2354" ulx="1954"/>
-				<zone xml:id="zone_f52_5bt_wqb" lry="2510" lrx="2306" uly="2177" ulx="1946"/>
-				<zone xml:id="zone_jj3_vbt_wqb" lry="2455" lrx="2379" uly="1990" ulx="1952"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1676/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b78f3ffbb60c5505f9a85200cf4c5ea775d07271.jpg"/>
-				<zone lrx="2857" lry="2022" ulx="178" uly="664" xml:id="zone_ygc_3yt_3jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0196.JPG"/>
+			<zone ulx="66" uly="66" lrx="2400" lry="2800" xml:id="zone_zbq_2yt_3jb"/>
+			<zone ulx="2203" uly="2203" lrx="696" lry="2612" xml:id="zone_jpf_gyt_3jb"/>
+			<zone ulx="1220" uly="1220" lrx="614" lry="1345" xml:id="zone_sqh_yys_wqb"/>
+			<zone ulx="1324" uly="1324" lrx="357" lry="1470" xml:id="zone_mpc_kzs_wqb"/>
+			<zone ulx="2354" uly="2354" lrx="2248" lry="2706" xml:id="zone_i22_tbt_wqb"/>
+			<zone ulx="2177" uly="2177" lrx="2306" lry="2510" xml:id="zone_f52_5bt_wqb"/>
+			<zone ulx="1990" uly="1990" lrx="2379" lry="2455" xml:id="zone_jj3_vbt_wqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0198.JPG"/>
+			<zone ulx="664" uly="664" lrx="2857" lry="2022" xml:id="zone_ygc_3yt_3jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_tezkire" facs="#zone_zbq_2yt_3jb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date when-custom="1266" when="1850-11-04">iki yüz altmış altı senesinde</date> maʿaden-i āhen mukātaʿası(?)... iʿtā ʿuhdemizde
-					<lb/>bulunan müslimīn cemāʿatda ve ... hudūd dāhilinde mülk maʿdeni <placeName facs="#zone_sqh_yys_wqb">ÜSTÜBEC</placeName> (white lead) demekle sekiz
-					<lb/>... mülk maʿdeninde ve ormanda <placeName>Kirşevo</placeName> varoş mütavattınlarından zimmī <persName facs="#zone_mpc_kzs_wqb">BRANUBALI</persName>
-					<lb/>nām-ı mesfūr mutasarrıf eyledüğü işbu dārende-i hurūf <placeName>Kirşevo</placeName> varoş kilisadan <persName>gardiyān</persName>
-					<lb/>nām-ı ruhbān yüz guruş bedeli mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp ol dahi
-					<lb/>kabūl bizim dahi me'mūrımız hasebiyle ... mülk ve orman-ı
-					<lb/>mezkūrda ... mutasarrıf olan resm-i tezkire baʿde'l-ahz gardiyāna tafvīz
-					<lb/>ve yedine işbu zabt-ı tezkire virdim tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ ve müdāhale
-					<lb/>olunmaya fī <date when-custom="1266-10-15" type="created" when="1850-08-23">15 L sene 66</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date when-custom="1266" when="1850-11-04">iki yüz altmış altı senesinde</date>
+					 maʿaden-i āhen mukātaʿası(?)... iʿtā ʿuhdemizde
+					<lb/>
+					bulunan müslimīn cemāʿatda ve ... hudūd dāhilinde mülk maʿdeni					<placeName facs="#zone_sqh_yys_wqb">ÜSTÜBEC</placeName>
+					 (white lead) demekle sekiz
+					<lb/>
+					... mülk maʿdeninde ve ormanda					<placeName>Kirşevo</placeName>
+					 varoş mütavattınlarından zimmī					<persName facs="#zone_mpc_kzs_wqb">BRANUBALI</persName>
+					<lb/>
+					nām-ı mesfūr mutasarrıf eyledüğü işbu dārende-i hurūf					<placeName>Kirşevo</placeName>
+					 varoş kilisadan					<persName>gardiyān</persName>
+					<lb/>
+					nām-ı ruhbān yüz guruş bedeli mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp ol dahi
+					<lb/>
+					kabūl bizim dahi me'mūrımız hasebiyle ... mülk ve orman-ı
+					<lb/>
+					mezkūrda ... mutasarrıf olan resm-i tezkire baʿde'l-ahz gardiyāna tafvīz
+					<lb/>
+					ve yedine işbu zabt-ı tezkire virdim tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ ve müdāhale
+					<lb/>
+					olunmaya fī					<date when-custom="1266-10-15" type="created" when="1850-08-23">15 L sene 66</date>
 				</p>
 				<div2 type="sign" facs="#zone_jpf_gyt_3jb">
 					<p>
-						<lb/>El-me'mūr
-						<lb/><persName>Mehmed</persName> Emīn-i Mukā-
-						<lb/>taʿa-i <placeName>Kirşevo</placeName>
-						<lb/>Hālā
-						<lb/>M </p>
+						<lb/>
+						El-me'mūr
+						<lb/>
+						<persName>Mehmed</persName>
+						 Emīn-i Mukā-
+						<lb/>
+						taʿa-i						<placeName>Kirşevo</placeName>
+						<lb/>
+						Hālā
+						<lb/>
+						M					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>Zimmī <persName facs="#zone_i22_tbt_wqb">PTOŞUYIK</persName>
-						<lb/>Zimmī <persName facs="#zone_f52_5bt_wqb">TONAYAN</persName>
-						<lb/>Zimmī <persName facs="#zone_jj3_vbt_wqb">İlya</persName> Kara Īwān ...
-						<lb/>ve garyihim </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						Zimmī						<persName facs="#zone_i22_tbt_wqb">PTOŞUYIK</persName>
+						<lb/>
+						Zimmī						<persName facs="#zone_f52_5bt_wqb">TONAYAN</persName>
+						<lb/>
+						Zimmī						<persName facs="#zone_jj3_vbt_wqb">İlya</persName>
+						 Kara Īwān ...
+						<lb/>
+						ve garyihim					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_ygc_3yt_3jb">
 				<p>
-					<lb/>Od Eminavca Gaja po čerjeka taj
-					<lb/>osmo hise. <date when="1850" type="summary_Croatian">1850</date>. - <date when-custom="1266" type="summary_Croatian" when="1850-11-04">1266</date>.
-					<lb/>Nno. 4.
-					<lb/>... </p>
+					<lb/>
+					Od Eminavca Gaja po čerjeka taj
+					<lb/>
+					osmo hise.					<date when="1850" type="summary_Croatian">1850</date>
+					. -					<date when-custom="1266" type="summary_Croatian" when="1850-11-04">1266</date>
+					.
+					<lb/>
+					Nno. 4.
+					<lb/>
+					...				</p>
 			</div1>
 		</body>
 	</text>

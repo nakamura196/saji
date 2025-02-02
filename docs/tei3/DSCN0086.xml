@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,63 +14,100 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1570/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1570/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8dcff4e74ca68f579ff96c8325105b3d3aff6f4c.jpg"/>
-				<zone lrx="2408" lry="3141" ulx="58" uly="816" xml:id="zone_srj_xmz_k3b"/>
-				<zone lrx="851" lry="2995" ulx="504" uly="2716" xml:id="zone_ldc_tr5_2jb"/>
-				<zone lrx="509" lry="3053" ulx="197" uly="2709" xml:id="zone_mzw_tr5_2jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1570/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9ed1e0100c0714a5a28ae5fbe6ce04d4b0daea0a.jpg"/>
-				<zone lrx="3206" lry="1105" ulx="112" uly="700" xml:id="zone_fdr_zmz_k3b"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0086.JPG"/>
+			<zone ulx="816" uly="816" lrx="2408" lry="3141" xml:id="zone_srj_xmz_k3b"/>
+			<zone ulx="2716" uly="2716" lrx="851" lry="2995" xml:id="zone_ldc_tr5_2jb"/>
+			<zone ulx="2709" uly="2709" lrx="509" lry="3053" xml:id="zone_mzw_tr5_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0087.JPG"/>
+			<zone ulx="700" uly="700" lrx="3206" lry="1105" xml:id="zone_fdr_zmz_k3b"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_" cert="low" facs="#zone_srj_xmz_k3b">
 				<p>
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>İşbu <date type="created" when="1880-12-02" when-custom="1297">iki yüz doksan yedi senesinde</date> der ʿuhde ve iltizāmımızda
-					<lb/>bulunan <placeName type="proper">Kirşevo</placeName> mukātaʿası kurālarında <placeName cert="low" type="proper">Düzce</placeName> karyesi hudūdunda
-					<lb/>dāhilinde ʿarz-ı mīrīsi mutasarrıflarında <placeName cert="unknown" type="proper">KOYSINE</placeName> karye sākinlerinden
-					<lb/><persName>kız-ı ... bint-i YVRU</persName> nām nasrāniye kend-i taht-ı tasarrrıfnda
-					<lb/>olan bir kıtʿa çayır tarlası <placeName>BHUŞİÇ</placeName> demekle tarafeyn oramn
-					<lb/>ve tarafa sālis yörük tarlası ve taraf-ı rābiʿ müşter-i mezbūri
-					<lb/>tarasına varınca işbu dārende-i hurūf <placeName>Kirşevo</placeName> kirisaya sākin
-					<lb/>ruhbānları nāmān ruhbānları resmiyle beş buçuk esedī
-					<lb/>guruş mukābelesinde beyʿ katʿiyle beyʿ edüp ol dahi
-					<lb/>beyʿ ve kabūl edüp biz dahi <sic>merıyetmz</sic><corr>me'mūriyetimiz</corr> hasebiyle beyʿlerine
-					<lb/>cāiz görüp ve yedlerine işbu zabt
-					<lb/>maʿrifet <sic>viraldi</sic><corr>virildi</corr> tasarrıfına kimesne
-					<lb/>māniʿ ve müdāhale olunmaya
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					İşbu					<date type="created" when="1880-12-02" when-custom="1297">iki yüz doksan yedi senesinde</date>
+					 der ʿuhde ve iltizāmımızda
+					<lb/>
+					bulunan					<placeName type="proper">Kirşevo</placeName>
+					 mukātaʿası kurālarında					<placeName cert="low" type="proper">Düzce</placeName>
+					 karyesi hudūdunda
+					<lb/>
+					dāhilinde ʿarz-ı mīrīsi mutasarrıflarında					<placeName cert="unknown" type="proper">KOYSINE</placeName>
+					 karye sākinlerinden
+					<lb/>
+					<persName>kız-ı ... bint-i YVRU</persName>
+					 nām nasrāniye kend-i taht-ı tasarrrıfnda
+					<lb/>
+					olan bir kıtʿa çayır tarlası					<placeName>BHUŞİÇ</placeName>
+					 demekle tarafeyn oramn
+					<lb/>
+					ve tarafa sālis yörük tarlası ve taraf-ı rābiʿ müşter-i mezbūri
+					<lb/>
+					tarasına varınca işbu dārende-i hurūf					<placeName>Kirşevo</placeName>
+					 kirisaya sākin
+					<lb/>
+					ruhbānları nāmān ruhbānları resmiyle beş buçuk esedī
+					<lb/>
+					guruş mukābelesinde beyʿ katʿiyle beyʿ edüp ol dahi
+					<lb/>
+					beyʿ ve kabūl edüp biz dahi					<sic>merıyetmz</sic>
+					<corr>me'mūriyetimiz</corr>
+					 hasebiyle beyʿlerine
+					<lb/>
+					cāiz görüp ve yedlerine işbu zabt
+					<lb/>
+					maʿrifet					<sic>viraldi</sic>
+					<corr>virildi</corr>
+					 tasarrıfına kimesne
+					<lb/>
+					māniʿ ve müdāhale olunmaya
 				</p>
 				<div2 type="sign" facs="#zone_ldc_tr5_2jb">
 					<p>
-						<lb/>El-Fakīr
-						<lb/>Sālih Emin-i
-						<lb/>Kirşevo </p>
+						<lb/>
+						El-Fakīr
+						<lb/>
+						Sālih Emin-i
+						<lb/>
+						Kirşevo					</p>
 				</div2>
 				<div2 type="sign" facs="#zone_mzw_tr5_2jb">
 					<p>
-						<lb/>el-Fakīr
-						<lb/>el-Hāmī Mehmed
-						<lb/>Emin-i Kirşevo </p>
+						<lb/>
+						el-Fakīr
+						<lb/>
+						el-Hāmī Mehmed
+						<lb/>
+						Emin-i Kirşevo					</p>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>Mollā Hamdī
-						<lb/>Mollā Sālih
-						<lb/>Zİmmī MATOLALK
-						<lb/>Zimmī ʿANDRIYE TOMAK
-						<lb/>Zimmī ... </p>
+						<lb/>
+						Mollā Hamdī
+						<lb/>
+						Mollā Sālih
+						<lb/>
+						Zİmmī MATOLALK
+						<lb/>
+						Zimmī ʿANDRIYE TOMAK
+						<lb/>
+						Zimmī ...					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_fdr_zmz_k3b">
 				<p>
-					<lb/><date type="summary_Croatian" when="1783">1783</date> ...
-					<lb/>... </p>
+					<lb/>
+					<date type="summary_Croatian" when="1783">1783</date>
+					 ...
+					<lb/>
+					...				</p>
 			</div1>
 		</body>
 	</text>

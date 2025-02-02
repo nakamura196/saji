@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,25 +14,25 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2293/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2293/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5ce8f4b89d0a74ae8e700f3ec1b45a5ebcf3e091.jpg"/>
-				<zone lrx="1850" lry="2916" ulx="492" uly="1358" xml:id="zone_kjn_b3g_zlb"/>
-				<zone lrx="984" lry="2835" ulx="571" uly="2587" xml:id="zone_pgv_c3g_zlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9369.JPG"/>
+			<zone ulx="1358" uly="1358" lrx="1850" lry="2916" xml:id="zone_kjn_b3g_zlb"/>
+			<zone ulx="2587" uly="2587" lrx="984" lry="2835" xml:id="zone_pgv_c3g_zlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_kjn_b3g_zlb" type="unkown">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 					<date cert="low" type="created" when="1782-12-05" when-custom="1196">sene 1196</date>
 				</p>
 				<div2 facs="#zone_pgv_c3g_zlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>

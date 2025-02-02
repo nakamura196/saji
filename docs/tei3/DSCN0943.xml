@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,26 +21,26 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1060/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1060/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/749887ca5ab2b06d5e7f4825df04da826364a9f9.jpg"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1060/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2760194f448c54fa7cbb4a22d65b950e4512dad4.jpg"/>
-				<zone lrx="2828" lry="1466" ulx="456" uly="738" xml:id="zone_bzd_w1z_y3b"/>
-				<zone lrx="1100" lry="1436" ulx="876" uly="1226" xml:id="zone_vcw_x1z_y3b"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1060/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/8e588af5d8f3c2a1d1e6c7b2160acc4709383751.jpg"/>
-				<zone lrx="2612" lry="672" ulx="1978" uly="150" xml:id="zone_xwb_1bz_y3b"/>
-				<zone lrx="2684" lry="1972" ulx="1928" uly="666" xml:id="zone_m2f_bbz_y3b"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0943.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0944.JPG"/>
+			<zone ulx="738" uly="738" lrx="2828" lry="1466" xml:id="zone_bzd_w1z_y3b"/>
+			<zone ulx="1226" uly="1226" lrx="1100" lry="1436" xml:id="zone_vcw_x1z_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0945.JPG"/>
+			<zone ulx="150" uly="150" lrx="2612" lry="672" xml:id="zone_xwb_1bz_y3b"/>
+			<zone ulx="666" uly="666" lrx="2684" lry="1972" xml:id="zone_m2f_bbz_y3b"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_bzd_w1z_y3b" type="tezkire">
-				<l>Fī <date cert="unknown" type="created" when="1839-03-14" when-custom="1254">... 254</date></l>
+				<l>
+					Fī					<date cert="unknown" type="created" when="1839-03-14" when-custom="1254">... 254</date>
+				</l>
 				<div3 facs="#zone_vcw_x1z_y3b" type="stamp"/>
 			</div1>
 			<div1 cert="unknown" facs="#zone_xwb_1bz_y3b" type="unkown"/>

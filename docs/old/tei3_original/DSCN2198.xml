@@ -1,0 +1,40 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2198</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2526/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2526/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0c139eb17cf6976f8cc4ac0e7c06622eb4c57cc7.jpg" />
+        <zone lrx="1390" lry="3190" ulx="150" uly="290" xml:id="zone_lsy_yqy_cmb" />
+        <zone lrx="628" lry="3161" ulx="307" uly="2880" xml:id="zone_xhd_bry_cmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_lsy_yqy_cmb" type="mürāsele">
+        <p>
+          <lb />... hurira fī <date type="created" when="1770-09-06" when-custom="1184-05-16">16 Ca sene 1184</date><lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_xhd_bry_cmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

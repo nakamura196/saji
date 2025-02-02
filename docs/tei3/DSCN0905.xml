@@ -1,14 +1,15 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0905</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0905</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
           "1246-Ş-25" ], "saji:date_M": [ "1831-02-08" ], "saji:foldingMethod": [ "8" ],
           "saji:fond": [ "Tursko 1" ], "saji:item": [ "本文", "証人", "オスマン朝スタンプ", "クレシェヴォのスタンプ" ],
           "saji:lang": [ "ota" ], "saji:lineage": [ "20" ], "saji:memo": [ "冒頭左上に、特徴的な形をした4行の定型文",
@@ -18,29 +19,30 @@
           ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "1" ], "saji:transcription": [ "Madīna-i
           Saray Bosna ḳażāsı ... Foyniçe nāḥiyesine tābiʿ Kreşevo ...\nmeks̱ eden ... ḳażāsıda
           reʿāyāsından işbu ...\nmeclis-i şerʿ ... \nmezbūrede" ], "saji:type": [ "hüccet" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1023/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1023/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ae8c79e18fd215688b7f1643795f8b742a391241.jpg" />
-<zone lrx="1610" lry="3217" ulx="665" uly="432" xml:id="zone_vpp_lgy_y3b" />
-<zone lrx="978" lry="893" ulx="841" uly="784" xml:id="zone_tp4_ngy_y3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1023/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4ef45781b688e6aa5b4364a457d537a5fd36065a.jpg" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_vpp_lgy_y3b" type="hüccet">
-<l>hurrir<date type="created" when="1831-02-07" when-custom="1246-08-25"> fī'-l yevmi'l-hamīs ve ʿaşrayn min Şaʿabān el-...
-            sene sitte ve arbaʿīn</date></l>
-<l>ve miyetein ve elif ... </l>
-<div3 facs="#zone_tp4_ngy_y3b" type="stamp" />
-</div1>
-</body>
-</text>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0905.JPG"/>
+			<zone ulx="432" uly="432" lrx="1610" lry="3217" xml:id="zone_vpp_lgy_y3b"/>
+			<zone ulx="784" uly="784" lrx="978" lry="893" xml:id="zone_tp4_ngy_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0906.JPG"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_vpp_lgy_y3b" type="hüccet">
+				<l>
+					hurrir
+					<date type="created" when="1831-02-07" when-custom="1246-08-25"> fī'-l yevmi'l-hamīs ve ʿaşrayn min Şaʿabān el-...
+            sene sitte ve arbaʿīn</date>
+				</l>
+				<l>ve miyetein ve elif ... </l>
+				<div3 facs="#zone_tp4_ngy_y3b" type="stamp"/>
+			</div1>
+		</body>
+	</text>
 </TEI>

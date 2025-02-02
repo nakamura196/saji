@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,45 +17,48 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1489/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1489/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8ad5d329323722c3e989a0a123a2c1e988ff0048.jpg"/>
-				<zone lrx="1591" lry="2978" ulx="183" uly="2016" xml:id="zone_ijp_m42_djb"/>
-				<zone lrx="545" lry="2890" ulx="185" uly="2709" xml:id="zone_vns_442_djb"/>
-				<zone lrx="1928" lry="2305" ulx="200" uly="311" xml:id="zone_v5p_q42_djb"/>
-				<zone lrx="2183" lry="2872" ulx="1469" uly="1280" xml:id="zone_gb1_s42_djb"/>
-				<zone lrx="1771" lry="2858" ulx="1576" uly="2704" xml:id="zone_th4_542_djb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1959.JPG"/>
+			<zone ulx="2016" uly="2016" lrx="1591" lry="2978" xml:id="zone_ijp_m42_djb"/>
+			<zone ulx="2709" uly="2709" lrx="545" lry="2890" xml:id="zone_vns_442_djb"/>
+			<zone ulx="311" uly="311" lrx="1928" lry="2305" xml:id="zone_v5p_q42_djb"/>
+			<zone ulx="1280" uly="1280" lrx="2183" lry="2872" xml:id="zone_gb1_s42_djb"/>
+			<zone ulx="2704" uly="2704" lrx="1771" lry="2858" xml:id="zone_th4_542_djb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_ijp_m42_djb" type="iʿlām">
 				<p>
-					<lb/>... fī <date cert="low" type="created" when="1803-08-04" when-custom="1218-04-16">16 R sene 218</date>
+					<lb/>
+					... fī					<date cert="low" type="created" when="1803-08-04" when-custom="1218-04-16">16 R sene 218</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_vns_442_djb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_v5p_q42_djb" type="buyuruldu">
 				<p>
-					<lb/>... fī <date cert="unknown" type="created" when="1804-04-03" when-custom="1218--23">23 ... sene 218</date>
+					<lb/>
+					... fī					<date cert="unknown" type="created" when="1804-04-03" when-custom="1218--23">23 ... sene 218</date>
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_gb1_s42_djb" type="iʿlām">
 				<p>
-					<lb/>... fī <date cert="low" type="created" when="1803-11-01" when-custom="1218-07-17">17 B sene 1218</date>
+					<lb/>
+					... fī					<date cert="low" type="created" when="1803-11-01" when-custom="1218-07-17">17 B sene 1218</date>
 					<lb/>
 				</p>
 				<div3 facs="#zone_th4_542_djb" type="stamp">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div3>

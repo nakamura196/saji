@@ -1,64 +1,72 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0560</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2965/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2965/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/19ba35abf39c2dc465fb0f978e2872f9830f40fb.jpg" />
-        <zone lrx="1716" lry="3095" ulx="233" uly="1837" xml:id="zone_k4v_cdj_2mb" />
-        <zone lrx="636" lry="3076" ulx="343" uly="2841" xml:id="zone_i3z_ddj_2mb" />
-        <zone lrx="1945" lry="2245" ulx="209" uly="181" xml:id="zone_vwb_gdj_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2965/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/dd2ba000ed0dfecbe8bc566c4e7324f4e0978d4f.jpg" />
-        <zone lrx="2804" lry="434" ulx="2330" uly="146" xml:id="zone_u3l_3dj_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2965/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/9af1464babc8cc3e89ef4429250d9cf2038e7eca.jpg" />
-        <zone lrx="3067" lry="1411" ulx="223" uly="583" xml:id="zone_pbk_jdj_2mb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_k4v_cdj_2mb" next="#zone_vwb_gdj_2mb" type="ʿarz-ıhāl">
-        <p>
-          <lb />...<lb />
-        </p>
-        <div2 facs="#zone_i3z_ddj_2mb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_vwb_gdj_2mb" next="#zone_pbk_jdj_2mb" type="buyuruldu">
-        <p>
-          <lb />
-          <lb />... fī <date type="created" when="1810-11-24" when-custom="1225-10-27">27 L sene 225</date>
-        </p>
-      </div1>
-      <div1 facs="#zone_pbk_jdj_2mb" next="#zone_u3l_3dj_2mb" type="summary_Croatian">
-        <p>
-          <lb />...
-          <lb />... <date type="summary_Croatian" when="1800">1800</date>
-        </p>
-      </div1>
-      <div1 facs="#zone_u3l_3dj_2mb" type="note_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0560</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0560.JPG"/>
+			<zone ulx="1837" uly="1837" lrx="1716" lry="3095" xml:id="zone_k4v_cdj_2mb"/>
+			<zone ulx="2841" uly="2841" lrx="636" lry="3076" xml:id="zone_i3z_ddj_2mb"/>
+			<zone ulx="181" uly="181" lrx="1945" lry="2245" xml:id="zone_vwb_gdj_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0561.JPG"/>
+			<zone ulx="146" uly="146" lrx="2804" lry="434" xml:id="zone_u3l_3dj_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0562.JPG"/>
+			<zone ulx="583" uly="583" lrx="3067" lry="1411" xml:id="zone_pbk_jdj_2mb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_k4v_cdj_2mb" next="#zone_vwb_gdj_2mb" type="ʿarz-ıhāl">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+				<div2 facs="#zone_i3z_ddj_2mb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_vwb_gdj_2mb" next="#zone_pbk_jdj_2mb" type="buyuruldu">
+				<p>
+					<lb/>
+					<lb/>
+					... fī					<date type="created" when="1810-11-24" when-custom="1225-10-27">27 L sene 225</date>
+				</p>
+			</div1>
+			<div1 facs="#zone_pbk_jdj_2mb" next="#zone_u3l_3dj_2mb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+					...					<date type="summary_Croatian" when="1800">1800</date>
+				</p>
+			</div1>
+			<div1 facs="#zone_u3l_3dj_2mb" type="note_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

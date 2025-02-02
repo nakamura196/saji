@@ -1,60 +1,69 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2143</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2471/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2471/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a52d54b9e94ff9e99e7e2c549bdcb41aadfe57f3.jpg" />
-        <zone lrx="2318" lry="2963" ulx="227" uly="0" xml:id="zone_bcn_lkk_cmb" />
-        <zone lrx="617" lry="2928" ulx="250" uly="2504" xml:id="zone_kl1_nkk_cmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2471/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/60c1ff3eaff2f54b23d66c05ce128e24158ecd54.jpg" />
-        <zone lrx="2104" lry="2912" ulx="1833" uly="2662" xml:id="zone_g2l_4kk_cmb" />
-        <zone lrx="2233" lry="1508" ulx="404" uly="237" xml:id="zone_bdp_pkk_cmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_bcn_lkk_cmb" next="#zone_bdp_pkk_cmb" subtype="tezkire" type="EMIN">
-        <p>
-          <lb />işbu <date type="created" when="0672-11-27" when-custom="1252">bin iki yüz elli iki senesinde</date> Kirşevo ... 
-          <lb />
-        </p>
-        <div2 facs="#zone_kl1_nkk_cmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_g2l_4kk_cmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_bdp_pkk_cmb" type="summary_Croatian">
-        <p>
-          <lb />... Nno 26.
-          <lb /><date type="summary_Croatian" when="0672-11-27" when-custom="1252">1252</date>.
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2143</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2143.JPG"/>
+			<zone ulx="0" uly="0" lrx="2318" lry="2963" xml:id="zone_bcn_lkk_cmb"/>
+			<zone ulx="2504" uly="2504" lrx="617" lry="2928" xml:id="zone_kl1_nkk_cmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2144.JPG"/>
+			<zone ulx="2662" uly="2662" lrx="2104" lry="2912" xml:id="zone_g2l_4kk_cmb"/>
+			<zone ulx="237" uly="237" lrx="2233" lry="1508" xml:id="zone_bdp_pkk_cmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_bcn_lkk_cmb" next="#zone_bdp_pkk_cmb" subtype="tezkire" type="EMIN">
+				<p>
+					<lb/>
+					işbu					<date type="created" when="0672-11-27" when-custom="1252">bin iki yüz elli iki senesinde</date>
+					 Kirşevo ...					<lb/>
+				</p>
+				<div2 facs="#zone_kl1_nkk_cmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_g2l_4kk_cmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_bdp_pkk_cmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					... Nno 26.
+					<lb/>
+					<date type="summary_Croatian" when="0672-11-27" when-custom="1252">1252</date>
+					.
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

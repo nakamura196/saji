@@ -1,38 +1,41 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2457</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2784/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2784/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/40216891387b378e1afee04060e3713e8d94586c.jpg" />
-        <zone lrx="1800" lry="2804" ulx="254" uly="1600" xml:id="zone_qbg_1sv_dmb" />
-        <zone lrx="793" lry="2774" ulx="342" uly="2468" xml:id="zone_j32_bsv_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_qbg_1sv_dmb" type="mürāsele">
-        <p>
-          <lb />... hurira fī <date type="created" when="1778-10-30" when-custom="1192-10-09">9 L sene 192</date><lb />
-        </p>
-        <div2 facs="#zone_j32_bsv_dmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2457</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2457.JPG"/>
+			<zone ulx="1600" uly="1600" lrx="1800" lry="2804" xml:id="zone_qbg_1sv_dmb"/>
+			<zone ulx="2468" uly="2468" lrx="793" lry="2774" xml:id="zone_j32_bsv_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_qbg_1sv_dmb" type="mürāsele">
+				<p>
+					<lb/>
+					... hurira fī					<date type="created" when="1778-10-30" when-custom="1192-10-09">9 L sene 192</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_j32_bsv_dmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

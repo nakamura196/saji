@@ -1,57 +1,68 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1739</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">【要】クロアチア語要約：日付の月が読み取れず、とりあえず5月ということにしてある。後で西暦を調べて再入力する。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1271/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1271/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/176e9d49c96b7997bf719f4a067c0e104ad5639e.jpg" />
-<zone lrx="1636" lry="3190" ulx="291" uly="554" xml:id="zone_elz_ydf_bjb" />
-<zone lrx="1062" lry="1234" ulx="575" uly="593" xml:id="zone_k2j_12f_bjb" />
-<zone lrx="887" lry="1221" ulx="678" uly="1040" xml:id="zone_sl2_b2f_bjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1271/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/5c8e6281e2f012d13fb76db85546bbedc255a228.jpg" />
-<zone lrx="2978" lry="1200" ulx="323" uly="555" xml:id="zone_v4l_c2f_bjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_elz_ydf_bjb" type="hüccet">
-<p>
-<lb />... <date type="created" when="1772-05-27" when-custom="1186-02-25">fi'l-yevmi'l-hāmis ve'l-ʿaşrīn<lb />
-<lb />min şehr Saferi'l-... sene sitte ve semānīn ve mie ve elif</date><lb />
-</p>
-<div2 facs="#zone_k2j_12f_bjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_sl2_b2f_bjb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-</div1>
-<div1 type="summary_Croatian">
-<p>
-<lb /><date cert="unknown" type="summary_Croatian" when="1772-05-28">1772 28 ...</date><lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1739</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">【要】クロアチア語要約：日付の月が読み取れず、とりあえず5月ということにしてある。後で西暦を調べて再入力する。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1739.JPG"/>
+			<zone ulx="554" uly="554" lrx="1636" lry="3190" xml:id="zone_elz_ydf_bjb"/>
+			<zone ulx="593" uly="593" lrx="1062" lry="1234" xml:id="zone_k2j_12f_bjb"/>
+			<zone ulx="1040" uly="1040" lrx="887" lry="1221" xml:id="zone_sl2_b2f_bjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1740.JPG"/>
+			<zone ulx="555" uly="555" lrx="2978" lry="1200" xml:id="zone_v4l_c2f_bjb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_elz_ydf_bjb" type="hüccet">
+				<p>
+					<lb/>
+					...					<date type="created" when="1772-05-27" when-custom="1186-02-25">
+						fi'l-yevmi'l-hāmis ve'l-ʿaşrīn
+						<lb/>
+						<lb/>
+						min şehr Saferi'l-... sene sitte ve semānīn ve mie ve elif
+					</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_k2j_12f_bjb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_sl2_b2f_bjb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian">
+				<p>
+					<lb/>
+					<date cert="unknown" type="summary_Croatian" when="1772-05-28">1772 28 ...</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

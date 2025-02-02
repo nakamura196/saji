@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,57 +17,82 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1995/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1995/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8fd4ebc127afe469726c20431993eed69edde1f1.jpg"/>
-				<zone lrx="3006" lry="1294" ulx="528" uly="872" xml:id="zone_iqv_x5s_flb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1995/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/17539bafc1f73322c4f18732c1671df3922fc374.jpg"/>
-				<zone lrx="2375" lry="3066" ulx="33" uly="233" xml:id="zone_tsy_z5s_flb"/>
-				<zone lrx="385" lry="3040" ulx="42" uly="2627" xml:id="zone_xrg_cvs_flb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9068.JPG"/>
+			<zone ulx="872" uly="872" lrx="3006" lry="1294" xml:id="zone_iqv_x5s_flb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9069.JPG"/>
+			<zone ulx="233" uly="233" lrx="2375" lry="3066" xml:id="zone_tsy_z5s_flb"/>
+			<zone ulx="2627" uly="2627" lrx="385" lry="3040" xml:id="zone_xrg_cvs_flb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_tsy_z5s_flb" next="#zone_iqv_x5s_flb" type="EMIN_zabt_tezkire">
 				<p>
-					<lb/>Hüve
-					<lb/>Bāʿis-i tahrīr-i hurūf budur ki
-					<lb/>işbu <date type="created" when="1796-07-04" when-custom="1210">bin iki yüz on senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo
-					<lb/>mukātaʿa mālikânesinde <placeName>BKAK</placeName> mahallesinde ... bir taraf-ı papazlarına
-					<lb/>ve taraf-ı sānī  papazlarına ve taraf-ı sālis ... Kirşevo ... 'ya ve taraf-ı rābiʿ tarīk-i ʿām
-					<lb/>mutasarrıf olan Kirşevo varoş mahallenin <placeName>BKAK</placeName> mahallesi mütemekkinlerinde zimmī <persName>YLAZ</persName>
-					<lb/>... maʿlūmu'l-hudūd işe ... hakk ve ... işbu dārende-i tezkire
-					<lb/>Kirşevo kilisanın baş rāhibi zimmī <persName>BAZALLA</persName> bedeli mukābelesinde on yedi(?) guruş
-					<lb/>resmiyle beyʿ katʿiyle beyʿ edüb ol dahi minvāl-i muharrer ... eyledikten sonra
-					<lb/>tarafımıza izin tezkire etmekile(?) bizede(?) me'mūrimiz hasebiyle tafvīz göre
-					<lb/>mā-dām ki be-her sene taraf mukātʿa mukātaʿa edā etmekle(?) işbu mesfūrūn
-					<lb/>yedine zabt tezkire virildi tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olmaya
+					<lb/>
+					Hüve
+					<lb/>
+					Bāʿis-i tahrīr-i hurūf budur ki
+					<lb/>
+					işbu					<date type="created" when="1796-07-04" when-custom="1210">bin iki yüz on senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan Kirşevo
+					<lb/>
+					mukātaʿa mālikânesinde					<placeName>BKAK</placeName>
+					 mahallesinde ... bir taraf-ı papazlarına
+					<lb/>
+					ve taraf-ı sānī  papazlarına ve taraf-ı sālis ... Kirşevo ... 'ya ve taraf-ı rābiʿ tarīk-i ʿām
+					<lb/>
+					mutasarrıf olan Kirşevo varoş mahallenin					<placeName>BKAK</placeName>
+					 mahallesi mütemekkinlerinde zimmī					<persName>YLAZ</persName>
+					<lb/>
+					... maʿlūmu'l-hudūd işe ... hakk ve ... işbu dārende-i tezkire
+					<lb/>
+					Kirşevo kilisanın baş rāhibi zimmī					<persName>BAZALLA</persName>
+					 bedeli mukābelesinde on yedi(?) guruş
+					<lb/>
+					resmiyle beyʿ katʿiyle beyʿ edüb ol dahi minvāl-i muharrer ... eyledikten sonra
+					<lb/>
+					tarafımıza izin tezkire etmekile(?) bizede(?) me'mūrimiz hasebiyle tafvīz göre
+					<lb/>
+					mā-dām ki be-her sene taraf mukātʿa mukātaʿa edā etmekle(?) işbu mesfūrūn
+					<lb/>
+					yedine zabt tezkire virildi tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olmaya
 				</p>
 				<div2 facs="#zone_xrg_cvs_flb" type="sign">
 					<p>
-						<lb/>...
-						<lb/>Dervīş
-						<lb/>Mehmed el-me'mūr
-						<lb/>M
+						<lb/>
+						...
+						<lb/>
+						Dervīş
+						<lb/>
+						Mehmed el-me'mūr
+						<lb/>
+						M
 					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>YLŞU Kara İbrāhīm Ağa ...
-						<lb/>Sālih ʿAlemdār el-hāccı KUGA...
-						<lb/>İSTUCLİ Mustafa Beşe
-						<lb/>Zimmī JUYU ʿAnton
-						<lb/>YAÇİK Peter
+						<lb/>
+						YLŞU Kara İbrāhīm Ağa ...
+						<lb/>
+						Sālih ʿAlemdār el-hāccı KUGA...
+						<lb/>
+						İSTUCLİ Mustafa Beşe
+						<lb/>
+						Zimmī JUYU ʿAnton
+						<lb/>
+						YAÇİK Peter
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_iqv_x5s_flb" type="summary_Croatian">
 				<p>
-					<lb/>Ovdje ... od ...
-					<lb/>... no. 10
+					<lb/>
+					Ovdje ... od ...
+					<lb/>
+					... no. 10
 				</p>
 			</div1>
 		</body>

@@ -1,0 +1,44 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0512</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2919/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2919/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e5c217664abbdc22c66ac6f40c320493236001b9.jpg" />
+        <zone lrx="2040" lry="2193" ulx="393" uly="33" xml:id="zone_op1_1xc_2mb" />
+        <zone lrx="1862" lry="2116" ulx="458" uly="687" xml:id="zone_oyc_bxc_2mb" />
+        <zone lrx="1307" lry="1675" ulx="1105" uly="1483" xml:id="zone_p12_cxc_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_op1_1xc_2mb" type="izin_tezkire">
+        <p>
+          <lb />... fī <date cert="low" type="created" when="1828-03-19" when-custom="1243-09-04">4 N sene 243</date><lb />
+        </p>
+        <div2 facs="#zone_oyc_bxc_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_p12_cxc_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

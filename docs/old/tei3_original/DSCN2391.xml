@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2391</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2719/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2719/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/62c9262d6aaac4c8ccf37258088a403c0d6c5f2b.jpg" />
+        <zone lrx="1547" lry="2815" ulx="439" uly="153" xml:id="zone_vjq_2xs_dmb" />
+        <zone lrx="730" lry="2696" ulx="450" uly="2486" xml:id="zone_xbd_gxs_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2719/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/02f582c42713831f2fca1def41c44639f6e1db5e.jpg" />
+        <zone lrx="708" lry="581" ulx="404" uly="316" xml:id="zone_xlx_hxs_dmb" />
+        <zone lrx="2207" lry="2500" ulx="277" uly="2185" xml:id="zone_iht_3xs_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_vjq_2xs_dmb" type="mürāsele">
+        <p>
+          <lb />... hurira fī <date cert="low" type="created" when="1777-10-28" when-custom="1191-09-27">27 Ramazān sene 1191</date><lb />
+        </p>
+        <div2 facs="#zone_xbd_gxs_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_xlx_hxs_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_iht_3xs_dmb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

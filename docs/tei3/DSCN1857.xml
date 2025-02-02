@@ -1,47 +1,52 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1857</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1387/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1387/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/070c393da61cce8c752f8c7b84491d6c1e3d6b57.jpg" />
-<zone lrx="1700" lry="2833" ulx="142" uly="16" xml:id="zone_vjp_wnq_cjb" />
-<zone lrx="728" lry="2814" ulx="326" uly="2526" xml:id="zone_gjf_ynq_cjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1387/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/eafbc262128dd8adda14a7fe0c163235cfdcf6ce.jpg" />
-<zone lrx="2728" lry="1022" ulx="489" uly="738" xml:id="zone_mzg_znq_cjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 cert="low" facs="#zone_vjp_wnq_cjb" type="mürāsele">
-<p>
-<lb />... fī <date type="created" when="1780-08-25" when-custom="1194-08-25">25 Ş sene 194</date><lb />
-</p>
-<div2 facs="#zone_gjf_ynq_cjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_mzg_znq_cjb" type="summary_Croatian">
-<p>
-<lb />... <date type="summary_Croatian" when="1780">1780</date><lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1857</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1857.JPG"/>
+			<zone ulx="16" uly="16" lrx="1700" lry="2833" xml:id="zone_vjp_wnq_cjb"/>
+			<zone ulx="2526" uly="2526" lrx="728" lry="2814" xml:id="zone_gjf_ynq_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1858.JPG"/>
+			<zone ulx="738" uly="738" lrx="2728" lry="1022" xml:id="zone_mzg_znq_cjb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_vjp_wnq_cjb" type="mürāsele">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1780-08-25" when-custom="1194-08-25">25 Ş sene 194</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_gjf_ynq_cjb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_mzg_znq_cjb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1780">1780</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

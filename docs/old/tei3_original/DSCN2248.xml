@@ -1,0 +1,50 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2248</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2576/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2576/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5540035a8c23796fef2baaa51588e9fc7b1b8e2b.jpg" />
+        <zone lrx="2189" lry="2016" ulx="106" uly="411" xml:id="zone_g5w_2qf_dmb" />
+        <zone lrx="1392" lry="1968" ulx="1068" uly="1657" xml:id="zone_c43_gqf_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2576/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3ad26d8a65065bae344d9cdd6fc619aa6d2a66f6.jpg" />
+        <zone lrx="2250" lry="1095" ulx="375" uly="279" xml:id="zone_gkz_hqf_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_g5w_2qf_dmb" next="#zone_gkz_hqf_dmb" type="tezkire">
+        <p>
+          <lb />... fī <date type="created" when="1841-08-24" when-custom="1257-07-07">7 B sene 57</date><lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_c43_gqf_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_gkz_hqf_dmb" type="summary_Croatian">
+        <p>
+          <lb />... 
+          <lb /><date type="summary_Croatian" when="1841">1841</date>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

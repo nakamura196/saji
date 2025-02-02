@@ -1,14 +1,15 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0947</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "D" ], "saji:calligraphy": [ "・Rıkʿa\r\n・プリント？" ],
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0947</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "D" ], "saji:calligraphy": [ "・Rıkʿa\r\n・プリント？" ],
           "saji:date_H": [ "1287-R-21" ], "saji:date_M": [ "1870-07-21" ], "saji:foldingMethod": [
           "4x2" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
           "・花押\r\n・本文\r\n・装飾と文字の塊（プリント？）\r\n・オスマン朝スタンプ\r\n・装飾" ], "saji:lang": [ "ota" ],
@@ -17,31 +18,31 @@
           "saji:number": [ "73？" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [
           "0" ], "saji:stamp_o": [ "1" ], "saji:type": [ "ṭapu senedi" ], "saji:witness": [ "0" ]
           }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1063/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1063/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1666d543a794c77d1d4c0428807e0e994dc55215.jpg" />
-<zone lrx="2025" lry="3200" ulx="275" uly="125" xml:id="zone_cnx_5bz_y3b" />
-<zone lrx="1552" lry="970" ulx="856" uly="377" xml:id="zone_s2m_wbz_y3b" />
-<zone lrx="1395" lry="2847" ulx="1118" uly="2556" xml:id="zone_sbq_xbz_y3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1063/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6fa3d60829d2e9df067572389e2a901192774d1c.jpg" />
-<zone lrx="1700" lry="562" ulx="508" uly="241" xml:id="zone_ktn_zbz_y3b" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_cnx_5bz_y3b" type="tapu_senedi">
-<l>Fī <date type="created" when="1870-07-20" when-custom="1287-04-21">21 Rebīʿ'l-āhir sene 1287</date></l>
-<div1 facs="#zone_s2m_wbz_y3b" type="tuğra" />
-<div3 facs="#zone_sbq_xbz_y3b" type="stamp" />
-</div1>
-<div1 facs="#zone_ktn_zbz_y3b" type="summary_Croatian" />
-</body>
-</text>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0947.JPG"/>
+			<zone ulx="125" uly="125" lrx="2025" lry="3200" xml:id="zone_cnx_5bz_y3b"/>
+			<zone ulx="377" uly="377" lrx="1552" lry="970" xml:id="zone_s2m_wbz_y3b"/>
+			<zone ulx="2556" uly="2556" lrx="1395" lry="2847" xml:id="zone_sbq_xbz_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0948.JPG"/>
+			<zone ulx="241" uly="241" lrx="1700" lry="562" xml:id="zone_ktn_zbz_y3b"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_cnx_5bz_y3b" type="tapu_senedi">
+				<l>
+					Fī					<date type="created" when="1870-07-20" when-custom="1287-04-21">21 Rebīʿ'l-āhir sene 1287</date>
+				</l>
+				<div1 facs="#zone_s2m_wbz_y3b" type="tuğra"/>
+				<div3 facs="#zone_sbq_xbz_y3b" type="stamp"/>
+			</div1>
+			<div1 facs="#zone_ktn_zbz_y3b" type="summary_Croatian"/>
+		</body>
+	</text>
 </TEI>

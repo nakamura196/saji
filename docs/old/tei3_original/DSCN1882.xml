@@ -1,0 +1,89 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1882</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1412/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1412/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/00693b9c683416a039682a0b62f9ab846ec02150.jpg"/>
+				<zone lrx="2018" lry="3245" ulx="409" uly="18" xml:id="zone_g4r_jqw_cjb"/>
+				<zone lrx="1912" lry="3165" ulx="1726" uly="2960" xml:id="zone_vgn_lqw_cjb"/>
+				<zone lrx="1901" lry="3158" ulx="1743" uly="3038" xml:id="zone_qs2_mqw_cjb"/>
+				<zone lrx="1480" lry="3149" ulx="1296" uly="2965" xml:id="zone_o41_nqw_cjb"/>
+				<zone lrx="1458" lry="3138" ulx="1316" uly="3023" xml:id="zone_js5_nqw_cjb"/>
+				<zone lrx="1158" lry="3171" ulx="985" uly="2978" xml:id="zone_zbk_4qw_cjb"/>
+				<zone lrx="1149" lry="3168" ulx="996" uly="3039" xml:id="zone_z4y_4qw_cjb"/>
+				<zone lrx="934" lry="3167" ulx="757" uly="2964" xml:id="zone_bhp_pqw_cjb"/>
+				<zone lrx="926" lry="3163" ulx="766" uly="3026" xml:id="zone_adm_qqw_cjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="ʿilmühaber_tapu_senedi" facs="#zone_g4r_jqw_cjb">
+				<p>
+					<lb/>... fī <date cert="unknown" type="created" when="1865-05-04" when-custom="1281--09">9 ... sene 81</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_vgn_lqw_cjb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_qs2_mqw_cjb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_o41_nqw_cjb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_js5_nqw_cjb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_zbk_4qw_cjb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_z4y_4qw_cjb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_bhp_pqw_cjb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_adm_qqw_cjb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

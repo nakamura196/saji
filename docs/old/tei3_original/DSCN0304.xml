@@ -1,0 +1,69 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0304</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">非ムスリムの果樹園の修道院長に対する売却</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1783/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1783/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4a49df35908c39e63d62d902acff9c0a9dd56162.jpg"/>
+				<zone lrx="2300" lry="2407" ulx="135" uly="114" xml:id="zone_npj_wwn_2kb"/>
+				<zone lrx="596" lry="2347" ulx="344" uly="2082" xml:id="zone_hsd_ywn_2kb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1783/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3ba1ec85756d196037d297db5eb08591582c30dd.jpg"/>
+				<zone lrx="2545" lry="1344" ulx="184" uly="777" xml:id="zone_gkg_zwn_2kb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_npj_wwn_2kb" type="EMIN_tapu_tezkire">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>bā-berāt-ı pādişāhiyle ber-vech-i mutasarruf olduğumuz ticāretimiz(?) kurālarından Muslimīn cemāʿat tımārı(?) karyesinde hudūdunda(?) mutasarruf olan
+					<lb/>zimmī Īvān GAGULA veled-i YUZU nām zimmīnin taht-ı tasarrıfında bulunan bir kıtʿa bağçe demekle bir taraf ANTON KATE
+					<lb/>bağçesi ve bir taraf rāhib-i gardiyān-ı müşterinin bağçesi ve iki taraf tarīk-i ʿām hudūd ile mahdūd ve muhtāz
+					<lb/>mesfūrun bağçesi hakk ve ... işbu dārende-i hurūf Kirşevo varoş kilisasının
+					<lb/>gardiyān nām resm-i tezkire ile dört yüz kırk guruş bedeli ferāğ mukābelesinde beyʿ-i bāt katʿi ...
+					<lb/>şerʿile beyʿ edüb ol dahi minvāl-i muharrer üzere kabūl biz dahi sāhibi'l-arz bulunduğumuz hasebiyle
+					<lb/>binā'en ferāğ mesfūrun bağçesi ve ferāgatında müşter-i gardiyāna tafvīz ve zirāʿat izin
+					<lb/>ve ... virdüm işbu tapu tezkire defʿ ve iʿtā olundu zabt ve tasarrıfuna bir kimesne māniʿ
+					<lb/>ve müdāhale olunmaya fī <date when="1849-12-30" when-custom="1266-02-15">15 S sene 1266</date>
+				</p>
+				<div2 facs="#zone_hsd_ywn_2kb" type="sign">
+					<p>
+						<lb/>El-...
+						<lb/>El-hācı Mehmed
+						<lb/>El-me'mūr </p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>KUBŞ MİRDAN
+						<lb/>KBCE Īvān
+						<lb/>MHT MCAR
+						<lb/>ve gayrihim min'el-hazırīn(?) </p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_gkg_zwn_2kb" type="summary_Croatian">
+				<p>
+					<lb/>Tapija na Gagulinu Bašeu <date type="summary_Croatian" when="1849">1849</date>.
+					<lb/>Nno 20. </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

@@ -1,56 +1,71 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1780</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1311/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1311/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c93704cfef9a0da6d88f7b69ba20be60e6e62aaf.jpg" />
-<zone lrx="1973" lry="2909" ulx="127" uly="81" xml:id="zone_rsh_2k3_cjb" />
-<zone lrx="379" lry="2325" ulx="195" uly="2055" xml:id="zone_lkg_fk3_cjb" />
-<zone lrx="356" lry="2312" ulx="210" uly="2176" xml:id="zone_nds_fk3_cjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1311/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/915c34f08b101666b0259369fa8fa6ab64e18964.jpg" />
-<zone lrx="2650" lry="1883" ulx="139" uly="605" xml:id="zone_irc_hk3_cjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 cert="unknown" facs="#zone_rsh_2k3_cjb" type="kâğıt">
-<p>
-<lb />... <date type="created" when="1857-03-20" when-custom="1273-07-25">fi'l-yevmi'l-hāmis ve'l-ʿaşrūn min şehr Recebi'l-... sene<lb />
-<lb />suls ve sabʿīn ve mieteyn ve elif</date><lb />
-</p>
-<div2 facs="#zone_lkg_fk3_cjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_nds_fk3_cjb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-</div1>
-<div1 facs="#zone_irc_hk3_cjb" type="summary_Croatian">
-<p>
-<lb />... <date type="summary_Croatian" when="1857">1857</date><lb />
-<lb />gr 110.<lb />
-<lb />Nno 27. <date type="summary_Croatian" when="1838-10-17" when-custom="1254-07">Redjep 1254</date><lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1780</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1780.JPG"/>
+			<zone ulx="81" uly="81" lrx="1973" lry="2909" xml:id="zone_rsh_2k3_cjb"/>
+			<zone ulx="2055" uly="2055" lrx="379" lry="2325" xml:id="zone_lkg_fk3_cjb"/>
+			<zone ulx="2176" uly="2176" lrx="356" lry="2312" xml:id="zone_nds_fk3_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1781.JPG"/>
+			<zone ulx="605" uly="605" lrx="2650" lry="1883" xml:id="zone_irc_hk3_cjb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="unknown" facs="#zone_rsh_2k3_cjb" type="kâğıt">
+				<p>
+					<lb/>
+					...					<date type="created" when="1857-03-20" when-custom="1273-07-25">
+						fi'l-yevmi'l-hāmis ve'l-ʿaşrūn min şehr Recebi'l-... sene
+						<lb/>
+						<lb/>
+						suls ve sabʿīn ve mieteyn ve elif
+					</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_lkg_fk3_cjb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_nds_fk3_cjb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_irc_hk3_cjb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1857">1857</date>
+					<lb/>
+					<lb/>
+					gr 110.
+					<lb/>
+					<lb/>
+					Nno 27.					<date type="summary_Croatian" when="1838-10-17" when-custom="1254-07">Redjep 1254</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

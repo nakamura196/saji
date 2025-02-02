@@ -1,66 +1,78 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1718</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">【要】日付：日は、4日で合っているのか？</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1251/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a3c0a87f0bdfdc08dba60afb43c578ee57cf20a4.jpg" />
-<zone lrx="1445" lry="3209" ulx="691" uly="18" xml:id="zone_dtw_bj2_bjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/73233f27de34182f7a05defb8d056639395fbcdf.jpg" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/855cb92c733c2ef0a232ce3b8dcdae950ef77190.jpg" />
-<zone lrx="1341" lry="1029" ulx="879" uly="237" xml:id="zone_qhn_2j2_bjb" />
-<zone lrx="1309" lry="1004" ulx="1145" uly="856" xml:id="zone_qng_fj2_bjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/680afa27bbf389549b0651361b2d3b07d05c2f79.jpg" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1251/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/d7f5a33f1977bbb035ede31ff6ba51cf14ada052.jpg" />
-<zone lrx="2584" lry="1050" ulx="600" uly="133" xml:id="zone_em5_gj2_bjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_dtw_bj2_bjb" type="hüccet">
-<p>
-<lb />... <date cert="low" type="created" when="1861-01-15" when-custom="1277-07-04">fi'l-yevmi'l-rābīʿ min şehr Recebi'l-...<lb />
-<lb />sene sabʿ ve sabʿīn ve mieteyn ve elif</date><lb />
-</p>
-<div2 facs="#zone_qhn_2j2_bjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_qng_fj2_bjb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-</div1>
-<div1 facs="#zone_em5_gj2_bjb" type="summary_Croatian">
-<p>
-<lb /><date type="summary_Croatian" when="1861">1861</date>.<lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1718</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">【要】日付：日は、4日で合っているのか？</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "E" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1718.JPG"/>
+			<zone ulx="18" uly="18" lrx="1445" lry="3209" xml:id="zone_dtw_bj2_bjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1719.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1720.JPG"/>
+			<zone ulx="237" uly="237" lrx="1341" lry="1029" xml:id="zone_qhn_2j2_bjb"/>
+			<zone ulx="856" uly="856" lrx="1309" lry="1004" xml:id="zone_qng_fj2_bjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1721.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1722.JPG"/>
+			<zone ulx="133" uly="133" lrx="2584" lry="1050" xml:id="zone_em5_gj2_bjb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_dtw_bj2_bjb" type="hüccet">
+				<p>
+					<lb/>
+					...					<date cert="low" type="created" when="1861-01-15" when-custom="1277-07-04">
+						fi'l-yevmi'l-rābīʿ min şehr Recebi'l-...
+						<lb/>
+						<lb/>
+						sene sabʿ ve sabʿīn ve mieteyn ve elif
+					</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_qhn_2j2_bjb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_qng_fj2_bjb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_em5_gj2_bjb" type="summary_Croatian">
+				<p>
+					<lb/>
+					<date type="summary_Croatian" when="1861">1861</date>
+					.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

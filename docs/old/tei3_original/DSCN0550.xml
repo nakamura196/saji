@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0550</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2955/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2955/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f02f0658556f20819a31e7421de053669c289570.jpg" />
+        <zone lrx="1663" lry="3254" ulx="645" uly="209" xml:id="zone_cwv_nz3_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2955/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e4d7d0cca6d41d9448260cfaa1c5e454290e9f39.jpg" />
+        <zone lrx="1196" lry="1337" ulx="629" uly="429" xml:id="zone_jyj_pz3_2mb" />
+        <zone lrx="1089" lry="1300" ulx="850" uly="1099" xml:id="zone_ls3_qz3_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2955/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/321487b0649c275ae9a7186fc2cbb22679d01287.jpg" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_cwv_nz3_2mb" type="hüccet">
+        <p>
+          <lb />
+          <lb />ve hurira fī <date type="created" when="1801-06-04" when-custom="1216-01-23">yevmi'l-sālis ʿaşrīn min Muharremi'l-harām sene sitte ʿaşar ve mieteyn ve elif</date>
+        </p>
+        <div2 facs="#zone_jyj_pz3_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_ls3_qz3_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

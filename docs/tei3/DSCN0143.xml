@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -22,66 +23,99 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1626/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1626/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/978060cc2cf3baec7e51a954a3c371b8a47d204a.jpg"/>
-				<zone lrx="2354" lry="2415" ulx="77" uly="53" xml:id="zone_qt2_kqw_2jb"/>
-				<zone lrx="492" lry="2347" ulx="172" uly="1968" xml:id="zone_fsj_lqw_2jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1626/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6774e6d245c1fe1f687909351b000bf9cbbdea02.jpg"/>
-				<zone lrx="508" lry="1004" ulx="233" uly="770" xml:id="zone_d24_mqw_2jb"/>
-				<zone lrx="2446" lry="3106" ulx="86" uly="1526" xml:id="zone_wj1_4qw_2jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0143.JPG"/>
+			<zone ulx="53" uly="53" lrx="2354" lry="2415" xml:id="zone_qt2_kqw_2jb"/>
+			<zone ulx="1968" uly="1968" lrx="492" lry="2347" xml:id="zone_fsj_lqw_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0144.JPG"/>
+			<zone ulx="770" uly="770" lrx="508" lry="1004" xml:id="zone_d24_mqw_2jb"/>
+			<zone ulx="1526" uly="1526" lrx="2446" lry="3106" xml:id="zone_wj1_4qw_2jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_tezkire" facs="#zone_qt2_kqw_2jb">
 				<p>
-					<lb/>tekâlif iki onlık(?)
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date when-custom="1260" type="created" when="0680-09-01">bin iki yüz altmış senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasında
-						<placeName>MRATNIÇ</placeName>
-					<lb/>cemāʿatında RASNIK hudūd dāhilinde bir kıtʿa tarla <placeName>BUÇİRKOLA</placeName> demekle bir taraf <persName>Hāccıoğlu</persName> tarlası
-					<lb/>ve taraf-ı sānī <persName>MUMN Mollā Mustafa</persName> tarlası ve taraf-ı sālis ve rābiʿ tarīk-i ʿām ile mahdūd ve mumtāz olub
-					<lb/>Kirşevo kasabasında müsliman cemāʿatında <persName>BİRNİÇoğulu Sālih</persName> mutasarrıf eyledüğü işbu dārende-i hurūf
-					<lb/>Kirşevo varoş kilisada gardiyān nām-ı mesfūre resmiyle dört yüz yetmiş guruş bedeli ve ...
-					<lb/>mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb ol dahi kabūl biz dahi mukātaʿa emīni bulunduğumuz
-					<lb/>hasebiyle zimmī gardiyāna tafvīz ve yedine işbu zabt-ı tezkire virildi tarafımızda[n] ve taraf-ı āharda[n]
-					<lb/>bir kimesne māniʿ ve müdāhale olunmaya fī <date when-custom="1260-07-19" type="created">19 Receb sene 260</date>
+					<lb/>
+					tekâlif iki onlık(?)
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date when-custom="1260" type="created" when="0680-09-01">bin iki yüz altmış senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasında
+					<placeName>MRATNIÇ</placeName>
+					<lb/>
+					cemāʿatında RASNIK hudūd dāhilinde bir kıtʿa tarla					<placeName>BUÇİRKOLA</placeName>
+					 demekle bir taraf					<persName>Hāccıoğlu</persName>
+					 tarlası
+					<lb/>
+					ve taraf-ı sānī					<persName>MUMN Mollā Mustafa</persName>
+					 tarlası ve taraf-ı sālis ve rābiʿ tarīk-i ʿām ile mahdūd ve mumtāz olub
+					<lb/>
+					Kirşevo kasabasında müsliman cemāʿatında					<persName>BİRNİÇoğulu Sālih</persName>
+					 mutasarrıf eyledüğü işbu dārende-i hurūf
+					<lb/>
+					Kirşevo varoş kilisada gardiyān nām-ı mesfūre resmiyle dört yüz yetmiş guruş bedeli ve ...
+					<lb/>
+					mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb ol dahi kabūl biz dahi mukātaʿa emīni bulunduğumuz
+					<lb/>
+					hasebiyle zimmī gardiyāna tafvīz ve yedine işbu zabt-ı tezkire virildi tarafımızda[n] ve taraf-ı āharda[n]
+					<lb/>
+					bir kimesne māniʿ ve müdāhale olunmaya fī					<date when-custom="1260-07-19" type="created">19 Receb sene 260</date>
 				</p>
 				<div2 type="sign" facs="#zone_fsj_lqw_2jb">
 					<p>
-						<lb/>El-me'mūru'l-memhūr
-						<lb/>Muhammed Emīn-i Mukā-
-						<lb/>taʿa-i Kirşevo
-						<lb/>Hālā
-						<lb/>M </p>
+						<lb/>
+						El-me'mūru'l-memhūr
+						<lb/>
+						Muhammed Emīn-i Mukā-
+						<lb/>
+						taʿa-i Kirşevo
+						<lb/>
+						Hālā
+						<lb/>
+						M					</p>
 					<div3 type="stamp" facs="#zone_d24_mqw_2jb">
 						<p>
-							<lb/>Muhammed
-							<lb/>23 ...
-							<lb/>... </p>
+							<lb/>
+							Muhammed
+							<lb/>
+							23 ...
+							<lb/>
+							...						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>KİNGİzāde Ahmad ʿAlemdār
-						<lb/>MURDAN Mollā Mehmed ʿan Kirşevo
-						<lb/>Haccıoğlu Mustafa ʿAlemdār
-						<lb/>BIRNIÇ Mollā İbrāhīm ʿan Kirşevo
-						<lb/>MUMN Mollā Mustafa ʿan Kirşevo </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						KİNGİzāde Ahmad ʿAlemdār
+						<lb/>
+						MURDAN Mollā Mehmed ʿan Kirşevo
+						<lb/>
+						Haccıoğlu Mustafa ʿAlemdār
+						<lb/>
+						BIRNIÇ Mollā İbrāhīm ʿan Kirşevo
+						<lb/>
+						MUMN Mollā Mustafa ʿan Kirşevo					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_wj1_4qw_2jb">
 				<p>
-					<lb/>... na ...
-					<lb/>gr: 500.
-					<lb/><date when="1844" type="summary_Croatian">1844</date>.
-					<lb/>Nno 12. </p>
+					<lb/>
+					... na ...
+					<lb/>
+					gr: 500.
+					<lb/>
+					<date when="1844" type="summary_Croatian">1844</date>
+					.
+					<lb/>
+					Nno 12.				</p>
 			</div1>
 		</body>
 	</text>

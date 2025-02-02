@@ -1,35 +1,36 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1007</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1123/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1123/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d8925abdaa0a6e9da2183658118add1986ce2d40.jpg" />
-<zone lrx="1616" lry="3069" ulx="77" uly="1892" xml:id="zone_vty_4rg_z3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1123/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a9b050aca2b0401f4f5b6d5b7c3fbce7373754ec.jpg" />
-<zone lrx="654" lry="795" ulx="450" uly="591" xml:id="zone_usr_qrg_z3b" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_vty_4rg_z3b" type="iʿlām">
-<l>... fī <date type="created" when="1798-05-13" when-custom="1212-11-28">28 Zi'l-kaʿade 1212</date></l>
-</div1>
-<div3 facs="#zone_usr_qrg_z3b" type="stamp" />
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1007</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1007.JPG"/>
+			<zone ulx="1892" uly="1892" lrx="1616" lry="3069" xml:id="zone_vty_4rg_z3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1008.JPG"/>
+			<zone ulx="591" uly="591" lrx="654" lry="795" xml:id="zone_usr_qrg_z3b"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_vty_4rg_z3b" type="iʿlām">
+				<l>
+					... fī					<date type="created" when="1798-05-13" when-custom="1212-11-28">28 Zi'l-kaʿade 1212</date>
+				</l>
+			</div1>
+			<div3 facs="#zone_usr_qrg_z3b" type="stamp"/>
+		</body>
+	</text>
 </TEI>

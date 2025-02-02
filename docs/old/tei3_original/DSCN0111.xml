@@ -1,0 +1,102 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0111</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">【要】典型・日付：要確認。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1595/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1595/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3a179479f6db7b6ff6618dcb86a96aadaed51a64.jpg"/>
+				<zone lrx="1910" lry="3160" ulx="227" uly="50" xml:id="zone_mw5_pcv_2jb"/>
+				<zone lrx="662" lry="3145" ulx="300" uly="2631" xml:id="zone_crs_rcv_2jb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1595/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/79c3534e43ffbdfcda486d4052e39db3f67a1b36.jpg"/>
+				<zone lrx="537" lry="629" ulx="237" uly="391" xml:id="zone_tj2_tcv_2jb"/>
+				<zone lrx="687" lry="2975" ulx="204" uly="2462" xml:id="zone_ydd_5cv_2jb"/>
+				<zone lrx="1783" lry="3116" ulx="1454" uly="2937" xml:id="zone_jhd_vcv_2jb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_temessük" cert="medium" facs="#zone_mw5_pcv_2jb">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>işbu <date when-custom="1235">bin iki yüz otüz beş senesinde</date> iltizām ʿuhdemize bulunan
+					<lb/><placeName>Kirşevo</placeName> mukātaʿa-yı kurālarında <placeName cert="unknown">KRACOBE</placeName> ve <placeName cert="unknown">DAVAN</placeName> ve <placeName
+						cert="unknown">LOPATA</placeName> ve <placeName>Dubuniçe</placeName>
+					<lb/>ve <placeName cert="unknown">KOSINE</placeName> ve <placeName cert="unknown">RZUNIÇE</placeName> ve <placeName cert="unknown">İNİÇE</placeName> ve <placeName cert="unknown"
+						>GRAVNİÇE</placeName> olan ʿalākasızdan hāsıl
+					<lb/>olan aʿaşār-ı şerʿisine ve cāizdan hāsul olan ... aʿaşār-
+					<lb/>ine tapu ... işbu yine ...
+					<lb/>...hāsul olan aʿaşārine
+					<lb/>tālib ve ... olan ... <persName cert="unknown">ruhbān başını gardiyān-ı
+						<lb/>mesfūrına</persName> iki yüz yiğirmi ... ve mesfūr dahi
+					<lb/>ferāgat kabūl eyleyüp ... olan tarafımızdan
+					<lb/>edā ve teslīm eyleyüp yedine işbu temessük iʿtā olundu mādem ki
+					<lb/>tarafımızdan ve taraf-ı āhardan kimesne māniʿ olunmaya
+					<lb/>fī <date when-custom="1235-07-07" when="1820-04-19" cert="low" type="created">7 Racab sene 1235</date>
+				</p>
+				<div2 type="sign" facs="#zone_crs_rcv_2jb">
+					<p>
+						<lb/>...
+						<lb/><persName>Mustafa</persName>
+						<lb/>Emin
+						<lb/>MMM </p>
+					<div3 type="stamp" facs="#zone_tj2_tcv_2jb">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 type="note" cert="unknown" facs="#zone_ydd_5cv_2jb">
+				<p>
+					<lb/>600
+					<lb/>120
+					<lb/>720
+					<lb/>012
+					<lb/>003 36
+					<lb/>735 36 </p>
+			</div1>
+			<div1 facs="#zone_jhd_vcv_2jb" type="note_Croatian">
+				<p>
+					<lb/><date when="1820" type="note_Croatian">1820</date>
+				</p>
+			</div1>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="">
+					<persName/>
+					<occupation/>
+					<occupation/>
+					<socecStatus/>
+					<state/>
+					<state/>
+				</person>
+			</listPerson>
+			<listRelation>
+				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
+				<relation name="iltizām" active="#" passive="#"/>
+				<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
+				<relation name="issue" active="#" passive="#"/>
+			</listRelation>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,71 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0232</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1711/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1711/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/16dbb96e1a44104f17eb2883aceb29990845da81.jpg"/>
+				<zone lrx="1718" lry="3163" ulx="645" uly="-9" xml:id="zone_pmm_42k_kjb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1711/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/79362e00e5e9785a03237a9c5bfb9fdee5d48c3b.jpg"/>
+				<zone lrx="1100" lry="1660" ulx="745" uly="50" xml:id="zone_es4_r2k_kjb"/>
+				<zone lrx="1047" lry="1625" ulx="846" uly="1442" xml:id="zone_hls_s2k_kjb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1711/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/36f7578c4a14cec02cf21e1d61d18ef29cb19815.jpg"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1711/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/fefe286b8eb1d92d70f8bd1f2d246e0a57148016.jpg"/>
+				<zone lrx="2762" lry="1172" ulx="206" uly="816" xml:id="zone_sjl_52k_kjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_pmm_42k_kjb" type="hüccet">
+				<p>
+					<lb/>... <date type="created" when="1861-08-27" when-custom="1278-02-21">fi'l-yevimi'l-vāhid ve'l-ʿaşrūn
+						<lb/>
+						<lb/>min şehri Saferi'l-... sene semān ve sabʿīn ve mieteyn ve elif</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_es4_r2k_kjb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_hls_s2k_kjb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_sjl_52k_kjb" type="summary_Croatian">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

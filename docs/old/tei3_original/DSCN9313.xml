@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9313</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・DSCN9314.JPGの裏面であることが、料紙角の折り目から推測される。\r\n・そのためサイズ「B」とした。" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2237/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2237/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f62ed44a9e2e1ee3a2562e2cc14b63b8a4c54886.jpg"/>
+				<zone lrx="2484" lry="1222" ulx="673" uly="650" xml:id="zone_zcq_zyl_ylb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2237/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/65d650e17ff99222ecec68ed2f60a90e9fc9d18b.jpg"/>
+				<zone lrx="2208" lry="3016" ulx="275" uly="300" xml:id="zone_tkr_bzl_ylb"/>
+				<zone lrx="847" lry="2952" ulx="306" uly="2606" xml:id="zone_gyj_dzl_ylb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_tkr_bzl_ylb" next="#zone_zcq_zyl_ylb" type="EMIN">
+				<p>
+					<lb/>işbu <date when="1811-01-24" when-custom="1225">bin iki yüz yiğirmi beş senesinde</date> der ...
+					<lb/>... <date type="created" when="1811-01-24" when-custom="1225">sene 1225</date>
+				</p>
+				<div2 facs="#zone_gyj_dzl_ylb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_zcq_zyl_ylb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1811">1811</date>
+					<lb/>... <date type="summary_Croatian" when="1811-01-24" when-custom="1225">1225</date>.
+					<lb/>Nno 30. </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

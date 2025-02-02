@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -18,53 +19,73 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1730/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/9dfe3a0baae9b6ac2d427658cc283435c4be4af0.jpg" n="https://diyhistory.org/public/phr2/iiif/1730/canvas/p1"/>
-				<zone xml:id="zone_zqv_gqt_xjb" lry="2763" lrx="1782" uly="118" ulx="100"/>
-				<zone xml:id="zone_dzt_hqt_xjb" lry="2745" lrx="437" uly="2405" ulx="207"/>
-				<zone xml:id="zone_y5y_m2b_qrb" lry="2102" lrx="764" uly="1959" ulx="463"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1730/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/613b65fede85361c84068659fe20fced295fa0d0.jpg"/>
-				<zone lrx="521" lry="816" ulx="296" uly="616" xml:id="zone_cq2_kqt_xjb"/>
-				<zone lrx="2054" lry="2991" ulx="1104" uly="2812" xml:id="zone_rs5_kqt_xjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0251.JPG"/>
+			<zone ulx="118" uly="118" lrx="1782" lry="2763" xml:id="zone_zqv_gqt_xjb"/>
+			<zone ulx="2405" uly="2405" lrx="437" lry="2745" xml:id="zone_dzt_hqt_xjb"/>
+			<zone ulx="1959" uly="1959" lrx="764" lry="2102" xml:id="zone_y5y_m2b_qrb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0252.JPG"/>
+			<zone ulx="616" uly="616" lrx="521" lry="816" xml:id="zone_cq2_kqt_xjb"/>
+			<zone ulx="2812" uly="2812" lrx="2054" lry="2991" xml:id="zone_rs5_kqt_xjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_temessük" facs="#zone_zqv_gqt_xjb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>hālā ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasından kurā ...
 					<lb/>
-					<lb/>olan ... hāsıl olan ʿaşār-ı şerʿiyesi ve rüsūmāt-ı
-					<lb/>sā'iresi tapu nām[e]den ve ...dan gayri işbu bim iki yüz yiğirmi
-					<lb/>dokuz senesinin Martı ibtidāsından Şubatı gāyesine değin zabt ve rabtına
-					<lb/>tālib ve rāgib olan işbu dārende-i temessük <persName facs="#zone_y5y_m2b_qrb">zimmī YARLODE</persName> baş rāhib bedel(?)
-					<lb/>mukābelesinde yalnız yüz yiğirmi ber vech-i ... tarafımıza bā tamāmen edā ve teslīm etmişdir
-					<lb/>... varınca zabt ve rabtına ve rüsū[māt-ı] sā'iresi ahz ve kabzına
-					<lb/>işbu mesfūrunun yedine zabt temessük(?) virildi tarafımızdan ve taraf-ı āhardan bir kimesne
-					<lb/>māniʿ ve müdāhale olmayalar </p>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					hālā ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasından kurā ...
+					<lb/>
+					<lb/>
+					olan ... hāsıl olan ʿaşār-ı şerʿiyesi ve rüsūmāt-ı
+					<lb/>
+					sā'iresi tapu nām[e]den ve ...dan gayri işbu bim iki yüz yiğirmi
+					<lb/>
+					dokuz senesinin Martı ibtidāsından Şubatı gāyesine değin zabt ve rabtına
+					<lb/>
+					tālib ve rāgib olan işbu dārende-i temessük					<persName facs="#zone_y5y_m2b_qrb">zimmī YARLODE</persName>
+					 baş rāhib bedel(?)
+					<lb/>
+					mukābelesinde yalnız yüz yiğirmi ber vech-i ... tarafımıza bā tamāmen edā ve teslīm etmişdir
+					<lb/>
+					... varınca zabt ve rabtına ve rüsū[māt-ı] sā'iresi ahz ve kabzına
+					<lb/>
+					işbu mesfūrunun yedine zabt temessük(?) virildi tarafımızdan ve taraf-ı āhardan bir kimesne
+					<lb/>
+					māniʿ ve müdāhale olmayalar				</p>
 				<div2 type="sign" facs="#zone_dzt_hqt_xjb">
 					<p>
-						<lb/>...
-						<lb/><persName>Dervīş
-							<lb/>Mehmed El-me'mūr</persName>
-						<lb/>... </p>
+						<lb/>
+						...
+						<lb/>
+						<persName>
+							Dervīş
+							<lb/>
+							Mehmed El-me'mūr
+						</persName>
+						<lb/>
+						...					</p>
 					<div3 type="stamp" facs="#zone_cq2_kqt_xjb">
 						<p>
-							<lb/>Dervīş
-							<lb/>...
-							<lb/>Mehmed </p>
+							<lb/>
+							Dervīş
+							<lb/>
+							...
+							<lb/>
+							Mehmed						</p>
 					</div3>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_rs5_kqt_xjb">
 				<p>
-					<lb/>Defetina 1814(?) </p>
+					<lb/>
+					Defetina 1814(?)				</p>
 			</div1>
 		</body>
 	</text>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0329</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1808/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9a03bf8aabd557ed3910195994b8894163e5db6b.jpg" />
+        <zone lrx="1745" lry="2918" ulx="682" uly="0" xml:id="zone_mz2_z4l_kkb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9a8603344b9ebeba7a9c1c943ad7ba16e6f17a1f.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/788d3c1ff7f023c6536695caab901e203a994092.jpg" />
+        <zone lrx="2112" lry="938" ulx="1623" uly="155" xml:id="zone_hlw_bpl_kkb" />
+        <zone lrx="1997" lry="906" ulx="1743" uly="686" xml:id="zone_g11_dpl_kkb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/b1fa413c4d3509b02dd88252ebd523f22182f213.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/a4ee0c31286832173a97e18ac01f4156bdbcbfdc.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1808/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/abe99722907385bad1179113deb5c8fa502d8c26.jpg" />
+        <zone lrx="2223" lry="1588" ulx="1195" uly="655" xml:id="zone_ojq_2pl_kkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_mz2_z4l_kkb" type="hüccet">
+        <p>
+          <lb />... <date type="created" when="1855-12-01" when-custom="1272-03-22">fi'l-yevmi'l-sānī ve'l-ʿaşrūn min şehr-i Rebi'ü'l-evvel
+          <lb />sene isnā ve sabʿīn ve mieteyn ve elif</date>
+        </p>
+        <div2 facs="#zone_hlw_bpl_kkb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_g11_dpl_kkb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_ojq_2pl_kkb" type="summary_Crotatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

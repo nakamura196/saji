@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -24,59 +25,91 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1661/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/cbb8fd23b96ee84370b8984c8ee3d42f3f51e003.jpg" n="https://diyhistory.org/public/phr2/iiif/1661/canvas/p1"/>
-				<zone xml:id="zone_vfc_srm_3jb" lry="2330" lrx="2431" uly="138" ulx="216"/>
-				<zone xml:id="zone_y2t_trm_3jb" lry="2271" lrx="665" uly="1778" ulx="275"/>
-				<zone xml:id="zone_mv3_wrm_3jb" lry="2251" lrx="644" uly="2038" ulx="426"/>
-				<zone xml:id="zone_hy5_2z3_qqb" lry="1434" lrx="1316" uly="1318" ulx="1241"/>
-				<zone xml:id="zone_ul3_5z3_qqb" lry="1365" lrx="855" uly="1177" ulx="588"/>
-				<zone xml:id="zone_ljh_vz3_qqb" lry="1275" lrx="476" uly="1153" ulx="343"/>
-				<zone xml:id="zone_cts_l1j_qqb" lry="1589" lrx="1764" uly="1452" ulx="1464"/>
-				<zone xml:id="zone_u5c_p1j_qqb" lry="1515" lrx="1169" uly="1392" ulx="1042"/>
-				<zone xml:id="zone_h41_ddj_qqb" lry="2250" lrx="2305" uly="1935" ulx="1996"/>
-				<zone xml:id="zone_vrx_ddj_qqb" lry="2173" lrx="2385" uly="1824" ulx="1995"/>
-				<zone xml:id="zone_qqt_2dj_qqb" lry="1985" lrx="2394" uly="1714" ulx="2018"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0181.JPG"/>
+			<zone ulx="138" uly="138" lrx="2431" lry="2330" xml:id="zone_vfc_srm_3jb"/>
+			<zone ulx="1778" uly="1778" lrx="665" lry="2271" xml:id="zone_y2t_trm_3jb"/>
+			<zone ulx="2038" uly="2038" lrx="644" lry="2251" xml:id="zone_mv3_wrm_3jb"/>
+			<zone ulx="1318" uly="1318" lrx="1316" lry="1434" xml:id="zone_hy5_2z3_qqb"/>
+			<zone ulx="1177" uly="1177" lrx="855" lry="1365" xml:id="zone_ul3_5z3_qqb"/>
+			<zone ulx="1153" uly="1153" lrx="476" lry="1275" xml:id="zone_ljh_vz3_qqb"/>
+			<zone ulx="1452" uly="1452" lrx="1764" lry="1589" xml:id="zone_cts_l1j_qqb"/>
+			<zone ulx="1392" uly="1392" lrx="1169" lry="1515" xml:id="zone_u5c_p1j_qqb"/>
+			<zone ulx="1935" uly="1935" lrx="2305" lry="2250" xml:id="zone_h41_ddj_qqb"/>
+			<zone ulx="1824" uly="1824" lrx="2385" lry="2173" xml:id="zone_vrx_ddj_qqb"/>
+			<zone ulx="1714" uly="1714" lrx="2394" lry="1985" xml:id="zone_qqt_2dj_qqb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_tezkire" facs="#zone_vfc_srm_3jb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date when-custom="1265" type="created" when="1849-11-14">bin iki yüz altmış beş senesinde</date> der ʿuhde ve iltizāmımızda bulunan <placeName>Kirşevo</placeName>
-					mukātaʿası <placeName>Kirşevo</placeName> varoş
-					<lb/>hudūd dāhilinde arāzī-i mīrīye bir kıtʿa tarla <placeName facs="#zone_hy5_2z3_qqb">LPA</placeName> demekle mutasarrıf olan zimmī <persName facs="#zone_ul3_5z3_qqb">YUZU
-						SANIK</persName> bir taraf <persName facs="#zone_ljh_vz3_qqb">DOMIN</persName> tarlası
-					<lb/>ve taraf-ı sānī <persName facs="#zone_cts_l1j_qqb">Īvān LULUYK</persName> tarlası ve taraf-ı sālis <persName facs="#zone_u5c_p1j_qqb">ZABU</persName> tarlası ve taraf-ı rābiʿ
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date when-custom="1265" type="created" when="1849-11-14">bin iki yüz altmış beş senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan					<placeName>Kirşevo</placeName>
+					mukātaʿası					<placeName>Kirşevo</placeName>
+					 varoş
+					<lb/>
+					hudūd dāhilinde arāzī-i mīrīye bir kıtʿa tarla					<placeName facs="#zone_hy5_2z3_qqb">LPA</placeName>
+					 demekle mutasarrıf olan zimmī					<persName facs="#zone_ul3_5z3_qqb">YUZU
+						SANIK</persName>
+					 bir taraf					<persName facs="#zone_ljh_vz3_qqb">DOMIN</persName>
+					 tarlası
+					<lb/>
+					ve taraf-ı sānī					<persName facs="#zone_cts_l1j_qqb">Īvān LULUYK</persName>
+					 tarlası ve taraf-ı sālis					<persName facs="#zone_u5c_p1j_qqb">ZABU</persName>
+					 tarlası ve taraf-ı rābiʿ
 					tarīk-i ʿām hudūd ile mahdūd
-					<lb/>ve mümtāz olup işbu dārende-i hurūf <placeName>Kirşevo</placeName> varoş kilisadan <persName>gardiyān</persName> nām-ı mesfūre resm tezkire ile
-					<lb/>iki yüz elli guruş ... mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp biz dahi me'mūrimiz hasebiyle resm-i bedel
-					<lb/>ahz mesfūr gardiyāna tafvīz ve yedine işbu zabt-ı tezkire virildi mā-dām ki be-her sene mīrīye rāciʿ
-					<lb/>olan ʿöşr-i rüsūmāt edā tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olunmaya </p>
+					<lb/>
+					ve mümtāz olup işbu dārende-i hurūf					<placeName>Kirşevo</placeName>
+					 varoş kilisadan					<persName>gardiyān</persName>
+					 nām-ı mesfūre resm tezkire ile
+					<lb/>
+					iki yüz elli guruş ... mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp biz dahi me'mūrimiz hasebiyle resm-i bedel
+					<lb/>
+					ahz mesfūr gardiyāna tafvīz ve yedine işbu zabt-ı tezkire virildi mā-dām ki be-her sene mīrīye rāciʿ
+					<lb/>
+					olan ʿöşr-i rüsūmāt edā tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olunmaya				</p>
 				<div2 type="sign" facs="#zone_y2t_trm_3jb">
 					<p>
-						<lb/>El-me'mūr <persName>Mehmed</persName>
-						<lb/>Emīn-i Mukā-
-						<lb/>taʿa-i <placeName>Kirşevo</placeName>
-						<lb/>Hālā
-						<lb/>M </p>
+						<lb/>
+						El-me'mūr						<persName>Mehmed</persName>
+						<lb/>
+						Emīn-i Mukā-
+						<lb/>
+						taʿa-i						<placeName>Kirşevo</placeName>
+						<lb/>
+						Hālā
+						<lb/>
+						M					</p>
 					<div3 type="stamp" facs="#zone_mv3_wrm_3jb">
 						<p>
-							<lb/><persName>Mehmed</persName> ...
-							<lb/>... </p>
+							<lb/>
+							<persName>Mehmed</persName>
+							 ...
+							<lb/>
+							...						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>MRZAN Mollā <persName facs="#zone_h41_ddj_qqb">Ahmad</persName> ʿan <placeName>Kirşevo</placeName>
-						<lb/>Zimmī <persName facs="#zone_vrx_ddj_qqb">APARİÇE</persName> ŞÖYNİK ʿan <placeName>Kirşevo</placeName>
-						<lb/>Zimmī <persName facs="#zone_qqt_2dj_qqb">TONAYAN</persName> ʿan <placeName>Kirşevo</placeName>
-						<lb/>ve gayrihim </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						MRZAN Mollā						<persName facs="#zone_h41_ddj_qqb">Ahmad</persName>
+						 ʿan						<placeName>Kirşevo</placeName>
+						<lb/>
+						Zimmī						<persName facs="#zone_vrx_ddj_qqb">APARİÇE</persName>
+						 ŞÖYNİK ʿan						<placeName>Kirşevo</placeName>
+						<lb/>
+						Zimmī						<persName facs="#zone_qqt_2dj_qqb">TONAYAN</persName>
+						 ʿan						<placeName>Kirşevo</placeName>
+						<lb/>
+						ve gayrihim					</p>
 				</div2>
 			</div1>
 		</body>

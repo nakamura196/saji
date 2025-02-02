@@ -1,59 +1,67 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2071</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2401/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2401/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f9bf6a972b302984adcd3755b8caad9f220c262c.jpg" />
-        <zone lrx="2209" lry="3154" ulx="73" uly="109" xml:id="zone_brk_vk5_bmb" />
-        <zone lrx="484" lry="3074" ulx="195" uly="2892" xml:id="zone_vhv_1l5_bmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2401/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a1aad5062a4caaedcc2a803dbd94497557b958b3.jpg" />
-        <zone lrx="508" lry="366" ulx="166" uly="83" xml:id="zone_kxl_cl5_bmb" />
-        <zone lrx="2096" lry="2329" ulx="1025" uly="1408" xml:id="zone_uwc_dl5_bmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_brk_vk5_bmb" next="#zone_uwc_dl5_bmb" subtype="unkown" type="EMIN">
-        <p>
-          <lb />... fī <date type="created" when="1828-08-19" when-custom="1244-02-08">8 S sene 244</date><lb />
-        </p>
-        <div2 facs="#zone_vhv_1l5_bmb" type="sign">
-          <p>
-            <lb />... <lb />
-          </p>
-          <div3 facs="#zone_kxl_cl5_bmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_uwc_dl5_bmb" type="summary_Croatian">
-        <p>
-          <lb /><date type="summary_Croatian" when="1828">1828</date>.
-          <lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2071</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2071.JPG"/>
+			<zone ulx="109" uly="109" lrx="2209" lry="3154" xml:id="zone_brk_vk5_bmb"/>
+			<zone ulx="2892" uly="2892" lrx="484" lry="3074" xml:id="zone_vhv_1l5_bmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2072.JPG"/>
+			<zone ulx="83" uly="83" lrx="508" lry="366" xml:id="zone_kxl_cl5_bmb"/>
+			<zone ulx="1408" uly="1408" lrx="2096" lry="2329" xml:id="zone_uwc_dl5_bmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_brk_vk5_bmb" next="#zone_uwc_dl5_bmb" subtype="unkown" type="EMIN">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1828-08-19" when-custom="1244-02-08">8 S sene 244</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_vhv_1l5_bmb" type="sign">
+					<p>
+						<lb/>
+						...						<lb/>
+					</p>
+					<div3 facs="#zone_kxl_cl5_bmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_uwc_dl5_bmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					<date type="summary_Croatian" when="1828">1828</date>
+					.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

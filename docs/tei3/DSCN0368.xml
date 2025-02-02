@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,70 +17,97 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1845/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1845/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/bcbcb47ac95077801e1111d022ec1e5d2d900015.jpg"/>
-				<zone lrx="2127" lry="2954" ulx="218" uly="90" xml:id="zone_jk4_r1f_pkb"/>
-				<zone lrx="689" lry="2930" ulx="326" uly="2403" xml:id="zone_r4r_s1f_pkb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1845/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9e23b502448a3a86a738bf0d49cd5e3243e3a98b.jpg"/>
-				<zone lrx="3050" lry="1972" ulx="78" uly="627" xml:id="zone_ey2_z1f_pkb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1845/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/8f8fc7b0b86b0ea9f4460aeda27f406d49c30594.jpg"/>
-				<zone lrx="802" lry="805" ulx="515" uly="570" xml:id="zone_f1t_w1f_pkb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0368.JPG"/>
+			<zone ulx="90" uly="90" lrx="2127" lry="2954" xml:id="zone_jk4_r1f_pkb"/>
+			<zone ulx="2403" uly="2403" lrx="689" lry="2930" xml:id="zone_r4r_s1f_pkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0369.JPG"/>
+			<zone ulx="627" uly="627" lrx="3050" lry="1972" xml:id="zone_ey2_z1f_pkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0370.JPG"/>
+			<zone ulx="570" uly="570" lrx="802" lry="805" xml:id="zone_f1t_w1f_pkb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_jk4_r1f_pkb" next="#zone_ey2_z1f_pkb" type="EMIN_sūret">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date when-custom="1244">bin iki yüz krık dört senede(?)</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası
-					<lb/>kurālarından KOYSINE karyesi mütemekkinlerinden zimmī PAVU DAPTAMUYA taht-ı tasarrıfında
-					<lb/>bulunan mülk ve emlāk ve āsiyāb hakkılarından(?) haftada(?) ... nnevbet(?) ...
-					<lb/>... bā temessükler(?) ki zikr olunan emlāk ve diğer min hāssa ...
-					<lb/>işbu ... İbrāhīm yalnız doksan guruş mukābelesinde beyʿ-i bāt katʿiyle
-					<lb/>beyʿ ü ferāğ semen-i merkūm doksan guruş ahz ve kabz eylediği biz
-					<lb/>dahi me'mūr olduğumuz hasebiyle beyʿ-i merkūm içün gördüğüm(?) resm-i tapusin(?)
-					<lb/>baʿde'l-ahz mā-dām ki sāl be-sāl cānib-i mukātaʿaya rāciʿ olan
-					<lb/>edā eylemek şartiyle ... emlāk-ı merkūmu zabt ve zirāʿat olunub(?)
-					<lb/>kimesne māniʿ ve müdāhale olunmaya fī <date cert="unknown" type="created" when-custom="1244-??-29">29 sene 244</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date when-custom="1244">bin iki yüz krık dört senede(?)</date>
+					 der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası
+					<lb/>
+					kurālarından KOYSINE karyesi mütemekkinlerinden zimmī PAVU DAPTAMUYA taht-ı tasarrıfında
+					<lb/>
+					bulunan mülk ve emlāk ve āsiyāb hakkılarından(?) haftada(?) ... nnevbet(?) ...
+					<lb/>
+					... bā temessükler(?) ki zikr olunan emlāk ve diğer min hāssa ...
+					<lb/>
+					işbu ... İbrāhīm yalnız doksan guruş mukābelesinde beyʿ-i bāt katʿiyle
+					<lb/>
+					beyʿ ü ferāğ semen-i merkūm doksan guruş ahz ve kabz eylediği biz
+					<lb/>
+					dahi me'mūr olduğumuz hasebiyle beyʿ-i merkūm içün gördüğüm(?) resm-i tapusin(?)
+					<lb/>
+					baʿde'l-ahz mā-dām ki sāl be-sāl cānib-i mukātaʿaya rāciʿ olan
+					<lb/>
+					edā eylemek şartiyle ... emlāk-ı merkūmu zabt ve zirāʿat olunub(?)
+					<lb/>
+					kimesne māniʿ ve müdāhale olunmaya fī					<date cert="unknown" type="created" when-custom="1244-??-29">29 sene 244</date>
 				</p>
 				<div2 facs="#zone_r4r_s1f_pkb" type="sign">
 					<p>
-						<lb/>...
-						<lb/>...
-						<lb/>Emīn-i Kirşevo
-						<lb/>Hāl
-						<lb/>M
+						<lb/>
+						...
+						<lb/>
+						...
+						<lb/>
+						Emīn-i Kirşevo
+						<lb/>
+						Hāl
+						<lb/>
+						M
 					</p>
 					<div3 facs="#zone_f1t_w1f_pkb" type="stamp_sūret">
 						<p>
-							<lb/>... fī
+							<lb/>
+							... fī
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>Mehmed Ağa
-						<lb/>Dervīş Ağa
-						<lb/>Mollā Mustafa
-						<lb/>Mustafa
-						<lb/>CYB
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						Mehmed Ağa
+						<lb/>
+						Dervīş Ağa
+						<lb/>
+						Mollā Mustafa
+						<lb/>
+						Mustafa
+						<lb/>
+						CYB
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_ey2_z1f_pkb" type="summary_Croatian">
 				<p>
-					<lb/>Tapija na ...
-					<lb/>... <date type="summary_Croatian" when="1829-07-01" when-custom="1244">1244</date>.
-					<lb/>Nno 25.
+					<lb/>
+					Tapija na ...
+					<lb/>
+					...					<date type="summary_Croatian" when="1829-07-01" when-custom="1244">1244</date>
+					.
+					<lb/>
+					Nno 25.
 				</p>
 			</div1>
 		</body>

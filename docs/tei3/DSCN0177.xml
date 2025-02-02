@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -22,51 +23,73 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1657/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/2aaff1db2d0915b5081549d0efa5547c63863821.jpg" n="https://diyhistory.org/public/phr2/iiif/1657/canvas/p1"/>
-				<zone xml:id="zone_ukz_d4m_3jb" lry="2945" lrx="2020" uly="1310" ulx="190"/>
-				<zone xml:id="zone_xgw_f4m_3jb" lry="2938" lrx="677" uly="2381" ulx="205"/>
-				<zone xml:id="zone_ay2_gdl_4qb" lry="1503" lrx="409" uly="1377" ulx="229"/>
-				<zone xml:id="zone_jr5_5dl_4qb" lry="1780" lrx="1368" uly="1591" ulx="1069"/>
-				<zone xml:id="zone_tmd_52l_4qb" lry="1623" lrx="344" uly="1494" ulx="220"/>
-				<zone xml:id="zone_vt2_hfl_4qb" lry="1925" lrx="1830" uly="1780" ulx="1515"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1657/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f13ac39168ad49e2d21ae93a7a4fa264f7486060.jpg"/>
-				<zone lrx="2973" lry="2114" ulx="93" uly="534" xml:id="zone_ylq_j4m_3jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0177.JPG"/>
+			<zone ulx="1310" uly="1310" lrx="2020" lry="2945" xml:id="zone_ukz_d4m_3jb"/>
+			<zone ulx="2381" uly="2381" lrx="677" lry="2938" xml:id="zone_xgw_f4m_3jb"/>
+			<zone ulx="1377" uly="1377" lrx="409" lry="1503" xml:id="zone_ay2_gdl_4qb"/>
+			<zone ulx="1591" uly="1591" lrx="1368" lry="1780" xml:id="zone_jr5_5dl_4qb"/>
+			<zone ulx="1494" uly="1494" lrx="344" lry="1623" xml:id="zone_tmd_52l_4qb"/>
+			<zone ulx="1780" uly="1780" lrx="1830" lry="1925" xml:id="zone_vt2_hfl_4qb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0178.JPG"/>
+			<zone ulx="534" uly="534" lrx="2973" lry="2114" xml:id="zone_ylq_j4m_3jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_temessük" facs="#zone_ukz_d4m_3jb">
 				<p>
-					<lb/>Vech-i tahrīr-i temessük oldur ki
-					<lb/>işbu <date type="created" when-custom="1240">bin iki yüz krık senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasına tābiʿ <placeName
-						facs="#zone_ay2_gdl_4qb">KOYSINA</placeName>
-					<lb/>karyesinden mutasarrıf eyledüğü zimmī <persName facs="#zone_jr5_5dl_4qb">BNÇE İstepān</persName> nām mesfūr kendi(?) taht-ı tasarrıfında bulunan <placeName
-						facs="#zone_tmd_52l_4qb">KOŞRA</placeName>
-					<lb/>demekle <placeName facs="#zone_vt2_hfl_4qb">DURNNCE ...</placeName> ve bir gāye ve diğer-i gāye ve diğer-i ... gāye ve ...
-					<lb/>orman demekle ve bir kıtʿa tarla ... ve büyük tarlada ... ve diğer
-					<lb/>gāye ve ... gāye KARAMAN ve OSUYE demekle üç ... ve diğer gāye işbu dārende-i
-					<lb/>temessük <placeName>Kirşevo</placeName> varoş kilisanın <persName>gardiyāna</persName> resm-i tapu ile yüz yiğirmi bir guruş
-					<lb/>mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp ol dahi kabūl biz dahi me'mūr olduğumuz
-					<lb/>hasebiyle mesfūr <persName>gardiyāna</persName> tafvīz birle ve yedine işbu zabt-ı temessük virildi
-					<lb/>... kimesne māniʿ olmaya </p>
+					<lb/>
+					Vech-i tahrīr-i temessük oldur ki
+					<lb/>
+					işbu					<date type="created" when-custom="1240">bin iki yüz krık senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasına tābiʿ					<placeName facs="#zone_ay2_gdl_4qb">KOYSINA</placeName>
+					<lb/>
+					karyesinden mutasarrıf eyledüğü zimmī					<persName facs="#zone_jr5_5dl_4qb">BNÇE İstepān</persName>
+					 nām mesfūr kendi(?) taht-ı tasarrıfında bulunan					<placeName facs="#zone_tmd_52l_4qb">KOŞRA</placeName>
+					<lb/>
+					demekle					<placeName facs="#zone_vt2_hfl_4qb">DURNNCE ...</placeName>
+					 ve bir gāye ve diğer-i gāye ve diğer-i ... gāye ve ...
+					<lb/>
+					orman demekle ve bir kıtʿa tarla ... ve büyük tarlada ... ve diğer
+					<lb/>
+					gāye ve ... gāye KARAMAN ve OSUYE demekle üç ... ve diğer gāye işbu dārende-i
+					<lb/>
+					temessük					<placeName>Kirşevo</placeName>
+					 varoş kilisanın					<persName>gardiyāna</persName>
+					 resm-i tapu ile yüz yiğirmi bir guruş
+					<lb/>
+					mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp ol dahi kabūl biz dahi me'mūr olduğumuz
+					<lb/>
+					hasebiyle mesfūr					<persName>gardiyāna</persName>
+					 tafvīz birle ve yedine işbu zabt-ı temessük virildi
+					<lb/>
+					... kimesne māniʿ olmaya				</p>
 				<div2 type="sign" facs="#zone_xgw_f4m_3jb">
 					<p>
-						<lb/>Bende
-						<lb/><persName>Mustafa</persName> Emīn-i
-						<lb/>Kirşevo
-						<lb/>M </p>
+						<lb/>
+						Bende
+						<lb/>
+						<persName>Mustafa</persName>
+						 Emīn-i
+						<lb/>
+						Kirşevo
+						<lb/>
+						M					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_ylq_j4m_3jb">
 				<p>
-					<lb/>Lepniçire Zemlje Tapia <date when="1825" type="summary_Croatian">1825</date>. u Roifini.
-					<lb/>Nno 2. <date when-custom="1240" type="summary_Croatian" when="1825-08-13">1240</date>.
-					<lb/>96 </p>
+					<lb/>
+					Lepniçire Zemlje Tapia					<date when="1825" type="summary_Croatian">1825</date>
+					. u Roifini.
+					<lb/>
+					Nno 2.					<date when-custom="1240" type="summary_Croatian" when="1825-08-13">1240</date>
+					.
+					<lb/>
+					96				</p>
 			</div1>
 		</body>
 	</text>

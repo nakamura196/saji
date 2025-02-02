@@ -1,40 +1,43 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9029</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1956/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1956/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e33fb45c1f62c62356fbe9ce0277f69f100be0f4.jpg" />
-        <zone lrx="2025" lry="2675" ulx="150" uly="958" xml:id="zone_d3c_z2p_xkb" />
-        <zone lrx="1166" lry="2602" ulx="902" uly="2366" xml:id="zone_gxc_bfp_xkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_d3c_z2p_xkb" type="mürāsele">
-        <p>
-          <lb />ve'l-selām fī <date type="created" when="1819-11-16" when-custom="1235-01-29">29 M sene 235</date><lb />
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_gxc_bfp_xkb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9029</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9029.JPG"/>
+			<zone ulx="958" uly="958" lrx="2025" lry="2675" xml:id="zone_d3c_z2p_xkb"/>
+			<zone ulx="2366" uly="2366" lrx="1166" lry="2602" xml:id="zone_gxc_bfp_xkb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_d3c_z2p_xkb" type="mürāsele">
+				<p>
+					<lb/>
+					ve'l-selām fī					<date type="created" when="1819-11-16" when-custom="1235-01-29">29 M sene 235</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_gxc_bfp_xkb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

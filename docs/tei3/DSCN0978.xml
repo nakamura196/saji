@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -18,58 +19,62 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1094/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1094/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/dc48c7c82a6cdb56d7de273088f30af9b4adb98f.jpg"/>
-				<zone lrx="1663" lry="3227" ulx="454" uly="136" xml:id="zone_wwy_rff_z3b"/>
-				<zone lrx="1063" lry="314" ulx="880" uly="142" xml:id="zone_jqh_tff_z3b"/>
-				<zone lrx="1256" lry="370" ulx="1084" uly="228" xml:id="zone_zvh_5ff_z3b"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1094/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3e727227fdc6e6dc00b1950ff14fda398bf2968c.jpg"/>
-				<zone lrx="2150" lry="1816" ulx="1100" uly="1066" xml:id="zone_exj_wff_z3b"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1094/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5bc9b3210843533264e6d1f9aa8f44ee0879447c.jpg"/>
-				<zone lrx="1620" lry="3080" ulx="380" uly="80" xml:id="zone_cns_dr3_1jb"/>
-				<zone lrx="1021" lry="257" ulx="844" uly="108" xml:id="zone_l3s_2r3_1jb"/>
-				<zone lrx="1207" lry="314" ulx="1037" uly="171" xml:id="zone_wg2_fr3_1jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1094/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/74ba9b778934f21e99b50040e52f7602240cd4c3.jpg"/>
-				<zone lrx="1845" lry="1905" ulx="917" uly="1211" xml:id="zone_cth_gr3_1jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0978.JPG"/>
+			<zone ulx="136" uly="136" lrx="1663" lry="3227" xml:id="zone_wwy_rff_z3b"/>
+			<zone ulx="142" uly="142" lrx="1063" lry="314" xml:id="zone_jqh_tff_z3b"/>
+			<zone ulx="228" uly="228" lrx="1256" lry="370" xml:id="zone_zvh_5ff_z3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0979.JPG"/>
+			<zone ulx="1066" uly="1066" lrx="2150" lry="1816" xml:id="zone_exj_wff_z3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1034.JPG"/>
+			<zone ulx="80" uly="80" lrx="1620" lry="3080" xml:id="zone_cns_dr3_1jb"/>
+			<zone ulx="108" uly="108" lrx="1021" lry="257" xml:id="zone_l3s_2r3_1jb"/>
+			<zone ulx="171" uly="171" lrx="1207" lry="314" xml:id="zone_wg2_fr3_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1035.JPG"/>
+			<zone ulx="1211" uly="1211" lrx="1845" lry="1905" xml:id="zone_cth_gr3_1jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_wwy_rff_z3b" type="hüccet_sūret">
-				<l>... fī <date cert="low" from="1795-07-27" from-custom="1210-01-11" to-custom="1210-01-20" type="created">evāsit Muharrem el-harām sene ʿaşr ve miyetein ve elif</date></l>
+				<l>
+					... fī					<date cert="low" from="1795-07-27" from-custom="1210-01-11" to-custom="1210-01-20" type="created">evāsit Muharrem el-harām sene ʿaşr ve miyetein ve elif</date>
+				</l>
 				<div3 facs="#zone_jqh_tff_z3b" type="stamp"/>
 				<div3 facs="#zone_zvh_5ff_z3b" type="stamp"/>
 			</div1>
 			<div1 facs="#zone_exj_wff_z3b" type="summary_Croatian"/>
 			<div1 facs="#zone_cns_dr3_1jb" type="hüccet_sūret">
 				<p>
-					<lb/>... fī <date cert="low" type="created" from-custom="1210-01-11" to-custom="1210-01-20">evāsit Muharrem el-harām sene ʿaşr ve miyetein ve elif</date>
+					<lb/>
+					... fī					<date cert="low" type="created" from-custom="1210-01-11" to-custom="1210-01-20">evāsit Muharrem el-harām sene ʿaşr ve miyetein ve elif</date>
 					<lb/>
 				</p>
 				<div3 facs="#zone_l3s_2r3_1jb" type="stamp">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div3>
 				<div3 facs="#zone_wg2_fr3_1jb" type="stamp">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div3>
 			</div1>
 			<div1 facs="#zone_cth_gr3_1jb" type="summary_Croatian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

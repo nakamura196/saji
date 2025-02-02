@@ -1,0 +1,83 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0136</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">田などの土地の売買契約：絶対に取り消せない売却 beyʿ-i bāt katʿiyle beyʿ</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<classCode scheme="">土地譲渡・売買</classCode>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1620/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1620/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7511a5675489e810f8e8545ab1de0768ceeee46f.jpg"/>
+				<zone lrx="2185" lry="2528" ulx="71" uly="14" xml:id="zone_c5m_vnw_2jb"/>
+				<zone lrx="656" lry="2510" ulx="137" uly="2034" xml:id="zone_lvq_wnw_2jb"/>
+				<zone lrx="642" lry="2496" ulx="419" uly="2304" xml:id="zone_jv2_xnw_2jb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1620/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a60abbbe769dffffca07c54d346bd074d25c5991.jpg"/>
+				<zone lrx="2750" lry="1244" ulx="350" uly="694" xml:id="zone_hm4_b4w_2jb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_zabt_tezkire" facs="#zone_c5m_vnw_2jb">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date when-custom="1265" type="created" when="1849-11-15">bin iki yüz altmış beş senesinde</date> der ʿuhde ve iltizāmımızda bulunan <placeName type="proper"
+						>Kirşevo</placeName> mukātaʿası
+					<lb/><placeName type="proper">Kirşevo</placeName> varoş hudūd dāhilinde arāzī-i mīrīye bir kitʿa tarla <placeName>ŞİNŞİ NAKA</placeName> demekle bir taraf
+					<lb/><persName cert="unknown">KOYAKIÇ Īvān</persName> tarlası ve taraf-ı sānī <persName cert="unknown">ʿANTON MATAN</persName> tarlası ve taraf-ı sālis ve rābiʿ tarīk-i
+					<lb/>ʿāmlarıyla mahdūd ve mumtāz olub <placeName type="proper">Kirşevo</placeName> varoş mutavattınlarından zimmī <persName>TONA KORIÇ</persName>
+					<lb/>mutasarrıf eyledüğü işbu dārende-i hurūf <placeName>Kirşevo</placeName> varoş kilisadan gardiyān nām-ı mesfūre
+					<lb/>resm-i tezkire ile üç yüz otuz guruş bedeli ve ... mukābelesinde beyʿ-i bāt katʿiyle
+					<lb/>beyʿ edüb biz dahi mukātaʿa me'mūriyetimiz hasebiyle resm-i bedel ahz mesfūr gardiyāna tafvīz
+					<lb/>ve yedine işbu zabt-ı tezkire virildi mā-dām ki taraf-ı mīrīye rāciʿ olan ʿöşri [ve] rüsūmāt
+					<lb/>mīrīsine edā tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olunmaya </p>
+				<div2 type="sign" facs="#zone_lvq_wnw_2jb">
+					<p>
+						<lb/>El-me'mūr Mehmed
+						<lb/>Emīn-i Mukā-
+						<lb/>taʿları
+						<lb/>Hālā
+						<lb/>M 
+					</p>
+					<div3 type="stamp" facs="#zone_jv2_xnw_2jb">
+						<p>
+							<lb/>Mehmed ...
+							<lb/>234(?) </p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Mollā Mehmed ... Kirşevo
+						<lb/>...
+						<lb/>... Kirşevo </p>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian" facs="#zone_hm4_b4w_2jb">
+				<p>
+					<lb/>... <date when="1849" type="summary_Croatian">1849</date>. ...
+					<lb/>... gr: 363.
+					<lb/>Nno 13. </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

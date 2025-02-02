@@ -1,59 +1,67 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN8940</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1530/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1530/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/72be6ce5566c26faed757712c714e042692b8487.jpg" />
-<zone lrx="2691" lry="2467" ulx="433" uly="17" xml:id="zone_qm3_d31_2jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1530/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8cb43e3d45241274aa524013cd2559f820120dd5.jpg" />
-<zone lrx="2373" lry="1094" ulx="1106" uly="172" xml:id="zone_pry_231_2jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1530/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/73afd3c6ace3086337643daa5eff91797748bd84.jpg" />
-<zone lrx="800" lry="2033" ulx="284" uly="1516" xml:id="zone_qqj_g31_2jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1530/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/44ac6028cbff3a48c628e17db339e2ef9354dfe0.jpg" />
-<zone lrx="2978" lry="1583" ulx="467" uly="827" xml:id="zone_swm_h31_2jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_qm3_d31_2jb" type="fermān">
-<p>
-<lb />... <date from="1853-03-31" from-custom="1269-06-21" to-custom="1269-06-30" type="created">evāhir şehr Cemaziye'l-āhir sene tisʿ ve sittīn ve mieteyn ve elif</date><lb />
-</p>
-<div1 facs="#zone_pry_231_2jb" type="tuğra">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-<div2 facs="#zone_qqj_g31_2jb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_swm_h31_2jb" type="summary_Croatian">
-<p>
-<lb />Datum: <date from="1853-03-31" from-custom="1269-06-21" to-custom="1269-06-30" type="summary_Croatian">III dekada džemaziul ahira 1269</date> - <date from="1853-04-01" to="1853-04-09" type="summary_Croatian">1-9 aprila 1853</date><lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN8940</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%202/DSCN8940.JPG"/>
+			<zone ulx="17" uly="17" lrx="2691" lry="2467" xml:id="zone_qm3_d31_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%202/DSCN8941.JPG"/>
+			<zone ulx="172" uly="172" lrx="2373" lry="1094" xml:id="zone_pry_231_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%202/DSCN8942.JPG"/>
+			<zone ulx="1516" uly="1516" lrx="800" lry="2033" xml:id="zone_qqj_g31_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%202/DSCN8943.JPG"/>
+			<zone ulx="827" uly="827" lrx="2978" lry="1583" xml:id="zone_swm_h31_2jb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_qm3_d31_2jb" type="fermān">
+				<p>
+					<lb/>
+					...					<date from="1853-03-31" from-custom="1269-06-21" to-custom="1269-06-30" type="created">evāhir şehr Cemaziye'l-āhir sene tisʿ ve sittīn ve mieteyn ve elif</date>
+					<lb/>
+				</p>
+				<div1 facs="#zone_pry_231_2jb" type="tuğra">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div1>
+				<div2 facs="#zone_qqj_g31_2jb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_swm_h31_2jb" type="summary_Croatian">
+				<p>
+					<lb/>
+					Datum:					<date from="1853-03-31" from-custom="1269-06-21" to-custom="1269-06-30" type="summary_Croatian">III dekada džemaziul ahira 1269</date>
+					 -					<date from="1853-04-01" to="1853-04-09" type="summary_Croatian">1-9 aprila 1853</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

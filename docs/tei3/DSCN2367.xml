@@ -1,50 +1,55 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2367</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2695/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2695/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4789680e27cad4a725710ff466264dc02aa2e5ea.jpg" />
-        <zone lrx="1925" lry="2735" ulx="180" uly="1080" xml:id="zone_vph_5qn_dmb" />
-        <zone lrx="728" lry="2602" ulx="406" uly="2333" xml:id="zone_jc4_vqn_dmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2695/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/455d6b989d82fffb7d6df7ed63465ae605a00a0f.jpg" />
-        <zone lrx="2416" lry="2016" ulx="329" uly="1520" xml:id="zone_lb5_wqn_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_vph_5qn_dmb" type="mürāsele">
-        <p>
-          <lb />... fī <date type="created" when="1764-07-24" when-custom="1178-01-25">25 Muharremi'l-harām sene 1178</date><lb />
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_jc4_vqn_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_lb5_wqn_dmb" type="summary_Croatian">
-        <p>
-          <lb />...
-          <lb />... <date type="summary_Croatian" when="1792">1792</date>
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2367</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2367.JPG"/>
+			<zone ulx="1080" uly="1080" lrx="1925" lry="2735" xml:id="zone_vph_5qn_dmb"/>
+			<zone ulx="2333" uly="2333" lrx="728" lry="2602" xml:id="zone_jc4_vqn_dmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2368.JPG"/>
+			<zone ulx="1520" uly="1520" lrx="2416" lry="2016" xml:id="zone_lb5_wqn_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_vph_5qn_dmb" type="mürāsele">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1764-07-24" when-custom="1178-01-25">25 Muharremi'l-harām sene 1178</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_jc4_vqn_dmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_lb5_wqn_dmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+					...					<date type="summary_Croatian" when="1792">1792</date>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

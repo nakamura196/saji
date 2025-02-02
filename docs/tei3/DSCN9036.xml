@@ -1,53 +1,60 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9036</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1963/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1963/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ee6e654c27c1762de6f11d8acc03d4d76481cb28.jpg" />
-        <zone lrx="2806" lry="505" ulx="489" uly="250" xml:id="zone_qs2_wjp_xkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1963/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a134d4f955fadb4938682fb3e1233cbabbe8a3c1.jpg" />
-        <zone lrx="1854" lry="2700" ulx="31" uly="446" xml:id="zone_nkk_xjp_xkb" />
-        <zone lrx="895" lry="2671" ulx="328" uly="2042" xml:id="zone_frm_yjp_xkb" />
-        <zone lrx="888" lry="2538" ulx="630" uly="2335" xml:id="zone_f53_zjp_xkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_nkk_xjp_xkb" next="#zone_qs2_wjp_xkb" type="izin_tezkire">
-        <p>
-          <lb />...<lb />
-        </p>
-        <div2 facs="#zone_frm_yjp_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_f53_zjp_xkb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_qs2_wjp_xkb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9036</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9036.JPG"/>
+			<zone ulx="250" uly="250" lrx="2806" lry="505" xml:id="zone_qs2_wjp_xkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9037.JPG"/>
+			<zone ulx="446" uly="446" lrx="1854" lry="2700" xml:id="zone_nkk_xjp_xkb"/>
+			<zone ulx="2042" uly="2042" lrx="895" lry="2671" xml:id="zone_frm_yjp_xkb"/>
+			<zone ulx="2335" uly="2335" lrx="888" lry="2538" xml:id="zone_f53_zjp_xkb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_nkk_xjp_xkb" next="#zone_qs2_wjp_xkb" type="izin_tezkire">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+				<div2 facs="#zone_frm_yjp_xkb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_f53_zjp_xkb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_qs2_wjp_xkb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

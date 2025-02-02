@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2172</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2500/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2500/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/05db2d678543bacbfc0573312621a9654f9592b9.jpg" />
+        <zone lrx="1763" lry="2963" ulx="27" uly="1118" xml:id="zone_bpr_ggy_cmb" />
+        <zone lrx="837" lry="2913" ulx="318" uly="2554" xml:id="zone_idj_3gy_cmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2500/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1b436fcb68a9d6077c63707364c6314c92dcdab2.jpg" />
+        <zone lrx="662" lry="595" ulx="396" uly="370" xml:id="zone_qfr_jgy_cmb" />
+        <zone lrx="2283" lry="3050" ulx="91" uly="1979" xml:id="zone_h14_kgy_cmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_bpr_ggy_cmb" next="#zone_h14_kgy_cmb" subtype="unkown" type="EMIN">
+        <p>
+          <lb />işbu <date type="created" when="0666-02-11" when-custom="1245">bin iki yüz krık beş senesinde</date> der ... 
+          <lb />
+        </p>
+        <div2 facs="#zone_idj_3gy_cmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_qfr_jgy_cmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_h14_kgy_cmb" type="summary_Croatian">
+        <p>
+          <lb />...
+          <lb /><date type="summary_Croatian" when="1830">1830</date>
+          <lb />64
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

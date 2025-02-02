@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -17,58 +18,82 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1923/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1923/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ebceaef3445db970db9352ddc2eb4d7754f5d152.jpg"/>
-				<zone lrx="637" lry="866" ulx="346" uly="591" xml:id="zone_lwx_fly_wkb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1923/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6e446ca9ff917153ed9f110d79e77e82f4b775e1.jpg"/>
-				<zone lrx="2325" lry="3000" ulx="67" uly="266" xml:id="zone_ajk_hly_wkb"/>
-				<zone lrx="457" lry="2951" ulx="113" uly="2551" xml:id="zone_qmn_3ly_wkb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN8995.JPG"/>
+			<zone ulx="591" uly="591" lrx="637" lry="866" xml:id="zone_lwx_fly_wkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN8996.JPG"/>
+			<zone ulx="266" uly="266" lrx="2325" lry="3000" xml:id="zone_ajk_hly_wkb"/>
+			<zone ulx="2551" uly="2551" lrx="457" lry="2951" xml:id="zone_qmn_3ly_wkb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_ajk_hly_wkb" type="EMIN_tapu_nāme">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>bā-berāt-ı şerīf mutasarrıf olduğum tımārımız kurālaından KOMAR karyesin(?) sākinlerinden
-					<lb/>... zimmī Marya nām-ı mesfūrenin karye-i mezkūrede hudūdu ve ... dāhirinde
-					<lb/>arāzī-i mīrīiyesi taht-ı tasarrıfında olmağla ʿinde'l-ahāli(?) ve'l-cīrān(?) maʿlūm...(?) el-hudūd ile(?) ʿaşārisi(?)
-					<lb/>hakk ve karār edüb karyesiz(?) ...-meklerinden ... zimmī YÜZÜ veled-i Īvān nām zimmīye
-					<lb/>... üzere hizmet mukābelesinde habbe-i ... sahh-ı(?) şerʿiye ile tafvīz ve teslīm
-					<lb/>... mesfūrı YÜZÜ hizmet-i mezkūri kabūl ve ... olduktan sonra ben(?) dahi
-					<lb/>sāhib-i zemīn bulunduğumuz hasebiyle kānūn-u ... üzere cā'iz olub(?)
-					<lb/>mā-dām ki sāl be-sāl hāsıl olunan aʿşāl-ı şerʿiyesin ve rüsūmāt-ı ʿörfiyesin ...
-					<lb/>edā ve teslīm olunduktan sonra mesfūr zimmī YÜZÜ'nun yedine mutasarıf içün işbu
-					<lb/>tapunāme vākiʿ(?) ve iʿtā olunub vakt-i ... ibrāz oluna fī <date cert="low" type="created" when="1806-01-05" when-custom="1220-10-15">15 L sene 1220</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					bā-berāt-ı şerīf mutasarrıf olduğum tımārımız kurālaından KOMAR karyesin(?) sākinlerinden
+					<lb/>
+					... zimmī Marya nām-ı mesfūrenin karye-i mezkūrede hudūdu ve ... dāhirinde
+					<lb/>
+					arāzī-i mīrīiyesi taht-ı tasarrıfında olmağla ʿinde'l-ahāli(?) ve'l-cīrān(?) maʿlūm...(?) el-hudūd ile(?) ʿaşārisi(?)
+					<lb/>
+					hakk ve karār edüb karyesiz(?) ...-meklerinden ... zimmī YÜZÜ veled-i Īvān nām zimmīye
+					<lb/>
+					... üzere hizmet mukābelesinde habbe-i ... sahh-ı(?) şerʿiye ile tafvīz ve teslīm
+					<lb/>
+					... mesfūrı YÜZÜ hizmet-i mezkūri kabūl ve ... olduktan sonra ben(?) dahi
+					<lb/>
+					sāhib-i zemīn bulunduğumuz hasebiyle kānūn-u ... üzere cā'iz olub(?)
+					<lb/>
+					mā-dām ki sāl be-sāl hāsıl olunan aʿşāl-ı şerʿiyesin ve rüsūmāt-ı ʿörfiyesin ...
+					<lb/>
+					edā ve teslīm olunduktan sonra mesfūr zimmī YÜZÜ'nun yedine mutasarıf içün işbu
+					<lb/>
+					tapunāme vākiʿ(?) ve iʿtā olunub vakt-i ... ibrāz oluna fī					<date cert="low" type="created" when="1806-01-05" when-custom="1220-10-15">15 L sene 1220</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_qmn_3ly_wkb" type="sign">
 					<p>
-						<lb/>...
-						<lb/>Mehmed Emīn
-						<lb/>...
-						<lb/>M </p>
+						<lb/>
+						...
+						<lb/>
+						Mehmed Emīn
+						<lb/>
+						...
+						<lb/>
+						M					</p>
 					<div3 facs="#zone_lwx_fly_wkb" type="stamp">
 						<p>
-							<lb/>Emīn
-							<lb/>Mehmed
-							<lb/>...
-							<lb/>1222 </p>
+							<lb/>
+							Emīn
+							<lb/>
+							Mehmed
+							<lb/>
+							...
+							<lb/>
+							1222						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>Zimmī MİHAT KULİB
-						<lb/>ʿan karye-i mezkūr
-						<lb/>Zimmī YÜZÜ KUKİÇ ʿan karye-i KULİYE
-						<lb/>Zimmī FRANO ʿĀŞNAN
-						<lb/>ʿan karye-i mezbūr </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						Zimmī MİHAT KULİB
+						<lb/>
+						ʿan karye-i mezkūr
+						<lb/>
+						Zimmī YÜZÜ KUKİÇ ʿan karye-i KULİYE
+						<lb/>
+						Zimmī FRANO ʿĀŞNAN
+						<lb/>
+						ʿan karye-i mezbūr					</p>
 				</div2>
 			</div1>
 		</body>

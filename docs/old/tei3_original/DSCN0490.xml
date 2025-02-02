@@ -1,0 +1,40 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0490</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2897/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2897/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c8d94261d5fd8fe91be5813831e66b65c81907b5.jpg" />
+        <zone lrx="1769" lry="3218" ulx="144" uly="1481" xml:id="zone_uxw_ykc_2mb" />
+        <zone lrx="433" lry="3183" ulx="198" uly="2801" xml:id="zone_qvg_1lc_2mb" />
+        <zone lrx="1387" lry="1425" ulx="210" uly="782" xml:id="zone_pwg_blc_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_uxw_ykc_2mb" next="#zone_pwg_blc_2mb" type="mürāsele_sūret">
+        <p>
+          <lb />
+          <lb />... hurira fī <date type="created" when="1784-02-20" when-custom="1198-03">Rebi'ü'l-evvel sene 198</date>
+        </p>
+      </div1>
+      <div1 facs="#zone_pwg_blc_2mb" type="buyuruldu_sūret">
+        <p>
+          <lb />... buyuruldu <date cert="low" type="created" when="1784-01-06" when-custom="1198-02-13">13 S sene 198</date><lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

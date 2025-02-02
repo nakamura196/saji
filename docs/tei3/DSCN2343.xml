@@ -1,55 +1,65 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2343</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2671/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2671/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a2fbb76e632efd6348f500547b49ceead7eed2e4.jpg" />
-        <zone lrx="1663" lry="3145" ulx="82" uly="-27" xml:id="zone_qsn_nfn_dmb" />
-        <zone lrx="654" lry="3120" ulx="234" uly="2668" xml:id="zone_fgh_pfn_dmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2671/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/266f7b49d1fad4ef7eabb9db58fb94f19fa1b46d.jpg" />
-        <zone lrx="981" lry="945" ulx="645" uly="632" xml:id="zone_hby_qfn_dmb" />
-        <zone lrx="845" lry="1920" ulx="290" uly="300" xml:id="zone_cqz_rfn_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="unknown" facs="#zone_qsn_nfn_dmb" next="#zone_cqz_rfn_dmb" subtype="tezkire" type="EMIN">
-        <p>
-          <lb />... işbu <date type="created" when="0709-09-10" when-custom="1190">bin
-          <lb />yüz doksan senesinde</date> Kirşevo kilisaya
-        </p>
-        <div2 facs="#zone_fgh_pfn_dmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_hby_qfn_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_cqz_rfn_dmb" type="summary_Serbian">
-        <p>
-          <lb />...
-          <lb />... <date type="summary_Serbian" when="1776">1776</date>
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2343</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2343.JPG"/>
+			<zone ulx="-27" uly="-27" lrx="1663" lry="3145" xml:id="zone_qsn_nfn_dmb"/>
+			<zone ulx="2668" uly="2668" lrx="654" lry="3120" xml:id="zone_fgh_pfn_dmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2344.JPG"/>
+			<zone ulx="632" uly="632" lrx="981" lry="945" xml:id="zone_hby_qfn_dmb"/>
+			<zone ulx="300" uly="300" lrx="845" lry="1920" xml:id="zone_cqz_rfn_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="unknown" facs="#zone_qsn_nfn_dmb" next="#zone_cqz_rfn_dmb" subtype="tezkire" type="EMIN">
+				<p>
+					<lb/>
+					... işbu					<date type="created" when="0709-09-10" when-custom="1190">
+						bin
+						<lb/>
+						yüz doksan senesinde
+					</date>
+					 Kirşevo kilisaya
+				</p>
+				<div2 facs="#zone_fgh_pfn_dmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_hby_qfn_dmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_cqz_rfn_dmb" type="summary_Serbian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+					...					<date type="summary_Serbian" when="1776">1776</date>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

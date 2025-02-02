@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9011</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">エミンのもつ(?)徴税権の、修道士たちへの売却・譲渡の承認文書。</note>
+				<note type="mine">癖のある文字。【要】読み直し。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1938/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1938/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b44e17a7ebd8775138f15bfed94bd01764d1055f.jpg"/>
+				<zone lrx="2850" lry="1238" ulx="312" uly="733" xml:id="zone_oxb_32z_wkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1938/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/dc70599de28437ce85b658382f96f5e06a61d3f6.jpg"/>
+				<zone lrx="1854" lry="2781" ulx="27" uly="54" xml:id="zone_d1v_j2z_wkb"/>
+				<zone lrx="535" lry="2743" ulx="250" uly="2378" xml:id="zone_jrz_k2z_wkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_d1v_j2z_wkb" next="#zone_oxb_32z_wkb" type="EMIN_temessük">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date cert="low" from="1772-06-01" from-custom="1186-03-01" to-custom="1187-02-30">bin yüz seksen altı senenin Mart ibtidāsından Şubatı gāyesine değin(?)</date>
+					<lb/>ʿuhdemize bulunan Kirşevo mukātaʿası kurālarından Kirşevo kilisası civālisinde(?)
+					<lb/>az kadīm taʿşīr ... eden maʿlūm el-... ...-ların sene-i mezbūrede
+					<lb/>hāsıl olan ʿöşr ü rüsūmu tapu-ı zemīnden
+					<lb/>temessük kilisa-i mezbūre papazlarına seksen guruş ʿan ... mukābeleside
+					<lb/>beyʿ ve ferāğ(?) mezbūr tamāmen yedlerinden ahz ve kabz olumağı(?) olageldiği minvāl
+					<lb/>üzere zabt ve taʿşīr etmeler içün işbu temessük tahrīr olunub yedlerine virildi
+					<lb/>tahrīren fī <date type="created" when="1773-03-22" when-custom="1186">tārīhi'l-mezbūr</date>
+				</p>
+				<div2 facs="#zone_jrz_k2z_wkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Ahmed
+						<lb/>Emīn-i
+						<lb/>Kirşevo </p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_oxb_32z_wkb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1773">1773</date>
+					<lb/>,,,
+					<lb/>,,, </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

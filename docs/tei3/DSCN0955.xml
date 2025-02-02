@@ -1,20 +1,21 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0955</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">DSCN1052.JPGと同じ画像・文書。重複している。</note>
-<note type="mine">hüccetに2人作成者がいるパターン：①ナーヒエのナーイブ（発行者、権力がない）②ボスナのカーディー（tasdīkしている）</note>
-<note type="mine">書き出し：出張裁判のパターン</note>
-<note type="mine">日付：9日かどうか、要確認。tisʿには見えない？</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "E" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0955</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">DSCN1052.JPGと同じ画像・文書。重複している。</note>
+				<note type="mine">hüccetに2人作成者がいるパターン：①ナーヒエのナーイブ（発行者、権力がない）②ボスナのカーディー（tasdīkしている）</note>
+				<note type="mine">書き出し：出張裁判のパターン</note>
+				<note type="mine">日付：9日かどうか、要確認。tisʿには見えない？</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "E" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
           "1271-M-09(?)" ], "saji:date_M": [ "1854-10-02" ], "saji:foldingMethod": [ "10x1" ],
           "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
           "・透かし\r\n・定型1\r\n・定型2\r\n・定型3\r\n・定型4\r\n・オスマン朝スタンプ1\r\n・オスマン朝スタンプ2\r\n・本文\r\n・証人" ],
@@ -22,88 +23,102 @@
           "・内容はḥüccet形式だが、料紙が通常のタイプAより非常に大きく見えたので、これをタイプEとした。", "典型" ], "saji:number": [ "151" ],
           "saji:openingPhrase": [ "出張裁判のパターン" ], "saji:relationWithAnotherItems": [ "表全体像" ],
           "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "2" ], "saji:witness": [ "5" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1071/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7c6955d30de974349d3e9182285cea935518d412.jpg" />
-<zone lrx="1691" lry="3036" ulx="745" uly="9" xml:id="zone_ez5_jpz_y3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9bbd9c1791fd4112e5399987c1461c9c5735e1d8.jpg" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/b0608b04ff3a14836dadbd85e00f2d5ccba58e93.jpg" />
-<zone lrx="1584" lry="1516" ulx="1359" uly="1322" xml:id="zone_drl_4pz_y3b" />
-<zone lrx="2564" lry="1540" ulx="2382" uly="1369" xml:id="zone_vbr_ppz_y3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/2f84b80a198c5e839c79d7fe76fe6d466fac68d3.jpg" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/3b61b59e01adbb23b5210a541e6b6594f70728b4.jpg" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/f1d07b248e4e8bf6065603f2c1a05b436b11cb56.jpg" />
-<zone lrx="2167" lry="2166" ulx="750" uly="25" xml:id="zone_amc_spz_y3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p7" url="https://diyhistory.org/public/phr2/files/original/7172be249d9c0ac49150a85276075494fc497025.jpg" />
-<zone lrx="1754" lry="3245" ulx="663" uly="-5" xml:id="zone_dhk_g1k_1jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p8" url="https://diyhistory.org/public/phr2/files/original/45ed9b49a41b02f50a04a30e4aacd2fdad346a54.jpg" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p9" url="https://diyhistory.org/public/phr2/files/original/2590a6264e99983d73072308c4c39a4afd9a17c2.jpg" />
-<zone lrx="1667" lry="990" ulx="1467" uly="832" xml:id="zone_f54_j1k_1jb" />
-<zone lrx="2541" lry="1022" ulx="2363" uly="860" xml:id="zone_fwc_k1k_1jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p10" url="https://diyhistory.org/public/phr2/files/original/aaa93b252b6204c5fc141882b79e83e2a83e8342.jpg" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p11" url="https://diyhistory.org/public/phr2/files/original/044a041439b3788ca5cbbb0dd5bcd2c98e885b5e.jpg" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1071/canvas/p12" url="https://diyhistory.org/public/phr2/files/original/4af6afb941fb917a82ef73ebac3a7f033d5b3ee6.jpg" />
-<zone lrx="2136" lry="1978" ulx="435" uly="177" xml:id="zone_tkx_l1k_1jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_ez5_jpz_y3b" type="hüccet">
-<l>... fī <date cert="medium" type="created" when="1854-10-01" when-custom="1271-01-09">şehr Muharrem'l-harām min</date></l>
-<l>yevmi'l-tisʿ min sene ahadī ve sabʿīn ve miyetein ve elif</l>
-<div3 facs="#zone_drl_4pz_y3b" type="stamp" />
-<div3 facs="#zone_vbr_ppz_y3b" type="stamp" />
-</div1>
-<div1 facs="#zone_amc_spz_y3b" type="summary_Croatian">
-<l>... <date type="summary_Croatian" when="1855">1855</date></l>
-</div1>
-<div1 facs="#zone_dhk_g1k_1jb" type="hüccet">
-<p>
-<lb />... fī <date cert="medium" type="created" when="1854-10-01" when-custom="1271-01-09">şehr Muharrem'l-harām min<lb />
-<lb />yevmi'l-tisʿ min sene ahadī ve sabʿīn ve mieteyn ve elif</date><lb />
-</p>
-<div3 facs="#zone_f54_j1k_1jb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-<div3 facs="#zone_fwc_k1k_1jb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div1>
-<div1 facs="#zone_tkx_l1k_1jb" type="summary_Croatian">
-<p>
-<lb />... <date type="summary_Croatian" when="1855">1855</date>lb/&gt; </p>
-</div1>
-</body>
-</text>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0955.JPG"/>
+			<zone ulx="9" uly="9" lrx="1691" lry="3036" xml:id="zone_ez5_jpz_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0956.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0957.JPG"/>
+			<zone ulx="1322" uly="1322" lrx="1584" lry="1516" xml:id="zone_drl_4pz_y3b"/>
+			<zone ulx="1369" uly="1369" lrx="2564" lry="1540" xml:id="zone_vbr_ppz_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0958.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0959.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0960.JPG"/>
+			<zone ulx="25" uly="25" lrx="2167" lry="2166" xml:id="zone_amc_spz_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1052.JPG"/>
+			<zone ulx="-5" uly="-5" lrx="1754" lry="3245" xml:id="zone_dhk_g1k_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1053.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1054.JPG"/>
+			<zone ulx="832" uly="832" lrx="1667" lry="990" xml:id="zone_f54_j1k_1jb"/>
+			<zone ulx="860" uly="860" lrx="2541" lry="1022" xml:id="zone_fwc_k1k_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1055.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1056.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1057.JPG"/>
+			<zone ulx="177" uly="177" lrx="2136" lry="1978" xml:id="zone_tkx_l1k_1jb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_ez5_jpz_y3b" type="hüccet">
+				<l>
+					... fī					<date cert="medium" type="created" when="1854-10-01" when-custom="1271-01-09">şehr Muharrem'l-harām min</date>
+				</l>
+				<l>yevmi'l-tisʿ min sene ahadī ve sabʿīn ve miyetein ve elif</l>
+				<div3 facs="#zone_drl_4pz_y3b" type="stamp"/>
+				<div3 facs="#zone_vbr_ppz_y3b" type="stamp"/>
+			</div1>
+			<div1 facs="#zone_amc_spz_y3b" type="summary_Croatian">
+				<l>
+					...					<date type="summary_Croatian" when="1855">1855</date>
+				</l>
+			</div1>
+			<div1 facs="#zone_dhk_g1k_1jb" type="hüccet">
+				<p>
+					<lb/>
+					... fī					<date cert="medium" type="created" when="1854-10-01" when-custom="1271-01-09">
+						şehr Muharrem'l-harām min
+						<lb/>
+						<lb/>
+						yevmi'l-tisʿ min sene ahadī ve sabʿīn ve mieteyn ve elif
+					</date>
+					<lb/>
+				</p>
+				<div3 facs="#zone_f54_j1k_1jb" type="stamp">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div3>
+				<div3 facs="#zone_fwc_k1k_1jb" type="stamp">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div3>
+			</div1>
+			<div1 facs="#zone_tkx_l1k_1jb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1855">1855</date>
+					lb/&gt;				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

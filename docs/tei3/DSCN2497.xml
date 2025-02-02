@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,38 +14,38 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2824/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/eea444926f5b7e49f47fbdcea002410762bc362c.jpg" n="https://diyhistory.org/public/phr2/iiif/2824/canvas/p1"/>
-				<zone xml:id="zone_dxx_r3y_ssb" lry="1169" lrx="1203" uly="88" ulx="438"/>
-				<zone xml:id="zone_el1_t3y_ssb" lry="1169" lrx="1923" uly="113" ulx="1207"/>
-				<zone xml:id="zone_lxh_53y_ssb" lry="1196" lrx="2690" uly="151" ulx="1969"/>
-				<zone xml:id="zone_owq_v3y_ssb" lry="2255" lrx="1167" uly="1103" ulx="398"/>
-				<zone xml:id="zone_cgv_w3y_ssb" lry="2253" lrx="2036" uly="1188" ulx="1246"/>
-				<zone xml:id="zone_bdv_x3y_ssb" lry="2328" lrx="2765" uly="1240" ulx="2059"/>
-			</surface>
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/65de30b9aea29821ef99f7bf26a7f277e29ac6a3.jpg" n="https://diyhistory.org/public/phr2/iiif/2824/canvas/p2"/>
-				<zone xml:id="zone_es1_djy_ssb" lry="1194" lrx="1123" uly="82" ulx="368"/>
-				<zone xml:id="zone_vmd_2jy_ssb" lry="1256" lrx="1937" uly="154" ulx="1160"/>
-				<zone xml:id="zone_rwn_fjy_ssb" lry="1270" lrx="2705" uly="190" ulx="1952"/>
-				<zone xml:id="zone_gv4_gjy_ssb" lry="2296" lrx="1092" uly="1164" ulx="347"/>
-				<zone xml:id="zone_vc4_hjy_ssb" lry="2309" lrx="1980" uly="1215" ulx="1154"/>
-				<zone xml:id="zone_j4n_3jy_ssb" lry="2368" lrx="2703" uly="1237" ulx="1956"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%205/DSCN2497.JPG"/>
+			<zone ulx="88" uly="88" lrx="1203" lry="1169" xml:id="zone_dxx_r3y_ssb"/>
+			<zone ulx="113" uly="113" lrx="1923" lry="1169" xml:id="zone_el1_t3y_ssb"/>
+			<zone ulx="151" uly="151" lrx="2690" lry="1196" xml:id="zone_lxh_53y_ssb"/>
+			<zone ulx="1103" uly="1103" lrx="1167" lry="2255" xml:id="zone_owq_v3y_ssb"/>
+			<zone ulx="1188" uly="1188" lrx="2036" lry="2253" xml:id="zone_cgv_w3y_ssb"/>
+			<zone ulx="1240" uly="1240" lrx="2765" lry="2328" xml:id="zone_bdv_x3y_ssb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%205/DSCN2498.JPG"/>
+			<zone ulx="82" uly="82" lrx="1123" lry="1194" xml:id="zone_es1_djy_ssb"/>
+			<zone ulx="154" uly="154" lrx="1937" lry="1256" xml:id="zone_vmd_2jy_ssb"/>
+			<zone ulx="190" uly="190" lrx="2705" lry="1270" xml:id="zone_rwn_fjy_ssb"/>
+			<zone ulx="1164" uly="1164" lrx="1092" lry="2296" xml:id="zone_gv4_gjy_ssb"/>
+			<zone ulx="1215" uly="1215" lrx="1980" lry="2309" xml:id="zone_vc4_hjy_ssb"/>
+			<zone ulx="1237" uly="1237" lrx="2703" lry="2368" xml:id="zone_j4n_3jy_ssb"/>
+		</surface>
 	</facsimile>
 	<text n="1" facs="#zone_dxx_r3y_ssb #zone_es1_djy_ssb">
 		<body>
 			<div1 type="sened" facs="#zone_dxx_r3y_ssb">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -52,7 +53,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -60,7 +62,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -68,7 +71,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -76,7 +80,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -84,13 +89,15 @@
 			</div1>
 			<div1 type="sened" facs="#zone_es1_djy_ssb">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -102,13 +109,15 @@
 		<body>
 			<div1 type="sened" facs="#zone_el1_t3y_ssb">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -116,7 +125,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -124,7 +134,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -132,7 +143,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -140,7 +152,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -148,13 +161,15 @@
 			</div1>
 			<div1 type="sened" facs="#zone_vmd_2jy_ssb">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -166,13 +181,15 @@
 		<body>
 			<div1 type="sened" facs="#zone_lxh_53y_ssb">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -180,7 +197,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -188,7 +206,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -196,7 +215,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -204,7 +224,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -212,13 +233,15 @@
 			</div1>
 			<div1 type="sened" facs="#zone_rwn_fjy_ssb">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -230,13 +253,15 @@
 		<body>
 			<div1 type="sened" facs="#zone_owq_v3y_ssb">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -244,7 +269,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -252,7 +278,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -260,7 +287,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -268,7 +296,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -276,13 +305,15 @@
 			</div1>
 			<div1 type="sened" facs="#zone_gv4_gjy_ssb">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -294,13 +325,15 @@
 		<body>
 			<div1 type="sened" facs="#zone_cgv_w3y_ssb">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -308,7 +341,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -316,7 +350,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -324,7 +359,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -332,7 +368,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -340,13 +377,15 @@
 			</div1>
 			<div1 type="sened" facs="#zone_vc4_hjy_ssb">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -358,13 +397,15 @@
 		<body>
 			<div1 type="sened" facs="#zone_bdv_x3y_ssb">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -372,7 +413,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -380,7 +422,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -388,7 +431,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -396,7 +440,8 @@
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -404,13 +449,15 @@
 			</div1>
 			<div1 type="sened" facs="#zone_j4n_3jy_ssb">
 				<p>
-					<lb/>... fī
+					<lb/>
+					... fī
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>

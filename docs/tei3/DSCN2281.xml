@@ -1,53 +1,59 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2281</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2609/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2609/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ca9aa41c294764bfc7540d12490a1125cc9973a6.jpg" />
-        <zone lrx="1708" lry="2583" ulx="200" uly="91" xml:id="zone_gl1_cgg_dmb" />
-        <zone lrx="732" lry="2529" ulx="212" uly="2192" xml:id="zone_bwk_dgg_dmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2609/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2ac499ce7225f359616b00769837e4d8ca968b60.jpg" />
-        <zone lrx="675" lry="1166" ulx="433" uly="925" xml:id="zone_ovb_fgg_dmb" />
-        <zone lrx="2133" lry="2966" ulx="808" uly="2712" xml:id="zone_bk5_fgg_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="low" facs="#zone_gl1_cgg_dmb" next="#zone_bk5_fgg_dmb" type="izin_nāme">
-        <p>
-          <lb />... fī <date type="created" when="1754-11-16" when-custom="1168-02-01">gürre-i Saferi'l-... sene 1168</date><lb />
-        </p>
-        <div2 facs="#zone_bwk_dgg_dmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_ovb_fgg_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_bk5_fgg_dmb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1754">1754</date>
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2281</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2281.JPG"/>
+			<zone ulx="91" uly="91" lrx="1708" lry="2583" xml:id="zone_gl1_cgg_dmb"/>
+			<zone ulx="2192" uly="2192" lrx="732" lry="2529" xml:id="zone_bwk_dgg_dmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2282.JPG"/>
+			<zone ulx="925" uly="925" lrx="675" lry="1166" xml:id="zone_ovb_fgg_dmb"/>
+			<zone ulx="2712" uly="2712" lrx="2133" lry="2966" xml:id="zone_bk5_fgg_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_gl1_cgg_dmb" next="#zone_bk5_fgg_dmb" type="izin_nāme">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1754-11-16" when-custom="1168-02-01">gürre-i Saferi'l-... sene 1168</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_bwk_dgg_dmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_ovb_fgg_dmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_bk5_fgg_dmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1754">1754</date>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

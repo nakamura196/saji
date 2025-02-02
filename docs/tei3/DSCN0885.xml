@@ -1,19 +1,20 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0885</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="summary">フォルダ「Tursko 1」表紙</note>
-<note type="mine">修道院作成。「18-19 st.」という表記があり、フォルダ中に含まれる史料年代を示していると思われる。また「Komada 169」という表記があり（komada：作品）、フォルダ中に含まれる史料点数を示していると思われる。</note>
-<note type="mine">【要】フォルダ表紙なので、文書数カウントに含めないようにする。</note>
-</notesStmt>
-<sourceDesc>
-<p>{
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0885</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">フォルダ「Tursko 1」表紙</note>
+				<note type="mine">修道院作成。「18-19 st.」という表記があり、フォルダ中に含まれる史料年代を示していると思われる。また「Komada 169」という表記があり（komada：作品）、フォルダ中に含まれる史料点数を示していると思われる。</note>
+				<note type="mine">【要】フォルダ表紙なので、文書数カウントに含めないようにする。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{
   "saji:aspectRatioType": [
     "n/a"
   ],
@@ -36,16 +37,17 @@
     "n/a"
   ]
 }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1004/manifest">
-<surface><graphic n="https://diyhistory.org/public/phr2/iiif/1004/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/683c523e6d58e726d072fc420ac6b37e6d99f6a9.jpg" /></surface></surfaceGrp>
-</facsimile>
-<text>
-<body>
-<p />
-</body>
-</text>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0885.JPG"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
 </TEI>

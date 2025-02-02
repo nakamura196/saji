@@ -1,0 +1,45 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9349</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2273/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2273/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/410306974d02d315913d6ab5f779b486dd6f3996.jpg"/>
+				<zone lrx="2492" lry="1604" ulx="1228" uly="800" xml:id="zone_x5m_rt1_zlb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2273/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ec59ccdfe108a1d43074665e073259f0b47ce70d.jpg"/>
+				<zone lrx="2323" lry="1072" ulx="628" uly="177" xml:id="zone_ngh_5t1_zlb"/>
+				<zone lrx="2273" lry="2100" ulx="1943" uly="1756" xml:id="zone_kzy_vt1_zlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_x5m_rt1_zlb" next="#zone_x5m_rt1_zlb" type="tezkire">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+			</div1>
+			<div1 facs="#zone_x5m_rt1_zlb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1916-10-26" when-custom="1334">1334</date>
+					<date type="summary_Croatian" when="1842">1842</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

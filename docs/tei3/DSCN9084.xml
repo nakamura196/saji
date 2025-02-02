@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,42 +14,44 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2011/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2011/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/64fec1901428c7adff241fcd739cc952c245df85.jpg"/>
-				<zone lrx="2448" lry="980" ulx="1819" uly="414" xml:id="zone_i34_zwz_flb"/>
-				<zone lrx="3036" lry="1004" ulx="2403" uly="327" xml:id="zone_lrp_1xz_flb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2011/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/331b322864cebb5e430fd4f7efed51120affe6e1.jpg"/>
-				<zone lrx="1670" lry="2900" ulx="170" uly="223" xml:id="zone_svb_cxz_flb"/>
-				<zone lrx="629" lry="2874" ulx="336" uly="2609" xml:id="zone_p4t_dxz_flb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9084.JPG"/>
+			<zone ulx="414" uly="414" lrx="2448" lry="980" xml:id="zone_i34_zwz_flb"/>
+			<zone ulx="327" uly="327" lrx="3036" lry="1004" xml:id="zone_lrp_1xz_flb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9085.JPG"/>
+			<zone ulx="223" uly="223" lrx="1670" lry="2900" xml:id="zone_svb_cxz_flb"/>
+			<zone ulx="2609" uly="2609" lrx="629" lry="2874" xml:id="zone_p4t_dxz_flb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_svb_cxz_flb" type="ʿarz-ı_hāl">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 				<div2 facs="#zone_p4t_dxz_flb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_i34_zwz_flb" type="unkown">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>
 			<div1 cert="low" facs="#zone_lrp_1xz_flb" type="summary_Croatian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

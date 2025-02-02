@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2026</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2356/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2356/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e042a102b03d23ebb9e50bdea401e2467bbc5b4d.jpg" />
+        <zone lrx="1767" lry="3116" ulx="308" uly="291" xml:id="zone_nbm_2zn_bmb" />
+        <zone lrx="895" lry="3080" ulx="324" uly="2527" xml:id="zone_oqx_fzn_bmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2356/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3941ab72d665ed6bf5a79b82c46b177c69b22238.jpg" />
+        <zone lrx="2000" lry="2607" ulx="1716" uly="2345" xml:id="zone_fmh_hzn_bmb" />
+        <zone lrx="1929" lry="479" ulx="804" uly="171" xml:id="zone_pdl_3zn_bmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 cert="low" facs="#zone_nbm_2zn_bmb" next="#zone_pdl_3zn_bmb" subtype="tezkire" type="EMIN">
+        <p>
+          <lb />... fī <date type="created" when="1793-10-20" when-custom="1208-03-15">15 Ra sene 1208</date><lb />
+        </p>
+        <div2 facs="#zone_oqx_fzn_bmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_fmh_hzn_bmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_pdl_3zn_bmb" type="unkown">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

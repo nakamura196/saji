@@ -1,75 +1,98 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>DSCN0117</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <facsimile>
-        <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1601/manifest">
-            <surface>
-                <graphic n="https://diyhistory.org/public/phr2/iiif/1601/canvas/p1"
-                    url="https://diyhistory.org/public/phr2/files/original/3a6f94555dabc8bc481a10da5ad93c51b90cb5cc.jpg"/>
-                <zone lrx="2263" lry="3090" ulx="391" uly="100" xml:id="zone_zjz_1fv_2jb"/>
-                <zone lrx="869" lry="2954" ulx="557" uly="2570" xml:id="zone_hx3_cfv_2jb"/>
-            </surface>
-            <surface>
-                <graphic n="https://diyhistory.org/public/phr2/iiif/1601/canvas/p2"
-                    url="https://diyhistory.org/public/phr2/files/original/cff62c76dfff63402921e2eceb7bed200ec1e0f5.jpg"/>
-                <zone lrx="3156" lry="1266" ulx="145" uly="672" xml:id="zone_qbj_dfv_2jb"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <div1 type="EMIN" cert="unknown" facs="#zone_zjz_1fv_2jb">
-                <p>
-                    <lb/>Hüve
-                    <lb/>Vech-i tahrīr-i hurūf oldur ki
-                    <lb/>işbu <date when-custom="1246" when="1831-06-10">bin iki yüz krık altı senesinde</date> der ʿuhde ve iltizāmımızda bulunan 
-                    <lb/>Kirşevo mukātaʿası[na] tābiʿ kurālarından [破損] karyesınde [破損]
-                    <lb/>...-larından ... Mollā İbrāhīm ... bulunan
-                    <lb/>mülk ve emlāk ve bir mikdār ... ve ...-ı hāssalarından ...
-                    <lb/>zimmī gardiyān YARINLARI nām kimesne yüz yetmiş guruş
-                    <lb/>mukābelesinde beyʿ-i katʿ edüb biz dahi me'mūr olduğum hasebiyle
-                    <lb/>baʿd ahz mā-dām ki sāl be-sāl ... tarafımızdan
-                    <lb/>ve taraf-ı āhardan kimesne māniʿ olmayan
-                    <lb/>fī <date cert="low" type="created" when="1830-11-26" when-custom="1246-06-11">11 māh C sene 1246</date>
-                </p>
-                <div2 type="sign" facs="#zone_hx3_cfv_2jb">
-                    <p>
-                        <lb/>Seyyid
-                        <lb/>Mehmed Emin-i
-                        <lb/>mukātaʿa-i
-                        <lb/>Kirşevo
-                    </p>
-                </div2>
-                <div2 type="şühūdu’l-hāl">
-                    <p>
-                        <lb/>İbrāhīm
-                        <lb/>Seyyid Sālih
-                        <lb/>Mustafa ...
-                        <lb/>Mollā ʿALMADLAR
-                        <lb/>DVVŞ Ağa
-                        <lb/>Zimmī YAKO
-                        <lb/>Zimmī PDR
-                        <lb/>ve gayri
-                    </p>
-                </div2>
-            </div1>
-            <div1 facs="#zone_qbj_dfv_2jb" type="summary_Croatian">
-                <p>
-                    <lb/>... <date type="summary_Croatian" when="1831">1831</date>.
-                    <lb/>gr: 192 p 20.
-                </p>
-            </div1>
-        </body>
-    </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0117</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0117.JPG"/>
+			<zone ulx="100" uly="100" lrx="2263" lry="3090" xml:id="zone_zjz_1fv_2jb"/>
+			<zone ulx="2570" uly="2570" lrx="869" lry="2954" xml:id="zone_hx3_cfv_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0118.JPG"/>
+			<zone ulx="672" uly="672" lrx="3156" lry="1266" xml:id="zone_qbj_dfv_2jb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN" cert="unknown" facs="#zone_zjz_1fv_2jb">
+				<p>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date when-custom="1246" when="1831-06-10">bin iki yüz krık altı senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan					<lb/>
+					Kirşevo mukātaʿası[na] tābiʿ kurālarından [破損] karyesınde [破損]
+					<lb/>
+					...-larından ... Mollā İbrāhīm ... bulunan
+					<lb/>
+					mülk ve emlāk ve bir mikdār ... ve ...-ı hāssalarından ...
+					<lb/>
+					zimmī gardiyān YARINLARI nām kimesne yüz yetmiş guruş
+					<lb/>
+					mukābelesinde beyʿ-i katʿ edüb biz dahi me'mūr olduğum hasebiyle
+					<lb/>
+					baʿd ahz mā-dām ki sāl be-sāl ... tarafımızdan
+					<lb/>
+					ve taraf-ı āhardan kimesne māniʿ olmayan
+					<lb/>
+					fī					<date cert="low" type="created" when="1830-11-26" when-custom="1246-06-11">11 māh C sene 1246</date>
+				</p>
+				<div2 type="sign" facs="#zone_hx3_cfv_2jb">
+					<p>
+						<lb/>
+						Seyyid
+						<lb/>
+						Mehmed Emin-i
+						<lb/>
+						mukātaʿa-i
+						<lb/>
+						Kirşevo
+					</p>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						İbrāhīm
+						<lb/>
+						Seyyid Sālih
+						<lb/>
+						Mustafa ...
+						<lb/>
+						Mollā ʿALMADLAR
+						<lb/>
+						DVVŞ Ağa
+						<lb/>
+						Zimmī YAKO
+						<lb/>
+						Zimmī PDR
+						<lb/>
+						ve gayri
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_qbj_dfv_2jb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1831">1831</date>
+					.
+					<lb/>
+					gr: 192 p 20.
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

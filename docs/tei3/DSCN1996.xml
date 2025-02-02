@@ -1,44 +1,49 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN1996</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2326/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2326/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7407e1961808e4b17e7fb42826c3b735b2e30cdc.jpg" />
-        <zone lrx="2167" lry="3008" ulx="158" uly="166" xml:id="zone_xxw_fsp_zlb" />
-        <zone lrx="521" lry="2954" ulx="257" uly="2585" xml:id="zone_uds_hsp_zlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="low" facs="#zone_xxw_fsp_zlb" subtype="hurūf" type="EMIN">
-        <p>
-          <lb />işbu <date type="created" when="1816-06-26" when-custom="1231-08-01">bin iki yüz otuz bir senesinde māh-ı Şaʿbānİ'l-şerīf birinci gününde</date> olup
-          <lb />
-        </p>
-        <div2 facs="#zone_uds_hsp_zlb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1996</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN1996.JPG"/>
+			<zone ulx="166" uly="166" lrx="2167" lry="3008" xml:id="zone_xxw_fsp_zlb"/>
+			<zone ulx="2585" uly="2585" lrx="521" lry="2954" xml:id="zone_uds_hsp_zlb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_xxw_fsp_zlb" subtype="hurūf" type="EMIN">
+				<p>
+					<lb/>
+					işbu					<date type="created" when="1816-06-26" when-custom="1231-08-01">bin iki yüz otuz bir senesinde māh-ı Şaʿbānİ'l-şerīf birinci gününde</date>
+					 olup
+					<lb/>
+				</p>
+				<div2 facs="#zone_uds_hsp_zlb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

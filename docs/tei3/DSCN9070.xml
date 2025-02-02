@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -25,17 +26,15 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1997/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1997/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9378b8591c22426b2399b887cd13b031d6944c76.jpg"/>
-				<zone lrx="2282" lry="3027" ulx="91" uly="190" xml:id="zone_l3f_gxs_flb"/>
-				<zone lrx="547" lry="3011" ulx="140" uly="2709" xml:id="zone_hz2_3xs_flb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1997/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/60cb0cb500fbf93c6a22945b2e46d709e0e54a89.jpg"/>
-				<zone lrx="2739" lry="611" ulx="239" uly="127" xml:id="zone_nrq_jxs_flb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9070.JPG"/>
+			<zone ulx="190" uly="190" lrx="2282" lry="3027" xml:id="zone_l3f_gxs_flb"/>
+			<zone ulx="2709" uly="2709" lrx="547" lry="3011" xml:id="zone_hz2_3xs_flb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9071.JPG"/>
+			<zone ulx="127" uly="127" lrx="2739" lry="611" xml:id="zone_nrq_jxs_flb"/>
+		</surface>
 	</facsimile>
 	<standOff>
 		<listPerson>
@@ -79,7 +78,6 @@
 				</state>
 			</place>
 			<place xml:id="place2">
-				<!-- <placeName>BAVŞ'in çayır</placeName> -->
 				<state type="立場">
 					<label>取引対象</label>
 				</state>
@@ -102,44 +100,88 @@
 		<body>
 			<div1 facs="#zone_l3f_gxs_flb" next="#zone_nrq_jxs_flb" type="EMIN">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>işbu <date when-custom="1223">bin iki yüz yiğirmi üç senesinin</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası
-					<lb/>kurālarından <placeName corresp="#place1">VAJAVİÇE</placeName> karyesi hudūdunda arāzī-i mīrīye mutasarrıf olan zimmī <persName corresp="#person1">YAKO KRAK'in
-						<lb/>veled-i GAŞO</persName> karye-i merkūmde arāzī-i mezkūri tasarrıfında bulunan bir kıtʿa çayır bir taraf
-					<lb/><persName>PUPU</persName> çayırı ve bir taraf <persName>Peter KRAK</persName>'in çayırı ve taraf-ı sālis <placeName>Kraşova(Kirşevo)</placeName> rāhibleri çayırı
-					<lb/>ve taraf-ı rābiʿ olmankık <placeName corresp="#place2"><persName>BAVŞ</persName>'in çayır</placeName> demekle maʿrūf olunan çayırı işbu dārendeyān-ı
-					<lb/>hurūf gardiyān <persName corresp="#person2">MİHT</persName> ve sā'ir-i rāhiblere resmiyle <measure quantity="88" unit="esedī_guruş">seksen sekiz esedī guruş</measure> bedel
-					<lb/>mukābelesinde beyʿ katʿiyle beyʿ ve hakk-ı tasarrıfīn ferāğat etmekle mesfūrūn dahi ber-minvāl-i
-					<lb/>muharreru üzere iştirā ve kabūl ve meblağ-ı mezkūri tamāmen edā ve teslīm etmeleriyle zabt içün
-					<lb/>taraf-ı mīrīyeden istīzān etmeleriyle biz dahi me'mūrimiz hasebiyle beyʿ [ü] şirā'larīn tecvīz
-					<lb/>ve ferāğ-ı mezkūri tafvīz edüb mā-dām ki taraf-ı mīrīye ʿāid olan ʿöşrīn be-her sene edā ede
-					<lb/>zabt ve tasarrıflarına izin birle tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olmaya ve'l-selām
-					<lb/>hurira fī <date type="created" when="1808-07-28" when-custom="1223-06-05">5 C sene 1223</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					işbu					<date when-custom="1223">bin iki yüz yiğirmi üç senesinin</date>
+					 der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası
+					<lb/>
+					kurālarından					<placeName corresp="#place1">VAJAVİÇE</placeName>
+					 karyesi hudūdunda arāzī-i mīrīye mutasarrıf olan zimmī					<persName corresp="#person1">
+						YAKO KRAK'in
+						<lb/>
+						veled-i GAŞO
+					</persName>
+					 karye-i merkūmde arāzī-i mezkūri tasarrıfında bulunan bir kıtʿa çayır bir taraf
+					<lb/>
+					<persName>PUPU</persName>
+					 çayırı ve bir taraf					<persName>Peter KRAK</persName>
+					'in çayırı ve taraf-ı sālis					<placeName>Kraşova(Kirşevo)</placeName>
+					 rāhibleri çayırı
+					<lb/>
+					ve taraf-ı rābiʿ olmankık					<placeName corresp="#place2">
+						<persName>BAVŞ</persName>
+						'in çayır
+					</placeName>
+					 demekle maʿrūf olunan çayırı işbu dārendeyān-ı
+					<lb/>
+					hurūf gardiyān					<persName corresp="#person2">MİHT</persName>
+					 ve sā'ir-i rāhiblere resmiyle					<measure quantity="88" unit="esedī_guruş">seksen sekiz esedī guruş</measure>
+					 bedel
+					<lb/>
+					mukābelesinde beyʿ katʿiyle beyʿ ve hakk-ı tasarrıfīn ferāğat etmekle mesfūrūn dahi ber-minvāl-i
+					<lb/>
+					muharreru üzere iştirā ve kabūl ve meblağ-ı mezkūri tamāmen edā ve teslīm etmeleriyle zabt içün
+					<lb/>
+					taraf-ı mīrīyeden istīzān etmeleriyle biz dahi me'mūrimiz hasebiyle beyʿ [ü] şirā'larīn tecvīz
+					<lb/>
+					ve ferāğ-ı mezkūri tafvīz edüb mā-dām ki taraf-ı mīrīye ʿāid olan ʿöşrīn be-her sene edā ede
+					<lb/>
+					zabt ve tasarrıflarına izin birle tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olmaya ve'l-selām
+					<lb/>
+					hurira fī					<date type="created" when="1808-07-28" when-custom="1223-06-05">5 C sene 1223</date>
 				</p>
 				<div2 facs="#zone_hz2_3xs_flb" type="sign">
 					<p>
-						<lb/>...
-						<lb/><persName corresp="#person3">ʿAbdüllāh</persName> Emīn-i
-						<lb/>Mukātaʿa-i Kirşevo
-						<lb/>M </p>
+						<lb/>
+						...
+						<lb/>
+						<persName corresp="#person3">ʿAbdüllāh</persName>
+						 Emīn-i
+						<lb/>
+						Mukātaʿa-i Kirşevo
+						<lb/>
+						M					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>Sālih ʿAlemdār KUGİÇ
-						<lb/>Silāhcı Hasan Beşe
-						<lb/>Dervīş Beşe Mehmed Oğlu
-						<lb/>Zimmī JAPO ʿAnton
-						<lb/>Zimmī Andriye TOMİÇ </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						Sālih ʿAlemdār KUGİÇ
+						<lb/>
+						Silāhcı Hasan Beşe
+						<lb/>
+						Dervīş Beşe Mehmed Oğlu
+						<lb/>
+						Zimmī JAPO ʿAnton
+						<lb/>
+						Zimmī Andriye TOMİÇ					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_nrq_jxs_flb" type="summary_Croatian">
 				<p>
-					<lb/>Die ... <date type="summary_Croatian" when="1802">1802</date> od ,,,.
-					<lb/>...
-					<lb/>,,,
-					<lb/>,,, </p>
+					<lb/>
+					Die ...					<date type="summary_Croatian" when="1802">1802</date>
+					 od ,,,.
+					<lb/>
+					...
+					<lb/>
+					,,,
+					<lb/>
+					,,,				</p>
 			</div1>
 		</body>
 	</text>

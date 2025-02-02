@@ -1,41 +1,43 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2450</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2777/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2777/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5db8e20292cdc103faf33c152921867dad3d7173.jpg" />
-        <zone lrx="1918" lry="3100" ulx="236" uly="145" xml:id="zone_vh5_fmv_dmb" />
-        <zone lrx="1013" lry="3045" ulx="640" uly="2743" xml:id="zone_mqw_gmv_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_vh5_fmv_dmb" type="mürāsele">
-        <p>
-          <lb />
-          <lb />... hurira <date type="created" when="1786-09-15" when-custom="1200-11-22">22 Za sene 1200</date>
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_mqw_gmv_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2450</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2450.JPG"/>
+			<zone ulx="145" uly="145" lrx="1918" lry="3100" xml:id="zone_vh5_fmv_dmb"/>
+			<zone ulx="2743" uly="2743" lrx="1013" lry="3045" xml:id="zone_mqw_gmv_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_vh5_fmv_dmb" type="mürāsele">
+				<p>
+					<lb/>
+					<lb/>
+					... hurira					<date type="created" when="1786-09-15" when-custom="1200-11-22">22 Za sene 1200</date>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_mqw_gmv_dmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

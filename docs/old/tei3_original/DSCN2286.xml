@@ -1,0 +1,38 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2286</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2614/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2614/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a1f168e13d232236da7e0e689a72eff7687d53f8.jpg" />
+        <zone lrx="1736" lry="2854" ulx="118" uly="-18" xml:id="zone_uyv_g3g_dmb" />
+        <zone lrx="602" lry="2795" ulx="127" uly="2370" xml:id="zone_bp4_33g_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_uyv_g3g_dmb" type="mürāsele">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 facs="#zone_bp4_33g_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,69 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9038</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">非ムスリム間の土地と徴税権の譲渡契約の証文</note>
+				<note type="mine">şühūdu'l-hālのところに、「クレシェヴォ・エミン付のアブデュッラー・ベシェʿAbdüllāh Beşe tābiʿ Kirşevo Emīni」という名前の人物がいる。こういう役職があったのか？</note>
+				<note type="mine">あまりよく読めていないので、【要】読み直し。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1965/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1965/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/60b7a0492cd2381ac77931c46c997e54269cdb94.jpg"/>
+				<zone lrx="2327" lry="3072" ulx="100" uly="909" xml:id="zone_e3z_pkp_xkb"/>
+				<zone lrx="494" lry="2681" ulx="202" uly="2364" xml:id="zone_cgf_rkp_xkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_e3z_pkp_xkb" type="EMIN_tezkire">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date type="created" when="1814-12-11" when-custom="1229">bin iki yüz yiğirmi dokuz senesinde</date> Kirşevo mukātaʿasından <placeName>VIRANKA</placeName> karyesi mütemekkinlerinden
+					<lb/><persName>MİŞANUİÇ ZMREMİYHAT</persName> nām mesfūr bundan akdem ... eden ...
+					<lb/>... Bekīroğlu ... intikāl eden
+					<lb/>karye-i mezbūrede bir kıtʿa ...-hānesinde üçüncü hāssa-ı mutasarruflar olmağla karye-i mezbūrede mütemekkinlerinden
+					<lb/><persName>ʿAHUCA BINT-İ ZİMMİ MATO MİŞANUÇ</persName> taleb olunmağla yiğirmi guruşu resmiyle beyʿ katʿiyle beyʿ edüb
+					<lb/>ol dahi minvāl-i muherrer ve kabūl eyledikten sonra biz dahi me'mūr olduğum hasebiyle beyʿleri tafvīz
+					<lb/>ve cā'iz görüb mā-dām ki sāl be-sāl aʿşār-ı şerʿiyesin ve rüsūmāt-ı ʿörfiyesin
+					<lb/>merkūm zimmī <persName>Mato</persName>'nun yedine(?) işbu tezkire iʿtā olundu mutasarrıf eylesın(?) kimesne māniʿ
+					<lb/>olunmaya tahrīren fī <date when-custom="1229-07">māh Recebi'l-... sene tisʿ ve ʿaşrīn ve mietein ve elif</date>
+				</p>
+				<div2 facs="#zone_cgf_rkp_xkb" type="sign">
+					<p>
+						<lb/>El-... Mehmed
+						<lb/>Dervīş
+						<lb/>NVALİzāde
+						<lb/>Emīn-i
+						<lb/>Kirşevo
+					</p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Zimmī YAKO ÇAPLİ ʿan karye-i mezbūr
+						<lb/>Zimmī Īvān PULİÇ ʿan mezbūr
+						<lb/>KOÇKABUEUMATŞÇ ʿan mezbūr
+						<lb/>MİHAT KATİÇ ʿan mezbūr
+						<lb/>MATO VIDRUBİÇ
+						<lb/>Zimmī COʿAM ÇİHANİÇE
+						<lb/>ʿAbdüllāh Beşe tābiʿ Kirşevo Emīni
+					</p>
+				</div2>				
+			</div1>
+		</body>
+	</text>
+</TEI>

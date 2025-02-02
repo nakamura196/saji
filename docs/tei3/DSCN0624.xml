@@ -1,51 +1,55 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0624</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 7" ], "saji:memo": [ "典型" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3028/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3028/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ef150257303c82750ace52771d25c7af3a03e6b4.jpg" />
-        <zone lrx="1960" lry="3250" ulx="200" uly="30" xml:id="zone_i5w_bdk_2mb" />
-        <zone lrx="1762" lry="571" ulx="1511" uly="354" xml:id="zone_c1c_ddk_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3028/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9cefe67038dc8b90f7689d0360286e8e28941a2f.jpg" />
-        <zone lrx="2191" lry="1162" ulx="983" uly="183" xml:id="zone_cft_2dk_2mb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_i5w_bdk_2mb" next="#zone_cft_2dk_2mb" type="beyāz_üzerine_buyuruldu">
-        <p>
-          <lb />
-          <lb />... fī <date type="created" when="1804-08-25" when-custom="1219-05-19">19 Ca sene 19</date>
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_c1c_ddk_2mb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_cft_2dk_2mb" type="summary_Croatian">
-        <p>
-          <lb />
-          <lb />... <date type="summary_Croatian" when="1853-10-02" when-custom="1269">1269</date>.
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0624</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 7" ], "saji:memo": [ "典型" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%207/DSCN0624.JPG"/>
+			<zone ulx="30" uly="30" lrx="1960" lry="3250" xml:id="zone_i5w_bdk_2mb"/>
+			<zone ulx="354" uly="354" lrx="1762" lry="571" xml:id="zone_c1c_ddk_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%207/DSCN0625.JPG"/>
+			<zone ulx="183" uly="183" lrx="2191" lry="1162" xml:id="zone_cft_2dk_2mb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_i5w_bdk_2mb" next="#zone_cft_2dk_2mb" type="beyāz_üzerine_buyuruldu">
+				<p>
+					<lb/>
+					<lb/>
+					... fī					<date type="created" when="1804-08-25" when-custom="1219-05-19">19 Ca sene 19</date>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_c1c_ddk_2mb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_cft_2dk_2mb" type="summary_Croatian">
+				<p>
+					<lb/>
+					<lb/>
+					...					<date type="summary_Croatian" when="1853-10-02" when-custom="1269">1269</date>
+					.
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

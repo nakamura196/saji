@@ -1,0 +1,70 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0302</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">非ムスリムから修道士に対する、徴税請負権・耕作権の譲渡の承認</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1781/manifest">
+			<surface>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/eb4d6e60ca94506f085ec755b4e20f373bf1f1a0.jpg" n="https://diyhistory.org/public/phr2/iiif/1781/canvas/p1"/>
+				<zone xml:id="zone_fj4_5cn_2kb" lry="2783" lrx="1983" uly="41" ulx="142"/>
+				<zone xml:id="zone_ow1_wcn_2kb" lry="2745" lrx="442" uly="2357" ulx="193"/>
+				<zone xml:id="zone_j4q_1dn_2kb" lry="2725" lrx="803" uly="2573" ulx="542"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1781/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c2edf2c760757d4b08403926b8974d8c2838e5d0.jpg"/>
+				<zone lrx="3145" lry="1094" ulx="462" uly="622" xml:id="zone_kw5_cdn_2kb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_fj4_5cn_2kb" subtype="tapu_nāme" type="EMIN">
+				<p>
+					<lb/>Hüve
+					<lb/>Bāʿis-i tahrīr-i ... oldur ki
+					<lb/><date when="1834-05-08" when-custom="1249">bin iki yüz kırk dokuz senesi</date> ... sene Martı iʿtibārile hālā Bosna ... sāye andāz
+					<lb/>... ve iclāl devletlü ... Dāvd Paşa Efendīmiz hazretlerin taraf-ı ...
+					<lb/>...larından bā-buyuruldu ... der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasın ...
+					<lb/>nefs-i Kirşevoda vākiʿ Latin milleti kilisaların civārında kilisayı ... merbūt kurdu(?)
+					<lb/>kadīmeden(?) ruhbānı dārende-i tapu ʿUMMRY nām rāhib karye(?) ve ... ve zirāʿatına ... eylediği
+					<lb/>arʿāz-i maʿlūmnın(?) tarafımızdan tefevvuza(?) taleb ve tasarrıfa rāgib olmağla biz dahi sene-i mezbūre ...
+					<lb/>mukātaʿa-i mezkūre emīni olduğumuz hasebiyle resm-i tapusin baʿde'l-ahz rāhib-i mezbūr ...
+					<lb/>ve zabt ve zirāʿat taleb olduğu arāzi-i ... tafvīz ve ... eyledüm mā-dām ki sāl be-sāl mukātaʿ-i
+					<lb/>mezkūre ümenāsına ʿāit ve rāciʿ olan aʿşār-ı şerʿiye ve rüsūmāt lāzımsıyla edā eyledikçe(?)
+					<lb/>zabt ve tasarruf ve zirāʿatına tarafımızdan ve taraf-ı āhardan müdāhale olunmaya tahrīren fī <date type="created" when="1834-12-24" when-custom="1250-08-23">23 Ş sene
+						250</date>
+				</p>
+				<div2 facs="#zone_ow1_wcn_2kb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Emīn(?)
+						<lb/>Mustafa(?)
+						<lb/>M(?) </p>
+					<div3 facs="#zone_j4q_1dn_2kb" type="stamp_sūret">
+						<p>
+							<lb/>El-seyyid Mehmed Fāzıl </p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_kw5_cdn_2kb" type="summery_Croatian">
+				<p>
+					<lb/>Tapija od ... od ... <date type="summary_Croatian" when="1834">1834</date>.
+					<lb/>Nno 3.
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

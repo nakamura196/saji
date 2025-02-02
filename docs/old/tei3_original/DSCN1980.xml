@@ -1,0 +1,49 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+               <teiHeader>
+                              <fileDesc>
+                                             <titleStmt>
+                                                            <title>DSCN1980</title>
+                                             </titleStmt>
+                                             <publicationStmt>
+                                                            <p>Publication Information</p>
+                                             </publicationStmt>
+                                             <notesStmt>
+                                                            <note type="summary">徴税?</note>
+                                             </notesStmt>
+                                             <sourceDesc>
+                                                            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ] }</p>
+                                             </sourceDesc>
+                              </fileDesc>
+               </teiHeader>
+               <facsimile>
+                              <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2310/manifest">
+                                             <surface>
+                                                            <graphic n="https://diyhistory.org/public/phr2/iiif/2310/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d557a65856cd0fe53988b827e9351db023d6db01.jpg" />
+                                                            <zone lrx="2327" lry="2336" ulx="100" uly="309" xml:id="zone_yfn_4vg_j3b" />
+                                             </surface>
+                              </surfaceGrp>
+               </facsimile>
+               <text>
+                              <body>
+                                             <div1 cert="unknown" facs="#zone_yfn_4vg_j3b" type="計算書">
+                                                            <p>
+                                                                           <lb /><persname><placename type="proper">Kirşevo</placename> rāhib</persname> ... maʿa onlık(?) maʿa rubʿiye
+                                                                           <lb />rubʿiye, onlık(?), ...
+                                                                           <lb />0, 1.5, 0 <placename>... mahalle-i <placename cert="unknown" type="proper">...</placename></placename>
+                                                                           <lb />0, 0, 2 cemāʿat-i ... <placename>mahalle-i <placename cert="unknown" type="proper">...</placename></placename>
+                                                                           <lb />0, 0, 3 cemāʿat-i varoş <placename>mahalle-i <placename cert="unknown" type="proper">...</placename></placename>
+                                                                           <lb />0, 1, 0 ...
+                                                                           <lb />0, 0, 0.5 <persname>Mustafa</persname> ʿāmedār(?)
+                                                                           <lb />0, 2.5, 0 ...
+                                                                           <lb />0, 0, 1.5 ...
+                                                                           <lb />0, 0, 0.5 ...
+                                                                           <lb />1, 1.5, 14.5 cemāʿat-i müslimīn <placename>mahalle-i <placename cert="unknown" type="proper">...</placename></placename>
+                                                                           <lb />1, 1, 3.5 defʿa cemāʿat-i müslimīn <placename>mahalle-i <placename cert="unknown" type="proper">...</placename></placename>
+                                                                           <lb />9, 25.5
+                                                                           <lb />1, 0.5 defʿa cemāʿat-i <placename>varoş <placename cert="unknown" type="proper">Anton ...</placename></placename>
+                                                                           <lb />27
+                                                            </p>
+                                             </div1>
+                              </body>
+               </text>
+</TEI>

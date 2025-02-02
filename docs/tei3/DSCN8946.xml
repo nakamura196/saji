@@ -1,58 +1,66 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN8946</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">ベラート？卵印はないのでフェルマーン？</note>
-<note type="mine">【要】日付：1181 or 1081　年? 要検討。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN8946</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">ベラート？卵印はないのでフェルマーン？</note>
+				<note type="mine">【要】日付：1181 or 1081　年? 要検討。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [
                "典型" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1536/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1536/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c96f64c696e61997d3ef4435958f7e7d17c59e47.jpg" />
-<zone lrx="1697" lry="3114" ulx="363" uly="27" xml:id="zone_cwx_5k1_2jb" />
-<zone lrx="1658" lry="751" ulx="539" uly="39" xml:id="zone_hdh_wk1_2jb" />
-<zone lrx="882" lry="3100" ulx="423" uly="2613" xml:id="zone_ht4_xk1_2jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1536/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7b2427879c0c40bc76525a998e35647cb0387f45.jpg" />
-<zone lrx="2984" lry="1700" ulx="250" uly="894" xml:id="zone_cfy_yk1_2jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_cwx_5k1_2jb" type="fermān">
-<p>
-<lb />... <date cert="low" from="1767-08-06" from-custom="1181-03-11" to-custom="1181-03-20" type="created">evāsit şehr Rebi'ü'l-evvel sene ahadā ve semānīn ve mie ve elif</date><lb />
-</p>
-<div1 facs="#zone_hdh_wk1_2jb" type="tuğra">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-<div2 facs="#zone_ht4_xk1_2jb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_cfy_yk1_2jb" type="summary_Croatian">
-<p>
-<lb />Datum: <date from="1670-07-28" from-custom="1081-03-11" to-custom="1081-03-20" type="summary_Croatian">druga dekada rebiul evvel 1081</date> - <date from="1670-07-29" to="1670-08-07" type="summary_Croatian">29. juli-7avgusta 1670</date><lb />
-</p>
-</div1>
-</body>
-</text>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%202/DSCN8946.JPG"/>
+			<zone ulx="27" uly="27" lrx="1697" lry="3114" xml:id="zone_cwx_5k1_2jb"/>
+			<zone ulx="39" uly="39" lrx="1658" lry="751" xml:id="zone_hdh_wk1_2jb"/>
+			<zone ulx="2613" uly="2613" lrx="882" lry="3100" xml:id="zone_ht4_xk1_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%202/DSCN8947.JPG"/>
+			<zone ulx="894" uly="894" lrx="2984" lry="1700" xml:id="zone_cfy_yk1_2jb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_cwx_5k1_2jb" type="fermān">
+				<p>
+					<lb/>
+					...					<date cert="low" from="1767-08-06" from-custom="1181-03-11" to-custom="1181-03-20" type="created">evāsit şehr Rebi'ü'l-evvel sene ahadā ve semānīn ve mie ve elif</date>
+					<lb/>
+				</p>
+				<div1 facs="#zone_hdh_wk1_2jb" type="tuğra">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div1>
+				<div2 facs="#zone_ht4_xk1_2jb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_cfy_yk1_2jb" type="summary_Croatian">
+				<p>
+					<lb/>
+					Datum:					<date from="1670-07-28" from-custom="1081-03-11" to-custom="1081-03-20" type="summary_Croatian">druga dekada rebiul evvel 1081</date>
+					 -					<date from="1670-07-29" to="1670-08-07" type="summary_Croatian">29. juli-7avgusta 1670</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

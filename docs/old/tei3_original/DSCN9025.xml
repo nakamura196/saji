@@ -1,0 +1,52 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9025</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1952/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1952/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/fe4cd8b0845b0bcc3308ffe9225d4047c904ba9b.jpg"/>
+				<zone lrx="2428" lry="1266" ulx="717" uly="816" xml:id="zone_pfg_qx4_xkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1952/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/20aa3b61325483bd11e169793ed096b3ca2d645a.jpg"/>
+				<zone lrx="1800" lry="2585" ulx="114" uly="1564" xml:id="zone_nsr_rx4_xkb"/>
+				<zone lrx="676" lry="2569" ulx="396" uly="2317" xml:id="zone_xzv_sx4_xkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_nsr_rx4_xkb" next="#zone_pfg_qx4_xkb" type="mürāsele">
+				<p>
+					<lb/>... fī <date type="created" when="1774-06-13" when-custom="1188-04-04">4 Rebī'ü'l-āhir sene 1188</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_xzv_sx4_xkb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_pfg_qx4_xkb" type="summary_Croatian">
+				<p>
+					<lb/><date type="summary_Croatian" when="1774">1774</date>.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

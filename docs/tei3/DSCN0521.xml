@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,45 +14,48 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2927/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2927/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9ca739b4a8334c2a33d48be160b573ef85253aef.jpg"/>
-				<zone lrx="1491" lry="3181" ulx="454" uly="100" xml:id="zone_ilr_fp3_2mb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2927/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ab700c64461ade4e4cb6ac009fb8045d0c0fde1b.jpg"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2927/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/556e67b2d2bfd7074cc0036bad70353c60c9d2b8.jpg"/>
-				<zone lrx="1541" lry="891" ulx="937" uly="241" xml:id="zone_snw_hp3_2mb"/>
-				<zone lrx="1377" lry="869" ulx="1172" uly="701" xml:id="zone_jl2_mp3_2mb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2927/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/c2e8c6164ad8d0bfe48e1583f32963c897d4b801.jpg"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0521.JPG"/>
+			<zone ulx="100" uly="100" lrx="1491" lry="3181" xml:id="zone_ilr_fp3_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0522.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0523.JPG"/>
+			<zone ulx="241" uly="241" lrx="1541" lry="891" xml:id="zone_snw_hp3_2mb"/>
+			<zone ulx="701" uly="701" lrx="1377" lry="869" xml:id="zone_jl2_mp3_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0524.JPG"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_ilr_fp3_2mb" type="hüccet">
 				<p>
 					<lb/>
-					<lb/>... <date type="created" when-custom="1201-01-22">fi'l-yevmi'l-sānī ʿaşrūn Muharremi'l-harām sene ahadī ve mieteyn ve elif</date> min ... </p>
+					<lb/>
+					...					<date type="created" when-custom="1201-01-22">fi'l-yevmi'l-sānī ʿaşrūn Muharremi'l-harām sene ahadī ve mieteyn ve elif</date>
+					 min ...				</p>
 				<div2 facs="#zone_snw_hp3_2mb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_jl2_mp3_2mb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>

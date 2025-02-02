@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,42 +14,47 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2213/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2213/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4adb5075358c19f961693ed7c747f5755a7a1a05.jpg"/>
-				<zone lrx="2584" lry="1316" ulx="495" uly="872" xml:id="zone_djf_5wv_nlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2213/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c018a28d9db27fe3c8cdcf08772bd1de58cd8ab5.jpg"/>
-				<zone lrx="2077" lry="2692" ulx="39" uly="238" xml:id="zone_clc_wwv_nlb"/>
-				<zone lrx="376" lry="2280" ulx="54" uly="1845" xml:id="zone_qzw_xwv_nlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9289.JPG"/>
+			<zone ulx="872" uly="872" lrx="2584" lry="1316" xml:id="zone_djf_5wv_nlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9290.JPG"/>
+			<zone ulx="238" uly="238" lrx="2077" lry="2692" xml:id="zone_clc_wwv_nlb"/>
+			<zone ulx="1845" uly="1845" lrx="376" lry="2280" xml:id="zone_qzw_xwv_nlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_clc_wwv_nlb" next="#zone_djf_5wv_nlb" subtype="zabt_temessük" type="EMIN">
 				<p>
-					<lb/>işbu <date when="1844-01-19" when-custom="1259">bin iki yüz elli dokuz senesinde</date> der ...
-					<lb/>... fī <date type="created" when="1843-11-29" when-custom="1259-11-08">8 Za sene 259</date>
+					<lb/>
+					işbu					<date when="1844-01-19" when-custom="1259">bin iki yüz elli dokuz senesinde</date>
+					 der ...
+					<lb/>
+					... fī					<date type="created" when="1843-11-29" when-custom="1259-11-08">8 Za sene 259</date>
 				</p>
 				<div2 facs="#zone_qzw_xwv_nlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_djf_5wv_nlb" type="summary_Croatian">
 				<p>
-					<lb/>...
-					<lb/>Nno 14. </p>
+					<lb/>
+					...
+					<lb/>
+					Nno 14.				</p>
 			</div1>
 		</body>
 	</text>

@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2021</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2351/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2351/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b6cb13ce91e4dea3b51b8b5a062f25e77c0efc4f.jpg" />
+        <zone lrx="1650" lry="2808" ulx="183" uly="283" xml:id="zone_lq5_j2x_zlb" />
+        <zone lrx="848" lry="2779" ulx="507" uly="2531" xml:id="zone_vdg_l2x_zlb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2351/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fbb5c3d8c61542d3049d550b35361e972395f896.jpg" />
+        <zone lrx="871" lry="689" ulx="574" uly="423" xml:id="zone_dk2_n2x_zlb" />
+        <zone lrx="2224" lry="2844" ulx="248" uly="2355" xml:id="zone_ekb_42x_zlb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_lq5_j2x_zlb" next="#zone_ekb_42x_zlb" type="mürāsele">
+        <p>
+          <lb />... fī <date type="created" when="1787-06-23" when-custom="1201-09-08">8 N sene 1201</date><lb />
+        </p>
+        <div2 facs="#zone_vdg_l2x_zlb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_dk2_n2x_zlb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_ekb_42x_zlb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

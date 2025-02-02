@@ -1,47 +1,52 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9009</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1936/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1936/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/53008392df313b71f87b211fe87263b1191a146a.jpg" />
-        <zone lrx="2817" lry="1361" ulx="356" uly="1044" xml:id="zone_k21_jxy_wkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1936/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8d83cf713eefe5ed3393fd34e70ad0463e8d8b99.jpg" />
-        <zone lrx="1979" lry="2557" ulx="5" uly="1310" xml:id="zone_sxp_kxy_wkb" />
-        <zone lrx="342" lry="2519" ulx="16" uly="2187" xml:id="zone_vgh_mxy_wkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="low" facs="#zone_sxp_kxy_wkb" next="#zone_k21_jxy_wkb" type="ʿarz-ı_hāl">
-        <p>
-          <lb />...<lb />
-        </p>
-        <div2 facs="#zone_vgh_mxy_wkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_k21_jxy_wkb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9009</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9009.JPG"/>
+			<zone ulx="1044" uly="1044" lrx="2817" lry="1361" xml:id="zone_k21_jxy_wkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9010.JPG"/>
+			<zone ulx="1310" uly="1310" lrx="1979" lry="2557" xml:id="zone_sxp_kxy_wkb"/>
+			<zone ulx="2187" uly="2187" lrx="342" lry="2519" xml:id="zone_vgh_mxy_wkb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_sxp_kxy_wkb" next="#zone_k21_jxy_wkb" type="ʿarz-ı_hāl">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+				<div2 facs="#zone_vgh_mxy_wkb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_k21_jxy_wkb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

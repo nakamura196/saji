@@ -1,62 +1,71 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN8944</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">【要】再撮影：全体像がないので、アスペクト比が判然としない。全体像を要再撮影。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "C?" ], "saji:fond": [ "Tursko 2" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1534/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1534/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/033a05432ba3b764422aa1e2b62c86e9a3f42883.jpg" />
-<zone lrx="2300" lry="2134" ulx="500" uly="267" xml:id="zone_tbs_kj1_2jb" />
-<zone lrx="831" lry="2106" ulx="698" uly="1986" xml:id="zone_kq5_lj1_2jb" />
-<zone lrx="2687" lry="1377" ulx="2243" uly="881" xml:id="zone_vxl_mj1_2jb" />
-<zone lrx="2672" lry="1222" ulx="2522" uly="1066" xml:id="zone_rvb_nj1_2jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1534/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a1a5e332db2535ed812cbb39d59a1e30c947df3e.jpg" />
-<zone lrx="3039" lry="1638" ulx="145" uly="383" xml:id="zone_kgr_4j1_2jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_tbs_kj1_2jb" type="fermān_sūret">
-<p>
-<lb />... <date type="created" when="1615-03-15" when-custom="1024-02-15">fi'l-yevmi'l-hāmis ʿaşar şehr Saferi'l-... sene arbaʿa ve ʿaşrīn ve elif</date><lb />
-</p>
-<div2 facs="#zone_kq5_lj1_2jb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div2 facs="#zone_vxl_mj1_2jb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_rvb_nj1_2jb" type="stamp">
-<p>
-<lb />... fī <lb />
-</p>
-</div3>
-</div2>
-<div1 facs="#zone_kgr_4j1_2jb" type="summary_Croatian">
-<p>
-<lb />Datum: <date type="summary_Croatian" when="1615-03-15" when-custom="1024-02-15">15. safer 1024</date> - <date type="summary_Croatian" when="1615-03-16">16. mart 1615</date><lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN8944</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">【要】再撮影：全体像がないので、アスペクト比が判然としない。全体像を要再撮影。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C?" ], "saji:fond": [ "Tursko 2" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%202/DSCN8944.JPG"/>
+			<zone ulx="267" uly="267" lrx="2300" lry="2134" xml:id="zone_tbs_kj1_2jb"/>
+			<zone ulx="1986" uly="1986" lrx="831" lry="2106" xml:id="zone_kq5_lj1_2jb"/>
+			<zone ulx="881" uly="881" lrx="2687" lry="1377" xml:id="zone_vxl_mj1_2jb"/>
+			<zone ulx="1066" uly="1066" lrx="2672" lry="1222" xml:id="zone_rvb_nj1_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%202/DSCN8945.JPG"/>
+			<zone ulx="383" uly="383" lrx="3039" lry="1638" xml:id="zone_kgr_4j1_2jb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_tbs_kj1_2jb" type="fermān_sūret">
+				<p>
+					<lb/>
+					...					<date type="created" when="1615-03-15" when-custom="1024-02-15">fi'l-yevmi'l-hāmis ʿaşar şehr Saferi'l-... sene arbaʿa ve ʿaşrīn ve elif</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_kq5_lj1_2jb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div2 facs="#zone_vxl_mj1_2jb" type="sign">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+				<div3 facs="#zone_rvb_nj1_2jb" type="stamp">
+					<p>
+						<lb/>
+						... fī						<lb/>
+					</p>
+				</div3>
+			</div2>
+			<div1 facs="#zone_kgr_4j1_2jb" type="summary_Croatian">
+				<p>
+					<lb/>
+					Datum:					<date type="summary_Croatian" when="1615-03-15" when-custom="1024-02-15">15. safer 1024</date>
+					 -					<date type="summary_Croatian" when="1615-03-16">16. mart 1615</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

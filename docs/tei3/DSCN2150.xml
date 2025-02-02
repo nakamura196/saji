@@ -1,60 +1,73 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2150</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2478/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2478/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/52a2c999c94456423b29ad788627dff964204a90.jpg" />
-        <zone lrx="2333" lry="3058" ulx="50" uly="41" xml:id="zone_u5d_knk_cmb" />
-        <zone lrx="467" lry="3034" ulx="156" uly="2592" xml:id="zone_ihm_lnk_cmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2478/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/002617321a120d660e008b859da9d4e8625cfb3d.jpg" />
-        <zone lrx="487" lry="439" ulx="227" uly="194" xml:id="zone_kdw_mnk_cmb" />
-        <zone lrx="2363" lry="3018" ulx="196" uly="1970" xml:id="zone_zkz_nnk_cmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_u5d_knk_cmb" next="#zone_zkz_nnk_cmb" subtype="tapu" type="EMIN">
-        <p>
-          <lb />... fī <date type="created" when="1825-12-27" when-custom="1241-05-17">17 Ca sene 1241</date><lb />
-        </p>
-        <div2 facs="#zone_ihm_lnk_cmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_kdw_mnk_cmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_zkz_nnk_cmb" type="summary_Croatian">
-        <p>
-          <lb />...<date type="summary_Croatian" when="1825">1825</date>.
-          <lb /><date type="summary_Croatian" when="1825-08-14" when-custom="1240">1240</date>. Nno 37.
-          <lb />138
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2150</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2150.JPG"/>
+			<zone ulx="41" uly="41" lrx="2333" lry="3058" xml:id="zone_u5d_knk_cmb"/>
+			<zone ulx="2592" uly="2592" lrx="467" lry="3034" xml:id="zone_ihm_lnk_cmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2151.JPG"/>
+			<zone ulx="194" uly="194" lrx="487" lry="439" xml:id="zone_kdw_mnk_cmb"/>
+			<zone ulx="1970" uly="1970" lrx="2363" lry="3018" xml:id="zone_zkz_nnk_cmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_u5d_knk_cmb" next="#zone_zkz_nnk_cmb" subtype="tapu" type="EMIN">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1825-12-27" when-custom="1241-05-17">17 Ca sene 1241</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_ihm_lnk_cmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_kdw_mnk_cmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_zkz_nnk_cmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<date type="summary_Croatian" when="1825">1825</date>
+					.
+					<lb/>
+					<date type="summary_Croatian" when="1825-08-14" when-custom="1240">1240</date>
+					. Nno 37.
+					<lb/>
+					138
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

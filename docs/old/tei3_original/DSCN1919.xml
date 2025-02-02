@@ -1,0 +1,113 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1919</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">クレシェヴォのムカーター・エミンであるイスマーイールの請負地にあるムスリム村KOMARにおいて、ズィンミーPUFERが保有している3片の田の保有権と納税義務を、クレシェヴォ教会のガルディヤーンに移譲することを承認した書状（様式に関する自己言及はなし）。</note>
+				<note type="mine">DSCN1915.JPGと同じ村・人物・話題か？KOMAY／KOMAR、YÜZÜ KALAM／PUFER ve KAIM veled-i YTR</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1449/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1449/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6464cc6d6dcf3f8ed7ab977b4a978398caa3b18b.jpg"/>
+				<zone lrx="2734" lry="1983" ulx="339" uly="555" xml:id="zone_lcl_rtx_cjb"/>
+				<zone lrx="650" lry="1665" ulx="353" uly="1423" xml:id="zone_rsw_wtx_cjb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1449/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4d2a4b200fee5471d1325137162df10f9e4f3f10.jpg"/>
+				<zone lrx="3191" lry="2445" ulx="27" uly="900" xml:id="zone_zm1_ttx_cjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<listPerson>
+				<person role="document creater, mültecim from 1258" xml:id="İsmāīl_emīn">
+					<persName>İsmā'īl</persName>
+					<occupation>mukātaʿa emīn-i Kirşevo</occupation>
+					<occupation>me'mūr</occupation>
+				</person>
+				<person role="vendor" xml:id="PUFER_KOMAR">
+					<persName cert="low">PUFER ve KAIM veled-i YTR</persName>
+					<faith>zimmī</faith>
+					<residence cert="low">KOMAR karye</residence>
+				</person>
+				<person role="vendee" xml:id="Gardiyān_rāhib">
+					<persName>Gardiyān</persName>
+					<occupation>rāhib-i Kirşevo kilisa</occupation>
+				</person>
+				<person role="şühūdu’l-hāl" xml:id="Mustafa_müezzin">
+					<persName>Mustafa</persName>
+					<occupation>mü'ezzin</occupation>
+					<socecStatus>mollā</socecStatus>
+				</person>
+				<person role="şühūdu’l-hāl" xml:id="ʿĀid_hākim">
+					<persName>ʿĀid</persName>
+					<occupation>hākim</occupation>
+					<socecStatus>efendī</socecStatus>
+				</person>
+				<person role="şühūdu’l-hāl" xml:id="ʿOsman_gömrekçi">
+					<persName>ʿOsman</persName>
+					<occupation>ʿArnabūt gömrekçi</occupation>
+					<socecStatus>ağa</socecStatus>
+				</person>
+				<person role="şühūdu’l-hāl" xml:id="İbrāhīm_mollā">
+					<persName>İbrāhīm Parmakzāde</persName>
+					<socecStatus>mollā</socecStatus>
+				</person>
+				<person role="şühūdu’l-hāl" xml:id="Süleymān_sekbān">
+					<persName>Süleymān</persName>
+					<occupation>Sekbān</occupation>
+				</person>
+			</listPerson>
+			<div1 cert="unknown" facs="#zone_lcl_rtx_cjb" next="#zone_zm1_ttx_cjb" type="EMIN">
+				<p>
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date when="1843-01-30" when-custom="1258">bin elli sekiz senesinde</date> der ʿuhde ve iltizāmımızda bulunan <placeName>Kirşevo</placeName> mukātaʿasına tābiʿ nefs-i
+					Müslimīn cemāʿatı kurālarında <placeName>KOMAR</placeName> karyesi
+					<lb/>hudūdu dāhilinde arāz-ı ... mutasarrıflarında<persName> PUFER ve KAIM veled-i YTR</persName> nām zimmīnin taht u tasarrıfında bulunan maʿlūmu'l-hudūd ve'l-mekân
+					<lb/>üç kıtʿa tarlasını ve ... hayātında ve kemāl ... ve ... varoş Kirşevo kilisada sinin işbu dārende-i hurūf
+					<lb/><persName>Gardiyān</persName> nām rāhib meccānan habbe-i şerʿiyesiyle ... ile habbe ... ve hakk u tasarrıfını ferāg edüb ol dahi ber-minvāl-i muharrer
+					<lb/>zikr olunan üç mukātaʿa tarlanı ve gāye-i hudūd ... sıyla ittihāb ve teferrug ve kabz u kabūl etmekle biz dahi me'mūr olduğumuz
+					<lb/>hasebiyle tarafımızdan istīzāna etmeleriyle biz dahi ferāg u teferrugların cā'iz görüb tarlaya mezbūrelerin hakk u tasarrıfın fārig
+					<lb/>mesfūre <persName>YÜZÜ</persName> zimmīnin ferāgatından ... rusūm tafvīz ve taht u tasarrıfına izin virilüb mā-dām ki sāl be-sāl cānib-i mukātaʿaya
+					<lb/>edāsı lāzım gelen aʿşār-ı şerʿiyesin ve rusūmāt-ı sā'iresin eyledikde zabt(?) u zirāʿatına bir kimesne māniʿ ve mudāhale o-
+					<lb/>lunmaya fī <date type="created" when="1843-09-27" when-custom="1259-09-04">4 N sene 259</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_rsw_wtx_cjb" type="sign">
+					<p>
+						<lb/>El-me'mūr bā el-muharrir <persName>İsmā'īl</persName> mukātaʿa emīn-i Kirşevo M
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>Şühūdu’l-hāl
+						<lb/>Mollā <persName>Mustafa</persName> Mü'ezzin
+						<lb/>Hākim <persName>ʿĀid</persName> Efendī
+						<lb/>ʿArnabūt Gömrekçi <persName>ʿOsman</persName> Ağa
+						<lb/>Mollā <persName>İbrāhīm Parmakzāde</persName>
+						<lb/>Sekbān <persName>Süleymān</persName>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_zm1_ttx_cjb" type="summary_Croatian">
+				<p>
+					<lb/><date type="summary_Croatian" when="1843">1843</date>.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

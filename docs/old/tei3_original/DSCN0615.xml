@@ -1,0 +1,62 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0615</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 7" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3019/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3019/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c7bbbcb2d7f1921cd7c19e91e7294e59dbe36fe4.jpg" />
+        <zone lrx="1591" lry="3236" ulx="482" uly="-18" xml:id="zone_hd4_yyj_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3019/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7cf691e7b8bed5f5fd20c4efae0eb8683e6b98d3.jpg" />
+        <zone lrx="1083" lry="569" ulx="593" uly="18" xml:id="zone_qyj_czj_2mb" />
+        <zone lrx="985" lry="553" ulx="819" uly="440" xml:id="zone_p1y_gzj_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3019/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/310ddf4691c84a395cc5f011269ead1de6d87401.jpg" />
+        <zone lrx="2000" lry="1516" ulx="500" uly="1083" xml:id="zone_dtb_3zj_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_hd4_yyj_2mb" next="#zone_dtb_3zj_2mb" type="hüccet">
+        <p>
+          <lb />... hurira <date type="created" when="1803-11-17" when-custom="1218-08-03">fi'l-yevmi'l-sālis
+          <lb />min şehri Şaʿbāni'l-muʿazzam sene semān ʿaşar ve mieteyn ve elif</date>
+        </p>
+        <div2 facs="#zone_qyj_czj_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_p1y_gzj_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_dtb_3zj_2mb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

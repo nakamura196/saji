@@ -1,0 +1,79 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0210</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">土地売買 beyʿ</note>
+				<note type="summary">非ムスリムの私有地の、クレシェヴォ修道院の修道士に対する売却に関する承認文書</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<classCode scheme="">土地譲渡・売買</classCode>
+			</textClass>
+		</profileDesc>		
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1689/manifest">
+			<surface>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/c7507a6e5def8a31c3fff4a76a7ecc6d9169481e.jpg" n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p1"/>
+				<zone xml:id="zone_nzs_p1k_kjb" lry="2238" lrx="2193" uly="984" ulx="131"/>
+				<zone xml:id="zone_bnv_q1k_kjb" lry="2112" lrx="448" uly="1724" ulx="181"/>
+				<zone xml:id="zone_i3w_sch_grb" lry="1203" lrx="432" uly="1075" ulx="298"/>
+				<zone xml:id="zone_b2t_ldh_grb" lry="1559" lrx="1313" uly="1356" ulx="772"/>
+				<zone xml:id="zone_ygp_nfh_grb" lry="2168" lrx="2092" uly="1893" ulx="1822"/>
+				<zone xml:id="zone_xp3_4fh_grb" lry="2025" lrx="2090" uly="1793" ulx="1823"/>
+				<zone xml:id="zone_xfj_pfh_grb" lry="1946" lrx="2147" uly="1678" ulx="1838"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1689/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/83dd11136a8b8184d88ead5ebebf64294591b99a.jpg"/>
+				<zone lrx="2989" lry="1822" ulx="200" uly="805" xml:id="zone_ahv_r1k_kjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_zabt_tezkire" facs="#zone_nzs_p1k_kjb">
+				<p>
+					<lb/>Vech-i tahrīr hurūf oldur ki
+					<lb/>işbu <date when-custom="1266" when="1850-11-04">iki yüz altmış altı senesinde</date> ʿuhdemiz bulunan <placeName>Kirşevo</placeName> mukātaʿası mahalle-i <placeName
+						facs="#zone_i3w_sch_grb">VİRANK</placeName> nefs-i(?) mülük-i
+					<lb/>menzilhāne yanında bir kıtʿa ... demekle
+					<lb/>mahalle-i mezkūrde mutavattın <persName facs="#zone_b2t_ldh_grb">İNCE veled-i Mato KAİS</persName>'in mutasarrıf olub işbu dārende-i
+					<lb/>hurūf varoş kilisadan <persName>gardiyāna</persName> iki yüz elli guruş ... mukābelesinde beyʿ edüb ol dahi
+					<lb/>kabūl bizim dahi me'mūrumuz hasebiyle <persName>gardiyāna</persName> işbu zabt tezkire yedine <sic>vrdum</sic><corr>virdim</corr> tarafımızdan
+					<lb/>ve taraf-ı āhardan bir kimesne māniʿ olunmaya <date when-custom="1266" type="created" when="1850-11-04">sene 66</date>
+				</p>
+				<div2 type="sign" facs="#zone_bnv_q1k_kjb">
+					<p>
+						<lb/>El-me'mūr
+						<lb/><persName>Mehmed</persName> Emīn-i Mukā-
+						<lb/>taʿa-i <placeName>Kirşevo</placeName>
+						<lb/>Hālā
+						<lb/>M </p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Zimmī <persName facs="#zone_ygp_nfh_grb">SAKA</persName> RUŞNİÇ
+						<lb/>Zimmī <persName facs="#zone_xp3_4fh_grb">TONA</persName> BAN
+						<lb/>Zimmī <persName facs="#zone_xfj_pfh_grb">TONA</persName> KURSİÇ
+						<lb/>ve gayrihim </p>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian" facs="#zone_ahv_r1k_kjb">
+				<p>
+					<lb/>Od Kunihe Mete Kejicha u Vvuninae <date type="summary_Croatian" when="1851">1851</date>.
+					<lb/>146 </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

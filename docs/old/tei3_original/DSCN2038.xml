@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2038</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2368/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2368/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e1b7eadc8838c68b698dc0e0de5c1def540996ab.jpg" />
+        <zone lrx="2227" lry="3127" ulx="136" uly="90" xml:id="zone_hpr_4f4_bmb" />
+        <zone lrx="422" lry="3090" ulx="173" uly="2836" xml:id="zone_j53_qf4_bmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2368/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8638d87780b69ede20a26d24fcc029a33a16edd5.jpg" />
+        <zone lrx="629" lry="608" ulx="216" uly="254" xml:id="zone_m1d_sf4_bmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 cert="low" facs="#zone_hpr_4f4_bmb" subtype="tezkire" type="EMIN">
+        <p>
+          <lb />... işbu <date cert="low" type="created" when="1736-05-10" when-custom="1148">bin yüz kırk sekiz senesine</date> ...
+          <lb />
+        </p>
+        <div2 facs="#zone_j53_qf4_bmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_m1d_sf4_bmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

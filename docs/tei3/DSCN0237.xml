@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -23,47 +24,71 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1716/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/7c853503adf2e72725b8c130b535a9a339d91e47.jpg" n="https://diyhistory.org/public/phr2/iiif/1716/canvas/p1"/>
-				<zone xml:id="zone_pd5_4fk_kjb" lry="2730" lrx="1616" uly="107" ulx="116"/>
-				<zone xml:id="zone_oyf_qfk_kjb" lry="2678" lrx="402" uly="2420" ulx="167"/>
-				<zone xml:id="zone_fcd_dkc_lrb" lry="1792" lrx="937" uly="1674" ulx="657"/>
-				<zone xml:id="zone_jr1_zkc_lrb" lry="1928" lrx="891" uly="1757" ulx="656"/>
-				<zone xml:id="zone_g4g_plc_lrb" lry="2045" lrx="1442" uly="1928" ulx="1211"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1716/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7a9e160cc0c4de5f18ac0f551d0512141d27fa1e.jpg"/>
-				<zone lrx="2078" lry="677" ulx="467" uly="305" xml:id="zone_vgf_rfk_kjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0237.JPG"/>
+			<zone ulx="107" uly="107" lrx="1616" lry="2730" xml:id="zone_pd5_4fk_kjb"/>
+			<zone ulx="2420" uly="2420" lrx="402" lry="2678" xml:id="zone_oyf_qfk_kjb"/>
+			<zone ulx="1674" uly="1674" lrx="937" lry="1792" xml:id="zone_fcd_dkc_lrb"/>
+			<zone ulx="1757" uly="1757" lrx="891" lry="1928" xml:id="zone_jr1_zkc_lrb"/>
+			<zone ulx="1928" uly="1928" lrx="1442" lry="2045" xml:id="zone_g4g_plc_lrb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0238.JPG"/>
+			<zone ulx="305" uly="305" lrx="2078" lry="677" xml:id="zone_vgf_rfk_kjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_temessük" facs="#zone_pd5_4fk_kjb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf <sic>aldur</sic><corr>oldur</corr> ki
-					<lb/>işbu <date when-custom="1203" type="created" when="1789-09-19">bin iki yüz üç senesine</date> mahsūben der ʿuhde ve iltizāmımızda bulunan
-					<lb/>Kirşevo mukātaʿasında vākiʿ <persName facs="#zone_fcd_dkc_lrb">KULLİ SA</persName> ciftlikinde işbu sene-i mubārekde
-					<lb/>hāsıl olan ʿöşr-i mahsūlāt yine <persName facs="#zone_jr1_zkc_lrb">KULLİ SAİ</persName> mezbūr mutavattınlarından <persName facs="#zone_g4g_plc_lrb">gardiyān
-						<lb/>zimmī Fra. MIHAT</persName> nām zimmīye yüz esedī guruş bedel mukābelesinde beyʿ edüb
-					<lb/>ol dahi minvāl-i muharrer üzere ahz ve kabūl eyledüklara biz dahi mukātaʿa-i
-					<lb/>mezbūrda meʿmūr bulunduğumuz hasebiyle mesfūrun yedine işbu zabt <sic>tezkire</sic>
-					<lb/><corr>temessük</corr> virildi olageldiği vech üzere zabt ve taʿşīr(?) eyleyesiz tarafımızdan
-					<lb/>ve taraf-ı āhardan taʿşīr(?) ve ne kimesne māniʿ ve müdāhale olunmaya </p>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf					<sic>aldur</sic>
+					<corr>oldur</corr>
+					 ki
+					<lb/>
+					işbu					<date when-custom="1203" type="created" when="1789-09-19">bin iki yüz üç senesine</date>
+					 mahsūben der ʿuhde ve iltizāmımızda bulunan
+					<lb/>
+					Kirşevo mukātaʿasında vākiʿ					<persName facs="#zone_fcd_dkc_lrb">KULLİ SA</persName>
+					 ciftlikinde işbu sene-i mubārekde
+					<lb/>
+					hāsıl olan ʿöşr-i mahsūlāt yine					<persName facs="#zone_jr1_zkc_lrb">KULLİ SAİ</persName>
+					 mezbūr mutavattınlarından					<persName facs="#zone_g4g_plc_lrb">
+						gardiyān
+						<lb/>
+						zimmī Fra. MIHAT
+					</persName>
+					 nām zimmīye yüz esedī guruş bedel mukābelesinde beyʿ edüb
+					<lb/>
+					ol dahi minvāl-i muharrer üzere ahz ve kabūl eyledüklara biz dahi mukātaʿa-i
+					<lb/>
+					mezbūrda meʿmūr bulunduğumuz hasebiyle mesfūrun yedine işbu zabt					<sic>tezkire</sic>
+					<lb/>
+					<corr>temessük</corr>
+					 virildi olageldiği vech üzere zabt ve taʿşīr(?) eyleyesiz tarafımızdan
+					<lb/>
+					ve taraf-ı āhardan taʿşīr(?) ve ne kimesne māniʿ ve müdāhale olunmaya				</p>
 				<div2 type="sign" facs="#zone_oyf_qfk_kjb">
 					<p>
-						<lb/>...
-						<lb/>Ahmad Emīn-i
-						<lb/>mukātaʿa-i
-						<lb/>mezbūr </p>
+						<lb/>
+						...
+						<lb/>
+						Ahmad Emīn-i
+						<lb/>
+						mukātaʿa-i
+						<lb/>
+						mezbūr					</p>
 				</div2>
 			</div1>
 			<div1 type="sumamry_Croatian" facs="#zone_vgf_rfk_kjb">
 				<p>
-					<lb/>Ouoja Tgkava od Dolldınse Koju Popuodymo
-					<lb/>lamaniom dje <date when="1789-06-25" type="summary_Croatian">25 Junij. 1789</date>. ... </p>
+					<lb/>
+					Ouoja Tgkava od Dolldınse Koju Popuodymo
+					<lb/>
+					lamaniom dje					<date when="1789-06-25" type="summary_Croatian">25 Junij. 1789</date>
+					. ...				</p>
 			</div1>
 		</body>
 	</text>

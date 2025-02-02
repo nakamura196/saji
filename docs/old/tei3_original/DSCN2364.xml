@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2364</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2692/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2692/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d6e217622b81a430c782743016959927fc3f79e3.jpg" />
+        <zone lrx="1883" lry="2916" ulx="367" uly="66" xml:id="zone_d42_xpn_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2692/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f4aed5f227fc4331cc6cf9fe6c77706a4b3b9ba8.jpg" />
+        <zone lrx="3062" lry="1355" ulx="139" uly="716" xml:id="zone_pln_cqn_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2692/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/cfff8cfe34321979a65c0dbbfccd4fd0914aa34c.jpg" />
+        <zone lrx="644" lry="928" ulx="310" uly="615" xml:id="zone_vzz_dqn_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_d42_xpn_dmb" next="#zone_pln_cqn_dmb" type="mürāsele">
+        <p>
+          <lb />... <date cert="low" type="created" when="1769-03-16" when-custom="1182-11-09">9 Zı'l-kaʿda sene 1182</date><lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_vzz_dqn_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_pln_cqn_dmb" type="summary_Croatian">
+        <p>
+          <lb />... 
+          <lb />... <date type="summary_Croatian" when="1769">1769</date>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

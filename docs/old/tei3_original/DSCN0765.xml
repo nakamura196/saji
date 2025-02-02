@@ -1,0 +1,45 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0765</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 8" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3160/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3160/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/32b26218417c36f0e719b3742a7c3f2c261c39c1.jpg" />
+        <zone lrx="2109" lry="2236" ulx="378" uly="292" xml:id="zone_pbq_h1r_2mb" />
+        <zone lrx="1072" lry="2200" ulx="513" uly="1363" xml:id="zone_hkp_j1r_2mb" />
+        <zone lrx="1000" lry="2209" ulx="518" uly="1740" xml:id="zone_fgq_k1r_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_pbq_h1r_2mb" type="ʿilmühaber">
+        <p>
+          <lb />işbu <date when="1863-06-16" when-custom="1279">iki yüz yetmiş dokuz senesine</date> ...
+          <lb />... <date type="created" when="1863-06-16" when-custom="1279">sene 79</date>
+        </p>
+        <div2 facs="#zone_hkp_j1r_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_fgq_k1r_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

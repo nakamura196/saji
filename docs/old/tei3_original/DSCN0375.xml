@@ -1,0 +1,81 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0375</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">ムスリムの耕作地の、修道院長に対する売却の承認</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1852/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1852/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/02326092c1eab5987610e315e6723734cbced6c5.jpg"/>
+				<zone lrx="2375" lry="2716" ulx="117" uly="58" xml:id="zone_xnt_5ff_pkb"/>
+				<zone lrx="677" lry="2693" ulx="248" uly="2232" xml:id="zone_y1z_vff_pkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1852/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1dc4257c963464549616d3eca27d72bd1a556487.jpg"/>
+				<zone lrx="779" lry="1061" ulx="512" uly="852" xml:id="zone_tft_yff_pkb"/>
+				<zone lrx="2166" lry="3007" ulx="280" uly="2175" xml:id="zone_k1r_zff_pkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_xnt_5ff_pkb" next="#zone_k1r_zff_pkb" type="EMIN_zabt_tezkire_sūret">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date type="created" when="1845-01-08" when-custom="1260">bin iki yüz altmış senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasına tābiʿ
+					<lb/>... hudūd dāhilinde bir kıtʿa tarla KUÇUİÇE demekle bir taraf MATO ... tarlası
+					<lb/>ve taraf-ı sānī MATO RALİÇ tarla ve taraf-ı sālis BOTOK hudūd ile ve taraf-ı rābiʿ tarīk-i
+					<lb/>ʿām ile mahdūd ve mümtāz olub Kirşevo kasabasında mukīm eden HACIRoğlu Mustafa ʿAlemdār
+					<lb/>mutasarrıf eylediği işbu dārende-i hurūf Kirşevo varoş kilisada gardiyān nām-ı mesfūre
+					<lb/>resmiyle dört yüz guruş bedel mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb ol dahi kabūl biz dahi
+					<lb/>me'mūr olduğumuz hasebiyle gardiyāna tafvīz birle(?) ve yedine işbu zabt tezkiresi virildi </p>
+				<div2 facs="#zone_y1z_vff_pkb" type="sign">
+					<p>
+						<lb/>El-me'mūrı'l-memhūr
+						<lb/>Mehmed Emīn-i Mukā-
+						<lb/>taʿ-i Kirşevo
+						<lb/>Hālā
+						<lb/>M </p>
+					<div3 facs="#zone_tft_yff_pkb" type="stamp_sūret">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>MRDALD Mollā Mehmed ʿan Kirşevo
+						<lb/>PRNİÇ Mollā İbrāhīm ʿan mezbūr
+						<lb/>Mollā Mehmed HABRADĞLİ
+						<lb/>ve gayrihim
+					</p>
+				</div2>
+				<div2 type="note">
+					<p>
+						<lb/>Tekâlif-i ...
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_k1r_zff_pkb" type="summary_Croatian">
+				<p>
+					<lb/>Na ... od ... gr: 400. ...
+					<lb/>... <date type="summary_Croatian" when="1844">1844</date>. Nno 16. </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

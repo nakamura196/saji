@@ -1,40 +1,43 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2211</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2539/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2539/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6aa92448414b8ba8b1a8b20dafdffd39d39a9d27.jpg" />
-        <zone lrx="2289" lry="1738" ulx="1006" uly="550" xml:id="zone_hbm_4xy_cmb" />
-        <zone lrx="1534" lry="1711" ulx="1089" uly="1311" xml:id="zone_nzx_pxy_cmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_hbm_4xy_cmb" type="unknown">
-        <p>
-          <lb />... fī <date cert="low" type="created" when="1839-12-22" when-custom="1255-10-16">16 L sene 55</date><lb />
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_nzx_pxy_cmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2211</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2211.JPG"/>
+			<zone ulx="550" uly="550" lrx="2289" lry="1738" xml:id="zone_hbm_4xy_cmb"/>
+			<zone ulx="1311" uly="1311" lrx="1534" lry="1711" xml:id="zone_nzx_pxy_cmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_hbm_4xy_cmb" type="unknown">
+				<p>
+					<lb/>
+					... fī					<date cert="low" type="created" when="1839-12-22" when-custom="1255-10-16">16 L sene 55</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_nzx_pxy_cmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

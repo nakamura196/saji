@@ -1,48 +1,53 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1856</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">vālīが書いたのではない？</note>
-<note type="mine">署名：傘型</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1386/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1386/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4a1b12b7a45ecb471e941f8c794be1fa84c7aad6.jpg" />
-<zone lrx="2000" lry="3020" ulx="215" uly="450" xml:id="zone_rhl_jmq_cjb" />
-<zone lrx="1134" lry="2990" ulx="228" uly="2213" xml:id="zone_aqj_mmq_cjb" />
-<zone lrx="724" lry="2768" ulx="562" uly="2623" xml:id="zone_ijb_nmq_cjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_rhl_jmq_cjb" type="beyāz_üzerine_buyuruldu">
-<p>
-<lb />... fī <date type="created" when="1787-07-23" when-custom="1201-10-08">8 L sene 201</date><lb />
-</p>
-<div2 facs="#zone_aqj_mmq_cjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_ijb_nmq_cjb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1856</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">vālīが書いたのではない？</note>
+				<note type="mine">署名：傘型</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1856.JPG"/>
+			<zone ulx="450" uly="450" lrx="2000" lry="3020" xml:id="zone_rhl_jmq_cjb"/>
+			<zone ulx="2213" uly="2213" lrx="1134" lry="2990" xml:id="zone_aqj_mmq_cjb"/>
+			<zone ulx="2623" uly="2623" lrx="724" lry="2768" xml:id="zone_ijb_nmq_cjb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_rhl_jmq_cjb" type="beyāz_üzerine_buyuruldu">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1787-07-23" when-custom="1201-10-08">8 L sene 201</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_aqj_mmq_cjb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_ijb_nmq_cjb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

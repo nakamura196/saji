@@ -1,84 +1,103 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0968</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">DSCN1044.JPGと同じ画像・文書。重複している。</note>
-<note type="mine">DSCN0960.JPGが裏面であると思われるが、全体像がなく、また紙が接がれているいる形跡もあり、はっきりとしない。要検討。→DSCN1044.JPGの後にも同じ画像が裏面としてきているので、正しいと思われる。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0968</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">DSCN1044.JPGと同じ画像・文書。重複している。</note>
+				<note type="mine">DSCN0960.JPGが裏面であると思われるが、全体像がなく、また紙が接がれているいる形跡もあり、はっきりとしない。要検討。→DSCN1044.JPGの後にも同じ画像が裏面としてきているので、正しいと思われる。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
           "1272-R-22" ], "saji:date_M": [ "1856-01-01" ], "saji:foldingMethod": [ "6x1" ],
           "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
           "・定型1\r\n・定型2\r\n・定型3\r\n・本文\r\n・証人" ], "saji:lang": [ "ota" ], "saji:lineage": [ "20" ],
           "saji:number": [ "n/a" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [
           "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "1?" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1084/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1084/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9a222575605a30a24355fbb3cfd5c85942dde0d5.jpg" />
-<zone lrx="1840" lry="3140" ulx="710" uly="50" xml:id="zone_etf_ztz_y3b" />
-<zone lrx="1730" lry="639" ulx="1518" uly="479" xml:id="zone_cww_15z_y3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1084/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2dd06d15e046be43721252d95241740a84685de9.jpg" />
-<zone lrx="3006" lry="1366" ulx="150" uly="750" xml:id="zone_vfk_25z_y3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1084/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/f4a652fa3d455423b6e89ef3e862d24a799b4aed.jpg" />
-<zone lrx="1717" lry="3108" ulx="583" uly="108" xml:id="zone_u5y_trj_1jb" />
-<zone lrx="1623" lry="650" ulx="1421" uly="509" xml:id="zone_mh1_vrj_1jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1084/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/6a6c6e91d1bf45ad0f736b876bc49679ebc2c1f3.jpg" />
-<zone lrx="2973" lry="1461" ulx="134" uly="833" xml:id="zone_n33_wrj_1jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 cert="medium" facs="#zone_u5y_trj_1jb" type="hüccet_sūret">
-<p>
-<lb />... <date cert="low" type="created" when="1855-12-31" when-custom="1272-04-22">fi'l-yevmi'l-sānī ve'l-ʿaşrūn min
-            şehr Rebī'ü'l-āhir<lb />
-<lb />sene isnā ve sabʿīn ve miyetein ve elif</date><lb />
-</p>
-<div3 facs="#zone_mh1_vrj_1jb" type="stamp_sūret">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div1>
-<div1 facs="#zone_n33_wrj_1jb" type="summary_Croatian">
-<p>
-<lb />Nno 23.<lb />
-</p>
-</div1>
-<div1 cert="medium" facs="#zone_u5y_trj_1jb" type="hüccet_sūret">
-<p>
-<lb />... <date cert="low" type="created" when="1855-12-31" when-custom="1272-04-22">fi'l-yevmi'l-sānī ve'l-ʿaşrūn min
-            şehr Rebī'ü'l-āhir<lb />
-<lb />sene isnā ve sabʿīn ve miyetein ve elif</date><lb />
-</p>
-<div3 facs="#zone_mh1_vrj_1jb" type="stamp_sūret">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div1>
-<div1 facs="#zone_n33_wrj_1jb" type="summary_Croatian">
-<p>
-<lb />Nno 23.<lb />
-</p>
-</div1>
-</body>
-</text>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0968.JPG"/>
+			<zone ulx="50" uly="50" lrx="1840" lry="3140" xml:id="zone_etf_ztz_y3b"/>
+			<zone ulx="479" uly="479" lrx="1730" lry="639" xml:id="zone_cww_15z_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0969.JPG"/>
+			<zone ulx="750" uly="750" lrx="3006" lry="1366" xml:id="zone_vfk_25z_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1044.JPG"/>
+			<zone ulx="108" uly="108" lrx="1717" lry="3108" xml:id="zone_u5y_trj_1jb"/>
+			<zone ulx="509" uly="509" lrx="1623" lry="650" xml:id="zone_mh1_vrj_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1045.JPG"/>
+			<zone ulx="833" uly="833" lrx="2973" lry="1461" xml:id="zone_n33_wrj_1jb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="medium" facs="#zone_u5y_trj_1jb" type="hüccet_sūret">
+				<p>
+					<lb/>
+					...					<date cert="low" type="created" when="1855-12-31" when-custom="1272-04-22">
+						fi'l-yevmi'l-sānī ve'l-ʿaşrūn min
+            şehr Rebī'ü'l-āhir
+						<lb/>
+						<lb/>
+						sene isnā ve sabʿīn ve miyetein ve elif
+					</date>
+					<lb/>
+				</p>
+				<div3 facs="#zone_mh1_vrj_1jb" type="stamp_sūret">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div3>
+			</div1>
+			<div1 facs="#zone_n33_wrj_1jb" type="summary_Croatian">
+				<p>
+					<lb/>
+					Nno 23.
+					<lb/>
+				</p>
+			</div1>
+			<div1 cert="medium" facs="#zone_u5y_trj_1jb" type="hüccet_sūret">
+				<p>
+					<lb/>
+					...					<date cert="low" type="created" when="1855-12-31" when-custom="1272-04-22">
+						fi'l-yevmi'l-sānī ve'l-ʿaşrūn min
+            şehr Rebī'ü'l-āhir
+						<lb/>
+						<lb/>
+						sene isnā ve sabʿīn ve miyetein ve elif
+					</date>
+					<lb/>
+				</p>
+				<div3 facs="#zone_mh1_vrj_1jb" type="stamp_sūret">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div3>
+			</div1>
+			<div1 facs="#zone_n33_wrj_1jb" type="summary_Croatian">
+				<p>
+					<lb/>
+					Nno 23.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

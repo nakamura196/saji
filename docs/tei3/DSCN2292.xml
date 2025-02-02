@@ -1,54 +1,60 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2292</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2620/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2620/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/10c68ebafc029ede14c361983ce089966eb77c8f.jpg" />
-        <zone lrx="2245" lry="3182" ulx="61" uly="154" xml:id="zone_mnp_dkg_dmb" />
-        <zone lrx="803" lry="3142" ulx="86" uly="2285" xml:id="zone_j4t_fkg_dmb" />
-        <zone lrx="775" lry="2874" ulx="443" uly="2596" xml:id="zone_n5r_gkg_dmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2620/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/69848f3a97a55db04fc1b28d815ada84a461d81c.jpg" />
-        <zone lrx="2328" lry="1633" ulx="178" uly="811" xml:id="zone_agc_3kg_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_mnp_dkg_dmb" next="#zone_agc_3kg_dmb" type="hurūf">
-        <p>
-          <lb />
-          <lb />fī <date type="created" when="1825-10-20" when-custom="1241-03-08">8 Ra sene 241</date>
-        </p>
-        <div2 facs="#zone_j4t_fkg_dmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_n5r_gkg_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_agc_3kg_dmb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2292</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2292.JPG"/>
+			<zone ulx="154" uly="154" lrx="2245" lry="3182" xml:id="zone_mnp_dkg_dmb"/>
+			<zone ulx="2285" uly="2285" lrx="803" lry="3142" xml:id="zone_j4t_fkg_dmb"/>
+			<zone ulx="2596" uly="2596" lrx="775" lry="2874" xml:id="zone_n5r_gkg_dmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2293.JPG"/>
+			<zone ulx="811" uly="811" lrx="2328" lry="1633" xml:id="zone_agc_3kg_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_mnp_dkg_dmb" next="#zone_agc_3kg_dmb" type="hurūf">
+				<p>
+					<lb/>
+					<lb/>
+					fī					<date type="created" when="1825-10-20" when-custom="1241-03-08">8 Ra sene 241</date>
+				</p>
+				<div2 facs="#zone_j4t_fkg_dmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_n5r_gkg_dmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_agc_3kg_dmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

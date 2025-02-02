@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2332</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2660/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2660/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4875683ae6da6564eb39be112dbc652680f0f8d2.jpg" />
+        <zone lrx="2254" lry="3227" ulx="309" uly="290" xml:id="zone_l2k_l1n_dmb" />
+        <zone lrx="804" lry="3188" ulx="397" uly="2822" xml:id="zone_e4q_m1n_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2660/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b9031e6e97b3e1f6dd3b7630257098ce2ee5ceec.jpg" />
+        <zone lrx="2956" lry="1188" ulx="528" uly="566" xml:id="zone_q4y_n1n_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2660/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/5c8484eaf6ae0a2ab8c154c68b74bd95747ab0fa.jpg" />
+        <zone lrx="1254" lry="475" ulx="962" uly="207" xml:id="zone_r4k_p1n_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_l2k_l1n_dmb" next="#zone_q4y_n1n_dmb" subtype="temessük" type="EMIN">
+        <p>
+          <lb />... işbu <date type="created" when="0699-01-08" when-custom="1179">bin yüz yetmiş dokuz senesinde</date>
+          <lb />der ...
+        </p>
+        <div2 facs="#zone_e4q_m1n_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_r4k_p1n_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_q4y_n1n_dmb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1765">1765</date> ... <date type="summary_Croatian" when="1769">1769</date> ...
+          <lb />...
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

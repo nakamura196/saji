@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,118 +20,164 @@
 			<textClass>
 				<classCode scheme="">土地の共同保有</classCode>
 			</textClass>
-		</profileDesc>		
+		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1742/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/80b7e77c94e3de610f0d20b09d790c41f79d5db0.jpg" n="https://diyhistory.org/public/phr2/iiif/1742/canvas/p1"/>
-				<zone xml:id="zone_x5j_dj5_xjb" lry="2946" lrx="1847" uly="200" ulx="116"/>
-				<zone xml:id="zone_sgj_hj5_xjb" lry="2356" lrx="570" uly="2123" ulx="316"/>
-				<zone xml:id="zone_sqs_jwg_d5b" lry="2431" lrx="1794" uly="2211" ulx="1621"/>
-				<zone xml:id="zone_wyp_kwg_d5b" lry="2432" lrx="1659" uly="2207" ulx="1469"/>
-				<zone xml:id="zone_wrx_lwg_d5b" lry="2498" lrx="1444" uly="2269" ulx="1218"/>
-				<zone xml:id="zone_kx5_mwg_d5b" lry="2465" lrx="1148" uly="2248" ulx="896"/>
-				<zone xml:id="zone_it4_nwg_d5b" lry="2413" lrx="848" uly="2265" ulx="589"/>
-				<zone xml:id="zone_ffm_4wg_d5b" lry="2636" lrx="1806" uly="2432" ulx="1602"/>
-				<zone xml:id="zone_p1l_pwg_d5b" lry="2685" lrx="1572" uly="2472" ulx="1373"/>
-				<zone xml:id="zone_jtf_qwg_d5b" lry="2726" lrx="1353" uly="2496" ulx="1132"/>
-				<zone xml:id="zone_pwd_rwg_d5b" lry="2740" lrx="1100" uly="2501" ulx="839"/>
-				<zone xml:id="zone_cwy_rwg_d5b" lry="2713" lrx="850" uly="2464" ulx="593"/>
-				<zone xml:id="zone_spc_twg_d5b" lry="2753" lrx="560" uly="2402" ulx="352"/>
-				<zone xml:id="zone_d41_5wg_d5b" lry="2903" lrx="1801" uly="2713" ulx="1500"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0263.JPG"/>
+			<zone ulx="200" uly="200" lrx="1847" lry="2946" xml:id="zone_x5j_dj5_xjb"/>
+			<zone ulx="2123" uly="2123" lrx="570" lry="2356" xml:id="zone_sgj_hj5_xjb"/>
+			<zone ulx="2211" uly="2211" lrx="1794" lry="2431" xml:id="zone_sqs_jwg_d5b"/>
+			<zone ulx="2207" uly="2207" lrx="1659" lry="2432" xml:id="zone_wyp_kwg_d5b"/>
+			<zone ulx="2269" uly="2269" lrx="1444" lry="2498" xml:id="zone_wrx_lwg_d5b"/>
+			<zone ulx="2248" uly="2248" lrx="1148" lry="2465" xml:id="zone_kx5_mwg_d5b"/>
+			<zone ulx="2265" uly="2265" lrx="848" lry="2413" xml:id="zone_it4_nwg_d5b"/>
+			<zone ulx="2432" uly="2432" lrx="1806" lry="2636" xml:id="zone_ffm_4wg_d5b"/>
+			<zone ulx="2472" uly="2472" lrx="1572" lry="2685" xml:id="zone_p1l_pwg_d5b"/>
+			<zone ulx="2496" uly="2496" lrx="1353" lry="2726" xml:id="zone_jtf_qwg_d5b"/>
+			<zone ulx="2501" uly="2501" lrx="1100" lry="2740" xml:id="zone_pwd_rwg_d5b"/>
+			<zone ulx="2464" uly="2464" lrx="850" lry="2713" xml:id="zone_cwy_rwg_d5b"/>
+			<zone ulx="2402" uly="2402" lrx="560" lry="2753" xml:id="zone_spc_twg_d5b"/>
+			<zone ulx="2713" uly="2713" lrx="1801" lry="2903" xml:id="zone_d41_5wg_d5b"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="high" facs="#zone_x5j_dj5_xjb" subtype="temessük,izin_nāme" type="EMIN_temessük">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf temessük budur ki ber-vech-i iştirāk mutasarrıf eylediğimiz Kirşevo mukātaʿasında
-					<lb/><persName>KURÇE</persName> cemāʿatında ve <placeName>VKUİÇ mahallesinin</placeName> hudūdunda vākiʿ bir parçe orman <placeName>YRYUYLE</placeName>
-					<lb/>demekle maʿrūf ola işbu dārende-i hurūf nefs-i Kirşevo varoş rāhibler orman-ı
-					<lb/>mezkūresinde ... kesmek içün bizdan izin taleb etmekle biz dahi maʿkūl münāsib
-					<lb/>görüp mezkūr rāhiblere be-her tāne taht iki pāre olmak ... izin virüp
-					<lb/>tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olmayüp içün işbu izin nāmesini yer tālibe
-					<lb/>iʿtā olundu ... ... ibrāz oluna fī <date type="created" when="1832-01-24" when-custom="1247-08-21">21 Ş sene 1247</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf temessük budur ki ber-vech-i iştirāk mutasarrıf eylediğimiz Kirşevo mukātaʿasında
+					<lb/>
+					<persName>KURÇE</persName>
+					 cemāʿatında ve					<placeName>VKUİÇ mahallesinin</placeName>
+					 hudūdunda vākiʿ bir parçe orman					<placeName>YRYUYLE</placeName>
+					<lb/>
+					demekle maʿrūf ola işbu dārende-i hurūf nefs-i Kirşevo varoş rāhibler orman-ı
+					<lb/>
+					mezkūresinde ... kesmek içün bizdan izin taleb etmekle biz dahi maʿkūl münāsib
+					<lb/>
+					görüp mezkūr rāhiblere be-her tāne taht iki pāre olmak ... izin virüp
+					<lb/>
+					tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olmayüp içün işbu izin nāmesini yer tālibe
+					<lb/>
+					iʿtā olundu ... ... ibrāz oluna fī					<date type="created" when="1832-01-24" when-custom="1247-08-21">21 Ş sene 1247</date>
 				</p>
 				<div2 facs="#zone_sgj_hj5_xjb" type="sign">
 					<p>
-						<lb/>...
-						<lb/>...
-						<lb/>.. </p>
+						<lb/>
+						...
+						<lb/>
+						...
+						<lb/>
+						..					</p>
 				</div2>
 				<div2 facs="#zone_sqs_jwg_d5b" type="sign">
 					<p>
-						<lb/>...
-						<lb/>ʿOsmān
-						<lb/>ISLUNUN </p>
+						<lb/>
+						...
+						<lb/>
+						ʿOsmān
+						<lb/>
+						ISLUNUN					</p>
 				</div2>
 				<div2 facs="#zone_wyp_kwg_d5b" type="sign">
 					<p>
-						<lb/>...
-						<lb/>Sālih
-						<lb/>... </p>
+						<lb/>
+						...
+						<lb/>
+						Sālih
+						<lb/>
+						...					</p>
 				</div2>
 				<div2 facs="#zone_wrx_lwg_d5b" type="sign">
 					<p>
-						<lb/>...
-						<lb/>KSLI
-						<lb/>İslamoviç </p>
+						<lb/>
+						...
+						<lb/>
+						KSLI
+						<lb/>
+						İslamoviç					</p>
 				</div2>
 				<div2 facs="#zone_kx5_mwg_d5b" type="sign">
 					<p>
-						<lb/>...
-						<lb/>Mustafa
-						<lb/>KARAOĞLİÇ </p>
+						<lb/>
+						...
+						<lb/>
+						Mustafa
+						<lb/>
+						KARAOĞLİÇ					</p>
 				</div2>
 				<div2 type="sign" facs="#zone_it4_nwg_d5b">
 					<p>
-						<lb/>...
-						<lb/>Ahmed
-						<lb/>KARAOĞLU </p>
+						<lb/>
+						...
+						<lb/>
+						Ahmed
+						<lb/>
+						KARAOĞLU					</p>
 				</div2>
 				<div2 type="sign" facs="#zone_ffm_4wg_d5b">
 					<p>
-						<lb/>...
-						<lb/>Sālih
-						<lb/>ISLUBUN </p>
+						<lb/>
+						...
+						<lb/>
+						Sālih
+						<lb/>
+						ISLUBUN					</p>
 				</div2>
 				<div2 type="sign" facs="#zone_p1l_pwg_d5b">
 					<p>
-						<lb/>...
-						<lb/>Mehmed
-						<lb/>ISLUBUN </p>
+						<lb/>
+						...
+						<lb/>
+						Mehmed
+						<lb/>
+						ISLUBUN					</p>
 				</div2>
 				<div2 type="sign" facs="#zone_jtf_qwg_d5b">
 					<p>
-						<lb/>...
-						<lb/>İbrāhīm
-						<lb/>TONUN </p>
+						<lb/>
+						...
+						<lb/>
+						İbrāhīm
+						<lb/>
+						TONUN					</p>
 				</div2>
 				<div2 type="sign" facs="#zone_pwd_rwg_d5b">
 					<p>
-						<lb/>...
-						<lb/>KNE İbrāhīm
-						<lb/>ISLUBUN </p>
+						<lb/>
+						...
+						<lb/>
+						KNE İbrāhīm
+						<lb/>
+						ISLUBUN					</p>
 				</div2>
 				<div2 type="sign" facs="#zone_cwy_rwg_d5b">
 					<p>
-						<lb/>...
-						<lb/>KNE İbrāhīm
-						<lb/>ISLUBUN </p>
+						<lb/>
+						...
+						<lb/>
+						KNE İbrāhīm
+						<lb/>
+						ISLUBUN					</p>
 				</div2>
 				<div2 type="sign" facs="#zone_spc_twg_d5b">
 					<p>
-						<lb/>...
-						<lb/>Mustafa
-						<lb/>ISLUBUN </p>
+						<lb/>
+						...
+						<lb/>
+						Mustafa
+						<lb/>
+						ISLUBUN					</p>
 				</div2>
 				<div2 type="sign" facs="#zone_d41_5wg_d5b">
 					<p>
-						<lb/>...
-						<lb/>Ahmed MAİM MRAİÇ </p>
+						<lb/>
+						...
+						<lb/>
+						Ahmed MAİM MRAİÇ					</p>
 				</div2>
 			</div1>
 		</body>

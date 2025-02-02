@@ -1,58 +1,66 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0748</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 8" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3145/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3145/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ab6fe61b46c69cdefed4912e955b649501ca81e7.jpg" />
-        <zone lrx="2182" lry="2909" ulx="236" uly="163" xml:id="zone_d4w_hvq_2mb" />
-        <zone lrx="968" lry="2863" ulx="672" uly="2486" xml:id="zone_qsz_3vq_2mb" />
-        <zone lrx="627" lry="2829" ulx="388" uly="2409" xml:id="zone_ddv_jvq_2mb" />
-        <zone lrx="2040" lry="668" ulx="1568" uly="202" xml:id="zone_zp5_kvq_2mb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_d4w_hvq_2mb" type="sened">
-        <p>
-          <lb />
-          <lb />... fī <date type="created" when="1868-11-23" when-custom="1285-08-08">8 Şaʿbān sene 85</date>
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_zp5_kvq_2mb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 facs="#zone_qsz_3vq_2mb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 facs="#zone_ddv_jvq_2mb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0748</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 8" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0748.JPG"/>
+			<zone ulx="163" uly="163" lrx="2182" lry="2909" xml:id="zone_d4w_hvq_2mb"/>
+			<zone ulx="2486" uly="2486" lrx="968" lry="2863" xml:id="zone_qsz_3vq_2mb"/>
+			<zone ulx="2409" uly="2409" lrx="627" lry="2829" xml:id="zone_ddv_jvq_2mb"/>
+			<zone ulx="202" uly="202" lrx="2040" lry="668" xml:id="zone_zp5_kvq_2mb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_d4w_hvq_2mb" type="sened">
+				<p>
+					<lb/>
+					<lb/>
+					... fī					<date type="created" when="1868-11-23" when-custom="1285-08-08">8 Şaʿbān sene 85</date>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_zp5_kvq_2mb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_qsz_3vq_2mb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+				<div2 facs="#zone_ddv_jvq_2mb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

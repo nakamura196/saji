@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,24 +14,24 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1738/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1738/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/dbba25b1116cfff188eb803dff909e9fae370e4b.jpg"/>
-				<zone lrx="1985" lry="2661" ulx="177" uly="200" xml:id="zone_t5h_bst_xjb"/>
-				<zone lrx="609" lry="2651" ulx="239" uly="2390" xml:id="zone_o24_cst_xjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0259.JPG"/>
+			<zone ulx="200" uly="200" lrx="1985" lry="2661" xml:id="zone_t5h_bst_xjb"/>
+			<zone ulx="2390" uly="2390" lrx="609" lry="2651" xml:id="zone_o24_cst_xjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_t5h_bst_xjb" type="mürāsele">
 				<p>
-					<lb/>... fī <date type="created" when-custom="1199-02-10">10 Saferi'l-... sene 199</date>
+					<lb/>
+					... fī					<date type="created" when-custom="1199-02-10">10 Saferi'l-... sene 199</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_o24_cst_xjb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>

@@ -1,0 +1,41 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN0921</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod":
+          [ "4x3" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:lang": [ "ota" ],
+          "saji:lineage": [ "11" ], "saji:number": [ "355" ], "saji:relationWithAnotherItems": [
+          "表全体" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "0" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1039/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1039/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/260d7e05d9c173b3f2c8f602009e7346969e7b1f.jpg" />
+<zone lrx="1730" lry="2940" ulx="110" uly="-10" xml:id="zone_ixf_m5y_y3b" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1039/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6a1e236bc099fee54e05197b963cf68319cbf982.jpg" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1039/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/7cdc39e929c3e68052158d2c1a56f3046e132202.jpg" />
+<zone lrx="1375" lry="1825" ulx="963" uly="1483" xml:id="zone_of1_45y_y3b" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 cert="unknown" facs="#zone_ixf_m5y_y3b" type="unknown">
+<l>... <date cert="low" type="created" when="1786-11-03" when-custom="1201-01-12">fi'l-yevmi'l-sānī ʿaşr min Muharrem'l-harām sene ahadī ve miyetein ve elif</date></l>
+</div1>
+<div3 facs="#zone_of1_45y_y3b" type="stamp" />
+</body>
+</text>
+</TEI>

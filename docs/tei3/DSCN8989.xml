@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -17,71 +18,101 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1917/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1917/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b1189b54e01b9b71d6e86ff913bfaaf7d846b37e.jpg"/>
-				<zone lrx="646" lry="451" ulx="406" uly="231" xml:id="zone_anl_pxx_wkb"/>
-				<zone lrx="2221" lry="2960" ulx="514" uly="2207" xml:id="zone_ljj_qxx_wkb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1917/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/0be98d988ab723a22df1f4942c6b7f951d71d92a.jpg"/>
-				<zone lrx="2333" lry="3041" ulx="142" uly="241" xml:id="zone_l42_sxx_wkb"/>
-				<zone lrx="552" lry="2835" ulx="291" uly="2513" xml:id="zone_w4j_txx_wkb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN8989.JPG"/>
+			<zone ulx="231" uly="231" lrx="646" lry="451" xml:id="zone_anl_pxx_wkb"/>
+			<zone ulx="2207" uly="2207" lrx="2221" lry="2960" xml:id="zone_ljj_qxx_wkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN8990.JPG"/>
+			<zone ulx="241" uly="241" lrx="2333" lry="3041" xml:id="zone_l42_sxx_wkb"/>
+			<zone ulx="2513" uly="2513" lrx="552" lry="2835" xml:id="zone_w4j_txx_wkb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_l42_sxx_wkb" next="#zone_ljj_qxx_wkb" type="EMIN">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>işbu <date type="created" when="1810-02-03" when-custom="1224">bin iki yüz yiğirmi dört senesinin</date> der ʿuhde ve iltizāmımızda bulunan
-					<lb/>Kirşevo mukātaʿası kurālarından DAREVİÇE karyesi hudūd dāhilinde arāzī-i
-					<lb/>mīrīye mutasarrıf olan zimmī Peter KRAKİÇ veled-i Nikola karye-i merkūmda arāzī-i
-					<lb/>mezkūrenin tasarrıfında bulunan bir kıtʿa çayır bir taraf BUBU çayır ve taraf-ı sānī
-					<lb/>ve sālis müşteri rāhiblerin(?) çayırı ve taraf-ı rābiʿ ormanlık ile mahdūd
-					<lb/>ve muhtāz olan BA'UŞBİÇ çayır demekle maʿrūf işbu dārende-i hurūf
-					<lb/>hurūf(sic) gardiyān ve sā'ir rāhiblere resmiyle seksen sekiz esedī(?) guruş
-					<lb/>bedel mukābelesinde beyʿ katʿiyle beyʿ ve hakk-ı tasarrıfın ferāğat etmekle biz dahi
-					<lb/>me'mūrumuz hasebiye beyʿ ... tecvīz ve ferāğ-ı mezkūri tafvīz
-					<lb/>edüb mā-dām ki taraf-ı mīrīye ʿāid ola ʿaşār-ı şerʿiye ve rüsūmāt-ı sā'ire-
-					<lb/>sin edā ve teslīm eyledikten sonra tarafımızdan ve taraf-ı āhardan zabt ve tasarrıfına(?)
-					<lb/>kimesne māniʿ olmaya ve'l-selām
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					işbu					<date type="created" when="1810-02-03" when-custom="1224">bin iki yüz yiğirmi dört senesinin</date>
+					 der ʿuhde ve iltizāmımızda bulunan
+					<lb/>
+					Kirşevo mukātaʿası kurālarından DAREVİÇE karyesi hudūd dāhilinde arāzī-i
+					<lb/>
+					mīrīye mutasarrıf olan zimmī Peter KRAKİÇ veled-i Nikola karye-i merkūmda arāzī-i
+					<lb/>
+					mezkūrenin tasarrıfında bulunan bir kıtʿa çayır bir taraf BUBU çayır ve taraf-ı sānī
+					<lb/>
+					ve sālis müşteri rāhiblerin(?) çayırı ve taraf-ı rābiʿ ormanlık ile mahdūd
+					<lb/>
+					ve muhtāz olan BA'UŞBİÇ çayır demekle maʿrūf işbu dārende-i hurūf
+					<lb/>
+					hurūf(sic) gardiyān ve sā'ir rāhiblere resmiyle seksen sekiz esedī(?) guruş
+					<lb/>
+					bedel mukābelesinde beyʿ katʿiyle beyʿ ve hakk-ı tasarrıfın ferāğat etmekle biz dahi
+					<lb/>
+					me'mūrumuz hasebiye beyʿ ... tecvīz ve ferāğ-ı mezkūri tafvīz
+					<lb/>
+					edüb mā-dām ki taraf-ı mīrīye ʿāid ola ʿaşār-ı şerʿiye ve rüsūmāt-ı sā'ire-
+					<lb/>
+					sin edā ve teslīm eyledikten sonra tarafımızdan ve taraf-ı āhardan zabt ve tasarrıfına(?)
+					<lb/>
+					kimesne māniʿ olmaya ve'l-selām
 				</p>
 				<div2 facs="#zone_w4j_txx_wkb" type="sign">
 					<p>
-						<lb/>...
-						<lb/>Emīn Mehmed
-						<lb/>Kirşevo
-						<lb/>Emīn
+						<lb/>
+						...
+						<lb/>
+						Emīn Mehmed
+						<lb/>
+						Kirşevo
+						<lb/>
+						Emīn
 					</p>
 					<div3 facs="#zone_anl_pxx_wkb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>DUĞLİzāde Dervīş Beğ ʿan BRUZUR
-						<lb/>SLAİÇİ Hasan Beşe
-						<lb/>Dervīş Ağa SLAİÇİ Dāmāt
-						<lb/>KAVGİÇ Sālih ʿAlemdār
-						<lb/>Zimmī ÇİKR Mato
-						<lb/>Zimmī BUDA Peter
-						<lb/>Zimmī JAPU
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						DUĞLİzāde Dervīş Beğ ʿan BRUZUR
+						<lb/>
+						SLAİÇİ Hasan Beşe
+						<lb/>
+						Dervīş Ağa SLAİÇİ Dāmāt
+						<lb/>
+						KAVGİÇ Sālih ʿAlemdār
+						<lb/>
+						Zimmī ÇİKR Mato
+						<lb/>
+						Zimmī BUDA Peter
+						<lb/>
+						Zimmī JAPU
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_ljj_qxx_wkb" type="summary_Croatian">
 				<p>
-					<lb/>...
-					<lb/>koje kupo manajir(?) od ...
-					<lb/>... 
-					<lb/>na ... <date type="summary_Croatian" when="1810">1810</date>.
+					<lb/>
+					...
+					<lb/>
+					koje kupo manajir(?) od ...
+					<lb/>
+					...					<lb/>
+					na ...					<date type="summary_Croatian" when="1810">1810</date>
+					.
 				</p>
 			</div1>
 		</body>

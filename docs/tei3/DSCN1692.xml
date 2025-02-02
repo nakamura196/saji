@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,87 +14,120 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1226/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1226/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1ab4f9ab7a842a113cde4d5bc7c2cfcbacfa2abc.jpg"/>
-				<zone lrx="1584" lry="3081" ulx="727" uly="-3" xml:id="zone_ehw_bfy_1jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1226/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/dd2487e528c98ed9e7685b65ff667906951e0d78.jpg"/>
-				<zone lrx="2089" lry="1177" ulx="1489" uly="583" xml:id="zone_hst_ffy_1jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1226/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/3da10b528eeced689cbc3c8d0624884281e9370d.jpg"/>
-				<zone lrx="1588" lry="1868" ulx="919" uly="231" xml:id="zone_zpc_3fy_1jb"/>
-				<zone lrx="1238" lry="1850" ulx="1088" uly="1756" xml:id="zone_ft1_kfy_1jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1226/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/a5ab5188c020eeb4058aac8597ab9c4ef34b328c.jpg"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1226/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/356c59e3a5059dc74807f51ba3a8d00bdce59452.jpg"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1226/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/07e14f3a5b09ea94ff0fe65547de61a50b46d7f3.jpg"/>
-				<zone lrx="2073" lry="1355" ulx="695" uly="600" xml:id="zone_ngq_mfy_1jb"/>
-				<zone lrx="1323" lry="1333" ulx="917" uly="983" xml:id="zone_mwf_nfy_1jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1226/canvas/p7" url="https://diyhistory.org/public/phr2/files/original/1fbaeef2c38b90c274d7b25ab536d768f3bedfe7.jpg"/>
-				<zone lrx="2939" lry="1338" ulx="517" uly="272" xml:id="zone_c1q_yfy_1jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1692.JPG"/>
+			<zone ulx="-3" uly="-3" lrx="1584" lry="3081" xml:id="zone_ehw_bfy_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1693.JPG"/>
+			<zone ulx="583" uly="583" lrx="2089" lry="1177" xml:id="zone_hst_ffy_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1694.JPG"/>
+			<zone ulx="231" uly="231" lrx="1588" lry="1868" xml:id="zone_zpc_3fy_1jb"/>
+			<zone ulx="1756" uly="1756" lrx="1238" lry="1850" xml:id="zone_ft1_kfy_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1695.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1696.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1697.JPG"/>
+			<zone ulx="600" uly="600" lrx="2073" lry="1355" xml:id="zone_ngq_mfy_1jb"/>
+			<zone ulx="983" uly="983" lrx="1323" lry="1333" xml:id="zone_mwf_nfy_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1698.JPG"/>
+			<zone ulx="272" uly="272" lrx="2939" lry="1338" xml:id="zone_c1q_yfy_1jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_ehw_bfy_1jb" type="hüccet">
 				<p>
-					<lb/>Bin bir guruştan iki bin guruşa kadar idāne ü beyʿ ü şirā'
-					<lb/>hücceti yazılmak içün varaka-ı ... dır
-					<lb/>kıymet guruş
-					<lb/>1
-					<lb/>El-emru hasbemā zikr fīhi
-					<lb/>...zāde İbrāhīm ... en-nāib bi-nāhiyet-i Foyniçe bi-mennehu(?) el-fakīr ileyhi
-					<lb/>Sebeb-i tahrīr-i kitāb-ı şerʿī budur ki
-					<lb/>Fojniçe kazāsına müzāfa Kirşevo kasabasında varoş OLOVÇİÇ mahallesinde mütemekkin
-					<lb/>devlet ʿalīye tebaʿasının Latin milletinden BARBARIÇ DOMİN veled-i Andriye tarafından
-					<lb/>zikr-i āti husūsa vekīl oldğığ kasaba-i mezbūre ... MATO veled-i Īwan ve Anton
-					<lb/>veled-i Īvan şehādetleryile mahzar-ı hasm-ı cāhidde sābit ü sübūt ve kâletine hüküm-ü şerʿī
-					<lb/>lāhik olan merkūm DOMİN'in sulbī kebīl oğlu DAVİD nām kimesne meclis-i şerʿ-i şerīf-i enverde
-					<lb/>kasaba-i mezbūrede Müslimīn cemāʿatda mütemekkin tebaʿa ve(?) millet-i merkūmdan işbu rāfi'l-kitāb
-					<lb/>ÇİÇE PARO vālid(?) MATO muvācehesinde bi'l-vekâle ikrār tam ve takrīr-i kelām edüb
-					<lb/>ʿakd-i āti'l-beyānın hudūdına değin işbu bir kıtʿa hüccet-i şerʿiye nātik olduğu üzere
-					<lb/>şirā'yi müvekkelim pederim merkūm DOMIN yedine mülk ve hakkı olan cemāʿat-i mezkūrede
-					<lb/>Komari mahallesinde vākiʿ bir taraf-ı Fra ʿAndriye bağçesi ve iki tarafūn
-					<lb/>İVİÇ mücār bağçeleri ve taraf-ı rābiʿ tarīk-i ʿām ile mahdūd bir bāb mülk menzil
-					<lb/>ve bir bāb ...hāne ve bir kıtʿ eşcār-i müsmir ü ... bağçesiyle karye-i mezkūrda vākiʿ
-					<lb/>nehr-i KOMARAÇ üzerinde vākiʿ maʿlūm'l-hudūd bir bāb āsiyābda on beş(?)
-					<lb/>sehmdan bir sehm hisse-i şā'i'yesini ... tarafından īcāb u kabūlu
-					<lb/>hāvī şürūt-u ... ve kuyūd-u mübtal ve gayb ve takrīrdan ʿārī beyʿ-i bāt-i sahīh-i
-					<lb/>şerʿī ile sekiz yüz guruş semen mukābelesinde merkūm ÇİÇE PAVO'ya beyʿ-i bāt
-					<lb/>ve temlīk ve teslīm eylediğimde ol dahi ber minvāl-i muharrer iştirā ve temellük ve tesellüm ve kabz
-					<lb/>ve kabūl eyledikten sonra semeni olan meblağ-ı mezkūr sekiz yüz guruş merkūm PAVO yedinden
-					<lb/>tamāmen ve kâmilen ahz ü kabz eyledim ... emlāk mahdūd mezkūrede benim ve ...
-					<lb/>... merkūm DOMIN'in ... ve ... hakk u alākası kalmayıp müşteri merkūm
-					<lb/>PAVO'nın mülk ... ve müşterāsı olmuştır ...
-					<lb/>PARU'ın mülk ... müşterāta olumuştır ... ve mutasarrıf olusun
-					<lb/>dedikte gıbbe'l-istintāk(?)el'şerʿī ... mā-... vakiʿ bi't-taleb ketb ve ... olundu
-					<lb/><date type="created" when="1868-02-14" when-custom="1284-10-21">fi'l-yevmi'l-hādī ve'l-ʿaşrīn min Şevvālı'l-kerām sene arbaʿ ve semānīn ve mieteyn ve elif</date>
-					<lb/>şühūdu'l-hāl </p>
+					<lb/>
+					Bin bir guruştan iki bin guruşa kadar idāne ü beyʿ ü şirā'
+					<lb/>
+					hücceti yazılmak içün varaka-ı ... dır
+					<lb/>
+					kıymet guruş
+					<lb/>
+					1
+					<lb/>
+					El-emru hasbemā zikr fīhi
+					<lb/>
+					...zāde İbrāhīm ... en-nāib bi-nāhiyet-i Foyniçe bi-mennehu(?) el-fakīr ileyhi
+					<lb/>
+					Sebeb-i tahrīr-i kitāb-ı şerʿī budur ki
+					<lb/>
+					Fojniçe kazāsına müzāfa Kirşevo kasabasında varoş OLOVÇİÇ mahallesinde mütemekkin
+					<lb/>
+					devlet ʿalīye tebaʿasının Latin milletinden BARBARIÇ DOMİN veled-i Andriye tarafından
+					<lb/>
+					zikr-i āti husūsa vekīl oldğığ kasaba-i mezbūre ... MATO veled-i Īwan ve Anton
+					<lb/>
+					veled-i Īvan şehādetleryile mahzar-ı hasm-ı cāhidde sābit ü sübūt ve kâletine hüküm-ü şerʿī
+					<lb/>
+					lāhik olan merkūm DOMİN'in sulbī kebīl oğlu DAVİD nām kimesne meclis-i şerʿ-i şerīf-i enverde
+					<lb/>
+					kasaba-i mezbūrede Müslimīn cemāʿatda mütemekkin tebaʿa ve(?) millet-i merkūmdan işbu rāfi'l-kitāb
+					<lb/>
+					ÇİÇE PARO vālid(?) MATO muvācehesinde bi'l-vekâle ikrār tam ve takrīr-i kelām edüb
+					<lb/>
+					ʿakd-i āti'l-beyānın hudūdına değin işbu bir kıtʿa hüccet-i şerʿiye nātik olduğu üzere
+					<lb/>
+					şirā'yi müvekkelim pederim merkūm DOMIN yedine mülk ve hakkı olan cemāʿat-i mezkūrede
+					<lb/>
+					Komari mahallesinde vākiʿ bir taraf-ı Fra ʿAndriye bağçesi ve iki tarafūn
+					<lb/>
+					İVİÇ mücār bağçeleri ve taraf-ı rābiʿ tarīk-i ʿām ile mahdūd bir bāb mülk menzil
+					<lb/>
+					ve bir bāb ...hāne ve bir kıtʿ eşcār-i müsmir ü ... bağçesiyle karye-i mezkūrda vākiʿ
+					<lb/>
+					nehr-i KOMARAÇ üzerinde vākiʿ maʿlūm'l-hudūd bir bāb āsiyābda on beş(?)
+					<lb/>
+					sehmdan bir sehm hisse-i şā'i'yesini ... tarafından īcāb u kabūlu
+					<lb/>
+					hāvī şürūt-u ... ve kuyūd-u mübtal ve gayb ve takrīrdan ʿārī beyʿ-i bāt-i sahīh-i
+					<lb/>
+					şerʿī ile sekiz yüz guruş semen mukābelesinde merkūm ÇİÇE PAVO'ya beyʿ-i bāt
+					<lb/>
+					ve temlīk ve teslīm eylediğimde ol dahi ber minvāl-i muharrer iştirā ve temellük ve tesellüm ve kabz
+					<lb/>
+					ve kabūl eyledikten sonra semeni olan meblağ-ı mezkūr sekiz yüz guruş merkūm PAVO yedinden
+					<lb/>
+					tamāmen ve kâmilen ahz ü kabz eyledim ... emlāk mahdūd mezkūrede benim ve ...
+					<lb/>
+					... merkūm DOMIN'in ... ve ... hakk u alākası kalmayıp müşteri merkūm
+					<lb/>
+					PAVO'nın mülk ... ve müşterāsı olmuştır ...
+					<lb/>
+					PARU'ın mülk ... müşterāta olumuştır ... ve mutasarrıf olusun
+					<lb/>
+					dedikte gıbbe'l-istintāk(?)el'şerʿī ... mā-... vakiʿ bi't-taleb ketb ve ... olundu
+					<lb/>
+					<date type="created" when="1868-02-14" when-custom="1284-10-21">fi'l-yevmi'l-hādī ve'l-ʿaşrīn min Şevvālı'l-kerām sene arbaʿ ve semānīn ve mieteyn ve elif</date>
+					<lb/>
+					şühūdu'l-hāl				</p>
 				<div3 facs="#zone_hst_ffy_1jb" type="stamp">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div3>
 				<div2 facs="#zone_zpc_3fy_1jb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_ft1_kfy_1jb" type="stamp">
 						<p>
-							<lb/>... fī
+							<lb/>
+							... fī
 							<lb/>
 						</p>
 					</div3>
@@ -101,19 +135,22 @@
 			</div1>
 			<div1 facs="#zone_ngq_mfy_1jb" type="unknown">
 				<p>
-					<lb/>... fī <date type="created" when="1868-02-14" when-custom="1284-10-21">21 Şevvāl sene 84</date>
+					<lb/>
+					... fī					<date type="created" when="1868-02-14" when-custom="1284-10-21">21 Şevvāl sene 84</date>
 					<lb/>
 				</p>
 				<div3 facs="#zone_mwf_nfy_1jb" type="stamp">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div3>
 			</div1>
 			<div1 facs="#zone_c1q_yfy_1jb" type="summary_Croatian">
 				<p>
-					<lb/>Nno 7.
+					<lb/>
+					Nno 7.
 					<lb/>
 				</p>
 			</div1>

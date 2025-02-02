@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2440</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">修道士からムスリムへに対する支払いに関する証書</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "文字に金箔が混ざっている" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2768/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2768/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c877c613551f21ae0ab111936388e1b5cdcc79bf.jpg"/>
+				<zone lrx="1725" lry="2966" ulx="175" uly="83" xml:id="zone_h4q_wfv_dmb"/>
+				<zone lrx="655" lry="2879" ulx="264" uly="2412" xml:id="zone_vlr_xfv_dmb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2768/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d24abcefebb9e6535a5bb315ed3465973b3c0717.jpg"/>
+				<zone lrx="2040" lry="3177" ulx="1768" uly="2931" xml:id="zone_wnm_zfv_dmb"/>
+				<zone lrx="2296" lry="822" ulx="152" uly="411" xml:id="zone_k53_1gv_dmb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_h4q_wfv_dmb" next="#zone_k53_1gv_dmb" type="tezkire">
+				<p>
+					<lb/>Bāʿis-i tezkire oldur ki
+					<lb/>işbu<date when-custom="11187"> bin yüz seksen yedi senesinde</date> ... KRŞUN
+					<lb/>nām ... ruhbānları otuz üç ... tamām
+					<lb/>... el-hac Mustafa ʿAlemdār Ağa'ya
+					<lb/>ber tamām ... edā eyledik ... el-yevm tarafımızdan ve taraf-ı
+					<lb/>āhardan kimesne māniʿ ve müdāhale ...
+					<lb/>ve'l-selām fī <date cert="unknown" type="created" when="1774-02-13" when-custom="1187--02">2 ... sene 1187</date>
+				</p>
+				<div2 facs="#zone_vlr_xfv_dmb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_wnm_zfv_dmb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_k53_1gv_dmb" type="summary_Serbian">
+				<p>
+					<lb/>...
+					<lb/>... <date type="summary_Serbian" when="1773">1773</date>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

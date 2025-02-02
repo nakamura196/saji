@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,41 +14,43 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2286/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2286/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/35a0214b8a25030a970315b75e05aed37b1d15f0.jpg"/>
-				<zone lrx="2745" lry="1255" ulx="684" uly="805" xml:id="zone_mhz_d2g_zlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2286/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/0f567f1c751b22bfd2cbf6da358d7ffca042f9f1.jpg"/>
-				<zone lrx="2254" lry="3002" ulx="65" uly="1072" xml:id="zone_z3l_f2g_zlb"/>
-				<zone lrx="463" lry="2994" ulx="89" uly="2618" xml:id="zone_sdk_h2g_zlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9362.JPG"/>
+			<zone ulx="805" uly="805" lrx="2745" lry="1255" xml:id="zone_mhz_d2g_zlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9363.JPG"/>
+			<zone ulx="1072" uly="1072" lrx="2254" lry="3002" xml:id="zone_z3l_f2g_zlb"/>
+			<zone ulx="2618" uly="2618" lrx="463" lry="2994" xml:id="zone_sdk_h2g_zlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_z3l_f2g_zlb" next="#zone_mhz_d2g_zlb" subtype="zabt_tezkire" type="EMIN">
 				<p>
-					<lb/>... <date type="created" when="1773-03-23" when-custom="1186">sene 1186</date>
+					<lb/>
+					...					<date type="created" when="1773-03-23" when-custom="1186">sene 1186</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_sdk_h2g_zlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_mhz_d2g_zlb" type="summary_Croatian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

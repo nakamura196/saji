@@ -1,43 +1,45 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2220</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2548/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2548/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d3a66a2dde1715961f6410a4e4b546457e39cf12.jpg" />
-        <zone lrx="2539" lry="1872" ulx="345" uly="294" xml:id="zone_thd_gbz_cmb" />
-        <zone lrx="1150" lry="1827" ulx="684" uly="1455" xml:id="zone_zbw_gbz_cmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2548/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/08d27d03ea812a79eb2c246cc12b64296b77023a.jpg" />
-        <zone lrx="2773" lry="1788" ulx="517" uly="922" xml:id="zone_opg_3bz_cmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_thd_gbz_cmb" next="#zone_opg_3bz_cmb" type="yafta">
-        <p>
-          <lb />... fī <date cert="low" type="created" when="1794-01-31" when-custom="1208-06-29">29 C sene 1208</date><lb />
-        </p>
-      </div1>
-      <div1 facs="#zone_opg_3bz_cmb" type="summary_Croatian">
-        <p>
-          <lb />... 
-          <lb />... <date type="summary_Croatian" when="1794">1794</date>
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2220</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2220.JPG"/>
+			<zone ulx="294" uly="294" lrx="2539" lry="1872" xml:id="zone_thd_gbz_cmb"/>
+			<zone ulx="1455" uly="1455" lrx="1150" lry="1827" xml:id="zone_zbw_gbz_cmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2221.JPG"/>
+			<zone ulx="922" uly="922" lrx="2773" lry="1788" xml:id="zone_opg_3bz_cmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_thd_gbz_cmb" next="#zone_opg_3bz_cmb" type="yafta">
+				<p>
+					<lb/>
+					... fī					<date cert="low" type="created" when="1794-01-31" when-custom="1208-06-29">29 C sene 1208</date>
+					<lb/>
+				</p>
+			</div1>
+			<div1 facs="#zone_opg_3bz_cmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<lb/>
+					...					<date type="summary_Croatian" when="1794">1794</date>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

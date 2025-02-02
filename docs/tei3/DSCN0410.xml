@@ -1,82 +1,97 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0410</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1886/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1886/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ec921bc6b5b9f9d665a5e7415d45b19d47457544.jpg" />
-        <zone lrx="1773" lry="3172" ulx="436" uly="36" xml:id="zone_gs2_bwg_skb" />
-        <zone lrx="1735" lry="637" ulx="1404" uly="60" xml:id="zone_dsl_cwg_skb" />
-        <zone lrx="1650" lry="618" ulx="1510" uly="508" xml:id="zone_ddd_dwg_skb" />
-        <zone lrx="1377" lry="716" ulx="1041" uly="150" xml:id="zone_o5b_2wg_skb" />
-        <zone lrx="1287" lry="706" ulx="1052" uly="546" xml:id="zone_fng_fwg_skb" />
-        <zone lrx="1089" lry="637" ulx="682" uly="90" xml:id="zone_snb_gwg_skb" />
-        <zone lrx="872" lry="608" ulx="688" uly="465" xml:id="zone_qqs_hwg_skb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1886/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a9c54185a5812b2eadc1aa7589d729ab421afbd1.jpg" />
-        <zone lrx="2187" lry="800" ulx="241" uly="333" xml:id="zone_bz1_jwg_skb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_gs2_bwg_skb" type="hüccet_sūret">
-        <p>
-          <lb /><date type="created" when="1784-05-07" when-custom="1198-06-17">fi'l-yevmi'l-sābiʿ ve'l-ʿaşr min māh Cemaziye'l-āhir sene semān ve tisʿīn ve mie ve elif</date><lb />
-        </p>
-        <div2 facs="#zone_dsl_cwg_skb" type="sign_sūret">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_ddd_dwg_skb" type="stamp_sūret">
-            <p>
-              <lb />... <lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 facs="#zone_o5b_2wg_skb" type="sign_sūret">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_fng_fwg_skb" type="stamp_sūret">
-            <p>
-              <lb />... <lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 facs="#zone_snb_gwg_skb" type="sign_sūret">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_qqs_hwg_skb" type="stamp_sūret">
-            <p>
-              <lb />... <lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_bz1_jwg_skb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1791-08-28" when-custom="1205">1205</date>.<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0410</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0410.JPG"/>
+			<zone ulx="36" uly="36" lrx="1773" lry="3172" xml:id="zone_gs2_bwg_skb"/>
+			<zone ulx="60" uly="60" lrx="1735" lry="637" xml:id="zone_dsl_cwg_skb"/>
+			<zone ulx="508" uly="508" lrx="1650" lry="618" xml:id="zone_ddd_dwg_skb"/>
+			<zone ulx="150" uly="150" lrx="1377" lry="716" xml:id="zone_o5b_2wg_skb"/>
+			<zone ulx="546" uly="546" lrx="1287" lry="706" xml:id="zone_fng_fwg_skb"/>
+			<zone ulx="90" uly="90" lrx="1089" lry="637" xml:id="zone_snb_gwg_skb"/>
+			<zone ulx="465" uly="465" lrx="872" lry="608" xml:id="zone_qqs_hwg_skb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0411.JPG"/>
+			<zone ulx="333" uly="333" lrx="2187" lry="800" xml:id="zone_bz1_jwg_skb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_gs2_bwg_skb" type="hüccet_sūret">
+				<p>
+					<lb/>
+					<date type="created" when="1784-05-07" when-custom="1198-06-17">fi'l-yevmi'l-sābiʿ ve'l-ʿaşr min māh Cemaziye'l-āhir sene semān ve tisʿīn ve mie ve elif</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_dsl_cwg_skb" type="sign_sūret">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_ddd_dwg_skb" type="stamp_sūret">
+						<p>
+							<lb/>
+							...							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_o5b_2wg_skb" type="sign_sūret">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_fng_fwg_skb" type="stamp_sūret">
+						<p>
+							<lb/>
+							...							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_snb_gwg_skb" type="sign_sūret">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_qqs_hwg_skb" type="stamp_sūret">
+						<p>
+							<lb/>
+							...							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_bz1_jwg_skb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1791-08-28" when-custom="1205">1205</date>
+					.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

@@ -1,58 +1,66 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2177</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="mine">【要】1枚目の画像が上下逆になっている。要回転。</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2505/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2505/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9231275e11b3f7562cad62d5e02b917bbd13e7ff.jpg" />
-        <zone lrx="2400" lry="3172" ulx="509" uly="0" xml:id="zone_svw_4hy_cmb" />
-        <zone lrx="2308" lry="489" ulx="1904" uly="8" xml:id="zone_m1n_qhy_cmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2505/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/34207d1f303b748e62002515c65de42841c1ac52.jpg" />
-        <zone lrx="2258" lry="3116" ulx="1954" uly="2837" xml:id="zone_fry_rhy_cmb" />
-        <zone lrx="2275" lry="1191" ulx="296" uly="245" xml:id="zone_nlv_shy_cmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_svw_4hy_cmb" next="#zone_nlv_shy_cmb" subtype="temessük" type="EMIN">
-        <p>
-          <lb />işbu <date type="created" when="0662-03-27" when-custom="1241">bin iki yüz krık bir senesinde</date> der ... 
-          <lb />
-        </p>
-        <div2 facs="#zone_m1n_qhy_cmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_fry_rhy_cmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_nlv_shy_cmb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1826">1826</date>.
-          <lb /><date type="summary_Croatian" when="0662-03-27" when-custom="1241">1241</date>. Nno 16.
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2177</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">【要】1枚目の画像が上下逆になっている。要回転。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2177.JPG"/>
+			<zone ulx="0" uly="0" lrx="2400" lry="3172" xml:id="zone_svw_4hy_cmb"/>
+			<zone ulx="8" uly="8" lrx="2308" lry="489" xml:id="zone_m1n_qhy_cmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2178.JPG"/>
+			<zone ulx="2837" uly="2837" lrx="2258" lry="3116" xml:id="zone_fry_rhy_cmb"/>
+			<zone ulx="245" uly="245" lrx="2275" lry="1191" xml:id="zone_nlv_shy_cmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_svw_4hy_cmb" next="#zone_nlv_shy_cmb" subtype="temessük" type="EMIN">
+				<p>
+					<lb/>
+					işbu					<date type="created" when="0662-03-27" when-custom="1241">bin iki yüz krık bir senesinde</date>
+					 der ...					<lb/>
+				</p>
+				<div2 facs="#zone_m1n_qhy_cmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_fry_rhy_cmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_nlv_shy_cmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1826">1826</date>
+					.
+					<lb/>
+					<date type="summary_Croatian" when="0662-03-27" when-custom="1241">1241</date>
+					. Nno 16.
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

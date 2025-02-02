@@ -1,56 +1,60 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0636</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 7" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3040/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3040/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/85f026022eeed31e149b8441fbb948b6896f5626.jpg" />
-        <zone lrx="1700" lry="2820" ulx="60" uly="120" xml:id="zone_mxt_1vp_2mb" />
-        <zone lrx="544" lry="2727" ulx="112" uly="2496" xml:id="zone_dgg_cvp_2mb" />
-        <zone lrx="1284" lry="1988" ulx="72" uly="836" xml:id="zone_kgs_dvp_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3040/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/97f95f23b0600d4248ad1350a14dccbef8f8a0c9.jpg" />
-        <zone lrx="3078" lry="744" ulx="39" uly="327" xml:id="zone_n5r_fvp_2mb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_mxt_1vp_2mb" next="#zone_kgs_dvp_2mb" type="iʿlām_maʿrūz">
-        <p>
-          <lb />
-          <lb />... hurira fī <date type="created" when="1775-01-24" when-custom="1188-11-23">23 Zı'l-kaʿda sene 188</date>
-        </p>
-        <div2 facs="#zone_dgg_cvp_2mb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_kgs_dvp_2mb" next="#zone_n5r_fvp_2mb" type="buyuruldu">
-        <p>
-          <lb />
-          <lb />... fī <date cert="low" type="created" when="1774-07-14" when-custom="1188-05-06">6 Ca sene 188</date>
-        </p>
-      </div1>
-      <div1 facs="#zone_n5r_fvp_2mb" type="summary_Croatian">
-        <p>
-          <lb />
-          <lb />... <date type="summary_Croatian" when="1775">1775</date> ... 
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0636</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 7" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%207/DSCN0636.JPG"/>
+			<zone ulx="120" uly="120" lrx="1700" lry="2820" xml:id="zone_mxt_1vp_2mb"/>
+			<zone ulx="2496" uly="2496" lrx="544" lry="2727" xml:id="zone_dgg_cvp_2mb"/>
+			<zone ulx="836" uly="836" lrx="1284" lry="1988" xml:id="zone_kgs_dvp_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%207/DSCN0637.JPG"/>
+			<zone ulx="327" uly="327" lrx="3078" lry="744" xml:id="zone_n5r_fvp_2mb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_mxt_1vp_2mb" next="#zone_kgs_dvp_2mb" type="iʿlām_maʿrūz">
+				<p>
+					<lb/>
+					<lb/>
+					... hurira fī					<date type="created" when="1775-01-24" when-custom="1188-11-23">23 Zı'l-kaʿda sene 188</date>
+				</p>
+				<div2 facs="#zone_dgg_cvp_2mb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_kgs_dvp_2mb" next="#zone_n5r_fvp_2mb" type="buyuruldu">
+				<p>
+					<lb/>
+					<lb/>
+					... fī					<date cert="low" type="created" when="1774-07-14" when-custom="1188-05-06">6 Ca sene 188</date>
+				</p>
+			</div1>
+			<div1 facs="#zone_n5r_fvp_2mb" type="summary_Croatian">
+				<p>
+					<lb/>
+					<lb/>
+					...					<date type="summary_Croatian" when="1775">1775</date>
+					 ...				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

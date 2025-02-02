@@ -1,0 +1,51 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0644</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 7" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3048/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3048/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d05d3b4c76cb4f1e0bc7b0161c32637b06949846.jpg" />
+        <zone lrx="1827" lry="2791" ulx="0" uly="-18" xml:id="zone_ufl_vzp_2mb" />
+        <zone lrx="437" lry="2744" ulx="196" uly="2520" xml:id="zone_xb1_xzp_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3048/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f02ae77794a894bb04e7e664da70065a28826440.jpg" />
+        <zone lrx="3000" lry="1294" ulx="273" uly="288" xml:id="zone_x42_f1q_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_ufl_vzp_2mb" next="#zone_x42_f1q_2mb" type="mürāsele">
+        <p>
+          <lb />
+          <lb />... hurira fī <date type="created" when="1828-03-14" when-custom="1243-08-28">28 Ş sene 43</date>
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_xb1_xzp_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_x42_f1q_2mb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1828">1828</date>.
+          <lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

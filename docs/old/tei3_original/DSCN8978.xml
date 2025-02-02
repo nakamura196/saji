@@ -1,0 +1,68 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN8978</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">修道士が川岸に立てた漁師小屋balkhāne(?)に対する許可のミュラーセレについて。</note>
+				<note type="mine">【要】DSCN8977.JPGは、おそらくDSCN8978.JPGの裏面。現在はDSCN8976.JPGの裏面として紐づいているので修正する。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1906/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1906/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5fe8d2e2b7787d08b62ba3e634c753613a245c51.jpg"/>
+				<zone lrx="1791" lry="2827" ulx="82" uly="218" xml:id="zone_j1v_lds_wkb"/>
+				<zone lrx="826" lry="2748" ulx="610" uly="2430" xml:id="zone_ngj_nds_wkb"/>
+				<zone lrx="567" lry="2719" ulx="342" uly="2399" xml:id="zone_y3c_4ds_wkb"/>
+				<zone lrx="338" lry="2721" ulx="140" uly="2383" xml:id="zone_gdt_4ds_wkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_j1v_lds_wkb" type="EMIN_temessük">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>işbu <date when-custom="1194">bin yüz doksan dört senesinde</date> der ʿuhde ve iltizāmımızda olan Kirşevo mukātaʿasında vākiʿ
+					<lb/>varoş-ı Kirşevo kilisanın ... nehr-i Rika(?) kenārında ruhbānı gardiyān binā eylediği balkhāne(?)
+					<lb/>husūs içün ... izin içün mürāsele-i şerʿiye tarafımıza iʿtā olunan mesfūr gardiyān
+					<lb/>mürāsele-i şerʿiye mucibince tarafımızdan ... etmek biz dahi me'mūriyetimiz hasebiyle mürāsele-i şerʿiye mucibince
+					<lb/>izin birle işbu hurūf-ı ... alınmak ... ve terkīm olunub mesfūr gardiyān yedine iʿtā
+					<lb/>olundu zikr olunan balıkhānenin(?) bināsına tarafımızdan ve taraf-ı āhardan ferd ve ahad kimesne
+					<lb/>māniʿ ve müdāhale ve ... etmeye hurira fī <date cert="low" type="created" when="1780-08-02" when-custom="1194-08-02">2 Şaʿbān sene 1194</date>
+				</p>
+				<div2 facs="#zone_ngj_nds_wkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Ahmad
+						<lb/>el-me'mūr
+						<lb/>M(?) </p>
+				</div2>
+				<div2 facs="#zone_y3c_4ds_wkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>ʿAbdüllāh
+						<lb/>el-me'mūr
+						<lb/>M(?) </p>
+				</div2>
+				<div2 facs="#zone_gdt_4ds_wkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Mustafa
+						<lb/>el-me'mūr
+						<lb/>M(?) </p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

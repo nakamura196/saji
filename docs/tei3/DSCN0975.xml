@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,70 +21,86 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1091/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9025beda93db6fadc1a346433fad79b9816d031b.jpg"/>
-				<zone lrx="1533" lry="2708" ulx="183" uly="166" xml:id="zone_ufg_g2f_z3b"/>
-				<zone lrx="474" lry="2680" ulx="230" uly="2378" xml:id="zone_p2y_dqn_sjb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/568dd9747c2a713b347b21e1e02ba9dcfef53cf6.jpg"/>
-				<zone lrx="1477" lry="2769" ulx="31" uly="84" xml:id="zone_dxr_5t3_1jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1091/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/f08a17a14720b9fd169b25e6c1b34d33d824c197.jpg"/>
-				<zone lrx="679" lry="650" ulx="475" uly="475" xml:id="zone_aql_wt3_1jb"/>
-				<zone lrx="1458" lry="2912" ulx="1179" uly="2750" xml:id="zone_z3b_xt3_1jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0975.JPG"/>
+			<zone ulx="166" uly="166" lrx="1533" lry="2708" xml:id="zone_ufg_g2f_z3b"/>
+			<zone ulx="2378" uly="2378" lrx="474" lry="2680" xml:id="zone_p2y_dqn_sjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1038.JPG"/>
+			<zone ulx="84" uly="84" lrx="1477" lry="2769" xml:id="zone_dxr_5t3_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1039.JPG"/>
+			<zone ulx="475" uly="475" lrx="679" lry="650" xml:id="zone_aql_wt3_1jb"/>
+			<zone ulx="2750" uly="2750" lrx="1458" lry="2912" xml:id="zone_z3b_xt3_1jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="low" facs="#zone_ufg_g2f_z3b" subtype="temessük" type="EMIN">
 				<p>
-					<lb/>Hüve
 					<lb/>
-					<lb/>Vech-i tahrīr-i hurūf budur ki
+					Hüve
 					<lb/>
-					<lb/>hālā ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasından ...
 					<lb/>
-					<lb/>... karyeleri hāsıl olan ʿaşār ʿöşür-i şerʿiyesini
+					Vech-i tahrīr-i hurūf budur ki
 					<lb/>
-					<lb/>ve rusūmāt sā'iresine tapunām[e]den gayri işbu <date from="1813-03-31" from-custom="1228-03" to-custom="1229-02">bin iki yüz yiğirmi sekiz senesine Mart
+					<lb/>
+					hālā ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasından ...
+					<lb/>
+					<lb/>
+					... karyeleri hāsıl olan ʿaşār ʿöşür-i şerʿiyesini
+					<lb/>
+					<lb/>
+					ve rusūmāt sā'iresine tapunām[e]den gayri işbu					<date from="1813-03-31" from-custom="1228-03" to-custom="1229-02">
+						bin iki yüz yiğirmi sekiz senesine Mart
 						<lb/>
-						<lb/>ibtidāsından Şubatı gāyetine değgin</date> zabt ve rabt ve rusūm sā'iresini ahz ve kavza tālib
+						<lb/>
+						ibtidāsından Şubatı gāyetine değgin
+					</date>
+					 zabt ve rabt ve rusūm sā'iresini ahz ve kavza tālib
 					<lb/>
-					<lb/>ve rāgib olan işbu dārende-i temessük zimmī [人名] rāhib bedeli mukābelesinden
 					<lb/>
-					<lb/>yalnız yüz yiğirmi guruş ber-vech-i peşīn tarafımıza edā ve teslīm etmiştir bi-menneh-i taʿālā sene itmāmına
+					ve rāgib olan işbu dārende-i temessük zimmī [人名] rāhib bedeli mukābelesinden
 					<lb/>
-					<lb/>varınca zabt ve rabtına rūsūm sā'iresini ahz ve kabza işbu mesfūrun yedine
 					<lb/>
-					<lb/>zabt ve temessükümüz virildi tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ eylemeler
+					yalnız yüz yiğirmi guruş ber-vech-i peşīn tarafımıza edā ve teslīm etmiştir bi-menneh-i taʿālā sene itmāmına
+					<lb/>
+					<lb/>
+					varınca zabt ve rabtına rūsūm sā'iresini ahz ve kabza işbu mesfūrun yedine
+					<lb/>
+					<lb/>
+					zabt ve temessükümüz virildi tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ eylemeler
 					<lb/>
 				</p>
 				<div2 facs="#zone_p2y_dqn_sjb" type="sign">
 					<p>
-						<lb/>... <persName role="el-me'mūr">Dervīş Mehmed</persName> el-me'mūr M
+						<lb/>
+						...						<persName role="el-me'mūr">Dervīş Mehmed</persName>
+						 el-me'mūr M
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 cert="low" facs="#zone_dxr_5t3_1jb" type="EMIN">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_aql_wt3_1jb" type="stamp">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_z3b_xt3_1jb" type="summary_Croatian">
 				<p>
-					<lb/><date type="summary_Croatian" when="1873">1873</date>
+					<lb/>
+					<date type="summary_Croatian" when="1873">1873</date>
 					<lb/>
 				</p>
 			</div1>

@@ -1,0 +1,100 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0228</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ</note>
+				<note type="summary">非ムスリムの土地の、クレシェヴォ修道院の修道士に対する売却に関する承認文書</note>
+				<note type="mine">menzilhāneが出てくる類似の内容の文書がこれ以前にも出てきた。その際には読めなかったが、この文書は文字がきれいなので読める可能性がある。【要】比較、読み直し。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<classCode scheme="">土地譲渡・売買</classCode>
+			</textClass>
+		</profileDesc>		
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1707/manifest">
+			<surface>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/f31e6e93431cc16cf0ce3dfef825f90178edb3b4.jpg" n="https://diyhistory.org/public/phr2/iiif/1707/canvas/p1"/>
+				<zone xml:id="zone_mkt_xdk_kjb" lry="3036" lrx="2345" uly="181" ulx="109"/>
+				<zone xml:id="zone_gzg_zdk_kjb" lry="2792" lrx="513" uly="2333" ulx="173"/>
+				<zone xml:id="zone_nk2_yzr_jrb" lry="1454" lrx="1153" uly="1301" ulx="957"/>
+				<zone xml:id="zone_wkt_f1s_jrb" lry="1414" lrx="529" uly="1263" ulx="132"/>
+				<zone xml:id="zone_mjw_xfg_krb" lry="1682" lrx="246" uly="1544" ulx="130"/>
+				<zone xml:id="zone_xcp_c3g_krb" lry="1818" lrx="1382" uly="1690" ulx="1027"/>
+				<zone xml:id="zone_ww2_mmg_krb" lry="2881" lrx="1769" uly="2668" ulx="1393"/>
+				<zone xml:id="zone_b3r_bng_krb" lry="2862" lrx="2187" uly="2326" ulx="1835"/>
+				<zone xml:id="zone_kr5_cng_krb" lry="2639" lrx="2203" uly="2271" ulx="1830"/>
+				<zone xml:id="zone_hfz_dng_krb" lry="2530" lrx="2319" uly="2133" ulx="1853"/>
+				<zone xml:id="zone_o5x_2ng_krb" lry="2235" lrx="2221" uly="1964" ulx="1864"/>
+				<zone xml:id="zone_nnt_fng_krb" lry="2046" lrx="2223" uly="1837" ulx="1869"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1707/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4c9149173eeb9b9b167045cf5eda8c4e859d871e.jpg"/>
+				<zone lrx="2906" lry="1661" ulx="123" uly="838" xml:id="zone_hqn_12k_kjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_zabt_tezkire" facs="#zone_mkt_xdk_kjb">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date when-custom="1256" when="1841-02-20">bin iki yüz elli altı senesinde</date> der ʿuhde ve iltizāmımızda bulunan <placeName>Kirşevo</placeName> mukātaʿasına
+					<lb/>merbūt <placeName>Kirşevo</placeName> varoş dāhilinde <placeName facs="#zone_nk2_yzr_jrb">TOMİÇ</placeName> mahallesinde mutavattın zimmī <persName facs="#zone_wkt_f1s_jrb"
+						>Agostin veled-i PRANİK</persName>
+					<lb/>ve <persName>VKUİÇ</persName> ve nasrānī <persName>KALA veled-i PRANK</persName> ve <persName>BRKIÇ</persName> kendi taht-ı tasarrıdfında bulunan mahalle-i
+					<lb/>mezkūre bir mülki menzilhāne ve yanında bir kıtʿa ... dükânı bir tarafı <persName>Nokola</persName> ve <persName facs="#zone_mjw_xfg_krb">KOYİÇ</persName>
+					<lb/>bağçesi ve taraf-ı sānī <persName facs="#zone_xcp_c3g_krb">MATO ʿANUNOYİÇ</persName> ... ve taraf-ı sālis ve rābiʿ tarīk-i ʿām ile
+					<lb/>mahdūd ve mümtāz olub işbu dārende-i hurūf <placeName>Kirşevo</placeName> varoş kilisadan <persName>gardiyān</persName>-ı nām-ı
+					<lb/>mesfūre resmiyle üç yüz otuz guruş bedeli ve ... mukābelesinde beyʿ-i bāt katʿiyle
+					<lb/>beyʿ edüb ol dahi kabūl biz dahi mukātaʿa emīni bulunduğumuz hasebiyle <persName>gardiyāna</persName>
+					<lb/>tafvīz birle ve yedine işbu zabt tezkire virildi tarafımızdan ve taraf-ı āhardan
+					<lb/>hiç bir kimesne māniʿ ve müdāhale olunmaya
+					<lb/>fī <date when-custom="1256-04-22" type="created" when="1840-06-22">22 R sene 256</date>
+				</p>
+				<div2 type="sign" facs="#zone_gzg_zdk_kjb">
+					<p>
+						<lb/>El-meʿmūr bi'l-memhūr
+						<lb/><persName>Mehmed</persName> Emīn-i Mukā
+						<lb/>taʿa-i <placeName>Kirşevo</placeName>
+						<lb/>Hālā
+						<lb/>M </p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/><persName facs="#zone_b3r_bng_krb">Saraylı ÇNFIK Ahmad SANCAKDār</persName>
+						<lb/><persName facs="#zone_kr5_cng_krb">Kirşevolı MRDAN Mollā Mehmed</persName>
+						<lb/><persName facs="#zone_hfz_dng_krb">Kirşevolı BİRNİK Mollā İbrāhīm</persName>
+						<lb/><persName facs="#zone_o5x_2ng_krb">Zimmī PARİÇE GONİÇ</persName>
+						<lb/><persName facs="#zone_nnt_fng_krb">Zimmī İstepān PAKİÇE</persName>
+						<lb/>ve gayrihim </p>
+				</div2>
+				<div2 type="note">
+					<p>
+						<lb/>...mesfūrun(?) bulunan <placeName>Kirşevo</placeName> varoş yanında ... dāhilinde bir kıtʿa
+						<lb/><placeName facs="#zone_ww2_mmg_krb">KŞNLK DUBUİÇE</placeName> demekle <persName>gardiyāna</persName> beyʿ edüb biz dahi
+						<lb/>tafvīz birle </p>
+				</div2>
+			</div1>
+			<div1 type="sumamry_Croatian" facs="#zone_hqn_12k_kjb">
+				<p>
+					<lb/>Tapia od Kuche Dugnije, Vantla i L:ee Augaftana Vukoicha <date when="1840" type="summary_Croatian">1840</date>
+					<lb/>Dlpifana 330. gr. =<date when-custom="1256" type="summary_Croatian" when="1841-02-20">1256</date>.
+					<lb/>57 </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

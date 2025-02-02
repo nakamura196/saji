@@ -1,0 +1,84 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0201</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ</note>
+				<note type="summary">ムスリムが保有していた草原の、クレシェヴォ修道院の修道士に対する売却に関する承認文書</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<classCode scheme="">土地譲渡・売買</classCode>
+			</textClass>
+		</profileDesc>		
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1680/manifest">
+			<surface>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/be8690c79e03831b09cbb013fc31acafd8449132.jpg" n="https://diyhistory.org/public/phr2/iiif/1680/canvas/p1"/>
+				<zone xml:id="zone_uqs_4xj_kjb" lry="2776" lrx="2193" uly="23" ulx="200"/>
+				<zone xml:id="zone_qgt_pxj_kjb" lry="2421" lrx="903" uly="1993" ulx="487"/>
+				<zone xml:id="zone_r4z_fvt_brb" lry="1111" lrx="600" uly="947" ulx="421"/>
+				<zone xml:id="zone_ayz_1wt_brb" lry="1255" lrx="612" uly="1096" ulx="235"/>
+				<zone xml:id="zone_u3p_lwt_brb" lry="1402" lrx="935" uly="1268" ulx="784"/>
+				<zone xml:id="zone_qsn_4zt_brb" lry="2724" lrx="1939" uly="2440" ulx="1776"/>
+				<zone xml:id="zone_qqj_pzt_brb" lry="2615" lrx="2026" uly="2364" ulx="1840"/>
+				<zone xml:id="zone_yfb_qzt_brb" lry="2579" lrx="2125" uly="2265" ulx="1849"/>
+				<zone xml:id="zone_hdx_qzt_brb" lry="2478" lrx="2174" uly="2161" ulx="1889"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1680/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e08193198965f4ff7134c22a8332d402868ec4d9.jpg"/>
+				<zone lrx="3184" lry="1800" ulx="584" uly="733" xml:id="zone_avb_rxj_kjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_zabt_temessük" facs="#zone_uqs_4xj_kjb">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>bā-berāt-ı pādişāhıla ber vech-i iştirāk mutasarrıf olduğumuz kurālarında <placeName facs="#zone_r4z_fvt_brb">RADANUİK</placeName> karyesinde
+					<lb/>sākinlerinden tābiʿ nefs-i BLUYK hudūdunda mutasarrıf eyledüğü nām <persName facs="#zone_ayz_1wt_brb">ʿAlī</persName> NUÇİK
+					<lb/>nām kimense taht-ı tasarrıfında bulunan bir kıtʿa çayır <placeName facs="#zone_u3p_lwt_brb">GVAYİÇE</placeName> demekle bir taraf müşteri <persName>gardiyān</persName>
+					<lb/>ta(?) tarlası ve taraf-ı sānī ve sālis <persName>gardiyān</persName> tarlası ormanı işbu dārende-i hurūf
+					<lb/>Kirşevo kilisada mutavattınlarında <persName>gardiyān</persName>-ı nām-ı kimesne yalnız yüz yiğirmi bir guruş
+					<lb/>resmiyle(?) bedeli mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp ol dahi kabūl(?) muharrer
+					<lb/>işbu temessüğ-ı zabt ve tasarrıfına tarafımızdan ve taraf-ı āhardan bir kimesne
+					<lb/>māniʿ ve müdāhale olunmaya fī <date when-custom="1254-11-20" type="created" when="1839-02-03">20 Za sene 254</date>
+				</p>
+				<div2 type="sign" facs="#zone_qgt_pxj_kjb">
+					<p>
+						<lb/>El-me'mūr be'l-memhūr
+						<lb/>El-hāccı <persName>Mehmed</persName>
+						<lb/>El-me'mūr
+						<lb/>M </p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/><persName facs="#zone_qsn_4zt_brb">Hüseyin</persName> NUHİK
+						<lb/><persName facs="#zone_qqj_pzt_brb">CİYYDU</persName> Sālih
+						<lb/>Mollā <persName facs="#zone_yfb_qzt_brb">Sālih</persName> DUŞİK
+						<lb/>Mollā <persName facs="#zone_hdx_qzt_brb">Mustafa</persName> DUZİŞ
+						<lb/>ve gayrihim </p>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian" facs="#zone_avb_rxj_kjb">
+				<p>
+					<lb/>Govapse Nuhicha gr: 121.
+					<lb/>Nno 31. <date when-custom="1254" type="summary_Croatian" when="1839-03-14">1254</date>. <date when="1839" type="summary_Croatian">1839</date>.
+					<lb/>126 </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

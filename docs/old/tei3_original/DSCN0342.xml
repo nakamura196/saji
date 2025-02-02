@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0342</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1821/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1821/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/bfcb5e815f28256285191c80e440c209fca2c032.jpg" />
+        <zone lrx="2246" lry="2040" ulx="233" uly="73" xml:id="zone_mqw_5sl_kkb" />
+        <zone lrx="809" lry="2033" ulx="330" uly="1809" xml:id="zone_sgg_wsl_kkb" />
+        <zone lrx="802" lry="2002" ulx="602" uly="1823" xml:id="zone_c2x_wsl_kkb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1821/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7cd1554bb535e0d90dcbfe3d702717e05e38708d.jpg" />
+        <zone lrx="2100" lry="1027" ulx="684" uly="277" xml:id="zone_eh3_ysl_kkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 cert="unknown" facs="#zone_mqw_5sl_kkb" type="sened">
+        <p>
+          <lb />... fī <date type="created" when="1856-11-03" when-custom="1273-03-06">6 R sene 73</date>
+        </p>
+        <div2 facs="#zone_sgg_wsl_kkb" type="sign">
+          <p>
+            <lb />...
+          </p>
+          <div3 facs="#zone_c2x_wsl_kkb" type="stamp">
+            <p>
+              <lb />...
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_eh3_ysl_kkb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summry_Croatian" when="1856">1856</date>.
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,63 +17,99 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1572/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1572/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/779b472ae578995d63b7a0745ca82097d2877096.jpg"/>
-				<zone lrx="2380" lry="3210" ulx="140" uly="850" xml:id="zone_lm4_cs5_2jb"/>
-				<zone lrx="686" lry="3132" ulx="264" uly="2817" xml:id="zone_ors_ds5_2jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1572/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c6405e6c6aac78c68d3784ece2cbaa1fe8b9c2a8.jpg"/>
-				<zone lrx="2158" lry="1805" ulx="1047" uly="163" xml:id="zone_lf3_fs5_2jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0088.JPG"/>
+			<zone ulx="850" uly="850" lrx="2380" lry="3210" xml:id="zone_lm4_cs5_2jb"/>
+			<zone ulx="2817" uly="2817" lrx="686" lry="3132" xml:id="zone_ors_ds5_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0089.JPG"/>
+			<zone ulx="163" uly="163" lrx="2158" lry="1805" xml:id="zone_lf3_fs5_2jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_tezkire" cert="unknown" facs="#zone_lm4_cs5_2jb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date type="created" when="0708-09-20" when-custom="1189">bin yüz sekisen dokuz senesinde</date> der ʿuhde
-					<lb/>ve iltizāmımızda bulunan Kirşevo mukātaʿasına Kirşevo çiçe(?)
-					<lb/>üzerinde mülk-ü maʿden <placeName>TOMK maʿden</placeName> demekle zimmī <persName>Nikola
-						<lb/>JKOÇ veled-i Prano</persName> nām zimmīye kend-i taht-ı tasarrıfında <sic>bu</sic>
-					<lb/>bulunan üçüncü hāssa-yı maʿden-i mezbūrda işbu sāhibi'l-hurūf(?)
-					<lb/>Kirşevo kilisasının ruhbanları kırık esedī guruş mukābele-
-					<lb/>sinde beyʿ-i katʿiyle beyʿ edüp ol dahi beyʿ kabūl
-					<lb/>edüp biz dahi beyʿlerine(?) cā'iz görüp ve yedine
-					<lb/>işbu zabt-ı tezkire virildi
-					<lb/>tasarrıfına kimesne māniʿ olunmaya </p>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date type="created" when="0708-09-20" when-custom="1189">bin yüz sekisen dokuz senesinde</date>
+					 der ʿuhde
+					<lb/>
+					ve iltizāmımızda bulunan Kirşevo mukātaʿasına Kirşevo çiçe(?)
+					<lb/>
+					üzerinde mülk-ü maʿden					<placeName>TOMK maʿden</placeName>
+					 demekle zimmī					<persName>
+						Nikola
+						<lb/>
+						JKOÇ veled-i Prano
+					</persName>
+					 nām zimmīye kend-i taht-ı tasarrıfında					<sic>bu</sic>
+					<lb/>
+					bulunan üçüncü hāssa-yı maʿden-i mezbūrda işbu sāhibi'l-hurūf(?)
+					<lb/>
+					Kirşevo kilisasının ruhbanları kırık esedī guruş mukābele-
+					<lb/>
+					sinde beyʿ-i katʿiyle beyʿ edüp ol dahi beyʿ kabūl
+					<lb/>
+					edüp biz dahi beyʿlerine(?) cā'iz görüp ve yedine
+					<lb/>
+					işbu zabt-ı tezkire virildi
+					<lb/>
+					tasarrıfına kimesne māniʿ olunmaya				</p>
 				<div2 type="sign" facs="#zone_ors_ds5_2jb">
 					<p>
-						<lb/>El-fakīr-i
-						<lb/>Ahmad Emin-i
-						<lb/>mukātaʿa(-ı) mezbūr </p>
+						<lb/>
+						El-fakīr-i
+						<lb/>
+						Ahmad Emin-i
+						<lb/>
+						mukātaʿa(-ı) mezbūr					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Sālih-i ...
-						<lb/>Hasan Paşa HUCU
-						<lb/>ʿan Kirşevo
-						<lb/>Hüseyin Paşa BRBR oğlu
-						<lb/>İsmaʿil Paşa tābiʿ Emin
-						<lb/>Mollā Sālih Paşa'nın
-						<lb/>Zimmī Īwan TOŞ
-						<lb/>Zimmī TADOYE NITOK </p>
+						<lb/>
+						Sālih-i ...
+						<lb/>
+						Hasan Paşa HUCU
+						<lb/>
+						ʿan Kirşevo
+						<lb/>
+						Hüseyin Paşa BRBR oğlu
+						<lb/>
+						İsmaʿil Paşa tābiʿ Emin
+						<lb/>
+						Mollā Sālih Paşa'nın
+						<lb/>
+						Zimmī Īwan TOŞ
+						<lb/>
+						Zimmī TADOYE NITOK					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_lf3_fs5_2jb">
 				<p>
-					<lb/>M...
-					<lb/>od ...
-					<lb/>m...
-					<lb/>...
-					<lb/>...
-					<lb/>...
-					<lb/>...
-					<lb/>... : no 1330
-					<lb/>An: <date type="summary_Croatian" when="1776">1776 ... :7</date>. </p>
+					<lb/>
+					M...
+					<lb/>
+					od ...
+					<lb/>
+					m...
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					... : no 1330
+					<lb/>
+					An:					<date type="summary_Croatian" when="1776">1776 ... :7</date>
+					.				</p>
 			</div1>
 		</body>
 	</text>

@@ -1,0 +1,42 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9344</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2268/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2268/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/11ad60fa39aac68077d565e26b8ad9f812824218.jpg"/>
+				<zone lrx="1664" lry="2549" ulx="393" uly="64" xml:id="zone_awj_k41_zlb"/>
+				<zone lrx="794" lry="2500" ulx="542" uly="2265" xml:id="zone_mtd_m41_zlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_awj_k41_zlb" type="mürāsele">
+				<p>
+					<lb/>... hurira fī <date type="created" when="1818-09-14" when-custom="1233-11-14">14 Za sene 1233</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_mtd_m41_zlb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

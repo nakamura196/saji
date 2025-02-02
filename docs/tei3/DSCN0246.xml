@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -21,35 +22,51 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1725/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/c57ca07e27bb32c5f37f92423067d687b0b01cde.jpg" n="https://diyhistory.org/public/phr2/iiif/1725/canvas/p1"/>
-				<zone xml:id="zone_iq5_bhk_kjb" lry="2832" lrx="1954" uly="61" ulx="35"/>
-				<zone xml:id="zone_oxj_dhk_kjb" lry="2790" lrx="550" uly="2372" ulx="257"/>
-				<zone xml:id="zone_cgt_qtq_lrb" lry="1556" lrx="768" uly="1395" ulx="516"/>
-				<zone xml:id="zone_b1p_g5q_lrb" lry="1777" lrx="757" uly="1630" ulx="470"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0246.JPG"/>
+			<zone ulx="61" uly="61" lrx="1954" lry="2832" xml:id="zone_iq5_bhk_kjb"/>
+			<zone ulx="2372" uly="2372" lrx="550" lry="2790" xml:id="zone_oxj_dhk_kjb"/>
+			<zone ulx="1395" uly="1395" lrx="768" lry="1556" xml:id="zone_cgt_qtq_lrb"/>
+			<zone ulx="1630" uly="1630" lrx="757" lry="1777" xml:id="zone_b1p_g5q_lrb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_temessük" facs="#zone_iq5_bhk_kjb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>hāl iltizāmı ʿuhde ... <placeName>Kirşevo</placeName> mukātaʿasında ve <placeName facs="#zone_cgt_qtq_lrb">BDUSULK</placeName> karyesinde hāsıl(?) olan
-					<lb/>mahsūlātı ve rüsūmātı ahz ve kabz tālib olan zimmī <persName facs="#zone_b1p_g5q_lrb">Īwān YLKU</persName> mesfūre otuz beş
-					<lb/>guruş mukābelesinde zimmī mesfūre ... eyledüm <date from-custom="1187-03-01" to-custom="1188-02-29">bin yüz sekisen yedi senesinde Martı
-						<lb/>ibtidāsından Şubatı gāyesine değein</date> zikr olunan karyede hāsıl olan mahsūlātı ve rüsūmātı
-					<lb/>ahz ve kabz zimmī mesfūre zabt temessüğümüz virildi tarafımızdan ve taraf-ı āhardan
-					<lb/>bir kimesne māniʿ ve müdāhale olunmaya tahrīren fī <date when-custom="1188-01-14" type="created" when="1774-03-26">14 M sene 1188</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					hāl iltizāmı ʿuhde ...					<placeName>Kirşevo</placeName>
+					 mukātaʿasında ve					<placeName facs="#zone_cgt_qtq_lrb">BDUSULK</placeName>
+					 karyesinde hāsıl(?) olan
+					<lb/>
+					mahsūlātı ve rüsūmātı ahz ve kabz tālib olan zimmī					<persName facs="#zone_b1p_g5q_lrb">Īwān YLKU</persName>
+					 mesfūre otuz beş
+					<lb/>
+					guruş mukābelesinde zimmī mesfūre ... eyledüm					<date from-custom="1187-03-01" to-custom="1188-02-29">
+						bin yüz sekisen yedi senesinde Martı
+						<lb/>
+						ibtidāsından Şubatı gāyesine değein
+					</date>
+					 zikr olunan karyede hāsıl olan mahsūlātı ve rüsūmātı
+					<lb/>
+					ahz ve kabz zimmī mesfūre zabt temessüğümüz virildi tarafımızdan ve taraf-ı āhardan
+					<lb/>
+					bir kimesne māniʿ ve müdāhale olunmaya tahrīren fī					<date when-custom="1188-01-14" type="created" when="1774-03-26">14 M sene 1188</date>
 				</p>
 				<div2 facs="#zone_oxj_dhk_kjb" type="sign">
 					<p>
-						<lb/>...
-						<lb/><persName>Süleymān</persName>
-						<lb/>Vālī ...
-						<lb/>El-meʿmūr </p>
+						<lb/>
+						...
+						<lb/>
+						<persName>Süleymān</persName>
+						<lb/>
+						Vālī ...
+						<lb/>
+						El-meʿmūr					</p>
 				</div2>
 			</div1>
 		</body>

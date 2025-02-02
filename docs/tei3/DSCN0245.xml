@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,33 +14,36 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1724/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1724/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3e8bd027a0250d2e1682dec8c613b854dccbe9a0.jpg"/>
-				<zone lrx="2254" lry="2746" ulx="8" uly="1207" xml:id="zone_zcq_5gk_kjb"/>
-				<zone lrx="535" lry="2525" ulx="215" uly="2197" xml:id="zone_rqx_vgk_kjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0245.JPG"/>
+			<zone ulx="1207" uly="1207" lrx="2254" lry="2746" xml:id="zone_zcq_5gk_kjb"/>
+			<zone ulx="2197" uly="2197" lrx="535" lry="2525" xml:id="zone_rqx_vgk_kjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="tezkire" cert="unknown" facs="#zone_zcq_5gk_kjb">
 				<p>
-					<lb/>Hālā <placeName>Kirşevo</placeName> kilisada gardiyāna ... islām ... olunur ki
-					<lb/>bāis-i tezkire budur ki bu defaʿ ... zimmī ... yedile tarafınıza beş yüz seksen
+					<lb/>
+					Hālā					<placeName>Kirşevo</placeName>
+					 kilisada gardiyāna ... islām ... olunur ki
+					<lb/>
+					bāis-i tezkire budur ki bu defaʿ ... zimmī ... yedile tarafınıza beş yüz seksen
 					<lb/>
 					<lb/>
 				</p>
 				<div2 type="sign" facs="#zone_rqx_vgk_kjb">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 						<lb/>
 					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl" cert="low">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 						<lb/>
 						<lb/>

@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,64 +17,86 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2022/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2022/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c1b0462fe812e0340a0182097533414bdd5f4762.jpg"/>
-				<zone lrx="2807" lry="1321" ulx="317" uly="921" xml:id="zone_gdb_1d1_glb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2022/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/130068bfebb68412a0f7f0911af94d69e208708d.jpg"/>
-				<zone lrx="763" lry="1043" ulx="531" uly="829" xml:id="zone_g35_bd1_glb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2022/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/02213f963e2de06e58402b073c96945134d9e4e5.jpg"/>
-				<zone lrx="2400" lry="3141" ulx="83" uly="200" xml:id="zone_l23_dd1_glb"/>
-				<zone lrx="490" lry="3138" ulx="140" uly="2543" xml:id="zone_m1q_2d1_glb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9095.JPG"/>
+			<zone ulx="921" uly="921" lrx="2807" lry="1321" xml:id="zone_gdb_1d1_glb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9096.JPG"/>
+			<zone ulx="829" uly="829" lrx="763" lry="1043" xml:id="zone_g35_bd1_glb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9097.JPG"/>
+			<zone ulx="200" uly="200" lrx="2400" lry="3141" xml:id="zone_l23_dd1_glb"/>
+			<zone ulx="2543" uly="2543" lrx="490" lry="3138" xml:id="zone_m1q_2d1_glb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_l23_dd1_glb" next="#zone_gdb_1d1_glb" type="EMIN_zabt_temessük">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>hālā ʿuhde iltizāmımızda Kirşevo mukātaʿsının <placeName>KLÇESADE ... </placeName>'de hāsıl olan ʿaşār-ı şerʿiye-
-					<lb/>sini ve rüsūmāt zabt(?) ve rabtına işbu <date from-custom="1187-03-01" to-custom="1188-02-30">bin yüz seksen yedi senesinin Martı ibtidāsından Şubatı gāyesine değin</date>
-					<lb/>zabt ve rabt yetmiş guruş mukābelesinde bedel-i iltizām olunub dārende-i temessük <placeName>KŞÇESADE</placeName>
-					<lb/>papazlara iltizām olunub ʿaşār-ı şerʿiyesin ve rüsūmāt ve sā'iresi(?) tarafımızdan işbu zabt
-					<lb/>temessükümüzü virildi vetarafımıza bi-tamām ve teslīm edā olundu taraf-ı āhardan bir kimesne mā
-					<lb/>māniʿ olmaya ve selām <date when-custom="1189">sene(?) tisʿ ve semānīn ve mie ve elif </date>
-					<lb/>fī <date cert="low" type="created" when="1774-05-05" when-custom="1188-02-24">24 Safer sene 1188</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					hālā ʿuhde iltizāmımızda Kirşevo mukātaʿsının					<placeName>KLÇESADE ... </placeName>
+					'de hāsıl olan ʿaşār-ı şerʿiye-
+					<lb/>
+					sini ve rüsūmāt zabt(?) ve rabtına işbu					<date from-custom="1187-03-01" to-custom="1188-02-30">bin yüz seksen yedi senesinin Martı ibtidāsından Şubatı gāyesine değin</date>
+					<lb/>
+					zabt ve rabt yetmiş guruş mukābelesinde bedel-i iltizām olunub dārende-i temessük					<placeName>KŞÇESADE</placeName>
+					<lb/>
+					papazlara iltizām olunub ʿaşār-ı şerʿiyesin ve rüsūmāt ve sā'iresi(?) tarafımızdan işbu zabt
+					<lb/>
+					temessükümüzü virildi vetarafımıza bi-tamām ve teslīm edā olundu taraf-ı āhardan bir kimesne mā
+					<lb/>
+					māniʿ olmaya ve selām					<date when-custom="1189">sene(?) tisʿ ve semānīn ve mie ve elif </date>
+					<lb/>
+					fī					<date cert="low" type="created" when="1774-05-05" when-custom="1188-02-24">24 Safer sene 1188</date>
 				</p>
 				<div2 facs="#zone_m1q_2d1_glb" type="sign">
 					<p>
-						<lb/>...
-						<lb/>Süleymān
-						<lb/>MOLLĀ
-						<lb/>ZĀDE
-						<lb/>El-me'mūr
-						<lb/>M </p>
+						<lb/>
+						...
+						<lb/>
+						Süleymān
+						<lb/>
+						MOLLĀ
+						<lb/>
+						ZĀDE
+						<lb/>
+						El-me'mūr
+						<lb/>
+						M					</p>
 					<div3 facs="#zone_g35_bd1_glb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>ŞMCANÇEzāde Süleymān Beşe
-						<lb/>BRBR Ahmad Ağa
-						<lb/>MOLLĀZĀDE ʿAtllāh Ağa </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						ŞMCANÇEzāde Süleymān Beşe
+						<lb/>
+						BRBR Ahmad Ağa
+						<lb/>
+						MOLLĀZĀDE ʿAtllāh Ağa					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_gdb_1d1_glb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1774">1774</date>
-					<lb/>...
-					<lb/>... </p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1774">1774</date>
+					<lb/>
+					...
+					<lb/>
+					...				</p>
 			</div1>
 		</body>
 	</text>

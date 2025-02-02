@@ -1,75 +1,87 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0842</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "C" ], "saji:date_M": [ "1269-Ş-evāḫir" ], "saji:fond": [ "Tursko 8" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3231/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6cdf6866f3fd6a05c6faa5352bf6213fc8d82b9d.jpg" />
-        <zone lrx="2350" lry="2940" ulx="520" uly="390" xml:id="zone_tfw_jjr_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c64beae783bb3d3f5d32232b37f82e6ef75566bd.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/e9ddb0f195dc4f5c9b7aad0cd34bf777cdeef054.jpg" />
-        <zone lrx="3147" lry="1928" ulx="2686" uly="1426" xml:id="zone_x4f_qjr_2mb" />
-        <zone lrx="3128" lry="1637" ulx="2998" uly="1484" xml:id="zone_spz_qjr_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/f3e568851d67bb355536871018ef5435e9170b6f.jpg" />
-        <zone lrx="1256" lry="1694" ulx="489" uly="905" xml:id="zone_al2_sjr_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3231/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/49725e102b8de53646a51bd1fa1f86d88380aab6.jpg" />
-        <zone lrx="2262" lry="1561" ulx="545" uly="1077" xml:id="zone_l2h_tjr_2mb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_tfw_jjr_2mb" next="#zone_x4f_qjr_2mb" type="fermān_sūret">
-        <p>
-          <lb />... tahrīren fī <date from="1853-05-29" from-custom="1269-08-21" to-custom="1269-08-30" type="created">evāhir şehri Şaʿbānı'l-muʿazzam
-          <lb />sene tisʿ ve sittīn ve mieteyn ve elif</date>
-        </p>
-        <div2 facs="#zone_al2_sjr_2mb" type="sign_sūret">
-          <p>
-            <lb />... <lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_x4f_qjr_2mb" next="#zone_l2h_tjr_2mb" type="note">
-        <p>
-          <lb />...<lb />
-        </p>
-        <div2 type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_spz_qjr_2mb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_l2h_tjr_2mb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1854">1854</date> ...
-          <lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0842</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:date_M": [ "1269-Ş-evāḫir" ], "saji:fond": [ "Tursko 8" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0842.JPG"/>
+			<zone ulx="390" uly="390" lrx="2350" lry="2940" xml:id="zone_tfw_jjr_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0843.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0844.JPG"/>
+			<zone ulx="1426" uly="1426" lrx="3147" lry="1928" xml:id="zone_x4f_qjr_2mb"/>
+			<zone ulx="1484" uly="1484" lrx="3128" lry="1637" xml:id="zone_spz_qjr_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0845.JPG"/>
+			<zone ulx="905" uly="905" lrx="1256" lry="1694" xml:id="zone_al2_sjr_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0846.JPG"/>
+			<zone ulx="1077" uly="1077" lrx="2262" lry="1561" xml:id="zone_l2h_tjr_2mb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_tfw_jjr_2mb" next="#zone_x4f_qjr_2mb" type="fermān_sūret">
+				<p>
+					<lb/>
+					... tahrīren fī					<date from="1853-05-29" from-custom="1269-08-21" to-custom="1269-08-30" type="created">
+						evāhir şehri Şaʿbānı'l-muʿazzam
+						<lb/>
+						sene tisʿ ve sittīn ve mieteyn ve elif
+					</date>
+				</p>
+				<div2 facs="#zone_al2_sjr_2mb" type="sign_sūret">
+					<p>
+						<lb/>
+						...						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_x4f_qjr_2mb" next="#zone_l2h_tjr_2mb" type="note">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_spz_qjr_2mb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_l2h_tjr_2mb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1854">1854</date>
+					 ...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

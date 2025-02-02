@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,64 +14,93 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1791/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1791/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/27ad3444eb9e4fc74b9614f19822d44dfd4fbd2f.jpg"/>
-				<zone lrx="2386" lry="2313" ulx="106" uly="93" xml:id="zone_cns_wx4_2kb"/>
-				<zone lrx="604" lry="2192" ulx="218" uly="1728" xml:id="zone_tmr_1y4_2kb"/>
-				<zone lrx="585" lry="2178" ulx="380" uly="1966" xml:id="zone_s4g_by4_2kb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1791/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/502ea00e9b21e253c069edafc7cfe80f61ca9a4d.jpg"/>
-				<zone lrx="1921" lry="1866" ulx="1000" uly="879" xml:id="zone_ggq_cy4_2kb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0312.JPG"/>
+			<zone ulx="93" uly="93" lrx="2386" lry="2313" xml:id="zone_cns_wx4_2kb"/>
+			<zone ulx="1728" uly="1728" lrx="604" lry="2192" xml:id="zone_tmr_1y4_2kb"/>
+			<zone ulx="1966" uly="1966" lrx="585" lry="2178" xml:id="zone_s4g_by4_2kb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0313.JPG"/>
+			<zone ulx="879" uly="879" lrx="1921" lry="1866" xml:id="zone_ggq_cy4_2kb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_cns_wx4_2kb" type="EMIN">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date when="1849-11-14" when-custom="1265">bin iki yüz altmış beş senesinde</date> ʿuhdemizde bulunan Kirşevo varoş cemāʿat-ı ...hudūd
-					<lb/>dāhilinde arāzī-i mīrīye mutasarrıf olan zimmī PRANO PALE İKEŞNİÇ ... mikdārı tarlayı KOÇUİÇE demekle bir taraf
-					<lb/>gardirānın tarlası ve taraf-ı sānī BUTUK(?) ve taraf-ı sālis PRANO PALE arāzī ve taraf-ı rābiʿ tarīk-i ʿām ile mahdūd ve
-					<lb/>mümtāz olub işbu dārende-i hurūf Kirşevo varoş kilisadan gardiyān nām-ı mesfūre resm-i tapu ile üç yüz
-					<lb/>otuz guruş bedeli ve semen mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb ol dahi kabūl biz dahi mukātaʿ emīni bulunduğumuz
-					<lb/>hasebile mezkūr tarlayı İKEŞNİÇ ... mikdārı gardiyāna tafvīz edüb mā-dām ki sāl be-sāl taraf-ı mīrīye rāciʿ
-					<lb/>ʿöşr ve rüsūmāt edā tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olunmaya <date type="created" when="1849-11-14" when-custom="1265">sene 65</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date when="1849-11-14" when-custom="1265">bin iki yüz altmış beş senesinde</date>
+					 ʿuhdemizde bulunan Kirşevo varoş cemāʿat-ı ...hudūd
+					<lb/>
+					dāhilinde arāzī-i mīrīye mutasarrıf olan zimmī PRANO PALE İKEŞNİÇ ... mikdārı tarlayı KOÇUİÇE demekle bir taraf
+					<lb/>
+					gardirānın tarlası ve taraf-ı sānī BUTUK(?) ve taraf-ı sālis PRANO PALE arāzī ve taraf-ı rābiʿ tarīk-i ʿām ile mahdūd ve
+					<lb/>
+					mümtāz olub işbu dārende-i hurūf Kirşevo varoş kilisadan gardiyān nām-ı mesfūre resm-i tapu ile üç yüz
+					<lb/>
+					otuz guruş bedeli ve semen mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb ol dahi kabūl biz dahi mukātaʿ emīni bulunduğumuz
+					<lb/>
+					hasebile mezkūr tarlayı İKEŞNİÇ ... mikdārı gardiyāna tafvīz edüb mā-dām ki sāl be-sāl taraf-ı mīrīye rāciʿ
+					<lb/>
+					ʿöşr ve rüsūmāt edā tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olunmaya					<date type="created" when="1849-11-14" when-custom="1265">sene 65</date>
 				</p>
 				<div2 facs="#zone_tmr_1y4_2kb" type="sign">
 					<p>
-						<lb/>El-me'mūr
-						<lb/>Mehmed Emīn-i mukā-
-						<lb/>taʿa-i Kirşevo
-						<lb/>Hālā
-						<lb/>M </p>
+						<lb/>
+						El-me'mūr
+						<lb/>
+						Mehmed Emīn-i mukā-
+						<lb/>
+						taʿa-i Kirşevo
+						<lb/>
+						Hālā
+						<lb/>
+						M					</p>
 					<div3 facs="#zone_s4g_by4_2kb" type="stamp">
 						<p>
-							<lb/>Mehmed
-							<lb/>... </p>
+							<lb/>
+							Mehmed
+							<lb/>
+							...						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>MRZAN Mollā Mehmed ʿan ... Kirşevo
-						<lb/>BİRNİÇ Mollā İbrāhīm
-						<lb/>Zimmī TONAYAN ʿan Kirşevo
-						<lb/>Zimmī PETAR ŞUNİÇ
-						<lb/>Zimmī Nikola GANİBİÇ
-						<lb/>ve gayrihim </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						MRZAN Mollā Mehmed ʿan ... Kirşevo
+						<lb/>
+						BİRNİÇ Mollā İbrāhīm
+						<lb/>
+						Zimmī TONAYAN ʿan Kirşevo
+						<lb/>
+						Zimmī PETAR ŞUNİÇ
+						<lb/>
+						Zimmī Nikola GANİBİÇ
+						<lb/>
+						ve gayrihim					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_ggq_cy4_2kb" type="summary_Croatian">
 				<p>
-					<lb/>... od ...
-					<lb/>...
-					<lb/>... <date type="summary_Croatian" when="1847-12-07" when-custom="1263">1263</date>.
-					<lb/>... <date type="summary_Croatian" when="1849-11-14" when-custom="1265">1265</date>.
-					<lb/>Nno 8. </p>
+					<lb/>
+					... od ...
+					<lb/>
+					...
+					<lb/>
+					...					<date type="summary_Croatian" when="1847-12-07" when-custom="1263">1263</date>
+					.
+					<lb/>
+					...					<date type="summary_Croatian" when="1849-11-14" when-custom="1265">1265</date>
+					.
+					<lb/>
+					Nno 8.				</p>
 			</div1>
 		</body>
 	</text>

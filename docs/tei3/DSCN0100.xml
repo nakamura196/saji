@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -22,49 +23,67 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1584/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1584/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/16304cb8f502986f35d380160006f03bf934fff6.jpg"/>
-				<zone lrx="1954" lry="2954" ulx="291" uly="354" xml:id="zone_x2h_4t5_2jb"/>
-				<zone lrx="1111" lry="2874" ulx="752" uly="2522" xml:id="zone_n1h_pt5_2jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1584/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/407d48b98519d687805d13dbe610c30be78bfb12.jpg"/>
-				<zone lrx="3000" lry="1255" ulx="428" uly="811" xml:id="zone_wx1_rt5_2jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0100.JPG"/>
+			<zone ulx="354" uly="354" lrx="1954" lry="2954" xml:id="zone_x2h_4t5_2jb"/>
+			<zone ulx="2522" uly="2522" lrx="1111" lry="2874" xml:id="zone_n1h_pt5_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0101.JPG"/>
+			<zone ulx="811" uly="811" lrx="3000" lry="1255" xml:id="zone_wx1_rt5_2jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_temessük" cert="medium" facs="#zone_x2h_4t5_2jb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i temessük oldur ki
-					<lb/>İşbu <date when-custom="1244" type="created" when="0665-02-22">bin iki yüz kırk dört senesinde</date> der ʿuhde ve iltizāmımızda bulunan <placeName type="proper"
-						>Kirşevo</placeName>
-					<lb/>mukātaʿasına tābiʿ <placeName type="proper" cert="unknown">VIRNKA</placeName> karyesi hudūdunun TRŞNBAÇ ASYAB
-					<lb/>demekle mutasarrıf eyledüğü zimmī <persName corresp="#Īwān">Īwān POLANDUF NOBT</persName> işbu dārendegân-ı
-					<lb/>Kirşevo varoş kilisanın gardiyānı nām mesfūre yiğirmi beş guruş
-					<lb/>mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb ve yine ASYAB DŞURA'da mutasarrıf
-					<lb/>nevbet mutasarrıf eyledüğü Īwān … ve kız karındaşı YALH mesfūr gardiyāna
-					<lb/>yiğirmi üç guruş mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb biz dahi
-					<lb/>me'mūr olduğum hasebiyle mesfūreye ... birle ve yedine işbu zabt
-					<lb/>temessük virildi </p>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i temessük oldur ki
+					<lb/>
+					İşbu					<date when-custom="1244" type="created" when="0665-02-22">bin iki yüz kırk dört senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan					<placeName type="proper">Kirşevo</placeName>
+					<lb/>
+					mukātaʿasına tābiʿ					<placeName type="proper" cert="unknown">VIRNKA</placeName>
+					 karyesi hudūdunun TRŞNBAÇ ASYAB
+					<lb/>
+					demekle mutasarrıf eyledüğü zimmī					<persName corresp="#Īwān">Īwān POLANDUF NOBT</persName>
+					 işbu dārendegân-ı
+					<lb/>
+					Kirşevo varoş kilisanın gardiyānı nām mesfūre yiğirmi beş guruş
+					<lb/>
+					mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb ve yine ASYAB DŞURA'da mutasarrıf
+					<lb/>
+					nevbet mutasarrıf eyledüğü Īwān … ve kız karındaşı YALH mesfūr gardiyāna
+					<lb/>
+					yiğirmi üç guruş mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb biz dahi
+					<lb/>
+					me'mūr olduğum hasebiyle mesfūreye ... birle ve yedine işbu zabt
+					<lb/>
+					temessük virildi				</p>
 				<div2 type="sign" facs="#zone_n1h_pt5_2jb">
 					<p>
-						<lb/>...
-						<lb/><persName>ʿĀlī</persName> el-me'mūr
-						<lb/>M </p>
+						<lb/>
+						...
+						<lb/>
+						<persName>ʿĀlī</persName>
+						 el-me'mūr
+						<lb/>
+						M					</p>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>[blank] </p>
+						<lb/>
+						[blank]					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_wx1_rt5_2jb">
 				<p>
-					<lb/>Od ... <date type="summary_Croatian" when="1829">1829</date>
-					<lb/>gr: 53. </p>
+					<lb/>
+					Od ...					<date type="summary_Croatian" when="1829">1829</date>
+					<lb/>
+					gr: 53.				</p>
 			</div1>
 		</body>
 		<back>
@@ -88,9 +107,7 @@
 				</person>
 			</listPerson>
 			<listRelation>
-				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="beyʿ-i bāt katʿiyle beyʿ(絶対に取り消せない売却)" active="#ʿĀlī" passive="#Īwān"/>
-				<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="issue" active="#ʿĀlī" passive="#Īwān"/>
 			</listRelation>
 		</back>

@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -18,24 +19,25 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1020/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1020/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a578d9bfedf8af5c0e8159a40f0f71ed23730966.jpg"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1020/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a136428860bc5a518d47f9a4a8105158f35f383d.jpg"/>
-				<zone lrx="3039" lry="1400" ulx="89" uly="783" xml:id="zone_pqf_tfy_y3b"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1020/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/e9c6d1cc1bcae99d091c8d1ff539d393a79dba33.jpg"/>
-				<zone lrx="1971" lry="1529" ulx="1046" uly="891" xml:id="zone_gh1_wfy_y3b"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0902.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0903.JPG"/>
+			<zone ulx="783" uly="783" lrx="3039" lry="1400" xml:id="zone_pqf_tfy_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0904.JPG"/>
+			<zone ulx="891" uly="891" lrx="1971" lry="1529" xml:id="zone_gh1_wfy_y3b"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="unknown" facs="#zone_pqf_tfy_y3b" type="serbian">
-				<l>... <date cert="unknown" type="created" when="1776">1776</date> ...</l>
+				<l>
+					...					<date cert="unknown" type="created" when="1776">1776</date>
+					 ...
+				</l>
 			</div1>
 			<div1 cert="unknown" facs="#zone_gh1_wfy_y3b" type="serbian"/>
 		</body>

@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,41 +14,44 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2147/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2147/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/32edc704161993f64b587e928cb0504d1e10e48a.jpg"/>
-				<zone lrx="2445" lry="1527" ulx="450" uly="750" xml:id="zone_znm_wjs_mlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2147/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7d40e64e8eac9c1740e80f46fa4c222a0fdaec73.jpg"/>
-				<zone lrx="2639" lry="2027" ulx="695" uly="105" xml:id="zone_grq_xjs_mlb"/>
-				<zone lrx="1236" lry="1878" ulx="860" uly="1463" xml:id="zone_ezd_zjs_mlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9223.JPG"/>
+			<zone ulx="750" uly="750" lrx="2445" lry="1527" xml:id="zone_znm_wjs_mlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9224.JPG"/>
+			<zone ulx="105" uly="105" lrx="2639" lry="2027" xml:id="zone_grq_xjs_mlb"/>
+			<zone ulx="1463" uly="1463" lrx="1236" lry="1878" xml:id="zone_ezd_zjs_mlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_grq_xjs_mlb" next="#zone_znm_wjs_mlb" subtype="zabt_temessük" type="EMIN">
 				<p>
-					<lb/>... fī <date type="created" when="1839-02-03" when-custom="1254-11-20">20 Za sene 254</date>
+					<lb/>
+					... fī					<date type="created" when="1839-02-03" when-custom="1254-11-20">20 Za sene 254</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_ezd_zjs_mlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_znm_wjs_mlb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1839-03-14" when-custom="1254">1254</date>.
+					<lb/>
+					...					<date type="summary_Croatian" when="1839-03-14" when-custom="1254">1254</date>
+					.
 					<lb/>
 				</p>
 			</div1>

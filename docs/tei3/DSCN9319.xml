@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,43 +14,48 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2243/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2243/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2335939d2b4a3a3570e5bb551a9b3c6b1e8e430b.jpg"/>
-				<zone lrx="2500" lry="1322" ulx="578" uly="950" xml:id="zone_tmc_f2m_ylb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2243/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8c2b000183e15113dd5348f234157751a04a93a3.jpg"/>
-				<zone lrx="1893" lry="2140" ulx="73" uly="320" xml:id="zone_yvh_h2m_ylb"/>
-				<zone lrx="550" lry="2123" ulx="204" uly="1833" xml:id="zone_lwn_32m_ylb"/>
-				<zone lrx="1907" lry="3096" ulx="1494" uly="2973" xml:id="zone_ay4_j2m_ylb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9319.JPG"/>
+			<zone ulx="950" uly="950" lrx="2500" lry="1322" xml:id="zone_tmc_f2m_ylb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9320.JPG"/>
+			<zone ulx="320" uly="320" lrx="1893" lry="2140" xml:id="zone_yvh_h2m_ylb"/>
+			<zone ulx="1833" uly="1833" lrx="550" lry="2123" xml:id="zone_lwn_32m_ylb"/>
+			<zone ulx="2973" uly="2973" lrx="1907" lry="3096" xml:id="zone_ay4_j2m_ylb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_yvh_h2m_ylb" next="#zone_tmc_f2m_ylb" type="EMIN">
 				<p>
-					<lb/>işbu <date type="created" when="1815-12-01" when-custom="1230">bin iki yüz otuz senesinde</date> der ...
+					<lb/>
+					işbu					<date type="created" when="1815-12-01" when-custom="1230">bin iki yüz otuz senesinde</date>
+					 der ...
 					<lb/>
 				</p>
 				<div2 facs="#zone_lwn_32m_ylb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 cert="unknown" facs="#zone_ay4_j2m_ylb" type="note">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_tmc_f2m_ylb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1815-12-01" when-custom="1230">1230</date>.
-					<lb/>Nno 10. </p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1815-12-01" when-custom="1230">1230</date>
+					.
+					<lb/>
+					Nno 10.				</p>
 			</div1>
 		</body>
 	</text>

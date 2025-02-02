@@ -1,0 +1,49 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2216</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2544/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2544/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8be7c6bd1ad325686216f1ac15b78c516c80390c.jpg" />
+        <zone lrx="1840" lry="3040" ulx="410" uly="890" xml:id="zone_ef4_xzy_cmb" />
+        <zone lrx="1068" lry="3008" ulx="700" uly="2662" xml:id="zone_w3p_yzy_cmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2544/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9dc905258e71eb659cd425bb36052594c6a6cdf3.jpg" />
+        <zone lrx="1954" lry="2553" ulx="377" uly="1476" xml:id="zone_szr_zzy_cmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_ef4_xzy_cmb" next="#zone_szr_zzy_cmb" type="unknown">
+        <p>
+          <lb />fī <date type="created" when="1766-08-23" when-custom="1180-03-18">18 Ra sene 1180</date><lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_w3p_yzy_cmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_szr_zzy_cmb" type="summary_Serbian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

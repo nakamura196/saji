@@ -1,38 +1,41 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2389</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2717/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2717/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e6bd2a367e86fe9c790a5fbda7c4e071322ce348.jpg" />
-        <zone lrx="2200" lry="2571" ulx="300" uly="49" xml:id="zone_btf_cws_dmb" />
-        <zone lrx="810" lry="2528" ulx="318" uly="2190" xml:id="zone_qwj_dws_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_btf_cws_dmb" type="mürāsele">
-        <p>
-          <lb />... <date type="created" when="1807-11-07" when-custom="1222-09-07">7 N sene 1222</date><lb />
-        </p>
-        <div2 facs="#zone_qwj_dws_dmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2389</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2389.JPG"/>
+			<zone ulx="49" uly="49" lrx="2200" lry="2571" xml:id="zone_btf_cws_dmb"/>
+			<zone ulx="2190" uly="2190" lrx="810" lry="2528" xml:id="zone_qwj_dws_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_btf_cws_dmb" type="mürāsele">
+				<p>
+					<lb/>
+					...					<date type="created" when="1807-11-07" when-custom="1222-09-07">7 N sene 1222</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_qwj_dws_dmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

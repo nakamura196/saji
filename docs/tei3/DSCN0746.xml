@@ -1,45 +1,49 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0746</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 8" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3143/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3143/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9ef9f8887b7d06205b1f9caaf302569b2cc94706.jpg" />
-        <zone lrx="2186" lry="2340" ulx="280" uly="366" xml:id="zone_bcb_25q_2mb" />
-        <zone lrx="1214" lry="2314" ulx="747" uly="1830" xml:id="zone_adx_25q_2mb" />
-        <zone lrx="1180" lry="2302" ulx="852" uly="1980" xml:id="zone_m2q_j5q_2mb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_bcb_25q_2mb" type="tezkire">
-        <p>
-          <lb />
-          <lb />... fī <date cert="low" type="created" when="1869-07-02" when-custom="1286-03-23">23 Ra sene 86</date>
-        </p>
-        <div2 facs="#zone_adx_25q_2mb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_m2q_j5q_2mb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0746</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 8" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0746.JPG"/>
+			<zone ulx="366" uly="366" lrx="2186" lry="2340" xml:id="zone_bcb_25q_2mb"/>
+			<zone ulx="1830" uly="1830" lrx="1214" lry="2314" xml:id="zone_adx_25q_2mb"/>
+			<zone ulx="1980" uly="1980" lrx="1180" lry="2302" xml:id="zone_m2q_j5q_2mb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_bcb_25q_2mb" type="tezkire">
+				<p>
+					<lb/>
+					<lb/>
+					... fī					<date cert="low" type="created" when="1869-07-02" when-custom="1286-03-23">23 Ra sene 86</date>
+				</p>
+				<div2 facs="#zone_adx_25q_2mb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_m2q_j5q_2mb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

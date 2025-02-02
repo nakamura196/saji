@@ -1,0 +1,38 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0658</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 7" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3062/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3062/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c613b074a8a786750b01d98096c44f1c94ac7f18.jpg" />
+        <zone lrx="1810" lry="3120" ulx="530" uly="40" xml:id="zone_exb_j2q_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3062/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fc30078e27030502572558f588cb90b0d3c28934.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3062/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/ea9f826ba2e9e816eaf443abe20a94a6a7da137c.jpg" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_exb_j2q_2mb" type="tezkire">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

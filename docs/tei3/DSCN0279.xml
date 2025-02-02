@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,48 +17,65 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1758/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1758/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/05126fc93cd883af884cb34f2276b3c326ec5a73.jpg"/>
-				<zone lrx="2266" lry="3067" ulx="133" uly="100" xml:id="zone_fgk_wg5_xjb"/>
-				<zone lrx="970" lry="3056" ulx="597" uly="2720" xml:id="zone_rkr_xg5_xjb"/>
-				<zone lrx="557" lry="3040" ulx="204" uly="2686" xml:id="zone_hcn_yg5_xjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0279.JPG"/>
+			<zone ulx="100" uly="100" lrx="2266" lry="3067" xml:id="zone_fgk_wg5_xjb"/>
+			<zone ulx="2720" uly="2720" lrx="970" lry="3056" xml:id="zone_rkr_xg5_xjb"/>
+			<zone ulx="2686" uly="2686" lrx="557" lry="3040" xml:id="zone_hcn_yg5_xjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_fgk_wg5_xjb" subtype="temessük" type="EMIN">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date type="created" when="1791-08-28" when-custom="1205">bin iki yüz beş senesinde</date> Kirşevo mukātaʿası mukātaʿası
-					<lb/>merbūt maʿden-i zīr(?) ... arz mukābelesinde
-					<lb/>cümle zīr(?) ... ashāblar ile sulh ve kuvvel bir hisse
-					<lb/>Mollā ʿAbüllāh ve bir hisse Hasan Beşe zīr(?) ...
-					<lb/>ashāblar yedineler(?) temessük virildi(?)
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date type="created" when="1791-08-28" when-custom="1205">bin iki yüz beş senesinde</date>
+					 Kirşevo mukātaʿası mukātaʿası
+					<lb/>
+					merbūt maʿden-i zīr(?) ... arz mukābelesinde
+					<lb/>
+					cümle zīr(?) ... ashāblar ile sulh ve kuvvel bir hisse
+					<lb/>
+					Mollā ʿAbüllāh ve bir hisse Hasan Beşe zīr(?) ...
+					<lb/>
+					ashāblar yedineler(?) temessük virildi(?)
 				</p>
 				<div2 facs="#zone_rkr_xg5_xjb" type="sign">
 					<p>
-						<lb/>El-fakīr
-						<lb/>Hasan Beşe(?)
-						<lb/>Emin(?) İbrāhīm
+						<lb/>
+						El-fakīr
+						<lb/>
+						Hasan Beşe(?)
+						<lb/>
+						Emin(?) İbrāhīm
 					</p>
 				</div2>
 				<div2 facs="#zone_hcn_yg5_xjb" type="sign">
 					<p>
-						<lb/>El-fakīr
-						<lb/>Mollā ʿAbüllāh
-						<lb/>Emin(?) Mehmed
+						<lb/>
+						El-fakīr
+						<lb/>
+						Mollā ʿAbüllāh
+						<lb/>
+						Emin(?) Mehmed
 					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>El-Hācı Süleymān
-						<lb/>...
-						<lb/>ʿÖmer YÜRDĀM Beşe
-						<lb/>İbrāhīm Beşe HUSTU
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						El-Hācı Süleymān
+						<lb/>
+						...
+						<lb/>
+						ʿÖmer YÜRDĀM Beşe
+						<lb/>
+						İbrāhīm Beşe HUSTU
 					</p>
 				</div2>
 			</div1>

@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2023</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2353/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2353/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5510b074605c58757483a1dd5099932468dee211.jpg" />
+        <zone lrx="2200" lry="3036" ulx="54" uly="100" xml:id="zone_dxq_dxn_bmb" />
+        <zone lrx="407" lry="2983" ulx="143" uly="2669" xml:id="zone_j1w_gxn_bmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2353/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7dd0aadb64a7053bab868088e4fe61fbb055d489.jpg" />
+        <zone lrx="463" lry="341" ulx="153" uly="73" xml:id="zone_grv_jxn_bmb" />
+        <zone lrx="2154" lry="2158" ulx="696" uly="1387" xml:id="zone_rqm_lxn_bmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_dxq_dxn_bmb" next="#zone_rqm_lxn_bmb" subtype="tapu_nāme" type="EMIN">
+        <p>
+          <lb />... <date type="created" when="1815-12-01" when-custom="1230">sene 1230</date><lb />
+        </p>
+        <div2 facs="#zone_j1w_gxn_bmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_grv_jxn_bmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_rqm_lxn_bmb" type="summary_Croatian">
+        <p>
+          <lb />... 
+          <lb /><date type="summary_Croatian" when="1816">1816</date>.
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

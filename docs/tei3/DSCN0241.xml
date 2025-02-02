@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -21,71 +22,107 @@
 			<textClass>
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
-		</profileDesc>		
+		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1720/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/906fffbb94c9c2cb5a1c39769c49f46cdf1e65b0.jpg" n="https://diyhistory.org/public/phr2/iiif/1720/canvas/p1"/>
-				<zone xml:id="zone_uym_dgk_kjb" lry="3172" lrx="2282" uly="163" ulx="218"/>
-				<zone xml:id="zone_r4k_fgk_kjb" lry="3153" lrx="755" uly="2818" ulx="405"/>
-				<zone xml:id="zone_r2v_vlj_lrb" lry="1603" lrx="1130" uly="1505" ulx="880"/>
-				<zone xml:id="zone_t3z_qmj_lrb" points="785,1741 795,1656 441,1610 277,1604 237,1693 412,1745 739,1762 1812,1708 1810,1816 1641,1856 1537,1831 1572,1708"/>
-				<zone xml:id="zone_cmn_fnj_lrb" lry="1952" lrx="1547" uly="1846" ulx="1228"/>
-				<zone xml:id="zone_h3r_2rj_lrb" lry="3011" lrx="2108" uly="2598" ulx="1866"/>
-				<zone xml:id="zone_vj5_frj_lrb" lry="2855" lrx="2158" uly="2470" ulx="1878"/>
-				<zone xml:id="zone_a5z_grj_lrb" lry="2668" lrx="2181" uly="2326" ulx="1855"/>
-				<zone xml:id="zone_msz_hrj_lrb" lry="2561" lrx="2211" uly="2203" ulx="1871"/>
-				<zone xml:id="zone_dgw_3rj_lrb" lry="2448" lrx="2248" uly="2050" ulx="1871"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1720/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/03cc2c79f4e425f18362641353e659b041bce66a.jpg"/>
-				<zone lrx="1425" lry="1254" ulx="300" uly="991" xml:id="zone_pjz_ggk_kjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0241.JPG"/>
+			<zone ulx="163" uly="163" lrx="2282" lry="3172" xml:id="zone_uym_dgk_kjb"/>
+			<zone ulx="2818" uly="2818" lrx="755" lry="3153" xml:id="zone_r4k_fgk_kjb"/>
+			<zone ulx="1505" uly="1505" lrx="1130" lry="1603" xml:id="zone_r2v_vlj_lrb"/>
+			<zone xml:id="zone_t3z_qmj_lrb"/>
+			<zone ulx="1846" uly="1846" lrx="1547" lry="1952" xml:id="zone_cmn_fnj_lrb"/>
+			<zone ulx="2598" uly="2598" lrx="2108" lry="3011" xml:id="zone_h3r_2rj_lrb"/>
+			<zone ulx="2470" uly="2470" lrx="2158" lry="2855" xml:id="zone_vj5_frj_lrb"/>
+			<zone ulx="2326" uly="2326" lrx="2181" lry="2668" xml:id="zone_a5z_grj_lrb"/>
+			<zone ulx="2203" uly="2203" lrx="2211" lry="2561" xml:id="zone_msz_hrj_lrb"/>
+			<zone ulx="2050" uly="2050" lrx="2248" lry="2448" xml:id="zone_dgw_3rj_lrb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0242.JPG"/>
+			<zone ulx="991" uly="991" lrx="1425" lry="1254" xml:id="zone_pjz_ggk_kjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_tapu_nāme" facs="#zone_uym_dgk_kjb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf-ı tapu nāme oldur ki
-					<lb/>işbu <date when-custom="1237" when="1822-09-15">bin iki yüz otuz yedi senesinde</date> der ʿuhde ve iltizāmımızda bulunan
-					<lb/><placeName>Kirşevo</placeName> mukātaʿası kurālarından <placeName facs="#zone_r2v_vlj_lrb">KOYSINE</placeName> karyesi hudūdı ve ...
-					<lb/>dāhilinde varoş Kirşevo mütemekkinlerinden zimmī <persName facs="#zone_t3z_qmj_lrb">PRANUGRA CNUİÇ veled-i
-						<lb/>İstepān</persName> nām merkūmun taht ve tasarrıfında bulunan maʿlūme'l-hudūd
-					<lb/>ve'l-cīrān <persName facs="#zone_cmn_fnj_lrb">ZAKOTNAÇE</persName> tarlası demekle maʿrūf ve iki ...da
-					<lb/>... hāssa ve esyābıda
-					<lb/>hāssa ... ve sā'ir mülk emlāki işbu dārende-i tapu nāme <placeName>Kirşevo</placeName>
-					<lb/>kilisanın <persName>gardiyān</persName> resm-i tapu ile üç yüz guruş bedeli mukābelesinde
-					<lb/>beyʿ-i bāt katʿiyle beyʿ ve ... tarafların(?) ferāğat(?) edüb biz dahi
-					<lb/>me'mūr olduğum hasebiyle bāzārların içün görüb resm-i tapusını(?)
-					<lb/>baʿde'l-ahz ... tarla-yi mezbūre ile emlāk-i mezbūri mesfūr(?)
-					<lb/><persName>gardiyāna</persName> tafvīz ve tefevvuz olunub(?) ... aʿşār-ı şerʿiyye
-					<lb/>ve rüsūmāt-ı sā'ire ... edā olundukda tarafımızdan ve taraf-ı āhardan bir kimesne
-					<lb/>māniʿ olunmaya ve el-selām(?) hurira fī <date when-custom="1237-04-21" type="created" when="1822-01-14">21 R sene 37</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf-ı tapu nāme oldur ki
+					<lb/>
+					işbu					<date when-custom="1237" when="1822-09-15">bin iki yüz otuz yedi senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan
+					<lb/>
+					<placeName>Kirşevo</placeName>
+					 mukātaʿası kurālarından					<placeName facs="#zone_r2v_vlj_lrb">KOYSINE</placeName>
+					 karyesi hudūdı ve ...
+					<lb/>
+					dāhilinde varoş Kirşevo mütemekkinlerinden zimmī					<persName facs="#zone_t3z_qmj_lrb">
+						PRANUGRA CNUİÇ veled-i
+						<lb/>
+						İstepān
+					</persName>
+					 nām merkūmun taht ve tasarrıfında bulunan maʿlūme'l-hudūd
+					<lb/>
+					ve'l-cīrān					<persName facs="#zone_cmn_fnj_lrb">ZAKOTNAÇE</persName>
+					 tarlası demekle maʿrūf ve iki ...da
+					<lb/>
+					... hāssa ve esyābıda
+					<lb/>
+					hāssa ... ve sā'ir mülk emlāki işbu dārende-i tapu nāme					<placeName>Kirşevo</placeName>
+					<lb/>
+					kilisanın					<persName>gardiyān</persName>
+					 resm-i tapu ile üç yüz guruş bedeli mukābelesinde
+					<lb/>
+					beyʿ-i bāt katʿiyle beyʿ ve ... tarafların(?) ferāğat(?) edüb biz dahi
+					<lb/>
+					me'mūr olduğum hasebiyle bāzārların içün görüb resm-i tapusını(?)
+					<lb/>
+					baʿde'l-ahz ... tarla-yi mezbūre ile emlāk-i mezbūri mesfūr(?)
+					<lb/>
+					<persName>gardiyāna</persName>
+					 tafvīz ve tefevvuz olunub(?) ... aʿşār-ı şerʿiyye
+					<lb/>
+					ve rüsūmāt-ı sā'ire ... edā olundukda tarafımızdan ve taraf-ı āhardan bir kimesne
+					<lb/>
+					māniʿ olunmaya ve el-selām(?) hurira fī					<date when-custom="1237-04-21" type="created" when="1822-01-14">21 R sene 37</date>
 				</p>
 				<div2 type="sign" facs="#zone_r4k_fgk_kjb">
 					<p>
-						<lb/>...
-						<lb/><persName>Ahmad</persName> Ağa Emīn-i <placeName>Kirşevo</placeName>
-						<lb/>El-me'mūr
-						<lb/>M </p>
+						<lb/>
+						...
+						<lb/>
+						<persName>Ahmad</persName>
+						 Ağa Emīn-i						<placeName>Kirşevo</placeName>
+						<lb/>
+						El-me'mūr
+						<lb/>
+						M					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/><persName facs="#zone_h3r_2rj_lrb">El-HĀCCAzāde Mehmed ʿAlemdār</persName>
-						<lb/><persName facs="#zone_vj5_frj_lrb">Paşa İbrāhīm Ağa</persName>
-						<lb/><persName facs="#zone_a5z_grj_lrb">Zimmī JAPU ʿAnton</persName>
-						<lb/><persName facs="#zone_msz_hrj_lrb">Zimmī SANUÇ Mato</persName>
-						<lb/><persName facs="#zone_dgw_3rj_lrb">Zimmī Īwān KVACUİÇ</persName>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						<persName facs="#zone_h3r_2rj_lrb">El-HĀCCAzāde Mehmed ʿAlemdār</persName>
+						<lb/>
+						<persName facs="#zone_vj5_frj_lrb">Paşa İbrāhīm Ağa</persName>
+						<lb/>
+						<persName facs="#zone_a5z_grj_lrb">Zimmī JAPU ʿAnton</persName>
+						<lb/>
+						<persName facs="#zone_msz_hrj_lrb">Zimmī SANUÇ Mato</persName>
+						<lb/>
+						<persName facs="#zone_dgw_3rj_lrb">Zimmī Īwān KVACUİÇ</persName>
 					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_pjz_ggk_kjb">
 				<p>
-					<lb/>Lenina ... <date when="1822" type="summary_Croatian">1822</date>. </p>
+					<lb/>
+					Lenina ...					<date when="1822" type="summary_Croatian">1822</date>
+					.				</p>
 			</div1>
 		</body>
 	</text>

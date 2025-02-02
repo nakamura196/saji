@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0090</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1574/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1574/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/54703ce6995d592be2b0f52985f574b93d203fa8.jpg"/>
+				<zone lrx="2277" lry="2430" ulx="177" uly="1376" xml:id="zone_old_sdm_l3b"/>
+				<zone lrx="533" lry="2345" ulx="187" uly="1925" xml:id="zone_fxj_ks5_2jb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1574/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6e2b7d2d0b8bbc73ecb721ca6185f1bdea28ec72.jpg"/>
+				<zone lrx="3117" lry="1116" ulx="56" uly="577" xml:id="zone_ys4_tdm_l3b"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_tahvīl" cert="low" facs="#zone_old_sdm_l3b">
+				<p>
+					<lb/>Hüve
+					<lb/>Bāis-i tahvīl oldur ki
+					<lb/><placeName><placeName type="proper">Kirşevo</placeName> varoş kilisa</placeName>nın gardiyānı <persName cert="unknown" role="Kirşevo varoş kilisanın gardiyān">Fra.
+						ʿAndriye</persName>ye üzerinde olan <placeName cert="unknown" type="proper">DIREDVL</placeName> karyesinden
+					<lb/>... <persName>İbrāhīm Ağa</persName>'nın uşaklarından beş yüz guruş bu defa tarafımıza tamāmen
+					<lb/>ve kâmilen … ve iʿtā eyledüğye yedine işbu müşʿir tahvīl virildi</p>
+				<div2 type="sign" facs="#zone_fxj_ks5_2jb">
+					<p>
+						<lb/><persName cert="unknown">...</persName>
+					</p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/><persName>İmām Hoca ʿAlemdār</persName>
+						<lb/><persName>... ʿAbd b. ʿAlemdār</persName>
+						<lb/><persName>ve gayrhim ...</persName>
+					</p>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian" facs="#zone_ys4_tdm_l3b">
+				<p>
+					<lb/>...
+					<lb/>... <date type="summary_Croatian" when="1832">1832</date>. </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

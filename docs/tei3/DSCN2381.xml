@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,30 +17,31 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2709/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2709/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/93a044e992b91696890bf34796d3520d4ff155b0.jpg"/>
-				<zone lrx="3112" lry="1716" ulx="439" uly="138" xml:id="zone_lj5_fxn_dmb"/>
-				<zone lrx="852" lry="1694" ulx="477" uly="1296" xml:id="zone_hry_gxn_dmb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2381.JPG"/>
+			<zone ulx="138" uly="138" lrx="3112" lry="1716" xml:id="zone_lj5_fxn_dmb"/>
+			<zone ulx="1296" uly="1296" lrx="852" lry="1694" xml:id="zone_hry_gxn_dmb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="unknown" facs="#zone_lj5_fxn_dmb" type="EMIN">
 				<p>
-					<lb/>... hurira fī <date type="created" when-custom="xx-xx-15">15</date>
+					<lb/>
+					... hurira fī					<date type="created" when-custom="xx-xx-15">15</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_hry_gxn_dmb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>

@@ -1,37 +1,38 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0504</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 6" ], "saji:memo": [ "・何を示しているのか分からない。\r\n・ボスニア語梗概？" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2911/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2911/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c11ba258244c30ffd758e5f5d1427771d42f9b27.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2911/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c88ec15bb6900e1081ad8bd41a110443ba957dee.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2911/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/6d90dec35c44e8a9942b15debdc3f4316c430951.jpg" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0504</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 6" ], "saji:memo": [ "・何を示しているのか分からない。\r\n・ボスニア語梗概？" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0504.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0505.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0506.JPG"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

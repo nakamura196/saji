@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,36 +20,45 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1900/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1900/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b0c389f7f02c8f2de9ad208ac93d70513a9b67fd.jpg"/>
-				<zone lrx="3134" lry="1022" ulx="112" uly="277" xml:id="zone_rn4_1hh_skb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1900/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/075c6b643e41b5fe65e87b780ed5a5eaa96ce1e9.jpg"/>
-				<zone lrx="1592" lry="2950" ulx="217" uly="1616" xml:id="zone_iwc_wgh_skb"/>
-				<zone lrx="500" lry="2930" ulx="227" uly="2697" xml:id="zone_d1z_xgh_skb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN8972.JPG"/>
+			<zone ulx="277" uly="277" lrx="3134" lry="1022" xml:id="zone_rn4_1hh_skb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN8973.JPG"/>
+			<zone ulx="1616" uly="1616" lrx="1592" lry="2950" xml:id="zone_iwc_wgh_skb"/>
+			<zone ulx="2697" uly="2697" lrx="500" lry="2930" xml:id="zone_d1z_xgh_skb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_iwc_wgh_skb" type="unkown">
 				<p>
-					<lb/>Kirşevo karyesinde(?) vākiʿ ... nām ... cānibinde
-					<lb/>... ve sā'ir ile ... inhā ... el-mülāsele  Kirşevo'da
-					<lb/>vākiʿ ruhbān(?) kilisa arāzīlerinden yayla(?) ve mahalle-i mezkūrede ...
-					<lb/>tarīki'l-... olan çayırlar ve arāzīleri üzerinde ... tarīk-i ... ile
-					<lb/>... tarīk-i kadīm ... şerʿ-i şerīf ve mübāşir
-					<lb/>... müslimīn ile baʿde'l-... ve'l-... kadīm tarīk ... olub
-					<lb/>... çayır ve arāzīlerinden ... ve ... tarīk ... muhtāc ...
-					<lb/>bi'l-taleb ... tarīk-i kadīm ile
-					<lb/>... ruhbānān arāzī ve çaryırlarından ... tarīk-i ... ile ....
-					<lb/>fī <date cert="low" type="created" when="1778-01-27" when-custom="1191">... 1191</date>
+					<lb/>
+					Kirşevo karyesinde(?) vākiʿ ... nām ... cānibinde
+					<lb/>
+					... ve sā'ir ile ... inhā ... el-mülāsele  Kirşevo'da
+					<lb/>
+					vākiʿ ruhbān(?) kilisa arāzīlerinden yayla(?) ve mahalle-i mezkūrede ...
+					<lb/>
+					tarīki'l-... olan çayırlar ve arāzīleri üzerinde ... tarīk-i ... ile
+					<lb/>
+					... tarīk-i kadīm ... şerʿ-i şerīf ve mübāşir
+					<lb/>
+					... müslimīn ile baʿde'l-... ve'l-... kadīm tarīk ... olub
+					<lb/>
+					... çayır ve arāzīlerinden ... ve ... tarīk ... muhtāc ...
+					<lb/>
+					bi'l-taleb ... tarīk-i kadīm ile
+					<lb/>
+					... ruhbānān arāzī ve çaryırlarından ... tarīk-i ... ile ....
+					<lb/>
+					fī					<date cert="low" type="created" when="1778-01-27" when-custom="1191">... 1191</date>
 				</p>
 				<div2 facs="#zone_d1z_xgh_skb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 						<lb/>
 						<lb/>
@@ -57,10 +67,15 @@
 			</div1>
 			<div1 facs="#zone_rn4_1hh_skb" type="summary_Serbian">
 				<p>
-					<lb/>... 22 ... <date type="summary_Serbian" when="1778">1778</date> ...
-					<lb/>...
-					<lb/>...
-					<lb/>...
+					<lb/>
+					... 22 ...					<date type="summary_Serbian" when="1778">1778</date>
+					 ...
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					...
 				</p>
 			</div1>
 		</body>

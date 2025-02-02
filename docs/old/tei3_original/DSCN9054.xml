@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9054</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">何かについて、修道士たちがスィパーヒーに対して求めた許可に関する証書。</note>
+				<note type="mine">EMINに分類したが、署名などからエミンが作成者であるかどうかは判別できない。単なるtezkireに分類した方が良いか？【要検討】</note>
+				<note type="mine">文字は非常にきれいなので、辞書を使って【要】読み直し</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1981/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1981/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c900932b00adf9cdd79419cad339b055e528bde5.jpg"/>
+				<zone lrx="1878" lry="2449" ulx="107" uly="49" xml:id="zone_pxy_znc_ykb"/>
+				<zone lrx="797" lry="2412" ulx="535" uly="2170" xml:id="zone_tlz_14c_ykb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_pxy_znc_ykb" type="EMIN_tezkire">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>Belgrādçık kazāsında vākiʿ merfūm <persName>Kulçzāde ʿOsmān Ağa</persName>'nın ... <persName>Dervīş
+						<lb/>Mustafa</persName>'nın ... karyesi hudūd dāhilinde olan ...
+					<lb/>... kıtʿa etmeğe Kirşevo(?) ... rāhibleri taraf-ı sipāhīden izin taleb
+					<lb/>eylediklerine ... biz dahi sipāhī-i merkūm Dervīş Mustafa'nın ... ve vekīli
+					<lb/>bulunduğumuz hasebiyle mesfūrūn(?) rāhiblerine izin virilüb āhar taraftan ...
+					<lb/>ve renciyle olunmak içün işbu izine ... mesfūrūnlara tezkire yedierine iʿtā olundu
+					<lb/>hurira fī <date type="created" when="1822-08-24" when-custom="1237-12-07">7 Zı'l-hicce sene 1237</date>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_tlz_14c_ykb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

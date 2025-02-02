@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,70 +20,109 @@
 			<textClass>
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
-		</profileDesc>		
+		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1674/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/4540ca3f4161e99e6c7641fbf9a71609dd8a28ce.jpg" n="https://diyhistory.org/public/phr2/iiif/1674/canvas/p1"/>
-				<zone xml:id="zone_gkq_mvt_3jb" lry="2792" lrx="2316" uly="38" ulx="177"/>
-				<zone xml:id="zone_jrd_4vt_3jb" lry="2645" lrx="558" uly="2421" ulx="298"/>
-				<zone xml:id="zone_gmg_jh5_sqb" lry="1602" lrx="761" uly="1436" ulx="593"/>
-				<zone xml:id="zone_lkr_th5_sqb" lry="1734" lrx="1349" uly="1583" ulx="1117"/>
-				<zone xml:id="zone_hzs_f35_sqb" lry="1746" lrx="899" uly="1612" ulx="664"/>
-				<zone xml:id="zone_yqw_q35_sqb" lry="1837" lrx="1693" uly="1692" ulx="1528"/>
-				<zone xml:id="zone_q2d_zn5_sqb" lry="2653" lrx="2300" uly="2279" ulx="1777"/>
-				<zone xml:id="zone_apz_zn5_sqb" lry="2353" lrx="2262" uly="2059" ulx="1846"/>
-				<zone xml:id="zone_lkt_145_sqb" lry="2058" lrx="2125" uly="1886" ulx="1877"/>
-				<zone xml:id="zone_sdy_c45_sqb" lry="1922" lrx="2283" uly="1531" ulx="1793"/>
-				<zone xml:id="zone_hpr_245_sqb" lry="1532" lrx="2221" uly="1376" ulx="1814"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1674/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e437f2931bd0988f8aea17459dc36e341a3a161d.jpg"/>
-				<zone lrx="2406" lry="1527" ulx="223" uly="600" xml:id="zone_hhc_fwt_3jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0194.JPG"/>
+			<zone ulx="38" uly="38" lrx="2316" lry="2792" xml:id="zone_gkq_mvt_3jb"/>
+			<zone ulx="2421" uly="2421" lrx="558" lry="2645" xml:id="zone_jrd_4vt_3jb"/>
+			<zone ulx="1436" uly="1436" lrx="761" lry="1602" xml:id="zone_gmg_jh5_sqb"/>
+			<zone ulx="1583" uly="1583" lrx="1349" lry="1734" xml:id="zone_lkr_th5_sqb"/>
+			<zone ulx="1612" uly="1612" lrx="899" lry="1746" xml:id="zone_hzs_f35_sqb"/>
+			<zone ulx="1692" uly="1692" lrx="1693" lry="1837" xml:id="zone_yqw_q35_sqb"/>
+			<zone ulx="2279" uly="2279" lrx="2300" lry="2653" xml:id="zone_q2d_zn5_sqb"/>
+			<zone ulx="2059" uly="2059" lrx="2262" lry="2353" xml:id="zone_apz_zn5_sqb"/>
+			<zone ulx="1886" uly="1886" lrx="2125" lry="2058" xml:id="zone_lkt_145_sqb"/>
+			<zone ulx="1531" uly="1531" lrx="2283" lry="1922" xml:id="zone_sdy_c45_sqb"/>
+			<zone ulx="1376" uly="1376" lrx="2221" lry="1532" xml:id="zone_hpr_245_sqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0195.JPG"/>
+			<zone ulx="600" uly="600" lrx="2406" lry="1527" xml:id="zone_hhc_fwt_3jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_izin_temessük" facs="#zone_gkq_mvt_3jb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf <sic>aldur</sic><corr>oldur</corr> ki
-					<lb/>berāt-ı pādişāhıyla mutasarrıf olduğu tımārımız kurālarında <placeName facs="#zone_gmg_jh5_sqb">BILUYK</placeName> karyesinin hudūdunda HINK
-					<lb/>yaylasında(?) bir kıtʿa <placeName facs="#zone_lkr_th5_sqb">KAYIRHUR</placeName> demekle bir tarafı <persName facs="#zone_hzs_f35_sqb">MNALA ʿAlemdār</persName> çayırı ve
-					taraf-ı sānī <persName facs="#zone_yqw_q35_sqb">ʿAnton
-						<lb/>BIRKIK</persName> çaryırı ve taraf-ı sālis ve rābiʿ tarīk-i ʿām ile mahdūd ve mümtāz demekle mutasarrıf
-					<lb/>eyledüğü El-CAM <persName>Mehmed</persName> ve <persName>İbrāhīm</persName> ve karındaş <persName>Sālih</persName> nām kimesneler işbu dārende-i temessük
-						<placeName>Kirşevo</placeName> varoş
-					<lb/>kilisanın rāhiblere yüz yiğirmi beş guruş mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp
-					<lb/>onlar dahi kabūl biz dahi sāhib-i arz bulunduğumuz hasebiyle mesfūr-i rāhiblere
-					<lb/>zabt ve tasarrıf içün izin virildi mā-dām ki sāl be-sāl ʿaşār-ı şerʿiye ve rüsūmāt-ı
-					<lb/>ʿörfiye edā eyle tarafımızdan ve taraf-ı āhardan kimesne māniʿ olmaya fī <date when-custom="1236-01-03" type="created" when="1820-10-10">3 Muharrem'il-harām sene 1236</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf					<sic>aldur</sic>
+					<corr>oldur</corr>
+					 ki
+					<lb/>
+					berāt-ı pādişāhıyla mutasarrıf olduğu tımārımız kurālarında					<placeName facs="#zone_gmg_jh5_sqb">BILUYK</placeName>
+					 karyesinin hudūdunda HINK
+					<lb/>
+					yaylasında(?) bir kıtʿa					<placeName facs="#zone_lkr_th5_sqb">KAYIRHUR</placeName>
+					 demekle bir tarafı					<persName facs="#zone_hzs_f35_sqb">MNALA ʿAlemdār</persName>
+					 çayırı ve
+					taraf-ı sānī					<persName facs="#zone_yqw_q35_sqb">
+						ʿAnton
+						<lb/>
+						BIRKIK
+					</persName>
+					 çaryırı ve taraf-ı sālis ve rābiʿ tarīk-i ʿām ile mahdūd ve mümtāz demekle mutasarrıf
+					<lb/>
+					eyledüğü El-CAM					<persName>Mehmed</persName>
+					 ve					<persName>İbrāhīm</persName>
+					 ve karındaş					<persName>Sālih</persName>
+					 nām kimesneler işbu dārende-i temessük
+					<placeName>Kirşevo</placeName>
+					 varoş
+					<lb/>
+					kilisanın rāhiblere yüz yiğirmi beş guruş mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp
+					<lb/>
+					onlar dahi kabūl biz dahi sāhib-i arz bulunduğumuz hasebiyle mesfūr-i rāhiblere
+					<lb/>
+					zabt ve tasarrıf içün izin virildi mā-dām ki sāl be-sāl ʿaşār-ı şerʿiye ve rüsūmāt-ı
+					<lb/>
+					ʿörfiye edā eyle tarafımızdan ve taraf-ı āhardan kimesne māniʿ olmaya fī					<date when-custom="1236-01-03" type="created" when="1820-10-10">3 Muharrem'il-harām sene 1236</date>
 				</p>
 				<div2 type="sign" facs="#zone_jrd_4vt_3jb">
 					<p>
-						<lb/>El-... El-me'mūr
-						<lb/><persName>Mehmed</persName>
+						<lb/>
+						El-... El-me'mūr
+						<lb/>
+						<persName>Mehmed</persName>
 					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>... <persName facs="#zone_q2d_zn5_sqb">Hüseyin</persName> Ağa ...
-						<lb/>ÇZMUzāde <persName facs="#zone_apz_zn5_sqb">ʿAbdī</persName> ʿAlemdār
-						<lb/>Kara <persName facs="#zone_lkt_145_sqb">Mehmed</persName> Paşa
-						<lb/><persName facs="#zone_sdy_c45_sqb">SÜLEYMANzāde</persName> Mollā Ağa(?)
-						<lb/>ʿan Medīne-i Saray(?)
-						<lb/><persName facs="#zone_hpr_245_sqb">Hüseyin</persName> Paşa TORA
-						<lb/>ve gayrihim mine'l-hāzrīn </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						...						<persName facs="#zone_q2d_zn5_sqb">Hüseyin</persName>
+						 Ağa ...
+						<lb/>
+						ÇZMUzāde						<persName facs="#zone_apz_zn5_sqb">ʿAbdī</persName>
+						 ʿAlemdār
+						<lb/>
+						Kara						<persName facs="#zone_lkt_145_sqb">Mehmed</persName>
+						 Paşa
+						<lb/>
+						<persName facs="#zone_sdy_c45_sqb">SÜLEYMANzāde</persName>
+						 Mollā Ağa(?)
+						<lb/>
+						ʿan Medīne-i Saray(?)
+						<lb/>
+						<persName facs="#zone_hpr_245_sqb">Hüseyin</persName>
+						 Paşa TORA
+						<lb/>
+						ve gayrihim mine'l-hāzrīn					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_hhc_fwt_3jb">
 				<p>
-					<lb/>Nuichevina u Hineu
-					<lb/><date when-custom="1236" type="summary_Croatian" when="1821-09-26">1236</date>. Nno 35.
-					<lb/>133 </p>
+					<lb/>
+					Nuichevina u Hineu
+					<lb/>
+					<date when-custom="1236" type="summary_Croatian" when="1821-09-26">1236</date>
+					. Nno 35.
+					<lb/>
+					133				</p>
 			</div1>
 		</body>
 	</text>

@@ -1,54 +1,61 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9114</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2041/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2041/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/97f33c3aa39e8010abdd117e83ab41b1d3e636fa.jpg" />
-        <zone lrx="663" lry="1031" ulx="444" uly="828" xml:id="zone_fsc_ksv_glb" />
-        <zone lrx="1604" lry="636" ulx="793" uly="497" xml:id="zone_try_ksv_glb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2041/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/18ea9cc8f88238e4b5662b231d7d78e42f1b2182.jpg" />
-        <zone lrx="2163" lry="3218" ulx="54" uly="63" xml:id="zone_dfl_msv_glb" />
-        <zone lrx="365" lry="3089" ulx="84" uly="2516" xml:id="zone_j5r_rsv_glb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_dfl_msv_glb" next="#zone_try_ksv_glb" subtype="zabt_temessük" type="EMIN">
-        <p>
-          <lb />işbu <date when="1823-09-05" when-custom="1238">bin iki yüz otuz sekiz senesinde</date> der ...
-          <lb />... fī <date type="created" when="1823-05-10" when-custom="1238-08-29">29 Ş sene 238</date>
-        </p>
-        <div2 facs="#zone_j5r_rsv_glb" type="sign">
-          <p>
-            <lb />... <lb />
-          </p>
-          <div3 facs="#zone_fsc_ksv_glb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_try_ksv_glb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1823">1823</date><lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9114</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9114.JPG"/>
+			<zone ulx="828" uly="828" lrx="663" lry="1031" xml:id="zone_fsc_ksv_glb"/>
+			<zone ulx="497" uly="497" lrx="1604" lry="636" xml:id="zone_try_ksv_glb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9115.JPG"/>
+			<zone ulx="63" uly="63" lrx="2163" lry="3218" xml:id="zone_dfl_msv_glb"/>
+			<zone ulx="2516" uly="2516" lrx="365" lry="3089" xml:id="zone_j5r_rsv_glb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_dfl_msv_glb" next="#zone_try_ksv_glb" subtype="zabt_temessük" type="EMIN">
+				<p>
+					<lb/>
+					işbu					<date when="1823-09-05" when-custom="1238">bin iki yüz otuz sekiz senesinde</date>
+					 der ...
+					<lb/>
+					... fī					<date type="created" when="1823-05-10" when-custom="1238-08-29">29 Ş sene 238</date>
+				</p>
+				<div2 facs="#zone_j5r_rsv_glb" type="sign">
+					<p>
+						<lb/>
+						...						<lb/>
+					</p>
+					<div3 facs="#zone_fsc_ksv_glb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_try_ksv_glb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1823">1823</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

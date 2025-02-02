@@ -1,0 +1,47 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2031</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2361/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2361/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ca8318e3e4e1f33fea4210c5885af123a817e6fc.jpg" />
+        <zone lrx="1785" lry="2538" ulx="270" uly="230" xml:id="zone_vfx_bc4_bmb" />
+        <zone lrx="904" lry="2491" ulx="329" uly="2122" xml:id="zone_wbb_dc4_bmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2361/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/493dc21297c1aef9e00242922c8886b9661cd6cc.jpg" />
+        <zone lrx="658" lry="1008" ulx="316" uly="691" xml:id="zone_htp_2c4_bmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_vfx_bc4_bmb" type="mürāsele">
+        <p>
+          <lb />... fī <date type="created" when="1785-07-16" when-custom="1199-09-10">10 N sene 199</date><lb />
+        </p>
+        <div2 facs="#zone_wbb_dc4_bmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_htp_2c4_bmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

@@ -1,40 +1,41 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0384</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1861/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1861/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4e27d070d8d90c0b77bfd6be9696f95d60215c8f.jpg" />
-        <zone lrx="1733" lry="3183" ulx="667" uly="50" xml:id="zone_jky_yv1_qkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1861/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8cc6ca52ab69389eea0f20c23063148610ced0e8.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1861/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/832138fc250b4f322b45eed59f4aae8d0d02a83d.jpg" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_jky_yv1_qkb" type="ʿilmühaber">
-        <p>
-          <lb />Altısenelik virgü ʿilmühaber
-          <lb />
-          <lb />... fī <lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0384</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0384.JPG"/>
+			<zone ulx="50" uly="50" lrx="1733" lry="3183" xml:id="zone_jky_yv1_qkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0385.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0386.JPG"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_jky_yv1_qkb" type="ʿilmühaber">
+				<p>
+					<lb/>
+					Altısenelik virgü ʿilmühaber
+					<lb/>
+					<lb/>
+					... fī					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

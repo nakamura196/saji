@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2090</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2419/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2419/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7247f45993496790a9f82e2ce66bb8e99da49c01.jpg" />
+        <zone lrx="1950" lry="3040" ulx="270" uly="1260" xml:id="zone_wpk_vs5_bmb" />
+        <zone lrx="881" lry="2984" ulx="428" uly="2607" xml:id="zone_svw_ws5_bmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2419/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2c0a7b672947d252fdd498b9bc40c7bf398e44ab.jpg" />
+        <zone lrx="1991" lry="2800" ulx="1612" uly="2475" xml:id="zone_z3k_ys5_bmb" />
+        <zone lrx="2387" lry="637" ulx="16" uly="195" xml:id="zone_hz2_zs5_bmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_wpk_vs5_bmb" next="#zone_hz2_zs5_bmb" type="mürāsele">
+        <p>
+          <lb />... hurira fī <date type="created" when="1773-10-09" when-custom="1187-07-23">23 Recebi'l-... sene 1187</date><lb />
+        </p>
+        <div2 facs="#zone_svw_ws5_bmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_z3k_ys5_bmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_hz2_zs5_bmb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1773">1773</date>
+          <lb />90
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

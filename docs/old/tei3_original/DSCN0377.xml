@@ -1,0 +1,55 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0377</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1854/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1854/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7a08a4daaf4eb1615852ed692bda0d5b04248a9a.jpg" />
+        <zone lrx="1991" lry="3000" ulx="500" uly="90" xml:id="zone_usv_nhf_pkb" />
+        <zone lrx="1578" lry="723" ulx="1244" uly="119" xml:id="zone_ycp_phf_pkb" />
+        <zone lrx="1500" lry="719" ulx="1273" uly="582" xml:id="zone_g1m_qhf_pkb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1854/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4bfdb0a1e35b908682b2b3d87d344c629d1bc7b3.jpg" />
+        <zone lrx="2154" lry="1441" ulx="166" uly="487" xml:id="zone_cjy_shf_pkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_usv_nhf_pkb" next="#zone_cjy_shf_pkb" type="hüccet_sūret">
+        <p>
+          <lb />... fī
+          <lb /><date type="created" when="1854-06-06" when-custom="1270-09-11">yevmi'l-hādā ve'l-ʿaşr min şehri Ramazānİ'l-mubārek sene sabʿīn
+          <lb />ve mieteyn ve elif</date>
+        </p>
+        <div2 facs="#zone_ycp_phf_pkb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_g1m_qhf_pkb" type="stamp_sūret">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_cjy_shf_pkb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

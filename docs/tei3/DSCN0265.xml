@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,39 +17,52 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1744/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/93b0dec0914ff7f19bbe93ed1a65bfb43454da0d.jpg" n="https://diyhistory.org/public/phr2/iiif/1744/canvas/p1"/>
-				<zone xml:id="zone_lsl_2h5_xjb" lry="2900" lrx="1675" uly="125" ulx="83"/>
-				<zone xml:id="zone_kwl_fh5_xjb" lry="2818" lrx="718" uly="2578" ulx="515"/>
-				<zone xml:id="zone_p1y_fh5_xjb" lry="2801" lrx="428" uly="2551" ulx="211"/>
-				<zone xml:id="zone_vqg_ygh_d5b" lry="2050" lrx="793" uly="1918" ulx="211"/>
-				<zone xml:id="zone_ymj_1hh_d5b" lry="1998" lrx="204" uly="1892" ulx="105"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1744/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a2d09f8882578301a2c259efa77382e4853e3278.jpg"/>
-				<zone lrx="864" lry="588" ulx="645" uly="370" xml:id="zone_zn1_hh5_xjb"/>
-				<zone lrx="540" lry="598" ulx="289" uly="372" xml:id="zone_gd1_mh5_xjb"/>
-				<zone lrx="2300" lry="3050" ulx="208" uly="2654" xml:id="zone_bzz_mh5_xjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0265.JPG"/>
+			<zone ulx="125" uly="125" lrx="1675" lry="2900" xml:id="zone_lsl_2h5_xjb"/>
+			<zone ulx="2578" uly="2578" lrx="718" lry="2818" xml:id="zone_kwl_fh5_xjb"/>
+			<zone ulx="2551" uly="2551" lrx="428" lry="2801" xml:id="zone_p1y_fh5_xjb"/>
+			<zone ulx="1918" uly="1918" lrx="793" lry="2050" xml:id="zone_vqg_ygh_d5b"/>
+			<zone ulx="1892" uly="1892" lrx="204" lry="1998" xml:id="zone_ymj_1hh_d5b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0266.JPG"/>
+			<zone ulx="370" uly="370" lrx="864" lry="588" xml:id="zone_zn1_hh5_xjb"/>
+			<zone ulx="372" uly="372" lrx="540" lry="598" xml:id="zone_gd1_mh5_xjb"/>
+			<zone ulx="2654" uly="2654" lrx="2300" lry="3050" xml:id="zone_bzz_mh5_xjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_lsl_2h5_xjb" subtype="zabt_temessük" type="EMIN">
 				<p>
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>işbu <date type="created" when="1782-12-04" when-custom="1196">bin yüz doksan altı senesinde</date> der ʿuhde ve iltizāmımızda olan Kirşevo mukātaʿası
-					<lb/>kurālarından ruhbānların karyesinde hāsıl olan aʿşār-ı şerʿiye ve rüsūmāt-ı sā'iresin olageldiği
-					<lb/>kadīmī üzere ber-vech-i peşīn işbu dārende-i hurūf <persName facs="#zone_vqg_ygh_d5b">ruhbānların gardiyānı zimmī ʿAnton</persName> ve <persName facs="#zone_ymj_1hh_d5b">PRÇİÇ
-						<lb/>nām gardiyāna</persName> yetmiş guruş bedeli mukābelesinde beyʿ ü ferāğ edüb ve mebrāğ-ı mezkūri yedinden yedimize
-					<lb/>ahz ve kabz ettikten sonra(?) işbu hurūf-ı zabt temessük yedinine virildi ve işbu sene-i mübārekde karye-i
-					<lb/>mezkūrede hāsıl olan aʿşār-ı şerʿiyesi ve rüsūmāt-ı sā'iresin zabt ve taʿşīr ede
-					<lb/>bir kimesne māniʿ ve müdāhale etmeye ... </p>
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					işbu					<date type="created" when="1782-12-04" when-custom="1196">bin yüz doksan altı senesinde</date>
+					 der ʿuhde ve iltizāmımızda olan Kirşevo mukātaʿası
+					<lb/>
+					kurālarından ruhbānların karyesinde hāsıl olan aʿşār-ı şerʿiye ve rüsūmāt-ı sā'iresin olageldiği
+					<lb/>
+					kadīmī üzere ber-vech-i peşīn işbu dārende-i hurūf					<persName facs="#zone_vqg_ygh_d5b">ruhbānların gardiyānı zimmī ʿAnton</persName>
+					 ve					<persName facs="#zone_ymj_1hh_d5b">
+						PRÇİÇ
+						<lb/>
+						nām gardiyāna
+					</persName>
+					 yetmiş guruş bedeli mukābelesinde beyʿ ü ferāğ edüb ve mebrāğ-ı mezkūri yedinden yedimize
+					<lb/>
+					ahz ve kabz ettikten sonra(?) işbu hurūf-ı zabt temessük yedinine virildi ve işbu sene-i mübārekde karye-i
+					<lb/>
+					mezkūrede hāsıl olan aʿşār-ı şerʿiyesi ve rüsūmāt-ı sā'iresin zabt ve taʿşīr ede
+					<lb/>
+					bir kimesne māniʿ ve müdāhale etmeye ...				</p>
 				<div2 facs="#zone_kwl_fh5_xjb" type="sign">
 					<p>
-						<lb/>El-... Sālim
-						<lb/>El-me'mūr </p>
+						<lb/>
+						El-... Sālim
+						<lb/>
+						El-me'mūr					</p>
 					<div3 facs="#zone_zn1_hh5_xjb" type="stamp">
 						<p>
 							<lb/>
@@ -58,11 +72,14 @@
 				</div2>
 				<div2 facs="#zone_p1y_fh5_xjb" type="sign">
 					<p>
-						<lb/>El-... Mustafa
-						<lb/>El-me'mūr </p>
+						<lb/>
+						El-... Mustafa
+						<lb/>
+						El-me'mūr					</p>
 					<div3 facs="#zone_gd1_mh5_xjb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -73,8 +90,11 @@
 			</div1>
 			<div1 facs="#zone_bzz_mh5_xjb" type="summry_Croatian">
 				<p>
-					<lb/><date type="summary_Croatian" when="1782">1782</date> ... 22 ...
-					<lb/>10 is ... </p>
+					<lb/>
+					<date type="summary_Croatian" when="1782">1782</date>
+					 ... 22 ...
+					<lb/>
+					10 is ...				</p>
 			</div1>
 		</body>
 	</text>

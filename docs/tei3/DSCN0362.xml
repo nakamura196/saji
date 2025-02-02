@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,64 +17,88 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1839/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1839/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9d2d959dcf2d58a9442657384343403cad77db26.jpg"/>
-				<zone lrx="2010" lry="2620" ulx="30" uly="300" xml:id="zone_u3y_3rr_kkb"/>
-				<zone lrx="782" lry="2587" ulx="163" uly="2327" xml:id="zone_bqt_krr_kkb"/>
-				<zone lrx="770" lry="2587" ulx="485" uly="2385" xml:id="zone_amz_lrr_kkb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1839/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7a15bf7d08c62e70e59e3848d761c59945af1903.jpg"/>
-				<zone lrx="2806" lry="1272" ulx="356" uly="794" xml:id="zone_ymh_4rr_kkb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0362.JPG"/>
+			<zone ulx="300" uly="300" lrx="2010" lry="2620" xml:id="zone_u3y_3rr_kkb"/>
+			<zone ulx="2327" uly="2327" lrx="782" lry="2587" xml:id="zone_bqt_krr_kkb"/>
+			<zone ulx="2385" uly="2385" lrx="770" lry="2587" xml:id="zone_amz_lrr_kkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0363.JPG"/>
+			<zone ulx="794" uly="794" lrx="2806" lry="1272" xml:id="zone_ymh_4rr_kkb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_u3y_3rr_kkb" type="zabtnāme_sūret">
 				<p>
-					<lb/>Hüve
-					<lb/>Bādī(?) terkīm ve ... budur ki
-					<lb/>Foyniçe kazāsına tābiʿ KOYÇE cemāʿat PRIN karyesi sākinlerinden ʿÖmer ve karındaşları ʿAbdüllāh ve ... bunun(?) İbrāhīm ...
-					<lb/>nāmūn kimesnelerin taht-ı mutasarrıflarında bulunan etrāf ... merkūmları ʿAbdüllāh
-					<lb/>ve Mustafa(?) tarlaları ve ormanların ve tarīk-i ʿām ile mahdūd ve mumtāz tahmīnen(?) senevī(?) üç bin
-					<lb/>vakiye ... hāsıl olur BARE demekle maʿrūf nām çayır işbu dārende-i hurūf Kirşevo kilisa
-					<lb/>gardiyān Fra Andriye nām rāhibe üç bin beş yüz guruş bedel mukābelesinde ferāğ eylemiş eylediğinden
-					<lb/>iktizā eden harc(?) tapu ... ber-mūcib-i nizām sene(?) yüzde beş guruş ... terkīm
-					<lb/>yüz yetmiş beş harc(?) ferāğatını ve üç guruş ... merkūm gardiyān Fra Andrī nām kimesneden
-					<lb/>ahz olna ... ve māh-ı Mayıs'ın ... defterine ... olunmuş ... eyālet-i takdīm(?) kalınmış
-					<lb/>olmağala işbu merkūm gardiyān Fra Andriye yedine bir kıtʿa ʿilmühaber virildi ... olunmuş üzere
-					<lb/>... olunan şartile der-saʿādetden tapu senedi ... değin işbu zabt(?) tahrīr ve ...
-					<lb/>kalındı fī <date type="created" when="1857-06-06" when-custom="1273-10-14">14 L sene 73</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Bādī(?) terkīm ve ... budur ki
+					<lb/>
+					Foyniçe kazāsına tābiʿ KOYÇE cemāʿat PRIN karyesi sākinlerinden ʿÖmer ve karındaşları ʿAbdüllāh ve ... bunun(?) İbrāhīm ...
+					<lb/>
+					nāmūn kimesnelerin taht-ı mutasarrıflarında bulunan etrāf ... merkūmları ʿAbdüllāh
+					<lb/>
+					ve Mustafa(?) tarlaları ve ormanların ve tarīk-i ʿām ile mahdūd ve mumtāz tahmīnen(?) senevī(?) üç bin
+					<lb/>
+					vakiye ... hāsıl olur BARE demekle maʿrūf nām çayır işbu dārende-i hurūf Kirşevo kilisa
+					<lb/>
+					gardiyān Fra Andriye nām rāhibe üç bin beş yüz guruş bedel mukābelesinde ferāğ eylemiş eylediğinden
+					<lb/>
+					iktizā eden harc(?) tapu ... ber-mūcib-i nizām sene(?) yüzde beş guruş ... terkīm
+					<lb/>
+					yüz yetmiş beş harc(?) ferāğatını ve üç guruş ... merkūm gardiyān Fra Andrī nām kimesneden
+					<lb/>
+					ahz olna ... ve māh-ı Mayıs'ın ... defterine ... olunmuş ... eyālet-i takdīm(?) kalınmış
+					<lb/>
+					olmağala işbu merkūm gardiyān Fra Andriye yedine bir kıtʿa ʿilmühaber virildi ... olunmuş üzere
+					<lb/>
+					... olunan şartile der-saʿādetden tapu senedi ... değin işbu zabt(?) tahrīr ve ...
+					<lb/>
+					kalındı fī					<date type="created" when="1857-06-06" when-custom="1273-10-14">14 L sene 73</date>
 				</p>
 				<div2 facs="#zone_bqt_krr_kkb" type="sign">
 					<p>
-						<lb/>...
-						<lb/>ve Müdīr-i(?) Vekīl-i
-						<lb/>Kazā-i Foyniçe
+						<lb/>
+						...
+						<lb/>
+						ve Müdīr-i(?) Vekīl-i
+						<lb/>
+						Kazā-i Foyniçe
 					</p>
 					<div3 facs="#zone_amz_lrr_kkb" type="stamp_sūret">
 						<p>
-							<lb/>ʿAbdüllāh
-							<lb/>...
+							<lb/>
+							ʿAbdüllāh
+							<lb/>
+							...
 						</p>
 					</div3>
 				</div2>
 				<div2 type="note">
 					<p>
-						<lb/>...
-						<lb/>175 harc-ı(?) tapusu
-						<lb/>003 ...
-						<lb/>178
-						<lb/>Yalnız yüz yetmiş sekiz guruş(?)
+						<lb/>
+						...
+						<lb/>
+						175 harc-ı(?) tapusu
+						<lb/>
+						003 ...
+						<lb/>
+						178
+						<lb/>
+						Yalnız yüz yetmiş sekiz guruş(?)
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_ymh_4rr_kkb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1857">1857</date>.
-					<lb/>Nno 1.
+					<lb/>
+					...					<date type="summary_Croatian" when="1857">1857</date>
+					.
+					<lb/>
+					Nno 1.
 				</p>
 			</div1>
 		</body>

@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -21,90 +22,140 @@
 			<textClass>
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
-		</profileDesc>		
+		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1684/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/6e92bdd6cc73fcffb4d4f154d74c570752bfa423.jpg" n="https://diyhistory.org/public/phr2/iiif/1684/canvas/p1"/>
-				<zone xml:id="zone_vfv_tzj_kjb" lry="2909" lrx="2309" uly="90" ulx="191"/>
-				<zone xml:id="zone_vzw_5zj_kjb" lry="2715" lrx="553" uly="2393" ulx="246"/>
-				<zone xml:id="zone_otl_bx5_brb" lry="1866" lrx="1546" uly="1769" ulx="1375"/>
-				<zone xml:id="zone_jcx_jx5_brb" lry="1805" lrx="798" uly="1701" ulx="477"/>
-				<zone xml:id="zone_bwh_xx5_brb" lry="1991" lrx="1563" uly="1881" ulx="1438"/>
-				<zone xml:id="zone_swp_3xn_drb" lry="2806" lrx="2095" uly="2605" ulx="1859"/>
-				<zone xml:id="zone_lyj_jxn_drb" lry="2775" lrx="2254" uly="2495" ulx="1845"/>
-				<zone xml:id="zone_kjf_kxn_drb" lry="2603" lrx="2243" uly="2366" ulx="1855"/>
-				<zone xml:id="zone_iyy_kxn_drb" lry="2384" lrx="2129" uly="2256" ulx="1874"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1684/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b869eec6eb6e3eb7808278b1d6661277659e96fd.jpg"/>
-				<zone lrx="2662" lry="511" ulx="2412" uly="238" xml:id="zone_cdy_vzj_kjb"/>
-				<zone lrx="3200" lry="1777" ulx="1634" uly="133" xml:id="zone_dgr_wzj_kjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0205.JPG"/>
+			<zone ulx="90" uly="90" lrx="2309" lry="2909" xml:id="zone_vfv_tzj_kjb"/>
+			<zone ulx="2393" uly="2393" lrx="553" lry="2715" xml:id="zone_vzw_5zj_kjb"/>
+			<zone ulx="1769" uly="1769" lrx="1546" lry="1866" xml:id="zone_otl_bx5_brb"/>
+			<zone ulx="1701" uly="1701" lrx="798" lry="1805" xml:id="zone_jcx_jx5_brb"/>
+			<zone ulx="1881" uly="1881" lrx="1563" lry="1991" xml:id="zone_bwh_xx5_brb"/>
+			<zone ulx="2605" uly="2605" lrx="2095" lry="2806" xml:id="zone_swp_3xn_drb"/>
+			<zone ulx="2495" uly="2495" lrx="2254" lry="2775" xml:id="zone_lyj_jxn_drb"/>
+			<zone ulx="2366" uly="2366" lrx="2243" lry="2603" xml:id="zone_kjf_kxn_drb"/>
+			<zone ulx="2256" uly="2256" lrx="2129" lry="2384" xml:id="zone_iyy_kxn_drb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0206.JPG"/>
+			<zone ulx="238" uly="238" lrx="2662" lry="511" xml:id="zone_cdy_vzj_kjb"/>
+			<zone ulx="133" uly="133" lrx="3200" lry="1777" xml:id="zone_dgr_wzj_kjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN" cert="unknown" facs="#zone_vfv_tzj_kjb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr hurūf oldur ki
-					<lb/>bā-berāt-ı şerīf-i ʿālīşān ber vech-i mālikâne iştirā ... hissesi(?) ʿuhdemizde olan <placeName>Kirşevo</placeName> mukātaʿa
-					<lb/>derūnunde vākiʿ <placeName facs="#zone_otl_bx5_brb">KOSYNA</placeName> karyesinde arāzī-i mīrīye mutasarrıflarından <persName facs="#zone_jcx_jx5_brb">Hüseyin</persName> Beşe
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr hurūf oldur ki
+					<lb/>
+					bā-berāt-ı şerīf-i ʿālīşān ber vech-i mālikâne iştirā ... hissesi(?) ʿuhdemizde olan					<placeName>Kirşevo</placeName>
+					 mukātaʿa
+					<lb/>
+					derūnunde vākiʿ					<placeName facs="#zone_otl_bx5_brb">KOSYNA</placeName>
+					 karyesinde arāzī-i mīrīye mutasarrıflarından					<persName facs="#zone_jcx_jx5_brb">Hüseyin</persName>
+					 Beşe
 					Uzun karye-i mezbūrede taht-ı
-					<lb/>tasarrıf eyledüğü <placeName facs="#zone_bwh_xx5_brb">BUKULA</placeName> demekle ʿarīf bir kıtʿa tarla ... el-ahāli ve'l-...
-					<lb/>tarla-i mezbūreyi işbu dārende-i ... altmış guruş
-					<lb/>bedel-i ferāğ mukābelesinde beyʿ ve ferāğ ve ... edüp mesfūr ol(?) dahi bir kıtʿa(?) nuharrer tarla-i mezbūreyi
-					<lb/>iştirā ve teferrug ve zabt ve zirāʿatıçün...(?) tarafımızdan iştirāk etmekle(?) kānūn ... üzere
-					<lb/>ferāğ ve teferrugların(?) tecvīz ve ferāğ ... tarla-ı mezbūre-i ferāgatından müiter-i mesfūrān tafvīz ve zabt
-					<lb/>ve tasarrıfına izin verilüb mā-dām ki senesine tarafımıza ʿāit ve rāciʿ olan aʿşār ve rüsūmātı edā eyleye zabt
-					<lb/>zirāʿatına tarafımızdan ve taraf-ı āhardan kimesne māniʿ ve müzāhim <sic>olya</sic><corr>olunmaya</corr> fī <date when-custom="1235-06-07" type="created" when="1820-03-21">7 C
+					<lb/>
+					tasarrıf eyledüğü					<placeName facs="#zone_bwh_xx5_brb">BUKULA</placeName>
+					 demekle ʿarīf bir kıtʿa tarla ... el-ahāli ve'l-...
+					<lb/>
+					tarla-i mezbūreyi işbu dārende-i ... altmış guruş
+					<lb/>
+					bedel-i ferāğ mukābelesinde beyʿ ve ferāğ ve ... edüp mesfūr ol(?) dahi bir kıtʿa(?) nuharrer tarla-i mezbūreyi
+					<lb/>
+					iştirā ve teferrug ve zabt ve zirāʿatıçün...(?) tarafımızdan iştirāk etmekle(?) kānūn ... üzere
+					<lb/>
+					ferāğ ve teferrugların(?) tecvīz ve ferāğ ... tarla-ı mezbūre-i ferāgatından müiter-i mesfūrān tafvīz ve zabt
+					<lb/>
+					ve tasarrıfına izin verilüb mā-dām ki senesine tarafımıza ʿāit ve rāciʿ olan aʿşār ve rüsūmātı edā eyleye zabt
+					<lb/>
+					zirāʿatına tarafımızdan ve taraf-ı āhardan kimesne māniʿ ve müzāhim					<sic>olya</sic>
+					<corr>olunmaya</corr>
+					 fī					<date when-custom="1235-06-07" type="created" when="1820-03-21">7 C
 						sene 35</date>
 				</p>
 				<div2 type="sign" facs="#zone_vzw_5zj_kjb">
 					<p>
-						<lb/>...
-						<lb/><persName>Mehmed</persName> Mutasarrıf
-						<lb/>Hāss-ı Mukātaʿa-i
-						<lb/>Mezbūre
-						<lb/>M(?) </p>
+						<lb/>
+						...
+						<lb/>
+						<persName>Mehmed</persName>
+						 Mutasarrıf
+						<lb/>
+						Hāss-ı Mukātaʿa-i
+						<lb/>
+						Mezbūre
+						<lb/>
+						M(?)					</p>
 					<div3 type="stamp" facs="#zone_cdy_vzj_kjb">
 						<p>
-							<lb/>...
-							<lb/>Mehmed
-							<lb/>... </p>
+							<lb/>
+							...
+							<lb/>
+							Mehmed
+							<lb/>
+							...						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>Mollā <persName facs="#zone_swp_3xn_drb">Hasan</persName> SRATLI
-						<lb/><persName facs="#zone_lyj_jxn_drb">ʿÖmer</persName> Beşe HANÇİK ʿan ÇİRNİK
-						<lb/><persName facs="#zone_kjf_kxn_drb">İbrāhīm</persName> ʿAlemdār ŞONUYK
-						<lb/><persName facs="#zone_iyy_kxn_drb">MMŞK</persName> tābiʿ AYASI
-						<lb/>ve gayrihim </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						Mollā						<persName facs="#zone_swp_3xn_drb">Hasan</persName>
+						 SRATLI
+						<lb/>
+						<persName facs="#zone_lyj_jxn_drb">ʿÖmer</persName>
+						 Beşe HANÇİK ʿan ÇİRNİK
+						<lb/>
+						<persName facs="#zone_kjf_kxn_drb">İbrāhīm</persName>
+						 ʿAlemdār ŞONUYK
+						<lb/>
+						<persName facs="#zone_iyy_kxn_drb">MMŞK</persName>
+						 tābiʿ AYASI
+						<lb/>
+						ve gayrihim					</p>
 				</div2>
 				<div2 type="note">
 					<p>
-						<lb/>Tarla-i mezbūreye kadīmden veriyle(?) geldiği tekâlif-i hāssasını edā etmeğe mukāvele(/tamāmda?) olunmuşdur </p>
+						<lb/>
+						Tarla-i mezbūreye kadīmden veriyle(?) geldiği tekâlif-i hāssasını edā etmeğe mukāvele(/tamāmda?) olunmuşdur					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_dgr_wzj_kjb">
 				<p>
-					<lb/>...
-					<lb/>...
-					<lb/>...
-					<lb/>...
-					<lb/>... <date when="1820" type="summary_Croatian">1820</date> ...
-					<lb/>...
-					<lb/>...
-					<lb/>...
-					<lb/>...
-					<lb/>...
-					<lb/>... <date when-custom="1235" type="summary_Croatian" when="1820-10-06">1235</date>.
-					<lb/>Nno 42.
-					<lb/>143 </p>
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					...					<date when="1820" type="summary_Croatian">1820</date>
+					 ...
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					...					<date when-custom="1235" type="summary_Croatian" when="1820-10-06">1235</date>
+					.
+					<lb/>
+					Nno 42.
+					<lb/>
+					143				</p>
 			</div1>
 		</body>
 	</text>

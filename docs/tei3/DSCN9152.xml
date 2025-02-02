@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,65 +14,72 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2078/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2078/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c9252b3255ac69ccf353018b31f531f94ec73320.jpg"/>
-				<zone lrx="2780" lry="730" ulx="407" uly="523" xml:id="zone_rvg_bsk_hlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2078/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1911946511c845ff575aed969b83d66070ea4680.jpg"/>
-				<zone lrx="1054" lry="920" ulx="825" uly="695" xml:id="zone_rjb_2sk_hlb"/>
-				<zone lrx="756" lry="911" ulx="540" uly="704" xml:id="zone_yst_2sk_hlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2078/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/d90f753a6c5b31408dc860a397e524af9def94c4.jpg"/>
-				<zone lrx="2192" lry="2958" ulx="75" uly="91" xml:id="zone_ijq_gsk_hlb"/>
-				<zone lrx="784" lry="2865" ulx="490" uly="2446" xml:id="zone_ahh_3sk_hlb"/>
-				<zone lrx="468" lry="2825" ulx="175" uly="2390" xml:id="zone_xky_3sk_hlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9152.JPG"/>
+			<zone ulx="523" uly="523" lrx="2780" lry="730" xml:id="zone_rvg_bsk_hlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9153.JPG"/>
+			<zone ulx="695" uly="695" lrx="1054" lry="920" xml:id="zone_rjb_2sk_hlb"/>
+			<zone ulx="704" uly="704" lrx="756" lry="911" xml:id="zone_yst_2sk_hlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9154.JPG"/>
+			<zone ulx="91" uly="91" lrx="2192" lry="2958" xml:id="zone_ijq_gsk_hlb"/>
+			<zone ulx="2446" uly="2446" lrx="784" lry="2865" xml:id="zone_ahh_3sk_hlb"/>
+			<zone ulx="2390" uly="2390" lrx="468" lry="2825" xml:id="zone_xky_3sk_hlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_ijq_gsk_hlb" next="#zone_rvg_bsk_hlb" subtype="zabt_temessük" type="EMIN">
 				<p>
-					<lb/>işbu <date type="created" when="1793-08-06" when-custom="1207">bin iki yüz yedi senesinde</date> der ...
+					<lb/>
+					işbu					<date type="created" when="1793-08-06" when-custom="1207">bin iki yüz yedi senesinde</date>
+					 der ...
 					<lb/>
 				</p>
 				<div2 facs="#zone_ahh_3sk_hlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_rjb_2sk_hlb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 facs="#zone_xky_3sk_hlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_yst_2sk_hlb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_rvg_bsk_hlb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1793">1793</date> : ... <date type="summary_Croatian" when="1796-07-04" when-custom="1210">1210</date>
+					<lb/>
+					...					<date type="summary_Croatian" when="1793">1793</date>
+					 : ...					<date type="summary_Croatian" when="1796-07-04" when-custom="1210">1210</date>
 					<lb/>
 				</p>
 			</div1>

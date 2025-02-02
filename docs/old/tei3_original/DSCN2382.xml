@@ -1,0 +1,45 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2382</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2710/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2710/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5753a1bd3b2e2e07164995c763bc42a5be0b772f.jpg" />
+        <zone lrx="2242" lry="2850" ulx="233" uly="158" xml:id="zone_d2k_dyn_dmb" />
+        <zone lrx="727" lry="2817" ulx="421" uly="2551" xml:id="zone_b4p_2yn_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_d2k_dyn_dmb" type="unknown">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_b4p_2yn_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="unknown">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

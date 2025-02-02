@@ -1,74 +1,100 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>DSCN1912</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <notesStmt>
-                <note type="summary">クレシェヴォの私有鉄鉱山と私有林の徴税請負権の売買</note>
-                <note type="summary">クレシェヴォのムカーター・エミンであるメフメドのムカーター地内にあった、ムスリム村内の私有鉄鉱山と私有林の徴税権を、クレシェヴォ教会長に100グルシュで売却したことを証明するテズキレ</note>
-                <note type="translation">
-                    <p>クレシェヴォのムカーターエミンであるメフメドが、1265年3月以降請負っていた</p>
-                    <p>クレシェヴォの鉄鉱山ムカーター内にいたムスリム共同体VDHUYLEの境域内にあった私有鉱山と私有林は、ズィンミーBRANO BALEの保有地であった。</p>
-                    <p>メフメトは、クレシェヴォ教会の長（ガルディヤーン）に対し、100グルシュを対価として徴税権（？）を売却し、教会長もそれを認めた。</p>
-                    <p>そこで、ムスリムの村VDHUYLE内の私有鉱山と私有林の所有していることを証明するテズキレを授受した後、教会長に徴税権を委譲し、このテズキレを与えた。</p>
-                </note>  
-            </notesStmt>
-            <sourceDesc>
-                <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <facsimile>
-        <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1442/manifest">
-            <surface>
-                <graphic n="https://diyhistory.org/public/phr2/iiif/1442/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/bb60aeae2cf0e8bea11d438a8f3070e7b5b47926.jpg" />
-                <zone lrx="2383" lry="2766" ulx="28" uly="300" xml:id="zone_b4r_cgx_cjb" />
-                <zone lrx="412" lry="2448" ulx="124" uly="2060" xml:id="zone_ynz_dgx_cjb" />
-            </surface>
-            <surface>
-                <graphic n="https://diyhistory.org/public/phr2/iiif/1442/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d073009d690661d33ee0c846bd8adc92d6a52f89.jpg" />
-                <zone lrx="2096" lry="1683" ulx="304" uly="766" xml:id="zone_bgl_ggx_cjb" />
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <div1 facs="#zone_b4r_cgx_cjb" type="zabt_tezkire">
-                <p>
-                    <lb />Hüve
-                    <lb />Vech-i tahrīr-i hurūf oldur ki
-                    <lb />işbu <date when="1849-11-14" when-custom="1265">iki yüz altmış elli senesinin</date> maʿden-i āhen-i <placeName>Kirşevo</placeName> mukātaʿası Martı iʿtibār ile ʿuhdemizde bulunan
-                    <lb />Müslimīn cemāʿatın <placeName>VDHUYLE</placeName> hudūd dāhilinde mülk maʿdeni ... dimekle sekiz ... mülk maʿdeninde
-                    <lb />ve ormanda Kirşevo varoş mutavattınlarında zimmī <persName>BRANO BALE</persName> nām mesfūr mutasarrıf eylediği işbu dārende-i hurūf Kirşevo
-                    <lb />varoş kilisadan <persName>gardiyān</persName> nām ruhbāna yüz guruş bedeli mukābelesinde beyʿ-i bāt ve ...  beyʿ edüb ol dahi kabūl
-                    <lb />bizim dahi me'mūrımız hasebiyle mezkūr karye-i <placeName>VDHUYLE</placeName> hudūdunda maʿden-i mülk ve orman-ı mezkūrnda ...
-                    <lb />mutasarruf olan resm-i tezkire baʿde'l-ahz gardiyāna tafvīz ve yedine işbu zabt tezkire virdüm tarafımızdan ve taraf-ı
-                    <lb />āhardan bir kimesne māniʿ ve mudāhale olunmaya fī <date type="created" when="1850-08-23" when-custom="1266-10-15">15 L sene 66</date>
-                </p>
-                <div2 facs="#zone_ynz_dgx_cjb" type="sign">
-                    <p>
-                        <lb />El-me'mūr <persName>Mehmed</persName> emīn-i mukātaʿa-i Kirşevo hālā M<lb />
-                    </p>
-                </div2>
-                <div2 type="şühūdu’l-hāl">
-                    <p>
-                        <lb />Zimmī PTAE ŞUNİK
-                        <lb />Zimmī TUNA PANA
-                        <lb />Zimmī İLYAK İWANVİK
-                        <lb />ve gayruhum
-                    </p>
-                </div2>
-            </div1>
-            <div1 facs="#zone_bgl_ggx_cjb" type="summary_Croatian">
-                <p>
-                    <lb />... <date type="summary_Croatian" when="1880">1880</date><lb />
-                    <lb />Nno 4. <date type="summary_Croatian" when="1850-11-04" when-custom="1266">1266</date>.<lb />
-                </p>
-            </div1>
-        </body>
-    </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1912</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">クレシェヴォの私有鉄鉱山と私有林の徴税請負権の売買</note>
+				<note type="summary">クレシェヴォのムカーター・エミンであるメフメドのムカーター地内にあった、ムスリム村内の私有鉄鉱山と私有林の徴税権を、クレシェヴォ教会長に100グルシュで売却したことを証明するテズキレ</note>
+				<note type="translation">
+					<p>クレシェヴォのムカーターエミンであるメフメドが、1265年3月以降請負っていた</p>
+					<p>クレシェヴォの鉄鉱山ムカーター内にいたムスリム共同体VDHUYLEの境域内にあった私有鉱山と私有林は、ズィンミーBRANO BALEの保有地であった。</p>
+					<p>メフメトは、クレシェヴォ教会の長（ガルディヤーン）に対し、100グルシュを対価として徴税権（？）を売却し、教会長もそれを認めた。</p>
+					<p>そこで、ムスリムの村VDHUYLE内の私有鉱山と私有林の所有していることを証明するテズキレを授受した後、教会長に徴税権を委譲し、このテズキレを与えた。</p>
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1912.JPG"/>
+			<zone ulx="300" uly="300" lrx="2383" lry="2766" xml:id="zone_b4r_cgx_cjb"/>
+			<zone ulx="2060" uly="2060" lrx="412" lry="2448" xml:id="zone_ynz_dgx_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1913.JPG"/>
+			<zone ulx="766" uly="766" lrx="2096" lry="1683" xml:id="zone_bgl_ggx_cjb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_b4r_cgx_cjb" type="zabt_tezkire">
+				<p>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date when="1849-11-14" when-custom="1265">iki yüz altmış elli senesinin</date>
+					 maʿden-i āhen-i					<placeName>Kirşevo</placeName>
+					 mukātaʿası Martı iʿtibār ile ʿuhdemizde bulunan
+					<lb/>
+					Müslimīn cemāʿatın					<placeName>VDHUYLE</placeName>
+					 hudūd dāhilinde mülk maʿdeni ... dimekle sekiz ... mülk maʿdeninde
+					<lb/>
+					ve ormanda Kirşevo varoş mutavattınlarında zimmī					<persName>BRANO BALE</persName>
+					 nām mesfūr mutasarrıf eylediği işbu dārende-i hurūf Kirşevo
+					<lb/>
+					varoş kilisadan					<persName>gardiyān</persName>
+					 nām ruhbāna yüz guruş bedeli mukābelesinde beyʿ-i bāt ve ...  beyʿ edüb ol dahi kabūl
+					<lb/>
+					bizim dahi me'mūrımız hasebiyle mezkūr karye-i					<placeName>VDHUYLE</placeName>
+					 hudūdunda maʿden-i mülk ve orman-ı mezkūrnda ...
+					<lb/>
+					mutasarruf olan resm-i tezkire baʿde'l-ahz gardiyāna tafvīz ve yedine işbu zabt tezkire virdüm tarafımızdan ve taraf-ı
+					<lb/>
+					āhardan bir kimesne māniʿ ve mudāhale olunmaya fī					<date type="created" when="1850-08-23" when-custom="1266-10-15">15 L sene 66</date>
+				</p>
+				<div2 facs="#zone_ynz_dgx_cjb" type="sign">
+					<p>
+						<lb/>
+						El-me'mūr						<persName>Mehmed</persName>
+						 emīn-i mukātaʿa-i Kirşevo hālā M
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						Zimmī PTAE ŞUNİK
+						<lb/>
+						Zimmī TUNA PANA
+						<lb/>
+						Zimmī İLYAK İWANVİK
+						<lb/>
+						ve gayruhum
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_bgl_ggx_cjb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1880">1880</date>
+					<lb/>
+					<lb/>
+					Nno 4.					<date type="summary_Croatian" when="1850-11-04" when-custom="1266">1266</date>
+					.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

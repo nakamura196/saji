@@ -1,0 +1,72 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0387</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1864/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1864/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/87c8770452cb394c3260320379ad9ba8822ae47b.jpg" />
+        <zone lrx="1637" lry="3224" ulx="721" uly="232" xml:id="zone_xfn_rw1_qkb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1864/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7a496436188048f7bb9356db529d0246197dd784.jpg" />
+        <zone lrx="1728" lry="1605" ulx="1159" uly="669" xml:id="zone_dkp_xw1_qkb" />
+        <zone lrx="1561" lry="1600" ulx="1367" uly="1421" xml:id="zone_wgl_yw1_qkb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1864/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/86a0497f116c1b5c92b5b644917b5d51d1da19be.jpg" />
+        <zone lrx="1938" lry="2924" ulx="1579" uly="1903" xml:id="zone_vgb_bx1_qkb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/1864/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/1d2ea8980377a5d145d59cb8cb9c0ce1886ca58b.jpg" />
+        <zone lrx="1950" lry="1227" ulx="323" uly="938" xml:id="zone_xjk_cx1_qkb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_xfn_rw1_qkb" next="#zone_vgb_bx1_qkb" type="hüccet">
+        <p>
+          <lb />... <date type="created" when="1857-06-06" when-custom="1273-10-14">fi'l-yevmi'l-rābiʿ ve'l-ʿaşr min şehri Şevvālı'l-mukarrem
+          <lb />sene suls ve sabʿīn ve mieteyn ve elif</date>
+        </p>
+        <div2 facs="#zone_dkp_xw1_qkb" type="sign">
+          <p>
+            <lb />... <lb />
+          </p>
+          <div3 facs="#zone_wgl_yw1_qkb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />Şühūdu’l-hāl
+            <lb />
+          </p>
+        </div2>
+        <div2 facs="#zone_vgb_bx1_qkb" next="#zone_xjk_cx1_qkb" type="unkown">
+          <p>
+            <lb />... fī <lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_xjk_cx1_qkb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

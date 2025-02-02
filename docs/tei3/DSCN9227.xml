@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,48 +14,54 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2151/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2151/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3a84cf24353768a5d16b7ef0c8c6ce7f7b8a09e6.jpg"/>
-				<zone lrx="2512" lry="2463" ulx="2140" uly="2242" xml:id="zone_zsh_nms_mlb"/>
-				<zone lrx="2478" lry="1468" ulx="510" uly="727" xml:id="zone_in4_4ms_mlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2151/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/959b1c6c725e333a34ef01f3bb98bce015034883.jpg"/>
-				<zone lrx="2293" lry="2442" ulx="128" uly="121" xml:id="zone_yzw_tms_mlb"/>
-				<zone lrx="677" lry="2282" ulx="360" uly="1922" xml:id="zone_vtc_vms_mlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9227.JPG"/>
+			<zone ulx="2242" uly="2242" lrx="2512" lry="2463" xml:id="zone_zsh_nms_mlb"/>
+			<zone ulx="727" uly="727" lrx="2478" lry="1468" xml:id="zone_in4_4ms_mlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9228.JPG"/>
+			<zone ulx="121" uly="121" lrx="2293" lry="2442" xml:id="zone_yzw_tms_mlb"/>
+			<zone ulx="1922" uly="1922" lrx="677" lry="2282" xml:id="zone_vtc_vms_mlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_yzw_tms_mlb" next="#zone_in4_4ms_mlb" subtype="zabt_temessük" type="EMIN">
 				<p>
-					<lb/>işbu <date type="created" when="1826-08-03" when-custom="1241">bin iki yüz kırk bir senesinde</date> der ...
+					<lb/>
+					işbu					<date type="created" when="1826-08-03" when-custom="1241">bin iki yüz kırk bir senesinde</date>
+					 der ...
 					<lb/>
 				</p>
 				<div2 facs="#zone_vtc_vms_mlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_zsh_nms_mlb" type="stamp_sūret">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_in4_4ms_mlb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1826">1826</date> - <date type="summary_Croatian" when="1826-08-03" when-custom="1241">1241</date>.
+					<lb/>
+					...					<date type="summary_Croatian" when="1826">1826</date>
+					 -					<date type="summary_Croatian" when="1826-08-03" when-custom="1241">1241</date>
+					.
 					<lb/>
 				</p>
 			</div1>

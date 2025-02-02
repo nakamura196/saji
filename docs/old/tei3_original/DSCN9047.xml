@@ -1,0 +1,62 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9047</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">エミンから非ムスリムへのミーリー地の譲渡？</note>
+				<note type="mine">文字は丁寧できれいだが、インクが薄かったりにじんだり移ったりしていて読みづらい箇所が多い。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1974/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1974/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/11b4105024964363047b1b94850c1eb39fb11a0b.jpg"/>
+				<zone lrx="2433" lry="3050" ulx="67" uly="141" xml:id="zone_ujv_m5b_ykb"/>
+				<zone lrx="639" lry="2896" ulx="274" uly="2517" xml:id="zone_ds1_45b_ykb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_ujv_m5b_ykb" type="EMIN">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>bā-berāt-ı şerīf ʿāid(?) mutasarrıf olduğum(?) tımārım kurālarından <placeName>KOMAR</placeName> karyesi
+					<lb/>hudūd dāhilinde arāzī-i mīrīye mutasarrıflarından(?) zimmī ...
+					<lb/>... olub taht-ı tasarrıfında bulunan arāzī-i mīrīye ... kulub ...
+					<lb/>mustahakk olmağla mesfūre ... Īvān nām(?)
+					<lb/>zimmīler tapu ... olub biz dahi sāhib-i arz bulunduğumuz hasebiyle ...
+					<lb/>merkūm ... mūcib ...
+					<lb/>zimmī ... edüb mā-dām ki ... tarafımıza ʿāid olan
+					<lb/>āşār-ı şerʿiye ve rüsūmāt-ı sā'ir edā ede(?) zabt ve tararrıfına on(?) birle tarafımızdan
+					<lb/>ve taraf-ı āhardan arāzī-i mezkūrenin zirāʿatına karar(?) ve ahz kimesne
+					<lb/>māniʿ olunmaya(?) hurira fī <date cert="medium" type="created" when="1815-07-18" when-custom="1230-08-11">11 Şaʿbān sene 1230</date>
+				</p>
+				<div2 facs="#zone_ds1_45b_ykb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Mehmed ŞĀHĪ
+						<lb/>karye-i SRSUYA
+						<lb/>M </p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Zimmī YUZİ OKUÇ
+						<lb/>Zimmī Īvān KİSE
+						<lb/>Zimmī ... KOLAŞ </p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

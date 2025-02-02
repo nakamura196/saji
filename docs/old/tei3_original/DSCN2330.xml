@@ -1,0 +1,50 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2330</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2658/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2658/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/448b1da056b3086b253a7ddc2fd93d8c4dc45a70.jpg"/>
+				<zone lrx="1813" lry="2940" ulx="173" uly="1166" xml:id="zone_m4j_pzm_dmb"/>
+				<zone lrx="687" lry="2903" ulx="265" uly="2553" xml:id="zone_zyl_qzm_dmb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2658/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/71a8762412fc985ed6388a485c75221492a78698.jpg"/>
+				<zone lrx="3056" lry="1227" ulx="389" uly="555" xml:id="zone_khp_rzm_dmb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_m4j_pzm_dmb" next="#zone_khp_rzm_dmb" type="mürāsele">
+				<p>
+					<lb/>... hurira fī <date type="created" when-custom="xx-08-02">2 Şaʿbān</date> ...
+					<lb/>
+				</p>
+				<div2 facs="#zone_zyl_qzm_dmb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_khp_rzm_dmb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1773">1773</date>
+					<lb/>... <date type="summary_Croatian" when="1773">1773</date>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

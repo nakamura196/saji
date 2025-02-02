@@ -1,0 +1,110 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0218</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">土地移転 ferāğ</note>
+				<note type="summary">マーリキャーネ地とその徴税権の、非ムスリム間の譲渡に関するタプ証文</note>
+				<note type="mine">おそらくクレシェヴォ修道院とは直接関係のない非ムスリム同士の土地のやり取りについての証文。ここまで見てきた中では珍しい。</note>
+				<note type="mine">クレシェヴォの地名がどこにも出てこない点も珍しい。クレシェヴォ修道院が面倒を見た範囲の特定に役立つかも？</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<classCode scheme="">土地譲渡・売買</classCode>
+			</textClass>
+		</profileDesc>		
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1697/manifest">
+			<surface>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/06dd53b97c01be5988bc94cea88622ff8f25e233.jpg" n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p1"/>
+				<zone xml:id="zone_bll_1ck_kjb" lry="3150" lrx="2060" uly="170" ulx="360"/>
+				<zone xml:id="zone_nm4_cck_kjb" lry="3146" lrx="871" uly="2688" ulx="391"/>
+				<zone xml:id="zone_fwk_dck_kjb" lry="3135" lrx="864" uly="2910" ulx="605"/>
+				<zone xml:id="zone_csr_rwk_hrb" lry="1665" lrx="1540" uly="1543" ulx="1247"/>
+				<zone xml:id="zone_v5g_yxk_hrb" lry="1780" lrx="1060" uly="1607" ulx="560"/>
+				<zone xml:id="zone_crd_1yk_hrb" lry="1884" lrx="1560" uly="1769" ulx="1215"/>
+				<zone xml:id="zone_uwn_jyk_hrb" lry="1863" lrx="906" uly="1732" ulx="533"/>
+				<zone xml:id="zone_t1p_5yk_hrb" lry="1949" lrx="781" uly="1855" ulx="604"/>
+				<zone xml:id="zone_qj2_kbl_hrb" lry="2148" lrx="1660" uly="1989" ulx="1183"/>
+				<zone xml:id="zone_y33_rql_hrb" lry="2684" lrx="2027" uly="2285" ulx="1688"/>
+				<zone xml:id="zone_hjn_sql_hrb" lry="2331" lrx="2075" uly="2057" ulx="1715"/>
+				<zone xml:id="zone_tdp_tql_hrb" lry="2036" lrx="1990" uly="1814" ulx="1696"/>
+				<zone xml:id="zone_gmd_drl_hrb" lry="1087" lrx="1258" uly="229" ulx="829"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1697/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e3a722699986684b39fe2a75565eafb3e4d96bd3.jpg"/>
+				<zone lrx="2850" lry="1672" ulx="234" uly="705" xml:id="zone_wg4_2ck_kjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_tapu_temessük" cert="unknown" facs="#zone_bll_1ck_kjb">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf-u tapu temessüğü oldur ki
+					<lb/>bā-berāt-ı şerīfe-i ʿālīşān ber-vech-i iştirāk mutasarrıf olduğumuz
+					<lb/>mālikânemiz ... cedīd karyesinde
+					<lb/>vākiʿ <persName facs="#zone_csr_rwk_hrb">Murād HALİLİÇ</persName> nām kimesneye taht-ı tasarrıfında bulunan bir kıtʿa
+					<lb/>tarla-yı arāzī-i emriye(?) bir taraf-ı <persName facs="#zone_v5g_yxk_hrb">Seyyid ve sā'irin ...</persName> ve taraf-ı
+					<lb/>sānī <persName facs="#zone_crd_1yk_hrb">ʿAnton RAVNAK</persName> ve taraf-ı sālis <persName facs="#zone_uwn_jyk_hrb">KOYADIL TPRAGNA</persName> ve taraf-ı
+					<lb/>rābiʿ hudūd maʿrūmesiyle(?) işbu dārende-i hurūf <placeName facs="#zone_t1p_5yk_hrb">OSUDA</placeName> karyesinden
+					<lb/><persName facs="#zone_qj2_kbl_hrb">BRATOR Luka Dobliç</persName> nām zimmī arāzī-i mezkūrenin hakk-ı tasarrıf
+					<lb/>iki yüz seksen guruş bedel mukābelesinde ferāğ ve ... edüb
+					<lb/>ve merkūm zimmī bedel-i mebrāğı mikdārı mukābelesinde ahz ve kabūl etmekle
+					<lb/>tasarrıfına izin ve tapuya tālib(?) ve rāgib olmağıla biz dahi me'mūr o
+					<lb/>olduğumuz hasebiyle tecvīz görüb kānūn-u pādişāhī üzere resm-i
+					<lb/>tapu baʿde'l-ahz arāzī-i mezkūr tasarrıfına izin virdik(?) mā-dām ki sāl
+					<lb/>be-sāl üzerine māl-ı mīrī me'mūre baʿde'l-edā tasarrıfına tarafımızdan
+					<lb/>ve taraf-ı āhardan kimesne māniʿ olunmaya <date when-custom="1266" type="created" when="1850-11-04">sene 66</date>
+				</p>
+				<div2 type="sign" facs="#zone_nm4_cck_kjb">
+					<p>
+						<lb/>...
+						<lb/>... mezbūr
+						<lb/>mutasarrıf
+						<lb/>maʿlūm
+						<lb/>Süleymān </p>
+					<div3 type="stamp" facs="#zone_fwk_dck_kjb">
+						<p>
+							<lb/>...
+							<lb/>...
+							<lb/>...
+							<lb/>...
+							<lb/>... Süleymān </p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/><persName facs="#zone_y33_rql_hrb">Sālih LABİÇ ʿan PLNKA</persName>
+						<lb/><persName facs="#zone_hjn_sql_hrb">MUYAGAMA İsmāʿīl</persName>
+						<lb/><persName facs="#zone_tdp_tql_hrb">İbrāhīm BABLAR</persName>
+						<lb/>ve gayrihim </p>
+				</div2>
+				<div2 type="note" facs="#zone_gmd_drl_hrb">
+					<p>
+						<lb/>Varaka sahīh bulunmaduğundan gelince yedik(?)
+						<lb/>işbu varakada tahrīr oludu </p>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian" facs="#zone_wg4_2ck_kjb">
+				<p>
+					<lb/>Tapja na nıchn jadnn na Ponijari
+					<lb/>Koju je Kvjvo Tka Luka Drojuzrıv
+					<lb/><date when-custom="1266" type="summary_Croatian" when="1850-11-04">g. 1266</date>.
+					<lb/>66 </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

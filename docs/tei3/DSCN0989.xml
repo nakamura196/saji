@@ -1,62 +1,66 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0989</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">DSCN1023.JPGと全く同じ画像・文書。重複している。</note>
-<note type="mine">日付：月までは分かったが、日が記述されているかどうか判然としない。本文を読んで要検討。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "A" ], "saji:date_M": [ "1215-B-n/a" ], "saji:fond": [
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0989</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">DSCN1023.JPGと全く同じ画像・文書。重複している。</note>
+				<note type="mine">日付：月までは分かったが、日が記述されているかどうか判然としない。本文を読んで要検討。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:date_M": [ "1215-B-n/a" ], "saji:fond": [
                "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1105/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1105/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f36de2a672b804798c87ef8fe05b998749ee4d86.jpg" />
-<zone lrx="1887" lry="3058" ulx="704" uly="670" xml:id="zone_upd_1mf_z3b" />
-<zone lrx="1262" lry="1267" ulx="1091" uly="1118" xml:id="zone_q3t_cmf_z3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1105/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c68816dc273017043dfdb75940734207235eaa34.jpg" />
-<zone lrx="2695" lry="1294" ulx="645" uly="688" xml:id="zone_tbt_2mf_z3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1105/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/4d953782b6733d661909574547c2e79a8c379f15.jpg" />
-<zone lrx="1800" lry="3080" ulx="610" uly="593" xml:id="zone_cm2_rj3_1jb" />
-<zone lrx="1179" lry="1197" ulx="1003" uly="1053" xml:id="zone_c2x_tj3_1jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1105/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/4dde77de96f05721a85c49468dd74771f6144e30.jpg" />
-<zone lrx="2634" lry="1077" ulx="645" uly="455" xml:id="zone_izf_vj3_1jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 cert="medium" facs="#zone_upd_1mf_z3b" type="hüccet">
-<l>... <date cert="low" type="created" when="1820-05-11" when-custom="1235-07">şehr Receb sene hıms ve salāsīn ve miyetein ve elif</date></l>
-<div3 facs="#zone_q3t_cmf_z3b" type="stamp" />
-</div1>
-<div1 facs="#zone_tbt_2mf_z3b" type="summary_Croatian" />
-<div1 facs="#zone_cm2_rj3_1jb" type="hüccet">
-<p>
-<lb />fī <date type="created" when="1820-05-11" when-custom="1235-07">şehr Receb sene hımıs ve selāsīn ve mieteyn ve elif</date><lb />
-</p>
-<div3 facs="#zone_c2x_tj3_1jb" type="stamp" />
-</div1>
-<div1 facs="#zone_izf_vj3_1jb" type="summary_Croatian">
-<p>
-<lb />... <lb />
-</p>
-</div1>
-</body>
-</text>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0989.JPG"/>
+			<zone ulx="670" uly="670" lrx="1887" lry="3058" xml:id="zone_upd_1mf_z3b"/>
+			<zone ulx="1118" uly="1118" lrx="1262" lry="1267" xml:id="zone_q3t_cmf_z3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0990.JPG"/>
+			<zone ulx="688" uly="688" lrx="2695" lry="1294" xml:id="zone_tbt_2mf_z3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1023.JPG"/>
+			<zone ulx="593" uly="593" lrx="1800" lry="3080" xml:id="zone_cm2_rj3_1jb"/>
+			<zone ulx="1053" uly="1053" lrx="1179" lry="1197" xml:id="zone_c2x_tj3_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1024.JPG"/>
+			<zone ulx="455" uly="455" lrx="2634" lry="1077" xml:id="zone_izf_vj3_1jb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="medium" facs="#zone_upd_1mf_z3b" type="hüccet">
+				<l>
+					...					<date cert="low" type="created" when="1820-05-11" when-custom="1235-07">şehr Receb sene hıms ve salāsīn ve miyetein ve elif</date>
+				</l>
+				<div3 facs="#zone_q3t_cmf_z3b" type="stamp"/>
+			</div1>
+			<div1 facs="#zone_tbt_2mf_z3b" type="summary_Croatian"/>
+			<div1 facs="#zone_cm2_rj3_1jb" type="hüccet">
+				<p>
+					<lb/>
+					fī					<date type="created" when="1820-05-11" when-custom="1235-07">şehr Receb sene hımıs ve selāsīn ve mieteyn ve elif</date>
+					<lb/>
+				</p>
+				<div3 facs="#zone_c2x_tj3_1jb" type="stamp"/>
+			</div1>
+			<div1 facs="#zone_izf_vj3_1jb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

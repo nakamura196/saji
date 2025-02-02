@@ -1,59 +1,67 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2074</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2403/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2403/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/107df47281e811a23f23e8c3ee764efb42c1ce21.jpg" />
-        <zone lrx="1991" lry="2763" ulx="363" uly="554" xml:id="zone_ifh_gm5_bmb" />
-        <zone lrx="945" lry="2706" ulx="433" uly="2296" xml:id="zone_xcz_hm5_bmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2403/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/48de349c194a9b3ad859abba9691a09ef8513b64.jpg" />
-        <zone lrx="2133" lry="2579" ulx="1771" uly="2320" xml:id="zone_ofm_jm5_bmb" />
-        <zone lrx="2033" lry="566" ulx="591" uly="154" xml:id="zone_dxg_km5_bmb" />
-        <zone lrx="2291" lry="1870" ulx="2054" uly="1004" xml:id="zone_k2c_lm5_bmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_ifh_gm5_bmb" next="#zone_dxg_km5_bmb" type="tezkire">
-        <p>
-          <lb />... fī <lb />
-        </p>
-        <div2 facs="#zone_xcz_hm5_bmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_ofm_jm5_bmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_dxg_km5_bmb" next="#zone_k2c_lm5_bmb" type="unkown">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-      <div1 facs="#zone_k2c_lm5_bmb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2074</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2074.JPG"/>
+			<zone ulx="554" uly="554" lrx="1991" lry="2763" xml:id="zone_ifh_gm5_bmb"/>
+			<zone ulx="2296" uly="2296" lrx="945" lry="2706" xml:id="zone_xcz_hm5_bmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2075.JPG"/>
+			<zone ulx="2320" uly="2320" lrx="2133" lry="2579" xml:id="zone_ofm_jm5_bmb"/>
+			<zone ulx="154" uly="154" lrx="2033" lry="566" xml:id="zone_dxg_km5_bmb"/>
+			<zone ulx="1004" uly="1004" lrx="2291" lry="1870" xml:id="zone_k2c_lm5_bmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_ifh_gm5_bmb" next="#zone_dxg_km5_bmb" type="tezkire">
+				<p>
+					<lb/>
+					... fī					<lb/>
+				</p>
+				<div2 facs="#zone_xcz_hm5_bmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_ofm_jm5_bmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_dxg_km5_bmb" next="#zone_k2c_lm5_bmb" type="unkown">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+			<div1 facs="#zone_k2c_lm5_bmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

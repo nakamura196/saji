@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -18,116 +19,146 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1395/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b1c858c551a7ecd7a879b6ba4d35d01497955bb4.jpg"/>
-				<zone lrx="2183" lry="2941" ulx="117" uly="141" xml:id="zone_ayl_svv_cjb"/>
-				<zone lrx="647" lry="2862" ulx="456" uly="2712" xml:id="zone_ocr_tvv_cjb"/>
-				<zone lrx="430" lry="2813" ulx="235" uly="2686" xml:id="zone_kq3_5vv_cjb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a00565d19e1996ca885d7bf1e6cad4802cc6570a.jpg"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/dd765ef7e6b43c3444dc1da6f41f05310c8ea6e6.jpg"/>
-				<zone lrx="2439" lry="1450" ulx="923" uly="900" xml:id="zone_xpk_xvv_cjb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1395/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/d87c8600f9b7c195bd1028b6cbde9d11830f0d66.jpg"/>
-				<zone lrx="1862" lry="1253" ulx="1549" uly="943" xml:id="zone_v12_zvv_cjb"/>
-				<zone lrx="1432" lry="1304" ulx="1134" uly="1034" xml:id="zone_bvq_zvv_cjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1865.JPG"/>
+			<zone ulx="141" uly="141" lrx="2183" lry="2941" xml:id="zone_ayl_svv_cjb"/>
+			<zone ulx="2712" uly="2712" lrx="647" lry="2862" xml:id="zone_ocr_tvv_cjb"/>
+			<zone ulx="2686" uly="2686" lrx="430" lry="2813" xml:id="zone_kq3_5vv_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1866.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1867.JPG"/>
+			<zone ulx="900" uly="900" lrx="2439" lry="1450" xml:id="zone_xpk_xvv_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1868.JPG"/>
+			<zone ulx="943" uly="943" lrx="1862" lry="1253" xml:id="zone_v12_zvv_cjb"/>
+			<zone ulx="1034" uly="1034" lrx="1432" lry="1304" xml:id="zone_bvq_zvv_cjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_ayl_svv_cjb" type="EMIN">
 				<p>
-					<lb/>Hüve
 					<lb/>
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/><date type="created" when="1880-12-01" when-custom="1297">iki yüz doksan yedi senesine</date>mahsūben iştirākan der ʿuhde ve iltizāmımızda olub Kirşevo mālikânesine merbūt
+					Hüve
+					<lb/>
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					<date type="created" when="1880-12-01" when-custom="1297">iki yüz doksan yedi senesine</date>
+					mahsūben iştirākan der ʿuhde ve iltizāmımızda olub Kirşevo mālikânesine merbūt
 					nefs-i varoş-u Kirşevo
 					<lb/>
-					<lb/>hudūdu dāhilinde Grad demekle maʿrūf çiftlik beyne'l-ahāli ve'l-cīrān ve kurbında iki kıtʿa tarla Luka demekle ve ISTERANE(/istidāne?) ile maʿrūf
 					<lb/>
-					<lb/>tarlalar ile nefs ve PRANKA karyesinde RAVNA demekle maʿrūf tarlalar ve LUPATA demekle nām yaylada çayırlarıyla TRA'İBÇE yaylada
+					hudūdu dāhilinde Grad demekle maʿrūf çiftlik beyne'l-ahāli ve'l-cīrān ve kurbında iki kıtʿa tarla Luka demekle ve ISTERANE(/istidāne?) ile maʿrūf
 					<lb/>
-					<lb/>olan otlak yerleri ile HYTAÇ nām yaylada olan çayırlar beyne'l-ahāli ve'l-cīrān maʿlūmu'l-hudūd ve
 					<lb/>
-					<lb/>el-müştemelāt örüsüyle ve korusıyla arāzī-i mīrīyesinden olub varoş-ı mezbūrda kilisanın
+					tarlalar ile nefs ve PRANKA karyesinde RAVNA demekle maʿrūf tarlalar ve LUPATA demekle nām yaylada çayırlarıyla TRA'İBÇE yaylada
 					<lb/>
-					<lb/>rāhiblerinden olub zimmī PRAGRGU nām gardiyān arāzī-i mezbūreye mutasarruf iken bilā-veled mürd ü helāk olub arāzī-i mezbūreyi
 					<lb/>
-					<lb/>erbāb-ı istihkākdan tapu ile tefevvuza tālib olmadığına binā'en medīne-i Saray sākinlerinden Çukacızāde Fazīletlü Ahmed Efendī arāzī-i mahlūle-i mezbūreye
+					olan otlak yerleri ile HYTAÇ nām yaylada olan çayırlar beyne'l-ahāli ve'l-cīrān maʿlūmu'l-hudūd ve
 					<lb/>
-					<lb/>tālib ve rāgib olmağla biz dahi tafvīze me'mūr olduğumuz hasebiyle kānūn-u cihāndārī üzere resm-i tabusın alub mu'māileyhe arāzī-i mezbūre'i tafvīz ve tasarrıfına
 					<lb/>
-					<lb/>izin virüb mā-dām ki her sāl be-sāl aʿşār-ı şerʿiyesin kabzına me'mūra edā eyleye tasarrıfına kimesne māniʿ olmaya
+					el-müştemelāt örüsüyle ve korusıyla arāzī-i mīrīyesinden olub varoş-ı mezbūrda kilisanın
+					<lb/>
+					<lb/>
+					rāhiblerinden olub zimmī PRAGRGU nām gardiyān arāzī-i mezbūreye mutasarruf iken bilā-veled mürd ü helāk olub arāzī-i mezbūreyi
+					<lb/>
+					<lb/>
+					erbāb-ı istihkākdan tapu ile tefevvuza tālib olmadığına binā'en medīne-i Saray sākinlerinden Çukacızāde Fazīletlü Ahmed Efendī arāzī-i mahlūle-i mezbūreye
+					<lb/>
+					<lb/>
+					tālib ve rāgib olmağla biz dahi tafvīze me'mūr olduğumuz hasebiyle kānūn-u cihāndārī üzere resm-i tabusın alub mu'māileyhe arāzī-i mezbūre'i tafvīz ve tasarrıfına
+					<lb/>
+					<lb/>
+					izin virüb mā-dām ki her sāl be-sāl aʿşār-ı şerʿiyesin kabzına me'mūra edā eyleye tasarrıfına kimesne māniʿ olmaya
 					<lb/>
 				</p>
 				<div2 facs="#zone_ocr_tvv_cjb" type="sign">
 					<p>
-						<lb/>Bende ʿAbdüllāh el-me'mūr
+						<lb/>
+						Bende ʿAbdüllāh el-me'mūr
 						<lb/>
 					</p>
 					<div3 facs="#zone_v12_zvv_cjb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 facs="#zone_kq3_5vv_cjb" type="sign">
 					<p>
-						<lb/>Bende Mehmed el-me'mūr
+						<lb/>
+						Bende Mehmed el-me'mūr
 						<lb/>
 					</p>
 					<div3 facs="#zone_bvq_zvv_cjb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>Novalı Zāde Süleymān Ağa
 						<lb/>
-						<lb/>ŞHEHMANI Zāde Ahmed Ağa
+						Novalı Zāde Süleymān Ağa
 						<lb/>
-						<lb/>Biraderi Mollā Süleymān
 						<lb/>
-						<lb/>ÇZMU Oğlu Yaʿkūb Efendī
+						ŞHEHMANI Zāde Ahmed Ağa
 						<lb/>
-						<lb/>Mollā Selim İmām-ı Kirşevo
 						<lb/>
-						<lb/>Paşalu Oğlu Mollā Sālih
+						Biraderi Mollā Süleymān
 						<lb/>
-						<lb/>BYRNU ʿAbdüllāh Paşa
 						<lb/>
-						<lb/>HŞLAK Sālih Beşe
+						ÇZMU Oğlu Yaʿkūb Efendī
 						<lb/>
-						<lb/>Mustafa ʿOsman Sipāhī Oğlu
 						<lb/>
-						<lb/>ʿan Visoka
+						Mollā Selim İmām-ı Kirşevo
 						<lb/>
-						<lb/>Kethüdā Oğlu Mehmed Efendī ʿan Visoka
 						<lb/>
-						<lb/>İstolçalı Mollā Mollā Ahmed Pino
+						Paşalu Oğlu Mollā Sālih
 						<lb/>
-						<lb/>ŞÖŞE Oğlu İbrāhīm Beşe
 						<lb/>
-						<lb/>SLAYCI Hasan Beşe
+						BYRNU ʿAbdüllāh Paşa
 						<lb/>
-						<lb/>ve garyruhum mine'l-huzzār
+						<lb/>
+						HŞLAK Sālih Beşe
+						<lb/>
+						<lb/>
+						Mustafa ʿOsman Sipāhī Oğlu
+						<lb/>
+						<lb/>
+						ʿan Visoka
+						<lb/>
+						<lb/>
+						Kethüdā Oğlu Mehmed Efendī ʿan Visoka
+						<lb/>
+						<lb/>
+						İstolçalı Mollā Mollā Ahmed Pino
+						<lb/>
+						<lb/>
+						ŞÖŞE Oğlu İbrāhīm Beşe
+						<lb/>
+						<lb/>
+						SLAYCI Hasan Beşe
+						<lb/>
+						<lb/>
+						ve garyruhum mine'l-huzzār
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_xpk_xvv_cjb" type="summary_Croatian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

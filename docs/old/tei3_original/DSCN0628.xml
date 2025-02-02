@@ -1,0 +1,41 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0628</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 7" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3032/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3032/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b3de938b1f6aa225dd9e17bae0589e0c54ffba64.jpg" />
+        <zone lrx="1900" lry="2870" ulx="80" uly="-20" xml:id="zone_wmr_l2k_2mb" />
+        <zone lrx="1775" lry="597" ulx="1442" uly="306" xml:id="zone_bc1_n2k_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_wmr_l2k_2mb" type="beyāz_üzerine_buyuruldu">
+        <p>
+          <lb />
+          <lb />... fī <date type="created" when="1835-06-03" when-custom="1251-02-07">7 S sene 251</date>
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_bc1_n2k_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

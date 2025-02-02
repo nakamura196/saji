@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,47 +14,51 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2187/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2187/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ac58ab0b7873aaeead4c8dc00cd6f0980a611486.jpg"/>
-				<zone lrx="2828" lry="1766" ulx="228" uly="772" xml:id="zone_wfn_b3h_nlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2187/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6a925d7c906df5bc81159bf2311b0d6197f5f05a.jpg"/>
-				<zone lrx="2335" lry="2435" ulx="264" uly="242" xml:id="zone_ffx_d3h_nlb"/>
-				<zone lrx="638" lry="1902" ulx="347" uly="1697" xml:id="zone_vpm_f3h_nlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9263.JPG"/>
+			<zone ulx="772" uly="772" lrx="2828" lry="1766" xml:id="zone_wfn_b3h_nlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9264.JPG"/>
+			<zone ulx="242" uly="242" lrx="2335" lry="2435" xml:id="zone_ffx_d3h_nlb"/>
+			<zone ulx="1697" uly="1697" lrx="638" lry="1902" xml:id="zone_vpm_f3h_nlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_ffx_d3h_nlb" next="#zone_wfn_b3h_nlb" subtype="temessük" type="EMIN">
 				<p>
-					<lb/>... fī <date cert="low" type="created" when="1821-09-20" when-custom="1236--23">23 sene 36</date>
+					<lb/>
+					... fī					<date cert="low" type="created" when="1821-09-20" when-custom="1236--23">23 sene 36</date>
 					<lb/>
 				</p>
 				<div2 type="unkown">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 				<div2 facs="#zone_vpm_f3h_nlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_wfn_b3h_nlb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1821">1821</date>. Nno 33.
+					<lb/>
+					...					<date type="summary_Croatian" when="1821">1821</date>
+					. Nno 33.
 					<lb/>
 				</p>
 			</div1>

@@ -1,0 +1,61 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0533</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2939/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2939/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6777bae1b7c231f0d8be31762fc911fe5939cab0.jpg" />
+        <zone lrx="1254" lry="3136" ulx="27" uly="127" xml:id="zone_oj4_yr3_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2939/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a8d07869e80401576eb999c2d2b846ea8a728d67.jpg" />
+        <zone lrx="1181" lry="1848" ulx="532" uly="1491" xml:id="zone_x1h_1s3_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2939/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/a6b2bcd2e37882e2f20213695b68a77a84a3729f.jpg" />
+        <zone lrx="2534" lry="1533" ulx="612" uly="400" xml:id="zone_xfl_bs3_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2939/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/c6874bedb9be8395323dcc7e8b02e79968db13be.jpg" />
+        <zone lrx="1283" lry="1225" ulx="800" uly="795" xml:id="zone_kft_cs3_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_oj4_yr3_2mb" next="#zone_xfl_bs3_2mb" type="iʿlām_maʿrūz">
+        <p>
+          <lb />
+          <lb />... hurira fī <date cert="medium" type="created" when="1781-12-08" when-custom="1195-12-22">22 Zı'l-hicce sene 1195</date>
+        </p>
+        <div2 facs="#zone_x1h_1s3_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_kft_cs3_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_xfl_bs3_2mb" type="summary_Serbian">
+        <p>
+          <lb />
+          <lb />... fī <date cert="medium" type="summary_Serbain" when="1781">1781</date>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

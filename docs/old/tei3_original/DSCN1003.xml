@@ -1,0 +1,41 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1003</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">日付：月Saferに見えるが分からない、年日の数字3の読みも合っているか分からない、要検討。</note>
+<note type="mine">署名：傘型</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1119/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1119/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/12f94bd8a1e6acb3827b2390c59daada9ac30dd2.jpg" />
+<zone lrx="2218" lry="3254" ulx="127" uly="163" xml:id="zone_ejn_fcg_z3b" />
+<zone lrx="1346" lry="2243" ulx="1175" uly="2090" xml:id="zone_q3f_hcg_z3b" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1119/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/134ba1c72a110d302ebe854a5fb210903c4eba49.jpg" />
+<zone lrx="1873" lry="1155" ulx="1006" uly="494" xml:id="zone_c1n_3cg_z3b" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ejn_fcg_z3b" type="tezkire">
+<l>fī <date cert="low" type="created" when="1821-11-18" when-custom="1237-02-23">23 Safer sene 37</date></l>
+<div3 facs="#zone_q3f_hcg_z3b" type="stamp" />
+</div1>
+<div1 facs="#zone_c1n_3cg_z3b" type="summary_Croatian" />
+</body>
+</text>
+</TEI>

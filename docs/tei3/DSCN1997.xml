@@ -1,43 +1,48 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN1997</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2327/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2327/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3b0eb3d21b84a711f8806a01e981e021f13aad1c.jpg" />
-        <zone lrx="2950" lry="1793" ulx="150" uly="-6" xml:id="zone_hrb_ltp_zlb" />
-        <zone lrx="752" lry="1635" ulx="304" uly="979" xml:id="zone_pds_ntp_zlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="medium" facs="#zone_hrb_ltp_zlb" subtype="zabt_temessük" type="EMIN">
-        <p>
-          <lb />... fī <date type="created" when="1832-07-13" when-custom="1248-02-15">15 S sene 248</date><lb />
-        </p>
-        <div2 facs="#zone_pds_ntp_zlb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1997</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN1997.JPG"/>
+			<zone ulx="-6" uly="-6" lrx="2950" lry="1793" xml:id="zone_hrb_ltp_zlb"/>
+			<zone ulx="979" uly="979" lrx="752" lry="1635" xml:id="zone_pds_ntp_zlb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="medium" facs="#zone_hrb_ltp_zlb" subtype="zabt_temessük" type="EMIN">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1832-07-13" when-custom="1248-02-15">15 S sene 248</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_pds_ntp_zlb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9333</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2257/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2257/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/619776c7800ee4ab526fb8e70d2be59db63f4590.jpg"/>
+				<zone lrx="2224" lry="1668" ulx="696" uly="968" xml:id="zone_gkl_hmm_ylb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2257/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d5d836d4e2dc80450545963f367caba76fef04d7.jpg"/>
+				<zone lrx="2354" lry="2645" ulx="63" uly="981" xml:id="zone_qp5_lmm_ylb"/>
+				<zone lrx="536" lry="2436" ulx="164" uly="2080" xml:id="zone_xtn_nmm_ylb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_qp5_lmm_ylb" next="#zone_gkl_hmm_ylb" type="EMIN">
+				<p>
+					<lb/>işbu <date type="created" when="1835-04-27" when-custom="1250">bin iki yüz elli senesinde</date> der ...
+					<lb/>
+				</p>
+				<div2 facs="#zone_xtn_nmm_ylb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_gkl_hmm_ylb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1836">1836</date>.
+					<lb/>Nno 7.
+					<lb/>69 </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

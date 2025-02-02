@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN8976</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">修道院長に対するムカーターの売却承認</note>
+				<note type="mine">文法、スペルともに乱れている。【要】読み直し。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1904/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1904/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/16725681efb4a85a8d1ce8ad489cf84384db9ff7.jpg"/>
+				<zone lrx="1936" lry="3245" ulx="-17" uly="36" xml:id="zone_lxv_rzr_wkb"/>
+				<zone lrx="540" lry="3202" ulx="161" uly="2788" xml:id="zone_u5k_tzr_wkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1904/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e0605d95101c51221d140f5e871428c9ece9f5ed.jpg"/>
+				<zone lrx="2789" lry="716" ulx="334" uly="266" xml:id="zone_wv5_5zr_wkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_lxv_rzr_wkb" next="#zone_wv5_5zr_wkb" type="EMIN_temessük">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki işbu <date when-custom="1242">bin iki yüz kırık iki senesinde</date>
+					<lb/>der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿa-i varoş
+					<lb/>kilisanın rāhibi olan gardiyān-ı nāmūn-ı mesfūrleri RAVN
+					<lb/>ve LUPATA ve HUVUNİÇE ve KOYSİNE ve BUİŞÇ nām mahalleleri ...
+					<lb/>olan ʿöşr-i mahsūlātı ... işbu dārende-i
+					<lb/>temessük kilisanın rāhibi olan gardiyāna sene-i sābık olan bedel-i
+					<lb/>iltizāmımızda kabūl ve bedel olan iki yüz guruş mukābele-i
+					<lb/>beyʿ eyledüm(?) işbu ... mezkūr tarafımıza edā ve teslīm işbu mahsūr(?)
+					<lb/>bu temessük yedine virildi ... tarafımızdan ve taraf-ı
+					<lb/>āhardan bir kimesne māniʿ olmaya
+					<lb/>fī <date type="created" when="1827-07-18" when-custom="1242-12-24">24 Z sene 242</date>
+				</p>
+				<div2 facs="#zone_u5k_tzr_wkb" type="sign">
+					<p>
+						<lb/>Bende-i
+						<lb/>Emīn-i
+						<lb/>Kirşevo
+						<lb/>Hālā M </p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_wv5_5zr_wkb" type="summary_Serbian">
+				<p>
+					<lb/>...
+					<lb/><date type="summary_Serbian" when="1780">1780</date>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

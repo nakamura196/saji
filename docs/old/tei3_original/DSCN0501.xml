@@ -1,0 +1,47 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0501</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C?" ], "saji:fond": [ "Tursko 6" ], "saji:memo": [ "・全体像がないのでサイズを特定できない。\r\n・文字の大きさや余白から、暫定的にサイズ「C」とした。" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2908/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2908/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cd111ad35fde1c153029d2dcb9cfda56614d8681.jpg" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2908/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/eb9a1d1353616c990ee4e90dcda4b2e9796e7459.jpg" />
+        <zone lrx="3028" lry="1900" ulx="6" uly="300" xml:id="zone_mcj_c5c_2mb" />
+        <zone lrx="1017" lry="1865" ulx="297" uly="1461" xml:id="zone_dhk_d5c_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2908/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/f7f28cd314a29681f8f01ef8b218a6ed57f23a6f.jpg" />
+        <zone lrx="1945" lry="905" ulx="150" uly="66" xml:id="zone_d4n_25c_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_mcj_c5c_2mb" next="#zone_d4n_25c_2mb" type="iʿlām_maʿrūz">
+        <p>
+          <lb />
+          <lb />... <date type="created" when="1770-12-30" when-custom="1184-09-13">fi'l-yevmi'l-sālis ʿaşar min şehr Ramazānı'l-mubārek sene 1184</date>
+        </p>
+      </div1>
+      <div1 facs="#zone_d4n_25c_2mb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1770">1770</date>
+          <lb />...
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

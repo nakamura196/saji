@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -24,44 +25,73 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1588/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1588/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b4f517581bccaf8d6961c5ffa207c56a755177e7.jpg"/>
-				<zone lrx="2336" lry="3072" ulx="82" uly="81" xml:id="zone_azy_lv5_2jb"/>
-				<zone lrx="655" lry="2968" ulx="356" uly="2623" xml:id="zone_ynz_mv5_2jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0104.JPG"/>
+			<zone ulx="81" uly="81" lrx="2336" lry="3072" xml:id="zone_azy_lv5_2jb"/>
+			<zone ulx="2623" uly="2623" lrx="655" lry="2968" xml:id="zone_ynz_mv5_2jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_tezkire" facs="#zone_azy_lv5_2jb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf <sic>aldır</sic><corr>oldur</corr> ki işbu <date when-custom="1186" type="created" when="1773-03-23">bin yüz seksen altı senesinde</date> der ʿuhde ve
-					iltizāmımızdan <sic>bulunun</sic><corr>bulunan</corr>
-					<lb/><placeName type="proper">Kirşevo</placeName> mukātaʿasına tābiʿ <placeName type="proper" cert="unknown">KOYSNA</placeName> karyesinde bir mikdār bağçe ve olman(?) ve bostanlık
-					<lb/>ve mülk-i emlāk ve değirmende sekiz ... hāssa ve gāyede sekiz ... hāssa ve koruda(?)
-					<lb/>hāssasıyla zimmī <persName>İstepan VİRLİÇ</persName> mutasarrıfnda ... işbu
-					<lb/>sāhibi'l-hurūf zimmī <persName>ʿAnton</persName> ve karındaş[ı] <persName>Īvān</persName> ve <persName>MATO veledān-ı Luka</persName> nāmān kimesnelere
-					<lb/>altımış guruş mukābelesinde beyʿ-i katʿiyle beyʿ edüb ol dahi beyʿ ve kabūl
-					<lb/>edüb biz dahi beyʿlerine cāiz görüb ve yedine işbu zabt-ı tezkire <sic>viraldi</sic><corr>virildi</corr>
-					<lb/>tasarrıfına bir kimesne māniʿ ve müdāhale olunmaya </p>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf					<sic>aldır</sic>
+					<corr>oldur</corr>
+					 ki işbu					<date when-custom="1186" type="created" when="1773-03-23">bin yüz seksen altı senesinde</date>
+					 der ʿuhde ve
+					iltizāmımızdan					<sic>bulunun</sic>
+					<corr>bulunan</corr>
+					<lb/>
+					<placeName type="proper">Kirşevo</placeName>
+					 mukātaʿasına tābiʿ					<placeName type="proper" cert="unknown">KOYSNA</placeName>
+					 karyesinde bir mikdār bağçe ve olman(?) ve bostanlık
+					<lb/>
+					ve mülk-i emlāk ve değirmende sekiz ... hāssa ve gāyede sekiz ... hāssa ve koruda(?)
+					<lb/>
+					hāssasıyla zimmī					<persName>İstepan VİRLİÇ</persName>
+					 mutasarrıfnda ... işbu
+					<lb/>
+					sāhibi'l-hurūf zimmī					<persName>ʿAnton</persName>
+					 ve karındaş[ı]					<persName>Īvān</persName>
+					 ve					<persName>MATO veledān-ı Luka</persName>
+					 nāmān kimesnelere
+					<lb/>
+					altımış guruş mukābelesinde beyʿ-i katʿiyle beyʿ edüb ol dahi beyʿ ve kabūl
+					<lb/>
+					edüb biz dahi beyʿlerine cāiz görüb ve yedine işbu zabt-ı tezkire					<sic>viraldi</sic>
+					<corr>virildi</corr>
+					<lb/>
+					tasarrıfına bir kimesne māniʿ ve müdāhale olunmaya				</p>
 				<div2 facs="#zone_ynz_mv5_2jb" type="sign">
 					<p>
-						<lb/>... Emīn-i
-						<lb/>mukātaʿ-i Kirşevo
-						<lb/>hālā </p>
+						<lb/>
+						... Emīn-i
+						<lb/>
+						mukātaʿ-i Kirşevo
+						<lb/>
+						hālā					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>NUVASI Zāde Süyeyman Ağa
-						<lb/>HAŞLIK Sālih Paşa
-						<lb/>İsmāʿil Solak ʿan LAPNIÇE
-						<lb/>PRANOKOŞU KOPK
-						<lb/>Peter PODO
-						<lb/>Īvān veled-i ROK
-						<lb/>Īvān YOK
-						<lb/>MATO LALK </p>
+						<lb/>
+						NUVASI Zāde Süyeyman Ağa
+						<lb/>
+						HAŞLIK Sālih Paşa
+						<lb/>
+						İsmāʿil Solak ʿan LAPNIÇE
+						<lb/>
+						PRANOKOŞU KOPK
+						<lb/>
+						Peter PODO
+						<lb/>
+						Īvān veled-i ROK
+						<lb/>
+						Īvān YOK
+						<lb/>
+						MATO LALK					</p>
 				</div2>
 			</div1>
 		</body>
@@ -77,9 +107,7 @@
 				</person>
 			</listPerson>
 			<listRelation>
-				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="beyʿ" active="#" passive="#"/>
-				<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="issue" active="#" passive="#"/>
 			</listRelation>
 		</back>

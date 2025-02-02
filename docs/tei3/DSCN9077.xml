@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -17,46 +18,67 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2004/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2004/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/53bc88154e78fdec5edef02221033f7f1ef9bc64.jpg"/>
-				<zone lrx="684" lry="659" ulx="471" uly="454" xml:id="zone_n3t_gct_flb"/>
-				<zone lrx="501" lry="503" ulx="266" uly="291" xml:id="zone_rgn_hct_flb"/>
-				<zone lrx="2248" lry="2760" ulx="236" uly="2457" xml:id="zone_v2s_3ct_flb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2004/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/eb3c3a9e566bee5ef4d37c745707d3593438ff85.jpg"/>
-				<zone lrx="2285" lry="3169" ulx="24" uly="930" xml:id="zone_nhq_lct_flb"/>
-				<zone lrx="522" lry="3112" ulx="72" uly="2770" xml:id="zone_fxq_nct_flb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9077.JPG"/>
+			<zone ulx="454" uly="454" lrx="684" lry="659" xml:id="zone_n3t_gct_flb"/>
+			<zone ulx="291" uly="291" lrx="501" lry="503" xml:id="zone_rgn_hct_flb"/>
+			<zone ulx="2457" uly="2457" lrx="2248" lry="2760" xml:id="zone_v2s_3ct_flb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9078.JPG"/>
+			<zone ulx="930" uly="930" lrx="2285" lry="3169" xml:id="zone_nhq_lct_flb"/>
+			<zone ulx="2770" uly="2770" lrx="522" lry="3112" xml:id="zone_fxq_nct_flb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_nhq_lct_flb" next="#zone_v2s_3ct_flb" type="EMIN_zabt_tezkire">
 				<p>
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>işbu <date type="created" when="1785-11-01" when-custom="1199">bin yüz doksan dokuz senesinde</date> der ʿuhde
-					<lb/>ve iltizāmımızda bulunan Kirşevo mukātaʿası varoş
-					<lb/>mahalle-i [破損] vākiʿ mülk bağçe mutasarrıflarında
-					<lb/>zimmī <persName>MRMU MHT Oğlu</persName> nām zimmīnin kendi taht-ı
-					<lb/>tasarrıfında olan bağçe ... maʿrūf
-					<lb/>maʿrūf bağçe bir taraf müştere bağçe ve tarafeyin <persName>YAYO</persName>'ın
-					<lb/>bağçesi ve taraf-ı rābiʿ <persName>TURAN</persName>'na varınca işbu dārende-i
-					<lb/>hurūf zimmī <persName>Īvān VİRAÇ veled-i İstepān</persName> nām zimmīnin
-					<lb/>resmiyle otüz üç esedī guruş mukābelesinde beyʿ
-					<lb/>katʿiyle beyʿ edüb ol dahi beyʿ ve kabūl edüb
-					<lb/>biz dahi beyʿ... cā'iz görüb
-					<lb/>ve yedine zabt tezkire tasarrıfına
-					<lb/>kimesne māniʿ olmaya </p>
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					işbu					<date type="created" when="1785-11-01" when-custom="1199">bin yüz doksan dokuz senesinde</date>
+					 der ʿuhde
+					<lb/>
+					ve iltizāmımızda bulunan Kirşevo mukātaʿası varoş
+					<lb/>
+					mahalle-i [破損] vākiʿ mülk bağçe mutasarrıflarında
+					<lb/>
+					zimmī					<persName>MRMU MHT Oğlu</persName>
+					 nām zimmīnin kendi taht-ı
+					<lb/>
+					tasarrıfında olan bağçe ... maʿrūf
+					<lb/>
+					maʿrūf bağçe bir taraf müştere bağçe ve tarafeyin					<persName>YAYO</persName>
+					'ın
+					<lb/>
+					bağçesi ve taraf-ı rābiʿ					<persName>TURAN</persName>
+					'na varınca işbu dārende-i
+					<lb/>
+					hurūf zimmī					<persName>Īvān VİRAÇ veled-i İstepān</persName>
+					 nām zimmīnin
+					<lb/>
+					resmiyle otüz üç esedī guruş mukābelesinde beyʿ
+					<lb/>
+					katʿiyle beyʿ edüb ol dahi beyʿ ve kabūl edüb
+					<lb/>
+					biz dahi beyʿ... cā'iz görüb
+					<lb/>
+					ve yedine zabt tezkire tasarrıfına
+					<lb/>
+					kimesne māniʿ olmaya				</p>
 				<div2 facs="#zone_fxq_nct_flb" type="sign">
 					<p>
-						<lb/>El-fakīr
-						<lb/>Ahmed Emīn-i
-						<lb/>Kirşevo </p>
+						<lb/>
+						El-fakīr
+						<lb/>
+						Ahmed Emīn-i
+						<lb/>
+						Kirşevo					</p>
 					<div3 facs="#zone_n3t_gct_flb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -64,28 +86,40 @@
 				<div2 type="sign">
 					<div3 facs="#zone_rgn_hct_flb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>Süleymān Beşe
-						<lb/>ŞHMANİzāde
-						<lb/>Sālih Kâtib
-						<lb/>Zimmī Gaşo MRAKİÇ
-						<lb/>Zimmī ʿAnton
-						<lb/>JAPO
-						<lb/>Zimmī TADİYE
-						<lb/>YAKİÇ
-						<lb/>Zimmī VİÇO KVAÇ </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						Süleymān Beşe
+						<lb/>
+						ŞHMANİzāde
+						<lb/>
+						Sālih Kâtib
+						<lb/>
+						Zimmī Gaşo MRAKİÇ
+						<lb/>
+						Zimmī ʿAnton
+						<lb/>
+						JAPO
+						<lb/>
+						Zimmī TADİYE
+						<lb/>
+						YAKİÇ
+						<lb/>
+						Zimmī VİÇO KVAÇ					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_v2s_3ct_flb" type="summary_Croatian">
 				<p>
-					<lb/>... od ... od ... </p>
+					<lb/>
+					... od ... od ...				</p>
 			</div1>
 		</body>
 	</text>

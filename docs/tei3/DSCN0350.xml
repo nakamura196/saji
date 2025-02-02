@@ -1,68 +1,80 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0350</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1829/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/80f02dc28c180514b2a9d10be893ca01c3813a12.jpg" />
-        <zone lrx="1891" lry="3009" ulx="782" uly="181" xml:id="zone_v44_wmr_kkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/871ce2d331b17762723b5438797f60e693d69eba.jpg" />
-        <zone lrx="2091" lry="2827" ulx="591" uly="872" xml:id="zone_vth_zmr_kkb" />
-        <zone lrx="1578" lry="2760" ulx="986" uly="2385" xml:id="zone_yh4_1nr_kkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/3a86fd330c0e7eed78a3893f054b0d3d88519097.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/c848ede63782d1bf6c0f2c56d190a4cc6adf9360.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1829/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/3ebe5ba6c448c3c9fc8cf22e74923d22d9687e17.jpg" />
-        <zone lrx="3023" lry="1988" ulx="389" uly="361" xml:id="zone_dwb_cnr_kkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_v44_wmr_kkb" type="hüccet_sūret">
-        <p>
-          <lb />... <date type="created" when="1833-07-20" when-custom="1249-03-03">fi'l-yevmi'l-sālis min şehr-i Rebi'ü'l-evvel sene tisʿ ve arbaʿīn ve mieteyin
-          <lb />ve elif</date>
-        </p>
-        <div2 facs="#zone_vth_zmr_kkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_yh4_1nr_kkb" type="stamp_sūret">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_dwb_cnr_kkb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1833">1833</date>.<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0350</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0350.JPG"/>
+			<zone ulx="181" uly="181" lrx="1891" lry="3009" xml:id="zone_v44_wmr_kkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0353.JPG"/>
+			<zone ulx="872" uly="872" lrx="2091" lry="2827" xml:id="zone_vth_zmr_kkb"/>
+			<zone ulx="2385" uly="2385" lrx="1578" lry="2760" xml:id="zone_yh4_1nr_kkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0354.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0355.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0356.JPG"/>
+			<zone ulx="361" uly="361" lrx="3023" lry="1988" xml:id="zone_dwb_cnr_kkb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_v44_wmr_kkb" type="hüccet_sūret">
+				<p>
+					<lb/>
+					...					<date type="created" when="1833-07-20" when-custom="1249-03-03">
+						fi'l-yevmi'l-sālis min şehr-i Rebi'ü'l-evvel sene tisʿ ve arbaʿīn ve mieteyin
+						<lb/>
+						ve elif
+					</date>
+				</p>
+				<div2 facs="#zone_vth_zmr_kkb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_yh4_1nr_kkb" type="stamp_sūret">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_dwb_cnr_kkb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1833">1833</date>
+					.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

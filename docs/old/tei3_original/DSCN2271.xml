@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2271</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2599/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2599/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/81ed1880590bffd5dc5435957ca408eae96678e3.jpg" />
+        <zone lrx="1820" lry="3190" ulx="290" uly="60" xml:id="zone_hyn_gbg_dmb" />
+        <zone lrx="862" lry="3152" ulx="435" uly="2608" xml:id="zone_brp_hbg_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2599/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/95df192598a85a1308dbcfc7c4b81e531d3a09ac.jpg" />
+        <zone lrx="1950" lry="3066" ulx="1575" uly="2758" xml:id="zone_sjt_3bg_dmb" />
+        <zone lrx="1654" lry="408" ulx="337" uly="-25" xml:id="zone_gfm_jbg_dmb" />
+        <zone lrx="2112" lry="2004" ulx="575" uly="1620" xml:id="zone_tzc_kbg_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 cert="low" facs="#zone_hyn_gbg_dmb" next="#zone_gfm_jbg_dmb" type="tezkire">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 facs="#zone_brp_hbg_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_sjt_3bg_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_gfm_jbg_dmb" next="#zone_tzc_kbg_dmb" type="unknown">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+      <div1 facs="#zone_tzc_kbg_dmb" type="summary_Croatian">
+        <p>
+          <lb />...
+          <lb /><date cert="medium" type="summary_Croatian" when="1804">1804</date>.
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

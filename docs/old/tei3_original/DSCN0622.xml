@@ -1,0 +1,71 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0622</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 7" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3026/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3026/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1e22fddc3265d4aa2f2d11ebcf31bd78e7f0b288.jpg" />
+        <zone lrx="1668" lry="2976" ulx="39" uly="45" xml:id="zone_nst_zbk_2mb" />
+        <zone lrx="353" lry="2942" ulx="63" uly="2730" xml:id="zone_tvb_cck_2mb" />
+        <zone lrx="1254" lry="1595" ulx="63" uly="45" xml:id="zone_i3b_dck_2mb" />
+        <zone lrx="1963" lry="2336" ulx="1628" uly="1965" xml:id="zone_dgj_fck_2mb" />
+        <zone lrx="1947" lry="2206" ulx="1834" uly="2071" xml:id="zone_v5f_gck_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/3026/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/012ecc9a45e48a3294a1e13eac515eea3b4fa159.jpg" />
+        <zone lrx="3078" lry="538" ulx="62" uly="316" xml:id="zone_wtn_hck_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_nst_zbk_2mb" next="#zone_i3b_dck_2mb" type="ʿarz-ıhāl_sūret">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 facs="#zone_tvb_cck_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_i3b_dck_2mb" next="#zone_dgj_fck_2mb" type="buyuruldu_sūret">
+        <p>
+          <lb />
+          <lb />deyu buyuruldu fī <date type="created" when="1786-08-29" when-custom="1200-11-05">5 Za sene 1200</date>
+        </p>
+      </div1>
+      <div1 facs="#zone_dgj_fck_2mb" next="#zone_wtn_hck_2mb" type="note">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_v5f_gck_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_wtn_hck_2mb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

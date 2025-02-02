@@ -1,49 +1,48 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1969</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">【要】DSCN1971.JPGは、DCN1969.JPGの裏面。現在独立した文書IDとなっているが、統合する。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1499/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1499/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/017c8fe9478144382f44791a8068dfdac3403a55.jpg" />
-<zone lrx="1433" lry="2883" ulx="83" uly="200" xml:id="zone_nw4_1dz_djb" />
-<zone lrx="489" lry="2796" ulx="170" uly="2568" xml:id="zone_by5_bdz_djb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1499/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1d2428bdcd2ef39f0cd9cee79e80d813d8caddba.jpg" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1499/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/f984691f8548bac9df5d4332a1195cdde2eb558b.jpg" />
-<zone lrx="2073" lry="2630" ulx="1845" uly="2424" xml:id="zone_g21_xdz_djb" />
-<zone lrx="2333" lry="2600" ulx="58" uly="16" xml:id="zone_zht_xdz_djb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_nw4_1dz_djb" type="mürāsele">
-<p>
-<lb />... fī <date from="1767-06-28" from-custom="1181-02-01" to-custom="1181-02-10" type="created">evāir Saferi'l-... sene 1181</date><lb />
-</p>
-<div2 facs="#zone_by5_bdz_djb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1969</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">【要】DSCN1971.JPGは、DCN1969.JPGの裏面。現在独立した文書IDとなっているが、統合する。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1969.JPG"/>
+			<zone ulx="200" uly="200" lrx="1433" lry="2883" xml:id="zone_nw4_1dz_djb"/>
+			<zone ulx="2568" uly="2568" lrx="489" lry="2796" xml:id="zone_by5_bdz_djb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1970.JPG"/>
+		</surface>
+		<surface/>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_nw4_1dz_djb" type="mürāsele">
+				<p>
+					<lb/>
+					... fī					<date from="1767-06-28" from-custom="1181-02-01" to-custom="1181-02-10" type="created">evāir Saferi'l-... sene 1181</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_by5_bdz_djb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,75 +20,103 @@
 			<textClass>
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
-		</profileDesc>		
+		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1703/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/c3d010bcdf35037477c2cb2f00fd0244fe340157.jpg" n="https://diyhistory.org/public/phr2/iiif/1703/canvas/p1"/>
-				<zone xml:id="zone_y1d_3dk_kjb" lry="2638" lrx="2254" uly="100" ulx="354"/>
-				<zone xml:id="zone_lt5_jdk_kjb" lry="2297" lrx="750" uly="2012" ulx="529"/>
-				<zone xml:id="zone_irt_zbt_hrb" lry="316" lrx="1647" uly="184" ulx="950"/>
-				<zone xml:id="zone_cdt_ddt_hrb" lry="1365" lrx="1053" uly="1200" ulx="907"/>
-				<zone xml:id="zone_p4j_hdt_hrb" lry="1272" lrx="642" uly="1160" ulx="510"/>
-				<zone xml:id="zone_i3q_g2t_hrb" lry="1550" lrx="1836" uly="1452" ulx="1721"/>
-				<zone xml:id="zone_rjc_n2t_hrb" lry="1543" lrx="1646" uly="1437" ulx="1456"/>
-				<zone xml:id="zone_dds_1ft_hrb" lry="1462" lrx="801" uly="1322" ulx="511"/>
-				<zone xml:id="zone_k3x_rlt_hrb" lry="2529" lrx="2165" uly="2180" ulx="1864"/>
-				<zone xml:id="zone_bhd_tlt_hrb" lry="2277" lrx="2104" uly="2031" ulx="1871"/>
-				<zone xml:id="zone_zd1_zlt_hrb" lry="2184" lrx="2171" uly="1883" ulx="1860"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1703/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d7efc2ace5a1aad564ba1c3c51f2340b91345d14.jpg"/>
-				<zone lrx="2945" lry="2066" ulx="139" uly="155" xml:id="zone_d5r_ldk_kjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0224.JPG"/>
+			<zone ulx="100" uly="100" lrx="2254" lry="2638" xml:id="zone_y1d_3dk_kjb"/>
+			<zone ulx="2012" uly="2012" lrx="750" lry="2297" xml:id="zone_lt5_jdk_kjb"/>
+			<zone ulx="184" uly="184" lrx="1647" lry="316" xml:id="zone_irt_zbt_hrb"/>
+			<zone ulx="1200" uly="1200" lrx="1053" lry="1365" xml:id="zone_cdt_ddt_hrb"/>
+			<zone ulx="1160" uly="1160" lrx="642" lry="1272" xml:id="zone_p4j_hdt_hrb"/>
+			<zone ulx="1452" uly="1452" lrx="1836" lry="1550" xml:id="zone_i3q_g2t_hrb"/>
+			<zone ulx="1437" uly="1437" lrx="1646" lry="1543" xml:id="zone_rjc_n2t_hrb"/>
+			<zone ulx="1322" uly="1322" lrx="801" lry="1462" xml:id="zone_dds_1ft_hrb"/>
+			<zone ulx="2180" uly="2180" lrx="2165" lry="2529" xml:id="zone_k3x_rlt_hrb"/>
+			<zone ulx="2031" uly="2031" lrx="2104" lry="2277" xml:id="zone_bhd_tlt_hrb"/>
+			<zone ulx="1883" uly="1883" lrx="2171" lry="2184" xml:id="zone_zd1_zlt_hrb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0225.JPG"/>
+			<zone ulx="155" uly="155" lrx="2945" lry="2066" xml:id="zone_d5r_ldk_kjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_temessük" facs="#zone_y1d_3dk_kjb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i temessük oldur ki
-					<lb/>berāt-ı pādişāhıyla mutasarrıf eyledüğümüz tımārımız kurālarında <placeName facs="#zone_cdt_ddt_hrb">BİLUYK</placeName> hudūdunda vākiʿ <placeName facs="#zone_p4j_hdt_hrb"
-						>HNK</placeName> yaylasında
-					<lb/><placeName facs="#zone_i3q_g2t_hrb">BRNTA</placeName> çayır(?) <placeName facs="#zone_rjc_n2t_hrb">SUPANİÇE</placeName> demekle mutasarrıf eyledüğü bir oğulan(?) <persName
-						facs="#zone_dds_1ft_hrb">ʿAbdī İbn Sālih</persName> bir taraf
-					<lb/>zimmī <persName>İstepān</persName> çayrı ve üç taraf orman işbu dārende-i hurūf Kirşevo kilisada(?)
-					<lb/>gardiyān nām-ı mesfūre resm-i tapu ile yüz on guruş mukābelesinde beyʿ-i bāt
-					<lb/>katʿiyle beyʿ edüb ol dahi kabūl biz dahi me'mūr olduğumuz hasebiyle zimmī
-					<lb/>gardiyān-ı mesfūre tafvīz birle viren(?) işbu zabt temessük virildi mā-dām ki
-					<lb/>sāl be-sāl tarafımıza ʿāit ve rāciʿ olan aʿaşār-ı şeriye ve rüsūmāt-ı sā'ire edā
-					<lb/>eyleye zabt ve tasarrıfına kimesne māniʿ olunmaya <date when-custom="1248" type="created" when="1833-05-18">sene 248</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i temessük oldur ki
+					<lb/>
+					berāt-ı pādişāhıyla mutasarrıf eyledüğümüz tımārımız kurālarında					<placeName facs="#zone_cdt_ddt_hrb">BİLUYK</placeName>
+					 hudūdunda vākiʿ					<placeName facs="#zone_p4j_hdt_hrb">HNK</placeName>
+					 yaylasında
+					<lb/>
+					<placeName facs="#zone_i3q_g2t_hrb">BRNTA</placeName>
+					 çayır(?)					<placeName facs="#zone_rjc_n2t_hrb">SUPANİÇE</placeName>
+					 demekle mutasarrıf eyledüğü bir oğulan(?)					<persName facs="#zone_dds_1ft_hrb">ʿAbdī İbn Sālih</persName>
+					 bir taraf
+					<lb/>
+					zimmī					<persName>İstepān</persName>
+					 çayrı ve üç taraf orman işbu dārende-i hurūf Kirşevo kilisada(?)
+					<lb/>
+					gardiyān nām-ı mesfūre resm-i tapu ile yüz on guruş mukābelesinde beyʿ-i bāt
+					<lb/>
+					katʿiyle beyʿ edüb ol dahi kabūl biz dahi me'mūr olduğumuz hasebiyle zimmī
+					<lb/>
+					gardiyān-ı mesfūre tafvīz birle viren(?) işbu zabt temessük virildi mā-dām ki
+					<lb/>
+					sāl be-sāl tarafımıza ʿāit ve rāciʿ olan aʿaşār-ı şeriye ve rüsūmāt-ı sā'ire edā
+					<lb/>
+					eyleye zabt ve tasarrıfına kimesne māniʿ olunmaya					<date when-custom="1248" type="created" when="1833-05-18">sene 248</date>
 				</p>
 				<div2 type="sign" facs="#zone_lt5_jdk_kjb">
 					<p>
-						<lb/>Bende
-						<lb/><persName>Hāccı Mehmed</persName>
-						<lb/>M </p>
+						<lb/>
+						Bende
+						<lb/>
+						<persName>Hāccı Mehmed</persName>
+						<lb/>
+						M					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/><persName facs="#zone_k3x_rlt_hrb">ʿAbdī ʿAlemdār ÇİZMİÇ</persName>
-						<lb/><persName facs="#zone_bhd_tlt_hrb">ÇVAʿAK Sālih</persName>
-						<lb/><persName facs="#zone_zd1_zlt_hrb">İsmāʿīl BOSTAN</persName>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						<persName facs="#zone_k3x_rlt_hrb">ʿAbdī ʿAlemdār ÇİZMİÇ</persName>
+						<lb/>
+						<persName facs="#zone_bhd_tlt_hrb">ÇVAʿAK Sālih</persName>
+						<lb/>
+						<persName facs="#zone_zd1_zlt_hrb">İsmāʿīl BOSTAN</persName>
 					</p>
 				</div2>
 				<div2 type="note" facs="#zone_irt_zbt_hrb">
 					<p>
-						<lb/>Be-her ... virmek ... </p>
+						<lb/>
+						Be-her ... virmek ...					</p>
 				</div2>
 			</div1>
 			<div1 type="sumamry_Croatian" facs="#zone_d5r_ldk_kjb">
 				<p>
-					<lb/>3
-					<lb/>Tapuja na Lopalien u Tneu Koju
-					<lb/>Kupimo od Zredogleda za 120. gr.
-					<lb/><date when="1832" type="summary_Croatian">1832</date>.
-					<lb/>Nno 36.
-					<lb/>F.
-					<lb/>L c.14. </p>
+					<lb/>
+					3
+					<lb/>
+					Tapuja na Lopalien u Tneu Koju
+					<lb/>
+					Kupimo od Zredogleda za 120. gr.
+					<lb/>
+					<date when="1832" type="summary_Croatian">1832</date>
+					.
+					<lb/>
+					Nno 36.
+					<lb/>
+					F.
+					<lb/>
+					L c.14.				</p>
 			</div1>
 		</body>
 	</text>

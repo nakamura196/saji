@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -17,72 +18,96 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1921/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1921/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a4073f4d247bc272ec8cc3f168b28c5c42599266.jpg"/>
-				<zone lrx="1206" lry="1106" ulx="959" uly="887" xml:id="zone_crw_xzx_wkb"/>
-				<zone lrx="860" lry="1139" ulx="559" uly="863" xml:id="zone_t2n_yzx_wkb"/>
-				<zone lrx="2857" lry="696" ulx="465" uly="280" xml:id="zone_vsr_zzx_wkb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1921/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/12dac46f62e802786613823cb66be84fcc68418f.jpg"/>
-				<zone lrx="2075" lry="3166" ulx="208" uly="16" xml:id="zone_tkc_m1y_wkb"/>
-				<zone lrx="907" lry="2883" ulx="608" uly="2531" xml:id="zone_rwf_n1y_wkb"/>
-				<zone lrx="580" lry="2830" ulx="270" uly="2431" xml:id="zone_jf5_n1y_wkb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN8993.JPG"/>
+			<zone ulx="887" uly="887" lrx="1206" lry="1106" xml:id="zone_crw_xzx_wkb"/>
+			<zone ulx="863" uly="863" lrx="860" lry="1139" xml:id="zone_t2n_yzx_wkb"/>
+			<zone ulx="280" uly="280" lrx="2857" lry="696" xml:id="zone_vsr_zzx_wkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN8994.JPG"/>
+			<zone ulx="16" uly="16" lrx="2075" lry="3166" xml:id="zone_tkc_m1y_wkb"/>
+			<zone ulx="2531" uly="2531" lrx="907" lry="2883" xml:id="zone_rwf_n1y_wkb"/>
+			<zone ulx="2431" uly="2431" lrx="580" lry="2830" xml:id="zone_jf5_n1y_wkb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_tkc_m1y_wkb" next="#zone_vsr_zzx_wkb" type="EMIN_zabt_temessük">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>işbu <date type="created" when="1781-12-15" when-custom="1195">bin yüz doksan beş senesinde</date> der ʿuhde ve iltizāmımızda olan Kirşevo mukātaʿası kurālarından
-					<lb/>ruhbānların karyesinde hāsıl olan aʿşār-ı şerʿiye ve rüsūmāt-ı sā'iresin olageldiği
-					<lb/>kadīmi üzere ber-vech-i peşīn işbu dārende-i hurūf ruhbānların gardiyānı zimmī ʿAnton
-					<lb/>VİRÇİÇ nām gardiyāna yetmiş guruş bedeli mukābelesinde beyʿ ü ferāğ edüb ve meblağ(?) mezkūri
-					<lb/>yedinden yedimize ahz ve kabz etdikten sonra işbu hurūf-ı zabt temessük yedine virildi
-					<lb/>ve işbu sene-i mübārekede karye-i mezkūrede hāsıl olan aʿşār-ı şerʿiye ve rüsūmāt-ı sā'iresin
-					<lb/>zabt ve taʿşīr ede(?) mesfūr gardiyānın zabt ve tasarrıfına(?) tarafımızdan ve taraf-ı āhardan
-					<lb/>bir kimesne māniʿ ve müdāhale etmeye hurira <date type="created" when="1781-12-15" when-custom="1195">fi'l-tārīhi'l-mezbūr</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					işbu					<date type="created" when="1781-12-15" when-custom="1195">bin yüz doksan beş senesinde</date>
+					 der ʿuhde ve iltizāmımızda olan Kirşevo mukātaʿası kurālarından
+					<lb/>
+					ruhbānların karyesinde hāsıl olan aʿşār-ı şerʿiye ve rüsūmāt-ı sā'iresin olageldiği
+					<lb/>
+					kadīmi üzere ber-vech-i peşīn işbu dārende-i hurūf ruhbānların gardiyānı zimmī ʿAnton
+					<lb/>
+					VİRÇİÇ nām gardiyāna yetmiş guruş bedeli mukābelesinde beyʿ ü ferāğ edüb ve meblağ(?) mezkūri
+					<lb/>
+					yedinden yedimize ahz ve kabz etdikten sonra işbu hurūf-ı zabt temessük yedine virildi
+					<lb/>
+					ve işbu sene-i mübārekede karye-i mezkūrede hāsıl olan aʿşār-ı şerʿiye ve rüsūmāt-ı sā'iresin
+					<lb/>
+					zabt ve taʿşīr ede(?) mesfūr gardiyānın zabt ve tasarrıfına(?) tarafımızdan ve taraf-ı āhardan
+					<lb/>
+					bir kimesne māniʿ ve müdāhale etmeye hurira					<date type="created" when="1781-12-15" when-custom="1195">fi'l-tārīhi'l-mezbūr</date>
 				</p>
 				<div2 facs="#zone_rwf_n1y_wkb" type="sign">
 					<p>
-						<lb/>... ʿÖmer
-						<lb/>El-me'mūr-i
-						<lb/>Mukātaʿ-i
-						<lb/>Mezbūr </p>
+						<lb/>
+						... ʿÖmer
+						<lb/>
+						El-me'mūr-i
+						<lb/>
+						Mukātaʿ-i
+						<lb/>
+						Mezbūr					</p>
 					<div3 facs="#zone_crw_xzx_wkb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 facs="#zone_jf5_n1y_wkb" type="sign">
 					<p>
-						<lb/>... Sālih
-						<lb/>El-me'mūr-i
-						<lb/>Mukātaʿ-i
-						<lb/>Mezbūr </p>
+						<lb/>
+						... Sālih
+						<lb/>
+						El-me'mūr-i
+						<lb/>
+						Mukātaʿ-i
+						<lb/>
+						Mezbūr					</p>
 					<div3 facs="#zone_t2n_yzx_wkb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl </p>
+						<lb/>
+						Şühūdu'l-hāl					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_vsr_zzx_wkb" type="summary_Croatian">
 				<p>
-					<lb/>... od ... <date when="1781" cert="medium">1781</date>(?) ...
-					<lb/>... 10 Mom kom ...
-					<lb/>... </p>
+					<lb/>
+					... od ...					<date when="1781" cert="medium">1781</date>
+					(?) ...
+					<lb/>
+					... 10 Mom kom ...
+					<lb/>
+					...				</p>
 			</div1>
 		</body>
 	</text>

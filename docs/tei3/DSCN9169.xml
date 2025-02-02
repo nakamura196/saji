@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,30 +14,30 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2094/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2094/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8ca698aa263581c6c0df9aa361cc226e77e07fba.jpg"/>
-				<zone lrx="2025" lry="1125" ulx="1341" uly="250" xml:id="zone_e3n_3sq_jlb"/>
-				<zone lrx="2293" lry="3078" ulx="335" uly="821" xml:id="zone_jk4_lsq_jlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2094/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b4663b950c66ac620263d60e7ac29f8a764841e0.jpg"/>
-				<zone lrx="2191" lry="2963" ulx="158" uly="83" xml:id="zone_fxt_nsq_jlb"/>
-				<zone lrx="435" lry="2140" ulx="225" uly="1948" xml:id="zone_qd3_psq_jlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9169.JPG"/>
+			<zone ulx="250" uly="250" lrx="2025" lry="1125" xml:id="zone_e3n_3sq_jlb"/>
+			<zone ulx="821" uly="821" lrx="2293" lry="3078" xml:id="zone_jk4_lsq_jlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9170.JPG"/>
+			<zone ulx="83" uly="83" lrx="2191" lry="2963" xml:id="zone_fxt_nsq_jlb"/>
+			<zone ulx="1948" uly="1948" lrx="435" lry="2140" xml:id="zone_qd3_psq_jlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_fxt_nsq_jlb" next="#zone_e3n_3sq_jlb" type="unkown">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 				<div2 type="sign">
 					<div3 facs="#zone_qd3_psq_jlb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -44,13 +45,15 @@
 			</div1>
 			<div1 facs="#zone_e3n_3sq_jlb" next="#zone_jk4_lsq_jlb" type="unkown">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>
 			<div1 cert="unknown" facs="#zone_jk4_lsq_jlb" type="summary_Serbian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

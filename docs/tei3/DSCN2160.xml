@@ -1,55 +1,63 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2160</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2488/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2488/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d630f985dd8e05fda51c4e09d696240c85e54bed.jpg" />
-        <zone lrx="1947" lry="2769" ulx="293" uly="138" xml:id="zone_nlh_5tk_cmb" />
-        <zone lrx="721" lry="2748" ulx="378" uly="2242" xml:id="zone_pws_vtk_cmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2488/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/675527719f2f5cc6899aa9555a03896ea17a9605.jpg" />
-        <zone lrx="441" lry="575" ulx="125" uly="295" xml:id="zone_ilm_xtk_cmb" />
-        <zone lrx="2116" lry="3008" ulx="91" uly="1954" xml:id="zone_t42_ytk_cmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_nlh_5tk_cmb" next="#zone_t42_ytk_cmb" subtype="tapu_temessük" type="EMIN">
-        <p>
-          <lb />işbu <date type="created" when="1825-08-14" when-custom="1240">bin iki yüz krık senesinde</date> der ...
-          <lb />
-        </p>
-        <div2 facs="#zone_pws_vtk_cmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_ilm_xtk_cmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_t42_ytk_cmb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1825">1825</date>. = <date type="summary_Croatian" when="1825-08-14" when-custom="1240">1240</date>.
-          <lb />Nno 9. 
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2160</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2160.JPG"/>
+			<zone ulx="138" uly="138" lrx="1947" lry="2769" xml:id="zone_nlh_5tk_cmb"/>
+			<zone ulx="2242" uly="2242" lrx="721" lry="2748" xml:id="zone_pws_vtk_cmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2161.JPG"/>
+			<zone ulx="295" uly="295" lrx="441" lry="575" xml:id="zone_ilm_xtk_cmb"/>
+			<zone ulx="1954" uly="1954" lrx="2116" lry="3008" xml:id="zone_t42_ytk_cmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_nlh_5tk_cmb" next="#zone_t42_ytk_cmb" subtype="tapu_temessük" type="EMIN">
+				<p>
+					<lb/>
+					işbu					<date type="created" when="1825-08-14" when-custom="1240">bin iki yüz krık senesinde</date>
+					 der ...
+					<lb/>
+				</p>
+				<div2 facs="#zone_pws_vtk_cmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_ilm_xtk_cmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_t42_ytk_cmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1825">1825</date>
+					. =					<date type="summary_Croatian" when="1825-08-14" when-custom="1240">1240</date>
+					.
+					<lb/>
+					Nno 9.				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

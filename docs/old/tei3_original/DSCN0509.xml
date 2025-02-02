@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0509</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2916/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2916/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1ba9296c3a6ce442814d10dd4c61a4192443a66f.jpg" />
+        <zone lrx="1738" lry="3262" ulx="563" uly="-12" xml:id="zone_jcf_mvc_2mb" />
+        <zone lrx="1379" lry="627" ulx="852" uly="88" xml:id="zone_jsj_nvc_2mb" />
+        <zone lrx="1220" lry="615" ulx="1063" uly="472" xml:id="zone_gcj_4vc_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2916/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/924eb95ec86aa296af22774c4e725c3c7e0bc185.jpg" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_jcf_mvc_2mb" type="hüccet">
+        <p>
+          <lb />...  hurira <date cert="low" type="created" when="1807-11-05" when-custom="1222-09-05">gāye min şehr Ramazān min yevm ...
+          <lb />ve hıms sene isna ve ʿaşrin mieteyn ve elif</date>
+        </p>
+        <div2 facs="#zone_jsj_nvc_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_gcj_4vc_2mb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

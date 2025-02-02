@@ -1,0 +1,123 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0096</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">スペルミスが非常に多いので、まずは意味をとるために転写を差し引いて行った。後々、原綴りを再現して、誤っている個所にタグ付けをする？</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1580/manifest">
+			<surface>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/9cf5cb5a06af5d4c63e21ab8141d7cede898c739.jpg" n="https://diyhistory.org/public/phr2/iiif/1580/canvas/p1"/>
+				<zone xml:id="zone_vty_1y5_l3b" lry="2991" lrx="1775" uly="100" ulx="150"/>
+				<zone xml:id="zone_emn_ct5_2jb" lry="2915" lrx="403" uly="2590" ulx="150"/>
+				<zone xml:id="zone_nrm_bly_mqb" lry="1379" lrx="971" uly="1175" ulx="733"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1580/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1a327c158be85fd6f5a4293addea786d1e693173.jpg"/>
+				<zone lrx="2156" lry="1333" ulx="623" uly="1061" xml:id="zone_vcp_cy5_l3b"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_zabt_temessük" cert="low" facs="#zone_vty_1y5_l3b">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr hurūf <sic>aldur</sic><corr>oldur</corr> ki
+					<lb/> İşbu <date when-custom="1213-03-01" type="created" when="1799-06-03">bin iki yüz on üç senesinde Martı ibtidāsında</date> der ʿuhde
+					<lb/> ve iltizāmımızda bulunan <placeName facs="#zone_nrm_bly_mqb" type="proper" corresp="#Kirşevo">Kirşevo</placeName> mukātaʿa mālikânesi varoşda kilisaya zabt(?)
+					<lb/> olan arāzīsinin(?) ʿāşār-ı şerʿiyye mahsūlāt olan <placeName type="proper" cert="unknown">GRADDRUNE</placeName>
+					<lb/> ve <placeName type="proper" cert="unknown">LOYAT</placeName> ve <placeName type="proper" cert="unknown">ZAYODAKOSIN</placeName> ve <placeName type="proper" cert="unknown"
+						>YOK</placeName> ve <placeName type="proper" cert="unknown">GRNIÇE</placeName> ve <placeName type="proper" cert="unknown">DUBNIÇE</placeName> ve <placeName type="proper"
+						cert="unknown">GRADNIÇE</placeName>
+					<lb/> ahz ve kabsına tālib ve rāgib olan işbu ... temessük <placeName type="proper">Kirşevo</placeName>
+					<lb/> kilisanın baş rāhibi zimmī <persName corresp="#YARYAKOF">YARYAKOF</persName> nām rāhib yüz yiğirmi dört(?)
+					<lb/> bedeli mukābelesinde iltizāmen ... olunup ve bedel-i iltizām
+					<lb/> tamāmen ber-vech-i beşīn tarafımıza teslīm ve ahz olunup mezkūr-i arāzımızda
+					<lb/> olan ʿāşār-ı şerʿiyye ve sā'ir mahsūlāt ahz ve kabz içün tarafımızdan
+					<lb/> zabt temessük zimmī <persName corresp="#YARYAKOF">YARYAKOF</persName> nām gardiyān yedine virildi
+					<lb/> taraf-ı āhardan kimesne māniʿ olunmaya </p>
+				<div2 type="sign" facs="#zone_emn_ct5_2jb">
+					<p>
+						<lb/> ...
+						<lb/> Dervīş
+						<lb/>
+						<persName corresp="#Mehmed">Mehmed</persName> ...
+						<lb/> ... </p>
+				</div2>
+			</div1>
+			<div1 type="summary_Serbian" facs="#zone_vcp_cy5_l3b">
+				<p>
+					<lb/> ... od ... <date type="summary_Serbian" when="1799">1799</date>
+				</p>
+			</div1>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="YARYAKOF">
+					<persName>YARYAKOF</persName>
+					<occupation>Kirşevo kilisanın baş rāhibi</occupation>
+					<occupation>gardiyān</occupation>
+					<socecStatus>zimmī</socecStatus>
+					<state type="他の登場人物との関係性">
+						<ab>土地の徴税請負人</ab>
+					</state>
+					<state type="文書内の立場">
+						<ab>文書の受領者</ab>
+					</state>
+				</person>
+				<person xml:id="Mehmed">
+					<persName>Mehmed</persName>
+					<state cert="low">
+						<ab>土地の貸出元 ※表現を検討する</ab>
+					</state>
+					<state>
+						<ab>文書の差出人</ab>
+					</state>
+				</person>
+			</listPerson>
+			<listRelation>
+				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
+				<relation name="iltizām" active="#Mehmed" passive="#YAYAKOF"/>
+				<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
+				<relation name="issue" active="#Mehmed" passive="#YARYAKOF"/>
+			</listRelation>
+			<listPlace>
+				<place xml:id="Kirşevo">
+					<placeName facs="#zone_nrm_bly_mqb">Kirşevo</placeName>
+					<note>
+						<table rows="4" cols="2">
+							<row role="data">
+								<cell role="label">1辺目</cell>
+								<cell role="data">AAA</cell>
+							</row>
+							<row role="data">
+								<cell role="label">2辺目</cell>
+								<cell role="data">BBB</cell>
+							</row>
+							<row role="data">
+								<cell role="label">3辺目</cell>
+								<cell role="data">CCC</cell>
+							</row>
+							<row role="data">
+								<cell role="label">4辺目</cell>
+								<cell role="data">DDD</cell>
+							</row>
+						</table>
+					</note>
+				</place>
+			</listPlace>
+		</back>
+	</text>
+</TEI>

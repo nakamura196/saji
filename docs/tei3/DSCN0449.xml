@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,36 +17,37 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2856/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2856/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ec66e5ca5dbe35c42ec68d724bf750355113cc00.jpg"/>
-				<zone lrx="1558" lry="3033" ulx="183" uly="91" xml:id="zone_x12_jxb_2mb"/>
-				<zone lrx="587" lry="3002" ulx="214" uly="2782" xml:id="zone_bpw_kxb_2mb"/>
-				<zone lrx="1286" lry="2290" ulx="213" uly="1063" xml:id="zone_nmc_mxb_2mb"/>
-				<zone lrx="940" lry="2281" ulx="231" uly="1081" xml:id="zone_isz_mxb_2mb"/>
-				<zone lrx="858" lry="2196" ulx="684" uly="2039" xml:id="zone_tbh_4xb_2mb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2856/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b019c17931d0e0923657f7216bb0fe232b82645e.jpg"/>
-				<zone lrx="636" lry="466" ulx="450" uly="302" xml:id="zone_j4s_qxb_2mb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0449.JPG"/>
+			<zone ulx="91" uly="91" lrx="1558" lry="3033" xml:id="zone_x12_jxb_2mb"/>
+			<zone ulx="2782" uly="2782" lrx="587" lry="3002" xml:id="zone_bpw_kxb_2mb"/>
+			<zone ulx="1063" uly="1063" lrx="1286" lry="2290" xml:id="zone_nmc_mxb_2mb"/>
+			<zone ulx="1081" uly="1081" lrx="940" lry="2281" xml:id="zone_isz_mxb_2mb"/>
+			<zone ulx="2039" uly="2039" lrx="858" lry="2196" xml:id="zone_tbh_4xb_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0450.JPG"/>
+			<zone ulx="302" uly="302" lrx="636" lry="466" xml:id="zone_j4s_qxb_2mb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_x12_jxb_2mb" next="#zone_nmc_mxb_2mb" type="iʿlām_maʿrūz">
 				<p>
 					<lb/>
-					<lb/>... hurira fī <date type="created" when="1792-05-26" when-custom="1206-10-05">5 L sene 1206</date>
+					<lb/>
+					... hurira fī					<date type="created" when="1792-05-26" when-custom="1206-10-05">5 L sene 1206</date>
 				</p>
 				<div2 facs="#zone_bpw_kxb_2mb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_j4s_qxb_2mb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -54,16 +56,19 @@
 			<div1 facs="#zone_nmc_mxb_2mb" type="buyuruldu">
 				<p>
 					<lb/>
-					<lb/>... fī <date type="created" when="1792-06-03" when-custom="1206-10-13">13 L sene 206</date>
+					<lb/>
+					... fī					<date type="created" when="1792-06-03" when-custom="1206-10-13">13 L sene 206</date>
 				</p>
 				<div2 facs="#zone_isz_mxb_2mb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_tbh_4xb_2mb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>

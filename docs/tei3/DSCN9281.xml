@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,41 +14,45 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2205/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2205/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b9d034fb806f5524a60225e93e1842dd6c7da52e.jpg"/>
-				<zone lrx="2684" lry="1383" ulx="600" uly="744" xml:id="zone_j3z_dsv_nlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2205/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3297ee321d84527d58aba5804eb9a05cad3734da.jpg"/>
-				<zone lrx="2264" lry="2421" ulx="107" uly="114" xml:id="zone_ubz_fsv_nlb"/>
-				<zone lrx="633" lry="2360" ulx="224" uly="2048" xml:id="zone_qnf_hsv_nlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9281.JPG"/>
+			<zone ulx="744" uly="744" lrx="2684" lry="1383" xml:id="zone_j3z_dsv_nlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9282.JPG"/>
+			<zone ulx="114" uly="114" lrx="2264" lry="2421" xml:id="zone_ubz_fsv_nlb"/>
+			<zone ulx="2048" uly="2048" lrx="633" lry="2360" xml:id="zone_qnf_hsv_nlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="medium" facs="#zone_ubz_fsv_nlb" next="#zone_j3z_dsv_nlb" subtype="temessük" type="EMIN">
 				<p>
-					<lb/>işbu <date type="created" when="1820-10-06" when-custom="1235">bin iki yüz otuz beş senesinde</date> der ...
+					<lb/>
+					işbu					<date type="created" when="1820-10-06" when-custom="1235">bin iki yüz otuz beş senesinde</date>
+					 der ...
 					<lb/>
 				</p>
 				<div2 facs="#zone_qnf_hsv_nlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_j3z_dsv_nlb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1821">1821</date>. ...
+					<lb/>
+					...					<date type="summary_Croatian" when="1821">1821</date>
+					. ...
 					<lb/>
 				</p>
 			</div1>

@@ -1,44 +1,48 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0400</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "F" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1876/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1876/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/4db54dd25b4ada68a8a61509b652ffb312253a9c.jpg" />
-        <zone lrx="2122" lry="2945" ulx="166" uly="623" xml:id="zone_en5_jh3_qkb" />
-        <zone lrx="1233" lry="2933" ulx="303" uly="2033" xml:id="zone_z34_lh3_qkb" />
-        <zone lrx="1226" lry="2922" ulx="652" uly="2433" xml:id="zone_dv2_mh3_qkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_en5_jh3_qkb" subtype="cizye_ödeme" type="makbūz">
-        <p>
-          <lb />... fī <date cert="low" type="created" when="1842-02-10" when-custom="1257">... sene 57</date><lb />
-        </p>
-        <div2 facs="#zone_z34_lh3_qkb" type="sign">
-          <p>
-            <lb />Bende ... Ahmad<lb />
-          </p>
-          <div3 facs="#zone_dv2_mh3_qkb" type="stamp">
-            <p>
-              <lb /><lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>        
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0400</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "F" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0400.JPG"/>
+			<zone ulx="623" uly="623" lrx="2122" lry="2945" xml:id="zone_en5_jh3_qkb"/>
+			<zone ulx="2033" uly="2033" lrx="1233" lry="2933" xml:id="zone_z34_lh3_qkb"/>
+			<zone ulx="2433" uly="2433" lrx="1226" lry="2922" xml:id="zone_dv2_mh3_qkb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_en5_jh3_qkb" subtype="cizye_ödeme" type="makbūz">
+				<p>
+					<lb/>
+					... fī					<date cert="low" type="created" when="1842-02-10" when-custom="1257">... sene 57</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_z34_lh3_qkb" type="sign">
+					<p>
+						<lb/>
+						Bende ... Ahmad
+						<lb/>
+					</p>
+					<div3 facs="#zone_dv2_mh3_qkb" type="stamp">
+						<p>
+							<lb/>
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

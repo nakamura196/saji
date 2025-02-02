@@ -1,0 +1,50 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1983</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2313/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2313/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b6239bf11d52540f0f9da941ce0164b94054ede0.jpg" />
+        <zone lrx="2054" lry="2963" ulx="145" uly="18" xml:id="zone_kxr_wjp_zlb" />
+        <zone lrx="1500" lry="2945" ulx="1184" uly="2664" xml:id="zone_hl3_yjp_zlb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2313/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/d66ff2af41ac207766953172cf03429724b6eae2.jpg" />
+        <zone lrx="2337" lry="862" ulx="275" uly="454" xml:id="zone_qk2_1kp_zlb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_kxr_wjp_zlb" type="mürāsele">
+        <p>
+          <lb />hurira fī <date type="created" when="1821-12-31" when-custom="1237-04-07">7 R sene 37</date><lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_hl3_yjp_zlb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_qk2_1kp_zlb" type="summary_Croatian">
+        <p>
+          <lb /><date type="summary_Croatian" when="1822">1822</date> ... 
+          <lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

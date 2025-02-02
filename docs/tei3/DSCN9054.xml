@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -18,32 +19,44 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1981/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1981/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c900932b00adf9cdd79419cad339b055e528bde5.jpg"/>
-				<zone lrx="1878" lry="2449" ulx="107" uly="49" xml:id="zone_pxy_znc_ykb"/>
-				<zone lrx="797" lry="2412" ulx="535" uly="2170" xml:id="zone_tlz_14c_ykb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9054.JPG"/>
+			<zone ulx="49" uly="49" lrx="1878" lry="2449" xml:id="zone_pxy_znc_ykb"/>
+			<zone ulx="2170" uly="2170" lrx="797" lry="2412" xml:id="zone_tlz_14c_ykb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_pxy_znc_ykb" type="EMIN_tezkire">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>Belgrādçık kazāsında vākiʿ merfūm <persName>Kulçzāde ʿOsmān Ağa</persName>'nın ... <persName>Dervīş
-						<lb/>Mustafa</persName>'nın ... karyesi hudūd dāhilinde olan ...
-					<lb/>... kıtʿa etmeğe Kirşevo(?) ... rāhibleri taraf-ı sipāhīden izin taleb
-					<lb/>eylediklerine ... biz dahi sipāhī-i merkūm Dervīş Mustafa'nın ... ve vekīli
-					<lb/>bulunduğumuz hasebiyle mesfūrūn(?) rāhiblerine izin virilüb āhar taraftan ...
-					<lb/>ve renciyle olunmak içün işbu izine ... mesfūrūnlara tezkire yedierine iʿtā olundu
-					<lb/>hurira fī <date type="created" when="1822-08-24" when-custom="1237-12-07">7 Zı'l-hicce sene 1237</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					Belgrādçık kazāsında vākiʿ merfūm					<persName>Kulçzāde ʿOsmān Ağa</persName>
+					'nın ...					<persName>
+						Dervīş
+						<lb/>
+						Mustafa
+					</persName>
+					'nın ... karyesi hudūd dāhilinde olan ...
+					<lb/>
+					... kıtʿa etmeğe Kirşevo(?) ... rāhibleri taraf-ı sipāhīden izin taleb
+					<lb/>
+					eylediklerine ... biz dahi sipāhī-i merkūm Dervīş Mustafa'nın ... ve vekīli
+					<lb/>
+					bulunduğumuz hasebiyle mesfūrūn(?) rāhiblerine izin virilüb āhar taraftan ...
+					<lb/>
+					ve renciyle olunmak içün işbu izine ... mesfūrūnlara tezkire yedierine iʿtā olundu
+					<lb/>
+					hurira fī					<date type="created" when="1822-08-24" when-custom="1237-12-07">7 Zı'l-hicce sene 1237</date>
 				</p>
 				<div2 type="sign">
 					<div3 facs="#zone_tlz_14c_ykb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>

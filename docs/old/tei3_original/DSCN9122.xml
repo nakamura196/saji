@@ -1,0 +1,99 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9122</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2049/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2049/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ee55595a5b3e3718327503d0466b8ec32e93bc95.jpg"/>
+				<zone lrx="1480" lry="971" ulx="1290" uly="793" xml:id="zone_mqz_yxv_glb"/>
+				<zone lrx="1280" lry="939" ulx="1071" uly="753" xml:id="zone_b54_zxv_glb"/>
+				<zone lrx="1030" lry="887" ulx="833" uly="698" xml:id="zone_qnl_1yv_glb"/>
+				<zone lrx="848" lry="901" ulx="645" uly="707" xml:id="zone_fz1_byv_glb"/>
+				<zone lrx="1806" lry="493" ulx="384" uly="343" xml:id="zone_bmc_cyv_glb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2049/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ad8da9a907a0b9c7d6f7260947fc3ef9373ecc70.jpg"/>
+				<zone lrx="1916" lry="2823" ulx="293" uly="115" xml:id="zone_mdb_2yv_glb"/>
+				<zone lrx="1594" lry="2782" ulx="1425" uly="2460" xml:id="zone_pbm_fyv_glb"/>
+				<zone lrx="1333" lry="2792" ulx="1141" uly="2423" xml:id="zone_ezg_gyv_glb"/>
+				<zone lrx="1031" lry="2766" ulx="822" uly="2388" xml:id="zone_mzb_hyv_glb"/>
+				<zone lrx="721" lry="2709" ulx="508" uly="2326" xml:id="zone_i3t_hyv_glb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_mdb_2yv_glb" next="#zone_bmc_cyv_glb" subtype="tapu_nāme" type="EMIN">
+				<p>
+					<lb/>... <date type="created" when="1826-08-03" when-custom="1241">sene 241</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_pbm_fyv_glb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_mqz_yxv_glb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_ezg_gyv_glb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_b54_zxv_glb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_mzb_hyv_glb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_qnl_1yv_glb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_i3t_hyv_glb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_fz1_byv_glb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_bmc_cyv_glb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1826">1826</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

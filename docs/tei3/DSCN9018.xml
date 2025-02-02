@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,44 +17,58 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1945/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1945/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ee9439f85579d1badd21ca7c16735fa3d37b7051.jpg"/>
-				<zone lrx="2895" lry="1366" ulx="273" uly="694" xml:id="zone_m45_yq4_xkb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1945/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6d47c5fb941fadb3357585595a2bf31e1110ba9e.jpg"/>
-				<zone lrx="1731" lry="2807" ulx="93" uly="92" xml:id="zone_jxx_1r4_xkb"/>
-				<zone lrx="442" lry="2757" ulx="154" uly="2508" xml:id="zone_w12_cr4_xkb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9018.JPG"/>
+			<zone ulx="694" uly="694" lrx="2895" lry="1366" xml:id="zone_m45_yq4_xkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9019.JPG"/>
+			<zone ulx="92" uly="92" lrx="1731" lry="2807" xml:id="zone_jxx_1r4_xkb"/>
+			<zone ulx="2508" uly="2508" lrx="442" lry="2757" xml:id="zone_w12_cr4_xkb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_jxx_1r4_xkb" next="#zone_m45_yq4_xkb" type="EMIN_izin_tezkire">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date type="created" when="1805-03-30" when-custom="1219">bin iki yüz on dokuz senesinde</date> ʿuhde ve iltizāmımızda bulunan Kirşevo kilisanın
-					<lb/>rāhibleri nehr-i KOYSİNCE(?) üzerinde muceddiden(?) ... olunan bināyi yapmak ...
-					<lb/>... tarafımızdan istīzān etmeleryile biz dahi me'mūrimiz hasebiyle mesfūrler ve binā-i
-					<lb/>mezkūri ...-etmek izin birle mā-dām ki ... rüzūmdan olduğundan yedlerine işbu izin
-					<lb/>tezkire virildi tarafımızdan ve taraf-ı āhardan kimesne māniʿ ve müdāhale olunmaya
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date type="created" when="1805-03-30" when-custom="1219">bin iki yüz on dokuz senesinde</date>
+					 ʿuhde ve iltizāmımızda bulunan Kirşevo kilisanın
+					<lb/>
+					rāhibleri nehr-i KOYSİNCE(?) üzerinde muceddiden(?) ... olunan bināyi yapmak ...
+					<lb/>
+					... tarafımızdan istīzān etmeleryile biz dahi me'mūrimiz hasebiyle mesfūrler ve binā-i
+					<lb/>
+					mezkūri ...-etmek izin birle mā-dām ki ... rüzūmdan olduğundan yedlerine işbu izin
+					<lb/>
+					tezkire virildi tarafımızdan ve taraf-ı āhardan kimesne māniʿ ve müdāhale olunmaya
 				</p>
 				<div2 facs="#zone_w12_cr4_xkb" type="sign">
 					<p>
-						<lb/>Min ...
-						<lb/>... Mehmed Ağa
-						<lb/>El-me'mūr
+						<lb/>
+						Min ...
+						<lb/>
+						... Mehmed Ağa
+						<lb/>
+						El-me'mūr
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_m45_yq4_xkb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1805">1805</date> ...
-					<lb/>...
-					<lb/>... <date type="summary_Croatian" when="1805">1805</date> ... 
-					<lb/>...
+					<lb/>
+					...					<date type="summary_Croatian" when="1805">1805</date>
+					 ...
+					<lb/>
+					...
+					<lb/>
+					...					<date type="summary_Croatian" when="1805">1805</date>
+					 ...					<lb/>
+					...
 				</p>
 			</div1>
 		</body>

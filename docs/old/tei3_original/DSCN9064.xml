@@ -1,0 +1,142 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9064</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">✕</note>
+				<note type="mine">字の癖が強いのか、通常と使われている単語がやや違っているからか、ほとんど読めなかった。【要】読み直し。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1991/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1991/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/859fa6e20a9d083711b8e790ae6711eb092e9a5a.jpg"/>
+				<zone lrx="2578" lry="833" ulx="1667" uly="133" xml:id="zone_yw5_rqs_flb"/>
+				<zone lrx="931" lry="2256" ulx="581" uly="187" xml:id="zone_nm1_tqs_flb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1991/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a6aeaa44e18709afbfcfdbbb4b94f9fd6a8b9650.jpg"/>
+				<zone lrx="2193" lry="2785" ulx="121" uly="928" xml:id="zone_bvx_5qs_flb"/>
+				<zone lrx="630" lry="1930" ulx="239" uly="1696" xml:id="zone_fkk_grs_flb"/>
+				<zone lrx="1675" lry="2245" ulx="1378" uly="2045" xml:id="zone_xcg_hrs_flb"/>
+				<zone lrx="1445" lry="2321" ulx="1100" uly="2023" xml:id="zone_tvd_3rs_flb"/>
+				<zone lrx="1148" lry="2190" ulx="806" uly="1987" xml:id="zone_clb_jrs_flb"/>
+				<zone lrx="848" lry="2133" ulx="506" uly="1921" xml:id="zone_vpx_jrs_flb"/>
+				<zone lrx="539" lry="2157" ulx="212" uly="1939" xml:id="zone_jxs_krs_flb"/>
+				<zone lrx="1657" lry="2572" ulx="1369" uly="2345" xml:id="zone_ldv_jss_flb"/>
+				<zone lrx="1357" lry="2587" ulx="996" uly="2296" xml:id="zone_btq_kss_flb"/>
+				<zone lrx="1006" lry="2527" ulx="660" uly="2236" xml:id="zone_psp_lss_flb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_bvx_5qs_flb" next="#zone_yw5_rqs_flb" type="EMIN_temessük">
+				<p>
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>işbu <date from-custom="1141-12-01">bin yüz krık bir senesinin ... olmak üzere māh-ı Zı'l-hicce-i şerīf gürresi günden(?)</date> elli bir gün
+					<lb/>Kirşevo emīn <persName>RʿALHAN Ağa</persName> nām ...'ye
+					<lb/>.... otuz iki on altı ve ...
+					<lb/>eder üzerlerimize(?) vācib ... edā ve lāzımı'l-... ... 
+					<lb/>... Ağa'ya otüz iki ... tamāmen edā ve teslīm eyledüğümüzden sonra işbu
+					<lb/>memhūrlu temessüğümüz ... olunub ... oluna fī <date type="created" when="1729-07-19" when-custom="1141-12-23">23 Zı'l-hicce sene 1141</date>
+				</p>
+				<div2 facs="#zone_fkk_grs_flb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>ZBUYACAH Kirşevo
+					</p>
+				</div2>
+				<div2 facs="#zone_xcg_hrs_flb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>PETER TOMİÇ
+					</p>
+				</div2>
+				<div2 facs="#zone_tvd_3rs_flb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>Īvān
+						<lb/>ÇÜTÜN
+					</p>
+				</div2>
+				<div2 facs="#zone_clb_jrs_flb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>MİŞU MARKTNA
+					</p>
+				</div2>
+				<div2 facs="#zone_vpx_jrs_flb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>ʿĀSU İstepānbiç
+					</p>
+				</div2>
+				<div2 facs="#zone_jxs_krs_flb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>YRANİÇ Pavro
+					</p>
+				</div2>
+				<div2 facs="#zone_ldv_jss_flb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>Peter TOKOTNA
+					</p>
+				</div2>
+				<div2 facs="#zone_btq_kss_flb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>MACO ŞLOARDE
+						<lb/>DEAFKA
+					</p>
+				</div2>
+				<div2 facs="#zone_psp_lss_flb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>Īvān
+						<lb/>YURİNA
+					</p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>El-HACCI Mustafa Ağa
+						<lb/>ÇULDARN Silahdār
+						<lb/>ŞHRDEYARE
+						<lb/>ʿOsman Efendī
+						<lb/>İmām-ı cāmiʿ-i cedīd
+						<lb/>El-HACCI Caʿfar
+						<lb/>SRUN
+						<lb/>ʿAbdüllā Beşe
+						<lb/>SUSİÇ
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_yw5_rqs_flb" next="#zone_nm1_tqs_flb" type="unkown">
+				<p>
+					<lb/>Meblağ-ı mezbūr ... teslīm olunan beyāndır
+					<lb/>...
+					<lb/>
+					<lb/>
+					<lb/>
+					<lb/>
+				</p>
+			</div1>
+			<div1 facs="#zone_nm1_tqs_flb" type="summary_Croatian">
+				<p>
+					<lb/><date type="summary_Croatian" when="1810">1810</date>. ...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

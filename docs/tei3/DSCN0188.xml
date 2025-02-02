@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,67 +21,92 @@
 			<textClass>
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
-		</profileDesc>		
+		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1668/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/81d80e690c1da6f9219b43586d11854bb8ee0d75.jpg" n="https://diyhistory.org/public/phr2/iiif/1668/canvas/p1"/>
-				<zone xml:id="zone_csg_jqt_3jb" lry="2730" lrx="2162" uly="84" ulx="339"/>
-				<zone xml:id="zone_agh_kqt_3jb" lry="2386" lrx="684" uly="2169" ulx="454"/>
-				<zone xml:id="zone_tdq_g5n_sqb" lry="1453" lrx="1579" uly="1352" ulx="1420"/>
-				<zone xml:id="zone_o2y_1vn_sqb" lry="1543" lrx="1365" uly="1437" ulx="964"/>
-				<zone xml:id="zone_tvt_cvn_sqb" lry="1544" lrx="966" uly="1395" ulx="670"/>
-				<zone xml:id="zone_cgn_mwn_sqb" lry="1648" lrx="1602" uly="1561" ulx="1259"/>
-				<zone xml:id="zone_nyk_xwn_sqb" lry="1647" lrx="908" uly="1543" ulx="651"/>
-				<zone xml:id="zone_pty_c24_sqb" lry="2672" lrx="2072" uly="2286" ulx="1794"/>
-				<zone xml:id="zone_dfw_d24_sqb" lry="2455" lrx="2114" uly="2139" ulx="1794"/>
-				<zone xml:id="zone_pvt_224_sqb" lry="2242" lrx="2080" uly="1980" ulx="1793"/>
-				<zone xml:id="zone_akt_f24_sqb" lry="2084" lrx="2048" uly="1832" ulx="1807"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1668/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/fb3f3d50ba8f77ebf7919642a9b78cef060fa255.jpg"/>
-				<zone lrx="2595" lry="1594" ulx="400" uly="527" xml:id="zone_ejp_nqt_3jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0188.JPG"/>
+			<zone ulx="84" uly="84" lrx="2162" lry="2730" xml:id="zone_csg_jqt_3jb"/>
+			<zone ulx="2169" uly="2169" lrx="684" lry="2386" xml:id="zone_agh_kqt_3jb"/>
+			<zone ulx="1352" uly="1352" lrx="1579" lry="1453" xml:id="zone_tdq_g5n_sqb"/>
+			<zone ulx="1437" uly="1437" lrx="1365" lry="1543" xml:id="zone_o2y_1vn_sqb"/>
+			<zone ulx="1395" uly="1395" lrx="966" lry="1544" xml:id="zone_tvt_cvn_sqb"/>
+			<zone ulx="1561" uly="1561" lrx="1602" lry="1648" xml:id="zone_cgn_mwn_sqb"/>
+			<zone ulx="1543" uly="1543" lrx="908" lry="1647" xml:id="zone_nyk_xwn_sqb"/>
+			<zone ulx="2286" uly="2286" lrx="2072" lry="2672" xml:id="zone_pty_c24_sqb"/>
+			<zone ulx="2139" uly="2139" lrx="2114" lry="2455" xml:id="zone_dfw_d24_sqb"/>
+			<zone ulx="1980" uly="1980" lrx="2080" lry="2242" xml:id="zone_pvt_224_sqb"/>
+			<zone ulx="1832" uly="1832" lrx="2048" lry="2084" xml:id="zone_akt_f24_sqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0189.JPG"/>
+			<zone ulx="527" uly="527" lrx="2595" lry="1594" xml:id="zone_ejp_nqt_3jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_izin_tapu_nāme" facs="#zone_csg_jqt_3jb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date when-custom="1201" cert="low" type="created" when="1793-08-06">bin iki yüz bir senesine mahsūben</date> der ʿuhde ve iltizāmımıza bulunan Kirşevo mukātaʿası
-					<lb/>dāhilinde(?) <placeName facs="#zone_tdq_g5n_sqb">KOYSINA</placeName> karyesinde arz-ı mīrīye mutasarrıfına olan bir kıtʿa tarlası
-					<lb/>mutasarrıf olan zimmī <persName facs="#zone_o2y_1vn_sqb">MATO veled-i İstepān</persName>
-					<placeName facs="#zone_tvt_cvn_sqb">TRAKO HUNIK</placeName> demekle maʿrūf
-					<lb/>bir taraf <persName facs="#zone_cgn_mwn_sqb">MATO OĞULUN</persName>(?) tarlası ve bir taraf <persName facs="#zone_nyk_xwn_sqb">YALA LZRALNI</persName> tarlası ve bir taraf
-					<lb/>müşteri-i mezbūr tarlası ve tarīk-i HĀSS(?) ile ... işbu dārende-i hurūf
-					<lb/>... İstepān nām-ı mesfūr yiğirmi yedi(?)
-					<lb/>guruş bedel mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp biz dahi emīn-i
-					<lb/>mukātaʿası bulunduğumuz hasebiyle beyʿlerini cāiʿz görüp ve mesfūr
-					<lb/>İstepān mutasarrıfına izin(?) tapu nām[e] yedine virildi mā-dām ki sāl be-sāl
-					<lb/>taraf-ı mīrīye rāciʿ olan edā ve teslīm eyleye </p>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date when-custom="1201" cert="low" type="created" when="1793-08-06">bin iki yüz bir senesine mahsūben</date>
+					 der ʿuhde ve iltizāmımıza bulunan Kirşevo mukātaʿası
+					<lb/>
+					dāhilinde(?)					<placeName facs="#zone_tdq_g5n_sqb">KOYSINA</placeName>
+					 karyesinde arz-ı mīrīye mutasarrıfına olan bir kıtʿa tarlası
+					<lb/>
+					mutasarrıf olan zimmī					<persName facs="#zone_o2y_1vn_sqb">MATO veled-i İstepān</persName>
+					<placeName facs="#zone_tvt_cvn_sqb">TRAKO HUNIK</placeName>
+					 demekle maʿrūf
+					<lb/>
+					bir taraf					<persName facs="#zone_cgn_mwn_sqb">MATO OĞULUN</persName>
+					(?) tarlası ve bir taraf					<persName facs="#zone_nyk_xwn_sqb">YALA LZRALNI</persName>
+					 tarlası ve bir taraf
+					<lb/>
+					müşteri-i mezbūr tarlası ve tarīk-i HĀSS(?) ile ... işbu dārende-i hurūf
+					<lb/>
+					... İstepān nām-ı mesfūr yiğirmi yedi(?)
+					<lb/>
+					guruş bedel mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp biz dahi emīn-i
+					<lb/>
+					mukātaʿası bulunduğumuz hasebiyle beyʿlerini cāiʿz görüp ve mesfūr
+					<lb/>
+					İstepān mutasarrıfına izin(?) tapu nām[e] yedine virildi mā-dām ki sāl be-sāl
+					<lb/>
+					taraf-ı mīrīye rāciʿ olan edā ve teslīm eyleye				</p>
 				<div2 type="sign" facs="#zone_agh_kqt_3jb">
 					<p>
-						<lb/>...
-						<lb/>Mukātaʿa-i Kirşevo </p>
+						<lb/>
+						...
+						<lb/>
+						Mukātaʿa-i Kirşevo					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/><persName facs="#zone_pty_c24_sqb">MAYIK Anton</persName>
-						<lb/><persName facs="#zone_dfw_d24_sqb">GOŞİK ʿAndriye</persName>
-						<lb/><persName facs="#zone_pvt_224_sqb">İstepān OLKİ</persName>
-						<lb/><persName facs="#zone_akt_f24_sqb">MIV İŞLMK</persName>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						<persName facs="#zone_pty_c24_sqb">MAYIK Anton</persName>
+						<lb/>
+						<persName facs="#zone_dfw_d24_sqb">GOŞİK ʿAndriye</persName>
+						<lb/>
+						<persName facs="#zone_pvt_224_sqb">İstepān OLKİ</persName>
+						<lb/>
+						<persName facs="#zone_akt_f24_sqb">MIV İŞLMK</persName>
 					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_ejp_nqt_3jb">
 				<p>
-					<lb/>Temesui od njive u Kojsini.
-					<lb/>Nno 22.
-					<lb/>116 </p>
+					<lb/>
+					Temesui od njive u Kojsini.
+					<lb/>
+					Nno 22.
+					<lb/>
+					116				</p>
 			</div1>
 		</body>
 	</text>

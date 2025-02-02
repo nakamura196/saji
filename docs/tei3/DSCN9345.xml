@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -21,26 +22,38 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2269/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2269/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/588512661b81451a2e237877075ff6c6105488f2.jpg"/>
-				<zone lrx="2125" lry="2916" ulx="300" uly="434" xml:id="zone_xvp_1nq_h3b"/>
-				<zone lrx="826" lry="2892" ulx="534" uly="2667" xml:id="zone_ukm_bnq_h3b"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9345.JPG"/>
+			<zone ulx="434" uly="434" lrx="2125" lry="2916" xml:id="zone_xvp_1nq_h3b"/>
+			<zone ulx="2667" uly="2667" lrx="826" lry="2892" xml:id="zone_ukm_bnq_h3b"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_xvp_1nq_h3b" type="kassām_defteri">
 				<p>
-					<lb/>hüve
-					<lb/><placename>Nefs-i varoş-ı <placename type="proper">Kirşevo</placename></placename> mahālātlarından mahall-i <placename>...</placename>
-					<lb/>bundan akdem mütemekkinlerinden <persname cert="unknown">Anton ...</persname> nām mürd olup
-					<lb/>mesfūrun vereseler-i kebīr oğulu <persname cert="low">Toya</persname> ve kızı
-					<lb/>nasrāniyyesi <persname cert="unknown">...</persname> nāmān vereseleri iltimās mürd
-					<lb/>mesfūrun verese iltimāsyla müstakil olan
-					<lb/>... tahrīr verese'l-verese sahhı'l-bākī
-					<lb/>olanı taksīm olna <date when="1809-02-14" when-custom="1223">1223</date>
+					<lb/>
+					hüve
+					<lb/>
+					<placename>
+						Nefs-i varoş-ı						<placename type="proper">Kirşevo</placename>
+					</placename>
+					 mahālātlarından mahall-i					<placename>...</placename>
+					<lb/>
+					bundan akdem mütemekkinlerinden					<persname cert="unknown">Anton ...</persname>
+					 nām mürd olup
+					<lb/>
+					mesfūrun vereseler-i kebīr oğulu					<persname cert="low">Toya</persname>
+					 ve kızı
+					<lb/>
+					nasrāniyyesi					<persname cert="unknown">...</persname>
+					 nāmān vereseleri iltimās mürd
+					<lb/>
+					mesfūrun verese iltimāsyla müstakil olan
+					<lb/>
+					... tahrīr verese'l-verese sahhı'l-bākī
+					<lb/>
+					olanı taksīm olna					<date when="1809-02-14" when-custom="1223">1223</date>
 					<lb/>
 					<lb/>
 					<lb/>
@@ -55,12 +68,16 @@
 					<lb/>
 					<lb/>
 					<lb/>
-					<lb/>... <persname>el-nāib-i <placename type="proper">Kirşevo</placename></persname>
+					<lb/>
+					...					<persname>
+						el-nāib-i						<placename type="proper">Kirşevo</placename>
+					</persname>
 				</p>
 				<div2 type="sign">
 					<div3 facs="#zone_ukm_bnq_h3b" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>

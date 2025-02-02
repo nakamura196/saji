@@ -1,0 +1,88 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0192</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ</note>
+				<note type="summary">非ムスリムが保有していた田の、クレシェヴォ修道院の修道士に対する売却に関する承認文書、またそこからの徴税権の承認文書</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<classCode scheme="">土地譲渡・売買</classCode>
+			</textClass>
+		</profileDesc>		
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1672/manifest">
+			<surface>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/0138993e9df361c9e12f540eee3ed890c987a185.jpg" n="https://diyhistory.org/public/phr2/iiif/1672/canvas/p1"/>
+				<zone xml:id="zone_ary_d5t_3jb" lry="2811" lrx="2172" uly="1477" ulx="83"/>
+				<zone xml:id="zone_wgg_f5t_3jb" lry="2787" lrx="443" uly="2323" ulx="158"/>
+				<zone xml:id="zone_t1h_yq4_sqb" lry="1689" lrx="291" uly="1569" ulx="93"/>
+				<zone xml:id="zone_jct_tr4_sqb" lry="1929" lrx="1390" uly="1780" ulx="978"/>
+				<zone xml:id="zone_tjs_cs4_sqb" lry="1878" lrx="390" uly="1731" ulx="228"/>
+				<zone xml:id="zone_wnk_dv4_sqb" lry="2711" lrx="2053" uly="2359" ulx="1740"/>
+				<zone xml:id="zone_rdd_2v4_sqb" lry="2487" lrx="2054" uly="2238" ulx="1768"/>
+				<zone xml:id="zone_aww_2v4_sqb" lry="2301" lrx="2070" uly="2072" ulx="1809"/>
+				<zone xml:id="zone_h1w_fv4_sqb" lry="2080" lrx="2077" uly="1905" ulx="1820"/>
+				<zone xml:id="zone_jz5_gv4_sqb" lry="1954" lrx="2154" uly="1754" ulx="1824"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1672/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/25d5aae870fc30a53cee0e0a38d76babbcc94249.jpg"/>
+				<zone lrx="2925" lry="1587" ulx="287" uly="587" xml:id="zone_b1k_h5t_3jb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_zabt_temessük" facs="#zone_ary_d5t_3jb">
+				<p>
+					<lb/>Vech-i tahrīr-i temessük oldur ki
+					<lb/>işbu <date when-custom="1241" type="created" when="1826-08-03">bin iki yüz krık bir senesinde</date> der ʿuhde ve iltizāmımızda bulunan <placeName>Kirşevo</placeName>
+					mukātaʿasına tābiʿ <placeName facs="#zone_t1h_yq4_sqb">KOYSINA</placeName>
+					<lb/>karyesinde sākin <persName facs="#zone_jct_tr4_sqb">PAVLYA veled-i ʿAnton</persName> nām nasrānī mutasarrıf eyledüğü bir kıtʿa <placeName facs="#zone_tjs_cs4_sqb"
+						>DUL</placeName> demekle işbu
+					<lb/>dārendegân-ı Kirşevo varoş kilisanın <persName>rāhiblere</persName> resm-i tapu ile dokusan dokuz guruş
+					<lb/>mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp ol dahi kabūl biz dahi mukātaʿa emīni bulunduğumuz
+					<lb/>hasebiyle <persName>mesfūrlara</persName> tafvīz birle ve yedlerine işbu zabt-ı temessük virildi mā-dām ki sāl be-sāl
+					<lb/>cānib-i mīrīye ʿāit ve rāciʿ olan ʿāşār-i şeriʿye ve rüsūmāt-u ʿörfiye edā ile
+					<lb/>tarafımızdan ve taraf-ı āhardan hiç kimesne māniʿ ve müdāhale olunmaya </p>
+				<div2 type="sign" facs="#zone_wgg_f5t_3jb">
+					<p>
+						<lb/>...
+						<lb/><persName>Mustafa</persName> Emīn-i
+						<lb/>Mukātaʿa-i Kirşevo
+						<lb/>Hālā
+						<lb/>M </p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Dervīş <persName facs="#zone_wnk_dv4_sqb">İbrāhīm</persName> Ağa
+						<lb/><persName facs="#zone_rdd_2v4_sqb">ʿAbdī</persName> ʿAlemdār
+						<lb/><persName facs="#zone_aww_2v4_sqb">PAVU OK</persName>
+						<lb/><persName facs="#zone_h1w_fv4_sqb">PAVU RAYE</persName>
+						<lb/><persName facs="#zone_jz5_gv4_sqb">Peter ...
+							<lb/>LALK</persName>
+					</p>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian" facs="#zone_b1k_h5t_3jb">
+				<p>
+					<lb/>Jajna na Do Povilie Auta na Kieha
+					<lb/>Za 99. gr: <date when="1826" type="summry_Croatian">1826</date>.
+					<lb/><date when-custom="1241" type="summary_Croatian" when="1826-08-03">1241</date>. Nno 28.
+					<lb/>124 </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

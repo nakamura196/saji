@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,30 +14,31 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2261/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2261/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/abff0de50d720f91b011c6ce0a727487d66d05ae.jpg"/>
-				<zone lrx="1826" lry="2180" ulx="186" uly="466" xml:id="zone_wch_vj1_zlb"/>
-				<zone lrx="828" lry="2154" ulx="484" uly="1726" xml:id="zone_trq_wj1_zlb"/>
-				<zone lrx="810" lry="2143" ulx="500" uly="1930" xml:id="zone_vp5_xj1_zlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9337.JPG"/>
+			<zone ulx="466" uly="466" lrx="1826" lry="2180" xml:id="zone_wch_vj1_zlb"/>
+			<zone ulx="1726" uly="1726" lrx="828" lry="2154" xml:id="zone_trq_wj1_zlb"/>
+			<zone ulx="1930" uly="1930" lrx="810" lry="2143" xml:id="zone_vp5_xj1_zlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_wch_vj1_zlb" type="unkown">
 				<p>
-					<lb/>... fī <date type="created" when="1872-02-19" when-custom="1288--10">10 sene 88</date>
+					<lb/>
+					... fī					<date type="created" when="1872-02-19" when-custom="1288--10">10 sene 88</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_trq_wj1_zlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_vp5_xj1_zlb" type="stamp_sūret">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>

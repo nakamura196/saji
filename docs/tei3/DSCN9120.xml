@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,41 +17,43 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2047/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2047/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/23b9a4750774475689f8c344b40c7c88ec75381f.jpg"/>
-				<zone lrx="871" lry="1867" ulx="653" uly="1653" xml:id="zone_azt_4wv_glb"/>
-				<zone lrx="771" lry="2086" ulx="553" uly="1875" xml:id="zone_gts_pwv_glb"/>
-				<zone lrx="2739" lry="1244" ulx="595" uly="761" xml:id="zone_tpx_qwv_glb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2047/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1140b8d96446b06af4cec9977cae16970ed37e57.jpg"/>
-				<zone lrx="1828" lry="2478" ulx="35" uly="1107" xml:id="zone_vsh_swv_glb"/>
-				<zone lrx="569" lry="2421" ulx="263" uly="2073" xml:id="zone_lds_twv_glb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9120.JPG"/>
+			<zone ulx="1653" uly="1653" lrx="871" lry="1867" xml:id="zone_azt_4wv_glb"/>
+			<zone ulx="1875" uly="1875" lrx="771" lry="2086" xml:id="zone_gts_pwv_glb"/>
+			<zone ulx="761" uly="761" lrx="2739" lry="1244" xml:id="zone_tpx_qwv_glb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9121.JPG"/>
+			<zone ulx="1107" uly="1107" lrx="1828" lry="2478" xml:id="zone_vsh_swv_glb"/>
+			<zone ulx="2073" uly="2073" lrx="569" lry="2421" xml:id="zone_lds_twv_glb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_vsh_swv_glb" next="#zone_tpx_qwv_glb" subtype="izin_tezkire" type="EMIN">
 				<p>
-					<lb/>... <date cert="medium" type="created" when="1778-01-27" when-custom="1191">sene 1191</date>
+					<lb/>
+					...					<date cert="medium" type="created" when="1778-01-27" when-custom="1191">sene 1191</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_lds_twv_glb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_azt_4wv_glb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 					<div3 facs="#zone_gts_pwv_glb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -58,7 +61,8 @@
 			</div1>
 			<div1 facs="#zone_tpx_qwv_glb" type="summary_Serbian">
 				<p>
-					<lb/><date type="summary_Serbian" when="1777">1777</date>
+					<lb/>
+					<date type="summary_Serbian" when="1777">1777</date>
 					<lb/>
 				</p>
 			</div1>

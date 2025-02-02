@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9165</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2091/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2091/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/05db5c534f41ae7c6629cff1282fa9a0fb5a0a1e.jpg"/>
+				<zone lrx="2923" lry="1338" ulx="273" uly="811" xml:id="zone_lq5_2rq_jlb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2091/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/714260e184b162d1fa92a9408a9398e3658eae52.jpg"/>
+				<zone lrx="1037" lry="515" ulx="771" uly="301" xml:id="zone_lhm_grq_jlb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2091/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/7298905643965d4c7646e07ea2d1f464fd11b484.jpg"/>
+				<zone lrx="2209" lry="3245" ulx="163" uly="227" xml:id="zone_v2w_hrq_jlb"/>
+				<zone lrx="642" lry="3227" ulx="312" uly="2785" xml:id="zone_pgf_jrq_jlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_v2w_hrq_jlb" next="#zone_lq5_2rq_jlb" subtype="zabt_temessük" type="EMIN">
+				<p>
+					<lb/>... işbu <date type="created" when="1769-05-05" when-custom="1182">bin yüz seksen iki senesinde</date> der ʿuhde
+					<lb/>ve </p>
+				<div2 facs="#zone_pgf_jrq_jlb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_lhm_grq_jlb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_lq5_2rq_jlb" type="summary_Croatian">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

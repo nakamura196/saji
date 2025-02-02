@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,69 +14,75 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1423/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1423/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/db3a631031ec808281dbf06acabc50e61816911a.jpg"/>
-				<zone lrx="1991" lry="2972" ulx="300" uly="163" xml:id="zone_e1v_fxw_cjb"/>
-				<zone lrx="1791" lry="2911" ulx="1608" uly="2740" xml:id="zone_mv2_mxw_cjb"/>
-				<zone lrx="1763" lry="2903" ulx="1625" uly="2777" xml:id="zone_bjr_mxw_cjb"/>
-				<zone lrx="1503" lry="2908" ulx="1255" uly="2746" xml:id="zone_kdn_pxw_cjb"/>
-				<zone lrx="1131" lry="2936" ulx="910" uly="2681" xml:id="zone_r2d_qxw_cjb"/>
-				<zone lrx="1118" lry="2926" ulx="945" uly="2783" xml:id="zone_qpp_qxw_cjb"/>
-				<zone lrx="770" lry="2938" ulx="583" uly="2696" xml:id="zone_rwd_wxw_cjb"/>
-				<zone lrx="763" lry="2931" ulx="590" uly="2784" xml:id="zone_pv5_wxw_cjb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1423/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/049892424cc353579c14f2e13917feb6c8ea33e0.jpg"/>
-				<zone lrx="2823" lry="1788" ulx="200" uly="327" xml:id="zone_y4z_xxw_cjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1893.JPG"/>
+			<zone ulx="163" uly="163" lrx="1991" lry="2972" xml:id="zone_e1v_fxw_cjb"/>
+			<zone ulx="2740" uly="2740" lrx="1791" lry="2911" xml:id="zone_mv2_mxw_cjb"/>
+			<zone ulx="2777" uly="2777" lrx="1763" lry="2903" xml:id="zone_bjr_mxw_cjb"/>
+			<zone ulx="2746" uly="2746" lrx="1503" lry="2908" xml:id="zone_kdn_pxw_cjb"/>
+			<zone ulx="2681" uly="2681" lrx="1131" lry="2936" xml:id="zone_r2d_qxw_cjb"/>
+			<zone ulx="2783" uly="2783" lrx="1118" lry="2926" xml:id="zone_qpp_qxw_cjb"/>
+			<zone ulx="2696" uly="2696" lrx="770" lry="2938" xml:id="zone_rwd_wxw_cjb"/>
+			<zone ulx="2784" uly="2784" lrx="763" lry="2931" xml:id="zone_pv5_wxw_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1894.JPG"/>
+			<zone ulx="327" uly="327" lrx="2823" lry="1788" xml:id="zone_y4z_xxw_cjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_e1v_fxw_cjb" type="ʿilmühaber_tapu_senedi">
 				<p>
-					<lb/>... fī <date type="created" when-custom="12xx-xx-xx"> sene 12[空欄]</date>
+					<lb/>
+					... fī					<date type="created" when-custom="12xx-xx-xx"> sene 12[空欄]</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_mv2_mxw_cjb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_bjr_mxw_cjb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 facs="#zone_kdn_pxw_cjb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 				<div2 facs="#zone_r2d_qxw_cjb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_qpp_qxw_cjb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 facs="#zone_rwd_wxw_cjb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_pv5_wxw_cjb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -83,7 +90,8 @@
 			</div1>
 			<div1 facs="#zone_y4z_xxw_cjb" type="summary_Croatian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

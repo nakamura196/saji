@@ -1,0 +1,44 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2429</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2757/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2757/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7d8eed4322b82ec70dda3b33ace99d09dcaae981.jpg" />
+        <zone lrx="2290" lry="2890" ulx="40" uly="-20" xml:id="zone_xxf_1bv_dmb" />
+        <zone lrx="454" lry="2757" ulx="109" uly="2239" xml:id="zone_hrj_bbv_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 cert="low" facs="#zone_xxf_1bv_dmb" type="hurūf">
+        <p>
+          <lb />
+          <lb />... hurira fī <date type="created" when="1777-10-18" when-custom="1191-09-17">17 Ramazān sene 1191</date>
+        </p>
+        <div2 facs="#zone_hrj_bbv_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

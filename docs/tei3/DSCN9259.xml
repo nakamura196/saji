@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,41 +14,44 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2183/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2183/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/9348f932451715cca17c249cef8915bbdc3fd9fb.jpg"/>
-				<zone lrx="2356" lry="1711" ulx="612" uly="955" xml:id="zone_orl_jfh_nlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2183/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/909bc210a23c6dd00a02703b96e8c490f63c4a30.jpg"/>
-				<zone lrx="2435" lry="2478" ulx="293" uly="264" xml:id="zone_ow1_lfh_nlb"/>
-				<zone lrx="800" lry="2385" ulx="466" uly="2081" xml:id="zone_yqk_mfh_nlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9259.JPG"/>
+			<zone ulx="955" uly="955" lrx="2356" lry="1711" xml:id="zone_orl_jfh_nlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9260.JPG"/>
+			<zone ulx="264" uly="264" lrx="2435" lry="2478" xml:id="zone_ow1_lfh_nlb"/>
+			<zone ulx="2081" uly="2081" lrx="800" lry="2385" xml:id="zone_yqk_mfh_nlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_ow1_lfh_nlb" next="#zone_orl_jfh_nlb" subtype="zabt_tezkire" type="EMIN">
 				<p>
-					<lb/>işbu <date type="created" when="1790-09-08" when-custom="1204">bin iki yüz dört senesinde</date> der ...
+					<lb/>
+					işbu					<date type="created" when="1790-09-08" when-custom="1204">bin iki yüz dört senesinde</date>
+					 der ...
 					<lb/>
 				</p>
 				<div2 facs="#zone_yqk_mfh_nlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_orl_jfh_nlb" type="summary_Croatian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

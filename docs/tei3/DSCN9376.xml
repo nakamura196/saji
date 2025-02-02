@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,30 +14,31 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2300/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2300/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e49ca376977cc79e514e65a2d45ec2b1f09755f3.jpg"/>
-				<zone lrx="1985" lry="2784" ulx="200" uly="184" xml:id="zone_t1l_rmg_zlb"/>
-				<zone lrx="1029" lry="2779" ulx="388" uly="2308" xml:id="zone_tpp_smg_zlb"/>
-				<zone lrx="1020" lry="2773" ulx="741" uly="2523" xml:id="zone_tqp_tmg_zlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9376.JPG"/>
+			<zone ulx="184" uly="184" lrx="1985" lry="2784" xml:id="zone_t1l_rmg_zlb"/>
+			<zone ulx="2308" uly="2308" lrx="1029" lry="2779" xml:id="zone_tpp_smg_zlb"/>
+			<zone ulx="2523" uly="2523" lrx="1020" lry="2773" xml:id="zone_tqp_tmg_zlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_t1l_rmg_zlb" type="unknown">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 				<div2 facs="#zone_tpp_smg_zlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_tqp_tmg_zlb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>

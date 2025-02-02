@@ -1,0 +1,49 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2222</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "定型" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2550/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2550/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/69e313fe8e9970333f907b31b221b5cc56f716bb.jpg" />
+        <zone lrx="2600" lry="2246" ulx="800" uly="169" xml:id="zone_znk_xbz_cmb" />
+        <zone lrx="1760" lry="2205" ulx="1247" uly="1879" xml:id="zone_qj3_ybz_cmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2550/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3a8503103065c1bd09ac4b613591da16fa6e0d8b.jpg" />
+        <zone lrx="2228" lry="794" ulx="1134" uly="344" xml:id="zone_ejg_zbz_cmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_znk_xbz_cmb" next="#zone_ejg_zbz_cmb" type="defter">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_qj3_ybz_cmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_ejg_zbz_cmb" type="unknown">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

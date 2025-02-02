@@ -1,65 +1,73 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0966</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">DSCN1048.JPGと同じ文書。重複している。画像は撮り直している。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0966</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">DSCN1048.JPGと同じ文書。重複している。画像は撮り直している。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
           "1274-R-08" ], "saji:date_M": [ "1857-11-26" ], "saji:foldingMethod": [ "4x2" ],
           "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
           "・本文\r\n・日付\r\n・オスマン朝スタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "8" ],
           "saji:number": [ "12" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [
           "0" ], "saji:stamp_o": [ "1" ], "saji:transcription": [ "... budur ki\r\n" ],
           "saji:witness": [ "0" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1082/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1082/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b6a87b8713754ec5cdda3590569a959d4731c2df.jpg" />
-<zone lrx="2091" lry="2254" ulx="246" uly="1329" xml:id="zone_b4x_3tz_y3b" />
-<zone lrx="1188" lry="2202" ulx="1004" uly="2038" xml:id="zone_hdz_jtz_y3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1082/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4fa5efa5582b6049e169d4b12cae3bf8d55eba37.jpg" />
-<zone lrx="3028" lry="1366" ulx="584" uly="311" xml:id="zone_j2r_ltz_y3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1082/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/bb59a3ecb81f3d4088bc4ba4ab229cdad2f58c02.jpg" />
-<zone lrx="2014" lry="2238" ulx="249" uly="64" xml:id="zone_dcb_vvj_1jb" />
-<zone lrx="1144" lry="2220" ulx="956" uly="2056" xml:id="zone_r2t_wvj_1jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1082/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/2e9e3793334242b5ce041402a8212dcfc14d7c75.jpg" />
-<zone lrx="2573" lry="1466" ulx="417" uly="488" xml:id="zone_t2z_xvj_1jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_b4x_3tz_y3b #zone_dcb_vvj_1jb" type="ʿilmühaber">
-<l>... fī <date type="created" when="1858-07-19" when-custom="1274-12-08">8 Z 74</date></l>
-<div3 facs="#zone_hdz_jtz_y3b #zone_r2t_wvj_1jb" type="stamp">
-<p>
-<lb />... fī <lb />
-</p>
-</div3>
-</div1>
-<div1 facs="#zone_j2r_ltz_y3b #zone_t2z_xvj_1jb" type="summary_Croatian">
-<p>
-<lb />... <date type="summary_Croatian" when="1858-08-09" when-custom="1274">1274</date><lb />
-<lb />... <date type="summary_Croatian" when="1858-08-09" when-custom="1274">1274</date><lb />
-<lb />Nno 4.<lb />
-</p>
-</div1>
-</body>
-</text>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0966.JPG"/>
+			<zone ulx="1329" uly="1329" lrx="2091" lry="2254" xml:id="zone_b4x_3tz_y3b"/>
+			<zone ulx="2038" uly="2038" lrx="1188" lry="2202" xml:id="zone_hdz_jtz_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0967.JPG"/>
+			<zone ulx="311" uly="311" lrx="3028" lry="1366" xml:id="zone_j2r_ltz_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1048.JPG"/>
+			<zone ulx="64" uly="64" lrx="2014" lry="2238" xml:id="zone_dcb_vvj_1jb"/>
+			<zone ulx="2056" uly="2056" lrx="1144" lry="2220" xml:id="zone_r2t_wvj_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1049.JPG"/>
+			<zone ulx="488" uly="488" lrx="2573" lry="1466" xml:id="zone_t2z_xvj_1jb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_b4x_3tz_y3b #zone_dcb_vvj_1jb" type="ʿilmühaber">
+				<l>
+					... fī					<date type="created" when="1858-07-19" when-custom="1274-12-08">8 Z 74</date>
+				</l>
+				<div3 facs="#zone_hdz_jtz_y3b #zone_r2t_wvj_1jb" type="stamp">
+					<p>
+						<lb/>
+						... fī						<lb/>
+					</p>
+				</div3>
+			</div1>
+			<div1 facs="#zone_j2r_ltz_y3b #zone_t2z_xvj_1jb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1858-08-09" when-custom="1274">1274</date>
+					<lb/>
+					<lb/>
+					...					<date type="summary_Croatian" when="1858-08-09" when-custom="1274">1274</date>
+					<lb/>
+					<lb/>
+					Nno 4.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

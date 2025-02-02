@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9003</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary"/>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1931/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1931/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/bfaa75af27e7e4b0fbe4d96b8c118406e344af92.jpg"/>
+				<zone lrx="1783" lry="512" ulx="1008" uly="291" xml:id="zone_lcp_45y_wkb"/>
+				<zone lrx="2062" lry="2787" ulx="1779" uly="2533" xml:id="zone_qzv_p5y_wkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1931/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7c8bf82fe9f549bc81eb380ab7c642336091a2b7.jpg"/>
+				<zone lrx="1408" lry="2941" ulx="25" uly="33" xml:id="zone_yqs_r5y_wkb"/>
+				<zone lrx="416" lry="2906" ulx="143" uly="2543" xml:id="zone_btc_t5y_wkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_yqs_r5y_wkb" next="#zone_lcp_45y_wkb" type="ʿarz-ı_hāl">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+				<div2 facs="#zone_btc_t5y_wkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_qzv_p5y_wkb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_lcp_45y_wkb" type="unkown">
+				<p>
+					<lb/>...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

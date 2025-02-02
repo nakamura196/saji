@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,113 +14,172 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1815/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/acf3cfdca2d9f330886b6d0754174dc4d3fe956f.jpg"/>
-				<zone lrx="1750" lry="3260" ulx="720" uly="0" xml:id="zone_txh_qrl_kkb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/83274875320f6e176f8b71104b4c8e000476e878.jpg"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/c4dd4e8b9c75a8b90890a76c3affed99fc71620a.jpg"/>
-				<zone lrx="1637" lry="1283" ulx="1196" uly="420" xml:id="zone_m5h_srl_kkb"/>
-				<zone lrx="1506" lry="1241" ulx="1315" uly="1062" xml:id="zone_rdk_trl_kkb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/6e6201fb150ea72b7f9b52340febf739fae49a47.jpg"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p5" url="https://diyhistory.org/public/phr2/files/original/d5be794fbb594ebf9e8eed5f2f88c52734e4957e.jpg"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1815/canvas/p6" url="https://diyhistory.org/public/phr2/files/original/897a0229f36b7d9a9838f07713092dd1f5a00c2f.jpg"/>
-				<zone lrx="2839" lry="1416" ulx="1345" uly="722" xml:id="zone_cb5_5rl_kkb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0336.JPG"/>
+			<zone ulx="0" uly="0" lrx="1750" lry="3260" xml:id="zone_txh_qrl_kkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0337.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0338.JPG"/>
+			<zone ulx="420" uly="420" lrx="1637" lry="1283" xml:id="zone_m5h_srl_kkb"/>
+			<zone ulx="1062" uly="1062" lrx="1506" lry="1241" xml:id="zone_rdk_trl_kkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0339.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0340.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0341.JPG"/>
+			<zone ulx="722" uly="722" lrx="2839" lry="1416" xml:id="zone_cb5_5rl_kkb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_txh_qrl_kkb" type="hüccet">
 				<p>
-					<lb/>Sebeb-i tahrīr-i kitāb-ı şerʿī budur ki
-					<lb/>husūs-ı ātiü’l-beyānın mahallinde künh ü hakīkati üzere ketb ve iltimās olunmağın medīne-i Saray Bosna kazāsına
-					<lb/>müzāfa Foyniçe nāhiyesine tābiʿ BUKULÇE cemāʿat mahallātından PIRIN mahallesi sākinlerinden DOĞLI AĞRAbey bin ʿAbdüllāh
-					<lb/>nām kimesne eyālet-i Bosna vālīsi ve'l-vālāşān Hurşid Mehmed Paşa Efendimiz hazretlerinden istidʿā eylediği arāzī-i mīrīye
-					<lb/>müteʿallik karye-i mezkūre sükkânından ÇİZMU ʿÖmer ile daʿvāmızı fasl ve ru'yet olunmak üzere Foyniçe müdīr vekīlinize hitāben
-					<lb/>emirnāme-i rahimāneleri inhā buyurulmak niyāz k(ç)ākerānemdir ʿarzhāl bālāsında şeref-sādır buyurulan buyurldu emr-i hātir mūcibince
-					<lb/>taraf-ı şerʿ-i nebevīden Kirşevo nā'ib vekīl(i) bulunan ʿAbdüllāh Efendī ve kasaba-i mezbūrenin müdīr vekīl(i) Dāvud Ağa ve aʿzādan
-					<lb/>Bekir bey BOLİNA ma'zūnan taʿyīn ve irsāl olunub () nām karyeye varub mahall-i münāza' fīh üzerinde zeyl-i veşīkada muharrerü’l-esāmi
-					<lb/>olan Müslimīn mahzarlarında ʿakd-i meclis-i şerʿ-i ʿālī eyledikte zirāʿat müdīr vekīl(i) hāzır ve mevcūd bulunduğu hālde
-					<lb/>meclis-i maʿkūd-ı mezkūrede yine karye-i mezbūre sükkânından işbu rāfi'ü hāza'l-kitāb ʿÖmer bin İbrāhīm ÇİZMU nām kimesnenin
-					<lb/>mahzar ve muvācehesinde üzerine daʿvā ve takrīr-i kelām edüb karye-i mezbūrin hudūd sınırında kā'in arāzī-i mīrīyeden
-					<lb/>ve etrafta korusu olan vākiʿ bir taraf Rauşevaç Potak ve bir taraf Dol ve bir taraf Duga Njiva'ya giden tarīk-i
-					<lb/>hāss ve bir taraf TOPÇU'ye giden tarīkiyle mahdūd ve mümtāz ÇKALA demekle maʿrūf bir kıtʿa tarla ve korsunda hissem var(?) ve karye-i mezkūrenin sipāhīsi sekiz seneden berü
+					<lb/>
+					Sebeb-i tahrīr-i kitāb-ı şerʿī budur ki
+					<lb/>
+					husūs-ı ātiü’l-beyānın mahallinde künh ü hakīkati üzere ketb ve iltimās olunmağın medīne-i Saray Bosna kazāsına
+					<lb/>
+					müzāfa Foyniçe nāhiyesine tābiʿ BUKULÇE cemāʿat mahallātından PIRIN mahallesi sākinlerinden DOĞLI AĞRAbey bin ʿAbdüllāh
+					<lb/>
+					nām kimesne eyālet-i Bosna vālīsi ve'l-vālāşān Hurşid Mehmed Paşa Efendimiz hazretlerinden istidʿā eylediği arāzī-i mīrīye
+					<lb/>
+					müteʿallik karye-i mezkūre sükkânından ÇİZMU ʿÖmer ile daʿvāmızı fasl ve ru'yet olunmak üzere Foyniçe müdīr vekīlinize hitāben
+					<lb/>
+					emirnāme-i rahimāneleri inhā buyurulmak niyāz k(ç)ākerānemdir ʿarzhāl bālāsında şeref-sādır buyurulan buyurldu emr-i hātir mūcibince
+					<lb/>
+					taraf-ı şerʿ-i nebevīden Kirşevo nā'ib vekīl(i) bulunan ʿAbdüllāh Efendī ve kasaba-i mezbūrenin müdīr vekīl(i) Dāvud Ağa ve aʿzādan
+					<lb/>
+					Bekir bey BOLİNA ma'zūnan taʿyīn ve irsāl olunub () nām karyeye varub mahall-i münāza' fīh üzerinde zeyl-i veşīkada muharrerü’l-esāmi
+					<lb/>
+					olan Müslimīn mahzarlarında ʿakd-i meclis-i şerʿ-i ʿālī eyledikte zirāʿat müdīr vekīl(i) hāzır ve mevcūd bulunduğu hālde
+					<lb/>
+					meclis-i maʿkūd-ı mezkūrede yine karye-i mezbūre sükkânından işbu rāfi'ü hāza'l-kitāb ʿÖmer bin İbrāhīm ÇİZMU nām kimesnenin
+					<lb/>
+					mahzar ve muvācehesinde üzerine daʿvā ve takrīr-i kelām edüb karye-i mezbūrin hudūd sınırında kā'in arāzī-i mīrīyeden
+					<lb/>
+					ve etrafta korusu olan vākiʿ bir taraf Rauşevaç Potak ve bir taraf Dol ve bir taraf Duga Njiva'ya giden tarīk-i
+					<lb/>
+					hāss ve bir taraf TOPÇU'ye giden tarīkiyle mahdūd ve mümtāz ÇKALA demekle maʿrūf bir kıtʿa tarla ve korsunda hissem var(?) ve karye-i mezkūrenin sipāhīsi sekiz seneden berü
 					bana tafvīz ve yedime memhūrlu tapu temessükü iʿtā etmekle Ʌ
-					<lb/>Ʌ daʿvā ederim ve arāzī-i mezkūre(yi) zabt ve tasarrıf murad eylediğimde merkūm ʿÖmer mümānaʿat ve zikr olunan arāzīyi füzūlen zabt
-					<lb/>ve zirāʿat ve varoş-ı Kirşevo kilisanın gardiyānı Fra Andrī nām rāhibe iki bin iki yüz elli guruş bedel mukābelesinde
-					<lb/>beyʿ etmişdir su'āl olunub ber mūcib-i şerʿ ve kānūnīsi icrā ve kasr-ı yedine tenbīh olunması matlūbumdur dedikde gıbbe's-su'āl mezbūr ʿÖmer
-					<lb/>cevābında fī'l-vākiʿ arāzī-i mezkūreyi ve korusu-u mezbūreyi zabt ve zirāʿat etmiş olduğum ve varoş-ı Kirşevo kilisanın gardiyān
-					<lb/>Fra Andrī nām rāhibe iki bün iki yüz elli guruş bedel mukābelesinde hakk-ı tasarrufun(u) ferāğ ve kasr-ı yed eylediğim ol dahi
-					<lb/>ber minvāl-i muharrer ahz ve kabūl ve iştirā eylemişdir ve babamızın taht-ı tasarrufunda bā tapu temessükünda kırk seneyile(?) berāber olduğu
-					<lb/>maʿlūmumdur ve merkūm babamızın vefātından sonra arāzī-i mezkūre bana intikāl ʿādī ile meccānen intikāl eylediğine bināen zikr
-					<lb/>olunan arāzīyi bi'l-asāle zabt ve zirāʿat eyledim deyü defʿile mukābele edicek gıbbe'l-istintāk ve ʿakībe'l-inkâr merkūm
-					<lb/>ʿÖmer'den daʿvāsına mütābıka beyyine taleb olundukta ʿudūl-ı ahrār ricāl-i müslimīnden MURATINBİÇ cemāʿat mahallātından GUNATI mahalle
-					<lb/>sākinlerinden Mehmed bin Ahmed MA'MİÇ ve ʿAlī bin mezbūr MA'MİÇ ve İbrāhīm bin KŞKO ve ʿAlī bin İbrāhīm KIRİLAŞ nāmūn kimesneler
-					<lb/>li-ecli'l-şahāda meclis-i şerʿiye hāzılūn olub istişhād oluduklarında fī'l-hakīka mārrü'l-zikr PIRIN mahallesinde hudūd-ı mezkūre ile
-					<lb/>mahdūd ve mümtāz olan arāzī ve korusı mezbūr ʿÖmer babasının bā tapunāme kırk seneden berü taht-ı tasarrıfını ve zabt (ve) zirāʿatı
-					<lb/>bileriz ve baʿd-ı vefātih oğlu-ı merkūm ʿÖmer'e intikāl eylediği maʿlūmumuzdur ve biz bu husuta(hususta) bu vech üzere şāhidleriz ve şehādet dahi ederiz
-					<lb/>deyü her biri müttefiku'l-lafz u maʿnā edā-i şehādet-i şerʿiye etdiklerinde baʿde riʿāyetihi şerā'itü'l-kabūl şehādetleri makbūle olduktan sonra
-					<lb/>tarafeyn tapunāme-i temessüklerine nazar olundukta merkūm DOĞLI AĞRAbey'in tapunāmesi daʿvāya mutābakatı bulunmadığı ve mezbūr İbrāhīm'in
-					<lb/>tapu temessükü daʿvāya mütābık ve otuz iki sene mukaddem taht-ı tasarrıfın(ı) ve zabt zirāʿat eylediği zāhir olmağın mūcibince tasarrufu evvel
-					<lb/>iʿtibāryile merkūm ʿÖmer'in yedinde ibkā ve beyʿ-i sahīh oldukta mezbūr AĞRAbey DOĞLI'in muʿārazası defʿ menʿ birle
-					<lb/>mā-vakaʿ bi't-taleb ketb olundu hurira ve cerā zālike <date type="created" when="1856-03-13" when-custom="1272-07-07">fi'l-yevmi'l-sābiʿ min şehr-i şerīf Receb'il-ferd senes-i
-						<lb/>isnā ve sebʿīn ve mieteyn ve elif</date>
+					<lb/>
+					Ʌ daʿvā ederim ve arāzī-i mezkūre(yi) zabt ve tasarrıf murad eylediğimde merkūm ʿÖmer mümānaʿat ve zikr olunan arāzīyi füzūlen zabt
+					<lb/>
+					ve zirāʿat ve varoş-ı Kirşevo kilisanın gardiyānı Fra Andrī nām rāhibe iki bin iki yüz elli guruş bedel mukābelesinde
+					<lb/>
+					beyʿ etmişdir su'āl olunub ber mūcib-i şerʿ ve kānūnīsi icrā ve kasr-ı yedine tenbīh olunması matlūbumdur dedikde gıbbe's-su'āl mezbūr ʿÖmer
+					<lb/>
+					cevābında fī'l-vākiʿ arāzī-i mezkūreyi ve korusu-u mezbūreyi zabt ve zirāʿat etmiş olduğum ve varoş-ı Kirşevo kilisanın gardiyān
+					<lb/>
+					Fra Andrī nām rāhibe iki bün iki yüz elli guruş bedel mukābelesinde hakk-ı tasarrufun(u) ferāğ ve kasr-ı yed eylediğim ol dahi
+					<lb/>
+					ber minvāl-i muharrer ahz ve kabūl ve iştirā eylemişdir ve babamızın taht-ı tasarrufunda bā tapu temessükünda kırk seneyile(?) berāber olduğu
+					<lb/>
+					maʿlūmumdur ve merkūm babamızın vefātından sonra arāzī-i mezkūre bana intikāl ʿādī ile meccānen intikāl eylediğine bināen zikr
+					<lb/>
+					olunan arāzīyi bi'l-asāle zabt ve zirāʿat eyledim deyü defʿile mukābele edicek gıbbe'l-istintāk ve ʿakībe'l-inkâr merkūm
+					<lb/>
+					ʿÖmer'den daʿvāsına mütābıka beyyine taleb olundukta ʿudūl-ı ahrār ricāl-i müslimīnden MURATINBİÇ cemāʿat mahallātından GUNATI mahalle
+					<lb/>
+					sākinlerinden Mehmed bin Ahmed MA'MİÇ ve ʿAlī bin mezbūr MA'MİÇ ve İbrāhīm bin KŞKO ve ʿAlī bin İbrāhīm KIRİLAŞ nāmūn kimesneler
+					<lb/>
+					li-ecli'l-şahāda meclis-i şerʿiye hāzılūn olub istişhād oluduklarında fī'l-hakīka mārrü'l-zikr PIRIN mahallesinde hudūd-ı mezkūre ile
+					<lb/>
+					mahdūd ve mümtāz olan arāzī ve korusı mezbūr ʿÖmer babasının bā tapunāme kırk seneden berü taht-ı tasarrıfını ve zabt (ve) zirāʿatı
+					<lb/>
+					bileriz ve baʿd-ı vefātih oğlu-ı merkūm ʿÖmer'e intikāl eylediği maʿlūmumuzdur ve biz bu husuta(hususta) bu vech üzere şāhidleriz ve şehādet dahi ederiz
+					<lb/>
+					deyü her biri müttefiku'l-lafz u maʿnā edā-i şehādet-i şerʿiye etdiklerinde baʿde riʿāyetihi şerā'itü'l-kabūl şehādetleri makbūle olduktan sonra
+					<lb/>
+					tarafeyn tapunāme-i temessüklerine nazar olundukta merkūm DOĞLI AĞRAbey'in tapunāmesi daʿvāya mutābakatı bulunmadığı ve mezbūr İbrāhīm'in
+					<lb/>
+					tapu temessükü daʿvāya mütābık ve otuz iki sene mukaddem taht-ı tasarrıfın(ı) ve zabt zirāʿat eylediği zāhir olmağın mūcibince tasarrufu evvel
+					<lb/>
+					iʿtibāryile merkūm ʿÖmer'in yedinde ibkā ve beyʿ-i sahīh oldukta mezbūr AĞRAbey DOĞLI'in muʿārazası defʿ menʿ birle
+					<lb/>
+					mā-vakaʿ bi't-taleb ketb olundu hurira ve cerā zālike					<date type="created" when="1856-03-13" when-custom="1272-07-07">
+						fi'l-yevmi'l-sābiʿ min şehr-i şerīf Receb'il-ferd senes-i
+						<lb/>
+						isnā ve sebʿīn ve mieteyn ve elif
+					</date>
 				</p>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>RİCAL ʿĀbid ʿan kasaba-i Foiniçe
-						<lb/>ve Zāhir Zabtiye ʿan mezbūr
-						<lb/>ve Hayrullāh TUTAN ʿan mezbūr
-						<lb/>ve Hüseyin ZHNE ʿan mezbūr
-						<lb/>ve Mustafa BUBR ʿan mezbūr
-						<lb/>ve AFNEABY ʿan madīne-i Saray </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						RİCAL ʿĀbid ʿan kasaba-i Foiniçe
+						<lb/>
+						ve Zāhir Zabtiye ʿan mezbūr
+						<lb/>
+						ve Hayrullāh TUTAN ʿan mezbūr
+						<lb/>
+						ve Hüseyin ZHNE ʿan mezbūr
+						<lb/>
+						ve Mustafa BUBR ʿan mezbūr
+						<lb/>
+						ve AFNEABY ʿan madīne-i Saray					</p>
 				</div2>
 				<div2 facs="#zone_m5h_srl_kkb" type="tasdīk">
 					<p>
-						<lb/>El-emru hasbemā zikr fīhi Çıkacızāde Seyyid ʿAbdüllāh Hulusi en-nāib bi-nāhiyet-i Foyniçe bi-mennehu(?) el-fakīr ileyhi ...
-						<lb/>gufira lehu </p>
+						<lb/>
+						El-emru hasbemā zikr fīhi Çıkacızāde Seyyid ʿAbdüllāh Hulusi en-nāib bi-nāhiyet-i Foyniçe bi-mennehu(?) el-fakīr ileyhi ...
+						<lb/>
+						gufira lehu					</p>
 					<div3 facs="#zone_rdk_trl_kkb" type="stamp">
 						<p>
-							<lb/>...
-							<lb/>...
-							<lb/>ʿAbdüllāh </p>
+							<lb/>
+							...
+							<lb/>
+							...
+							<lb/>
+							ʿAbdüllāh						</p>
 					</div3>
 				</div2>
 				<div2 type="note">
 					<p>
-						<lb/>Guruş
-						<lb/>4000
-						<lb/>Üç bin guruştan dört bin guruşa kadar
-						<lb/>idāne hücceti kâğıdı
-						<lb/>kıymet guruş
-						<lb/>2.5 </p>
+						<lb/>
+						Guruş
+						<lb/>
+						4000
+						<lb/>
+						Üç bin guruştan dört bin guruşa kadar
+						<lb/>
+						idāne hücceti kâğıdı
+						<lb/>
+						kıymet guruş
+						<lb/>
+						2.5					</p>
 				</div2>
 				<div2 type="note">
 					<p>
-						<lb/>Madde-i mahsūs bulunmaduğundan
-						<lb/>işbu varaka-i sahīhada yazıldı </p>
+						<lb/>
+						Madde-i mahsūs bulunmaduğundan
+						<lb/>
+						işbu varaka-i sahīhada yazıldı					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_cb5_5rl_kkb" type="summary_Croatian">
 				<p>
-					<lb/>...
-					<lb/>...
-					<lb/>1. Rauševac Potak(?)
-					<lb/>2. Doh(?)
-					<lb/>3. Duga Njiva
-					<lb/>4. … u ...</p>
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					1. Rauševac Potak(?)
+					<lb/>
+					2. Doh(?)
+					<lb/>
+					3. Duga Njiva
+					<lb/>
+					4. … u ...
+				</p>
 			</div1>
 		</body>
 	</text>

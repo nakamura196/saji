@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2061</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2391/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2391/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/2221171e7f4de77f227b3e0348e1f685d61e8448.jpg" />
+        <zone lrx="2200" lry="3029" ulx="83" uly="1058" xml:id="zone_dyh_m25_bmb" />
+        <zone lrx="600" lry="3000" ulx="193" uly="2606" xml:id="zone_x3j_425_bmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2391/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c2268fb81a08a68cd65cb9077b7ff8baba26747c.jpg" />
+        <zone lrx="626" lry="296" ulx="270" uly="-11" xml:id="zone_afh_q25_bmb" />
+        <zone lrx="2063" lry="2929" ulx="211" uly="2366" xml:id="zone_anb_r25_bmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_dyh_m25_bmb" next="#zone_anb_r25_bmb" subtype="tezkire" type="EMIN">
+        <p>
+          <lb />işbu <date when="1820-10-06" when-custom="1235">bin iki yüz otuz beş</date> senesinde der ...
+          <lb />... <date type="created" when="1820-10-06" when-custom="1235">sene 235</date>
+        </p>
+        <div2 facs="#zone_x3j_425_bmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_afh_q25_bmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_anb_r25_bmb" type="summary_Croatian">
+        <p>
+          <lb />... <date when="1821">1821</date>.
+          <lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

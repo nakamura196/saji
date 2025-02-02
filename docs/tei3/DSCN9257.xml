@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,49 +14,56 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2181/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2181/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1ff43395b3658e3eb4dc81db0dc1673b3520c303.jpg"/>
-				<zone lrx="2806" lry="2577" ulx="2350" uly="2322" xml:id="zone_mcl_fdh_nlb"/>
-				<zone lrx="2750" lry="1783" ulx="534" uly="761" xml:id="zone_yg1_gdh_nlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2181/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4618fe6142e9e6a7d025e3091a76b223f9226f0e.jpg"/>
-				<zone lrx="2257" lry="2535" ulx="207" uly="292" xml:id="zone_zbr_hdh_nlb"/>
-				<zone lrx="686" lry="2202" ulx="323" uly="1948" xml:id="zone_lhx_3dh_nlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9257.JPG"/>
+			<zone ulx="2322" uly="2322" lrx="2806" lry="2577" xml:id="zone_mcl_fdh_nlb"/>
+			<zone ulx="761" uly="761" lrx="2750" lry="1783" xml:id="zone_yg1_gdh_nlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9258.JPG"/>
+			<zone ulx="292" uly="292" lrx="2257" lry="2535" xml:id="zone_zbr_hdh_nlb"/>
+			<zone ulx="1948" uly="1948" lrx="686" lry="2202" xml:id="zone_lhx_3dh_nlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="medium" facs="#zone_zbr_hdh_nlb" next="#zone_yg1_gdh_nlb" subtype="hurūf" type="EMIN">
 				<p>
-					<lb/>işbu <date when="1832-05-29" when-custom="1247">bin iki yüz krık yedi senesinde</date> der ...
-					<lb/>fī <date type="created" when="1832-05-20" when-custom="1247-12-20">20 Z sene 247</date>
+					<lb/>
+					işbu					<date when="1832-05-29" when-custom="1247">bin iki yüz krık yedi senesinde</date>
+					 der ...
+					<lb/>
+					fī					<date type="created" when="1832-05-20" when-custom="1247-12-20">20 Z sene 247</date>
 				</p>
 				<div2 facs="#zone_lhx_3dh_nlb" type="sign">
 					<p>
-						<lb/>... fī
+						<lb/>
+						... fī
 						<lb/>
 					</p>
 					<div3 facs="#zone_mcl_fdh_nlb" type="stamp_sūret">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_yg1_gdh_nlb" type="summary_Croatian">
 				<p>
-					<lb/><date type="summary_Croatian" when="1832-05-29" when-custom="1247">1247</date>.
-					<lb/>Nno 14. </p>
+					<lb/>
+					<date type="summary_Croatian" when="1832-05-29" when-custom="1247">1247</date>
+					.
+					<lb/>
+					Nno 14.				</p>
 			</div1>
 		</body>
 	</text>

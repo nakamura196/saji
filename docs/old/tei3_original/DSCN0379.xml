@@ -1,0 +1,88 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0379</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">ムスリムの保有する耕作地の、修道院長に対する売却の承認</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1856/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1856/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/95cbd1c8402c4223daea659dd9f4acddaff5cde4.jpg"/>
+				<zone lrx="2154" lry="2776" ulx="100" uly="169" xml:id="zone_hky_z3f_pkb"/>
+				<zone lrx="588" lry="2715" ulx="195" uly="2234" xml:id="zone_ypm_bjf_pkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1856/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/21484b74f71c460b5e345b377bc57004a62f779e.jpg"/>
+				<zone lrx="891" lry="1016" ulx="600" uly="779" xml:id="zone_vqk_djf_pkb"/>
+				<zone lrx="2307" lry="2864" ulx="496" uly="2207" xml:id="zone_mps_2jf_pkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_hky_z3f_pkb" next="#zone_mps_2jf_pkb" type="EMIN_zabt_tezkire_sūret">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date when-custom="1260">bin iki yüz altmış senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿsında
+					<lb/>MRATININ cemāʿatında RASNK hudūd dāhilinde bir kıtʿa tarla BUCRKULA demekle
+					<lb/>bir taraf CAHİRoğlu tarlası ve taraf-ı sānī müezzin(?) Mollā Mustafa tarlası ve taraf-ı sālis ve rābiʿ tarīk-i
+					<lb/>ʿām ile mahdūd mümtāz olub Kirşevo kasabasında(?) müslimīn cemāʿatında BRNİÇoğlu Sālih mutasarrıf
+					<lb/>eyledüğü işbu dārende-i hurūf Kirşevo dervīş kilisada gardiyān nām-ı mesfūre resmiyle
+					<lb/>dört yüz yetmiş guruş bedel ve semen mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb
+					<lb/>ol dahi kabūl biz dahi mukātaʿa emīni bulunduğumuz hasebiyle zimmī gardiyāna
+					<lb/>tafvīz ve yedine işbu zabt-ı tezkire virildi tarafımızda ve taraf-ı āhardan bir kimesne māniʿ
+					<lb/>ve müdāhale olunmaya fī <date type="created" when="1844-08-03" when-custom="1260-07-19">19 Receb sene 260</date>
+				</p>
+				<div2 facs="#zone_ypm_bjf_pkb" type="sign">
+					<p>
+						<lb/>El-me'mūr bi'l-memhūr
+						<lb/>Mehmed Emīn-i Mukā-
+						<lb/>taʿa Kirşevo
+						<lb/>Hālā
+						<lb/>M
+					</p>
+					<div3 facs="#zone_vqk_djf_pkb" type="stamp_sūret">
+						<p>
+							<lb/>...
+							<lb/>Mehmed
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>KNĞİzāde Ahmad ʿAlemdār
+						<lb/>Mevlānā Mollā Mehmed ʿan Kirşevo
+						<lb/>CHRoğlu Mustafa ʿAlemdār
+						<lb/>BİENİÇ Mollā İbrāhīm
+						<lb/>Mü'ezzin Mollā Mustafa Kirşevo
+					</p>
+				</div2>
+				<div2 type="note">
+					<p>
+						<lb/>Tekâlif-i iki ...
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_mps_2jf_pkb" type="summary_Croatian">
+				<p>
+					<lb/>Tapija na ...
+					<lb/>od ,,, gr. 500. <date type="summary_Croatian" when="1844">1844</date>.
+					<lb/>Nno 12.
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

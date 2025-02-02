@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2028</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2358/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2358/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c4357ad6cd609fc5d2d0cfa27420913ddc9c80ba.jpg" />
+        <zone lrx="1562" lry="2538" ulx="280" uly="261" xml:id="zone_khb_314_bmb" />
+        <zone lrx="450" lry="2501" ulx="293" uly="2257" xml:id="zone_opg_k14_bmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2358/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/afa2368da3c7c4a9760914095a44e84885e52844.jpg" />
+        <zone lrx="607" lry="730" ulx="338" uly="509" xml:id="zone_qsf_414_bmb" />
+        <zone lrx="2003" lry="1906" ulx="334" uly="1471" xml:id="zone_x44_p14_bmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_khb_314_bmb" next="#zone_x44_p14_bmb" type="mürāsele">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 facs="#zone_opg_k14_bmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_qsf_414_bmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_x44_p14_bmb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

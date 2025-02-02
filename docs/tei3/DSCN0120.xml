@@ -1,38 +1,41 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0120</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1604/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1604/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a7a43e1966702f13719cc5967afb2b1418bddb99.jpg" />
-<zone lrx="1777" lry="1982" ulx="406" uly="347" xml:id="zone_esr_jhv_2jb" />
-<zone lrx="1022" lry="1862" ulx="425" uly="1180" xml:id="zone_ejs_khv_2jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_esr_jhv_2jb" type="fetvā">
-<p>
-<lb />...<lb />
-</p>
-<div2 facs="#zone_ejs_khv_2jb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0120</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0120.JPG"/>
+			<zone ulx="347" uly="347" lrx="1777" lry="1982" xml:id="zone_esr_jhv_2jb"/>
+			<zone ulx="1180" uly="1180" lrx="1022" lry="1862" xml:id="zone_ejs_khv_2jb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_esr_jhv_2jb" type="fetvā">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+				<div2 facs="#zone_ejs_khv_2jb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

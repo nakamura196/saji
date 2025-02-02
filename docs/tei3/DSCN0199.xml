@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,69 +20,100 @@
 			<textClass>
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
-		</profileDesc>		
+		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1678/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/ba492641d2ea0b5f747a69d6bf4c15dd6a59d104.jpg" n="https://diyhistory.org/public/phr2/iiif/1678/canvas/p1"/>
-				<zone xml:id="zone_hq5_jzt_3jb" lry="2830" lrx="2301" uly="150" ulx="81"/>
-				<zone xml:id="zone_iqy_kzt_3jb" lry="2797" lrx="450" uly="2342" ulx="195"/>
-				<zone xml:id="zone_gbm_t2t_wqb" lry="1503" lrx="758" uly="1368" ulx="561"/>
-				<zone xml:id="zone_i25_fft_wqb" lry="1456" lrx="269" uly="1301" ulx="122"/>
-				<zone xml:id="zone_bnp_lft_wqb" lry="1716" lrx="1346" uly="1560" ulx="1136"/>
-				<zone xml:id="zone_d2d_m3t_wqb" lry="2687" lrx="2163" uly="2390" ulx="1810"/>
-				<zone xml:id="zone_gf5_m3t_wqb" lry="2477" lrx="2126" uly="2273" ulx="1856"/>
-				<zone xml:id="zone_sb4_n3t_wqb" lry="2337" lrx="2181" uly="2122" ulx="1853"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1678/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/980a9320ca62d6e12992affc31b386f9c0703026.jpg"/>
-				<zone lrx="3085" lry="1879" ulx="121" uly="522" xml:id="zone_b2d_nzt_3jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0199.JPG"/>
+			<zone ulx="150" uly="150" lrx="2301" lry="2830" xml:id="zone_hq5_jzt_3jb"/>
+			<zone ulx="2342" uly="2342" lrx="450" lry="2797" xml:id="zone_iqy_kzt_3jb"/>
+			<zone ulx="1368" uly="1368" lrx="758" lry="1503" xml:id="zone_gbm_t2t_wqb"/>
+			<zone ulx="1301" uly="1301" lrx="269" lry="1456" xml:id="zone_i25_fft_wqb"/>
+			<zone ulx="1560" uly="1560" lrx="1346" lry="1716" xml:id="zone_bnp_lft_wqb"/>
+			<zone ulx="2390" uly="2390" lrx="2163" lry="2687" xml:id="zone_d2d_m3t_wqb"/>
+			<zone ulx="2273" uly="2273" lrx="2126" lry="2477" xml:id="zone_gf5_m3t_wqb"/>
+			<zone ulx="2122" uly="2122" lrx="2181" lry="2337" xml:id="zone_sb4_n3t_wqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0200.JPG"/>
+			<zone ulx="522" uly="522" lrx="3085" lry="1879" xml:id="zone_b2d_nzt_3jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_temessük" facs="#zone_hq5_jzt_3jb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr temessük oldur ki
-					<lb/>berāt-ı pādişāhımıyla mutasarrıf eyledüğü tımārımız kurālarında <placeName facs="#zone_gbm_t2t_wqb">BIYUIK</placeName> hudūdunda vākiʿ <placeName facs="#zone_i25_fft_wqb"
-						>HNIK</placeName>
-					<lb/>yaylasında bir kıtʿa çayır <placeName facs="#zone_bnp_lft_wqb">PUYATİÇE</placeName> dimekle mutasarrıf eyledüğü bir tuzla(?) <persName>ʿAbdüllāh</persName> İbn-i Sālih
-					<lb/>bir taraf zimmī <persName>İstepān</persName> çayırı ve üç taraf orman işbu dārendegân <placeName>Kirşevo</placeName>
-					<lb/>kilisa[nı]n <persName>gardiyān</persName> nām-ı mesfūre resm-i tapu ile yüz on guruş mukābelesinde beyʿ-i
-					<lb/>bāt katʿiyle beyʿ edüp ol dahi kabūl biz dahi me'mūr olduğumuz hasbiyle
-					<lb/>zimmī <persName>gardiyān</persName>-ı mesfūre tafvīz birle ve yedine işbu zabt-ı temessük virildi
-					<lb/>mā-dām ki sāl be-sāl tarafımıza(?) ʿāit ve rāciʿ olan ʿaşār-ı şerʿiye ve rüsūmāt
-					<lb/>sāy'ire edā ile zabt ve tasarrıfına kimesne māniʿ olunmaya <date when-custom="1248" cert="medium" type="created" when="1831-06-09">sene 24</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr temessük oldur ki
+					<lb/>
+					berāt-ı pādişāhımıyla mutasarrıf eyledüğü tımārımız kurālarında					<placeName facs="#zone_gbm_t2t_wqb">BIYUIK</placeName>
+					 hudūdunda vākiʿ					<placeName facs="#zone_i25_fft_wqb">HNIK</placeName>
+					<lb/>
+					yaylasında bir kıtʿa çayır					<placeName facs="#zone_bnp_lft_wqb">PUYATİÇE</placeName>
+					 dimekle mutasarrıf eyledüğü bir tuzla(?)					<persName>ʿAbdüllāh</persName>
+					 İbn-i Sālih
+					<lb/>
+					bir taraf zimmī					<persName>İstepān</persName>
+					 çayırı ve üç taraf orman işbu dārendegân					<placeName>Kirşevo</placeName>
+					<lb/>
+					kilisa[nı]n					<persName>gardiyān</persName>
+					 nām-ı mesfūre resm-i tapu ile yüz on guruş mukābelesinde beyʿ-i
+					<lb/>
+					bāt katʿiyle beyʿ edüp ol dahi kabūl biz dahi me'mūr olduğumuz hasbiyle
+					<lb/>
+					zimmī					<persName>gardiyān</persName>
+					-ı mesfūre tafvīz birle ve yedine işbu zabt-ı temessük virildi
+					<lb/>
+					mā-dām ki sāl be-sāl tarafımıza(?) ʿāit ve rāciʿ olan ʿaşār-ı şerʿiye ve rüsūmāt
+					<lb/>
+					sāy'ire edā ile zabt ve tasarrıfına kimesne māniʿ olunmaya					<date when-custom="1248" cert="medium" type="created" when="1831-06-09">sene 24</date>
 				</p>
 				<div2 type="sign" facs="#zone_iqy_kzt_3jb">
 					<p>
-						<lb/>...
-						<lb/>Hāccı
-						<lb/><persName>Mehmed</persName>
-						<lb/>M </p>
+						<lb/>
+						...
+						<lb/>
+						Hāccı
+						<lb/>
+						<persName>Mehmed</persName>
+						<lb/>
+						M					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/><persName facs="#zone_d2d_m3t_wqb">ʿAbdüllāh(?)</persName> Ahmad ...
-						<lb/><persName facs="#zone_gf5_m3t_wqb">...</persName> Sālih
-						<lb/><persName facs="#zone_sb4_n3t_wqb">İsmāʿīl</persName> Beyg(?)
-						<lb/>ve gayrihim mine'l-hāzırīn </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						<persName facs="#zone_d2d_m3t_wqb">ʿAbdüllāh(?)</persName>
+						 Ahmad ...
+						<lb/>
+						<persName facs="#zone_gf5_m3t_wqb">...</persName>
+						 Sālih
+						<lb/>
+						<persName facs="#zone_sb4_n3t_wqb">İsmāʿīl</persName>
+						 Beyg(?)
+						<lb/>
+						ve gayrihim mine'l-hāzırīn					</p>
 				</div2>
 				<div2 type="note">
 					<p>
-						<lb/>Be-her ... kırk pāre virmek şütra(?) </p>
+						<lb/>
+						Be-her ... kırk pāre virmek şütra(?)					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_b2d_nzt_3jb">
 				<p>
-					<lb/>Tajna na Lopotichu u tsu koju od Gavdogheva za 120. gr
-					<lb/>Nno 36. <date when="1832" type="summary_Croatian">1832</date>.
-					<lb/>Teneza gvoshla gvojhe
-					<lb/>124 </p>
+					<lb/>
+					Tajna na Lopotichu u tsu koju od Gavdogheva za 120. gr
+					<lb/>
+					Nno 36.					<date when="1832" type="summary_Croatian">1832</date>
+					.
+					<lb/>
+					Teneza gvoshla gvojhe
+					<lb/>
+					124				</p>
 			</div1>
 		</body>
 	</text>

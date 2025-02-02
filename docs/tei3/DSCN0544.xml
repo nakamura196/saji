@@ -1,41 +1,44 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0544</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2950/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2950/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6229df875707dcfaf589f76cc434b1e8ea12695d.jpg" />
-        <zone lrx="2984" lry="1705" ulx="367" uly="144" xml:id="zone_i3p_fx3_2mb" />
-        <zone lrx="798" lry="1437" ulx="593" uly="1253" xml:id="zone_zcs_hx3_2mb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_i3p_fx3_2mb" type="unknown">
-        <p>
-          <lb />... fī <date type="created" when="1868-01-22" when-custom="1284-09-28">28 Ramazān sene 84</date> ve fī <date type="created" when="1866-05-25" when-custom="1283-01-11">11 Kānūn-u Sānī sene 83</date>
-          <lb />
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_zcs_hx3_2mb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0544</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0544.JPG"/>
+			<zone ulx="144" uly="144" lrx="2984" lry="1705" xml:id="zone_i3p_fx3_2mb"/>
+			<zone ulx="1253" uly="1253" lrx="798" lry="1437" xml:id="zone_zcs_hx3_2mb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_i3p_fx3_2mb" type="unknown">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1868-01-22" when-custom="1284-09-28">28 Ramazān sene 84</date>
+					 ve fī					<date type="created" when="1866-05-25" when-custom="1283-01-11">11 Kānūn-u Sānī sene 83</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_zcs_hx3_2mb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2004</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2334/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2334/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7f48a93b6e2149ca8edadbb8574c9f04772a8429.jpg" />
+        <zone lrx="1833" lry="2726" ulx="133" uly="1080" xml:id="zone_aqr_c5w_zlb" />
+        <zone lrx="688" lry="2702" ulx="188" uly="2317" xml:id="zone_bwf_25w_zlb" />
+        <zone lrx="1965" lry="3222" ulx="294" uly="3002" xml:id="zone_w1j_f5w_zlb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2334/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/a3ef245ef8b9c6d7ea12e1a5b1e507cdbf575ad7.jpg" />
+        <zone lrx="2204" lry="2820" ulx="1883" uly="2533" xml:id="zone_uns_h5w_zlb" />
+        <zone lrx="2391" lry="1883" ulx="100" uly="987" xml:id="zone_tfq_35w_zlb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_aqr_c5w_zlb" subtype="temessük" type="EMIN">
+        <p>
+          <lb />budur ki işbu <date when="1767-05-27" when-custom="1180">bin yüz seksen senesinin</date> der ...
+          <lb />... <date type="created" when="1767-05-27" when-custom="1180">sene 1180</date>
+        </p>
+        <div2 facs="#zone_bwf_25w_zlb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_uns_h5w_zlb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_w1j_f5w_zlb" type="unkown">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+      <div1 facs="#zone_tfq_35w_zlb" type="summary_Serbian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

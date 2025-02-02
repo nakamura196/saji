@@ -1,53 +1,54 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0891</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_M": [
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0891</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_M": [
           "1763(?)" ], "saji:foldingMethod": [ "4" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [
           "1" ], "saji:item": [ "\"hüve\"", "本文", "クレシェヴォのスタンプ" ], "saji:lang": [ "ota" ],
           "saji:lineage": [ "8" ], "saji:memo": [ "本文中に日付らしきものは見当たらない", "典型" ], "saji:number": [
           "274" ], "saji:relationWithAnotherItems": [ "DSCN0891.JPG_表", "表全体像" ], "saji:stamp_c": [
           "1" ], "saji:transcription": [ "... emr ü fermān ..." ], "saji:type": [ "iʿlām" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1009/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1009/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3518c0556b5fcfd7885ad103e2a407f760d16bb9.jpg" />
-<zone lrx="1442" lry="2716" ulx="233" uly="241" xml:id="zone_blg_qcb_x3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1009/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6e91a8b3a9fb640ae27460a87fa8f3446c062d43.jpg" />
-<zone lrx="3162" lry="788" ulx="156" uly="383" xml:id="zone_x1c_wcb_x3b" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1009/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/c7aa960c0e1a63c9b4be7b7fc9f3362d25081dc6.jpg" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1009/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/cd2d74779b6a8d6e77169c7c718210b0604ee1d9.jpg" />
-<zone lrx="1266" lry="1629" ulx="1000" uly="1395" xml:id="zone_flx_xcb_x3b" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_blg_qcb_x3b" type="iʿlām">
-<l>...</l>
-</div1>
-<div3 facs="#zone_flx_xcb_x3b" type="stamp">
-<l>...</l>
-</div3>
-<div1 facs="#zone_x1c_wcb_x3b" type="sumamry_Croatian">
-<l>... <date type="summary_Croatian" when="1763">1763</date></l>
-<l>...</l>
-</div1>
-</body>
-</text>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0891.JPG"/>
+			<zone ulx="241" uly="241" lrx="1442" lry="2716" xml:id="zone_blg_qcb_x3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0892.JPG"/>
+			<zone ulx="383" uly="383" lrx="3162" lry="788" xml:id="zone_x1c_wcb_x3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0893.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0894.JPG"/>
+			<zone ulx="1395" uly="1395" lrx="1266" lry="1629" xml:id="zone_flx_xcb_x3b"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_blg_qcb_x3b" type="iʿlām">
+				<l>...</l>
+			</div1>
+			<div3 facs="#zone_flx_xcb_x3b" type="stamp">
+				<l>...</l>
+			</div3>
+			<div1 facs="#zone_x1c_wcb_x3b" type="sumamry_Croatian">
+				<l>
+					...					<date type="summary_Croatian" when="1763">1763</date>
+				</l>
+				<l>...</l>
+			</div1>
+		</body>
+	</text>
 </TEI>

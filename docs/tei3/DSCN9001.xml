@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -17,69 +18,95 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1929/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1929/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7034914aedfc038c420f37d9dc696ac4b53771b5.jpg"/>
-				<zone lrx="2275" lry="350" ulx="866" uly="83" xml:id="zone_ccm_5sy_wkb"/>
-				<zone lrx="1921" lry="2704" ulx="1658" uly="2445" xml:id="zone_efm_vsy_wkb"/>
-				<zone lrx="1266" lry="1783" ulx="591" uly="875" xml:id="zone_pt2_wsy_wkb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1929/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/679799901dfbae47a71c9440f6857994915d7464.jpg"/>
-				<zone lrx="2357" lry="2542" ulx="-21" uly="57" xml:id="zone_l1s_xsy_wkb"/>
-				<zone lrx="1004" lry="2530" ulx="644" uly="2023" xml:id="zone_sd2_zsy_wkb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9001.JPG"/>
+			<zone ulx="83" uly="83" lrx="2275" lry="350" xml:id="zone_ccm_5sy_wkb"/>
+			<zone ulx="2445" uly="2445" lrx="1921" lry="2704" xml:id="zone_efm_vsy_wkb"/>
+			<zone ulx="875" uly="875" lrx="1266" lry="1783" xml:id="zone_pt2_wsy_wkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9002.JPG"/>
+			<zone ulx="57" uly="57" lrx="2357" lry="2542" xml:id="zone_l1s_xsy_wkb"/>
+			<zone ulx="2023" uly="2023" lrx="1004" lry="2530" xml:id="zone_sd2_zsy_wkb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_l1s_xsy_wkb" next="#zone_ccm_5sy_wkb" type="EMIN_tapu_temessük">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i temessük oldur ki
-					<lb/>berāt-ı pādişāhile mutasarrıf olduktan tımārımız kurālarından BYLUVİÇ hudūdunda vākiʿ ʿAĞİÇ
-					<lb/>bilāsında(?) bir kıtʿa çayır mutasarrıf eyledüğü ʿĀyşe bint-i İsmaʿīr bir kıtʿa çayır PRUPVAÇ
-					<lb/>ve diğeri PUKRİÇ PRUPVAÇ tasarrıf çayır ve diğeri çayır ASTUZŞÇE demekle işbu
-					<lb/>dārendegān Kirşevo varoş kilisanın rāhiblere resm-i tapu ile yüz elli beş
-					<lb/>guruş mukābelesinde beyʿ-i bāt katʿiyle beyʿ onlar dahi kabūl biz dahi sāhib-i arz
-					<lb/>bulunduğumuz hasebiyle mesfūr rāhiblere tafvīz birle ve yefine işbu tapu virildi
-					<lb/>tasarrıfına kimesne māniʿ olunmaya fī <date type="created" when="1829-01-03" when-custom="1244-06-27">27 C sene 244</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i temessük oldur ki
+					<lb/>
+					berāt-ı pādişāhile mutasarrıf olduktan tımārımız kurālarından BYLUVİÇ hudūdunda vākiʿ ʿAĞİÇ
+					<lb/>
+					bilāsında(?) bir kıtʿa çayır mutasarrıf eyledüğü ʿĀyşe bint-i İsmaʿīr bir kıtʿa çayır PRUPVAÇ
+					<lb/>
+					ve diğeri PUKRİÇ PRUPVAÇ tasarrıf çayır ve diğeri çayır ASTUZŞÇE demekle işbu
+					<lb/>
+					dārendegān Kirşevo varoş kilisanın rāhiblere resm-i tapu ile yüz elli beş
+					<lb/>
+					guruş mukābelesinde beyʿ-i bāt katʿiyle beyʿ onlar dahi kabūl biz dahi sāhib-i arz
+					<lb/>
+					bulunduğumuz hasebiyle mesfūr rāhiblere tafvīz birle ve yefine işbu tapu virildi
+					<lb/>
+					tasarrıfına kimesne māniʿ olunmaya fī					<date type="created" when="1829-01-03" when-custom="1244-06-27">27 C sene 244</date>
 				</p>
 				<div2 facs="#zone_sd2_zsy_wkb" type="sign">
 					<p>
-						<lb/>...
-						<lb/>Mehmed el-me'mūr
-						<lb/>M </p>
+						<lb/>
+						...
+						<lb/>
+						Mehmed el-me'mūr
+						<lb/>
+						M					</p>
 					<div3 facs="#zone_efm_vsy_wkb" type="stamp">
 						<p>
-							<lb/>...
-							<lb/>Mehmed </p>
+							<lb/>
+							...
+							<lb/>
+							Mehmed						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>... Yūsuf ...
-						<lb/>Bekir ...
-						<lb/>Kra Mehmed
-						<lb/>Ahmed Dabkaoğlu
-						<lb/>Hüseyin Ağa Oğlu İbrāhīm
-						<lb/>ve gayrihim mine'l-hāzırīn
+						<lb/>
+						... Yūsuf ...
+						<lb/>
+						Bekir ...
+						<lb/>
+						Kra Mehmed
+						<lb/>
+						Ahmed Dabkaoğlu
+						<lb/>
+						Hüseyin Ağa Oğlu İbrāhīm
+						<lb/>
+						ve gayrihim mine'l-hāzırīn
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_ccm_5sy_wkb" next="#zone_pt2_wsy_wkb" type="unkown">
 				<p>
-					<lb/>... altmış pāre tekâlif virmek bu ...-de kayd olundu </p>
+					<lb/>
+					... altmış pāre tekâlif virmek bu ...-de kayd olundu				</p>
 			</div1>
 			<div1 facs="#zone_pt2_wsy_wkb" type="summary_Croatian">
 				<p>
-					<lb/>Tapia od 3 ...
-					<lb/>u ... kupismo
-					<lb/>od ...
-					<lb/>godine <date type="summary_Croatian" when="1829">1829</date> u
-					<lb/>...
-					<lb/>... </p>
+					<lb/>
+					Tapia od 3 ...
+					<lb/>
+					u ... kupismo
+					<lb/>
+					od ...
+					<lb/>
+					godine					<date type="summary_Croatian" when="1829">1829</date>
+					 u
+					<lb/>
+					...
+					<lb/>
+					...				</p>
 			</div1>
 		</body>
 	</text>

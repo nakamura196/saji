@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,51 +17,81 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2028/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2028/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a45abda81c5be64ce7e32105be5108301e1ae85f.jpg"/>
-				<zone lrx="2193" lry="3015" ulx="100" uly="276" xml:id="zone_d42_131_glb"/>
-				<zone lrx="347" lry="2959" ulx="154" uly="2699" xml:id="zone_sqp_b31_glb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9101.JPG"/>
+			<zone ulx="276" uly="276" lrx="2193" lry="3015" xml:id="zone_d42_131_glb"/>
+			<zone ulx="2699" uly="2699" lrx="347" lry="2959" xml:id="zone_sqp_b31_glb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="medium" facs="#zone_d42_131_glb" type="EMIN_tezkire">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>berāt-ı şerīf-i ʿālīşānlarıyle mutasarrıf olduğumuz ... kurālarında <placeName>MALASİÇ</placeName> nām karye
-					<lb/>sākinlerinden <persName>DUGUNA Hasan</persName> nām kimesne kendi taht-ı tasarrıfından bir kıtʿa tarla
-					<lb/><placeName>İSÇE</placeName> yanında <placeName>DULBNİÇE</placeName> demekle maʿrūf ve <placeName>KRÇUYNA</placeName> yanında bir kıtʿa bağçe
-					<lb/>ve yanında bir parça çayıryi ve tarla-yi mezbūrun ve bağçe-i mezkūrun bir tarafı ʿAbbās'ın
-					<lb/>tarlasıyla bir tarafı Mehmed'in oğluları tarlasıyla ve bir tarafı Hasan Paşa'nın oğ-
-					<lb/>luları Hasan ve Süleymān'ın tarlalaryıla bize āhar karyeden mezkūr Hasan ve
-					<lb/>karındaşı Süleymān nām kimesnelere yedi yüz yiğirmi akçe mukābelesinde beyʿ katʿiyle
-					<lb/>beyʿ ve tafvīz ve ferāğat edüb biz dahi ...ları cā'iz görüb tarafımıza
-					<lb/>ʿāid olan resm alndıktan sonra tarla-i mezkūri ve bağçe-i ve çayr-ı mezbūri
-					<lb/>... ve tasarrıf içün işbu ... tezkiresi merkūmāt Hasan ve Süleymān yedlerine
-					<lb/>virildi mā-dām ki be-sāl ve sāl aʿşār-ı şerʿiyesi ve rüsūm sā'iresini edā ve teslīm
-					<lb/>eylediler tarafımızdan ve taraf-ı āhardan tasarrıfına kimesne māniʿ ve müdāhale oluna tahrīren
-					<lb/><date type="created" when="1760-08-11" when-custom="1173">sene 1173</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					berāt-ı şerīf-i ʿālīşānlarıyle mutasarrıf olduğumuz ... kurālarında					<placeName>MALASİÇ</placeName>
+					 nām karye
+					<lb/>
+					sākinlerinden					<persName>DUGUNA Hasan</persName>
+					 nām kimesne kendi taht-ı tasarrıfından bir kıtʿa tarla
+					<lb/>
+					<placeName>İSÇE</placeName>
+					 yanında					<placeName>DULBNİÇE</placeName>
+					 demekle maʿrūf ve					<placeName>KRÇUYNA</placeName>
+					 yanında bir kıtʿa bağçe
+					<lb/>
+					ve yanında bir parça çayıryi ve tarla-yi mezbūrun ve bağçe-i mezkūrun bir tarafı ʿAbbās'ın
+					<lb/>
+					tarlasıyla bir tarafı Mehmed'in oğluları tarlasıyla ve bir tarafı Hasan Paşa'nın oğ-
+					<lb/>
+					luları Hasan ve Süleymān'ın tarlalaryıla bize āhar karyeden mezkūr Hasan ve
+					<lb/>
+					karındaşı Süleymān nām kimesnelere yedi yüz yiğirmi akçe mukābelesinde beyʿ katʿiyle
+					<lb/>
+					beyʿ ve tafvīz ve ferāğat edüb biz dahi ...ları cā'iz görüb tarafımıza
+					<lb/>
+					ʿāid olan resm alndıktan sonra tarla-i mezkūri ve bağçe-i ve çayr-ı mezbūri
+					<lb/>
+					... ve tasarrıf içün işbu ... tezkiresi merkūmāt Hasan ve Süleymān yedlerine
+					<lb/>
+					virildi mā-dām ki be-sāl ve sāl aʿşār-ı şerʿiyesi ve rüsūm sā'iresini edā ve teslīm
+					<lb/>
+					eylediler tarafımızdan ve taraf-ı āhardan tasarrıfına kimesne māniʿ ve müdāhale oluna tahrīren
+					<lb/>
+					<date type="created" when="1760-08-11" when-custom="1173">sene 1173</date>
 				</p>
 				<div2 facs="#zone_sqp_b31_glb" type="sign">
 					<p>
-						<lb/>El-fakīr
-						<lb/>MURAD ...
-						<lb/>El-RSH </p>
+						<lb/>
+						El-fakīr
+						<lb/>
+						MURAD ...
+						<lb/>
+						El-RSH					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>Hasan Sipāhī YARUİÇ
-						<lb/>Mustafa ʿAlemdār HACCI
-						<lb/>BUSULI Taʿalā Hāccı Sālih Paşa
-						<lb/>FAZZAZ El-hāccı Hüseyin
-						<lb/>Mollā Ahmed FAZZAZ
-						<lb/>El-hāccı Hasan FAZZAZ
-						<lb/>MUHARREH Paşa FAZZAZ
-						<lb/>ÇRNURKA Karyesinden Hasan </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						Hasan Sipāhī YARUİÇ
+						<lb/>
+						Mustafa ʿAlemdār HACCI
+						<lb/>
+						BUSULI Taʿalā Hāccı Sālih Paşa
+						<lb/>
+						FAZZAZ El-hāccı Hüseyin
+						<lb/>
+						Mollā Ahmed FAZZAZ
+						<lb/>
+						El-hāccı Hasan FAZZAZ
+						<lb/>
+						MUHARREH Paşa FAZZAZ
+						<lb/>
+						ÇRNURKA Karyesinden Hasan					</p>
 				</div2>
 			</div1>
 		</body>

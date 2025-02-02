@@ -1,53 +1,61 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN1999</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2329/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2329/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3bec61090666bc58c915af03721979ae6a75f85d.jpg" />
-        <zone lrx="2127" lry="3054" ulx="145" uly="263" xml:id="zone_xl1_wvp_zlb" />
-        <zone lrx="442" lry="3000" ulx="166" uly="2652" xml:id="zone_fs3_xvp_zlb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2329/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1dca0d48ad5963569933267beb3f23bb96b5c578.jpg" />
-        <zone lrx="793" lry="818" ulx="452" uly="500" xml:id="zone_cvj_1wp_zlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="medium" facs="#zone_xl1_wvp_zlb" subtype="tezkire" type="EMIN">
-        <p>
-          <lb />işbu <date when="1816-11-19" when-custom="1231">bin iki yüz otuz bir senesinde</date> mahsūben ...
-          <lb />... fī <date type="created" when="1816-06-26" when-custom="1231-08-01">gürre Ş sene 231</date>
-        </p>
-        <div2 facs="#zone_fs3_xvp_zlb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_cvj_1wp_zlb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1999</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN1999.JPG"/>
+			<zone ulx="263" uly="263" lrx="2127" lry="3054" xml:id="zone_xl1_wvp_zlb"/>
+			<zone ulx="2652" uly="2652" lrx="442" lry="3000" xml:id="zone_fs3_xvp_zlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2000.JPG"/>
+			<zone ulx="500" uly="500" lrx="793" lry="818" xml:id="zone_cvj_1wp_zlb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="medium" facs="#zone_xl1_wvp_zlb" subtype="tezkire" type="EMIN">
+				<p>
+					<lb/>
+					işbu					<date when="1816-11-19" when-custom="1231">bin iki yüz otuz bir senesinde</date>
+					 mahsūben ...
+					<lb/>
+					... fī					<date type="created" when="1816-06-26" when-custom="1231-08-01">gürre Ş sene 231</date>
+				</p>
+				<div2 facs="#zone_fs3_xvp_zlb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_cvj_1wp_zlb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

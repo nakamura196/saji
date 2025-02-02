@@ -1,0 +1,92 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0222</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">土地移転 ferāğ</note>
+				<note type="summary">非ムスリムの土地とその徴税権の、クレシェヴォ修道院の修道士に対する移転に関するタプ証文</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<classCode scheme="">土地譲渡・売買</classCode>
+			</textClass>
+		</profileDesc>		
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1701/manifest">
+			<surface>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/142753db8739380f852c18d5f4b405b28481b17f.jpg" n="https://diyhistory.org/public/phr2/iiif/1701/canvas/p1"/>
+				<zone xml:id="zone_r4k_zck_kjb" lry="2492" lrx="2285" uly="57" ulx="157"/>
+				<zone xml:id="zone_ewp_1dk_kjb" lry="2181" lrx="689" uly="1906" ulx="473"/>
+				<zone xml:id="zone_ibx_zzr_hrb" lry="1279" lrx="958" uly="1188" ulx="818"/>
+				<zone xml:id="zone_bsm_m1s_hrb" lry="1500" lrx="1822" uly="1373" ulx="1544"/>
+				<zone xml:id="zone_cbg_f2s_hrb" lry="1496" lrx="661" uly="1400" ulx="515"/>
+				<zone xml:id="zone_xkg_mys_hrb" lry="2391" lrx="2177" uly="2131" ulx="1943"/>
+				<zone xml:id="zone_ws3_4ys_hrb" lry="2190" lrx="2163" uly="1945" ulx="1956"/>
+				<zone xml:id="zone_e2j_rys_hrb" lry="1995" lrx="2196" uly="1777" ulx="1980"/>
+				<zone xml:id="zone_h4d_tys_hrb" lry="1898" lrx="2245" uly="1597" ulx="1951"/>
+				<zone xml:id="zone_dd4_vys_hrb" lry="1670" lrx="2213" uly="1435" ulx="1954"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1701/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/eb01359c6324a9eddac2d095c6c7afcff28e99b2.jpg"/>
+				<zone lrx="3023" lry="1622" ulx="78" uly="738" xml:id="zone_lhw_bdk_kjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_tapu_nāme" facs="#zone_r4k_zck_kjb">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i <sic>tahr</sic><corr>tahrīr-i</corr> hurūf budur ki
+					<lb/>der ʿuhde ve iltizāmımızda bulunan <placeName>Kirşevo</placeName> mukātaʿası kurālarıda <placeName facs="#zone_ibx_zzr_hrb">VLSINA</placeName> karyesi hudūd dāhilinde vākiʿ
+					iki kıtʿa
+					<lb/>tarla <placeName facs="#zone_bsm_m1s_hrb">LUÇİÇE maʿa İSTRAN</placeName> demekle maʿrūf hudūd ... sıyla mutasarrıf olan … zimmī BURNB ve sā'rlerisine(?)
+					<lb/>hakk-ı ve karār işbu dārende-i hurūf <placeName>Kirşevo</placeName> kilisasında(?) gardiyān zimmī <persName facs="#zone_cbg_f2s_hrb">BRABLA</persName> ve <persName>sā'ir
+						ruhbānlarına</persName>
+					<lb/>krık dört büçük guruş mukābelesinde tasarrıfına ferāğ ve tefevvüz ve tesellum edüb mesfūrlar kabūl eyledikten sonra
+					<lb/>tasarrıfiyçün tarafımızdan ... etmeleriyle biz dahi me'mūriyetimiz hasebiyle tapu ile tafvīz edüb
+					<lb/>mā-dām ki sāl be-sāl ʿaşār-i şerʿiye ve rüsūm-u sā'ire edā geldiği(?) minvāl-i meşrūh
+					<lb/>üzere sāhib-i arz <sic>olunlara</sic><corr>olanlara</corr> edā etmeleriyle tarafımızdan işbu tapu nāme virilib
+					<lb/>taraf-ı āhardan kimesne māniʿ olmaya <date when-custom="1214" type="created" when="1800-05-23">sene 1214</date>
+				</p>
+				<div2 type="sign" facs="#zone_ewp_1dk_kjb">
+					<p>
+						<lb/>...
+						<lb/>...
+						<lb/>...
+						<lb/>Emīn-i
+						<lb/><placeName>Kirşevo</placeName>
+					</p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/><persName facs="#zone_xkg_mys_hrb">TOMİÇ Andriye</persName>
+						<lb/><persName facs="#zone_ws3_4ys_hrb">TİRİÇ Peter</persName>
+						<lb/><persName facs="#zone_e2j_rys_hrb">ŞELAVİYE Peter</persName>
+						<lb/><persName facs="#zone_h4d_tys_hrb">TOYİÇ Martin</persName>
+						<lb/><persName facs="#zone_dd4_vys_hrb">Marko BUÇO</persName>
+					</p>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian" facs="#zone_lhw_bdk_kjb">
+				<p>
+					<lb/>Tap juja Kako uzesmo od taze Okica raonu
+					<lb/>shranu i Lueieu do Mujakova <date when="1800" type="sumamry_Croatian">1800</date>. gr. 44. per 20.
+					<lb/><date when-custom="1214" type="summary_Croatian" when="1800-05-23">1214</date>.
+					<lb/>Nno 5.
+					<lb/>61 </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

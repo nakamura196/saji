@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,18 +17,17 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2283/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2283/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d4cc5d578c7ee8682b0f7155992b2d99890f11a1.jpg"/>
-				<zone lrx="2217" lry="1594" ulx="684" uly="672" xml:id="zone_x1b_5bg_zlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9359.JPG"/>
+			<zone ulx="672" uly="672" lrx="2217" lry="1594" xml:id="zone_x1b_5bg_zlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_x1b_5bg_zlb" type="summary_Serbian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

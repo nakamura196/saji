@@ -1,47 +1,52 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2251</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2579/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2579/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b005db8d7d0a5717e5d5c3b0485f6fdea725bb57.jpg" />
-        <zone lrx="1913" lry="3006" ulx="140" uly="953" xml:id="zone_agj_grf_dmb" />
-        <zone lrx="759" lry="2940" ulx="161" uly="2640" xml:id="zone_mjp_hrf_dmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2579/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b945ad2ab6524ebd6aa350cd4279202b397b27e6.jpg" />
-        <zone lrx="966" lry="658" ulx="454" uly="262" xml:id="zone_iv1_jrf_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_agj_grf_dmb" type="mürāsele">
-        <p>
-          <lb />... <date type="created" when="0712-08-08" when-custom="1193">sene 1193</date><lb />
-        </p>
-        <div2 facs="#zone_mjp_hrf_dmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_iv1_jrf_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2251</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2251.JPG"/>
+			<zone ulx="953" uly="953" lrx="1913" lry="3006" xml:id="zone_agj_grf_dmb"/>
+			<zone ulx="2640" uly="2640" lrx="759" lry="2940" xml:id="zone_mjp_hrf_dmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2252.JPG"/>
+			<zone ulx="262" uly="262" lrx="966" lry="658" xml:id="zone_iv1_jrf_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_agj_grf_dmb" type="mürāsele">
+				<p>
+					<lb/>
+					...					<date type="created" when="0712-08-08" when-custom="1193">sene 1193</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_mjp_hrf_dmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_iv1_jrf_dmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

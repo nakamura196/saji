@@ -1,0 +1,49 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2242</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2570/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2570/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5bec0c7438d281918239e93699ab734f97ca742f.jpg" />
+        <zone lrx="1736" lry="2790" ulx="318" uly="854" xml:id="zone_iny_knz_cmb" />
+        <zone lrx="729" lry="2756" ulx="340" uly="2245" xml:id="zone_m31_mnz_cmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2570/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2b51e0c111bcc074d95233c6abeccafc05f53210.jpg" />
+        <zone lrx="2308" lry="1845" ulx="137" uly="1362" xml:id="zone_w34_nnz_cmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_iny_knz_cmb" next="#zone_w34_nnz_cmb" subtype="tezkire" type="EMIN">
+        <p>
+          <lb />işbu <date type="created" when="1773-03-23" when-custom="1186">bin yüz seksen altı senesine</date>
+          <lb />...
+        </p>
+        <div2 facs="#zone_m31_mnz_cmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_w34_nnz_cmb" type="summary_Croatian">
+        <p>
+          <lb />...
+          <lb /><date type="summary_Croatian" when="1772">1772</date>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

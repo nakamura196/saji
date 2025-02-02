@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9253</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2177/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2177/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b92eb66bfb3f7c6f5412756ff6a2b2b9d1a3a7a0.jpg"/>
+				<zone lrx="2756" lry="2550" ulx="2339" uly="2311" xml:id="zone_z5m_11h_nlb"/>
+				<zone lrx="2889" lry="1827" ulx="545" uly="711" xml:id="zone_o2f_2bh_nlb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2177/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1a318207014929dc3d1e90875886a25625496910.jpg"/>
+				<zone lrx="2318" lry="2745" ulx="209" uly="272" xml:id="zone_bpm_c1h_nlb"/>
+				<zone lrx="693" lry="2372" ulx="269" uly="2066" xml:id="zone_kws_x1h_nlb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="medium" facs="#zone_bpm_c1h_nlb" next="#zone_o2f_2bh_nlb" subtype="temessük" type="EMIN">
+				<p>
+					<lb/>işbu <date type="created" when="1820-10-06" when-custom="1235">bin iki yüz otuz beş senesinde</date> der ...
+					<lb/>
+				</p>
+				<div2 facs="#zone_kws_x1h_nlb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_z5m_11h_nlb" type="stamp_sūret">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_o2f_2bh_nlb" type="summary_Croatian">
+				<p>
+					<lb/><date type="summary_Croatian" when="1821">1821</date> ... <date type="summary_Croatian" when="1820-10-06" when-custom="1235">1235</date>.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

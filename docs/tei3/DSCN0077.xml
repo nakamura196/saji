@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,51 +14,71 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1561/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1561/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6fe9201037b4a0733cbfda0fe4a9580eed45679b.jpg"/>
-				<zone lrx="2263" lry="3154" ulx="54" uly="200" xml:id="zone_e4w_hbz_k3b"/>
-				<zone lrx="531" lry="2714" ulx="336" uly="2446" xml:id="zone_ecn_sq5_2jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1561/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4eb971216a6f46e6d2d8cf5327464c35f381e78d.jpg"/>
-				<zone lrx="509" lry="818" ulx="245" uly="572" xml:id="zone_oz5_jbz_k3b"/>
-				<zone lrx="2354" lry="3172" ulx="18" uly="2636" xml:id="zone_uth_lbz_k3b"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0077.JPG"/>
+			<zone ulx="200" uly="200" lrx="2263" lry="3154" xml:id="zone_e4w_hbz_k3b"/>
+			<zone ulx="2446" uly="2446" lrx="531" lry="2714" xml:id="zone_ecn_sq5_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0078.JPG"/>
+			<zone ulx="572" uly="572" lrx="509" lry="818" xml:id="zone_oz5_jbz_k3b"/>
+			<zone ulx="2636" uly="2636" lrx="2354" lry="3172" xml:id="zone_uth_lbz_k3b"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_e4w_hbz_k3b" type="EMIN">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>... <date when="0716-06-25" when-custom="1197">bin yüz dokusan yedi senesi</date>ne mahsūben der ʿuhde ve iltizāmızdan ... <date type="proper">Kirşevo</date> mukātaʿanın
-					<lb/>kurālarında taht-ı tasarrıfdan olunan ʿarz-ı mīrīye rāhiblerine ...
-					<lb/>hasımız ... yiğirmi guruş mukābelesine ...
-					<lb/>aldım tarafımızdan hasımız ...
-					<lb/>aldım ve ... mesfūr ...
-					<lb/>taraf-ı āhardan kimesne māniʿ olmadı <date when="0716-06-25" when-custom="1197">sene 1197</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					...					<date when="0716-06-25" when-custom="1197">bin yüz dokusan yedi senesi</date>
+					ne mahsūben der ʿuhde ve iltizāmızdan ...					<date type="proper">Kirşevo</date>
+					 mukātaʿanın
+					<lb/>
+					kurālarında taht-ı tasarrıfdan olunan ʿarz-ı mīrīye rāhiblerine ...
+					<lb/>
+					hasımız ... yiğirmi guruş mukābelesine ...
+					<lb/>
+					aldım tarafımızdan hasımız ...
+					<lb/>
+					aldım ve ... mesfūr ...
+					<lb/>
+					taraf-ı āhardan kimesne māniʿ olmadı					<date when="0716-06-25" when-custom="1197">sene 1197</date>
 				</p>
 			</div1>
 			<div3 facs="#zone_oz5_jbz_k3b" type="stamp"/>
 			<div1 cert="unknown" facs="#zone_e4w_hbz_k3b" type="EMIN">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>... <date when="0716-06-25" when-custom="1197">bin yüz dokusan yedi senesi</date>ne mahsūben der ʿuhde ve iltizāmızdan bulunan <date type="proper">Kirşevo</date> mukātaʿanın
-					<lb/>kurālarında taht-ı tasarrıfdan olunan ʿarz-ı mīrīye rāhiblerine ...
-					<lb/>hasımız ... yiğirmi guruş mukābelesine ...
-					<lb/>aldım tarafımızdan hasımız ...
-					<lb/>aldım ve ... mesfūr ...
-					<lb/>taraf-ı āhardan kimesne māniʿ olmadı <date when="0716-06-25" when-custom="1197">sene 1197</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					...					<date when="0716-06-25" when-custom="1197">bin yüz dokusan yedi senesi</date>
+					ne mahsūben der ʿuhde ve iltizāmızdan bulunan					<date type="proper">Kirşevo</date>
+					 mukātaʿanın
+					<lb/>
+					kurālarında taht-ı tasarrıfdan olunan ʿarz-ı mīrīye rāhiblerine ...
+					<lb/>
+					hasımız ... yiğirmi guruş mukābelesine ...
+					<lb/>
+					aldım tarafımızdan hasımız ...
+					<lb/>
+					aldım ve ... mesfūr ...
+					<lb/>
+					taraf-ı āhardan kimesne māniʿ olmadı					<date when="0716-06-25" when-custom="1197">sene 1197</date>
 				</p>
 				<div2 facs="#zone_ecn_sq5_2jb" type="sign">
 					<p>
-						<lb/>... Kirşevo </p>
+						<lb/>
+						... Kirşevo					</p>
 					<div3 facs="#zone_oz5_jbz_k3b" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -65,13 +86,17 @@
 			</div1>
 			<div2 type="şühūdu'l-hāl">
 				<p>
-					<lb/>... Zāde Ahmad AKDI
-					<lb/>... Zāde Suleyman Ağa ...
-					<lb/>... Huseyn Paşa </p>
+					<lb/>
+					... Zāde Ahmad AKDI
+					<lb/>
+					... Zāde Suleyman Ağa ...
+					<lb/>
+					... Huseyn Paşa				</p>
 			</div2>
 			<div1 facs="#zone_uth_lbz_k3b" type="summary_Serbian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

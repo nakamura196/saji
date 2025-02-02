@@ -1,0 +1,45 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2418</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2746/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2746/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a3d0bb45604e8fbd73c0b7c7fd2f15b97a5e32c1.jpg" />
+        <zone lrx="1617" lry="3000" ulx="158" uly="316" xml:id="zone_exm_q55_dmb" />
+        <zone lrx="960" lry="2973" ulx="230" uly="2607" xml:id="zone_w4l_r55_dmb" />
+        <zone lrx="943" lry="2956" ulx="660" uly="2688" xml:id="zone_fgy_r55_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_exm_q55_dmb" type="mürāsele">
+        <p>
+          <lb />...
+          <lb />... hurira <date cert="low" type="created" when="1789-06-23" when-custom="1203-09">Ramazānı'l-mubārek sene 1203</date>
+        </p>
+        <div2 facs="#zone_w4l_r55_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_fgy_r55_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

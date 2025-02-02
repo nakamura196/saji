@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,37 +14,39 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2098/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2098/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b5d1b258bb5807f686055b89c74f669630292a8d.jpg"/>
-				<zone lrx="2878" lry="1266" ulx="212" uly="900" xml:id="zone_tyv_fwq_jlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2098/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9fda7b2ebdf5216a0310ac5ca78a02f2ab9cf52c.jpg"/>
-				<zone lrx="1397" lry="1802" ulx="1148" uly="1564" xml:id="zone_ddw_hwq_jlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2098/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/4f4395ff41da0280a35695bd7523bcfc662d06c1.jpg"/>
-				<zone lrx="1777" lry="2807" ulx="77" uly="100" xml:id="zone_l1v_jwq_jlb"/>
-				<zone lrx="776" lry="2792" ulx="300" uly="2469" xml:id="zone_hqf_lwq_jlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9173.JPG"/>
+			<zone ulx="900" uly="900" lrx="2878" lry="1266" xml:id="zone_tyv_fwq_jlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9174.JPG"/>
+			<zone ulx="1564" uly="1564" lrx="1397" lry="1802" xml:id="zone_ddw_hwq_jlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9175.JPG"/>
+			<zone ulx="100" uly="100" lrx="1777" lry="2807" xml:id="zone_l1v_jwq_jlb"/>
+			<zone ulx="2469" uly="2469" lrx="776" lry="2792" xml:id="zone_hqf_lwq_jlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="low" facs="#zone_l1v_jwq_jlb" next="#zone_tyv_fwq_jlb" type="EMIN">
 				<p>
-					<lb/>işbu <date cert="low" type="created" when="1832-05-29" when-custom="1247">bin iki yüz kırk yedi senesinden </date>der ...
+					<lb/>
+					işbu					<date cert="low" type="created" when="1832-05-29" when-custom="1247">bin iki yüz kırk yedi senesinden </date>
+					der ...
 					<lb/>
 				</p>
 				<div2 facs="#zone_hqf_lwq_jlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_ddw_hwq_jlb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -51,7 +54,8 @@
 			</div1>
 			<div1 facs="#zone_tyv_fwq_jlb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1832">1832</date>
+					<lb/>
+					...					<date type="summary_Croatian" when="1832">1832</date>
 					<lb/>
 				</p>
 			</div1>

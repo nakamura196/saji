@@ -1,50 +1,55 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1941</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">【要】日付：月日の読み取りができなかった。要確認。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1471/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1471/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/12dea83e8c32880059c99bf4910123cc9555b1a5.jpg" />
-<zone lrx="2217" lry="1833" ulx="339" uly="550" xml:id="zone_ns5_svd_djb" />
-<zone lrx="678" lry="1657" ulx="390" uly="1435" xml:id="zone_mhy_tvd_djb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1471/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/430cc403e1e276d8d884e6f50a59e399f72ac6ee.jpg" />
-<zone lrx="3162" lry="1844" ulx="223" uly="322" xml:id="zone_bbc_vvd_djb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_ns5_svd_djb" type="mürāsele_sūret">
-<p>
-<lb />... fī <date cert="low" type="created" when="1854-02-18" when-custom="1270-05-21">21 Ca sene 70</date><lb />
-</p>
-<div3 facs="#zone_mhy_tvd_djb" type="stamp_sūret">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div1>
-<div1 facs="#zone_bbc_vvd_djb" type="summary_Croatian">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1941</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">【要】日付：月日の読み取りができなかった。要確認。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1941.JPG"/>
+			<zone ulx="550" uly="550" lrx="2217" lry="1833" xml:id="zone_ns5_svd_djb"/>
+			<zone ulx="1435" uly="1435" lrx="678" lry="1657" xml:id="zone_mhy_tvd_djb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1942.JPG"/>
+			<zone ulx="322" uly="322" lrx="3162" lry="1844" xml:id="zone_bbc_vvd_djb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_ns5_svd_djb" type="mürāsele_sūret">
+				<p>
+					<lb/>
+					... fī					<date cert="low" type="created" when="1854-02-18" when-custom="1270-05-21">21 Ca sene 70</date>
+					<lb/>
+				</p>
+				<div3 facs="#zone_mhy_tvd_djb" type="stamp_sūret">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div3>
+			</div1>
+			<div1 facs="#zone_bbc_vvd_djb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

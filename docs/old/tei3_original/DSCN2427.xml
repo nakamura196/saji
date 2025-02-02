@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2427</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2755/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2755/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7416d6fc6916dc59d3698928a0e783dbb5c7d2d3.jpg" />
+        <zone lrx="2300" lry="3016" ulx="192" uly="41" xml:id="zone_ub2_3z5_dmb" />
+        <zone lrx="510" lry="2991" ulx="253" uly="2765" xml:id="zone_w2l_jz5_dmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2755/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b39b05b7c8243f9397f0790749a51e5346e033e0.jpg" />
+        <zone lrx="2057" lry="3112" ulx="1722" uly="2822" xml:id="zone_rw5_lz5_dmb" />
+        <zone lrx="2203" lry="671" ulx="428" uly="265" xml:id="zone_iw5_mz5_dmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_ub2_3z5_dmb" next="#zone_iw5_mz5_dmb" type="unknown">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 facs="#zone_w2l_jz5_dmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_rw5_lz5_dmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="unknown">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_iw5_mz5_dmb" type="unknown">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

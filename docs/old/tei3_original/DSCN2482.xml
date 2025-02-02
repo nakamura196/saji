@@ -1,0 +1,44 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2482</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 5" ], "saji:memo": [ "・はがきサイズかそれより小さい？" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2809/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2809/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/019e1041826af1a149a23a6309ac44497672b485.jpg" />
+        <zone lrx="2145" lry="3154" ulx="227" uly="1000" xml:id="zone_o1k_bgb_2mb" />
+        <zone lrx="677" lry="2977" ulx="285" uly="2505" xml:id="zone_agn_cgb_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_o1k_bgb_2mb" type="temessük">
+        <p>
+          <lb />... 
+          <lb />... <date from="1772-04-03" from-custom="1186-01-01" to-custom="1186-01-10" type="created">evā’il Muharremi'l-harām sene 1186</date>
+        </p>
+        <div2 facs="#zone_agn_cgb_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

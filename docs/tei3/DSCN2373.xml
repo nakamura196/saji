@@ -1,38 +1,41 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2373</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2701/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2701/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/db95bd9f8e9e7fcd3ef9b630600e1682f36003f6.jpg" />
-        <zone lrx="1783" lry="3141" ulx="292" uly="166" xml:id="zone_uy5_vsn_dmb" />
-        <zone lrx="675" lry="3059" ulx="338" uly="2825" xml:id="zone_wdf_xsn_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_uy5_vsn_dmb" type="mürāsele">
-        <p>
-          <lb />... <date cert="unknown" type="created" when="0631-03-10" when-custom="1209">sene 1209</date><lb />
-        </p>
-        <div2 facs="#zone_wdf_xsn_dmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2373</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2373.JPG"/>
+			<zone ulx="166" uly="166" lrx="1783" lry="3141" xml:id="zone_uy5_vsn_dmb"/>
+			<zone ulx="2825" uly="2825" lrx="675" lry="3059" xml:id="zone_wdf_xsn_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_uy5_vsn_dmb" type="mürāsele">
+				<p>
+					<lb/>
+					...					<date cert="unknown" type="created" when="0631-03-10" when-custom="1209">sene 1209</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_wdf_xsn_dmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

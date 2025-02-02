@@ -1,43 +1,44 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2204</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="summary">複数の文書が入っていた封筒の画像</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2532/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2532/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7b48f2b09d53297433bafbfd6cf18f2b8bba4180.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2532/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/52bbfd9caaf253e4f4ec23e1bdedcfd9f9af30fc.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2532/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/1dabb62e768fcb3b3ef3e3d349c5e486a72fc74f.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2532/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/f4252f3bea20d87dcb313f3ea77a6478d032da84.jpg" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 type="folder_cover">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2204</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">複数の文書が入っていた封筒の画像</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2204.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2205.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2206.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2207.JPG"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="folder_cover">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

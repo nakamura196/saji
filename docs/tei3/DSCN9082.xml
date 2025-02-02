@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,44 +17,63 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2009/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2009/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/09df917ad7adb0501a5784f8988f37165a16385e.jpg"/>
-				<zone lrx="237" lry="594" ulx="-1" uly="367" xml:id="zone_i3n_s5z_flb"/>
-				<zone lrx="1948" lry="3153" ulx="1097" uly="2968" xml:id="zone_tfw_t5z_flb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2009/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8cd49ac7f78406d693ff9952ecd91b78b470dae3.jpg"/>
-				<zone lrx="2100" lry="2941" ulx="42" uly="1283" xml:id="zone_fq4_v5z_flb"/>
-				<zone lrx="491" lry="2912" ulx="167" uly="2360" xml:id="zone_gcm_x5z_flb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9082.JPG"/>
+			<zone ulx="367" uly="367" lrx="237" lry="594" xml:id="zone_i3n_s5z_flb"/>
+			<zone ulx="2968" uly="2968" lrx="1948" lry="3153" xml:id="zone_tfw_t5z_flb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9083.JPG"/>
+			<zone ulx="1283" uly="1283" lrx="2100" lry="2941" xml:id="zone_fq4_v5z_flb"/>
+			<zone ulx="2360" uly="2360" lrx="491" lry="2912" xml:id="zone_gcm_x5z_flb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_fq4_v5z_flb" next="#zone_tfw_t5z_flb" type="EMIN_zabt_temessük">
 				<p>
-					<lb/>Vech-i tahrīr-i hurūf budur ki
-					<lb/>işbu <date when-custom="1241">bin iki yüz krık bir senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası
-					<lb/>varoş-ı Kirşevo kilisanın rāhibi olan gardiyāna(?) <placeName>RAVN</placeName> ve <placeName>LUPAT</placeName> ve <placeName>DUBUNİÇE</placeName>
-					<lb/>ve <placeName>KOYSİNE</placeName> ve <placeName>BUGUŞİÇ</placeName> nām mahallelerde hāsıl olan mahsūlāt-ı aʿşārı işbu dārende-i
-					<lb/>temessük kilisanın rāhibi olan gardiyān sene-i(?) sābık üzere bedel-i iltizāmımıza
-					<lb/>kabūl ve bedel olan yüz yiğirmi guruş mukābelesinde ve bedel-i iltizāmımıza olan
-					<lb/>meblağ-ı mezkūra tarafımıza edā ve teslīm işbu yedine(?) mühürlü zabt(?) temessük iʿtā olunub
-					<lb/>... ve tarafımıza ve taraf-ı āhardan bir kimesne māniʿ oluna
-					<lb/>fī <date type="created" when="1826-05-02" when-custom="1241-09-25">25 N sene 1241</date>
+					<lb/>
+					Vech-i tahrīr-i hurūf budur ki
+					<lb/>
+					işbu					<date when-custom="1241">bin iki yüz krık bir senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası
+					<lb/>
+					varoş-ı Kirşevo kilisanın rāhibi olan gardiyāna(?)					<placeName>RAVN</placeName>
+					 ve					<placeName>LUPAT</placeName>
+					 ve					<placeName>DUBUNİÇE</placeName>
+					<lb/>
+					ve					<placeName>KOYSİNE</placeName>
+					 ve					<placeName>BUGUŞİÇ</placeName>
+					 nām mahallelerde hāsıl olan mahsūlāt-ı aʿşārı işbu dārende-i
+					<lb/>
+					temessük kilisanın rāhibi olan gardiyān sene-i(?) sābık üzere bedel-i iltizāmımıza
+					<lb/>
+					kabūl ve bedel olan yüz yiğirmi guruş mukābelesinde ve bedel-i iltizāmımıza olan
+					<lb/>
+					meblağ-ı mezkūra tarafımıza edā ve teslīm işbu yedine(?) mühürlü zabt(?) temessük iʿtā olunub
+					<lb/>
+					... ve tarafımıza ve taraf-ı āhardan bir kimesne māniʿ oluna
+					<lb/>
+					fī					<date type="created" when="1826-05-02" when-custom="1241-09-25">25 N sene 1241</date>
 				</p>
 				<div2 facs="#zone_gcm_x5z_flb" type="sign">
 					<p>
-						<lb/>Bende
-						<lb/>Mustafa
-						<lb/>Emīn-i
-						<lb/>Kirşevo
-						<lb/>Hālā
-						<lb/>M </p>
+						<lb/>
+						Bende
+						<lb/>
+						Mustafa
+						<lb/>
+						Emīn-i
+						<lb/>
+						Kirşevo
+						<lb/>
+						Hālā
+						<lb/>
+						M					</p>
 					<div3 facs="#zone_i3n_s5z_flb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
@@ -61,7 +81,9 @@
 			</div1>
 			<div1 facs="#zone_tfw_t5z_flb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1826">1826</date>. </p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1826">1826</date>
+					.				</p>
 			</div1>
 		</body>
 	</text>

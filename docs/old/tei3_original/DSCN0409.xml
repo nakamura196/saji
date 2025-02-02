@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0409</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1885/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1885/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f5753e3d12127493cb3104db39f18d5d75f98650.jpg"/>
+				<zone lrx="1830" lry="3160" ulx="350" uly="20" xml:id="zone_ehr_m5g_skb"/>
+				<zone lrx="1778" lry="1645" ulx="1240" uly="870" xml:id="zone_p5f_45g_skb"/>
+				<zone lrx="1569" lry="1627" ulx="1360" uly="1442" xml:id="zone_zkr_p5g_skb"/>
+				<zone lrx="1387" lry="1572" ulx="963" uly="1075" xml:id="zone_t4t_q5g_skb"/>
+				<zone lrx="1287" lry="1563" ulx="1048" uly="1360" xml:id="zone_slx_r5g_skb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_ehr_m5g_skb" type="hüccet">
+				<p>
+					<lb/>... olundu hurir fī <date from="1712-06-05" from-custom="1124-05-01" to-custom="1124-05-10" type="created">evā'il Cemaziye'l-evvel sene arbaʿ ve ʿaşrīn mie elif</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_p5f_45g_skb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_zkr_p5g_skb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 facs="#zone_t4t_q5g_skb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+					<div3 facs="#zone_slx_r5g_skb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

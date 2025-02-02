@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9033</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">非ムスリムの保有する私有地mülk-i menzilhaneと店舗を、別の非ムスリムへ売却することの承認。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1960/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1960/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/53b85b9859713d84dee222a082ed8b0243143f3c.jpg"/>
+				<zone lrx="2150" lry="3000" ulx="133" uly="908" xml:id="zone_s4c_jhp_xkb"/>
+				<zone lrx="464" lry="2975" ulx="158" uly="2495" xml:id="zone_q23_khp_xkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_s4c_jhp_xkb" type="EMIN_zabt_temessük">
+				<p>
+					<lb/>Vech-i tahrīr-i temessük oldur ki
+					<lb/>işbu <date type="created" when="1830-06-20" when-custom="1245">bin iki yüz kırk beş senesinde</date> der ʿuhde ve iltizāmımızda bulunan
+					<lb/>Kirşevo mukātaʿasına tābiʿ nefs-i Kirşevo varoş mutemekkinlerinin <placeName>KTUK</placeName>
+					<lb/>mahallesinde vākiʿ bir bāb-ı mülk-i menzilhâne bir taraf zimmī İstepan
+					<lb/>Şāhin mülk ve taraf-ı sānī PTUK ve taraf-ı sālis çarşu ve taraf-ı
+					<lb/>rābiʿ tarīk-i ʿām ile mahdūd ve mümtāz zikr olunan mülk-i menzilhāne
+					<lb/>ile ... dukkân mutasarrıf eyledüğü zimmī Īvān İSTRUK nām-ı mesfūr
+					<lb/>işbu dārende-i temessük <placeName>PRPUL</placeName> kazāsından ... zimmī <persName>MAKSİM</persName>
+					<lb/>nām-ı mesfūre yalnız bin beş yüz altmış üç guruş mukābelesinde
+					<lb/>beyʿ-i bāt katʿiyle beyʿ edüb ol dahi kabūl biz dahi mukātaʿa
+					<lb/>emīni bulunduğumuz hasebiyle zimmī <persName>MAKSİM</persName> nām-ı mesfūre tafvīz birle
+					<lb/>ve yedine işbu zabt temessük virildi ... kimesne māniʿ olunmaya </p>
+				<div2 facs="#zone_q23_khp_xkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Mehmed Emīn-i Mukātaʿa-i
+						<lb/>Kirşevo hālā
+						<lb/>M </p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>El-hāccıoğlu Mustafa ʿAlemdār
+						<lb/>ÇRKUzāde ʿAbdüllāh ʿAlemdār
+						<lb/>Kirşevolı Kara Mehmed
+						<lb/>KUGİÇ Mollā Mustafa
+						<lb/>Yūsuf ʿAbdüllāh
+						<lb/>HSKİÇ RBZAKLM
+						<lb/>İbrahīm Emīn
+						<lb/>Ağa İBN BNC
+						<lb/>ve gayrihim mine'l-hāzırīn </p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

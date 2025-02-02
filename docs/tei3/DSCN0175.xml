@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -22,71 +23,115 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1655/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/83de41070e38e9fdf6c9182773a46629eb4a0650.jpg" n="https://diyhistory.org/public/phr2/iiif/1655/canvas/p1"/>
-				<zone xml:id="zone_zrj_bnm_3jb" lry="2735" lrx="2283" uly="35" ulx="100"/>
-				<zone xml:id="zone_pdd_dnm_3jb" lry="2666" lrx="554" uly="2302" ulx="240"/>
-				<zone xml:id="zone_csy_j1d_4qb" lry="1440" lrx="223" uly="1332" ulx="116"/>
-				<zone xml:id="zone_fzh_l1d_4qb" lry="1699" lrx="1798" uly="1576" ulx="1626"/>
-				<zone xml:id="zone_zgs_v1d_4qb" lry="1702" lrx="1166" uly="1554" ulx="885"/>
-				<zone xml:id="zone_jmk_y1d_4qb" lry="1626" lrx="612" uly="1503" ulx="419"/>
-				<zone xml:id="zone_b52_gdd_4qb" lry="1969" lrx="1697" uly="1832" ulx="1171"/>
-				<zone xml:id="zone_ull_dhd_4qb" lry="2581" lrx="2100" uly="2314" ulx="1815"/>
-				<zone xml:id="zone_hp5_2hd_4qb" lry="2469" lrx="2127" uly="2213" ulx="1828"/>
-				<zone xml:id="zone_t2t_fhd_4qb" lry="2326" lrx="2147" uly="2104" ulx="1816"/>
-				<zone xml:id="zone_ctt_ghd_4qb" lry="2272" lrx="2238" uly="1990" ulx="1810"/>
-				<zone xml:id="zone_bgs_hhd_4qb" lry="2115" lrx="2210" uly="1876" ulx="1811"/>
-				<zone xml:id="zone_o4c_yhd_4qb" lry="1591" lrx="1493" uly="1458" ulx="1271"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1655/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7db1114a0093b4325b04832dbe6458ff0d60a3be.jpg"/>
-				<zone lrx="2878" lry="1555" ulx="317" uly="483" xml:id="zone_ntf_gnm_3jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0175.JPG"/>
+			<zone ulx="35" uly="35" lrx="2283" lry="2735" xml:id="zone_zrj_bnm_3jb"/>
+			<zone ulx="2302" uly="2302" lrx="554" lry="2666" xml:id="zone_pdd_dnm_3jb"/>
+			<zone ulx="1332" uly="1332" lrx="223" lry="1440" xml:id="zone_csy_j1d_4qb"/>
+			<zone ulx="1576" uly="1576" lrx="1798" lry="1699" xml:id="zone_fzh_l1d_4qb"/>
+			<zone ulx="1554" uly="1554" lrx="1166" lry="1702" xml:id="zone_zgs_v1d_4qb"/>
+			<zone ulx="1503" uly="1503" lrx="612" lry="1626" xml:id="zone_jmk_y1d_4qb"/>
+			<zone ulx="1832" uly="1832" lrx="1697" lry="1969" xml:id="zone_b52_gdd_4qb"/>
+			<zone ulx="2314" uly="2314" lrx="2100" lry="2581" xml:id="zone_ull_dhd_4qb"/>
+			<zone ulx="2213" uly="2213" lrx="2127" lry="2469" xml:id="zone_hp5_2hd_4qb"/>
+			<zone ulx="2104" uly="2104" lrx="2147" lry="2326" xml:id="zone_t2t_fhd_4qb"/>
+			<zone ulx="1990" uly="1990" lrx="2238" lry="2272" xml:id="zone_ctt_ghd_4qb"/>
+			<zone ulx="1876" uly="1876" lrx="2210" lry="2115" xml:id="zone_bgs_hhd_4qb"/>
+			<zone ulx="1458" uly="1458" lrx="1493" lry="1591" xml:id="zone_o4c_yhd_4qb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0176.JPG"/>
+			<zone ulx="483" uly="483" lrx="2878" lry="1555" xml:id="zone_ntf_gnm_3jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_temessük" facs="#zone_zrj_bnm_3jb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i temessük oldur ki
-					<lb/>İşbu <date when-custom="1253" type="created" when="1838-03-25">bin iki yüz elli üç senesinde</date> der ʿuhde ve iltizāmımızda bulunan <placeName>Kirşevo</placeName> mukā-
-					<lb/>taʿasına tābiʿ <placeName facs="#zone_o4c_yhd_4qb">KOYSINA</placeName> karye hudūdı dāhilinde bir kıtʿa tarla makūle demekle ve <placeName
-						facs="#zone_csy_j1d_4qb, #zone_fzh_l1d_4qb">GĀY
-						<lb/>OSUYE</placeName> demekle bir tarafı <persName facs="#zone_zgs_v1d_4qb">PEDİK YUZU</persName> tarlası ve taraf-ı sānī <persName facs="#zone_jmk_y1d_4qb">BUTOK</persName>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i temessük oldur ki
+					<lb/>
+					İşbu					<date when-custom="1253" type="created" when="1838-03-25">bin iki yüz elli üç senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan					<placeName>Kirşevo</placeName>
+					 mukā-
+					<lb/>
+					taʿasına tābiʿ					<placeName facs="#zone_o4c_yhd_4qb">KOYSINA</placeName>
+					 karye hudūdı dāhilinde bir kıtʿa tarla makūle demekle ve					<placeName facs="#zone_csy_j1d_4qb, #zone_fzh_l1d_4qb">
+						GĀY
+						<lb/>
+						OSUYE
+					</placeName>
+					 demekle bir tarafı					<persName facs="#zone_zgs_v1d_4qb">PEDİK YUZU</persName>
+					 tarlası ve taraf-ı sānī					<persName facs="#zone_jmk_y1d_4qb">BUTOK</persName>
 					ve taraf-ı sālis
-					<lb/><persName>BUTOK</persName> ve taraf-ı rābiʿ tarīk-i ʿāmile mahdūd ve mümtāz olup karye-i mezbūrda mutavattınlarından
-					<lb/>zimmī <persName facs="#zone_b52_gdd_4qb">MATO veled-i Īwān İLĪK</persName> ve ve karındaş <persName>İstepān veled-i Īwān</persName> tarla-i mezkūri ve ...
-					<lb/>matasarrıf eyledüğü işbu dārende-i hurūf <placeName>Kirşevo</placeName> varoş kilisadan <persName>gardiyāna</persName> resmiyle
-					<lb/>yüz otuz iki guruş bedeli ve ... mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp ol dahi
-					<lb/>kabūl biz dahi mukātaʿa emīn bulunduğumuz hasebiyle <persName>gardiyāna</persName> tafvīz birle yedine işbu
-					<lb/>zabt-ı temessük virildi tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olunmaya </p>
+					<lb/>
+					<persName>BUTOK</persName>
+					 ve taraf-ı rābiʿ tarīk-i ʿāmile mahdūd ve mümtāz olup karye-i mezbūrda mutavattınlarından
+					<lb/>
+					zimmī					<persName facs="#zone_b52_gdd_4qb">MATO veled-i Īwān İLĪK</persName>
+					 ve ve karındaş					<persName>İstepān veled-i Īwān</persName>
+					 tarla-i mezkūri ve ...
+					<lb/>
+					matasarrıf eyledüğü işbu dārende-i hurūf					<placeName>Kirşevo</placeName>
+					 varoş kilisadan					<persName>gardiyāna</persName>
+					 resmiyle
+					<lb/>
+					yüz otuz iki guruş bedeli ve ... mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp ol dahi
+					<lb/>
+					kabūl biz dahi mukātaʿa emīn bulunduğumuz hasebiyle					<persName>gardiyāna</persName>
+					 tafvīz birle yedine işbu
+					<lb/>
+					zabt-ı temessük virildi tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olunmaya				</p>
 				<div2 type="sign" facs="#zone_pdd_dnm_3jb">
 					<p>
-						<lb/>El-me'mūr bi'l-memhūr
-						<lb/><persName>Mehmed</persName> Emīn-i Mu-
-						<lb/>kātaʿa Kirşevo
-						<lb/>Hālā
-						<lb/>M </p>
+						<lb/>
+						El-me'mūr bi'l-memhūr
+						<lb/>
+						<persName>Mehmed</persName>
+						 Emīn-i Mu-
+						<lb/>
+						kātaʿa Kirşevo
+						<lb/>
+						Hālā
+						<lb/>
+						M					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>Zimmī <persName facs="#zone_ull_dhd_4qb">PTAR</persName> ŞONIK
-						<lb/>Zimmī <persName facs="#zone_hp5_2hd_4qb">İlya</persName> KORNIK
-						<lb/>Zimmī <persName facs="#zone_t2t_fhd_4qb">Marko</persName> ÇAGL
-						<lb/>Zimmī <persName facs="#zone_ctt_ghd_4qb">Mato</persName> TRZI ʿOYKOPÇE
-						<lb/>Zimmī <persName facs="#zone_bgs_hhd_4qb">Anton</persName> HRVAT
-						<lb/>ve garyrihim </p>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						Zimmī						<persName facs="#zone_ull_dhd_4qb">PTAR</persName>
+						 ŞONIK
+						<lb/>
+						Zimmī						<persName facs="#zone_hp5_2hd_4qb">İlya</persName>
+						 KORNIK
+						<lb/>
+						Zimmī						<persName facs="#zone_t2t_fhd_4qb">Marko</persName>
+						 ÇAGL
+						<lb/>
+						Zimmī						<persName facs="#zone_ctt_ghd_4qb">Mato</persName>
+						 TRZI ʿOYKOPÇE
+						<lb/>
+						Zimmī						<persName facs="#zone_bgs_hhd_4qb">Anton</persName>
+						 HRVAT
+						<lb/>
+						ve garyrihim					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_ntf_gnm_3jb">
 				<p>
-					<lb/>Tapis od Merkote i Ofojaltjejana Koline
-					<lb/>gr: 133. <date when="1838" type="summry_Croatian">1838</date>
-					<lb/><date when-custom="1253" type="summary_Croatian" when="1838-03-25">1253</date>. Nno 18.
-					<lb/>98 </p>
+					<lb/>
+					Tapis od Merkote i Ofojaltjejana Koline
+					<lb/>
+					gr: 133.					<date when="1838" type="summry_Croatian">1838</date>
+					<lb/>
+					<date when-custom="1253" type="summary_Croatian" when="1838-03-25">1253</date>
+					. Nno 18.
+					<lb/>
+					98				</p>
 			</div1>
 		</body>
 		<back/>

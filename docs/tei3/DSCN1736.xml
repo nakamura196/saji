@@ -1,77 +1,90 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1736</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<notesStmt>
-<note type="mine">【要】日付：月 Z or R 要確認。</note>
-</notesStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1269/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1269/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/820fde1af2aed75ae960cd70f3eaddda25b10c3a.jpg" />
-<zone lrx="2333" lry="3008" ulx="142" uly="41" xml:id="zone_alj_l1f_bjb" />
-<zone lrx="1612" lry="2958" ulx="147" uly="1235" xml:id="zone_kvh_1cf_bjb" />
-<zone lrx="618" lry="2952" ulx="232" uly="2623" xml:id="zone_oy3_ccf_bjb" />
-<zone lrx="2312" lry="1300" ulx="816" uly="141" xml:id="zone_uyy_gcf_bjb" />
-<zone lrx="2304" lry="1154" ulx="1629" uly="879" xml:id="zone_qfc_3cf_bjb" />
-<zone lrx="1983" lry="2154" ulx="1575" uly="1574" xml:id="zone_bhf_jcf_bjb" />
-<zone lrx="1950" lry="1841" ulx="1809" uly="1690" xml:id="zone_xmd_kcf_bjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1269/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4a53e0623d64369bc6161c84b6c2bdcb78d98010.jpg" />
-<zone lrx="2473" lry="1805" ulx="1145" uly="1327" xml:id="zone_nm5_mcf_bjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_alj_l1f_bjb" type="ʿarz-ı_hāl_buyuruldu_sūret">
-<div1 facs="#zone_kvh_1cf_bjb" type="ʿarz-ı_hāl_sūret">
-<p>
-<lb />...<lb />
-</p>
-<div2 facs="#zone_oy3_ccf_bjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_uyy_gcf_bjb" type="buyuruldu_sūret">
-<p>
-<lb />... buyuruldu fī <date cert="medium" type="created" when="1785-10-06" when-custom="1199-12-03">3 Z 199</date><lb />
-</p>
-<div3 facs="#zone_qfc_3cf_bjb" type="stamp_sūret">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div1>
-<div2 facs="#zone_bhf_jcf_bjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_xmd_kcf_bjb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-</div1>
-<div1 facs="#zone_nm5_mcf_bjb" type="summary_Croatian">
-<p>
-<lb />... <date type="summary_Croatian" when="1785">1785</date><lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1736</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">【要】日付：月 Z or R 要確認。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1736.JPG"/>
+			<zone ulx="41" uly="41" lrx="2333" lry="3008" xml:id="zone_alj_l1f_bjb"/>
+			<zone ulx="1235" uly="1235" lrx="1612" lry="2958" xml:id="zone_kvh_1cf_bjb"/>
+			<zone ulx="2623" uly="2623" lrx="618" lry="2952" xml:id="zone_oy3_ccf_bjb"/>
+			<zone ulx="141" uly="141" lrx="2312" lry="1300" xml:id="zone_uyy_gcf_bjb"/>
+			<zone ulx="879" uly="879" lrx="2304" lry="1154" xml:id="zone_qfc_3cf_bjb"/>
+			<zone ulx="1574" uly="1574" lrx="1983" lry="2154" xml:id="zone_bhf_jcf_bjb"/>
+			<zone ulx="1690" uly="1690" lrx="1950" lry="1841" xml:id="zone_xmd_kcf_bjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1737.JPG"/>
+			<zone ulx="1327" uly="1327" lrx="2473" lry="1805" xml:id="zone_nm5_mcf_bjb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_alj_l1f_bjb" type="ʿarz-ı_hāl_buyuruldu_sūret">
+				<div1 facs="#zone_kvh_1cf_bjb" type="ʿarz-ı_hāl_sūret">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div2 facs="#zone_oy3_ccf_bjb" type="sign">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div2>
+				</div1>
+				<div1 facs="#zone_uyy_gcf_bjb" type="buyuruldu_sūret">
+					<p>
+						<lb/>
+						... buyuruldu fī						<date cert="medium" type="created" when="1785-10-06" when-custom="1199-12-03">3 Z 199</date>
+						<lb/>
+					</p>
+					<div3 facs="#zone_qfc_3cf_bjb" type="stamp_sūret">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div1>
+				<div2 facs="#zone_bhf_jcf_bjb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_xmd_kcf_bjb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_nm5_mcf_bjb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1785">1785</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

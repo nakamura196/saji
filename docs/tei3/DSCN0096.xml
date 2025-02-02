@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,50 +17,75 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1580/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/9cf5cb5a06af5d4c63e21ab8141d7cede898c739.jpg" n="https://diyhistory.org/public/phr2/iiif/1580/canvas/p1"/>
-				<zone xml:id="zone_vty_1y5_l3b" lry="2991" lrx="1775" uly="100" ulx="150"/>
-				<zone xml:id="zone_emn_ct5_2jb" lry="2915" lrx="403" uly="2590" ulx="150"/>
-				<zone xml:id="zone_nrm_bly_mqb" lry="1379" lrx="971" uly="1175" ulx="733"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1580/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/1a327c158be85fd6f5a4293addea786d1e693173.jpg"/>
-				<zone lrx="2156" lry="1333" ulx="623" uly="1061" xml:id="zone_vcp_cy5_l3b"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0096.JPG"/>
+			<zone ulx="100" uly="100" lrx="1775" lry="2991" xml:id="zone_vty_1y5_l3b"/>
+			<zone ulx="2590" uly="2590" lrx="403" lry="2915" xml:id="zone_emn_ct5_2jb"/>
+			<zone ulx="1175" uly="1175" lrx="971" lry="1379" xml:id="zone_nrm_bly_mqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0097.JPG"/>
+			<zone ulx="1061" uly="1061" lrx="2156" lry="1333" xml:id="zone_vcp_cy5_l3b"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_zabt_temessük" cert="low" facs="#zone_vty_1y5_l3b">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr hurūf <sic>aldur</sic><corr>oldur</corr> ki
-					<lb/> İşbu <date when-custom="1213-03-01" type="created" when="1799-06-03">bin iki yüz on üç senesinde Martı ibtidāsında</date> der ʿuhde
-					<lb/> ve iltizāmımızda bulunan <placeName facs="#zone_nrm_bly_mqb" type="proper" corresp="#Kirşevo">Kirşevo</placeName> mukātaʿa mālikânesi varoşda kilisaya zabt(?)
-					<lb/> olan arāzīsinin(?) ʿāşār-ı şerʿiyye mahsūlāt olan <placeName type="proper" cert="unknown">GRADDRUNE</placeName>
-					<lb/> ve <placeName type="proper" cert="unknown">LOYAT</placeName> ve <placeName type="proper" cert="unknown">ZAYODAKOSIN</placeName> ve <placeName type="proper" cert="unknown"
-						>YOK</placeName> ve <placeName type="proper" cert="unknown">GRNIÇE</placeName> ve <placeName type="proper" cert="unknown">DUBNIÇE</placeName> ve <placeName type="proper"
-						cert="unknown">GRADNIÇE</placeName>
-					<lb/> ahz ve kabsına tālib ve rāgib olan işbu ... temessük <placeName type="proper">Kirşevo</placeName>
-					<lb/> kilisanın baş rāhibi zimmī <persName corresp="#YARYAKOF">YARYAKOF</persName> nām rāhib yüz yiğirmi dört(?)
-					<lb/> bedeli mukābelesinde iltizāmen ... olunup ve bedel-i iltizām
-					<lb/> tamāmen ber-vech-i beşīn tarafımıza teslīm ve ahz olunup mezkūr-i arāzımızda
-					<lb/> olan ʿāşār-ı şerʿiyye ve sā'ir mahsūlāt ahz ve kabz içün tarafımızdan
-					<lb/> zabt temessük zimmī <persName corresp="#YARYAKOF">YARYAKOF</persName> nām gardiyān yedine virildi
-					<lb/> taraf-ı āhardan kimesne māniʿ olunmaya </p>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr hurūf					<sic>aldur</sic>
+					<corr>oldur</corr>
+					 ki
+					<lb/>
+					 İşbu					<date when-custom="1213-03-01" type="created" when="1799-06-03">bin iki yüz on üç senesinde Martı ibtidāsında</date>
+					 der ʿuhde
+					<lb/>
+					 ve iltizāmımızda bulunan					<placeName facs="#zone_nrm_bly_mqb" type="proper" corresp="#Kirşevo">Kirşevo</placeName>
+					 mukātaʿa mālikânesi varoşda kilisaya zabt(?)
+					<lb/>
+					 olan arāzīsinin(?) ʿāşār-ı şerʿiyye mahsūlāt olan					<placeName type="proper" cert="unknown">GRADDRUNE</placeName>
+					<lb/>
+					 ve					<placeName type="proper" cert="unknown">LOYAT</placeName>
+					 ve					<placeName type="proper" cert="unknown">ZAYODAKOSIN</placeName>
+					 ve					<placeName type="proper" cert="unknown">YOK</placeName>
+					 ve					<placeName type="proper" cert="unknown">GRNIÇE</placeName>
+					 ve					<placeName type="proper" cert="unknown">DUBNIÇE</placeName>
+					 ve					<placeName type="proper" cert="unknown">GRADNIÇE</placeName>
+					<lb/>
+					 ahz ve kabsına tālib ve rāgib olan işbu ... temessük					<placeName type="proper">Kirşevo</placeName>
+					<lb/>
+					 kilisanın baş rāhibi zimmī					<persName corresp="#YARYAKOF">YARYAKOF</persName>
+					 nām rāhib yüz yiğirmi dört(?)
+					<lb/>
+					 bedeli mukābelesinde iltizāmen ... olunup ve bedel-i iltizām
+					<lb/>
+					 tamāmen ber-vech-i beşīn tarafımıza teslīm ve ahz olunup mezkūr-i arāzımızda
+					<lb/>
+					 olan ʿāşār-ı şerʿiyye ve sā'ir mahsūlāt ahz ve kabz içün tarafımızdan
+					<lb/>
+					 zabt temessük zimmī					<persName corresp="#YARYAKOF">YARYAKOF</persName>
+					 nām gardiyān yedine virildi
+					<lb/>
+					 taraf-ı āhardan kimesne māniʿ olunmaya				</p>
 				<div2 type="sign" facs="#zone_emn_ct5_2jb">
 					<p>
-						<lb/> ...
-						<lb/> Dervīş
 						<lb/>
-						<persName corresp="#Mehmed">Mehmed</persName> ...
-						<lb/> ... </p>
+						 ...
+						<lb/>
+						 Dervīş
+						<lb/>
+						<persName corresp="#Mehmed">Mehmed</persName>
+						 ...
+						<lb/>
+						 ...					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Serbian" facs="#zone_vcp_cy5_l3b">
 				<p>
-					<lb/> ... od ... <date type="summary_Serbian" when="1799">1799</date>
+					<lb/>
+					 ... od ...					<date type="summary_Serbian" when="1799">1799</date>
 				</p>
 			</div1>
 		</body>
@@ -88,9 +114,7 @@
 				</person>
 			</listPerson>
 			<listRelation>
-				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="iltizām" active="#Mehmed" passive="#YAYAKOF"/>
-				<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="issue" active="#Mehmed" passive="#YARYAKOF"/>
 			</listRelation>
 			<listPlace>

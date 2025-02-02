@@ -1,61 +1,67 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0565</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 6" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2970/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2970/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3306bfbdee396263969a64ef88e0c0ee1726a1a8.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2970/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2229fbda62ce9f0f9411ce9d526597757b3e8ffe.jpg" />
-        <zone lrx="1962" lry="1438" ulx="1200" uly="255" xml:id="zone_hlf_k3j_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2970/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/9894844d29f0d3238f1fadcab614db141ec16caf.jpg" />
-        <zone lrx="2945" lry="1961" ulx="123" uly="772" xml:id="zone_znm_l3j_2mb" />
-        <zone lrx="1390" lry="1910" ulx="1187" uly="1715" xml:id="zone_uxg_43j_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2970/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/edbeaea4b7c5d5ba8265f3cdf858274dc2d50bb8.jpg" />
-        <zone lrx="1641" lry="2654" ulx="508" uly="2129" xml:id="zone_p12_q3j_2mb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_znm_l3j_2mb" type="iʿlām_maʿrūz">
-        <p facs="#zone_hlf_k3j_2mb">
-          <lb />...<lb />
-        </p>
-        <p>
-          <lb />
-          <lb />... hurira <date type="created" when="1854-12-23" when-custom="1271-04-03">fi'l-yevmi'l-sālis min şehr Rebī'ü'l-āhir sene ahadī ve sabʿīn ve mieteyn ve elif</date>
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_uxg_43j_2mb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_p12_q3j_2mb" type="summary_Croatian">
-        <p>
-          <lb />
-          <lb />... <date type="summary_Croatian" when="1855">1855</date>.
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0565</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 6" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0565.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0566.JPG"/>
+			<zone ulx="255" uly="255" lrx="1962" lry="1438" xml:id="zone_hlf_k3j_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0567.JPG"/>
+			<zone ulx="772" uly="772" lrx="2945" lry="1961" xml:id="zone_znm_l3j_2mb"/>
+			<zone ulx="1715" uly="1715" lrx="1390" lry="1910" xml:id="zone_uxg_43j_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0568.JPG"/>
+			<zone ulx="2129" uly="2129" lrx="1641" lry="2654" xml:id="zone_p12_q3j_2mb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_znm_l3j_2mb" type="iʿlām_maʿrūz">
+				<p facs="#zone_hlf_k3j_2mb">
+					<lb/>
+					...
+					<lb/>
+				</p>
+				<p>
+					<lb/>
+					<lb/>
+					... hurira					<date type="created" when="1854-12-23" when-custom="1271-04-03">fi'l-yevmi'l-sālis min şehr Rebī'ü'l-āhir sene ahadī ve sabʿīn ve mieteyn ve elif</date>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_uxg_43j_2mb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_p12_q3j_2mb" type="summary_Croatian">
+				<p>
+					<lb/>
+					<lb/>
+					...					<date type="summary_Croatian" when="1855">1855</date>
+					.
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

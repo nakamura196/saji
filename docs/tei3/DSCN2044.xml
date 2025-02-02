@@ -1,40 +1,43 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2044</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2374/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2374/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/dd7c6908394eeb133d1d3a21d62bfb6908c1edcd.jpg" />
-        <zone lrx="1729" lry="2287" ulx="116" uly="1179" xml:id="zone_ucq_cj4_bmb" />
-        <zone lrx="1025" lry="2266" ulx="691" uly="1925" xml:id="zone_xt4_dj4_bmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_ucq_cj4_bmb" type="tezkire">
-        <p>
-          <lb />... fī <date cert="low" type="created" when="1842-10-23" when-custom="1258-09-19">19 N sene 58</date><lb />
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_xt4_dj4_bmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2044</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2044.JPG"/>
+			<zone ulx="1179" uly="1179" lrx="1729" lry="2287" xml:id="zone_ucq_cj4_bmb"/>
+			<zone ulx="1925" uly="1925" lrx="1025" lry="2266" xml:id="zone_xt4_dj4_bmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_ucq_cj4_bmb" type="tezkire">
+				<p>
+					<lb/>
+					... fī					<date cert="low" type="created" when="1842-10-23" when-custom="1258-09-19">19 N sene 58</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_xt4_dj4_bmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

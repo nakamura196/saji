@@ -1,41 +1,45 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0364</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1841/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1841/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3cff085966d115e3158ca164ff6a3ddfd082e21a.jpg" />
-        <zone lrx="2067" lry="2791" ulx="458" uly="258" xml:id="zone_cys_qv2_pkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1841/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/816e414229df2916a4af4e54e3f2619764a7d114.jpg" />
-        <zone lrx="2946" lry="1700" ulx="561" uly="531" xml:id="zone_hrn_5v2_pkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_cys_qv2_pkb" next="#zone_hrn_5v2_pkb" type="tapu_sūret">
-        <p>
-          <lb />... <lb />
-        </p>
-      </div1>
-      <div1 facs="#zone_hrn_5v2_pkb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summry_Croatian" when="1863">1863</date>. - <date type="summary_Croatian" when="1865-05-24" when-custom="1281">1281</date>.<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0364</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0364.JPG"/>
+			<zone ulx="258" uly="258" lrx="2067" lry="2791" xml:id="zone_cys_qv2_pkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0365.JPG"/>
+			<zone ulx="531" uly="531" lrx="2946" lry="1700" xml:id="zone_hrn_5v2_pkb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_cys_qv2_pkb" next="#zone_hrn_5v2_pkb" type="tapu_sūret">
+				<p>
+					<lb/>
+					...					<lb/>
+				</p>
+			</div1>
+			<div1 facs="#zone_hrn_5v2_pkb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summry_Croatian" when="1863">1863</date>
+					. -					<date type="summary_Croatian" when="1865-05-24" when-custom="1281">1281</date>
+					.
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

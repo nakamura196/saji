@@ -1,40 +1,43 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN1992</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2322/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2322/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/72af31b3ed9e92868606498579c896ef1b56e379.jpg" />
-        <zone lrx="1683" lry="2950" ulx="175" uly="233" xml:id="zone_m3s_kpp_zlb" />
-        <zone lrx="1013" lry="2913" ulx="704" uly="2641" xml:id="zone_zc3_mpp_zlb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="medium" facs="#zone_m3s_kpp_zlb" type="mürāsele">
-        <p>
-          <lb />... fī <date type="created" when="1799-01-21" when-custom="1213-08-15">15 Ş sene 213</date><lb />
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_zc3_mpp_zlb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1992</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN1992.JPG"/>
+			<zone ulx="233" uly="233" lrx="1683" lry="2950" xml:id="zone_m3s_kpp_zlb"/>
+			<zone ulx="2641" uly="2641" lrx="1013" lry="2913" xml:id="zone_zc3_mpp_zlb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="medium" facs="#zone_m3s_kpp_zlb" type="mürāsele">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1799-01-21" when-custom="1213-08-15">15 Ş sene 213</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_zc3_mpp_zlb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

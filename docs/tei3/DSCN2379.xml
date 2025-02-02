@@ -1,53 +1,60 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2379</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2707/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2707/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/913cf533ddfaa6c661e0a58b28c95e05b16f280f.jpg" />
-        <zone lrx="1518" lry="3081" ulx="118" uly="127" xml:id="zone_xz2_gwn_dmb" />
-        <zone lrx="583" lry="3036" ulx="145" uly="2762" xml:id="zone_mwt_hwn_dmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2707/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/877b37994e007729f09402ecd55bc856c3917609.jpg" />
-        <zone lrx="333" lry="620" ulx="46" uly="325" xml:id="zone_az1_jwn_dmb" />
-        <zone lrx="2166" lry="1700" ulx="1193" uly="20" xml:id="zone_ck1_kwn_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_xz2_gwn_dmb" next="#zone_ck1_kwn_dmb" type="mürāsele">
-        <p>
-          <lb />hurira fī <date type="created" when="1776-05-12" when-custom="1190-03-24">24 min Rebi'ü'l-evvel sene 1190</date><lb />
-        </p>
-        <div2 facs="#zone_mwt_hwn_dmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_az1_jwn_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_ck1_kwn_dmb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2379</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2379.JPG"/>
+			<zone ulx="127" uly="127" lrx="1518" lry="3081" xml:id="zone_xz2_gwn_dmb"/>
+			<zone ulx="2762" uly="2762" lrx="583" lry="3036" xml:id="zone_mwt_hwn_dmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2380.JPG"/>
+			<zone ulx="325" uly="325" lrx="333" lry="620" xml:id="zone_az1_jwn_dmb"/>
+			<zone ulx="20" uly="20" lrx="2166" lry="1700" xml:id="zone_ck1_kwn_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_xz2_gwn_dmb" next="#zone_ck1_kwn_dmb" type="mürāsele">
+				<p>
+					<lb/>
+					hurira fī					<date type="created" when="1776-05-12" when-custom="1190-03-24">24 min Rebi'ü'l-evvel sene 1190</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_mwt_hwn_dmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_az1_jwn_dmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_ck1_kwn_dmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

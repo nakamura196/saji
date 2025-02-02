@@ -1,53 +1,59 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN9031</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1958/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1958/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7ef692b3dd76f4e9bad362771367944d0104780e.jpg" />
-        <zone lrx="2400" lry="566" ulx="1445" uly="122" xml:id="zone_mjm_3gp_xkb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1958/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/38fca9f014c9f5f73d1d7d5dd67e38d438fd692d.jpg" />
-        <zone lrx="2000" lry="2590" ulx="209" uly="-9" xml:id="zone_us2_kgp_xkb" />
-        <zone lrx="1507" lry="2565" ulx="240" uly="1670" xml:id="zone_yjm_lgp_xkb" />
-        <zone lrx="1115" lry="2255" ulx="900" uly="2057" xml:id="zone_srn_mgp_xkb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_us2_kgp_xkb" next="#zone_mjm_3gp_xkb" type="edā_tezkire">
-        <p>
-          <lb />... fī <date type="created" when="1801-06-08" when-custom="1216-01-27">27 M sene 216</date><lb />
-        </p>
-        <div2 facs="#zone_yjm_lgp_xkb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_srn_mgp_xkb" type="stamp">
-            <p>
-              <lb />... <lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_mjm_3gp_xkb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1801">1801</date><lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9031</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9031.JPG"/>
+			<zone ulx="122" uly="122" lrx="2400" lry="566" xml:id="zone_mjm_3gp_xkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9032.JPG"/>
+			<zone ulx="-9" uly="-9" lrx="2000" lry="2590" xml:id="zone_us2_kgp_xkb"/>
+			<zone ulx="1670" uly="1670" lrx="1507" lry="2565" xml:id="zone_yjm_lgp_xkb"/>
+			<zone ulx="2057" uly="2057" lrx="1115" lry="2255" xml:id="zone_srn_mgp_xkb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_us2_kgp_xkb" next="#zone_mjm_3gp_xkb" type="edā_tezkire">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1801-06-08" when-custom="1216-01-27">27 M sene 216</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_yjm_lgp_xkb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_srn_mgp_xkb" type="stamp">
+						<p>
+							<lb/>
+							...							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_mjm_3gp_xkb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1801">1801</date>
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

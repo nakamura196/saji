@@ -1,39 +1,40 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0453</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="mine">この画像直前の一連の文書のボスニア語梗概</note>
-        <note type="mine">各文書の番号と梗概の番号が一致している</note>
-        <note type="mine">「NEMA（なし）」と示されている番号は、過去の梗概（カタログ？）にはあったものの、写真撮影時には発見できなかった文書の番号のようである。</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 6" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2860/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2860/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/703280fb617b950efc4fad8a6516429873961082.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2860/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/afc8dbf6ce3030116759c4f19924bd81daeb9a3e.jpg" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0453</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="mine">この画像直前の一連の文書のボスニア語梗概</note>
+				<note type="mine">各文書の番号と梗概の番号が一致している</note>
+				<note type="mine">「NEMA（なし）」と示されている番号は、過去の梗概（カタログ？）にはあったものの、写真撮影時には発見できなかった文書の番号のようである。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 6" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0453.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0454.JPG"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

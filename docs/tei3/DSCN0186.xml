@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -26,63 +27,89 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1666/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/c0a5dc9cf785a1de1a070ca1c3efed43afc12f2c.jpg" n="https://diyhistory.org/public/phr2/iiif/1666/canvas/p1"/>
-				<zone xml:id="zone_hgd_pvm_3jb" lry="2933" lrx="2150" uly="150" ulx="267"/>
-				<zone xml:id="zone_hxm_qvm_3jb" lry="2900" lrx="545" uly="2663" ulx="336"/>
-				<zone xml:id="zone_xwk_nsq_qqb" lry="2024" lrx="1520" uly="1887" ulx="1346"/>
-				<zone xml:id="zone_fqx_ctq_qqb" lry="2122" lrx="1592" uly="1967" ulx="1035"/>
-				<zone xml:id="zone_lsc_wtq_qqb" lry="1981" lrx="581" uly="1777" ulx="289"/>
-				<zone xml:id="zone_arr_m5q_qqb" lry="2285" lrx="1515" uly="2104" ulx="1203"/>
-				<zone xml:id="zone_um2_fwq_qqb" lry="2365" lrx="1111" uly="2160" ulx="471"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1666/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/75b16eac203912da45760518682d21e343c43388.jpg"/>
-				<zone lrx="2484" lry="2200" ulx="228" uly="772" xml:id="zone_dvy_rvm_3jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0186.JPG"/>
+			<zone ulx="150" uly="150" lrx="2150" lry="2933" xml:id="zone_hgd_pvm_3jb"/>
+			<zone ulx="2663" uly="2663" lrx="545" lry="2900" xml:id="zone_hxm_qvm_3jb"/>
+			<zone ulx="1887" uly="1887" lrx="1520" lry="2024" xml:id="zone_xwk_nsq_qqb"/>
+			<zone ulx="1967" uly="1967" lrx="1592" lry="2122" xml:id="zone_fqx_ctq_qqb"/>
+			<zone ulx="1777" uly="1777" lrx="581" lry="1981" xml:id="zone_lsc_wtq_qqb"/>
+			<zone ulx="2104" uly="2104" lrx="1515" lry="2285" xml:id="zone_arr_m5q_qqb"/>
+			<zone ulx="2160" uly="2160" lrx="1111" lry="2365" xml:id="zone_um2_fwq_qqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0187.JPG"/>
+			<zone ulx="772" uly="772" lrx="2484" lry="2200" xml:id="zone_dvy_rvm_3jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_izin_tapu_nāme" facs="#zone_hgd_pvm_3jb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date when-custom="1201" cert="medium" type="created" when="1793-08-06">bin iki yüz bir senesine mahsūben</date> der ʿuhde ve iltizāmımızda bulunan
-						<placeName>Kirşevo</placeName> mukātaʿası
-					<lb/>... <placeName facs="#zone_xwk_nsq_qqb">KOYSINA</placeName> ... arz-ı mīrīye mutasarrıfya(?) olan bir kıtʿa tarlası mutasarrıfıya(?) olan
 					<lb/>
-					<persName facs="#zone_fqx_ctq_qqb" corresp="#mutasarrıf_Mato">zimmī MATO veled-i PETRE ZAKUÇNK</persName> demekle maʿrūf bir taraf-ı <persName facs="#zone_lsc_wtq_qqb">zimmī MATOH
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date when-custom="1201" cert="medium" type="created" when="1793-08-06">bin iki yüz bir senesine mahsūben</date>
+					 der ʿuhde ve iltizāmımızda bulunan
+					<placeName>Kirşevo</placeName>
+					 mukātaʿası
+					<lb/>
+					...					<placeName facs="#zone_xwk_nsq_qqb">KOYSINA</placeName>
+					 ... arz-ı mīrīye mutasarrıfya(?) olan bir kıtʿa tarlası mutasarrıfıya(?) olan
+					<lb/>
+					<persName facs="#zone_fqx_ctq_qqb" corresp="#mutasarrıf_Mato">zimmī MATO veled-i PETRE ZAKUÇNK</persName>
+					 demekle maʿrūf bir taraf-ı					<persName facs="#zone_lsc_wtq_qqb">zimmī MATOH
 						OLYK SRAKE</persName>
-					<lb/>ve bir tarafıya(?) <persName facs="#zone_arr_m5q_qqb">DMTYE PALOH TZRATINA</persName> tarlası ve bir tarafıya(?) <persName>müşter-i mezbūr</persName> ... tarlası ve taraf-ı
+					<lb/>
+					ve bir tarafıya(?)					<persName facs="#zone_arr_m5q_qqb">DMTYE PALOH TZRATINA</persName>
+					 tarlası ve bir tarafıya(?)					<persName>müşter-i mezbūr</persName>
+					 ... tarlası ve taraf-ı
 					...
-					<lb/>ve birinci(?) işbu dārende-i hurūf <persName cert="unknown" facs="#zone_um2_fwq_qqb">ÇOH DKARRA ZIMMI VIRLİK MINA</persName> nām-ı mesfūr
-					<lb/>yiğirmi asadī guruş mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp biz dahi emīn-i
-					<lb/>mukātaʿası buluduğumuz hasebiyle beyʿlerine cā'iz görüp ve mesfūr ... tasarrıfına(?)
-					<lb/>izin tapu nām[e] yedine virildi mā-dām ki sāl be-sālan taraf-ı mīrī[ye] rāciʿ olan edāyı teslīm
-					<lb/>edere(?) </p>
+					<lb/>
+					ve birinci(?) işbu dārende-i hurūf					<persName cert="unknown" facs="#zone_um2_fwq_qqb">ÇOH DKARRA ZIMMI VIRLİK MINA</persName>
+					 nām-ı mesfūr
+					<lb/>
+					yiğirmi asadī guruş mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp biz dahi emīn-i
+					<lb/>
+					mukātaʿası buluduğumuz hasebiyle beyʿlerine cā'iz görüp ve mesfūr ... tasarrıfına(?)
+					<lb/>
+					izin tapu nām[e] yedine virildi mā-dām ki sāl be-sālan taraf-ı mīrī[ye] rāciʿ olan edāyı teslīm
+					<lb/>
+					edere(?)				</p>
 				<div2 type="sign" facs="#zone_hxm_qvm_3jb">
 					<p>
-						<lb/>...
-						<lb/>Me'mūr-i(?) Mukātaʿa-i Kirşevo(?) </p>
+						<lb/>
+						...
+						<lb/>
+						Me'mūr-i(?) Mukātaʿa-i Kirşevo(?)					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/><persName>Zimmī MAYK ʿAnton</persName>
-						<lb/><persName>ʿAUTIK ʿAndriye</persName>
-						<lb/><persName>KIKI ʿAnton</persName>
-						<lb/><persName>Petre DULKRE</persName>
-						<lb/><persName>MIVO Īwān</persName>
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						<persName>Zimmī MAYK ʿAnton</persName>
+						<lb/>
+						<persName>ʿAUTIK ʿAndriye</persName>
+						<lb/>
+						<persName>KIKI ʿAnton</persName>
+						<lb/>
+						<persName>Petre DULKRE</persName>
+						<lb/>
+						<persName>MIVO Īwān</persName>
 					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_dvy_rvm_3jb">
 				<p>
-					<lb/>Temesuch od prove u Kojeini.
-					<lb/>Nno 22.
-					<lb/>115 </p>
+					<lb/>
+					Temesuch od prove u Kojeini.
+					<lb/>
+					Nno 22.
+					<lb/>
+					115				</p>
 			</div1>
 		</body>
 		<back>
@@ -151,15 +178,10 @@
 				</person>
 			</listPerson>
 			<listRelation>
-				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="iltizām" active="#emīn_XXX" passive="#mutasarrıf_Mato" type="before"/>
-				<!-- beyʿ ü ferāğ という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="landsale" active="#mutasarrıf_Mato" passive="#mutasarrıf_ÇOH"/>
-				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="iltizām" active="#emīn_XXX" passive="#mutasarrıf_ÇOH"/>
-				<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="issue" active="#emīn_XXX" passive="#mutasarrıf_ÇOH"/>
-				<!-- 隣接する土地 という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="隣接する土地" active="#Matoの土地" passive="#MATOHの土地" type="before"/>
 				<relation name="隣接する土地" active="#Matoの土地" passive="#DMTYEの土地" type="before"/>
 				<relation name="隣接する土地" active="#Matoの土地" passive="#müşterの土地" type="before"/>
@@ -178,11 +200,17 @@
 					</trait>
 					<trait>
 						<label>土地の所有者</label>
-						<desc><persName corresp="#mutasarrıf_Mato"/></desc>
+						<desc>
+							<persName corresp="#mutasarrıf_Mato"/>
+						</desc>
 					</trait>
 					<trait>
 						<label>金額</label>
-						<desc><measure type="price" unit="#asadī_guruş"><num value="20">yiğirmi</num></measure></desc>
+						<desc>
+							<measure type="price" unit="#asadī_guruş">
+								<num value="20">yiğirmi</num>
+							</measure>
+						</desc>
 					</trait>
 					<region>Bosna Vilāyeti</region>
 					<settlement>Bosna Sancağı</settlement>
@@ -198,7 +226,9 @@
 					</trait>
 					<trait>
 						<label>土地の所有者</label>
-						<desc><persName corresp="#mutasarrıf_MATOH"/></desc>
+						<desc>
+							<persName corresp="#mutasarrıf_MATOH"/>
+						</desc>
 					</trait>
 					<region>Bosna Vilāyeti</region>
 					<settlement>Bosna Sancağı</settlement>

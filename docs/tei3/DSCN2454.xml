@@ -1,49 +1,54 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2454</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2781/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2781/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0bba587296c6adf3b175697ddba865d9ff661014.jpg" />
-        <zone lrx="1700" lry="3210" ulx="90" uly="340" xml:id="zone_h15_34v_dmb" />
-        <zone lrx="541" lry="3187" ulx="187" uly="2871" xml:id="zone_xy5_jpv_dmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2781/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/16c753c196790f09d62b62bf89b390f5b2a05b27.jpg" />
-        <zone lrx="2989" lry="1294" ulx="189" uly="800" xml:id="zone_krz_kpv_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_h15_34v_dmb" next="#zone_krz_kpv_dmb" type="mürāsele">
-        <p>
-          <lb />... hurira fī <date type="created" when="1786-05-22" when-custom="1200-07-24">24 Recebi'l-... sene 1200</date><lb />
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_xy5_jpv_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_krz_kpv_dmb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2454</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2454.JPG"/>
+			<zone ulx="340" uly="340" lrx="1700" lry="3210" xml:id="zone_h15_34v_dmb"/>
+			<zone ulx="2871" uly="2871" lrx="541" lry="3187" xml:id="zone_xy5_jpv_dmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2455.JPG"/>
+			<zone ulx="800" uly="800" lrx="2989" lry="1294" xml:id="zone_krz_kpv_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_h15_34v_dmb" next="#zone_krz_kpv_dmb" type="mürāsele">
+				<p>
+					<lb/>
+					... hurira fī					<date type="created" when="1786-05-22" when-custom="1200-07-24">24 Recebi'l-... sene 1200</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_xy5_jpv_dmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_krz_kpv_dmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

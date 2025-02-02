@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,49 +14,54 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2888/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2888/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/ad37c53ce78e4da7f4df773584f084b8fc43d65c.jpg"/>
-				<zone lrx="2153" lry="2333" ulx="213" uly="360" xml:id="zone_llm_23c_2mb"/>
-				<zone lrx="634" lry="2242" ulx="442" uly="2057" xml:id="zone_mz1_g3c_2mb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2888/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/7bd2057395800c33715e1938afda957296c3fb52.jpg"/>
-				<zone lrx="2788" lry="1350" ulx="2558" uly="1102" xml:id="zone_pmc_k3c_2mb"/>
-				<zone lrx="1100" lry="1688" ulx="128" uly="461" xml:id="zone_wvx_l3c_2mb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0481.JPG"/>
+			<zone ulx="360" uly="360" lrx="2153" lry="2333" xml:id="zone_llm_23c_2mb"/>
+			<zone ulx="2057" uly="2057" lrx="634" lry="2242" xml:id="zone_mz1_g3c_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0482.JPG"/>
+			<zone ulx="1102" uly="1102" lrx="2788" lry="1350" xml:id="zone_pmc_k3c_2mb"/>
+			<zone ulx="461" uly="461" lrx="1100" lry="1688" xml:id="zone_wvx_l3c_2mb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="unknown" facs="#zone_llm_23c_2mb" next="#zone_wvx_l3c_2mb" type="EMIN">
 				<p>
 					<lb/>
-					<lb/>... hurira fī <date type="created" when-custom="1265-06-21">21 C sene 265</date>
+					<lb/>
+					... hurira fī					<date type="created" when-custom="1265-06-21">21 C sene 265</date>
 				</p>
 				<div2 facs="#zone_mz1_g3c_2mb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_pmc_k3c_2mb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_wvx_l3c_2mb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1849">1849</date> ...
-					<lb/>... </p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1849">1849</date>
+					 ...
+					<lb/>
+					...				</p>
 			</div1>
 		</body>
 	</text>

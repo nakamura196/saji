@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -24,34 +25,46 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1605/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1605/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0689fefcf139df2f38dab1fde10b5030e38351d0.jpg"/>
-				<zone lrx="2375" lry="2458" ulx="92" uly="1166" xml:id="zone_l3t_13v_2jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0121.JPG"/>
+			<zone ulx="1166" uly="1166" lrx="2375" lry="2458" xml:id="zone_l3t_13v_2jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_tapu" cert="unknown" facs="#zone_l3t_13v_2jb">
 				<p>
-					<lb/>[破損] tahrīr-i temessük [破損]
-					<lb/>bā-berāt [破損] ... kurālarında KÇAR karyesinin hudūdu dāhilinde
-					<lb/>bir kıtʿa [破損] bağçesine ve bir ... bağçesine ve bir kıtʿa tarla
-					<lb/>demekle [破損] ve tarla demekle zikr olunan tarla [破損]
-					<lb/>[破損] ... etmekle ve mesfūr yüz [破損]
-					<lb/>olup biz dahi me'mūr olduğumuz [破損]
-					<lb/>ve yedine işbu tapu virildi zabt
-					<lb/>... kimesne māniʿ olunmaya fī <date type="created" when="1829-05-12" when-custom="1244-11-09">9 Za sene 244</date>
+					<lb/>
+					[破損] tahrīr-i temessük [破損]
+					<lb/>
+					bā-berāt [破損] ... kurālarında KÇAR karyesinin hudūdu dāhilinde
+					<lb/>
+					bir kıtʿa [破損] bağçesine ve bir ... bağçesine ve bir kıtʿa tarla
+					<lb/>
+					demekle [破損] ve tarla demekle zikr olunan tarla [破損]
+					<lb/>
+					[破損] ... etmekle ve mesfūr yüz [破損]
+					<lb/>
+					olup biz dahi me'mūr olduğumuz [破損]
+					<lb/>
+					ve yedine işbu tapu virildi zabt
+					<lb/>
+					... kimesne māniʿ olunmaya fī					<date type="created" when="1829-05-12" when-custom="1244-11-09">9 Za sene 244</date>
 				</p>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>FYNS Ağa
-						<lb/>ʿĀMĀN ...
-						<lb/>KİÇEPVV
-						<lb/>RUKIM
-						<lb/>FOİŞ Īwān
-						<lb/>ve gayrihim mine'l-[破損] </p>
+						<lb/>
+						FYNS Ağa
+						<lb/>
+						ʿĀMĀN ...
+						<lb/>
+						KİÇEPVV
+						<lb/>
+						RUKIM
+						<lb/>
+						FOİŞ Īwān
+						<lb/>
+						ve gayrihim mine'l-[破損]					</p>
 				</div2>
 			</div1>
 		</body>

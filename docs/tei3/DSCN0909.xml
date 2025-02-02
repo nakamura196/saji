@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,34 +20,37 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1027/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1027/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/34686d295964e9dfa4d8c411f483efc21e30f505.jpg"/>
-				<zone lrx="2160" lry="3120" ulx="1020" uly="90" xml:id="zone_vsy_2ly_y3b"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1027/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/96e751c7690ae5592a17ba243974d6099dd5cbd3.jpg"/>
-				<zone lrx="1446" lry="445" ulx="1087" uly="134" xml:id="zone_kr5_hly_y3b"/>
-				<zone lrx="991" lry="2075" ulx="700" uly="1695" xml:id="zone_mkn_3ly_y3b"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1027/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/c2bb29f55fb2183fb717d93e5f090c94d53d732d.jpg"/>
-				<zone lrx="1558" lry="3120" ulx="1387" uly="2979" xml:id="zone_pzl_kly_y3b"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1027/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/54c2b4b39d572770ec799bf08ebcb7b78ec934c7.jpg"/>
-				<zone lrx="1975" lry="1770" ulx="1220" uly="1180" xml:id="zone_f1h_mly_y3b"/>
-				<zone lrx="1708" lry="1758" ulx="1471" uly="1558" xml:id="zone_pyv_mly_y3b"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0909.JPG"/>
+			<zone ulx="90" uly="90" lrx="2160" lry="3120" xml:id="zone_vsy_2ly_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0910.JPG"/>
+			<zone ulx="134" uly="134" lrx="1446" lry="445" xml:id="zone_kr5_hly_y3b"/>
+			<zone ulx="1695" uly="1695" lrx="991" lry="2075" xml:id="zone_mkn_3ly_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0911.JPG"/>
+			<zone ulx="2979" uly="2979" lrx="1558" lry="3120" xml:id="zone_pzl_kly_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0912.JPG"/>
+			<zone ulx="1180" uly="1180" lrx="1975" lry="1770" xml:id="zone_f1h_mly_y3b"/>
+			<zone ulx="1558" uly="1558" lrx="1708" lry="1758" xml:id="zone_pyv_mly_y3b"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_vsy_2ly_y3b" type="kassām_deftrei">
 				<p>
-					<lb/>...<date cert="unknown" type="created" when-custom="129?-04-22"> fi'l-yevmi'l-sānī ve'l-ʿaşrīn ve ... Rebīʿl-āhir sene ... ve tisʿīn ve miyetein ve
+					<lb/>
+					...
+					<date cert="unknown" type="created" when-custom="129?-04-22">
+						 fi'l-yevmi'l-sānī ve'l-ʿaşrīn ve ... Rebīʿl-āhir sene ... ve tisʿīn ve miyetein ve
 						<lb/>
-						<lb/>elif</date>
+						<lb/>
+						elif
+					</date>
 					<lb/>
 				</p>
 			</div1>
@@ -54,7 +58,9 @@
 			<div3 facs="#zone_mkn_3ly_y3b" type="stamp"/>
 			<div3 facs="#zone_pzl_kly_y3b" type="stamp"/>
 			<div1 cert="low" facs="#zone_f1h_mly_y3b" type="kassām_deftrei">
-				<l>fī <date cert="unknown" type="created" when="1877-12-26" when-custom="1294--21">21 ... 294</date></l>
+				<l>
+					fī					<date cert="unknown" type="created" when="1877-12-26" when-custom="1294--21">21 ... 294</date>
+				</l>
 				<div3 facs="#zone_pyv_mly_y3b" type="stamp"/>
 			</div1>
 		</body>

@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,29 +17,37 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2276/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2276/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e514e0c691137d81cf8fb0da1019fffe6312a12f.jpg"/>
-				<zone lrx="1622" lry="3138" ulx="222" uly="1644" xml:id="zone_v5c_kw1_zlb"/>
-				<zone lrx="574" lry="3125" ulx="256" uly="2758" xml:id="zone_v43_lw1_zlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9352.JPG"/>
+			<zone ulx="1644" uly="1644" lrx="1622" lry="3138" xml:id="zone_v5c_kw1_zlb"/>
+			<zone ulx="2758" uly="2758" lrx="574" lry="3125" xml:id="zone_v43_lw1_zlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_v5c_kw1_zlb" type="tezkire">
 				<p>
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date type="created" when="1774-03-12" when-custom="1187">bin yüz seksen yedi senesinde</date> Kirşevo gardiyāna irsāl eyledüğüm
-					<lb/>lüzüm ... iki bin iki yüz elli beş ... olmak üzere sekiz yüz elli
-					<lb/>akçe mukābelesinde lākin Şevvāl on ikinci gününde PARATR KRŞİÇ nām-ı
-					<lb/>mesfūr yedinde ... lüzümdan(?) akçeyi bi'l-tamām ahz ve kabz eyledüm işbu tezkire
-					<lb/>tahrīr ve yedine refʿ ve iʿtā eyledüm tarafımızdan kimesne māniʿ olunmaya </p>
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date type="created" when="1774-03-12" when-custom="1187">bin yüz seksen yedi senesinde</date>
+					 Kirşevo gardiyāna irsāl eyledüğüm
+					<lb/>
+					lüzüm ... iki bin iki yüz elli beş ... olmak üzere sekiz yüz elli
+					<lb/>
+					akçe mukābelesinde lākin Şevvāl on ikinci gününde PARATR KRŞİÇ nām-ı
+					<lb/>
+					mesfūr yedinde ... lüzümdan(?) akçeyi bi'l-tamām ahz ve kabz eyledüm işbu tezkire
+					<lb/>
+					tahrīr ve yedine refʿ ve iʿtā eyledüm tarafımızdan kimesne māniʿ olunmaya				</p>
 				<div2 facs="#zone_v43_lw1_zlb" type="sign">
 					<p>
-						<lb/>...
-						<lb/>ʿÖmer ʿAlī(?) Efendī
-						<lb/>... </p>
+						<lb/>
+						...
+						<lb/>
+						ʿÖmer ʿAlī(?) Efendī
+						<lb/>
+						...					</p>
 				</div2>
 			</div1>
 		</body>

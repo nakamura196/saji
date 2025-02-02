@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0249</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">土地徴税権を、クレシェヴォ修道院の修道院長に譲渡することに関する文書tezkire</note>
+				<note type="mine">"Hālā"から始まるタイプのEMIN文書。土地の売買 beyʿ ü ferāğ の文書とは異なり、徴税権の移譲のみをやり取りするもの。</note>
+				<note type="mine">DSCN0251.JPGと類似の語彙。【要】比較・読み直し。DSCN0251.JPGの方がやや読みやすい。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1728/manifest">
+			<surface>
+				<graphic url="https://diyhistory.org/public/phr2/files/original/ba5e2c4d931c60fa42929c53b5d5527740d9ea88.jpg" n="https://diyhistory.org/public/phr2/iiif/1728/canvas/p1"/>
+				<zone xml:id="zone_glw_zpt_xjb" lry="3110" lrx="1770" uly="210" ulx="100"/>
+				<zone xml:id="zone_cgj_bqt_xjb" lry="3041" lrx="528" uly="2752" ulx="224"/>
+				<zone xml:id="zone_prq_wz1_qrb" lry="2379" lrx="1426" uly="2238" ulx="1089"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1728/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4b276575db9c466731bb9c2fc7c1362e48e973ce.jpg"/>
+				<zone lrx="2428" lry="1377" ulx="467" uly="1022" xml:id="zone_byj_cqt_xjb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="EMIN_zabt_tezkire" facs="#zone_glw_zpt_xjb">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrī-i hurūf budur ki
+					<lb/>hālā ʿuhde ve iltizāmımızda olan Kirşevo mukātaʿasında
+					<lb/>ve DUBUNİÇE ve RAVNA nām karyelerin hāsıl olan ʿaşār-ı şerʿiyesi
+					<lb/>ve rüsūm-u sā'iresin tapu nāmeden garyi işbu <date from-custom="1214-03-01" to-custom="1215-02-29">bin iki yüz on
+						<lb/>dört senesinin Martı ibtidāsında Şubatı gāyesine değin</date> zabt ve rabt
+					<lb/>ve rüsūm-u ʿaşāreti ahz ve kabzuna tāleb ve rāgib olan <placeName>Kirşevo</placeName> kilisanın
+					<lb/>baş rāhib <persName facs="#zone_prq_wz1_qrb">zimmī YARLLAH</persName> bedeli ve iltizām olunub lāzım gelen
+					<lb/>bedel-i(?) iltizām içün yüz iki guruş tarafımıza bā(?) tamāmen edā ve teslīm
+					<lb/>... zabt ve rabt ve rüsūm sā'iresini ahz ve kabz
+					<lb/>işbu mesfūrun yedine zabt tezkire(?) virildi tarafımızdan ve taraf-ı āhardan
+					<lb/>bir kimesne māniʿ olmayalar </p>
+				<div2 type="sign" facs="#zone_cgj_bqt_xjb">
+					<p>
+						<lb/>...
+						<lb/><persName>Dervīş
+							<lb/>Mehmed El-me'mūr</persName>
+					</p>
+				</div2>
+			</div1>
+			<div1 type="summary_Croatian" facs="#zone_byj_cqt_xjb">
+				<p>
+					<lb/>Ngd doskora od deschre <date when="1800" type="summary_Croatian">1800</date>
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

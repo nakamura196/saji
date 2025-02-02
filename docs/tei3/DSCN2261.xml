@@ -1,44 +1,49 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2261</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2589/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2589/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b51a429cc31e18e60f02fcfe82732b6bd2f28734.jpg" />
-        <zone lrx="2209" lry="3000" ulx="36" uly="118" xml:id="zone_old_dvf_dmb" />
-        <zone lrx="1075" lry="2984" ulx="139" uly="1875" xml:id="zone_wkq_2vf_dmb" />
-        <zone lrx="1069" lry="2972" ulx="593" uly="2584" xml:id="zone_l2h_fvf_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_old_dvf_dmb" type="unknown">
-        <p>
-          <lb />...<lb />
-        </p>
-        <div2 facs="#zone_wkq_2vf_dmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_l2h_fvf_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2261</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2261.JPG"/>
+			<zone ulx="118" uly="118" lrx="2209" lry="3000" xml:id="zone_old_dvf_dmb"/>
+			<zone ulx="1875" uly="1875" lrx="1075" lry="2984" xml:id="zone_wkq_2vf_dmb"/>
+			<zone ulx="2584" uly="2584" lrx="1069" lry="2972" xml:id="zone_l2h_fvf_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_old_dvf_dmb" type="unknown">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+				<div2 facs="#zone_wkq_2vf_dmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_l2h_fvf_dmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

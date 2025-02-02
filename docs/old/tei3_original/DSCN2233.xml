@@ -1,0 +1,49 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2233</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2561/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2561/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/70b65717bb77791ad7b5717b8212aecc34d909c3.jpg" />
+        <zone lrx="2800" lry="2154" ulx="813" uly="360" xml:id="zone_myp_whz_cmb" />
+        <zone lrx="1610" lry="2110" ulx="1300" uly="1831" xml:id="zone_kkn_xhz_cmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2561/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c9c81fd76b6c9a2c4abb0d6fb85fcb0ef71e6442.jpg" />
+        <zone lrx="2512" lry="666" ulx="712" uly="255" xml:id="zone_vjm_k3z_cmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_myp_whz_cmb" type="unknown">
+        <p>
+          <lb />... hurira fī <date cert="low" type="created" when="1782-09-11" when-custom="1196-10-04">4 Ş sene 1196</date><lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_kkn_xhz_cmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_vjm_k3z_cmb" type="summary_Serbian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

@@ -1,54 +1,66 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN1764</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1296/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1296/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/636aacef907124815fb727603673c9c3ebff058b.jpg" />
-<zone lrx="1645" lry="2763" ulx="663" uly="218" xml:id="zone_tsf_2rh_cjb" />
-<zone lrx="1248" lry="1037" ulx="879" uly="558" xml:id="zone_e4t_frh_cjb" />
-<zone lrx="1166" lry="1024" ulx="1005" uly="885" xml:id="zone_f1h_grh_cjb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1296/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8fe51a506da568f7f019e13325389280b5f3f8c7.jpg" />
-<zone lrx="2667" lry="1255" ulx="545" uly="944" xml:id="zone_otc_3rh_cjb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_tsf_2rh_cjb" type="hüccet">
-<p>
-<lb />... <date type="created" when="1830-05-03" when-custom="1245-11-11">fi'l-yevmi'l-hādī ʿaşar min Zi'l-kaʿada'l-şerīfe sene hıms ve arbaʿīn<lb />
-<lb />ve mieteyn ve elif</date><lb />
-</p>
-<div2 facs="#zone_e4t_frh_cjb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-<div3 facs="#zone_f1h_grh_cjb" type="stamp">
-<p>
-<lb />...<lb />
-</p>
-</div3>
-</div2>
-</div1>
-<div1 facs="#zone_otc_3rh_cjb" type="summary_Croatian">
-<p>
-<lb />... <date type="summary_Croatian" when="1830">1830</date>. ...<lb />
-</p>
-</div1>
-</body>
-</text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN1764</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1764.JPG"/>
+			<zone ulx="218" uly="218" lrx="1645" lry="2763" xml:id="zone_tsf_2rh_cjb"/>
+			<zone ulx="558" uly="558" lrx="1248" lry="1037" xml:id="zone_e4t_frh_cjb"/>
+			<zone ulx="885" uly="885" lrx="1166" lry="1024" xml:id="zone_f1h_grh_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1765.JPG"/>
+			<zone ulx="944" uly="944" lrx="2667" lry="1255" xml:id="zone_otc_3rh_cjb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_tsf_2rh_cjb" type="hüccet">
+				<p>
+					<lb/>
+					...					<date type="created" when="1830-05-03" when-custom="1245-11-11">
+						fi'l-yevmi'l-hādī ʿaşar min Zi'l-kaʿada'l-şerīfe sene hıms ve arbaʿīn
+						<lb/>
+						<lb/>
+						ve mieteyn ve elif
+					</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_e4t_frh_cjb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_f1h_grh_cjb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_otc_3rh_cjb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1830">1830</date>
+					. ...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,36 +17,37 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2952/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2952/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b38207acadf3f823a286f14c0e628b8383c9ca39.jpg"/>
-				<zone lrx="1836" lry="3054" ulx="436" uly="200" xml:id="zone_ms5_vy3_2mb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2952/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/6c8121aba5d84129acaed5aa51f0acb113c2c4a5.jpg"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2952/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/1a5e3d2e0c35854b523352ff3ca5330d6a6cb90b.jpg"/>
-				<zone lrx="978" lry="2423" ulx="545" uly="1977" xml:id="zone_xd5_xy3_2mb"/>
-				<zone lrx="963" lry="2408" ulx="759" uly="2220" xml:id="zone_o5s_yy3_2mb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0547.JPG"/>
+			<zone ulx="200" uly="200" lrx="1836" lry="3054" xml:id="zone_ms5_vy3_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0548.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%206/DSCN0549.JPG"/>
+			<zone ulx="1977" uly="1977" lrx="978" lry="2423" xml:id="zone_xd5_xy3_2mb"/>
+			<zone ulx="2220" uly="2220" lrx="963" lry="2408" xml:id="zone_o5s_yy3_2mb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_ms5_vy3_2mb" type="mektūp">
 				<p>
 					<lb/>
-					<lb/>... fī <date type="created" when="1814-10-14" when-custom="1229-11-01">1 Za sene 29</date>
+					<lb/>
+					... fī					<date type="created" when="1814-10-14" when-custom="1229-11-01">1 Za sene 29</date>
 				</p>
 				<div2 facs="#zone_xd5_xy3_2mb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 					<div3 facs="#zone_o5s_yy3_2mb" type="stamp">
 						<p>
-							<lb/>...
+							<lb/>
+							...
 							<lb/>
 						</p>
 					</div3>

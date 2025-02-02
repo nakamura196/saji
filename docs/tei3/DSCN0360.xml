@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,76 +17,108 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1837/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1837/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b72ff000f75fefa8972f73be2365fa427a8fdc15.jpg"/>
-				<zone lrx="2175" lry="2691" ulx="83" uly="216" xml:id="zone_gbf_3qr_kkb"/>
-				<zone lrx="528" lry="2650" ulx="101" uly="2263" xml:id="zone_n4f_kqr_kkb"/>
-				<zone lrx="515" lry="2641" ulx="314" uly="2461" xml:id="zone_blc_lqr_kkb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1837/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e4c75313a8de523ce0f43e603c75dcdf07f3db23.jpg"/>
-				<zone lrx="2304" lry="404" ulx="916" uly="150" xml:id="zone_jzs_mqr_kkb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0360.JPG"/>
+			<zone ulx="216" uly="216" lrx="2175" lry="2691" xml:id="zone_gbf_3qr_kkb"/>
+			<zone ulx="2263" uly="2263" lrx="528" lry="2650" xml:id="zone_n4f_kqr_kkb"/>
+			<zone ulx="2461" uly="2461" lrx="515" lry="2641" xml:id="zone_blc_lqr_kkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0361.JPG"/>
+			<zone ulx="150" uly="150" lrx="2304" lry="404" xml:id="zone_jzs_mqr_kkb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_gbf_3qr_kkb" type="EMIN_tapu">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/><date when-custom="1264">bin iki yüz altmış dört senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasında
-					<lb/>... cemāʿatında vākiʿ nefs-i ... hudūd dāhilinde arāzī-i mīrīye mutasarrıf olan Mollā Mustafa
-					<lb/>KAVGİÇ İbn Sālih nām kendi taht-ı tasarrıfında bulunan bir kıtʿa tarla STUPUVİÇ demekle
-					<lb/>bir tarafında müşteri bunda tarlası bir tarafta Hasan ... tarlası bir tarafta ...
-					<lb/>bir tarafında orman varınca(?) hudūd ile mahdūd ve mumtāz tarlaya merkūmun hakkı ve karār ve tasarrıfını(?)
-					<lb/>işbu dārende-i hurūf Kirşevo nefs-i varoş mutemekkinlerinde BUYUK veled-i Īwān YÜZÜ ve ...
-					<lb/>YUŞE veled-i BURU mesfūrān yalnız sekiz yüz yiğirmi guruş bedel-i ferāğ mukābelesinde beyʿ-i bāt
-					<lb/>katʿiyle beyʿ ü ferāğ ve hakkı ... zabt ve tasarrıf(?)
-					<lb/>içün(?) tarafımızdan ... ile ol dahi ber-minvāl muharrer üzere kabūl biz dahi mukātaʿa-i
-					<lb/>civārında ... hasebiyle bināen ... arāzisini ve ferāgatında müşter-i mesfūre YÜZU'ya
-					<lb/>ve nasrānī ... ve zabt ve zirāʿat izin ve ruhsat virdüm işbu tapuya defʿ(?)
-					<lb/>ve iʿtā olundu mā-dām ki taraf-ı mukātaʿa rāciʿ olan aʿşār-ı şerʿiyesini ve rüsūmāt sā'iresini
-					<lb/>edāyle zabt ve ... tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ ve müdāhale olunmaya
-					<lb/>fī <date type="created" when="1849-07-24" when-custom="1265-09-05">5 N sene 265</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					<date when-custom="1264">bin iki yüz altmış dört senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasında
+					<lb/>
+					... cemāʿatında vākiʿ nefs-i ... hudūd dāhilinde arāzī-i mīrīye mutasarrıf olan Mollā Mustafa
+					<lb/>
+					KAVGİÇ İbn Sālih nām kendi taht-ı tasarrıfında bulunan bir kıtʿa tarla STUPUVİÇ demekle
+					<lb/>
+					bir tarafında müşteri bunda tarlası bir tarafta Hasan ... tarlası bir tarafta ...
+					<lb/>
+					bir tarafında orman varınca(?) hudūd ile mahdūd ve mumtāz tarlaya merkūmun hakkı ve karār ve tasarrıfını(?)
+					<lb/>
+					işbu dārende-i hurūf Kirşevo nefs-i varoş mutemekkinlerinde BUYUK veled-i Īwān YÜZÜ ve ...
+					<lb/>
+					YUŞE veled-i BURU mesfūrān yalnız sekiz yüz yiğirmi guruş bedel-i ferāğ mukābelesinde beyʿ-i bāt
+					<lb/>
+					katʿiyle beyʿ ü ferāğ ve hakkı ... zabt ve tasarrıf(?)
+					<lb/>
+					içün(?) tarafımızdan ... ile ol dahi ber-minvāl muharrer üzere kabūl biz dahi mukātaʿa-i
+					<lb/>
+					civārında ... hasebiyle bināen ... arāzisini ve ferāgatında müşter-i mesfūre YÜZU'ya
+					<lb/>
+					ve nasrānī ... ve zabt ve zirāʿat izin ve ruhsat virdüm işbu tapuya defʿ(?)
+					<lb/>
+					ve iʿtā olundu mā-dām ki taraf-ı mukātaʿa rāciʿ olan aʿşār-ı şerʿiyesini ve rüsūmāt sā'iresini
+					<lb/>
+					edāyle zabt ve ... tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ ve müdāhale olunmaya
+					<lb/>
+					fī					<date type="created" when="1849-07-24" when-custom="1265-09-05">5 N sene 265</date>
 				</p>
 				<div2 facs="#zone_n4f_kqr_kkb" type="sign">
 					<p>
-						<lb/>...
-						<lb/>El-me'mūr
-						<lb/>Mehmed Mukātaʿ-i
-						<lb/>Emīn-i Kirşevo
-						<lb/>M
+						<lb/>
+						...
+						<lb/>
+						El-me'mūr
+						<lb/>
+						Mehmed Mukātaʿ-i
+						<lb/>
+						Emīn-i Kirşevo
+						<lb/>
+						M
 					</p>
 					<div3 facs="#zone_blc_lqr_kkb" type="stamp">
 						<p>
-							<lb/>Mehmed
-							<lb/>...
+							<lb/>
+							Mehmed
+							<lb/>
+							...
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>MSNİ NVCİÇ
-						<lb/>Mollā İbrāhīm Beşe Nevzāde
-						<lb/>El-hācı Hasan Ağa
-						<lb/>KURUYUZU
-						<lb/>YAREBİRÇE
-						<lb/>ve gayrihim mine'l-hazırīn
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						MSNİ NVCİÇ
+						<lb/>
+						Mollā İbrāhīm Beşe Nevzāde
+						<lb/>
+						El-hācı Hasan Ağa
+						<lb/>
+						KURUYUZU
+						<lb/>
+						YAREBİRÇE
+						<lb/>
+						ve gayrihim mine'l-hazırīn
 					</p>
 				</div2>
 				<div2 type="note">
 					<p>
-						<lb/>... tekâlifdan ... şart ... beş
-						<lb/>...
+						<lb/>
+						... tekâlifdan ... şart ... beş
+						<lb/>
+						...
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_jzs_mqr_kkb" type="summary_Croatian">
 				<p>
-					<lb/>... na
+					<lb/>
+					... na
 					<lb/>
 				</p>
 			</div1>

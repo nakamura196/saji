@@ -1,54 +1,61 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0822</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 8" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3212/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3212/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e6e9015b9118a165a1343fe2c4c4625c27f6b5a8.jpg" />
-        <zone lrx="2140" lry="2206" ulx="420" uly="200" xml:id="zone_xp4_fcr_2mb" />
-        <zone lrx="1081" lry="2164" ulx="725" uly="1525" xml:id="zone_pwp_gcr_2mb" />
-        <zone lrx="1056" lry="2158" ulx="764" uly="1893" xml:id="zone_cjg_hcr_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3212/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/370d67dbabd72939115b9a95942ff0551b64b6cd.jpg" />
-        <zone lrx="3184" lry="1838" ulx="384" uly="283" xml:id="zone_bcz_3cr_2mb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_xp4_fcr_2mb" next="#zone_bcz_3cr_2mb" type="ʿilmühaber">
-        <p>
-          <lb />işbu <date when="1860-07-17" when-custom="1276">yetmiş altı senesinin</date>
-          <lb />... fī <date cert="unknown" type="created" when="1860-07-18" when-custom="1276--30">30 ... sene 76</date>
-        </p>
-        <div2 facs="#zone_pwp_gcr_2mb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_cjg_hcr_2mb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_bcz_3cr_2mb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0822</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 8" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0822.JPG"/>
+			<zone ulx="200" uly="200" lrx="2140" lry="2206" xml:id="zone_xp4_fcr_2mb"/>
+			<zone ulx="1525" uly="1525" lrx="1081" lry="2164" xml:id="zone_pwp_gcr_2mb"/>
+			<zone ulx="1893" uly="1893" lrx="1056" lry="2158" xml:id="zone_cjg_hcr_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%208/DSCN0823.JPG"/>
+			<zone ulx="283" uly="283" lrx="3184" lry="1838" xml:id="zone_bcz_3cr_2mb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_xp4_fcr_2mb" next="#zone_bcz_3cr_2mb" type="ʿilmühaber">
+				<p>
+					<lb/>
+					işbu					<date when="1860-07-17" when-custom="1276">yetmiş altı senesinin</date>
+					<lb/>
+					... fī					<date cert="unknown" type="created" when="1860-07-18" when-custom="1276--30">30 ... sene 76</date>
+				</p>
+				<div2 facs="#zone_pwp_gcr_2mb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_cjg_hcr_2mb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_bcz_3cr_2mb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

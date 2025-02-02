@@ -1,56 +1,65 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0412</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1888/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1888/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/8d6e4e513902887d77aa9ce1fd241264b7460eb6.jpg" />
-        <zone lrx="1736" lry="3254" ulx="491" uly="472" xml:id="zone_r4h_4yg_skb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1888/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/f95c10f62a098236766f95d8609f998c00988617.jpg" />
-        <zone lrx="1712" lry="1133" ulx="662" uly="33" xml:id="zone_qng_qyg_skb" />
-        <zone lrx="1379" lry="1112" ulx="1016" uly="791" xml:id="zone_z5g_qyg_skb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/1888/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/064049c4b49f1d15886f07eaf6207b42b92757aa.jpg" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_r4h_4yg_skb" type="hüccet">
-        <p>
-          <lb />... <date type="created" when="1755-10-31" when-custom="1169-01-26">fi'l-yevmi'l-sitte ve'l-ʿaşrīn min şehr Muharremi'l-harām
-          <lb />sene tisʿ ve sittīn ve mie ve elif</date>
-        </p>
-        <div2 facs="#zone_qng_qyg_skb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_z5g_qyg_skb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0412</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0412.JPG"/>
+			<zone ulx="472" uly="472" lrx="1736" lry="3254" xml:id="zone_r4h_4yg_skb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0413.JPG"/>
+			<zone ulx="33" uly="33" lrx="1712" lry="1133" xml:id="zone_qng_qyg_skb"/>
+			<zone ulx="791" uly="791" lrx="1379" lry="1112" xml:id="zone_z5g_qyg_skb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0414.JPG"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_r4h_4yg_skb" type="hüccet">
+				<p>
+					<lb/>
+					...					<date type="created" when="1755-10-31" when-custom="1169-01-26">
+						fi'l-yevmi'l-sitte ve'l-ʿaşrīn min şehr Muharremi'l-harām
+						<lb/>
+						sene tisʿ ve sittīn ve mie ve elif
+					</date>
+				</p>
+				<div2 facs="#zone_qng_qyg_skb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_z5g_qyg_skb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

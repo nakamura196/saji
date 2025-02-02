@@ -1,43 +1,44 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2478</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <notesStmt>
-        <note type="summary">フォルダ表紙：フォルダ5</note>
-      </notesStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 5" ], "saji:relationWithAnotherItems": [ "フォンド表紙" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2805/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2805/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/63c62d2375e089bdb13ff490a42a5b38332fecd7.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2805/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4f52ef9014a460d3fa13cfbeef0d1038218ec29e.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2805/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/56ff2292bbad4196b56593eaaba14f563aaed680.jpg" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2805/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/2470b85f00f28921fd087528fb9789c2e8102d01.jpg" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 type="folder_cover">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2478</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">フォルダ表紙：フォルダ5</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 5" ], "saji:relationWithAnotherItems": [ "フォンド表紙" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%205/DSCN2478.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%205/DSCN2479.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%205/DSCN2480.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%205/DSCN2481.JPG"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 type="folder_cover">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

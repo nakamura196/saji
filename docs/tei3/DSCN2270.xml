@@ -1,40 +1,43 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2270</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2598/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2598/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/f2b80fb15febebec5a3cc85659e83fa883eb2d00.jpg" />
-        <zone lrx="1927" lry="3013" ulx="177" uly="1445" xml:id="zone_mym_51g_dmb" />
-        <zone lrx="676" lry="2981" ulx="313" uly="2648" xml:id="zone_nl4_v1g_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_mym_51g_dmb" type="mürāsele">
-        <p>
-          <lb />...<lb />
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_nl4_v1g_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2270</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2270.JPG"/>
+			<zone ulx="1445" uly="1445" lrx="1927" lry="3013" xml:id="zone_mym_51g_dmb"/>
+			<zone ulx="2648" uly="2648" lrx="676" lry="2981" xml:id="zone_nl4_v1g_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_mym_51g_dmb" type="mürāsele">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_nl4_v1g_dmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
 </TEI>

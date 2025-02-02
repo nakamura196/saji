@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -21,52 +22,68 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1566/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1566/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/405f0d1e42ffee400140b7134b4541f4e2e0c293.jpg"/>
-				<zone lrx="1875" lry="2945" ulx="109" uly="209" xml:id="zone_rbd_mfz_k3b"/>
-				<zone lrx="1604" lry="2929" ulx="346" uly="1737" xml:id="zone_xzn_g3z_k3b"/>
-				<zone lrx="1075" lry="2495" ulx="792" uly="2249" xml:id="zone_kmd_3r5_2jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1566/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/9ba364bcf12a88bc5b9bf0354e182d19b155b521.jpg"/>
-				<zone lrx="3271" lry="857" ulx="7" uly="372" xml:id="zone_gf4_4fz_k3b"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0082.JPG"/>
+			<zone ulx="209" uly="209" lrx="1875" lry="2945" xml:id="zone_rbd_mfz_k3b"/>
+			<zone ulx="1737" uly="1737" lrx="1604" lry="2929" xml:id="zone_xzn_g3z_k3b"/>
+			<zone ulx="2249" uly="2249" lrx="1075" lry="2495" xml:id="zone_kmd_3r5_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0083.JPG"/>
+			<zone ulx="372" uly="372" lrx="3271" lry="857" xml:id="zone_gf4_4fz_k3b"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_rbd_mfz_k3b" type="tezkire">
 				<p>
-					<lb/>Hüve
 					<lb/>
-					<lb/>... rāhibāt-ı <placename type="proper">Foyniçe</placename> ve <placename type="proper">Kirşevo</placename> ve <placename cert="unknown" type="proper">...</placename>
+					Hüve
 					<lb/>
-					<lb/>800 ...
 					<lb/>
-					<lb/>200 ...
+					... rāhibāt-ı					<placename type="proper">Foyniçe</placename>
+					 ve					<placename type="proper">Kirşevo</placename>
+					 ve					<placename cert="unknown" type="proper">...</placename>
 					<lb/>
-					<lb/>100 ...
 					<lb/>
-					<lb/>1100
+					800 ...
 					<lb/>
-					<lb/>Vech-i meşrūʿ üzere
 					<lb/>
-					<lb/><placename type="proper">Foyniçe</placename> ve <placename type="proper">Kirşevo</placename> ve <placename cert="unknown" type="proper">...</placename> rubānları ...
+					200 ...
 					<lb/>
-					<lb/>bin yüz guruş ... hazīne ... tezkire
 					<lb/>
-					<lb/>virildi fī <date cert="medium" type="created" when="1767-10-10" when-custom="1181-05-17">17 Ca 181</date>
+					100 ...
+					<lb/>
+					<lb/>
+					1100
+					<lb/>
+					<lb/>
+					Vech-i meşrūʿ üzere
+					<lb/>
+					<lb/>
+					<placename type="proper">Foyniçe</placename>
+					 ve					<placename type="proper">Kirşevo</placename>
+					 ve					<placename cert="unknown" type="proper">...</placename>
+					 rubānları ...
+					<lb/>
+					<lb/>
+					bin yüz guruş ... hazīne ... tezkire
+					<lb/>
+					<lb/>
+					virildi fī					<date cert="medium" type="created" when="1767-10-10" when-custom="1181-05-17">17 Ca 181</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_xzn_g3z_k3b" type="sign">
 					<p>
-						<lb/><persname>Süleyman</persname> Bosna māl-ı kethüdāsı ...
+						<lb/>
+						<persname>Süleyman</persname>
+						 Bosna māl-ı kethüdāsı ...
 						<lb/>
 					</p>
 					<div3 facs="#zone_kmd_3r5_2jb" type="stamp">
 						<p>
-							<lb/>Süleyman ...
+							<lb/>
+							Süleyman ...
 							<lb/>
 						</p>
 					</div3>
@@ -74,7 +91,8 @@
 			</div1>
 			<div1 facs="#zone_gf4_4fz_k3b" type="summary_Serbian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

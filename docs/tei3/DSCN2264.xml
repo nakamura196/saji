@@ -1,46 +1,51 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2264</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2592/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2592/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3b99098250e002aecd36cfe1a0b2a36257ffa298.jpg" />
-        <zone lrx="1662" lry="2907" ulx="354" uly="1392" xml:id="zone_glf_qwf_dmb" />
-        <zone lrx="1166" lry="2861" ulx="695" uly="2426" xml:id="zone_gfk_rwf_dmb" />
-        <zone lrx="2189" lry="972" ulx="407" uly="79" xml:id="zone_qtn_swf_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 cert="low" facs="#zone_glf_qwf_dmb" next="#zone_qtn_swf_dmb" type="memhūr">
-        <p>
-          <lb />hurira fī <date cert="low" type="created" when="1796-07-11" when-custom="1211-01-06">6 M sene 1211</date><lb />
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_gfk_rwf_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_qtn_swf_dmb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2264</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2264.JPG"/>
+			<zone ulx="1392" uly="1392" lrx="1662" lry="2907" xml:id="zone_glf_qwf_dmb"/>
+			<zone ulx="2426" uly="2426" lrx="1166" lry="2861" xml:id="zone_gfk_rwf_dmb"/>
+			<zone ulx="79" uly="79" lrx="2189" lry="972" xml:id="zone_qtn_swf_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_glf_qwf_dmb" next="#zone_qtn_swf_dmb" type="memhūr">
+				<p>
+					<lb/>
+					hurira fī					<date cert="low" type="created" when="1796-07-11" when-custom="1211-01-06">6 M sene 1211</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_gfk_rwf_dmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_qtn_swf_dmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

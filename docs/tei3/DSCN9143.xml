@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,35 +17,37 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2070/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2070/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/e72f9709f81be926688e03fe8a6c29f06ba2368e.jpg"/>
-				<zone lrx="2850" lry="1227" ulx="423" uly="1005" xml:id="zone_h4j_flk_hlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2070/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/09d3bc83b13d3ada8c4297457aa7c4a52d96a1fb.jpg"/>
-				<zone lrx="1400" lry="2833" ulx="125" uly="216" xml:id="zone_p4n_hlk_hlb"/>
-				<zone lrx="470" lry="2800" ulx="158" uly="2482" xml:id="zone_mps_3lk_hlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9143.JPG"/>
+			<zone ulx="1005" uly="1005" lrx="2850" lry="1227" xml:id="zone_h4j_flk_hlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9144.JPG"/>
+			<zone ulx="216" uly="216" lrx="1400" lry="2833" xml:id="zone_p4n_hlk_hlb"/>
+			<zone ulx="2482" uly="2482" lrx="470" lry="2800" xml:id="zone_mps_3lk_hlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_p4n_hlk_hlb" next="#zone_h4j_flk_hlb" type="mürāsele">
 				<p>
-					<lb/>... fī <date type="created" when="1765-07-10" when-custom="1179-01-22">22 min Muharremi'l-harām sene 1179</date>
+					<lb/>
+					... fī					<date type="created" when="1765-07-10" when-custom="1179-01-22">22 min Muharremi'l-harām sene 1179</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_mps_3lk_hlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_h4j_flk_hlb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1766">1766</date> ...
+					<lb/>
+					...					<date type="summary_Croatian" when="1766">1766</date>
+					 ...
 					<lb/>
 				</p>
 			</div1>

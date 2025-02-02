@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN1981</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2311/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2311/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/c0971e26c3952390d83c6d0ce98dac1bfa5c7489.jpg" />
+        <zone lrx="2285" lry="2807" ulx="108" uly="438" xml:id="zone_ddt_qrg_zlb" />
+        <zone lrx="1144" lry="2407" ulx="178" uly="1678" xml:id="zone_zp5_rrg_zlb" />
+        <zone lrx="1126" lry="2394" ulx="763" uly="2055" xml:id="zone_gnn_srg_zlb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2311/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/3661034ab35e8b0300474b4bd7bebab21cb74421.jpg" />
+        <zone lrx="2300" lry="572" ulx="1512" uly="166" xml:id="zone_xxy_trg_zlb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_ddt_qrg_zlb" type="edā_tahvīl">
+        <p>
+          <lb />işbu <date type="created" when="1848-09-28" when-custom="1264-11-01">bin iki yüz altmıi dört senesinde māh
+          <lb />Zı'l-kaʿda'nın gürresinde</date> Kirşevo kilisa ...
+        </p>
+        <div2 facs="#zone_zp5_rrg_zlb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_gnn_srg_zlb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />... <lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_xxy_trg_zlb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1848">1848</date>
+          <lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

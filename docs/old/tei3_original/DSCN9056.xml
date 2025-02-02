@@ -1,0 +1,61 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9056</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">エミンの請負っている2片の耕作地について、非ムスリムから非ムスリムへ売却・譲渡することを認める証文</note>
+				<note type="mine">綴りに乱れが多い。心の目で読まねば。【要】読み直し。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1983/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1983/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/7dfe52cd2dcc6ad969f16bb953b693bea14160e2.jpg"/>
+				<zone lrx="2382" lry="3009" ulx="82" uly="900" xml:id="zone_b1c_spc_ykb"/>
+				<zone lrx="763" lry="2926" ulx="241" uly="2570" xml:id="zone_a2n_tpc_ykb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_b1c_spc_ykb" type="EMIN">
+				<p>
+					<lb/>Vech-i tahrīr-i hurūf oldur ki
+					<lb/>işbu <date type="created" when="1732-06-22" when-custom="1144">bin yüz kırk dört senesinde</date> der ʿuhde ve iltizāmımızda
+					<lb/>bulunan <placeName>KOMAR</placeName> karyesi ... iki kıtʿa tarlası iştirāna(?) ...
+					<lb/>... zimmī <persName>MHT MKHK</persName> nām kimesne kendi taht-ı tasarrıf
+					<lb/>... mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüb iki kıtʿa tarlası
+					<lb/>altmış alt(?) guruş mukābelesinde beyʿ edüb işbu dārende-i
+					<lb/>hurūf <placeName>KOMAR</placeName> karyesinde sākin zimmī <persName>YÜZÜ</persName> nām(?) kimesne(?) kabūl
+					<lb/>edüb işbu dārende-i(?) mukātaʿa emīn bulunduğumuz(?) hasebiyle ...
+					<lb/>... görüb mā-dām ki sene be-sene taraf-ı
+					<lb/>mīrīye ... edüb tasarrıf ... kimesne
+					<lb/>māniʿ oluna </p>
+				<div2 facs="#zone_a2n_tpc_ykb" type="sign">
+					<p>
+						<lb/>Bende
+						<lb/>ʿALĪ Ağa
+						<lb/>Emīn-i Kirşevo </p>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Feyzüllāh Ağa
+						<lb/>ʿOsmān GUT
+						<lb/>PAVU KEKE
+						<lb/>PAVU KLM
+						<lb/>Īvān KOLİŞ </p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>

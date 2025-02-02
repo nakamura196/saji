@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,86 +21,108 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1092/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1092/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d22f5b54667db0bd76ac1758fb641db9de242ab7.jpg"/>
-				<zone lrx="1639" lry="2792" ulx="124" uly="246" xml:id="zone_jh2_r2f_z3b"/>
-				<zone lrx="430" lry="2787" ulx="174" uly="2480" xml:id="zone_sfc_cdt_sjb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1092/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/68da08cb1aeb4fc1136118290913ea0825d285c2.jpg"/>
-				<zone lrx="2856" lry="1322" ulx="412" uly="1000" xml:id="zone_xbx_s2f_z3b"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1092/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/35d67040203d564b918d318d021b842b40c9e9c6.jpg"/>
-				<zone lrx="1717" lry="2966" ulx="100" uly="250" xml:id="zone_kqh_bs3_1jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1092/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/4a9c7ed75326ae9978802222256d25663abac627.jpg"/>
-				<zone lrx="807" lry="189" ulx="524" uly="-50" xml:id="zone_zcd_ds3_1jb"/>
-				<zone lrx="1989" lry="3241" ulx="400" uly="3027" xml:id="zone_kqn_2s3_1jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0976.JPG"/>
+			<zone ulx="246" uly="246" lrx="1639" lry="2792" xml:id="zone_jh2_r2f_z3b"/>
+			<zone ulx="2480" uly="2480" lrx="430" lry="2787" xml:id="zone_sfc_cdt_sjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN0977.JPG"/>
+			<zone ulx="1000" uly="1000" lrx="2856" lry="1322" xml:id="zone_xbx_s2f_z3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1036.JPG"/>
+			<zone ulx="250" uly="250" lrx="1717" lry="2966" xml:id="zone_kqh_bs3_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%201/DSCN1037.JPG"/>
+			<zone ulx="-50" uly="-50" lrx="807" lry="189" xml:id="zone_zcd_ds3_1jb"/>
+			<zone ulx="3027" uly="3027" lrx="1989" lry="3241" xml:id="zone_kqn_2s3_1jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 cert="low" facs="#zone_jh2_r2f_z3b" subtype="zabt_temessük" type="EMIN">
 				<p>
-					<lb/>Hüve
 					<lb/>
-					<lb/>Vech-i tahrīr-i hurūf budur ki
+					Hüve
 					<lb/>
-					<lb/>hālā ʿuhde ve iltizāmımızda olan Kirşevo mukātaʿasından ...
 					<lb/>
-					<lb/>... karyeleri hāsıl olan
+					Vech-i tahrīr-i hurūf budur ki
 					<lb/>
-					<lb/>ʿaşār-ı şerʿiyesini rusūm-u sā'iresin tapunāmeden gayri işbu <date from="1802-07-29" from-custom="1217-03" to-custom="1218-02" type="created">bin
+					<lb/>
+					hālā ʿuhde ve iltizāmımızda olan Kirşevo mukātaʿasından ...
+					<lb/>
+					<lb/>
+					... karyeleri hāsıl olan
+					<lb/>
+					<lb/>
+					ʿaşār-ı şerʿiyesini rusūm-u sā'iresin tapunāmeden gayri işbu					<date from="1802-07-29" from-custom="1217-03" to-custom="1218-02" type="created">
+						bin
 						<lb/>
-						<lb/>iki yüz on yedi senesinin Martı ibtidāsından Şubatı gāyetine değgin</date>
+						<lb/>
+						iki yüz on yedi senesinin Martı ibtidāsından Şubatı gāyetine değgin
+					</date>
 					<lb/>
-					<lb/>zabt ve rabtına ve rusūm-u sā'iresini ahz ve kavz tālib ve rāgib olan
 					<lb/>
-					<lb/>işbu dārende-i temessük zimmī [人名] gardiyān bedeli ve iltizām olan
+					zabt ve rabtına ve rusūm-u sā'iresini ahz ve kavz tālib ve rāgib olan
 					<lb/>
-					<lb/>lāzım gelen bedel-i iltizām içün yalnız yiz yiğirmi guruş ber-vech-i
 					<lb/>
-					<lb/>peşīn tarafımıza edā ve teslīm etmiştir bi-mennih-i taʿālā sene itimāmına varınca
+					işbu dārende-i temessük zimmī [人名] gardiyān bedeli ve iltizām olan
 					<lb/>
-					<lb/>zabt ve rabt ve rusūm sā'iresin ahz ve kabza işbu mesfūrının
 					<lb/>
-					<lb/>yedine zabt temessük virildi
+					lāzım gelen bedel-i iltizām içün yalnız yiz yiğirmi guruş ber-vech-i
+					<lb/>
+					<lb/>
+					peşīn tarafımıza edā ve teslīm etmiştir bi-mennih-i taʿālā sene itimāmına varınca
+					<lb/>
+					<lb/>
+					zabt ve rabt ve rusūm sā'iresin ahz ve kabza işbu mesfūrının
+					<lb/>
+					<lb/>
+					yedine zabt temessük virildi
 					<lb/>
 				</p>
 				<div2 facs="#zone_sfc_cdt_sjb" type="sign">
 					<p>
-						<lb/>... <persName role="el-me'mūr">Derv[ī]ş Mehmed</persName> el-me'mūr
+						<lb/>
+						...						<persName role="el-me'mūr">Derv[ī]ş Mehmed</persName>
+						 el-me'mūr
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_xbx_s2f_z3b" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1803">1803</date>
+					<lb/>
+					...					<date type="summary_Croatian" when="1803">1803</date>
 					<lb/>
 				</p>
 			</div1>
 			<div1 cert="low" facs="#zone_kqh_bs3_1jb" type="EMIN">
 				<p>
-					<lb/>... işbu <date type="created" when="1802-07-29" when-custom="1217-03">bin
+					<lb/>
+					... işbu					<date type="created" when="1802-07-29" when-custom="1217-03">
+						bin
 						<lb/>
-						<lb/>ikiyüz on yedi senesinde Martı</date> ...
+						<lb/>
+						ikiyüz on yedi senesinde Martı
+					</date>
+					 ...
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_zcd_ds3_1jb" type="stamp">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_kqn_2s3_1jb" type="summary_Croatian">
 				<p>
-					<lb/>... <date type="summary_Croatian" when="1803">1803</date>
+					<lb/>
+					...					<date type="summary_Croatian" when="1803">1803</date>
 					<lb/>
 				</p>
 			</div1>

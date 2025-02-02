@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,53 +17,76 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1591/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1591/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/a0be21bc4ffbcf1f3c410c07f0926302dedf104a.jpg"/>
-				<zone lrx="1945" lry="2781" ulx="182" uly="63" xml:id="zone_f2h_s1v_2jb"/>
-				<zone lrx="905" lry="2744" ulx="621" uly="2252" xml:id="zone_djj_t1v_2jb"/>
-				<zone lrx="522" lry="2643" ulx="238" uly="2203" xml:id="zone_x1h_51v_2jb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1591/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8dfcf12815dfbc814f50bb4daef61b057725ee18.jpg"/>
-				<zone lrx="3078" lry="905" ulx="178" uly="455" xml:id="zone_afl_v1v_2jb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0107.JPG"/>
+			<zone ulx="63" uly="63" lrx="1945" lry="2781" xml:id="zone_f2h_s1v_2jb"/>
+			<zone ulx="2252" uly="2252" lrx="905" lry="2744" xml:id="zone_djj_t1v_2jb"/>
+			<zone ulx="2203" uly="2203" lrx="522" lry="2643" xml:id="zone_x1h_51v_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0108.JPG"/>
+			<zone ulx="455" uly="455" lrx="3078" lry="905" xml:id="zone_afl_v1v_2jb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN_temessük" cert="unknown" facs="#zone_f2h_s1v_2jb">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oludur ki
-					<lb/>İşbu <date cert="low" type="created" when="0717-06-15" when-custom="1198">bin yüz doksan sekiz</date> der ʿuhde ve iltizāmımızda bulunan
-					<lb/><placeName type="proper">Kirşevo</placeName> mukātaʿası kuālarında <placeName type="proper" cert="low">Ruhbān</placeName> karyesinine ʿāşār-ı şerʿisi ve sā'ir-i
-					<lb/>olgeldiği minvāl[ı] üzere zabt ve rabtına tālib ve rāgib olan Kirşevo kilisanın
-					<lb/><persName>ruhbān</persName> yiğirmi beş guruş mukābelesinde ʿāşār-ı şerʿisi ve sā'iri olgeldiği
-					<lb/>üzere rabtına ve zabtına temessüğmüz virildi tarafımızdan ve taraf-ı āhardan bir kimesne
-					<lb/>.. māniʿ olumaya ve mezbūr-ı ruhbānlardan bir akçe ve bir habbe kalmadığı ecilden
-					<lb/>buldum ve hakkı(?) teslīm temessük yedine birildi </p>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oludur ki
+					<lb/>
+					İşbu					<date cert="low" type="created" when="0717-06-15" when-custom="1198">bin yüz doksan sekiz</date>
+					 der ʿuhde ve iltizāmımızda bulunan
+					<lb/>
+					<placeName type="proper">Kirşevo</placeName>
+					 mukātaʿası kuālarında					<placeName type="proper" cert="low">Ruhbān</placeName>
+					 karyesinine ʿāşār-ı şerʿisi ve sā'ir-i
+					<lb/>
+					olgeldiği minvāl[ı] üzere zabt ve rabtına tālib ve rāgib olan Kirşevo kilisanın
+					<lb/>
+					<persName>ruhbān</persName>
+					 yiğirmi beş guruş mukābelesinde ʿāşār-ı şerʿisi ve sā'iri olgeldiği
+					<lb/>
+					üzere rabtına ve zabtına temessüğmüz virildi tarafımızdan ve taraf-ı āhardan bir kimesne
+					<lb/>
+					.. māniʿ olumaya ve mezbūr-ı ruhbānlardan bir akçe ve bir habbe kalmadığı ecilden
+					<lb/>
+					buldum ve hakkı(?) teslīm temessük yedine birildi				</p>
 				<div2 type="sign" facs="#zone_djj_t1v_2jb">
 					<p>
-						<lb/>...
-						<lb/>El-hacc-ı
-						<lb/><persName>Ahmad</persName>
-						<lb/>Emin-i
-						<lb/>Kirşevo </p>
+						<lb/>
+						...
+						<lb/>
+						El-hacc-ı
+						<lb/>
+						<persName>Ahmad</persName>
+						<lb/>
+						Emin-i
+						<lb/>
+						Kirşevo					</p>
 				</div2>
 				<div2 type="sign" facs="#zone_x1h_51v_2jb">
 					<p>
-						<lb/>...
-						<lb/>...
-						<lb/>Emin-i
-						<lb/>Kirşevo </p>
+						<lb/>
+						...
+						<lb/>
+						...
+						<lb/>
+						Emin-i
+						<lb/>
+						Kirşevo					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_afl_v1v_2jb">
 				<p>
-					<lb/>...
-					<lb/>...
-					<lb/>... </p>
+					<lb/>
+					...
+					<lb/>
+					...
+					<lb/>
+					...				</p>
 			</div1>
 		</body>
 		<back>
@@ -77,9 +101,7 @@
 				</person>
 			</listPerson>
 			<listRelation>
-				<!-- iltizām という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="iltizām" active="#" passive="#"/>
-				<!-- issue という関係を作成し、activeが主語、passiveが目的語-->
 				<relation name="issue" active="#" passive="#"/>
 			</listRelation>
 		</back>

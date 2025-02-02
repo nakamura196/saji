@@ -1,0 +1,73 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2170</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2498/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2498/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/5de93b3ef96f3227fcf234085be28261fed18c8a.jpg" />
+        <zone lrx="2263" lry="2936" ulx="91" uly="163" xml:id="zone_kwl_cfy_cmb" />
+        <zone lrx="562" lry="2898" ulx="100" uly="2373" xml:id="zone_kr1_2fy_cmb" />
+        <zone lrx="2121" lry="1262" ulx="962" uly="218" xml:id="zone_enm_ffy_cmb" />
+        <zone lrx="1256" lry="684" ulx="981" uly="384" xml:id="zone_bk4_gfy_cmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2498/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/cfee3f5b7401955c345a6541f5d21b2094ee7f8c.jpg" />
+        <zone lrx="433" lry="829" ulx="125" uly="537" xml:id="zone_rrc_3fy_cmb" />
+        <zone lrx="2316" lry="3137" ulx="1983" uly="2312" xml:id="zone_qf1_jfy_cmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_kwl_cfy_cmb" next="#zone_qf1_jfy_cmb" subtype="unkown" type="EMIN">
+        <p>
+          <lb />işbu <date type="created" when="1836-04-16" when-custom="1251">bin iki yüz elli bir senesinde</date> Kirşevo varoş ... 
+          <lb />
+        </p>
+        <div2 facs="#zone_kr1_2fy_cmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+          <div3 facs="#zone_rrc_3fy_cmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+        <div2 type="şühūdu’l-hāl">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_enm_ffy_cmb" type="unkown">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_bk4_gfy_cmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_qf1_jfy_cmb" type="summary_Croatian">
+        <p>
+          <lb />...<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

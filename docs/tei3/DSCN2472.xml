@@ -1,49 +1,54 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2472</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2799/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2799/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/6990fa5ffa89521915fdf91043b9d7fba425c919.jpg" />
-        <zone lrx="2036" lry="2881" ulx="145" uly="72" xml:id="zone_tsk_3xv_dmb" />
-        <zone lrx="671" lry="2739" ulx="352" uly="2457" xml:id="zone_pll_jxv_dmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2799/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c4cab9bf5f1ae6943ad893124291fd318c713c9b.jpg" />
-        <zone lrx="3167" lry="1388" ulx="223" uly="783" xml:id="zone_wml_kxv_dmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_tsk_3xv_dmb" type="mürāsele">
-        <p>
-          <lb />... fī <date type="created" when="1845-08-04" when-custom="1261-08-01">gürre Ş sene 261</date><lb />
-        </p>
-        <div2 type="sign">
-          <div3 facs="#zone_pll_jxv_dmb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_wml_kxv_dmb" type="summary_Croatian">
-        <p>
-          <lb />...<lb />
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2472</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2472.JPG"/>
+			<zone ulx="72" uly="72" lrx="2036" lry="2881" xml:id="zone_tsk_3xv_dmb"/>
+			<zone ulx="2457" uly="2457" lrx="671" lry="2739" xml:id="zone_pll_jxv_dmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2473.JPG"/>
+			<zone ulx="783" uly="783" lrx="3167" lry="1388" xml:id="zone_wml_kxv_dmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_tsk_3xv_dmb" type="mürāsele">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1845-08-04" when-custom="1261-08-01">gürre Ş sene 261</date>
+					<lb/>
+				</p>
+				<div2 type="sign">
+					<div3 facs="#zone_pll_jxv_dmb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_wml_kxv_dmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

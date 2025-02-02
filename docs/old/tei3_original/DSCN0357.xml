@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0357</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">非ムスリムの土地の、修道院長への譲渡？</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1834/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1834/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d2e699bc1d84f261c4accd368917e0b40d059b03.jpg"/>
+				<zone lrx="2347" lry="2515" ulx="293" uly="653" xml:id="zone_zxb_g4r_kkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1834/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/ea8f078ecd9110d778cb6aadc13353be75901657.jpg"/>
+				<zone lrx="1784" lry="2077" ulx="1334" uly="1694" xml:id="zone_fsg_34r_kkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1834/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/0bbeffd201e599a4e1e3ebd402f5f705f3c5a574.jpg"/>
+				<zone lrx="2684" lry="1483" ulx="73" uly="783" xml:id="zone_tqf_j4r_kkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_zxb_g4r_kkb" type="tapu_sened_sūret">
+				<p>
+					<lb/>ʿAbdülmecid
+					<lb/>... Tapu senedi
+					<lb/>Bāʿis ... oldur ki
+					<lb/>Bosna sancağında Kirşevo tımārı ... Foyniçe kazāsına tābiʿ Müslimīn karyesinde ... mahallesinde BRİCALİ demekle
+					<lb/>kilisa gardiyānı ... eder tarlaya ... mutasarrıf
+					<lb/>olan PRANO veled-i İstepān nām zimmī mutasarrıf olduğu tarlası ... ve me'mūr ... Anton veled-i YORU nām zimmīye dört yüz krık
+					<lb/>guruş bedel mukābelesinde ferāğ ve tafvīz ... dahi tafvīz ve kabūl birle bedel-i merkūm ... ber mūcib-i nizām yüzde beş guruş harc ...
+					<lb/>cānib-i hazīne-i ... içün me'mūri tarafına ... ve imzā(?) etmiş olduğundan olvechiyle mezkūr tarla-i merkūm(?) tarafından zabt ve irāde(?) olunmak üzere bir kıtʿa
+					<lb/>sened iʿtā mahalinden bā ... ve inhā ve Defterhāne-i ʿĀmirede mahalline kayd olunmuş olmağla ber-mūcib-i nizām tarla-i mezkūri ...
+					<lb/>etmek ve sene be-sene aʿşār-ı şerʿiyesini me'mūri tarafına edā eylemek üzere mersūmun zabt ve tasarrıfına izin ve ruhsat virilüb taraf-ı āhardan müdāhale ve ...
+					<lb/>olunmamak içün işbu sened iʿtā olundu fī <date cert="unknown" type="created" when="1856-08-30" when-custom="1272">... sene 1272</date>
+				</p>
+				<div2 facs="#zone_fsg_34r_kkb" type="sign_sūret">
+					<p>
+						<lb/>...
+						<lb/>
+						<lb/>
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_tqf_j4r_kkb" type="summary_Croatian">
+				<p>
+					<lb/>... <date type="summary_Croatian" when="1877">1877</date>.
+					<lb/>Nno 39.
+				</p>
+			</div1>
+		</body>
+	</text>
+</TEI>

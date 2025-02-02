@@ -1,0 +1,38 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0489</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2896/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2896/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/510c90d738cc4eaa1745d4844b7b149a69666966.jpg" />
+        <zone lrx="1858" lry="2642" ulx="90" uly="1394" xml:id="zone_zml_1kc_2mb" />
+        <zone lrx="417" lry="2347" ulx="212" uly="2062" xml:id="zone_gll_dkc_2mb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_zml_1kc_2mb" type="tapu_nāme">
+        <p>
+          <lb />... <date cert="low" type="created" when="1850-11-04" when-custom="1266">sene 1266</date><lb />
+        </p>
+        <div2 facs="#zone_gll_dkc_2mb" type="sign">
+          <p>
+            <lb />... fī <lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,52 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2203</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2531/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2531/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1b9a1544c7347e15cb1b6feb15566843533539d5.jpg" />
+        <zone lrx="1465" lry="3150" ulx="85" uly="1470" xml:id="zone_e5n_gvy_cmb" />
+        <zone lrx="393" lry="3109" ulx="100" uly="2750" xml:id="zone_egt_jvy_cmb" />
+        <zone lrx="2272" lry="3022" ulx="1456" uly="1477" xml:id="zone_sxn_lvy_cmb" />
+        <zone lrx="1850" lry="1794" ulx="1533" uly="1516" xml:id="zone_f4l_mvy_cmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_e5n_gvy_cmb" next="#zone_sxn_lvy_cmb" type="unkown">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 facs="#zone_egt_jvy_cmb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+      <div1 facs="#zone_sxn_lvy_cmb" type="unkown">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_f4l_mvy_cmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

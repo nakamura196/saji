@@ -1,48 +1,59 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>DSCN0105</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <facsimile>
-        <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1589/manifest">
-            <surface>
-                <graphic n="https://diyhistory.org/public/phr2/iiif/1589/canvas/p1"
-                    url="https://diyhistory.org/public/phr2/files/original/09035f4c7302f1241ce44ea039605f8ae00d72a5.jpg"/>
-                <zone lrx="2342" lry="2941" ulx="125" uly="75" xml:id="zone_ogh_2w5_2jb"/>
-                <zone lrx="509" lry="2560" ulx="253" uly="2079" xml:id="zone_jkx_fw5_2jb"/>
-            </surface>
-            <surface>
-                <graphic n="https://diyhistory.org/public/phr2/iiif/1589/canvas/p2"
-                    url="https://diyhistory.org/public/phr2/files/original/3d8276814bcab55ae4512f3c56238f0355cd53b6.jpg"/>
-                <zone lrx="653" lry="1085" ulx="405" uly="871" xml:id="zone_bf4_hw5_2jb"/>
-                <zone lrx="2257" lry="1849" ulx="146" uly="1389" xml:id="zone_mrg_3w5_2jb"/>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <div1 cert="low" facs="#zone_ogh_2w5_2jb" type="temessük">
-                <p> <lb/>fī <date type="created" when="1770-04-16" when-custom="1183--21"
-                    >21 ... sene 1183</date><lb/> </p>
-                <div2 facs="#zone_jkx_fw5_2jb" type="sign">
-                    <p> <lb/>...<lb/> </p>
-                    <div3 facs="#zone_bf4_hw5_2jb" type="stamp">
-                        <p> <lb/>... fī <lb/> </p>
-                    </div3>
-                </div2>
-            </div1>
-            <div1 facs="#zone_mrg_3w5_2jb" type="summary_Croatian">
-                <p> <lb/>...<lb/> </p>
-            </div1>
-        </body>
-    </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0105</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0105.JPG"/>
+			<zone ulx="75" uly="75" lrx="2342" lry="2941" xml:id="zone_ogh_2w5_2jb"/>
+			<zone ulx="2079" uly="2079" lrx="509" lry="2560" xml:id="zone_jkx_fw5_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0106.JPG"/>
+			<zone ulx="871" uly="871" lrx="653" lry="1085" xml:id="zone_bf4_hw5_2jb"/>
+			<zone ulx="1389" uly="1389" lrx="2257" lry="1849" xml:id="zone_mrg_3w5_2jb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 cert="low" facs="#zone_ogh_2w5_2jb" type="temessük">
+				<p>
+					<lb/>
+					fī					<date type="created" when="1770-04-16" when-custom="1183--21">21 ... sene 1183</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_jkx_fw5_2jb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_bf4_hw5_2jb" type="stamp">
+						<p>
+							<lb/>
+							... fī							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_mrg_3w5_2jb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

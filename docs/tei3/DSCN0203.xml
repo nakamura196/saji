@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,66 +21,99 @@
 			<textClass>
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
-		</profileDesc>		
+		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1682/manifest">
-			<surface>
-				<graphic url="https://diyhistory.org/public/phr2/files/original/99182c1d9fa1c23bb1f6c3e60907570f3c9b7eaf.jpg" n="https://diyhistory.org/public/phr2/iiif/1682/canvas/p1"/>
-				<zone xml:id="zone_wpn_5yj_kjb" lry="3170" lrx="2400" uly="1320" ulx="140"/>
-				<zone xml:id="zone_xsq_vyj_kjb" lry="3098" lrx="547" uly="2873" ulx="326"/>
-				<zone xml:id="zone_u25_f25_brb" lry="1909" lrx="1035" uly="1712" ulx="666"/>
-				<zone xml:id="zone_dnb_2m5_brb" lry="2348" lrx="1659" uly="2186" ulx="1506"/>
-				<zone xml:id="zone_ed1_mm5_brb" lry="2423" lrx="902" uly="2240" ulx="671"/>
-				<zone xml:id="zone_qng_r45_brb" lry="2939" lrx="2020" uly="2744" ulx="1722"/>
-				<zone xml:id="zone_jxf_s45_brb" lry="2826" lrx="2120" uly="2613" ulx="1755"/>
-				<zone xml:id="zone_ld1_t45_brb" lry="2694" lrx="2357" uly="2464" ulx="1806"/>
-				<zone xml:id="zone_im5_t45_brb" lry="2473" lrx="2178" uly="2264" ulx="1842"/>
-				<zone xml:id="zone_g1m_545_brb" lry="2311" lrx="2265" uly="2070" ulx="1869"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1682/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/096dbe4cadfa350055245a1bf20925225468a0a0.jpg"/>
-				<zone lrx="3000" lry="1350" ulx="412" uly="538" xml:id="zone_g14_mzj_kjb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0203.JPG"/>
+			<zone ulx="1320" uly="1320" lrx="2400" lry="3170" xml:id="zone_wpn_5yj_kjb"/>
+			<zone ulx="2873" uly="2873" lrx="547" lry="3098" xml:id="zone_xsq_vyj_kjb"/>
+			<zone ulx="1712" uly="1712" lrx="1035" lry="1909" xml:id="zone_u25_f25_brb"/>
+			<zone ulx="2186" uly="2186" lrx="1659" lry="2348" xml:id="zone_dnb_2m5_brb"/>
+			<zone ulx="2240" uly="2240" lrx="902" lry="2423" xml:id="zone_ed1_mm5_brb"/>
+			<zone ulx="2744" uly="2744" lrx="2020" lry="2939" xml:id="zone_qng_r45_brb"/>
+			<zone ulx="2613" uly="2613" lrx="2120" lry="2826" xml:id="zone_jxf_s45_brb"/>
+			<zone ulx="2464" uly="2464" lrx="2357" lry="2694" xml:id="zone_ld1_t45_brb"/>
+			<zone ulx="2264" uly="2264" lrx="2178" lry="2473" xml:id="zone_im5_t45_brb"/>
+			<zone ulx="2070" uly="2070" lrx="2265" lry="2311" xml:id="zone_g1m_545_brb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0204.JPG"/>
+			<zone ulx="538" uly="538" lrx="3000" lry="1350" xml:id="zone_g14_mzj_kjb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 type="EMIN" facs="#zone_wpn_5yj_kjb">
 				<p>
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date when-custom="1213" type="created" when="1799-06-02">bin iki yüz on üç senedinde</date> mahsūben der ʿuhde ve iltizāmımızda olunan
-					<lb/>Kirşevo mukātaʿasına kurālarının(?) <placeName facs="#zone_u25_f25_brb">DRZUBÇE ...</placeName> hudūd dāhilinde bir mikdār
-					<lb/>arz-ı mīrīye mutasarrıfılar olunan ...
-					<lb/>... Kirşevo kilisanın(?)
-					<lb/><persName facs="#zone_dnb_2m5_brb">TŞN</persName> deyü ... gardiyān olunan ... <persName facs="#zone_ed1_mm5_brb">PRYAKO</persName> nām-ı mezkūreye on bir guruş
-					<lb/>mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp bizler dahi emīn-i mukātaʿası
-					<lb/>bulduğumuz sebebiyle beyʿlerine(?) cāiz görüb mā-dām ki sāl be-sāl taraf-ı(?)
-					<lb/>mukātaʿa dahi olunan ʿöşr-i şerʿiyesi ve rüsūmāt sā'irler ... edā ederler
-					<lb/>tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olmaya </p>
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date when-custom="1213" type="created" when="1799-06-02">bin iki yüz on üç senedinde</date>
+					 mahsūben der ʿuhde ve iltizāmımızda olunan
+					<lb/>
+					Kirşevo mukātaʿasına kurālarının(?)					<placeName facs="#zone_u25_f25_brb">DRZUBÇE ...</placeName>
+					 hudūd dāhilinde bir mikdār
+					<lb/>
+					arz-ı mīrīye mutasarrıfılar olunan ...
+					<lb/>
+					... Kirşevo kilisanın(?)
+					<lb/>
+					<persName facs="#zone_dnb_2m5_brb">TŞN</persName>
+					 deyü ... gardiyān olunan ...					<persName facs="#zone_ed1_mm5_brb">PRYAKO</persName>
+					 nām-ı mezkūreye on bir guruş
+					<lb/>
+					mukābelesinde beyʿ-i bāt katʿiyle beyʿ edüp bizler dahi emīn-i mukātaʿası
+					<lb/>
+					bulduğumuz sebebiyle beyʿlerine(?) cāiz görüb mā-dām ki sāl be-sāl taraf-ı(?)
+					<lb/>
+					mukātaʿa dahi olunan ʿöşr-i şerʿiyesi ve rüsūmāt sā'irler ... edā ederler
+					<lb/>
+					tarafımızdan ve taraf-ı āhardan bir kimesne māniʿ olmaya				</p>
 				<div2 type="sign" facs="#zone_xsq_vyj_kjb">
 					<p>
-						<lb/>Bende(?)
-						<lb/>...
-						<lb/><persName>Mehmed</persName>(?)
-						<lb/>El-me'mūr </p>
+						<lb/>
+						Bende(?)
+						<lb/>
+						...
+						<lb/>
+						<persName>Mehmed</persName>
+						(?)
+						<lb/>
+						El-me'mūr					</p>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/><persName facs="#zone_qng_r45_brb">JYO</persName> Anton
-						<lb/><persName facs="#zone_jxf_s45_brb">KTNA</persName> GYURJO
-						<lb/><persName facs="#zone_ld1_t45_brb">YARNO</persName> ʿan DRJUPLÇELİ
-						<lb/><persName facs="#zone_im5_t45_brb">Īwān</persName> MDIDO
-						<lb/><persName facs="#zone_g1m_545_brb">Īwān</persName> MUKTUYEK </p>
+						<lb/>
+						<persName facs="#zone_qng_r45_brb">JYO</persName>
+						 Anton
+						<lb/>
+						<persName facs="#zone_jxf_s45_brb">KTNA</persName>
+						 GYURJO
+						<lb/>
+						<persName facs="#zone_ld1_t45_brb">YARNO</persName>
+						 ʿan DRJUPLÇELİ
+						<lb/>
+						<persName facs="#zone_im5_t45_brb">Īwān</persName>
+						 MDIDO
+						<lb/>
+						<persName facs="#zone_g1m_545_brb">Īwān</persName>
+						 MUKTUYEK					</p>
 				</div2>
 			</div1>
 			<div1 type="summary_Croatian" facs="#zone_g14_mzj_kjb">
 				<p>
-					<lb/><date when="1799-03-25" type="summary_Croatian">Die 25 Mar: 1799</date>
-					<lb/>Tapia Kako Cupyimo od Matte i Miatta Okichia u
-					<lb/>Michim 4 Paraqika Zamelis Kako pije u nutra Z.
-					<lb/><date when-custom="1213" type="summary_Croatian" when="1799-06-02">1213</date>. Nno 3.
-					<lb/>142 </p>
+					<lb/>
+					<date when="1799-03-25" type="summary_Croatian">Die 25 Mar: 1799</date>
+					<lb/>
+					Tapia Kako Cupyimo od Matte i Miatta Okichia u
+					<lb/>
+					Michim 4 Paraqika Zamelis Kako pije u nutra Z.
+					<lb/>
+					<date when-custom="1213" type="summary_Croatian" when="1799-06-02">1213</date>
+					. Nno 3.
+					<lb/>
+					142				</p>
 			</div1>
 		</body>
 	</text>

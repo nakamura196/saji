@@ -1,55 +1,60 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN0599</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 7" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/3003/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3003/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/daf3563497c3e3634be217616900048066921f75.jpg" />
-        <zone lrx="1500" lry="2866" ulx="100" uly="1700" xml:id="zone_q3d_4vj_2mb" />
-        <zone lrx="574" lry="2852" ulx="160" uly="2589" xml:id="zone_ftl_pvj_2mb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/3003/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8f625c8c7219caed1267f4609457dfe0fd437629.jpg" />
-        <zone lrx="797" lry="1448" ulx="565" uly="1234" xml:id="zone_sxd_svj_2mb" />
-        <zone lrx="2920" lry="500" ulx="75" uly="291" xml:id="zone_byb_tvj_2mb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_q3d_4vj_2mb" next="#zone_byb_tvj_2mb" type="iʿlām_maʿrūz">
-        <p>
-          <lb />
-          <lb />... hurira <date type="created" when="1767-10-10" when-custom="1181-05-17">fi'l-yevmi'l-sābʿ ʿaşar min Cemaziye'l-evvel sene ahadā ve semānīn ve mie ve elif</date>
-        </p>
-        <div2 facs="#zone_ftl_pvj_2mb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-          <div3 facs="#zone_sxd_svj_2mb" type="stamp">
-            <p>
-              <lb />...<lb />
-            </p>
-          </div3>
-        </div2>
-      </div1>
-      <div1 facs="#zone_byb_tvj_2mb" type="summary_Croatian">
-        <p>
-          <lb />
-          <lb />... <date type="created" when="1767">1767</date>
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0599</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 7" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%207/DSCN0599.JPG"/>
+			<zone ulx="1700" uly="1700" lrx="1500" lry="2866" xml:id="zone_q3d_4vj_2mb"/>
+			<zone ulx="2589" uly="2589" lrx="574" lry="2852" xml:id="zone_ftl_pvj_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%207/DSCN0600.JPG"/>
+			<zone ulx="1234" uly="1234" lrx="797" lry="1448" xml:id="zone_sxd_svj_2mb"/>
+			<zone ulx="291" uly="291" lrx="2920" lry="500" xml:id="zone_byb_tvj_2mb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_q3d_4vj_2mb" next="#zone_byb_tvj_2mb" type="iʿlām_maʿrūz">
+				<p>
+					<lb/>
+					<lb/>
+					... hurira					<date type="created" when="1767-10-10" when-custom="1181-05-17">fi'l-yevmi'l-sābʿ ʿaşar min Cemaziye'l-evvel sene ahadā ve semānīn ve mie ve elif</date>
+				</p>
+				<div2 facs="#zone_ftl_pvj_2mb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+					<div3 facs="#zone_sxd_svj_2mb" type="stamp">
+						<p>
+							<lb/>
+							...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_byb_tvj_2mb" type="summary_Croatian">
+				<p>
+					<lb/>
+					<lb/>
+					...					<date type="created" when="1767">1767</date>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

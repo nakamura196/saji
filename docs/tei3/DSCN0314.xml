@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,67 +17,93 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1793/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1793/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0e48358456e0e6c23290b5190e180b80be4bc475.jpg"/>
-				<zone lrx="2250" lry="2642" ulx="64" uly="64" xml:id="zone_bkw_jz4_2kb"/>
-				<zone lrx="840" lry="2614" ulx="291" uly="2312" xml:id="zone_lq4_lz4_2kb"/>
-				<zone lrx="834" lry="2504" ulx="650" uly="2337" xml:id="zone_rwg_mz4_2kb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/1793/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8e6c32a8b1c5fcba18c7ee5aad9e146280fafa51.jpg"/>
-				<zone lrx="2800" lry="722" ulx="245" uly="233" xml:id="zone_vtl_pz4_2kb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0314.JPG"/>
+			<zone ulx="64" uly="64" lrx="2250" lry="2642" xml:id="zone_bkw_jz4_2kb"/>
+			<zone ulx="2312" uly="2312" lrx="840" lry="2614" xml:id="zone_lq4_lz4_2kb"/>
+			<zone ulx="2337" uly="2337" lrx="834" lry="2504" xml:id="zone_rwg_mz4_2kb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0315.JPG"/>
+			<zone ulx="233" uly="233" lrx="2800" lry="722" xml:id="zone_vtl_pz4_2kb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_bkw_jz4_2kb" type="EMIN_tapu_sūret">
 				<p>
-					<lb/>Hüve
-					<lb/>Vech-i tahrīr-i hurūf oldur ki
-					<lb/>işbu <date when="1847-12-07" when-custom="1263">bin iki yüz altmış üç senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasında varoş-ı cemāʿat-i ... hudūd
-					<lb/>dāhilinde arāzī-i mīrīye mutasarrıflarında MATO DELİÇ veled-i İRYAN nām kimesne kendi taht-ı tasarrıfında bulunan bir kıtʿa
-					<lb/>tarla KONÇE demekle bir taraf MATO MCARDNİÇ tarlası ve bir taraf KOÇUYÇE rāhibin tarlası
-					<lb/>ve bir taraf orman ve ... ve bir taraf tarīk-i ʿām ile mahdūd ve mümtāz olub arāzī-i mīrīye tarla-ı
-					<lb/>mesfūrun(?) hakkı ve kararı ve tasarrıfın(?) ne bulnduysa(?) işbu dārende-i hurūf Kirşevo varoş kilisasında
-					<lb/>mütemekkin olan gardiyān nām mesfūre resm-i tapu ile yedi yüz doksan guruş bedel-i ferāğ mukābelesinde
-					<lb/>ferāğ ve ... edüb mesfūr gardiyāna arāzī-i mīrīye(?) ... tāleb ve tasarrıfına
-					<lb/>rāgib olmağala bizim dahi me'mūrimiz hasebiyle kānūn-u pādişāhımız(?) üzere resm baʿde'l-ahz arāzī-i mīrīye
-					<lb/>MATO mesfūr(?) ferāgatından müşter-i gardiyāna tafvīz ve zabt ve zirāʿatına izin ve ruhsat virdim 
-					<lb/>mā-dām ki sāl be-sāl taraf(?)-ı mukātaʿaya rāciʿ olan aʿşār-ı şerʿiye ve rüsūmāt-ı ʿörfiyesini edā ile
-					<lb/>işbu tapuya iʿtā ve teslīm olundu zabt ve tasarrıfına bir tarafdan māniʿ ve müdāhale olunmaya
-					<lb/>fī <date type="created" when="1847-09-30" when-custom="1263-10-20">20 L sene 263</date>
+					<lb/>
+					Hüve
+					<lb/>
+					Vech-i tahrīr-i hurūf oldur ki
+					<lb/>
+					işbu					<date when="1847-12-07" when-custom="1263">bin iki yüz altmış üç senesinde</date>
+					 der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasında varoş-ı cemāʿat-i ... hudūd
+					<lb/>
+					dāhilinde arāzī-i mīrīye mutasarrıflarında MATO DELİÇ veled-i İRYAN nām kimesne kendi taht-ı tasarrıfında bulunan bir kıtʿa
+					<lb/>
+					tarla KONÇE demekle bir taraf MATO MCARDNİÇ tarlası ve bir taraf KOÇUYÇE rāhibin tarlası
+					<lb/>
+					ve bir taraf orman ve ... ve bir taraf tarīk-i ʿām ile mahdūd ve mümtāz olub arāzī-i mīrīye tarla-ı
+					<lb/>
+					mesfūrun(?) hakkı ve kararı ve tasarrıfın(?) ne bulnduysa(?) işbu dārende-i hurūf Kirşevo varoş kilisasında
+					<lb/>
+					mütemekkin olan gardiyān nām mesfūre resm-i tapu ile yedi yüz doksan guruş bedel-i ferāğ mukābelesinde
+					<lb/>
+					ferāğ ve ... edüb mesfūr gardiyāna arāzī-i mīrīye(?) ... tāleb ve tasarrıfına
+					<lb/>
+					rāgib olmağala bizim dahi me'mūrimiz hasebiyle kānūn-u pādişāhımız(?) üzere resm baʿde'l-ahz arāzī-i mīrīye
+					<lb/>
+					MATO mesfūr(?) ferāgatından müşter-i gardiyāna tafvīz ve zabt ve zirāʿatına izin ve ruhsat virdim					<lb/>
+					mā-dām ki sāl be-sāl taraf(?)-ı mukātaʿaya rāciʿ olan aʿşār-ı şerʿiye ve rüsūmāt-ı ʿörfiyesini edā ile
+					<lb/>
+					işbu tapuya iʿtā ve teslīm olundu zabt ve tasarrıfına bir tarafdan māniʿ ve müdāhale olunmaya
+					<lb/>
+					fī					<date type="created" when="1847-09-30" when-custom="1263-10-20">20 L sene 263</date>
 				</p>
 				<div2 facs="#zone_lq4_lz4_2kb" type="sign">
 					<p>
-						<lb/>El-me'mūr Mehmed
-						<lb/>Mukātaʿa
-						<lb/>Emīn-i Kirşevo
-						<lb/>M
+						<lb/>
+						El-me'mūr Mehmed
+						<lb/>
+						Mukātaʿa
+						<lb/>
+						Emīn-i Kirşevo
+						<lb/>
+						M
 					</p>
 					<div3 facs="#zone_rwg_mz4_2kb" type="stamp_sūret">
 						<p>
-							<lb/>...
-							<lb/>Mehmed
+							<lb/>
+							...
+							<lb/>
+							Mehmed
 						</p>
 					</div3>
 				</div2>
 				<div2 type="şühūdu'l-hāl">
 					<p>
-						<lb/>Şühūdu'l-hāl
-						<lb/>KUYAMIT
-						<lb/>Anton YAN
-						<lb/>PADORAYA
-						<lb/>Nikola AKÇEKÇİNİÇE
-						<lb/>ve gayrihim
+						<lb/>
+						Şühūdu'l-hāl
+						<lb/>
+						KUYAMIT
+						<lb/>
+						Anton YAN
+						<lb/>
+						PADORAYA
+						<lb/>
+						Nikola AKÇEKÇİNİÇE
+						<lb/>
+						ve gayrihim
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_vtl_pz4_2kb" type="summary_Croatian">
 				<p>
-					<lb/>Tapija od De... ... na ...
-					<lb/>Nno 15.
+					<lb/>
+					Tapija od De... ... na ...
+					<lb/>
+					Nno 15.
 				</p>
 			</div1>
 		</body>

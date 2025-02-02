@@ -1,0 +1,180 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9105</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">エミンの保有する国有地の徴税権を、修道士（前修道院長）が徴税請負することについての証書。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<classCode scheme="">徴税請負</classCode>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2032/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2032/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/b040cf9acc680c550b2ea605bcf50a261488b667.jpg"/>
+				<zone lrx="341" lry="698" ulx="142" uly="506" xml:id="zone_grc_3l1_glb"/>
+				<zone lrx="1797" lry="1786" ulx="1211" uly="1634" xml:id="zone_an1_kl1_glb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/2032/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4013be91227960434f8079d0a7871022f547524b.jpg"/>
+				<zone lrx="1900" lry="2983" ulx="83" uly="50" xml:id="zone_sgr_4l1_glb"/>
+				<zone lrx="405" lry="2967" ulx="117" uly="2382" xml:id="zone_icv_pl1_glb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<standOff>
+		<listPerson>
+			<person xml:id="person1">
+				<persName>unknown</persName>
+				<occupation>kilisa rāhihibi</occupation>
+				<occupation>gardiān-ı sābık</occupation>
+				<state type="立場">
+					<label>徴税請負人</label>
+				</state>
+				<state type="属性">
+					<label>非ムスリム</label>
+				</state>
+			</person>
+			<person xml:id="person2">
+				<persName>Mustafa</persName>
+				<occupation>Emīn-i Mukātaʿa-i Kirşevo</occupation>
+				<state type="立場">
+					<label>ムカーター保有者</label>
+					<label>作成者</label>
+				</state>
+				<state type="属性">
+					<label>ムスリム</label>
+				</state>
+			</person>
+		</listPerson>
+		<listPlace>
+			<place type="mahalle" xml:id="place1">
+				<placeName>RAVN</placeName>
+				<state type="地位">
+					<label>unknown</label>
+				</state>
+				<state type="立場">
+					<label>取引対象</label>
+				</state>
+				<state type="種類">
+					<label>unknown</label>
+				</state>
+			</place>
+			<place type="mahalle" xml:id="place2">
+				<placeName>LUPATA</placeName>
+				<state type="地位">
+					<label>unknown</label>
+				</state>
+				<state type="立場">
+					<label>取引対象</label>
+				</state>
+				<state type="種類">
+					<label>unknown</label>
+				</state>
+			</place>
+			<place type="mahalle" xml:id="place3">
+				<placeName>DUBUNİÇE</placeName>
+				<state type="地位">
+					<label>unknown</label>
+				</state>
+				<state type="立場">
+					<label>取引対象</label>
+				</state>
+				<state type="種類">
+					<label>unknown</label>
+				</state>
+			</place>
+			<place type="mahalle" xml:id="place4">
+				<placeName>Koysina</placeName>
+				<state type="地位">
+					<label>unknown</label>
+				</state>
+				<state type="立場">
+					<label>取引対象</label>
+				</state>
+				<state type="種類">
+					<label>unknown</label>
+				</state>
+			</place>
+			<place type="mahalle" xml:id="place5">
+				<placeName>BUʿUŞK</placeName>
+				<state type="地位">
+					<label>unknown</label>
+				</state>
+				<state type="立場">
+					<label>取引対象</label>
+				</state>
+				<state type="種類">
+					<label>unknown</label>
+				</state>
+			</place>
+			<relation name="保有" active="#person2" passive="#place1">
+				<desc>person2はplace1の保有者である</desc>
+			</relation>
+			<relation name="保有" active="#person2" passive="#place2">
+				<desc>person2はplace2の保有者である</desc>
+			</relation>
+			<relation name="保有" active="#person2" passive="#place3">
+				<desc>person2はplace3の保有者である</desc>
+			</relation>
+			<relation name="保有" active="#person2" passive="#place4">
+				<desc>person2はplace4の保有者である</desc>
+			</relation>
+			<relation name="保有" active="#person2" passive="#place5">
+				<desc>person2はplace5の保有者である</desc>
+			</relation>
+		</listPlace>
+	</standOff>
+	<text>
+		<body>
+			<div1 facs="#zone_sgr_4l1_glb" next="#zone_an1_kl1_glb" subtype="zabt_temessük" type="EMIN_zabt_temessük">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf budur ki
+					<lb/>işbu <date when-custom="1240">bin iki yüz krık senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿası
+					<lb/>varoş kilisasının rāhibi olan <persName corresp="#person1">gardiyāna</persName>
+					<placeName corresp="#place1">RAVN</placeName> ve <placeName corresp="#place2">LUPATA</placeName> ve <placeName corresp="#place3">DUBUNİÇE</placeName>
+					<lb/>ve <placeName corresp="#place4">Koysina</placeName> ve <placeName corresp="#place5">BUʿUŞK</placeName> nām mahallelerde hāsıl olan mahsūlāt-ı aʿşārı işbu
+					<lb/>dārende-i temessük kilisa rāhihibi olan <persName corresp="#person1">gardiyān-ı sābık</persName> bedel-i iltizāmımıza
+					<lb/>olan <measure quantity="120" unit="guruş">yüz yiğirmi guruş</measure> mukābelesinde ve bedel-i iltizāmımıza olan meblağ-ı mezkūri
+					<lb/>tarafımıza edā ve teslīm işbu yedine memhūrlu zabt-ı temessük iʿtāya(?) olundu
+					<lb/>zabt(?) ve ... tarafımıza ve taraf-ı āhardan bir kimesne māniʿ olna
+					<lb/>fī <date type="created" when="1825-05-14" when-custom="1240-09-27">27 N sene 1240</date>
+				</p>
+				<div2 facs="#zone_icv_pl1_glb" type="sign">
+					<p>
+						<lb/>...
+						<lb/><persName corresp="#person2">Mustafa</persName>
+						<lb/>Emīn-i
+						<lb/>Kirşevo
+						<lb/>hālā
+						<lb/>M </p>
+					<div3 facs="#zone_grc_3l1_glb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>...
+							<lb/>...
+							<lb/>...
+							<lb/>... </p>
+					</div3>
+				</div2>
+			</div1>
+			<div1 facs="#zone_an1_kl1_glb" type="summary_Croatian">
+				<p>
+					<lb/>od y. <date type="summary_Croatian" when="1825">1825</date>. </p>
+			</div1>
+		</body>
+	</text>
+</TEI>

@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,41 +14,44 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2161/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2161/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/816aba94819269ee5b1bfb07ff37036e78e84eeb.jpg"/>
-				<zone lrx="2767" lry="1683" ulx="273" uly="844" xml:id="zone_abv_dts_mlb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2161/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/4c427f61f7084acfeb154818f5fd1fec857eead5.jpg"/>
-				<zone lrx="2339" lry="2653" ulx="200" uly="176" xml:id="zone_byj_fts_mlb"/>
-				<zone lrx="676" lry="2631" ulx="251" uly="2093" xml:id="zone_qzw_gts_mlb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9237.JPG"/>
+			<zone ulx="844" uly="844" lrx="2767" lry="1683" xml:id="zone_abv_dts_mlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9238.JPG"/>
+			<zone ulx="176" uly="176" lrx="2339" lry="2653" xml:id="zone_byj_fts_mlb"/>
+			<zone ulx="2093" uly="2093" lrx="676" lry="2631" xml:id="zone_qzw_gts_mlb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_byj_fts_mlb" next="#zone_abv_dts_mlb" subtype="zabt_temessük" type="EMIN">
 				<p>
-					<lb/>işbu <date type="created" when="1835-04-27" when-custom="1250">bin iki yüz elli senesinde</date> der ...
+					<lb/>
+					işbu					<date type="created" when="1835-04-27" when-custom="1250">bin iki yüz elli senesinde</date>
+					 der ...
 					<lb/>
 				</p>
 				<div2 facs="#zone_qzw_gts_mlb" type="sign">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
-						<lb/>...
+						<lb/>
+						...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_abv_dts_mlb" type="summary_Croatian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

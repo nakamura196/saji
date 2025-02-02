@@ -1,0 +1,50 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1944</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<notesStmt>
+<note type="mine">【要】DSCN1943.JPGは、この文書の写しの可能性あり。要確認。</note>
+</notesStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1474/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1474/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/0a9c6d563c055ea5129d881f11daf3b572417a92.jpg" />
+<zone lrx="2712" lry="1576" ulx="430" uly="711" xml:id="zone_prc_jxd_djb" />
+<zone lrx="792" lry="1422" ulx="516" uly="1185" xml:id="zone_jbf_kxd_djb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1474/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/b3119674a3a5cd13e9013bc3f2ea29c147e4d2eb.jpg" />
+<zone lrx="1890" lry="3215" ulx="563" uly="1452" xml:id="zone_k4p_mxd_djb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_prc_jxd_djb" type="unknown">
+<p>
+<lb />... fī <date type="created" when="1846-05-30" when-custom="1262-06-05">5 C sene 262</date><lb />
+</p>
+<div3 facs="#zone_jbf_kxd_djb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div1>
+<div1 facs="#zone_k4p_mxd_djb" type="summary_Croatian">
+<p>
+<lb />...<lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>

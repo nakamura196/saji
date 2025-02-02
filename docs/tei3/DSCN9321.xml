@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,28 +14,28 @@
 		</fileDesc>
 	</teiHeader>
 	<facsimile>
-		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2245/manifest">
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2245/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3f8f1094a47a0e96327f0bf96aa3b1f99ed753f1.jpg"/>
-				<zone lrx="2473" lry="1372" ulx="845" uly="916" xml:id="zone_e2l_mfm_ylb"/>
-			</surface>
-			<surface>
-				<graphic n="https://diyhistory.org/public/phr2/iiif/2245/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/8ac6e11b51048bfff351fab8561399dbcb4e5ff8.jpg"/>
-				<zone lrx="1833" lry="2883" ulx="492" uly="250" xml:id="zone_yck_rfm_ylb"/>
-			</surface>
-		</surfaceGrp>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9321.JPG"/>
+			<zone ulx="916" uly="916" lrx="2473" lry="1372" xml:id="zone_e2l_mfm_ylb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN9322.JPG"/>
+			<zone ulx="250" uly="250" lrx="1833" lry="2883" xml:id="zone_yck_rfm_ylb"/>
+		</surface>
 	</facsimile>
 	<text>
 		<body>
 			<div1 facs="#zone_yck_rfm_ylb" next="#zone_e2l_mfm_ylb" type="fetvā">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_e2l_mfm_ylb" type="summary_Croatian">
 				<p>
-					<lb/>...
+					<lb/>
+					...
 					<lb/>
 				</p>
 			</div1>

@@ -1,48 +1,53 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>DSCN0113</title>
-</titleStmt>
-<publicationStmt>
-<p>Publication Information</p>
-</publicationStmt>
-<sourceDesc>
-<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN0113</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]
                }</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<facsimile>
-<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1597/manifest">
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1597/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/49c48e4dd05878915965fbf59fc0ac7b04dec948.jpg" />
-<zone lrx="2120" lry="3154" ulx="345" uly="-10" xml:id="zone_b1b_tdv_2jb" />
-<zone lrx="1136" lry="3071" ulx="878" uly="2782" xml:id="zone_ucv_5dv_2jb" />
-</surface>
-<surface>
-<graphic n="https://diyhistory.org/public/phr2/iiif/1597/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/df4907ee930608ade8f77364a46f861ca935c3f3.jpg" />
-<zone lrx="2067" lry="2783" ulx="342" uly="2241" xml:id="zone_jyq_wdv_2jb" />
-</surface>
-</surfaceGrp>
-</facsimile>
-<text>
-<body>
-<div1 facs="#zone_b1b_tdv_2jb" type="tezkire">
-<p>
-<lb />... fī <date type="created" when="1830-07-29" when-custom="1246-02-09">9 S sene 246</date><lb />
-</p>
-<div2 facs="#zone_ucv_5dv_2jb" type="sign">
-<p>
-<lb />...<lb />
-</p>
-</div2>
-</div1>
-<div1 facs="#zone_jyq_wdv_2jb" type="unknown">
-<p>
-<lb />...<lb />
-</p>
-</div1>
-</body>
-</text>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0113.JPG"/>
+			<zone ulx="-10" uly="-10" lrx="2120" lry="3154" xml:id="zone_b1b_tdv_2jb"/>
+			<zone ulx="2782" uly="2782" lrx="1136" lry="3071" xml:id="zone_ucv_5dv_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%203/DSCN0114.JPG"/>
+			<zone ulx="2241" uly="2241" lrx="2067" lry="2783" xml:id="zone_jyq_wdv_2jb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_b1b_tdv_2jb" type="tezkire">
+				<p>
+					<lb/>
+					... fī					<date type="created" when="1830-07-29" when-custom="1246-02-09">9 S sene 246</date>
+					<lb/>
+				</p>
+				<div2 facs="#zone_ucv_5dv_2jb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_jyq_wdv_2jb" type="unknown">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

@@ -1,0 +1,49 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN2059</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2389/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2389/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/d3f3f871d2b6398e11fb85443588713730f43430.jpg" />
+        <zone lrx="1473" lry="2936" ulx="154" uly="145" xml:id="zone_s5y_tc5_bmb" />
+        <zone lrx="642" lry="2875" ulx="350" uly="2609" xml:id="zone_a5m_vc5_bmb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2389/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/59b7151a375971f5b3697f4055ba65a5faebfddc.jpg" />
+        <zone lrx="2346" lry="1254" ulx="66" uly="575" xml:id="zone_b5h_gd5_bmb" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_s5y_tc5_bmb" type="unkown">
+        <p>
+          <lb />...<lb />
+        </p>
+        <div2 type="sign">
+          <div3 facs="#zone_a5m_vc5_bmb" type="stamp">
+            <p>
+              <lb />...<lb />
+            </p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 facs="#zone_b5h_gd5_bmb" type="summary_Croatian">
+        <p>
+          <lb />... <date type="summary_Croatian" when="1776">1776</date>.<lb />
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

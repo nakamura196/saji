@@ -1,0 +1,78 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>DSCN1793</title>
+</titleStmt>
+<publicationStmt>
+<p>Publication Information</p>
+</publicationStmt>
+<sourceDesc>
+<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ]
+          }</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1324/manifest">
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1324/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/1c9765ec39f702c0b0792e336031156dcd9c8eb3.jpg" />
+<zone lrx="2040" lry="2970" ulx="370" uly="500" xml:id="zone_ztb_ny3_cjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1324/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/c65be5cb5c508a98d86e6d7d73045406fb8b16d0.jpg" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1324/canvas/p3" url="https://diyhistory.org/public/phr2/files/original/6cd513d7a9884e9f98eae44bcc83f3c6534d581f.jpg" />
+<zone lrx="1749" lry="1819" ulx="1505" uly="1609" xml:id="zone_axd_py3_cjb" />
+<zone lrx="1478" lry="1868" ulx="1224" uly="1628" xml:id="zone_kyx_py3_cjb" />
+<zone lrx="1217" lry="1807" ulx="994" uly="1590" xml:id="zone_cwm_qy3_cjb" />
+<zone lrx="982" lry="1782" ulx="735" uly="1545" xml:id="zone_vcg_ry3_cjb" />
+<zone lrx="703" lry="1739" ulx="442" uly="1503" xml:id="zone_gpl_sy3_cjb" />
+</surface>
+<surface>
+<graphic n="https://diyhistory.org/public/phr2/iiif/1324/canvas/p4" url="https://diyhistory.org/public/phr2/files/original/25cddcb3bdc6560647ccbfa1eaecb2e94ea64bd5.jpg" />
+<zone lrx="3000" lry="1327" ulx="512" uly="777" xml:id="zone_skp_ty3_cjb" />
+</surface>
+</surfaceGrp>
+</facsimile>
+<text>
+<body>
+<div1 facs="#zone_ztb_ny3_cjb" type="cizye_tezkiresi">
+<p>
+<lb />... fī <date cert="medium" type="created" when="1852-02-11" when-custom="1268-04-20">20 R sene 68</date><lb />
+</p>
+<div3 facs="#zone_axd_py3_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+<div3 facs="#zone_kyx_py3_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+<div3 facs="#zone_vcg_ry3_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+<div3 facs="#zone_cwm_qy3_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+<div3 facs="#zone_gpl_sy3_cjb" type="stamp">
+<p>
+<lb />...<lb />
+</p>
+</div3>
+</div1>
+<div1 facs="#zone_skp_ty3_cjb" type="summary_Croatian">
+<p>
+<lb />...<lb />
+</p>
+</div1>
+</body>
+</text>
+</TEI>

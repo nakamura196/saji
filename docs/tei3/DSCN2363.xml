@@ -1,38 +1,38 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-               <teiHeader>
-                              <fileDesc>
-                                             <titleStmt>
-                                                            <title>DSCN2363</title>
-                                             </titleStmt>
-                                             <publicationStmt>
-                                                            <p>Publication Information</p>
-                                             </publicationStmt>
-                                             <notesStmt>
-                                                            <note type="summary">メモ（オスマン語アルファベットの手習い）</note>
-                                                            <note type="mine">ただのメモで特に意味はないけど、当時キリスト教徒がオスマン語の練習をしたものかもしれない</note>
-                                             </notesStmt>
-                                             <sourceDesc>
-                                                            <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型", "オスマン語手習いの跡？" ] }</p>
-                                             </sourceDesc>
-                              </fileDesc>
-               </teiHeader>
-               <facsimile>
-                              <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2691/manifest">
-                                             <surface>
-                                                            <graphic n="https://diyhistory.org/public/phr2/iiif/2691/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/cbf4a790abb30a230d3845acbb2c9165b5094d52.jpg" />
-                                                            <zone lrx="2200" lry="2053" ulx="300" uly="646" xml:id="zone_fyr_dsw_j3b" />
-                                             </surface>
-                              </surfaceGrp>
-               </facsimile>
-               <text>
-                              <body>
-                                             <div1 />
-                                             <div1 facs="#zone_fyr_dsw_j3b" type="note">
-                                                            <p>
-                                                                           <lb />...<lb />
-                                                            </p>
-                                             </div1>
-                                             
-                              </body>
-               </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2363</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">メモ（オスマン語アルファベットの手習い）</note>
+				<note type="mine">ただのメモで特に意味はないけど、当時キリスト教徒がオスマン語の練習をしたものかもしれない</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型", "オスマン語手習いの跡？" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2363.JPG"/>
+			<zone ulx="646" uly="646" lrx="2200" lry="2053" xml:id="zone_fyr_dsw_j3b"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1/>
+			<div1 facs="#zone_fyr_dsw_j3b" type="note">
+				<p>
+					<lb/>
+					...
+					<lb/>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

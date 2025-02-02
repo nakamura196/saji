@@ -1,0 +1,42 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DSCN0537</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 6" ] }</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2943/manifest">
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2943/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/3388aed392369504a067b895e9b6ad33bd9d4e00.jpg" />
+        <zone lrx="1733" lry="2716" ulx="175" uly="1329" xml:id="zone_ln2_5s3_2mb" />
+        <zone lrx="871" lry="2694" ulx="443" uly="2475" xml:id="zone_ekk_vs3_2mb" />
+      </surface>
+      <surface>
+        <graphic n="https://diyhistory.org/public/phr2/iiif/2943/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/e20d17a8b67a822ab333a2ee3c11c3d3b1de2205.jpg" />
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+  <text>
+    <body>
+      <div1 facs="#zone_ln2_5s3_2mb" type="iʿlām_maʿrūz">
+        <p>
+          <lb />
+          <lb />... hurira fī <date cert="low" type="created" when="1782-09-08" when-custom="1196-10-01">1 L sene 1196</date>
+        </p>
+        <div2 facs="#zone_ekk_vs3_2mb" type="sign">
+          <p>
+            <lb />...<lb />
+          </p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

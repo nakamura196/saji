@@ -1,55 +1,65 @@
+<?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DSCN2113</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Publication Information</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <facsimile>
-    <surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/2442/manifest">
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2442/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/261f820f3c1835fb49267c4cb611d6c9e4ce703f.jpg" />
-        <zone lrx="2433" lry="3058" ulx="250" uly="116" xml:id="zone_kxh_dvj_cmb" />
-        <zone lrx="744" lry="2977" ulx="340" uly="2706" xml:id="zone_jxz_fvj_cmb" />
-      </surface>
-      <surface>
-        <graphic n="https://diyhistory.org/public/phr2/iiif/2442/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/2d51f610114e3eac8cc8d29196c9df6a0306da90.jpg" />
-        <zone lrx="2895" lry="1772" ulx="434" uly="444" xml:id="zone_s1s_hvj_cmb" />
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-  <text>
-    <body>
-      <div1 facs="#zone_kxh_dvj_cmb" next="#zone_s1s_hvj_cmb" subtype="temessük" type="EMIN">
-        <p>
-          <lb />işbu <date type="created" when="1820-10-07" when-custom="1235">bin iki yüz otuz beş senesinde</date> der ...
-          <lb />...
-        </p>
-        <div2 facs="#zone_jxz_fvj_cmb" type="sign">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-        <div2 type="şühūdu’l-hāl">
-          <p>
-            <lb />...<lb />
-          </p>
-        </div2>
-      </div1>
-      <div1 facs="#zone_s1s_hvj_cmb" type="summary_Croatian">
-        <p>
-          <lb />... <date type="summary_Croatian" when="1821">1821</date>.
-          <lb />Nno 41.
-          <lb /><date type="summary_Croatian" when="1820-10-07" when-custom="1235">1235</date>
-        </p>
-      </div1>
-    </body>
-  </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN2113</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2113.JPG"/>
+			<zone ulx="116" uly="116" lrx="2433" lry="3058" xml:id="zone_kxh_dvj_cmb"/>
+			<zone ulx="2706" uly="2706" lrx="744" lry="2977" xml:id="zone_jxz_fvj_cmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Tursko%204/DSCN2114.JPG"/>
+			<zone ulx="444" uly="444" lrx="2895" lry="1772" xml:id="zone_s1s_hvj_cmb"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_kxh_dvj_cmb" next="#zone_s1s_hvj_cmb" subtype="temessük" type="EMIN">
+				<p>
+					<lb/>
+					işbu					<date type="created" when="1820-10-07" when-custom="1235">bin iki yüz otuz beş senesinde</date>
+					 der ...
+					<lb/>
+					...
+				</p>
+				<div2 facs="#zone_jxz_fvj_cmb" type="sign">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="şühūdu’l-hāl">
+					<p>
+						<lb/>
+						...
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_s1s_hvj_cmb" type="summary_Croatian">
+				<p>
+					<lb/>
+					...					<date type="summary_Croatian" when="1821">1821</date>
+					.
+					<lb/>
+					Nno 41.
+					<lb/>
+					<date type="summary_Croatian" when="1820-10-07" when-custom="1235">1235</date>
+				</p>
+			</div1>
+		</body>
+	</text>
 </TEI>

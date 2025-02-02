@@ -1,0 +1,70 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DSCN9007</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">修道士たちの保有するチフトリキとその関連施設からのウシュルの徴税権を、修道院長に売却（前払い）することの承認。</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surfaceGrp facs="https://diyhistory.org/public/phr2/iiif/1934/manifest">
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1934/canvas/p1" url="https://diyhistory.org/public/phr2/files/original/fb91efa33a65429cf812fa82a001e45d46333153.jpg"/>
+				<zone lrx="575" lry="891" ulx="325" uly="637" xml:id="zone_vw5_1wy_wkb"/>
+				<zone lrx="1504" lry="3125" ulx="312" uly="2875" xml:id="zone_n13_bwy_wkb"/>
+			</surface>
+			<surface>
+				<graphic n="https://diyhistory.org/public/phr2/iiif/1934/canvas/p2" url="https://diyhistory.org/public/phr2/files/original/34098005e532e46c8331259b27f21255aca6de6f.jpg"/>
+				<zone lrx="2328" lry="2621" ulx="93" uly="1150" xml:id="zone_agr_cwy_wkb"/>
+				<zone lrx="436" lry="2472" ulx="153" uly="2174" xml:id="zone_bfv_dwy_wkb"/>
+			</surface>
+		</surfaceGrp>
+	</facsimile>
+	<text>
+		<body>
+			<div1 facs="#zone_agr_cwy_wkb" next="#zone_n13_bwy_wkb" type="EMIN_zabt_temessük">
+				<p>
+					<lb/>Vech-i tahrīr-i hurūf <sic>aldur</sic><corr>oldur</corr> ki
+					<lb/>işbu <date type="created" when-custom="1204">bin iki yüz <sic>üç</sic> dört sensinde</date> ʿuhde ve iltizāmımızda bulunan
+					<lb/>Kirşevo mukātaʿasında vākiʿ kilisa rāhiblerinden çiftlikinde ve ʿalākalarında(?) sene-i(?)
+					<lb/>mezbūrdan ʿöşr-i mahsūlāt işbu sāhıbi'l-hurūf kilisa-i mesfūr rāhiblerden
+					<lb/>gardiyān zimmī PRAMİHAT nām zimmīye yalnız yüz yiğirmi esedī guruş ber-vech-i peşīn
+					<lb/>üzere iltizām anlar dahi minvāl-i muharrer üzere kabūl eyledikten sonra mesfūrların yedine(?)
+					<lb/>işbu zabt temessük iʿtā olundu tarafımızdan ve taraf-ı āhardan zabat ve tasarrıfına kimesne
+					<lb/>māniʿ olunmaya </p>
+				<div2 facs="#zone_bfv_dwy_wkb" type="sign">
+					<p>
+						<lb/>...
+						<lb/>Ahmed Emīn-i
+						<lb/>Kirşevo </p>
+					<div3 facs="#zone_vw5_1wy_wkb" type="stamp">
+						<p>
+							<lb/>...
+							<lb/>
+						</p>
+					</div3>
+				</div2>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>Süleymān İmām müslimīn
+						<lb/>Sālih mü'ezzin ʿan müslimīn
+						<lb/>Hasan Beşe Silahçi ʿan mezbūr </p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_n13_bwy_wkb" type="summary_Croatian">
+				<p>
+					<lb/>... od ... <date type="summary_Croatian" when="1790">1790</date>. </p>
+			</div1>
+		</body>
+	</text>
+</TEI>
