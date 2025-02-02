@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,16 +15,23 @@
 				<note type="mine">【要】日付：1270 or 1170 年　要検討。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ],
-          "saji:type": [ "mürāsele" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ],
+          "saji:type": [ "mürāsele" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1939.JPG"/>
 			<zone ulx="971" uly="971" lrx="1893" lry="2535" xml:id="zone_tkp_dvd_djb"/>
 			<zone ulx="2300" uly="2300" lrx="1234" lry="2488" xml:id="zone_glw_2vd_djb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0102.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0103.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1940.JPG"/>

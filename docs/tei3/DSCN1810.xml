@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="mine">【要】日付：月、DSCN1809.JPG, DSCN1816/JPGと同じ書き方をしているが読み取れない。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -28,6 +32,12 @@
 			<zone ulx="2677" uly="2677" lrx="946" lry="2813" xml:id="zone_qss_2l4_cjb"/>
 			<zone ulx="2614" uly="2614" lrx="642" lry="2786" xml:id="zone_y2k_fl4_cjb"/>
 			<zone ulx="2667" uly="2667" lrx="632" lry="2778" xml:id="zone_lky_fl4_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0078.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0079.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

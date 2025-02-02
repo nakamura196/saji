@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,7 +15,7 @@
 				<note type="summary">通行許可</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -20,6 +23,7 @@
 				<classCode scheme="">通行許可</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -28,6 +32,12 @@
 			<zone ulx="1165" uly="1165" lrx="845" lry="1470" xml:id="zone_s3w_rkq_h3b"/>
 			<zone ulx="1320" uly="1320" lrx="1175" lry="1530" xml:id="zone_dms_skq_h3b"/>
 			<zone ulx="2510" uly="2510" lrx="1960" lry="2845" xml:id="zone_nh4_tkq_h3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%205/IMG_0034.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%205/IMG_0035.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

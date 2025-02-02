@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,9 +16,10 @@
 				<note type="mine">エミンから修道院長に対する、マーリキャーネの下請け契約</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -23,6 +27,12 @@
 			<zone ulx="163" uly="163" lrx="2318" lry="3118" xml:id="zone_dmf_c25_xjb"/>
 			<zone ulx="2556" uly="2556" lrx="662" lry="2884" xml:id="zone_hld_d25_xjb"/>
 			<zone ulx="2478" uly="2478" lrx="356" lry="2850" xml:id="zone_tmx_d25_xjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0168.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0169.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0270.JPG"/>

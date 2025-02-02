@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,18 +17,25 @@
 				<note type="mine">日付：オスマン語本文では1254年になっており、クロアチア語要約では1253年になっている。オスマン語本文を優先したい。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1254-R(?)-21" ], "saji:date_M": [ "1838-07-14(?)" ], "saji:foldingMethod": [ "4x1" ],
-					"saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・本文\r\n・日付\r\n・はしがき（証人？）\r\n・不明のスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "9" ], "saji:memo": [
-					"典型" ], "saji:number": [ "46" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:transcription": [ "Vech" ], "saji:type": [
-					"temessük" ], "saji:witness": [ "?" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1254-R(?)-21" ], "saji:date_M": [ "1838-07-14(?)" ], "saji:foldingMethod": [ "4x1" ],
+					"saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・本文\r\n・日付\r\n・はしがき（証人？）\r\n・不明のスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "9" ], "saji:memo": [
+					"典型" ], "saji:number": [ "46" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:transcription": [ "Vech" ], "saji:type": [
+					"temessük" ], "saji:witness": [ "?" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0964.JPG"/>
 			<zone ulx="245" uly="245" lrx="2182" lry="2772" xml:id="zone_nh1_jsz_y3b"/>
 			<zone ulx="2154" uly="2154" lrx="683" lry="2545" xml:id="zone_wlv_tkj_kjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0364.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0366.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0965.JPG"/>

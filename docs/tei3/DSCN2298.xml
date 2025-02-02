@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -34,9 +37,10 @@
 				<note type="mine">作成者：ムカーター・エミン</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型\r\n・Bに多いパターンでは？" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型\r\n・Bに多いパターンでは？" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -44,6 +48,12 @@
 			<zone ulx="316" uly="316" lrx="2325" lry="2891" xml:id="zone_j4q_pmw_j3b"/>
 			<zone ulx="2504" uly="2504" lrx="600" lry="2862" xml:id="zone_p25_xmg_dmb"/>
 			<zone ulx="1547" uly="1547" lrx="798" lry="1761" xml:id="zone_vvk_vhf_rsb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%209/IMG_0018.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%209/IMG_0019.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%204/DSCN2299.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="summary">修道院長İlyaによる税の支払い証明書</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="1018" uly="1018" lrx="1742" lry="2012" xml:id="zone_ezj_rj3_qkb"/>
 			<zone ulx="1596" uly="1596" lrx="1004" lry="1995" xml:id="zone_j4y_sj3_qkb"/>
 			<zone ulx="1788" uly="1788" lrx="997" lry="1980" xml:id="zone_fbr_tj3_qkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0092.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0093.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0406.JPG"/>

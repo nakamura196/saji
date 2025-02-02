@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,15 +15,22 @@
 				<note type="summary">ムスリムの保有する耕作地の、修道院長に対する売却の承認</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0379.JPG"/>
 			<zone ulx="169" uly="169" lrx="2154" lry="2776" xml:id="zone_hky_z3f_pkb"/>
 			<zone ulx="2234" uly="2234" lrx="588" lry="2715" xml:id="zone_ypm_bjf_pkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0080.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0081.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0380.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,7 +16,7 @@
 				<note type="mine">何の計算書かは文脈が分からないと分からない。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -21,11 +24,18 @@
 				<classCode scheme="">その他</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0079.JPG"/>
 			<zone ulx="554" uly="554" lrx="2436" lry="3027" xml:id="zone_n3c_32z_k3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0155.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0156.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0080.JPG"/>

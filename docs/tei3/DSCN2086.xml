@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -17,9 +20,10 @@
 				<note type="mine">裏面の「何も余計なことは加えていない」という部分でMuhibbiの所属カザーが示されているが、先行研究における彼の赴任地にこれに当たる地名が見られないので、これも手習いのために架空の地名を書いている可能性がある。もしこれが正しい地名であれば、新発見の可能性もある。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -27,6 +31,12 @@
 			<zone ulx="399" uly="399" lrx="2106" lry="1952" xml:id="zone_kws_c5h_j3b"/>
 			<zone ulx="2725" uly="2725" lrx="800" lry="3052" xml:id="zone_nfv_25h_j3b"/>
 			<zone ulx="1212" uly="1212" lrx="2047" lry="3170" xml:id="zone_j2w_j5h_j3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2010/IMG_0111.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2010/IMG_0112.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%204/DSCN2087.JPG"/>

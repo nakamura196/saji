@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,18 +17,25 @@
 				<note type="mine">日付は、本文中は1273年Receb月25日となっており、クロアチア語要約は1254年Receb月となっている。ここではオスマン語の記述を優先させたい。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1273-B-21" ], "saji:date_M": [ "1857-03-17" ], "saji:foldingMethod": [ "4x1" ], "saji:fond": [
-					"Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・本文\r\n・証人\r\n・欄外の記述" ], "saji:lang": [ "ota" ], "saji:lineage": [ "13+3" ], "saji:memo": [ "・裏面ボスニア語梗概には「1857. gr.
-					110」「Redjer 1254」という記述が見られるが、オスマン語本文の記述は「1(2?)73-B-21」と読めたので、日付はそちらを採用した。西暦もその読みに従って入力した。", "典型\r\n・ḥüccetのように見えるが、料紙のアスペクト比が異なり、上部の定型句なども見られない" ], "saji:number": [ "125" ],
-					"saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1273-B-21" ], "saji:date_M": [ "1857-03-17" ], "saji:foldingMethod": [ "4x1" ], "saji:fond": [
+					"Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・本文\r\n・証人\r\n・欄外の記述" ], "saji:lang": [ "ota" ], "saji:lineage": [ "13+3" ], "saji:memo": [ "・裏面ボスニア語梗概には「1857. gr.
+					110」「Redjer 1254」という記述が見られるが、オスマン語本文の記述は「1(2?)73-B-21」と読めたので、日付はそちらを採用した。西暦もその読みに従って入力した。", "典型\r\n・ḥüccetのように見えるが、料紙のアスペクト比が異なり、上部の定型句なども見られない" ], "saji:number": [ "125" ],
+					"saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0951.JPG"/>
 			<zone ulx="148" uly="148" lrx="2171" lry="2925" xml:id="zone_hs4_bfz_y3b"/>
 			<zone ulx="2393" uly="2393" lrx="428" lry="2553" xml:id="zone_hzw_gfz_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0171.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0172.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0952.JPG"/>

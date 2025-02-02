@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,29 +12,14 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 5" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 5" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2501.JPG"/>
-			<zone ulx="2" uly="2" lrx="1074" lry="1076" xml:id="zone_y3l_jly_ssb"/>
-			<zone ulx="29" uly="29" lrx="1982" lry="1170" xml:id="zone_azk_kly_ssb"/>
-			<zone ulx="80" uly="80" lrx="2912" lry="1178" xml:id="zone_e3k_lly_ssb"/>
-			<zone ulx="1189" uly="1189" lrx="1112" lry="2325" xml:id="zone_fvq_mly_ssb"/>
-			<zone ulx="1257" uly="1257" lrx="1965" lry="2336" xml:id="zone_k5j_nly_ssb"/>
-			<zone ulx="1234" uly="1234" lrx="2925" lry="2334" xml:id="zone_wlc_rly_ssb"/>
-		</surface>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2502.JPG"/>
-			<zone ulx="131" uly="131" lrx="1329" lry="1208" xml:id="zone_ng4_wly_ssb"/>
-			<zone ulx="87" uly="87" lrx="2117" lry="1227" xml:id="zone_alq_xly_ssb"/>
-			<zone ulx="68" uly="68" lrx="2978" lry="1157" xml:id="zone_d4w_yly_ssb"/>
-			<zone ulx="1219" uly="1219" lrx="1376" lry="2374" xml:id="zone_att_1my_ssb"/>
-			<zone ulx="1214" uly="1214" lrx="2127" lry="2317" xml:id="zone_wxc_cmy_ssb"/>
-			<zone ulx="1176" uly="1176" lrx="2982" lry="2282" xml:id="zone_ktk_dmy_ssb"/>
-		</surface>
+		<surface/>
+		<surface/>
 	</facsimile>
 	<text n="1" facs="#zone_y3l_jly_ssb #zone_ng4_wly_ssb">
 		<body>

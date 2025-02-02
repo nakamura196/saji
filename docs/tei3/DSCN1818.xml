@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="mine">buyurulduの筆跡から、全体が写しの可能性がある。しかし、写しであるという記述や署名がないことから、原本の可能性もある。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="1408" uly="1408" lrx="1767" lry="3058" xml:id="zone_ers_ds4_cjb"/>
 			<zone ulx="2694" uly="2694" lrx="529" lry="2998" xml:id="zone_w5m_3s4_cjb"/>
 			<zone ulx="673" uly="673" lrx="1324" lry="1388" xml:id="zone_urn_js4_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0088.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0089.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1819.JPG"/>

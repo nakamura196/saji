@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="mine">スペルミスが非常に多いので、まずは意味をとるために転写を差し引いて行った。後々、原綴りを再現して、誤っている個所にタグ付けをする？</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="100" uly="100" lrx="1775" lry="2991" xml:id="zone_vty_1y5_l3b"/>
 			<zone ulx="2590" uly="2590" lrx="403" lry="2915" xml:id="zone_emn_ct5_2jb"/>
 			<zone ulx="1175" uly="1175" lrx="971" lry="1379" xml:id="zone_nrm_bly_mqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0141.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0142.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0097.JPG"/>

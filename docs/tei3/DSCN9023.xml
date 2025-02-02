@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,14 +16,21 @@
 				<note type="mine">スペルに多数誤りあり。t, a, hなどの書き分けができておらず、音で文字を当てている模様。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9023.JPG"/>
 			<zone ulx="783" uly="783" lrx="2978" lry="1472" xml:id="zone_cw4_ww4_xkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0194.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0195.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9024.JPG"/>

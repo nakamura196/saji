@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,15 +16,22 @@
 				<note type="mine">字や文法が非常に乱れている。オスマン語に不慣れな書き手であることが推測される。こういう書き手も修道院をとりまく文書行政の中にいたのだということを示すには好例かもしれない。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9041.JPG"/>
 			<zone ulx="9" uly="9" lrx="613" lry="179" xml:id="zone_hyn_dnp_xkb"/>
 			<zone ulx="2669" uly="2669" lrx="2079" lry="2907" xml:id="zone_wh1_fnp_xkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0222.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0223.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9042.JPG"/>

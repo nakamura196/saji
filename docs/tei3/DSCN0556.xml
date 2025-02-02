@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,9 +12,10 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 6" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="1480" uly="1480" lrx="2320" lry="2688" xml:id="zone_sc4_r1j_2mb"/>
 			<zone ulx="2507" uly="2507" lrx="1958" lry="2671" xml:id="zone_vdg_t1j_2mb"/>
 			<zone ulx="516" uly="516" lrx="2271" lry="1512" xml:id="zone_nxn_w1j_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2012/IMG_0151.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2012/IMG_0152.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%206/DSCN0557.JPG"/>

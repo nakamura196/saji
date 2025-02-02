@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,7 +16,7 @@
 				<note type="mine">文法、文字の乱れ、誤字など多数。不慣れな筆跡から、ズィンミーが作成したか写しかであると推察される。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -21,12 +24,19 @@
 				<classCode scheme="">徴税請負</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0122.JPG"/>
 			<zone ulx="7" uly="7" lrx="1831" lry="2876" xml:id="zone_fzn_k3v_2jb"/>
 			<zone ulx="2412" uly="2412" lrx="487" lry="2857" xml:id="zone_pwq_l3v_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0110.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0111.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0123.JPG"/>

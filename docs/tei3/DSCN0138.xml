@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,7 +16,7 @@
 				<note type="mine">DSCN0141.JPGの内容と酷似している。不明な人名など参考にする。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": ["典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -21,12 +24,19 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": ["典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0138.JPG"/>
 			<zone ulx="85" uly="85" lrx="2214" lry="2492" xml:id="zone_a2v_s4w_2jb"/>
 			<zone ulx="2049" uly="2049" lrx="531" lry="2428" xml:id="zone_ddc_54w_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0129.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0130.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0139.JPG"/>

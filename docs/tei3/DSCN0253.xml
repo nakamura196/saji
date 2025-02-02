@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,9 +19,10 @@
 				<note type="mine">同じ単語を重ねて書くなど、綴りには不安定な面があるが、DSCN0249, 0251と併せて人名などを読む手掛かりになりそう。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -31,6 +35,12 @@
 			<zone ulx="1627" uly="1627" lrx="1227" lry="1763" xml:id="zone_vts_bkc_qrb"/>
 			<zone ulx="1655" uly="1655" lrx="1055" lry="1768" xml:id="zone_lyt_ckc_qrb"/>
 			<zone ulx="1597" uly="1597" lrx="927" lry="1743" xml:id="zone_zfr_dkc_qrb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0207.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0208.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0254.JPG"/>

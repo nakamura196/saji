@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,13 +12,23 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 9" ], "saji:item": [ "メモ？" ], "saji:memo": [ "・何かの数字についてのメモが書いてある\r\n・何を示しているのか不明。" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 9" ], "saji:item": [ "メモ？" ], "saji:memo": [ "・何かの数字についてのメモが書いてある\r\n・何を示しているのか不明。" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%209/DSCN0864.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2014/IMG_0012.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2014/IMG_0013.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2014/IMG_0014.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

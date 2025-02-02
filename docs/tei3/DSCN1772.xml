@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="mine">buyurulduは、字体と作成年月日の近さから、DSCN1768.JPGの書き手と同じ可能性がある。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -23,6 +27,12 @@
 			<zone ulx="2683" uly="2683" lrx="556" lry="2840" xml:id="zone_rh3_l23_cjb"/>
 			<zone ulx="2643" uly="2643" lrx="345" lry="2856" xml:id="zone_cr5_l23_cjb"/>
 			<zone ulx="846" uly="846" lrx="1208" lry="1903" xml:id="zone_wmd_n23_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0031.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0032.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1773.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,15 +15,22 @@
 				<note type="mine">【要】典型：自己言及がない。要検討。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1885.JPG"/>
 			<zone ulx="100" uly="100" lrx="1670" lry="3161" xml:id="zone_fny_jsw_cjb"/>
 			<zone ulx="2480" uly="2480" lrx="551" lry="3107" xml:id="zone_bvw_lsw_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0011.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0012.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1886.JPG"/>

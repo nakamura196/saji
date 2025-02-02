@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,15 +15,22 @@
 				<note type="mine">【要】日付：セルビア語要約内の日付を作成年としたが、作成年かどうか要検討。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_M": [ "1776-" ], "saji:foldingMethod": [ "4" ], "saji:fond": [ "Tursko 1" ], "saji:item": [ "ボスニア語本文",
-					"ボスニア語会計", "クレシェヴォのスタンプ" ], "saji:lang": [ "bos" ], "saji:lineage": [ "5-N1" ], "saji:memo": [ "会計：7行", "すべてボスニア語、オスマン語記述なし", "本文と会計の記録されている向きが違う", "典型" ], "saji:number": [ "40?"
-					], "saji:relationWithAnotherItems": [ "DSCN0902.JPG_表", "表全体像" ], "saji:stamp_c": [ "1" ], "saji:type": [ "?" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_M": [ "1776-" ], "saji:foldingMethod": [ "4" ], "saji:fond": [ "Tursko 1" ], "saji:item": [ "ボスニア語本文",
+					"ボスニア語会計", "クレシェヴォのスタンプ" ], "saji:lang": [ "bos" ], "saji:lineage": [ "5-N1" ], "saji:memo": [ "会計：7行", "すべてボスニア語、オスマン語記述なし", "本文と会計の記録されている向きが違う", "典型" ], "saji:number": [ "40?"
+					], "saji:relationWithAnotherItems": [ "DSCN0902.JPG_表", "表全体像" ], "saji:stamp_c": [ "1" ], "saji:type": [ "?" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0902.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0094.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0099.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0903.JPG"/>

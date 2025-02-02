@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -15,7 +18,7 @@
 				<note type="mine">語彙が他の文書と違う。字はきれいなので、辞書があればもう少し読めそう。【要】読み直し。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -23,6 +26,7 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -37,6 +41,12 @@
 			<zone ulx="2352" uly="2352" lrx="1959" lry="2608" xml:id="zone_apd_n3j_lrb"/>
 			<zone ulx="2201" uly="2201" lrx="2022" lry="2434" xml:id="zone_jfg_43j_lrb"/>
 			<zone ulx="2053" uly="2053" lrx="2030" lry="2218" xml:id="zone_qjb_p3j_lrb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0199.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0200.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0240.JPG"/>

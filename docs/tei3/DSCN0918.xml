@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,7 +12,10 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
           "1257-Ra-23" ], "saji:date_M": [ "1841-05-15" ], "saji:foldingMethod": [ "8" ],
           "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "\"hüve\"", "本文", "会計",
           "オスマン朝スタンプ", "クレシェヴォのスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "7" ],
@@ -19,15 +25,19 @@
           "saji:stamp_o": [ "1" ], "saji:transcription": [ "Varuş-ı Kreşevo … iken bundan aḳdem ...
           olan\r\n... nām" ], "saji:type": [ "ḳassām deftrei",
           "紙の種類が簡素なので、写しの可能性がある。\r\n差出人がナーヒエのナーイブなので簡素？\r\n死亡者が\"mürd\"と表現されていることから、改革前のものと思われる。" ]
-          }</p>
-			</sourceDesc>
-		</fileDesc>
+          }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0918.JPG"/>
 			<zone ulx="253" uly="253" lrx="2262" lry="2630" xml:id="zone_lh1_cty_y3b"/>
 			<zone ulx="2413" uly="2413" lrx="1790" lry="2583" xml:id="zone_ydk_dty_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0044.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0045.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

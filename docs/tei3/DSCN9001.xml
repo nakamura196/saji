@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,9 +16,10 @@
 				<note type="mine">☆(Seklić 2019)のような、夏営地の保有をめぐる案件。もとの持ち主がムスリム女性であることが特徴。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -23,6 +27,12 @@
 			<zone ulx="83" uly="83" lrx="2275" lry="350" xml:id="zone_ccm_5sy_wkb"/>
 			<zone ulx="2445" uly="2445" lrx="1921" lry="2704" xml:id="zone_efm_vsy_wkb"/>
 			<zone ulx="875" uly="875" lrx="1266" lry="1783" xml:id="zone_pt2_wsy_wkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0043.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0044.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9002.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,7 +17,7 @@
 				<note type="mine">DSCN0371.JPGと比較するとこの文書の土地記録年が分かるかも</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -22,11 +25,18 @@
 				<classCode scheme="">その他</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9161.JPG"/>
 			<zone ulx="83" uly="83" lrx="2556" lry="2022" xml:id="zone_bpt_3cq_h3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0070.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0071.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="mine">【要】日付：クロアチア語要約の月が読み取れなかったので、TEIの方には適当な数字を入力している。要確認。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -24,6 +28,12 @@
 			<zone ulx="753" uly="753" lrx="1473" lry="2280" xml:id="zone_gsh_ltv_cjb"/>
 			<zone ulx="1460" uly="1460" lrx="1460" lry="2280" xml:id="zone_rb2_mtv_cjb"/>
 			<zone ulx="1941" uly="1941" lrx="887" lry="2091" xml:id="zone_drk_ntv_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0139.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0140.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1863.JPG"/>

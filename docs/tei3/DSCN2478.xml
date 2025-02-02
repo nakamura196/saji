@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,23 +15,16 @@
 				<note type="summary">フォルダ表紙：フォルダ5</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 5" ], "saji:relationWithAnotherItems": [ "フォンド表紙" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 5" ], "saji:relationWithAnotherItems": [ "フォンド表紙" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2478.JPG"/>
-		</surface>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2479.JPG"/>
-		</surface>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2480.JPG"/>
-		</surface>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2481.JPG"/>
-		</surface>
+		<surface/>
+		<surface/>
+		<surface/>
+		<surface/>
 	</facsimile>
 	<text>
 		<body>

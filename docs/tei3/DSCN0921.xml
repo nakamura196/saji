@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,17 +12,24 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod":
-          [ "4x3" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:lang": [ "ota" ],
-          "saji:lineage": [ "11" ], "saji:number": [ "355" ], "saji:relationWithAnotherItems": [
-          "表全体" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "0" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod":
+          [ "4x3" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:lang": [ "ota" ],
+          "saji:lineage": [ "11" ], "saji:number": [ "355" ], "saji:relationWithAnotherItems": [
+          "表全体" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "0" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0921.JPG"/>
 			<zone ulx="-10" uly="-10" lrx="1730" lry="2940" xml:id="zone_ixf_m5y_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0138.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0141.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0922.JPG"/>

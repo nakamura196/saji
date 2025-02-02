@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,9 +16,10 @@
 				<note type="mine">表面の署名は1つだが、裏面にスタンプが2つある。おそらく押印に失敗したため、もう一度押し直したのだろう。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -23,6 +27,12 @@
 			<zone ulx="454" uly="454" lrx="684" lry="659" xml:id="zone_n3t_gct_flb"/>
 			<zone ulx="291" uly="291" lrx="501" lry="503" xml:id="zone_rgn_hct_flb"/>
 			<zone ulx="2457" uly="2457" lrx="2248" lry="2760" xml:id="zone_v2s_3ct_flb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0163.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0164.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9078.JPG"/>

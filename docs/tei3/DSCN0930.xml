@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,20 +15,33 @@
 				<note type="mine">マフムート2世期</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "プリント" ], "saji:date_H": [
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "プリント" ], "saji:date_H": [
           "1158-N-28" ], "saji:foldingMethod": [ "2x2" ], "saji:fond": [ "Tursko 1" ], "saji:huve":
           [ "0" ], "saji:item": [ "・タイトル\r\n・ページ番号\r\n・本文\r\n・書き込み1\r\n・書き込み2" ], "saji:lang": [
           "ota" ], "saji:memo": [ "典型", "マフムート2世期" ], "saji:number": [ "254" ],
           "saji:relationWithAnotherItems": [ "1枚目(p. 1253) 表全体像" ], "saji:stamp_c": [ "0" ],
           "saji:stamp_o": [ "0" ], "saji:type": [ "taḳvīm-i veḳāyiʿ" ], "saji:witness": [ "0" ]
-          }</p>
-			</sourceDesc>
-		</fileDesc>
+          }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0930.JPG"/>
 			<zone ulx="263" uly="263" lrx="2154" lry="2800" xml:id="zone_xtr_c1z_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0154.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0164.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0166.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0169.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0931.JPG"/>

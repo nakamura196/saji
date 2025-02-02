@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,7 +12,10 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
           "(12)63-N-22" ], "saji:date_M": [ "1847-09-03" ], "saji:foldingMethod": [ "8×2" ],
           "saji:fond": [ "Tursko 1" ], "saji:item": [ "本文" ], "saji:lang": [ "ota" ],
           "saji:lineage": [ "8" ], "saji:memo": [ "日付：下二桁しか記されていないが、100の位が偶数の場合省略する慣習(çift
@@ -18,14 +24,18 @@
           "saji:placeFull": [ "Bosna" ], "saji:relationWithAnotherItems": [ "DSCN0913.JPG_表", "表全体像"
           ], "saji:transcription": [ "Devletlü efendim ḫażretleri\r\n\r\nBosna'da bulnan ...
           papaslar ... bir ḳaç" ], "saji:type": [ "ḳā'ime", "地方から中央へ送られる文書なので、地方には残らないはず。写しの可能性。" ]
-          }</p>
-			</sourceDesc>
-		</fileDesc>
+          }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0913.JPG"/>
 			<zone ulx="166" uly="166" lrx="1675" lry="2725" xml:id="zone_bq2_f4y_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0034.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0036.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0914.JPG"/>

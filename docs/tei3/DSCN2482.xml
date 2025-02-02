@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,16 +12,13 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 5" ], "saji:memo": [ "・はがきサイズかそれより小さい？" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 5" ], "saji:memo": [ "・はがきサイズかそれより小さい？" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2482.JPG"/>
-			<zone ulx="1000" uly="1000" lrx="2145" lry="3154" xml:id="zone_o1k_bgb_2mb"/>
-			<zone ulx="2505" uly="2505" lrx="677" lry="2977" xml:id="zone_agn_cgb_2mb"/>
-		</surface>
+		<surface/>
 	</facsimile>
 	<text>
 		<body>

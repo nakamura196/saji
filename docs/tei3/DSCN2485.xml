@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,29 +12,14 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 5" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 5" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2485.JPG"/>
-			<zone ulx="47" uly="47" lrx="1030" lry="1130" xml:id="zone_vbq_v5x_ssb"/>
-			<zone ulx="110" uly="110" lrx="1957" lry="1150" xml:id="zone_v1w_w5x_ssb"/>
-			<zone ulx="83" uly="83" lrx="2880" lry="1180" xml:id="zone_jnr_y5x_ssb"/>
-			<zone ulx="1137" uly="1137" lrx="1054" lry="2293" xml:id="zone_fp4_1vx_ssb"/>
-			<zone ulx="1217" uly="1217" lrx="1987" lry="2363" xml:id="zone_zjs_bvx_ssb"/>
-			<zone ulx="1247" uly="1247" lrx="2920" lry="2320" xml:id="zone_xcw_cvx_ssb"/>
-		</surface>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2486.JPG"/>
-			<zone ulx="160" uly="160" lrx="1102" lry="1210" xml:id="zone_jxh_lvx_ssb"/>
-			<zone ulx="171" uly="171" lrx="1957" lry="1236" xml:id="zone_uwc_mvx_ssb"/>
-			<zone ulx="213" uly="213" lrx="2805" lry="1260" xml:id="zone_xtz_mvx_ssb"/>
-			<zone ulx="1200" uly="1200" lrx="1105" lry="2310" xml:id="zone_iv2_4vx_ssb"/>
-			<zone ulx="1226" uly="1226" lrx="1973" lry="2328" xml:id="zone_nck_pvx_ssb"/>
-			<zone ulx="1244" uly="1244" lrx="2868" lry="2350" xml:id="zone_ucb_tvx_ssb"/>
-		</surface>
+		<surface/>
+		<surface/>
 	</facsimile>
 	<text n="1" facs="#zone_vbq_v5x_ssb #zone_jxh_lvx_ssb">
 		<body>

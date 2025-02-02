@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,7 +12,10 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
           "1179-M-23" ], "saji:date_M": [ "1765-07-12" ], "saji:foldingMethod": [ "4×2" ],
           "saji:fond": [ "Tursko 1" ], "saji:item": [ "本文", "宸筆1", "宸筆2", "オスマン朝スタンプ", "ボスニア語梗概" ],
           "saji:lang": [ "ota", "bos" ], "saji:lineage": [ "9" ], "saji:memo": [ "教会の修繕に関するもの？",
@@ -19,14 +25,18 @@
           Türk(?) olunan kilisayı\r\n... rāhibleri meclis-i şerʿye gelüb şöyle ... eylediler ki fetḥ
           ... hümāyūn ... reʿāyāsı fuḳarālar(i)çün Türk olunub ḳaṣaba-i meẕkūrede\r\nvāḳʿ kilisaya
           tārīḫ-ı kitābdan üç ay muḳaddem bi-ḳażā-i ... ateş ... idüb kilisa-i meẕkūreniñ ... vāḳʿ
-          ... ve sāyer\r\n... olan" ], "saji:type": [ "iʿlām", "Der-devlet-i" ] }</p>
-			</sourceDesc>
-		</fileDesc>
+          ... ve sāyer\r\n... olan" ], "saji:type": [ "iʿlām", "Der-devlet-i" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0899.JPG"/>
 			<zone ulx="267" uly="267" lrx="2121" lry="583" xml:id="zone_xmj_vk3_x3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0085.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0088.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0900.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,7 +15,7 @@
 				<note type="summary">1100グルシュを納めた領収書</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]}</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -20,6 +23,7 @@
 				<classCode scheme="">納税証明</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ]}</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -27,6 +31,12 @@
 			<zone ulx="209" uly="209" lrx="1875" lry="2945" xml:id="zone_rbd_mfz_k3b"/>
 			<zone ulx="1737" uly="1737" lrx="1604" lry="2929" xml:id="zone_xzn_g3z_k3b"/>
 			<zone ulx="2249" uly="2249" lrx="1075" lry="2495" xml:id="zone_kmd_3r5_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0153.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0154.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0083.JPG"/>

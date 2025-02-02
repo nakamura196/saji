@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,15 +15,22 @@
 				<note type="mine">あまりに字が汚いしスタンプなども現状あるかどうか分からないので、手習いに写し書きしたものか？作成年が非常に古そうなので、本当の文書か写しか裏面なども見つつ要検討。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9304.JPG"/>
 			<zone ulx="318" uly="318" lrx="2145" lry="3053" xml:id="zone_w2g_dql_tlb"/>
 			<zone ulx="2773" uly="2773" lrx="376" lry="3042" xml:id="zone_end_gql_tlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%205/IMG_0154.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%205/IMG_0155.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

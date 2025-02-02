@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,11 +12,12 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
-          "このタイプの文書を何と呼ぶかは要検討。\r\n自己言及がないので、現状日本語で上奏文としておく。" ], "saji:type": [ "vālīから大宰相への上奏文の写し" ]
-          }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
+          "このタイプの文書を何と呼ぶかは要検討。\r\n自己言及がないので、現状日本語で上奏文としておく。" ], "saji:type": [ "vālīから大宰相への上奏文の写し" ]
+          }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -23,6 +27,12 @@
 			<zone ulx="1984" uly="1984" lrx="530" lry="2151" xml:id="zone_wdp_j2x_1jb"/>
 			<zone ulx="257" uly="257" lrx="2103" lry="663" xml:id="zone_ufl_k2x_1jb"/>
 			<zone ulx="451" uly="451" lrx="2084" lry="612" xml:id="zone_mqm_l2x_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0486.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0487.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1677.JPG"/>

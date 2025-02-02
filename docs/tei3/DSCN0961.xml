@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,17 +16,24 @@
 				<note type="mine">DSCN1050.JPGと同じ文書。重複している。画像は撮り直している。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1233-Ca-10(?)" ], "saji:date_M": [ "1818-03-18" ], "saji:foldingMethod": [ "5x1" ],
-					"saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・本文\r\n・日付\r\n・はしがき（証人？）\r\n・不明なスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "14" ],
-					"saji:number": [ "48" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "?" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1233-Ca-10(?)" ], "saji:date_M": [ "1818-03-18" ], "saji:foldingMethod": [ "5x1" ],
+					"saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・本文\r\n・日付\r\n・はしがき（証人？）\r\n・不明なスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "14" ],
+					"saji:number": [ "48" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "?" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0961.JPG"/>
 			<zone ulx="72" uly="72" lrx="1982" lry="2836" xml:id="zone_rsg_lrz_y3b"/>
 			<zone ulx="2241" uly="2241" lrx="637" lry="2466" xml:id="zone_osm_tp5_jjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0367.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0368.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0962.JPG"/>

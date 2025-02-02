@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="summary">何らかの代金の受領証</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="427" uly="427" lrx="2045" lry="2881" xml:id="zone_akg_1zg_j3b"/>
 			<zone ulx="1983" uly="1983" lrx="896" lry="2841" xml:id="zone_hld_czg_j3b"/>
 			<zone ulx="2577" uly="2577" lrx="873" lry="2817" xml:id="zone_atm_dzg_j3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%209/IMG_0144.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%209/IMG_0145.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

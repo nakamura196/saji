@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -15,7 +18,7 @@
 				<note type="mine">差出人不明。土地を管理するエミンが出したもの？</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -23,12 +26,19 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9055.JPG"/>
 			<zone ulx="1366" uly="1366" lrx="2367" lry="2988" xml:id="zone_vtk_r4c_ykb"/>
 			<zone ulx="2727" uly="2727" lrx="290" lry="2948" xml:id="zone_qgx_s4c_ykb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0134.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0135.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

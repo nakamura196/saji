@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="summary">金鉱山?の割当、共同保有？</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="100" uly="100" lrx="2266" lry="3067" xml:id="zone_fgk_wg5_xjb"/>
 			<zone ulx="2720" uly="2720" lrx="970" lry="3056" xml:id="zone_rkr_xg5_xjb"/>
 			<zone ulx="2686" uly="2686" lrx="557" lry="3040" xml:id="zone_hcn_yg5_xjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0187.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0188.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,15 +15,22 @@
 				<note type="mine">スタンプ：署名の裏側にスタンプを押している形跡があるが、裏面画像には写っていない。【要】再撮影。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1688.JPG"/>
 			<zone ulx="-18" uly="-18" lrx="2373" lry="3090" xml:id="zone_h4s_f2y_1jb"/>
 			<zone ulx="2618" uly="2618" lrx="444" lry="2944" xml:id="zone_dp3_h2y_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0045.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0046.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1689.JPG"/>

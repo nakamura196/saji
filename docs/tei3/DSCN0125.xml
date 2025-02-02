@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,9 +17,10 @@
 				<note type="mine">署名：傘型</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -24,6 +28,21 @@
 			<zone ulx="227" uly="227" lrx="2354" lry="3081" xml:id="zone_nhk_kmv_2jb"/>
 			<zone ulx="1691" uly="1691" lrx="1240" lry="2995" xml:id="zone_elf_mmv_2jb"/>
 			<zone ulx="2097" uly="2097" lrx="983" lry="2244" xml:id="zone_et2_nmv_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0114.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0115.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0116.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0117.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0118.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0126.JPG"/>

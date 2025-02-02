@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,29 +12,14 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 5" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 5" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2495.JPG"/>
-			<zone ulx="91" uly="91" lrx="1206" lry="1184" xml:id="zone_jc1_pgy_ssb"/>
-			<zone ulx="80" uly="80" lrx="2008" lry="1128" xml:id="zone_kl3_qgy_ssb"/>
-			<zone ulx="135" uly="135" lrx="2871" lry="1260" xml:id="zone_n5c_rgy_ssb"/>
-			<zone ulx="1195" uly="1195" lrx="1186" lry="2313" xml:id="zone_vzj_sgy_ssb"/>
-			<zone ulx="1177" uly="1177" lrx="2024" lry="2348" xml:id="zone_ttn_tgy_ssb"/>
-			<zone ulx="1286" uly="1286" lrx="2868" lry="2382" xml:id="zone_qcr_5gy_ssb"/>
-		</surface>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2496.JPG"/>
-			<zone ulx="72" uly="72" lrx="1179" lry="1093" xml:id="zone_k1f_bhy_ssb"/>
-			<zone ulx="122" uly="122" lrx="1900" lry="1091" xml:id="zone_o2c_chy_ssb"/>
-			<zone ulx="154" uly="154" lrx="2714" lry="1164" xml:id="zone_er2_dhy_ssb"/>
-			<zone ulx="1104" uly="1104" lrx="1185" lry="2187" xml:id="zone_l3k_2hy_ssb"/>
-			<zone ulx="1093" uly="1093" lrx="1935" lry="2195" xml:id="zone_wmy_fhy_ssb"/>
-			<zone ulx="1152" uly="1152" lrx="2704" lry="2175" xml:id="zone_fbb_hhy_ssb"/>
-		</surface>
+		<surface/>
+		<surface/>
 	</facsimile>
 	<text n="1" facs="#zone_jc1_pgy_ssb #zone_k1f_bhy_ssb">
 		<body>

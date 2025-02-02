@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,60 +15,16 @@
 				<note type="summary">諸税の支払い証明書？</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 5" ], "saji:memo": [
-					"・はがきサイズと思われる同サイズの文書は、6枚ずつ並べられて撮影されている。\r\n・このフォンド内の文書は、最初の1点を除いて、すべて同様の方法で撮影されており、1枚ずつの画像はない。\r\n・これらの文書は基本的に、「4つのオスマン朝スタンプ／日付／何らかの定型／短いオスマン語」の要素から構成されている。\r\n・これらの文書サイズは、暫定的に「B」としておく。",
-					"典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 5" ], "saji:memo": [
+					"・はがきサイズと思われる同サイズの文書は、6枚ずつ並べられて撮影されている。\r\n・このフォンド内の文書は、最初の1点を除いて、すべて同様の方法で撮影されており、1枚ずつの画像はない。\r\n・これらの文書は基本的に、「4つのオスマン朝スタンプ／日付／何らかの定型／短いオスマン語」の要素から構成されている。\r\n・これらの文書サイズは、暫定的に「B」としておく。",
+					"典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2483.JPG"/>
-			<zone ulx="93" uly="93" lrx="996" lry="1140" xml:id="zone_v1w_sgb_2mb"/>
-			<zone ulx="288" uly="288" lrx="910" lry="451" xml:id="zone_olc_vgb_2mb"/>
-			<zone ulx="325" uly="325" lrx="600" lry="481" xml:id="zone_hrs_vgb_2mb"/>
-			<zone ulx="828" uly="828" lrx="968" lry="1002" xml:id="zone_uvj_wgb_2mb"/>
-			<zone ulx="898" uly="898" lrx="545" lry="1045" xml:id="zone_msy_wgb_2mb"/>
-			<zone ulx="108" uly="108" lrx="1866" lry="1170" xml:id="zone_vfb_ygb_2mb"/>
-			<zone ulx="250" uly="250" lrx="1706" lry="445" xml:id="zone_pbm_1hb_2mb"/>
-			<zone ulx="288" uly="288" lrx="1443" lry="479" xml:id="zone_ddj_bhb_2mb"/>
-			<zone ulx="813" uly="813" lrx="1672" lry="972" xml:id="zone_vtb_chb_2mb"/>
-			<zone ulx="141" uly="141" lrx="2767" lry="1167" xml:id="zone_k1f_dhb_2mb"/>
-			<zone ulx="366" uly="366" lrx="2661" lry="535" xml:id="zone_a22_2hb_2mb"/>
-			<zone ulx="276" uly="276" lrx="2466" lry="466" xml:id="zone_hf5_2hb_2mb"/>
-			<zone ulx="979" uly="979" lrx="2630" lry="1112" xml:id="zone_lgs_fhb_2mb"/>
-			<zone ulx="964" uly="964" lrx="2410" lry="1097" xml:id="zone_d14_ghb_2mb"/>
-			<zone ulx="1244" uly="1244" lrx="940" lry="2368" xml:id="zone_dcx_hhb_2mb"/>
-			<zone ulx="1909" uly="1909" lrx="497" lry="2102" xml:id="zone_r1j_jhb_2mb"/>
-			<zone ulx="1934" uly="1934" lrx="758" lry="2130" xml:id="zone_ydl_khb_2mb"/>
-			<zone ulx="1332" uly="1332" lrx="532" lry="1479" xml:id="zone_fpm_lhb_2mb"/>
-			<zone ulx="1381" uly="1381" lrx="820" lry="1513" xml:id="zone_bnk_mhb_2mb"/>
-			<zone ulx="1230" uly="1230" lrx="1846" lry="2356" xml:id="zone_scm_nhb_2mb"/>
-			<zone ulx="1920" uly="1920" lrx="1507" lry="2115" xml:id="zone_op4_4hb_2mb"/>
-			<zone ulx="1930" uly="1930" lrx="1772" lry="2112" xml:id="zone_jqf_phb_2mb"/>
-			<zone ulx="1375" uly="1375" lrx="1455" lry="1527" xml:id="zone_rkv_phb_2mb"/>
-			<zone ulx="1365" uly="1365" lrx="1790" lry="1510" xml:id="zone_bph_qhb_2mb"/>
-			<zone ulx="1258" uly="1258" lrx="2851" lry="2317" xml:id="zone_jxc_rhb_2mb"/>
-			<zone ulx="1543" uly="1543" lrx="2725" lry="1725" xml:id="zone_esm_shb_2mb"/>
-			<zone ulx="1492" uly="1492" lrx="2463" lry="1691" xml:id="zone_us1_thb_2mb"/>
-			<zone ulx="2067" uly="2067" lrx="2714" lry="2217" xml:id="zone_lsm_thb_2mb"/>
-			<zone ulx="2066" uly="2066" lrx="2425" lry="2204" xml:id="zone_yyb_5hb_2mb"/>
-		</surface>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2484.JPG"/>
-			<zone ulx="87" uly="87" lrx="1116" lry="1164" xml:id="zone_rxz_vhb_2mb"/>
-			<zone ulx="816" uly="816" lrx="726" lry="922" xml:id="zone_sfc_xhb_2mb"/>
-			<zone ulx="115" uly="115" lrx="2000" lry="1146" xml:id="zone_y5c_xhb_2mb"/>
-			<zone ulx="819" uly="819" lrx="1707" lry="940" xml:id="zone_zfl_zhb_2mb"/>
-			<zone ulx="143" uly="143" lrx="2774" lry="1155" xml:id="zone_yxs_13b_2mb"/>
-			<zone ulx="766" uly="766" lrx="2460" lry="869" xml:id="zone_ttb_d3b_2mb"/>
-			<zone ulx="1187" uly="1187" lrx="1087" lry="2250" xml:id="zone_d1c_23b_2mb"/>
-			<zone ulx="1333" uly="1333" lrx="733" lry="1446" xml:id="zone_wqh_33b_2mb"/>
-			<zone ulx="1220" uly="1220" lrx="1964" lry="2284" xml:id="zone_nwt_j3b_2mb"/>
-			<zone ulx="1385" uly="1385" lrx="1682" lry="1500" xml:id="zone_wpc_l3b_2mb"/>
-			<zone ulx="1241" uly="1241" lrx="2744" lry="2255" xml:id="zone_ycc_m3b_2mb"/>
-			<zone ulx="2020" uly="2020" lrx="2447" lry="2139" xml:id="zone_gdc_43b_2mb"/>
-		</surface>
+		<surface/>
+		<surface/>
 	</facsimile>
 	<text n="1" facs="#zone_v1w_sgb_2mb #zone_rxz_vhb_2mb">
 		<body>

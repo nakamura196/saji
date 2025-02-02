@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,7 +16,7 @@
 				<note type="summary">夏営地の、クレシェヴォ修道院の修道士に対する売却に関する承認文書、またそこからの徴税権の承認文書</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -21,6 +24,7 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -33,6 +37,12 @@
 			<zone ulx="2390" uly="2390" lrx="2163" lry="2687" xml:id="zone_d2d_m3t_wqb"/>
 			<zone ulx="2273" uly="2273" lrx="2126" lry="2477" xml:id="zone_gf5_m3t_wqb"/>
 			<zone ulx="2122" uly="2122" lrx="2181" lry="2337" xml:id="zone_sb4_n3t_wqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0015.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0016.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0200.JPG"/>

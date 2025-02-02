@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,9 +16,10 @@
 				<note type="mine">şühūdu'l-hālにパシャが2人もいる？beşeの間違いか？</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -23,6 +27,12 @@
 			<zone ulx="331" uly="331" lrx="596" lry="557" xml:id="zone_pdr_4dt_flb"/>
 			<zone ulx="337" uly="337" lrx="283" lry="566" xml:id="zone_twf_pdt_flb"/>
 			<zone ulx="2873" uly="2873" lrx="2152" lry="3191" xml:id="zone_jdf_qdt_flb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0166.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0167.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9080.JPG"/>

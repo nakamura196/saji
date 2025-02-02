@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -17,7 +20,7 @@
 				<note type="mine">【要】作成者の署名が読めないので、ムスリムなのか非ムスリムなのか要確認。※本文記述からエミンであることは確実。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -25,6 +28,7 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -36,6 +40,12 @@
 			<zone ulx="1777" uly="1777" lrx="581" lry="1981" xml:id="zone_lsc_wtq_qqb"/>
 			<zone ulx="2104" uly="2104" lrx="1515" lry="2285" xml:id="zone_arr_m5q_qqb"/>
 			<zone ulx="2160" uly="2160" lrx="1111" lry="2365" xml:id="zone_um2_fwq_qqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0160.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0161.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0187.JPG"/>

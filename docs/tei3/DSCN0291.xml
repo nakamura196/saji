@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,15 +15,22 @@
 				<note type="summary">非ムスリムTOMİÇ Andriyeの私有地(emlāk)である鉱山の、修道院長に対する売却の承認</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0291.JPG"/>
 			<zone ulx="183" uly="183" lrx="2217" lry="3116" xml:id="zone_wrw_bks_yjb"/>
 			<zone ulx="2748" uly="2748" lrx="464" lry="3116" xml:id="zone_gxd_dks_yjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0195.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0196.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0292.JPG"/>

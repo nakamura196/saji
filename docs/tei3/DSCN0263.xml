@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,7 +16,7 @@
 				<note type="mine">【要】エミンが文書を作成したと思われるが、内容が森林の共同保有だけあって契約者の署名がずらりと並んでおり、文書作成者（責任者）の署名がどれであるか判然としない。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -21,6 +24,7 @@
 				<classCode scheme="">土地の共同保有</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -39,6 +43,12 @@
 			<zone ulx="2464" uly="2464" lrx="850" lry="2713" xml:id="zone_cwy_rwg_d5b"/>
 			<zone ulx="2402" uly="2402" lrx="560" lry="2753" xml:id="zone_spc_twg_d5b"/>
 			<zone ulx="2713" uly="2713" lrx="1801" lry="2903" xml:id="zone_d41_5wg_d5b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0217.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0218.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,16 +16,23 @@
 				<note type="mine">署名：傘型</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Dīvān kuruması" ], "saji:fond":
-          [ "Tursko 1" ], "saji:from": [ "Defterdar Süleyman İzzet" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Dīvān kuruması" ], "saji:fond":
+          [ "Tursko 1" ], "saji:from": [ "Defterdar Süleyman İzzet" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0993.JPG"/>
 			<zone ulx="100" uly="100" lrx="1827" lry="3145" xml:id="zone_l5b_cpf_z3b"/>
 			<zone ulx="2698" uly="2698" lrx="767" lry="2838" xml:id="zone_k1m_dpf_z3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0187.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0189.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

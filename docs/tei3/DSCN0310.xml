@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="summary">国有地arāz-i mīrīyeの非ムスリムの耕作地の、修道院長に対する譲渡の承認</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="0" uly="0" lrx="2385" lry="2507" xml:id="zone_yns_rv4_2kb"/>
 			<zone ulx="2102" uly="2102" lrx="628" lry="2453" xml:id="zone_dvh_dw4_2kb"/>
 			<zone ulx="2221" uly="2221" lrx="612" lry="2428" xml:id="zone_t4g_2w4_2kb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0141.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0142.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0311.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,15 +22,22 @@
 				<note type="mine">DSCN1919.JPGと同じ村・人物・話題か？KOMAY／KOMAR、YÜZÜ KALAM／PUFER ve KAIM veled-i YTR</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1915.JPG"/>
 			<zone ulx="269" uly="269" lrx="2946" lry="2277" xml:id="zone_gyq_qhx_cjb"/>
 			<zone ulx="1908" uly="1908" lrx="825" lry="2258" xml:id="zone_d5z_rhx_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0075.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0076.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1916.JPG"/>

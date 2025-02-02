@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="summary">クレシェヴォの鉄鉱山のムカーターの、非ムスリムであるアントンに対する譲渡</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="219" uly="219" lrx="1281" lry="431" xml:id="zone_bm4_c3h_skb"/>
 			<zone ulx="440" uly="440" lrx="1072" lry="700" xml:id="zone_dxf_d3h_skb"/>
 			<zone ulx="164" uly="164" lrx="985" lry="425" xml:id="zone_icc_23h_skb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0061.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0062.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN8975.JPG"/>

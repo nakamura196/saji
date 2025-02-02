@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -16,7 +19,10 @@
 				<note type="mine"/>
 			</notesStmt>
 			<sourceDesc>
-				<p>{
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>{
   "saji:aspectRatioType": [
     "n/a"
   ],
@@ -26,13 +32,17 @@
   "saji:relationWithAnotherItems": [
     "フォンド表紙"
   ]
-}</p>
-			</sourceDesc>
-		</fileDesc>
+}</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%202/DSCN8912.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0124.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0126.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%202/DSCN8913.JPG"/>

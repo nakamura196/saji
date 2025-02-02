@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,7 +15,7 @@
 				<note type="summary">果樹園などの土地の売買契約：絶対に取り消せない売却および移転 beyʿ-i bāt katʿiyle beyʿ ü ferāğ</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -20,12 +23,19 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0124.JPG"/>
 			<zone ulx="1475" uly="1475" lrx="2317" lry="3058" xml:id="zone_mms_tlv_2jb"/>
 			<zone ulx="2605" uly="2605" lrx="584" lry="3020" xml:id="zone_pdx_5lv_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0112.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0113.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

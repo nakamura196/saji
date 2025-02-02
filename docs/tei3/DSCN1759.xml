@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,14 +15,21 @@
 				<note type="summary">各土地のウシュル代替金(ʿaşār-ı bedel)についての記録</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型"], "saji:type": [ "defter" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型"], "saji:type": [ "defter" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1759.JPG"/>
 			<zone ulx="167" uly="167" lrx="2607" lry="2060" xml:id="zone_vpd_x4h_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0022.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0023.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1760.JPG"/>

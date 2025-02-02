@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,9 +17,10 @@
 				<note type="mine">DSCN0249.JPGと類似の語彙。【要】比較・読み直し。DSCN0251.JPGの方がやや読みやすい。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -24,6 +28,12 @@
 			<zone ulx="118" uly="118" lrx="1782" lry="2763" xml:id="zone_zqv_gqt_xjb"/>
 			<zone ulx="2405" uly="2405" lrx="437" lry="2745" xml:id="zone_dzt_hqt_xjb"/>
 			<zone ulx="1959" uly="1959" lrx="764" lry="2102" xml:id="zone_y5y_m2b_qrb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0205.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0206.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0252.JPG"/>

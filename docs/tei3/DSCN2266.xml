@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="mine">【要検討】暦がルーミー暦。換算が合っているか要検討。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="300" uly="300" lrx="2317" lry="3025" xml:id="zone_lhq_fyf_dmb"/>
 			<zone ulx="2331" uly="2331" lrx="643" lry="3009" xml:id="zone_tph_hyf_dmb"/>
 			<zone ulx="2675" uly="2675" lrx="595" lry="2997" xml:id="zone_fxs_3yf_dmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%209/IMG_0056.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%209/IMG_0060.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

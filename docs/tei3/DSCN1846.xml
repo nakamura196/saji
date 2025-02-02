@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -15,15 +18,22 @@
 				<note type="mine">土地などに関係しない、一時的な出来事に関する文書であるが、このような文書まで保管されている。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1846.JPG"/>
 			<zone ulx="225" uly="225" lrx="2017" lry="2975" xml:id="zone_wbh_vgq_cjb"/>
 			<zone ulx="2651" uly="2651" lrx="495" lry="2951" xml:id="zone_rwr_wgq_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0118.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0119.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1847.JPG"/>

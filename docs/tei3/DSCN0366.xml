@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,15 +16,22 @@
 				<note type="mine">文法・スペル崩壊気味…</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0366.JPG"/>
 			<zone ulx="169" uly="169" lrx="2247" lry="2846" xml:id="zone_fqn_fx2_pkb"/>
 			<zone ulx="2132" uly="2132" lrx="773" lry="2443" xml:id="zone_sft_gx2_pkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0172.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0173.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0367.JPG"/>

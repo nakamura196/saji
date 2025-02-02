@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -17,7 +20,7 @@
 				<note type="mine">用紙にアルファベットの透かし"EGA"が入っている。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -25,6 +28,7 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -38,6 +42,12 @@
 			<zone ulx="2643" uly="2643" lrx="2184" lry="2817" xml:id="zone_e4s_tvp_grb"/>
 			<zone ulx="2495" uly="2495" lrx="2239" lry="2645" xml:id="zone_tct_vvp_grb"/>
 			<zone ulx="2351" uly="2351" lrx="2196" lry="2495" xml:id="zone_jly_wvp_grb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0030.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0031.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0215.JPG"/>

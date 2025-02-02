@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,15 +15,22 @@
 				<note type="summary">エミンから修道院長に対する、鉄鉱山のある地域のアーシャール税の譲渡ferāğの承認</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0286.JPG"/>
 			<zone ulx="9" uly="9" lrx="1773" lry="3081" xml:id="zone_p5j_hf5_xjb"/>
 			<zone ulx="2679" uly="2679" lrx="526" lry="3073" xml:id="zone_b45_3f5_xjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0193.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0194.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0287.JPG"/>

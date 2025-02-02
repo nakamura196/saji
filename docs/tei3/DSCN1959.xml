@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="mine">【要】日付：すべての構成要素の月の読み取り要確認。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型", "差出人：Çükazzade (/Sofyalızade)" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型", "差出人：Çükazzade (/Sofyalızade)" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -24,6 +28,12 @@
 			<zone ulx="311" uly="311" lrx="1928" lry="2305" xml:id="zone_v5p_q42_djb"/>
 			<zone ulx="1280" uly="1280" lrx="2183" lry="2872" xml:id="zone_gb1_s42_djb"/>
 			<zone ulx="2704" uly="2704" lrx="1771" lry="2858" xml:id="zone_th4_542_djb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0038.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0039.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

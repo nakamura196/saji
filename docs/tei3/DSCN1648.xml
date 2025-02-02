@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,10 +17,11 @@
 				<note type="mine">Aydoslu Mehmed Paşaは、1790年にアナドルベイレルベイに、1791年にルメリベイレルベイになった人物。Vikipediにも出てくるが、Sicilli Osmaniを調べる。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
-          "ジズヤの話" ], "saji:type": [ "ṣūret-i ‘arż-ı ḥāl ve buyuruldu" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
+          "ジズヤの話" ], "saji:type": [ "ṣūret-i ‘arż-ı ḥāl ve buyuruldu" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -28,6 +32,12 @@
 			<zone ulx="279" uly="279" lrx="1116" lry="816" xml:id="zone_rbq_clk_1jb"/>
 			<zone ulx="1725" uly="1725" lrx="1850" lry="2195" xml:id="zone_zc2_2lk_1jb"/>
 			<zone ulx="1815" uly="1815" lrx="1841" lry="1979" xml:id="zone_adm_flk_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0422.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0423.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1649.JPG"/>

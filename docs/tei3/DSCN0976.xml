@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,18 +16,25 @@
 				<note type="summary">iltizāmの下請け契約、ガルディヤーンが1年間自分たちで徴収できる。今までのとも違う。色んな形で土地を持っている。多角経営、単純な土地保有をしているわけではない </note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "n/a(?)" ], "saji:date_M": [ "n/a(?)" ], "saji:foldingMethod": [ "4x1" ], "saji:fond": [ "Tursko
-					1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・署名(?)" ], "saji:lang": [ "ota" ], "saji:lineage": [ "11" ], "saji:memo": [
-					"・本文末の署名(?)が、DSCN0975.JPGの本文末の署名(?)と同一" ], "saji:number": [ "235" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "0" ],
-					"saji:transcription": [ "Vech-i " ], "saji:witness": [ "0" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "n/a(?)" ], "saji:date_M": [ "n/a(?)" ], "saji:foldingMethod": [ "4x1" ], "saji:fond": [ "Tursko
+					1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・署名(?)" ], "saji:lang": [ "ota" ], "saji:lineage": [ "11" ], "saji:memo": [
+					"・本文末の署名(?)が、DSCN0975.JPGの本文末の署名(?)と同一" ], "saji:number": [ "235" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "0" ],
+					"saji:transcription": [ "Vech-i " ], "saji:witness": [ "0" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0976.JPG"/>
 			<zone ulx="246" uly="246" lrx="1639" lry="2792" xml:id="zone_jh2_r2f_z3b"/>
 			<zone ulx="2480" uly="2480" lrx="430" lry="2787" xml:id="zone_sfc_cdt_sjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0322.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0323.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0977.JPG"/>

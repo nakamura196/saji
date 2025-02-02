@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,14 +12,21 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "・DSCN2989.JPGのボスニア語梗概か？\r\n・内容を読まないと判別できないため、要検討。\r\n・サイズは「?」とした。" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 4" ], "saji:memo": [ "・DSCN2989.JPGのボスニア語梗概か？\r\n・内容を読まないと判別できないため、要検討。\r\n・サイズは「?」とした。" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%204/DSCN2190.JPG"/>
 			<zone ulx="838" uly="838" lrx="2967" lry="1500" xml:id="zone_oxt_p4y_cmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%209/IMG_0275.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%209/IMG_0276.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

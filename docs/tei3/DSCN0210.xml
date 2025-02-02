@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,7 +16,7 @@
 				<note type="summary">非ムスリムの私有地の、クレシェヴォ修道院の修道士に対する売却に関する承認文書</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -21,6 +24,7 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -32,6 +36,12 @@
 			<zone ulx="1893" uly="1893" lrx="2092" lry="2168" xml:id="zone_ygp_nfh_grb"/>
 			<zone ulx="1793" uly="1793" lrx="2090" lry="2025" xml:id="zone_xp3_4fh_grb"/>
 			<zone ulx="1678" uly="1678" lrx="2147" lry="1946" xml:id="zone_xfj_pfh_grb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0026.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0027.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0211.JPG"/>

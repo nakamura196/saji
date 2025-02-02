@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,9 +16,10 @@
 				<note type="mine">【要】再撮影：裏面にオスマン語の文字の一部が写っているが、全体を写した写真が欠けている。要再撮影。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -23,6 +27,15 @@
 			<zone ulx="283" uly="283" lrx="2450" lry="1955" xml:id="zone_gsg_gvz_djb"/>
 			<zone ulx="1410" uly="1410" lrx="2830" lry="1861" xml:id="zone_gsd_3vz_djb"/>
 			<zone ulx="1487" uly="1487" lrx="2815" lry="1618" xml:id="zone_rqd_jvz_djb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0154.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0155.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0156.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%202/DSCN8927.JPG"/>

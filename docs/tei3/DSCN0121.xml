@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -15,7 +18,7 @@
 				<note type="mine">しかし、書き出しが"bā-berāt"となっているのでEMIN文書ではない可能性も。同様の書き出しの事例と比較して要検討。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -23,11 +26,18 @@
 				<classCode scheme="" cert="unknown">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0121.JPG"/>
 			<zone ulx="1166" uly="1166" lrx="2375" lry="2458" xml:id="zone_l3t_13v_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0108.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0109.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,7 +17,7 @@
 				<note type="mine">非ムスリム同士の土地取引であり、修道院は関係ない事例？こういう文書も修道院に収められているという好例か。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -22,6 +25,7 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -37,6 +41,12 @@
 			<zone ulx="2139" uly="2139" lrx="2114" lry="2455" xml:id="zone_dfw_d24_sqb"/>
 			<zone ulx="1980" uly="1980" lrx="2080" lry="2242" xml:id="zone_pvt_224_sqb"/>
 			<zone ulx="1832" uly="1832" lrx="2048" lry="2084" xml:id="zone_akt_f24_sqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0005.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0006.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0189.JPG"/>

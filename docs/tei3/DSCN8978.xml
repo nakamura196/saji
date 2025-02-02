@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,9 +16,10 @@
 				<note type="mine">【要】DSCN8977.JPGは、おそらくDSCN8978.JPGの裏面。現在はDSCN8976.JPGの裏面として紐づいているので修正する。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -24,6 +28,12 @@
 			<zone ulx="2430" uly="2430" lrx="826" lry="2748" xml:id="zone_ngj_nds_wkb"/>
 			<zone ulx="2399" uly="2399" lrx="567" lry="2719" xml:id="zone_y3c_4ds_wkb"/>
 			<zone ulx="2383" uly="2383" lrx="338" lry="2721" xml:id="zone_gdt_4ds_wkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0015.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0016.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

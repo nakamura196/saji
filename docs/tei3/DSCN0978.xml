@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,11 +15,12 @@
 				<note type="mine">DSCN1034.JPGと同じ画像・文書。重複している。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "(?)-M-evāsṭ(?)" ], "saji:foldingMethod": [ "3x2" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [
-					"0" ], "saji:item": [ "・表題(?)\r\n・オスマン朝スタンプ1\r\n・オスマン朝スタンプ2\r\n・差出人(?)\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・日付\r\n・証人" ], "saji:lang": [ "ota" ], "saji:lineage": [ "1+2+22+5" ],
-					"saji:number": [ "502" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "2" ], "saji:witness": [ "3(?)" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "(?)-M-evāsṭ(?)" ], "saji:foldingMethod": [ "3x2" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [
+					"0" ], "saji:item": [ "・表題(?)\r\n・オスマン朝スタンプ1\r\n・オスマン朝スタンプ2\r\n・差出人(?)\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・日付\r\n・証人" ], "saji:lang": [ "ota" ], "saji:lineage": [ "1+2+22+5" ],
+					"saji:number": [ "502" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "2" ], "saji:witness": [ "3(?)" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -24,6 +28,12 @@
 			<zone ulx="136" uly="136" lrx="1663" lry="3227" xml:id="zone_wwy_rff_z3b"/>
 			<zone ulx="142" uly="142" lrx="1063" lry="314" xml:id="zone_jqh_tff_z3b"/>
 			<zone ulx="228" uly="228" lrx="1256" lry="370" xml:id="zone_zvh_5ff_z3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0314.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0318.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0979.JPG"/>

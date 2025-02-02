@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,14 +15,27 @@
 				<note type="summary">1254年12月19日発行、政府官報「諸事件の暦」</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 7" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 7" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%207/DSCN0669.JPG"/>
 			<zone ulx="370" uly="370" lrx="2000" lry="3050" xml:id="zone_lmg_vkq_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2013/IMG_0024.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2013/IMG_0025.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2013/IMG_0026.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2013/IMG_0027.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%207/DSCN0670.JPG"/>

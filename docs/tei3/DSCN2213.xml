@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,14 +15,33 @@
 				<note type="mine">両面とも文章が切れている。何かの文書を途中で切り取ったように見える。内容は要検討だが、切れ端なのでそもそも読めないと思われる。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%204/DSCN2213.JPG"/>
 			<zone ulx="357" uly="357" lrx="2278" lry="2215" xml:id="zone_ff2_5yy_cmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%209/IMG_0068.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%209/IMG_0069.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2010/IMG_0003.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2010/IMG_0004.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2010/IMG_0056.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2010/IMG_0057.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%204/DSCN2214.JPG"/>

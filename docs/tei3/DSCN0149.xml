@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -15,7 +18,7 @@
 				<note type="mine">スタンプは潰れていて見づらいが、この前の文書のMehmedと同一人物の可能性が高いので、そのスタンプなどと比べてみる。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -23,12 +26,19 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0149.JPG"/>
 			<zone ulx="61" uly="61" lrx="2362" lry="2553" xml:id="zone_o33_qsw_2jb"/>
 			<zone ulx="1958" uly="1958" lrx="372" lry="2198" xml:id="zone_dg4_rsw_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0056.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0057.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0150.JPG"/>

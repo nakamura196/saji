@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,29 +12,14 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 5" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 5" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2489.JPG"/>
-			<zone ulx="152" uly="152" lrx="1013" lry="1171" xml:id="zone_j5l_lzx_ssb"/>
-			<zone ulx="150" uly="150" lrx="1893" lry="1169" xml:id="zone_fth_mzx_ssb"/>
-			<zone ulx="250" uly="250" lrx="2756" lry="1232" xml:id="zone_dx4_nzx_ssb"/>
-			<zone ulx="1239" uly="1239" lrx="941" lry="2334" xml:id="zone_zly_4zx_ssb"/>
-			<zone ulx="1308" uly="1308" lrx="1891" lry="2369" xml:id="zone_vjd_qzx_ssb"/>
-			<zone ulx="1310" uly="1310" lrx="2778" lry="2347" xml:id="zone_hdm_rzx_ssb"/>
-		</surface>
-		<surface>
-			<graphic url="../../../Tursko%205/DSCN2490.JPG"/>
-			<zone ulx="254" uly="254" lrx="1136" lry="1313" xml:id="zone_v24_vzx_ssb"/>
-			<zone ulx="236" uly="236" lrx="2031" lry="1277" xml:id="zone_t4p_wzx_ssb"/>
-			<zone ulx="256" uly="256" lrx="2872" lry="1270" xml:id="zone_pqt_xzx_ssb"/>
-			<zone ulx="1315" uly="1315" lrx="1120" lry="2429" xml:id="zone_vky_yzx_ssb"/>
-			<zone ulx="1309" uly="1309" lrx="1961" lry="2406" xml:id="zone_nfc_11y_ssb"/>
-			<zone ulx="1297" uly="1297" lrx="2859" lry="2390" xml:id="zone_mpn_b1y_ssb"/>
-		</surface>
+		<surface/>
+		<surface/>
 	</facsimile>
 	<text n="1" facs="#zone_j5l_lzx_ssb #zone_v24_vzx_ssb">
 		<body>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,15 +15,22 @@
 				<note type="summary">フォイニチェにあるムカーターを、フォイニチェ修道院長が自らの私有地に○○することを承認した証文。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9066.JPG"/>
 			<zone ulx="420" uly="420" lrx="655" lry="618" xml:id="zone_gcj_xts_flb"/>
 			<zone ulx="2171" uly="2171" lrx="1209" lry="2980" xml:id="zone_o5m_yts_flb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0151.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0152.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9067.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,18 +16,25 @@
 				<note type="mine">本文末の署名(?)が、DSCN0976.JPGの本文末の署名(?)と同一。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "n/a?" ], "saji:date_M": [ "n/a?" ], "saji:foldingMethod": [ "4x1" ], "saji:fond": [ "Tursko 1"
-					], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・署名？" ], "saji:lang": [ "ota" ], "saji:lineage": [ "9" ], "saji:memo": [
-					"・本文末の署名(?)が、DSCN0976.JPGの本文末の署名(?)と同一" ], "saji:number": [ "208" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "0" ],
-					"saji:transcription": [ "Vech-i taḥrīr ... budur ki\r\nḥālā ʿuhde ..." ], "saji:witness": [ "0" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "n/a?" ], "saji:date_M": [ "n/a?" ], "saji:foldingMethod": [ "4x1" ], "saji:fond": [ "Tursko 1"
+					], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・署名？" ], "saji:lang": [ "ota" ], "saji:lineage": [ "9" ], "saji:memo": [
+					"・本文末の署名(?)が、DSCN0976.JPGの本文末の署名(?)と同一" ], "saji:number": [ "208" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "0" ],
+					"saji:transcription": [ "Vech-i taḥrīr ... budur ki\r\nḥālā ʿuhde ..." ], "saji:witness": [ "0" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0975.JPG"/>
 			<zone ulx="166" uly="166" lrx="1533" lry="2708" xml:id="zone_ufg_g2f_z3b"/>
 			<zone ulx="2378" uly="2378" lrx="474" lry="2680" xml:id="zone_p2y_dqn_sjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0326.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0328.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1038.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,15 +12,22 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B?" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・おそらくDSCN9368.JPGの裏面であると思われるが、現状断定できてない。\r\n・日付から検討可能？要検討。\r\n・サイズは上記画像の裏面と推定して、暫定的に「B?」とした。" ]
-					}</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B?" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・おそらくDSCN9368.JPGの裏面であると思われるが、現状断定できてない。\r\n・日付から検討可能？要検討。\r\n・サイズは上記画像の裏面と推定して、暫定的に「B?」とした。" ]
+					}</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9367.JPG"/>
 			<zone ulx="1070" uly="1070" lrx="1925" lry="1229" xml:id="zone_ugd_lhg_zlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0002.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0003.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9368.JPG"/>

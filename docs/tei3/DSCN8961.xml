@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,14 +15,24 @@
 				<note type="mine">【要】再撮影：裏面のクロアチア語要約が一部しか映っていないので再撮影する。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 2" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 2" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%202/DSCN8961.JPG"/>
 			<zone ulx="888" uly="888" lrx="2978" lry="1438" xml:id="zone_hhs_jkn_2jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0208.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0209.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0210.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%202/DSCN8962.JPG"/>

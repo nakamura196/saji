@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="mine">【要】日付(buyuruldu)：月、S or Ca</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="233" uly="233" lrx="1908" lry="2841" xml:id="zone_c4b_2h3_cjb"/>
 			<zone ulx="2583" uly="2583" lrx="696" lry="2763" xml:id="zone_gh5_fh3_cjb"/>
 			<zone ulx="922" uly="922" lrx="1285" lry="2174" xml:id="zone_wtw_hh3_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0035.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0036.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

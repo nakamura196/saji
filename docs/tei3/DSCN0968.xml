@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,20 +16,27 @@
 				<note type="mine">DSCN0960.JPGが裏面であると思われるが、全体像がなく、また紙が接がれているいる形跡もあり、はっきりとしない。要検討。→DSCN1044.JPGの後にも同じ画像が裏面としてきているので、正しいと思われる。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
           "1272-R-22" ], "saji:date_M": [ "1856-01-01" ], "saji:foldingMethod": [ "6x1" ],
           "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
           "・定型1\r\n・定型2\r\n・定型3\r\n・本文\r\n・証人" ], "saji:lang": [ "ota" ], "saji:lineage": [ "20" ],
           "saji:number": [ "n/a" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [
-          "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "1?" ] }</p>
-			</sourceDesc>
-		</fileDesc>
+          "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "1?" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0968.JPG"/>
 			<zone ulx="50" uly="50" lrx="1840" lry="3140" xml:id="zone_etf_ztz_y3b"/>
 			<zone ulx="479" uly="479" lrx="1730" lry="639" xml:id="zone_cww_15z_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0356.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0358.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0969.JPG"/>

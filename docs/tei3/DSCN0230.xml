@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,7 +17,7 @@
 				<note type="mine">menzilhāneが出てくる類似の内容の文書がこれ以前にも出てきた。これは文字が汚くて読めないので、【要】比較、読み直し。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -22,6 +25,7 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -37,6 +41,12 @@
 			<zone ulx="1966" uly="1966" lrx="2273" lry="2253" xml:id="zone_s1b_1wg_krb"/>
 			<zone ulx="1873" uly="1873" lrx="2049" lry="1977" xml:id="zone_jwl_bwg_krb"/>
 			<zone ulx="1747" uly="1747" lrx="2091" lry="1907" xml:id="zone_ucn_fwg_krb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0046.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0047.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0231.JPG"/>

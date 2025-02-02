@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,13 +17,23 @@
 				<note type="mine">「NEMA（なし）」と示されている番号は、過去の梗概（カタログ？）にはあったものの、写真撮影時には発見できなかった文書の番号のようである。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 6" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "?" ], "saji:fond": [ "Tursko 6" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%206/DSCN0453.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2011/IMG_0165.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2011/IMG_0166.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2011/IMG_0167.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%206/DSCN0454.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="mine">【要】クロアチア語要約：日付の月が読み取れず、とりあえず5月ということにしてある。後で西暦を調べて再入力する。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="554" uly="554" lrx="1636" lry="3190" xml:id="zone_elz_ydf_bjb"/>
 			<zone ulx="593" uly="593" lrx="1062" lry="1234" xml:id="zone_k2j_12f_bjb"/>
 			<zone ulx="1040" uly="1040" lrx="887" lry="1221" xml:id="zone_sl2_b2f_bjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0527.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0528.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1740.JPG"/>

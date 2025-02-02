@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="mine">日付のアラビア語のつづりなどがおかしいので、もしかすると全体的にアラビア語（オスマン語も？）が苦手なカーディーなのかもしれない。その他本文も注意する。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="580" uly="580" lrx="1600" lry="2950" xml:id="zone_ssd_xm4_cjb"/>
 			<zone ulx="654" uly="654" lrx="1111" lry="1120" xml:id="zone_j1l_ym4_cjb"/>
 			<zone ulx="976" uly="976" lrx="963" lry="1113" xml:id="zone_is1_zm4_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0082.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0083.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

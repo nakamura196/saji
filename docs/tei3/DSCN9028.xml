@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,9 +16,10 @@
 				<note type="mine">Şühūdu'l-hālの書かれる場所にtapunameが書かれている。左手に書かれているizin temessükの内容を証明するものと思われる。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -33,6 +37,12 @@
 			<zone ulx="1716" uly="1716" lrx="2311" lry="2777" xml:id="zone_f4m_x1p_xkb"/>
 			<zone ulx="1736" uly="1736" lrx="2125" lry="2125" xml:id="zone_nvm_x1p_xkb"/>
 			<zone ulx="1744" uly="1744" lrx="2065" lry="1917" xml:id="zone_op1_z1p_xkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0202.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0203.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

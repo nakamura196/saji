@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,14 +16,21 @@
 				<note type="mine">フォンド5に含まれている、「4つのオスマン朝スタンプ／日付／何らかの定型／短いオスマン語」の要素から構成される小片文書</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 8" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 8" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%208/DSCN0824.JPG"/>
 			<zone ulx="66" uly="66" lrx="2017" lry="2666" xml:id="zone_ifb_fdr_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2013/IMG_0175.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2013/IMG_0176.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%208/DSCN0825.JPG"/>

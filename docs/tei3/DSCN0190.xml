@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,7 +17,7 @@
 				<note type="mine">証人 şühūdu'l-hālの記述に、金箔入りインクが使用されている。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -22,6 +25,7 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -38,6 +42,12 @@
 			<zone ulx="2081" uly="2081" lrx="2362" lry="2417" xml:id="zone_xc5_f44_sqb"/>
 			<zone ulx="1969" uly="1969" lrx="2323" lry="2255" xml:id="zone_lk4_g44_sqb"/>
 			<zone ulx="1862" uly="1862" lrx="2382" lry="2143" xml:id="zone_tx3_h44_sqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0007.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0008.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0191.JPG"/>

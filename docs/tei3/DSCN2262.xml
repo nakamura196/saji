@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,14 +16,33 @@
 				<note type="mine">【要】切り離された先の画像IDを特定する。字体を見比べる。内容を確認する。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "G" ], "saji:fond": [ "Tursko 4" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%204/DSCN2262.JPG"/>
 			<zone ulx="400" uly="400" lrx="2862" lry="1950" xml:id="zone_v4k_qvf_dmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%209/IMG_0068.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%209/IMG_0069.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2010/IMG_0003.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2010/IMG_0004.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2010/IMG_0056.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2010/IMG_0057.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%204/DSCN2263.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,15 +17,22 @@
 				<note type="mine">文字は非常にきれいなので、辞書を使って【要】読み直し</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9054.JPG"/>
 			<zone ulx="49" uly="49" lrx="1878" lry="2449" xml:id="zone_pxy_znc_ykb"/>
 			<zone ulx="2170" uly="2170" lrx="797" lry="2412" xml:id="zone_tlz_14c_ykb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0132.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0133.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="summary">辞書なしではほとんど読めていないので、後で【要】要約。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="400" uly="400" lrx="2367" lry="3133" xml:id="zone_gq4_js1_qkb"/>
 			<zone ulx="2776" uly="2776" lrx="396" lry="3109" xml:id="zone_gxd_ls1_qkb"/>
 			<zone ulx="2907" uly="2907" lrx="384" lry="3101" xml:id="zone_t2b_ms1_qkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0078.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0079.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0382.JPG"/>

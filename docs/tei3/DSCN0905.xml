@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,7 +12,10 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
           "1246-Ş-25" ], "saji:date_M": [ "1831-02-08" ], "saji:foldingMethod": [ "8" ],
           "saji:fond": [ "Tursko 1" ], "saji:item": [ "本文", "証人", "オスマン朝スタンプ", "クレシェヴォのスタンプ" ],
           "saji:lang": [ "ota" ], "saji:lineage": [ "20" ], "saji:memo": [ "冒頭左上に、特徴的な形をした4行の定型文",
@@ -18,15 +24,25 @@
           nāḥiyesine tābiʿ Kreşevo" ], "saji:relationWithAnotherItems": [ "DSCN0905.JPG_表", "表全体像"
           ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "1" ], "saji:transcription": [ "Madīna-i
           Saray Bosna ḳażāsı ... Foyniçe nāḥiyesine tābiʿ Kreşevo ...\nmeks̱ eden ... ḳażāsıda
-          reʿāyāsından işbu ...\nmeclis-i şerʿ ... \nmezbūrede" ], "saji:type": [ "hüccet" ] }</p>
-			</sourceDesc>
-		</fileDesc>
+          reʿāyāsından işbu ...\nmeclis-i şerʿ ... \nmezbūrede" ], "saji:type": [ "hüccet" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0905.JPG"/>
 			<zone ulx="432" uly="432" lrx="1610" lry="3217" xml:id="zone_vpp_lgy_y3b"/>
 			<zone ulx="784" uly="784" lrx="978" lry="893" xml:id="zone_tp4_ngy_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0013.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0014.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2018/IMG_0002.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2018/IMG_0003.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0906.JPG"/>

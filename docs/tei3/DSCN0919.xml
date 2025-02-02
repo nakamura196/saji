@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,16 +15,23 @@
 				<note type="summary">土地／田／</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod": [ "4x2" ], "saji:fond": [ "Tursko 1" ], "saji:from": [ "emin" ], "saji:lineage": [ "8" ],
-					"saji:memo": [ "典型" ], "saji:type": [ "mektūb" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod": [ "4x2" ], "saji:fond": [ "Tursko 1" ], "saji:from": [ "emin" ], "saji:lineage": [ "8" ],
+					"saji:memo": [ "典型" ], "saji:type": [ "mektūb" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0919.JPG"/>
 			<zone ulx="1508" uly="1508" lrx="1891" lry="2612" xml:id="zone_xdt_5ty_y3b"/>
 			<zone ulx="2393" uly="2393" lrx="695" lry="2593" xml:id="zone_gfz_k35_jjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0051.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0055.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0920.JPG"/>

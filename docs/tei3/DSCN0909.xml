@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,17 +15,30 @@
 				<note type="mine">【要】日付：作成年タグが2つある、見直す。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod": [ "8×2" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "\"hüve\"",
-					"オスマン朝スタンプ1", "本文1", "オスマン朝印紙", "会計", "本文2", "オスマン朝スタンプ2" ], "saji:lang": [ "ota" ], "saji:lineage": [ "5-N1-5" ], "saji:memo": [ "料紙：透かし", "オスマン朝スタンプ、印紙、文字の様子から、新しい文書のように見える",
-					"縦に2つ折りした料紙の右半分のみに記述している", "典型" ], "saji:number": [ "2" ], "saji:openingPhrase": [ "Madīna-i Saray ḳażāsına" ], "saji:placeFull": [ "Madīna-i Saray ḳażāsına ... Foyniçe ḳażā ...
-					Kreşevo" ], "saji:relationWithAnotherItems": [ "DSCN0909.JPG_表", "表全体像" ], "saji:stamp_o": [ "2" ], "saji:type": [ "ḳassām deftrei" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod": [ "8×2" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "\"hüve\"",
+					"オスマン朝スタンプ1", "本文1", "オスマン朝印紙", "会計", "本文2", "オスマン朝スタンプ2" ], "saji:lang": [ "ota" ], "saji:lineage": [ "5-N1-5" ], "saji:memo": [ "料紙：透かし", "オスマン朝スタンプ、印紙、文字の様子から、新しい文書のように見える",
+					"縦に2つ折りした料紙の右半分のみに記述している", "典型" ], "saji:number": [ "2" ], "saji:openingPhrase": [ "Madīna-i Saray ḳażāsına" ], "saji:placeFull": [ "Madīna-i Saray ḳażāsına ... Foyniçe ḳażā ...
+					Kreşevo" ], "saji:relationWithAnotherItems": [ "DSCN0909.JPG_表", "表全体像" ], "saji:stamp_o": [ "2" ], "saji:type": [ "ḳassām deftrei" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0909.JPG"/>
 			<zone ulx="90" uly="90" lrx="2160" lry="3120" xml:id="zone_vsy_2ly_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0030.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0031.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2018/IMG_0007.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2018/IMG_0008.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0910.JPG"/>

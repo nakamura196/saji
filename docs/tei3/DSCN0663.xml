@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="summary">関税の領収書。103個の鉄製鋤などの国内関税？</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 7" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 7" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="209" uly="209" lrx="1945" lry="3200" xml:id="zone_xcn_cgq_2mb"/>
 			<zone ulx="2594" uly="2594" lrx="1150" lry="2760" xml:id="zone_urv_dgq_2mb"/>
 			<zone ulx="2469" uly="2469" lrx="876" lry="2776" xml:id="zone_j3k_2gq_2mb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2013/IMG_0020.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2013/IMG_0021.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%207/DSCN0664.JPG"/>

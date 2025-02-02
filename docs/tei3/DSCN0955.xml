@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -15,21 +18,34 @@
 				<note type="mine">日付：9日かどうか、要確認。tisʿには見えない？</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "E" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "E" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
           "1271-M-09(?)" ], "saji:date_M": [ "1854-10-02" ], "saji:foldingMethod": [ "10x1" ],
           "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
           "・透かし\r\n・定型1\r\n・定型2\r\n・定型3\r\n・定型4\r\n・オスマン朝スタンプ1\r\n・オスマン朝スタンプ2\r\n・本文\r\n・証人" ],
           "saji:lang": [ "ota" ], "saji:lineage": [ "33" ], "saji:memo": [
           "・内容はḥüccet形式だが、料紙が通常のタイプAより非常に大きく見えたので、これをタイプEとした。", "典型" ], "saji:number": [ "151" ],
           "saji:openingPhrase": [ "出張裁判のパターン" ], "saji:relationWithAnotherItems": [ "表全体像" ],
-          "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "2" ], "saji:witness": [ "5" ] }</p>
-			</sourceDesc>
-		</fileDesc>
+          "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "2" ], "saji:witness": [ "5" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0955.JPG"/>
 			<zone ulx="9" uly="9" lrx="1691" lry="3036" xml:id="zone_ez5_jpz_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0373.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0374.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0375.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0376.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0956.JPG"/>
@@ -52,6 +68,18 @@
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1052.JPG"/>
 			<zone ulx="-5" uly="-5" lrx="1754" lry="3245" xml:id="zone_dhk_g1k_1jb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0373.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0374.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0375.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0376.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1053.JPG"/>

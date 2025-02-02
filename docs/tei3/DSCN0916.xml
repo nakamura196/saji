@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -9,7 +12,10 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa/Dīvānī" ], "saji:date_H":
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa/Dīvānī" ], "saji:date_H":
           [ "1175-R-13" ], "saji:date_M": [ "1762-01-09" ], "saji:foldingMethod": [ "6" ],
           "saji:fond": [ "Tursko 1" ], "saji:item": [ "定型文(?)", "オスマン朝スタンプ", "本文", "証人",
           "クレシェヴォのスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "25" ], "saji:memo": [
@@ -18,15 +24,19 @@
           "saji:nameFull": [ "・Mevlānā Meḥmed Efendi ibn Aḥmad Efendi" ], "saji:number": [ "217/214"
           ], "saji:relationWithAnotherItems": [ "DSCN0916.JPG_表", "表全体像" ], "saji:stamp_c": [ "1" ],
           "saji:stamp_o": [ "1" ], "saji:transcription": [ "...\n... şerʿ-i ... Mevlānā Meḥmed
-          Efendi ibn Aḥmad Efendi\n... olunub" ], "saji:type": [ "hüccet(?)" ] }</p>
-			</sourceDesc>
-		</fileDesc>
+          Efendi ibn Aḥmad Efendi\n... olunub" ], "saji:type": [ "hüccet(?)" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0916.JPG"/>
 			<zone ulx="700" uly="700" lrx="1508" lry="3130" xml:id="zone_t2z_pry_y3b"/>
 			<zone ulx="988" uly="988" lrx="1023" lry="1117" xml:id="zone_rmd_sry_y3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0048.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0050.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN0917.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,14 +17,13 @@
 				<note type="keyword">cizye</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・ここまでの整理過程では登場していない小片の文書\r\n・以後、この小片文書を「F (3H×2W, 小)」とすることにした\r\n・複数枚を並べて撮影しているため、サイズはn/aとした" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "n/a" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・ここまでの整理過程では登場していない小片の文書\r\n・以後、この小片文書を「F (3H×2W, 小)」とすることにした\r\n・複数枚を並べて撮影しているため、サイズはn/aとした" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
-		<surface>
-			<graphic url="../../../Tursko%203/DSCN0394.JPG"/>
-		</surface>
+		<surface/>
 	</facsimile>
 	<text>
 		<body>

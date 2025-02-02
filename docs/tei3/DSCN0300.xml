@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="summary">クレシェヴォ・ムカーターに属する国有地arāz-i emiriyeの耕作地の保有権の、ムスリム女性から非ムスリムに対する売却・譲渡の承認</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="154" uly="154" lrx="2409" lry="2900" xml:id="zone_pgr_t1n_2kb"/>
 			<zone ulx="2534" uly="2534" lrx="941" lry="2804" xml:id="zone_v3k_v1n_2kb"/>
 			<zone ulx="2497" uly="2497" lrx="532" lry="2780" xml:id="zone_qcy_v1n_2kb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0125.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0126.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0301.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="mine">文字、文法ともにかなり乱れている。これは手習いか写しのようなものなのか？</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -23,6 +27,12 @@
 			<zone ulx="725" uly="725" lrx="672" lry="939" xml:id="zone_trk_cfg_zlb"/>
 			<zone ulx="1306" uly="1306" lrx="1506" lry="1956" xml:id="zone_txh_dfg_zlb"/>
 			<zone ulx="2129" uly="2129" lrx="881" lry="2516" xml:id="zone_yqd_2fg_zlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0006.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0007.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9365.JPG"/>

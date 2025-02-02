@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,15 +15,22 @@
 				<note type="mine">用紙が大きく欠損している。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 4" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%204/DSCN2381.JPG"/>
 			<zone ulx="138" uly="138" lrx="3112" lry="1716" xml:id="zone_lj5_fxn_dmb"/>
 			<zone ulx="1296" uly="1296" lrx="852" lry="1694" xml:id="zone_hry_gxn_dmb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2011/IMG_0023.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%2011/IMG_0024.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

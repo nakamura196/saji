@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="mine">冒頭の定型表現は【要】辞書引き・調べる。文書種類確定のための手掛かりになるかな。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -22,6 +26,12 @@
 			<zone ulx="2388" uly="2388" lrx="2103" lry="2598" xml:id="zone_ykz_lqc_ykb"/>
 			<zone ulx="260" uly="260" lrx="1954" lry="502" xml:id="zone_c4s_mqc_ykb"/>
 			<zone ulx="1816" uly="1816" lrx="2219" lry="2248" xml:id="zone_e44_nqc_ykb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0138.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0139.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9058.JPG"/>

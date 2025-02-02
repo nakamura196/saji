@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,9 +17,10 @@
 				<note type="mine">【要】日付：すべて年代は下二桁しか記述されていない。ルールに基づき1200年代と判断したが、要検討。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -50,6 +54,12 @@
 			<zone ulx="2668" uly="2668" lrx="1184" lry="2778" xml:id="zone_ztq_rw4_cjb"/>
 			<zone ulx="2477" uly="2477" lrx="1291" lry="2625" xml:id="zone_fkm_sw4_cjb"/>
 			<zone ulx="2494" uly="2494" lrx="1193" lry="2618" xml:id="zone_wnb_tw4_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0096.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0097.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1825.JPG"/>

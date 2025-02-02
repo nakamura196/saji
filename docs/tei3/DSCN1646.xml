@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,15 +15,22 @@
 				<note type="mine">日付：日が15と8どちらなのか、月はMでいいのか、年は1201でいいのか、要検討。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1646.JPG"/>
 			<zone ulx="158" uly="158" lrx="2233" lry="2933" xml:id="zone_ebz_qgk_1jb"/>
 			<zone ulx="2466" uly="2466" lrx="333" lry="2783" xml:id="zone_dnx_g1q_tjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0416.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%202/IMG_0418.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1647.JPG"/>

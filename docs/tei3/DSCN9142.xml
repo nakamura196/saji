@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,7 +17,7 @@
 				<note type="summary">ナーイブ以外が出せるmürāseleかもしれない</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -22,6 +25,7 @@
 				<classCode scheme="">その他</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -31,6 +35,12 @@
 			<zone ulx="1455" uly="1455" lrx="2200" lry="2279" xml:id="zone_ydq_z3k_hlb"/>
 			<zone ulx="1635" uly="1635" lrx="2185" lry="1911" xml:id="zone_gpn_1jk_hlb"/>
 			<zone ulx="1644" uly="1644" lrx="2182" lry="1879" xml:id="zone_igj_bjk_hlb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0049.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0050.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

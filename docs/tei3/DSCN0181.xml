@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -15,7 +18,7 @@
 				<note type="relation">DSCN0182</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -23,6 +26,7 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -38,6 +42,12 @@
 			<zone ulx="1935" uly="1935" lrx="2305" lry="2250" xml:id="zone_h41_ddj_qqb"/>
 			<zone ulx="1824" uly="1824" lrx="2385" lry="2173" xml:id="zone_vrx_ddj_qqb"/>
 			<zone ulx="1714" uly="1714" lrx="2394" lry="1985" xml:id="zone_qqt_2dj_qqb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0087.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%208/IMG_0088.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

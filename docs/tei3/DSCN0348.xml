@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,15 +16,22 @@
 				<note type="mine">裏面のスタンプ写しは、かなりはっきり書かれているので、他のスタンプを読む際の参考になる。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0348.JPG"/>
 			<zone ulx="108" uly="108" lrx="2225" lry="2725" xml:id="zone_mmd_rlr_kkb"/>
 			<zone ulx="2323" uly="2323" lrx="856" lry="2687" xml:id="zone_ryp_slr_kkb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0154.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0155.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0349.JPG"/>

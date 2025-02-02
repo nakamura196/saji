@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -14,9 +17,10 @@
 				<note type="mine">文字が比較的きれいで読みやすいので、前後の文書(※特にDSCN01341)で読めない箇所・地名・人名などを【要】確認。特に、cemāʿat-ı ...。ほぼ同じ内容な気がする。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -24,6 +28,12 @@
 			<zone ulx="1445" uly="1445" lrx="2309" lry="2954" xml:id="zone_zdg_fbp_2kb"/>
 			<zone ulx="2480" uly="2480" lrx="591" lry="2885" xml:id="zone_ppq_nbp_2kb"/>
 			<zone ulx="2674" uly="2674" lrx="577" lry="2865" xml:id="zone_qzq_4bp_2kb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0135.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0136.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0317.JPG"/>

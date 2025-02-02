@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,10 +15,11 @@
 				<note type="mine">定型句の形が装飾的で面白い</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [
-          "典型" ]}</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [
+          "典型" ]}</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -23,6 +27,12 @@
 			<zone ulx="110" uly="110" lrx="1530" lry="3120" xml:id="zone_o3q_c3q_cjb"/>
 			<zone ulx="151" uly="151" lrx="1121" lry="942" xml:id="zone_htz_d3q_cjb"/>
 			<zone ulx="800" uly="800" lrx="976" lry="944" xml:id="zone_sxb_f3q_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0122.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0123.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,10 +15,11 @@
 				<note type="mine">アフメト3世のトゥーラ</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [
-          "Tursko 2" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [
+          "Tursko 2" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -23,6 +27,12 @@
 			<zone ulx="138" uly="138" lrx="1790" lry="3261" xml:id="zone_cnn_hzz_djb"/>
 			<zone ulx="156" uly="156" lrx="1711" lry="915" xml:id="zone_p3b_kzz_djb"/>
 			<zone ulx="2820" uly="2820" lrx="1000" lry="3262" xml:id="zone_b4t_mzz_djb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0164.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0165.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%202/DSCN8932.JPG"/>

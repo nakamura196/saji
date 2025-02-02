@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,9 +15,10 @@
 				<note type="summary">徴税権の、修道士から修道士長への売却・譲渡</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -24,6 +28,12 @@
 			<zone ulx="2551" uly="2551" lrx="428" lry="2801" xml:id="zone_p1y_fh5_xjb"/>
 			<zone ulx="1918" uly="1918" lrx="793" lry="2050" xml:id="zone_vqg_ygh_d5b"/>
 			<zone ulx="1892" uly="1892" lrx="204" lry="1998" xml:id="zone_ymj_1hh_d5b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0221.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0222.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0266.JPG"/>

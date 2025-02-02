@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,15 +15,22 @@
 				<note type="mine">日付：buyuruldu、月C or Ca、年(1)193 or (1)194、がはっきりしない。要検討。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1001.JPG"/>
 			<zone ulx="108" uly="108" lrx="1675" lry="2916" xml:id="zone_zjd_2bg_z3b"/>
 			<zone ulx="481" uly="481" lrx="1250" lry="2100" xml:id="zone_ajb_gbg_z3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0211.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%201/IMG_0214.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1002.JPG"/>

@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,7 +15,7 @@
 				<note type="summary">遺産相続</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -20,12 +23,19 @@
 				<classCode scheme="">遺産相続</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9345.JPG"/>
 			<zone ulx="434" uly="434" lrx="2125" lry="2916" xml:id="zone_xvp_1nq_h3b"/>
 			<zone ulx="2667" uly="2667" lrx="826" lry="2892" xml:id="zone_ukm_bnq_h3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%205/IMG_0162.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%205/IMG_0163.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

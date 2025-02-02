@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,9 +16,10 @@
 				<note type="mine">DSCN1706.JPGは、現在独立した文書IDとして成立しているが、DSCN1705.JPGの裏面のようである。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -29,6 +33,12 @@
 			<zone ulx="2688" uly="2688" lrx="628" lry="2795" xml:id="zone_tvz_sh2_bjb"/>
 			<zone ulx="2538" uly="2538" lrx="393" lry="2837" xml:id="zone_ug4_5h2_bjb"/>
 			<zone ulx="2657" uly="2657" lrx="384" lry="2820" xml:id="zone_qkx_5h2_bjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0055.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%203/IMG_0056.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1706.JPG"/>

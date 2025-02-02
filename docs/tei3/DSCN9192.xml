@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -13,7 +16,7 @@
 				<note type="mine">参考文献 Nusa Sadırcı "Tanzimat döneminde Anadolu Kentlerinin Sosyal ve Ekonomik Yapılar"</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -21,12 +24,19 @@
 				<classCode scheme="">通行許可</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN9192.JPG"/>
 			<zone ulx="300" uly="300" lrx="1929" lry="2850" xml:id="zone_ykf_k2q_h3b"/>
 			<zone ulx="2116" uly="2116" lrx="1108" lry="2454" xml:id="zone_nq2_42q_h3b"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0091.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%206/IMG_0092.JPG"/>
 		</surface>
 	</facsimile>
 	<text>

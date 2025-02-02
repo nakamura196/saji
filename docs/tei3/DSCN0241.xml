@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -15,7 +18,7 @@
 				<note type="mine">【要】再撮影：裏面にスタンプがあるよう見える、再撮影する。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -23,6 +26,7 @@
 				<classCode scheme="">土地譲渡・売買</classCode>
 			</textClass>
 		</profileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -37,6 +41,12 @@
 			<zone ulx="2326" uly="2326" lrx="2181" lry="2668" xml:id="zone_a5z_grj_lrb"/>
 			<zone ulx="2203" uly="2203" lrx="2211" lry="2561" xml:id="zone_msz_hrj_lrb"/>
 			<zone ulx="2050" uly="2050" lrx="2248" lry="2448" xml:id="zone_dgw_3rj_lrb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0201.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%207/IMG_0202.JPG"/>
 		</surface>
 		<surface>
 			<graphic url="../../../Tursko%203/DSCN0242.JPG"/>

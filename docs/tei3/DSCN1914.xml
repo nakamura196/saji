@@ -1,4 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -12,15 +15,22 @@
 				<note type="mine">オスマン帝国史料解題にfetvāの様式について解説がある。</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</p>
+				<p/>
 			</sourceDesc>
 		</fileDesc>
+		<xenoData>{ "saji:aspectRatioType": [ "D" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
 			<graphic url="../../../Tursko%201/DSCN1914.JPG"/>
 			<zone ulx="56" uly="56" lrx="1944" lry="3267" xml:id="zone_dkp_ygx_cjb"/>
 			<zone ulx="1552" uly="1552" lrx="753" lry="2356" xml:id="zone_wmj_bhx_cjb"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0073.JPG"/>
+		</surface>
+		<surface>
+			<graphic url="../../../Day%204/IMG_0074.JPG"/>
 		</surface>
 	</facsimile>
 	<text>
