@@ -1,0 +1,61 @@
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0">
+	<ns0:teiHeader>
+		<ns0:fileDesc>
+			<ns0:titleStmt>
+				<ns0:title>Tursko6-017</ns0:title>
+			</ns0:titleStmt>
+			<ns0:publicationStmt>
+				<ns0:p>Publication Information</ns0:p>
+			</ns0:publicationStmt>
+			<ns0:sourceDesc>
+				<ns0:p />
+			</ns0:sourceDesc>
+		</ns0:fileDesc>
+		<ns0:xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 6" ] }</ns0:xenoData>
+	</ns0:teiHeader>
+	<ns0:facsimile>
+		<ns0:surface>
+			<ns0:graphic url="../../../Tursko%206/DSCN0586.JPG" />
+			<ns0:zone ulx="20" uly="20" lrx="1630" lry="2900" xml:id="zone_ntp_p4j_2mb" />
+		</ns0:surface>
+		<ns0:surface>
+			<ns0:graphic url="../../../Day%2012/IMG_0010.JPG" />
+		</ns0:surface>
+		<ns0:surface>
+			<ns0:graphic url="../../../Day%2012/IMG_0011.JPG" />
+		</ns0:surface>
+		<ns0:surface>
+			<ns0:graphic url="../../../Tursko%206/DSCN0587.JPG" />
+			<ns0:zone ulx="1783" uly="1783" lrx="613" lry="2143" xml:id="zone_hqy_r4j_2mb" />
+		</ns0:surface>
+		<ns0:surface>
+			<ns0:graphic url="../../../Tursko%206/DSCN0588.JPG" />
+			<ns0:zone ulx="194" uly="194" lrx="3128" lry="683" xml:id="zone_kj2_t4j_2mb" />
+		</ns0:surface>
+	</ns0:facsimile>
+	<ns0:text>
+		<ns0:body>
+			<ns0:div1 facs="#zone_ntp_p4j_2mb" next="#zone_kj2_t4j_2mb" type="&#703;arz-&#305;h&#257;l">
+				<ns0:p>
+					<ns0:lb />
+					...
+					<ns0:lb />
+				</ns0:p>
+				<ns0:div2 facs="#zone_hqy_r4j_2mb" type="sign">
+					<ns0:p>
+						<ns0:lb />
+						...
+						<ns0:lb />
+					</ns0:p>
+				</ns0:div2>
+			</ns0:div1>
+			<ns0:div1 facs="#zone_kj2_t4j_2mb" type="summary_Croatian">
+				<ns0:p>
+					<ns0:lb />
+					...					<ns0:lb />
+					<ns0:date type="summary_Croatian" when="1791">1791</ns0:date>
+				</ns0:p>
+			</ns0:div1>
+		</ns0:body>
+	</ns0:text>
+</ns0:TEI>
