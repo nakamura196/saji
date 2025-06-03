@@ -18,13 +18,9 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
-          "1201-L-15(?)" ], "saji:date_M": [ "1787-07-31" ], "saji:foldingMethod": [ "7x1" ],
-          "saji:fond": [ "Tursko 1" ], "saji:item": [
-          "・タイトル(?)\r\n・宛先(?)\r\n・オスマン朝スタンプ\r\n・定型\r\n・本文\r\n・証人\r\n・小さな書き込み@欄外" ], "saji:lang": [
-          "ota" ], "saji:lineage": [ "1+1+20+12" ], "saji:number": [ "357(?)" ],
-          "saji:relationWithAnotherItems": [ "表全体像　※一部欠けている" ], "saji:stamp_c": [ "0" ],
-          "saji:stamp_o": [ "1" ], "saji:witness": [ "3+" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1201-L-15(?)" ], "saji:date_M": [ "1787-07-31" ], "saji:foldingMethod": [ "7x1" ], "saji:fond":
+			[ "Tursko 1" ], "saji:item": [ "・タイトル(?)\r\n・宛先(?)\r\n・オスマン朝スタンプ\r\n・定型\r\n・本文\r\n・証人\r\n・小さな書き込み@欄外" ], "saji:lang": [ "ota" ], "saji:lineage": [ "1+1+20+12" ], "saji:number": [ "357(?)"
+			], "saji:relationWithAnotherItems": [ "表全体像　※一部欠けている" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "1" ], "saji:witness": [ "3+" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -65,31 +61,73 @@
 	</facsimile>
 	<text>
 		<body>
+			<div1 type="tasdīk_sign">
+				<p>
+					<lb/>El-emru hasebemā(?) zikr fīhi
+					<lb/>Şeyhzāde Sunʿillāh(?) el-kadı bi-medīne-i Saray Bosna hurrirahū el-fakīr ileyhi subhānehū(?)
+					<lb/>gifira lehumā </p>
+				<div2 facs="#zone_ipd_hhf_z3b" type="stamp">
+					<p>
+						<lb/>
+					</p>
+				</div2>
+			</div1>
 			<div1 facs="#zone_uld_fhf_z3b" type="hüccet">
-				<l>
-					<date type="created" when="1787-07-30" when-custom="1201-10-15">fi'l-yevmi'l-hāmis ʿaşar min Şevvāl el-mükerrem sene ahadā ve miyetein ve elif</date>
-				</l>
-				<div3 facs="#zone_ipd_hhf_z3b" type="stamp"/>
+				<p>
+					<lb/>Hüve
+					<lb/>Sebeb-i tahrīr-i kitāb-ı şerʿī oldur ki
+					<lb/>medīne-i Saray Bosna kazāsına müzāf Kreşevo kasabası sākinlerinden KÜRD demekle maʿrūf el-hāccı İsmaʿīl İbn
+					<lb/>nām kimesne meclis-i şerʿ hātir-i lāzımü't-tevkīrde kasaba-i mezkūre hāricinde vākiʿ kefere kinisalarında mütemekkin MİHAT
+					<lb/>veled-i PRANO(Frano?) nām gardiyān tarafından husūs-ı ātiyü'l-beyānda husūmet ve ... vekīl sābit'il-vekâlesi
+					<lb/>olan kasaba-i mezbūre mütemekkinlerinden işbu rāfi'ū's-sifr Andrī veled-i MATYE nām zimmī muvācehesinde üzerine
+					<lb/>daʿvā ve takrīr-i kelām edüb müvekkil-i mesfūr MIHAT gardiyān-ı hālā Bosna vālisi DULTLUŞLİ Selim
+					<lb/>Paşa hazretlerine mukaddemā benimiz(?) ve ʿarzhāl ile bi-gayr-i hakkın üzerime(?) iştikâ ve mübāşir maʿrifetiyle Dīvān-ı
+					<lb/>Bosna'ya ihzār ve beş ay Travnik kalʿesinde mahbūs olub ... tehliye olununacak'ya(?)
+					<lb/>değin bin altyüz yiğirmi beş guruş ihzār o tecrīm olunduğuma bināyen su'āl olunub mūcib-i
+					<lb/>şerʿī icrā’ve müvekkil-i mesfūrūn tezmīn ettirilmesi matlūbumdur dedikte gıbbe's-su'āl vekīl-i mesfūr
+					<lb/>zimmī Andrī cevābında fī'l-vākiʿ müvekkilim-i mesfūr MIHAT gardiyān vezīr-i müşārün-ileyh teşekkī eylediğini ikrār
+					<lb/>lākin işbu müddeʿī merkūm el-Hāccı İsmāʿīl medīne-i mezkūre kazāsına müzāfa Visoka ... cizyedārī
+					<lb/>olmağla Kreşevo kinisanın rāhibinden fermān-ı ʿālīşāna mugāyir dörtyüz guruş cizye nāmyile ahz
+					<lb/>etmekle vezīr-i müşārün-ileyh hazretlerine ifāde-i hāl ve huzür-ı hazret-i müşārün-ileyhde Travnik
+					<lb/>kadısı daʿvālarını fasl ve müvekkilim-i mesfūre meblağ-ı mezkūr dörtyüz guruş hükm olunduğuna bināyen
+					<lb/>merkūm el-Hāccı İsmāʿīl Travnik'de habs olduğunu müdāfaʿa edüb lākin ver vech-i iddiʿā bin altyüz
+					<lb/>yiğirmi beş guruş ... olduğu ...dir deyu ... etmekle ... merkūm el-Hāccı
+					<lb/>İsmāʿīl'dan daʿvāsınaa ... taleb olundukta ... olunub ...
+					<lb/>şerʿī ...dan sonra ... etmeğin mūcibince ...
+					<lb/>merkūm el-Hāccı İsmāʿīl'in ... şerʿan menʿ birle ...'l-vākiʿ bi'l-taleb ketb olundu
+					<lb/><date type="created" when="1787-07-30" when-custom="1201-10-15">fi'l-yevmi'l-hāmis ʿaşar min Şevvāl el-mükerrem sene ahadā ve miyetein ve elif</date>
+					<note type="translation">
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+					</note>
+				</p>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>
+						<lb/>
+					</p>
+				</div2>
 			</div1>
 			<div1 facs="#zone_gjg_1q3_1jb" type="hüccet">
 				<p>
 					<lb/>
-					<date type="created" when="1787-07-30" when-custom="1201-10-15">fi'l-yevmi'l-hāmis ʿaşar min Şevvāl el-mükerrem sene ahadā
-            ve miyetein ve elif</date>
+					<date type="created" when="1787-07-30" when-custom="1201-10-15">fi'l-yevmi'l-hāmis ʿaşar min Şevvāl el-mükerrem sene ahadā ve miyetein ve elif</date>
 					<lb/>
 				</p>
 				<div3 facs="#zone_iqs_bq3_1jb" type="stamp">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div3>
 			</div1>
 			<div1 facs="#zone_hpz_cq3_1jb" type="summary_Croatian">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 			</div1>

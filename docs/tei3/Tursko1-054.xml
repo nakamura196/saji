@@ -18,19 +18,12 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
-          "1270-N-21" ], "saji:date_M": [ "1854-06-17" ], "saji:foldingMethod": [ "7x1" ],
-          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
-          "・定型文1\r\n・オスマン朝スタンプ\r\n・定型文2\r\n・本文\r\n・日付\r\n・証人\r\n・添え書き（朱書き）" ], "saji:lang": [ "ota"
-          ], "saji:lineage": [ "17+4" ], "saji:memo": [
-          "・非常に読みやすい、はっきりした文字で書かれている。他の同タイプ文書を読み解く際に参考になる。", "典型" ], "saji:nameFull": [ "ʿAbdül...
-          bun Meḥmed ..." ], "saji:number": [ "28" ], "saji:placeFull": [ "Madīna-i Saraybosna
-          ḳażāsına ... Foynçe nāḥiyesine tābiʿ varoş Kraşova" ], "saji:placeSimple": [ "Madīna-i
-          Saraybosna ḳażā", "Foynçe nāḥiyesi", "varoş Kraşova" ], "saji:relationWithAnotherItems": [
-          "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "1" ], "saji:transcription": [
-          "Madīna-i Saraybosna ḳażāsına ... Foynçe nāḥiyesine tābiʿ varoş Kraşova'dan ...\r\nḳaryede
-          ... ʿAbdül... bun Meḥmed ... nām kimesne meclis-i şerʿ ..." ], "saji:witness": [ "3" ]
-          }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1270-N-21" ], "saji:date_M": [ "1854-06-17" ], "saji:foldingMethod": [ "7x1" ], "saji:fond": [
+			"Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [ "・定型文1\r\n・オスマン朝スタンプ\r\n・定型文2\r\n・本文\r\n・日付\r\n・証人\r\n・添え書き（朱書き）" ], "saji:lang": [ "ota" ], "saji:lineage": [ "17+4" ], "saji:memo": [
+			"・非常に読みやすい、はっきりした文字で書かれている。他の同タイプ文書を読み解く際に参考になる。", "典型" ], "saji:nameFull": [ "ʿAbdül... bun Meḥmed ..." ], "saji:number": [ "28" ], "saji:placeFull": [ "Madīna-i Saraybosna ḳażāsına ...
+			Foynçe nāḥiyesine tābiʿ varoş Kraşova" ], "saji:placeSimple": [ "Madīna-i Saraybosna ḳażā", "Foynçe nāḥiyesi", "varoş Kraşova" ], "saji:relationWithAnotherItems": [ "表全体像" ],
+			"saji:stamp_c": [ "0" ], "saji:stamp_o": [ "1" ], "saji:transcription": [ "Madīna-i Saraybosna ḳażāsına ... Foynçe nāḥiyesine tābiʿ varoş Kraşova'dan ...\r\nḳaryede ... ʿAbdül... bun
+			Meḥmed ... nām kimesne meclis-i şerʿ ..." ], "saji:witness": [ "3" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -52,16 +45,65 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 facs="#zone_uhb_14z_y3b" type="hüccet">
-				<l>
-					...					<date type="created" when="1854-06-06" when-custom="1270-09-11">fi'l-yevmi'l-hādī ve'l-ʿaşar min şehr Ramazāni'l-mubārek</date>
-				</l>
-				<l>sene sabʿīn ve miyetein ve elif</l>
-				<div3 facs="#zone_jck_b4z_y3b" type="stamp"/>
+			<div1 type="tasdīk_sign">
+				<p>
+					<lb/>El-emru hasbemā zikr fīhi
+					<lb/>Çıkacızāde Ahmed Sābit en-nāib bi-nāhiyet-i Foyniçe bi-mennehu el-fakīr ileyhi ...
+					<lb/>gufira lehu </p>
+				<div2 facs="#zone_jck_b4z_y3b" type="stamp">
+					<p>
+						<lb/>Ahmed Sābit </p>
+				</div2>
 			</div1>
-			<div1 cert="low" facs="#zone_xss_d4z_y3b" type="tasdīk"/>
+			<div1 facs="#zone_uhb_14z_y3b" type="hüccet">
+				<p>
+					<lb/>Hüve
+					<lb/>Sebeb-i tahrīr-i kitāb-ı şerʿī budur ki
+					<lb/>medīne-i Saray Bosna kazāsına müzāfa Foyniçe nāhiyesine tābiʿ varoş-ı Kreşevo'dan Kamenik
+					<lb/>karyesi sükkânından ʿAbdülhamid bun Mehmed PUCAPAÇ nām kimesne meclis-i şerʿ hātir-i lāzımü't-tevkīrde
+					<lb/>karye-i mezbūre mutavattınlarından işbu bāʿis-i hāze's-sifr Yako veled-i Luka TRUGİRLİÇ nām
+					<lb/>zimmīnin mahzar o müvācehesinde ikrār-ı tām o takrīr-i kelām edüb beyʿ-i ātiyü'l-beyānın ...'na
+					<lb/>değin ... mülkümda(?) münselik olub yine karye-i mezbūrede vākiʿ bir taraf Pavo
+					<lb/>Kuliş mülki ve tarafeyin ... merkūm ʿAbdülhamid ... ve taraf-ı rābiʿ tarīk-i
+					<lb/>ʿām ile mahdūd ve mümtāz bir kıtʿa ...
+					<lb/>tarafından īcāb o kabūl hāvī ve şurūt ...
+					<lb/>işbu mesfūr Yako zimmīye(?) elli guruş semen mukābelesinde beyʿ-i bāt ...-i şerʿiye
+					<lb/>ile beyʿ ü temlīk ü teslīm ol dahi ber minvāl-i muharrer iştirā o temellük ü teslīm ü kabz
+					<lb/>o kabūl ve semen-i mezkūr elli guruş baña defʿ ü teslīm ben dahi yedinden tamāmen
+					<lb/>ahz o kabz o ... eyledim ... -i mahdūd-u merkūmede aslan o katʿan
+					<lb/>hakk o ʿalākam kalmayub mesfūr Yako zimmīnin mülk ...
+					<lb/>... mutasarrıf olsun dedikte gıbbe't-tasdīk
+					<lb/>el-şerʿī mā-hüve'l-vākiʿ bi'l-taleb ketb ü ... ve yed-i tālebe defʿ ü iʿtā olundu
+					<lb/>cerā zālike ve hurira <date type="created" when="1854-06-06" when-custom="1270-09-11">fi'l-yevmi'l-hādī ve'l-ʿaşar min şehr Ramazāni'l-mubārek
+						<lb/>sene sabʿīn ve miyetein ve elif</date>
+					<note type="translation">
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+					</note>
+				</p>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 cert="low" facs="#zone_xss_d4z_y3b" type="tasdīk">
+				<p>
+					<lb/>Foyniçe kazāsında varaka-ı ...
+					<lb/>bulunmadığından bi'l-...
+					<lb/>işbu kâğıda bu hüccet-i
+					<lb/>şerʿiye yazılmıştır </p>
+			</div1>
 			<div1 facs="#zone_zn4_f4z_y3b" type="summary_Croatian">
-</div1>
+				<p>
+					<lb/>
+				</p>
+			</div1>
 		</body>
 	</text>
 </TEI>

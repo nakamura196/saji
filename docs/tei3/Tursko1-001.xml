@@ -15,16 +15,11 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
-          "1246-Ş-25" ], "saji:date_M": [ "1831-02-08" ], "saji:foldingMethod": [ "8" ],
-          "saji:fond": [ "Tursko 1" ], "saji:item": [ "本文", "証人", "オスマン朝スタンプ", "クレシェヴォのスタンプ" ],
-          "saji:lang": [ "ota" ], "saji:lineage": [ "20" ], "saji:memo": [ "冒頭左上に、特徴的な形をした4行の定型文",
-          "最後に、？名の証人の名前：\"Şuhūdu'l-ḥāl\"" ], "saji:number": [ "107" ], "saji:openingPhrase": [
-          "Madīna-i Saray Bosna'da" ], "saji:placeFull": [ "Madīna-i Saray Bosna ḳażāsı ... Foyniçe
-          nāḥiyesine tābiʿ Kreşevo" ], "saji:relationWithAnotherItems": [ "DSCN0905.JPG_表", "表全体像"
-          ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "1" ], "saji:transcription": [ "Madīna-i
-          Saray Bosna ḳażāsı ... Foyniçe nāḥiyesine tābiʿ Kreşevo ...\nmeks̱ eden ... ḳażāsıda
-          reʿāyāsından işbu ...\nmeclis-i şerʿ ... \nmezbūrede" ], "saji:type": [ "hüccet" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1246-Ş-25" ], "saji:date_M": [ "1831-02-08" ], "saji:foldingMethod": [ "8" ], "saji:fond": [
+			"Tursko 1" ], "saji:item": [ "本文", "証人", "オスマン朝スタンプ", "クレシェヴォのスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "20" ], "saji:memo": [ "冒頭左上に、特徴的な形をした4行の定型文",
+			"最後に、？名の証人の名前：\"Şuhūdu'l-ḥāl\"" ], "saji:number": [ "107" ], "saji:openingPhrase": [ "Madīna-i Saray Bosna'da" ], "saji:placeFull": [ "Madīna-i Saray Bosna ḳażāsı ... Foyniçe nāḥiyesine
+			tābiʿ Kreşevo" ], "saji:relationWithAnotherItems": [ "DSCN0905.JPG_表", "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "1" ], "saji:transcription": [ "Madīna-i Saray Bosna ḳażāsı ...
+			Foyniçe nāḥiyesine tābiʿ Kreşevo ...\nmeks̱ eden ... ḳażāsıda reʿāyāsından işbu ...\nmeclis-i şerʿ ... \nmezbūrede" ], "saji:type": [ "hüccet" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -50,14 +45,46 @@
 	</facsimile>
 	<text>
 		<body>
+			<div1 type="tasdīk_sign">
+				<p>
+					<lb/>...
+					<lb/>Mehmed ... el-mevlā-hilāfe bi-madīne-i Saray Bosna ... el-fakīr ileyhi ...
+					<lb/>gufira lehu </p>
+				<div2 facs="#zone_tp4_ngy_y3b" type="stamp">
+					<p>
+						<lb/>Mehmed ... </p>
+				</div2>
+			</div1>
 			<div1 facs="#zone_vpp_lgy_y3b" type="hüccet">
-				<l>
-					hurrir
-					<date type="created" when="1831-02-07" when-custom="1246-08-25"> fī'-l yevmi'l-hamīs ve ʿaşrayn min Şaʿabān el-...
-            sene sitte ve arbaʿīn</date>
-				</l>
-				<l>ve miyetein ve elif ... </l>
-				<div3 facs="#zone_tp4_ngy_y3b" type="stamp"/>
+				<p>
+					<lb/>Hüve
+					<lb/>Sebeb-i tahrīr-i kitāb-ı şerʿī ｂudur ki
+					<lb/>madīne-i Saray Bosna kazāsına müzāfa Foyniçe nāhiyesine tābiʿ Kreşevo varoşında ...
+					<lb/>meks eden PREPUL kazāsı reʿāyāsından işbu rāfi'ū's-sifr tüccār Maksim veled-i Īvān(?) nām zimmī
+					<lb/>meclis-i şerʿ hātir-i lāzımü't-tevkīrde takrīr-i kelām ve taʿbīr ʿan'il-merām edüb varoş-ı
+					<lb/>mezbūrede KÜTÜK mahallesi mütemekkinlerinden gā'ib ʿan'il-meclis ISTRUKO Īvān veled-i
+					<lb/>nām zimmī mahalle-i mezkūrede kā'in bir tarafı İstepan Şāhīn menzili ve bir tarafı nehir
+					<lb/>potuk mecrāsı ve bir tarafı çarşı ve taraf-ı rābiʿ tarīk-i ʿām ile mahdūd ve mümtāz olub
+					<lb/>meslek-i mülkinde münselik olan bir bāb mülk menzil ile ittisālında kā'in KVAÇ
+					<lb/>dükkânını ... el-tevābiʿ ve'l-levāhik ... el-hukūk ve'l-mürāfik tarafından īcāb ve kabūlı hāvī
+					<lb/>ve şrūt ... ve ... mübattale ve ... ve tagrīrdan ʿārī nakd ... fi'l-... olan
+					<lb/>bin beş yüz altmış üç guruş semen mukābelesinde beyʿ bāt sahīh-i şerʿ ile baña beyʿ ve teslīm
+					<lb/>ve temlīk ve semen mezkūri yedimden tamāmen ahz ü kavz ve ist... edüb ebniye-i mezkūre
+					<lb/>ʿarsası arāzī-i mīrīyesi olduğu hasebiyle Kreşevo mukātaʿası emīni bulunan ÇTKİzāde Mehmed Ağa
+					<lb/>beyʿ ve ferāğ-ı mezbūri tecvīz ve bā'iʿ mesfūr Īvān'ın emlāk ve ebniye ve ʿarsa-i mezkūreyi
+					<lb/>beyʿ ve ferāğatdan baña tefvīzi müşʿar emin ağa-i mūmāileyhi hatm ve imzāsıyla mersūm ...
+					<lb/>bir kıtʿa temessük iʿtā eylemiştir temessük-ü mezkūr mūcibince yedime bir kıtʿa hüccet-i şerʿiye
+					<lb/>dahi iʿtā olunması matlūbdır deyu yedinde olan temessükünü ibrāz edüb nazar olundukta
+					<lb/>temessük takrīr şürūhına mütābık ve şerʿ ve kānūna müvāfik bulunmakla işbu ...
+					<lb/>... ketb ... tāleb mesfūre iʿtā olundı ...
+					<lb/>zālika(?) hurrir <date type="created" when="1831-02-07" when-custom="1246-08-25"> fī'-l yevmi'l-hamīs ve ʿaşrayn min Şaʿabān el-muʿazzam sene sitte ve arbaʿīn</date>
+					<lb/>ve miyetein ve elif min ... </p>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>
+						<lb/>
+					</p>
+				</div2>
 			</div1>
 		</body>
 	</text>

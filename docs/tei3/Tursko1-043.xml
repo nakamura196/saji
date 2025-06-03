@@ -19,8 +19,8 @@
 			</sourceDesc>
 		</fileDesc>
 		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "(?)-M-evāsṭ(?)" ], "saji:foldingMethod": [ "3x2" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [
-					"0" ], "saji:item": [ "・表題(?)\r\n・オスマン朝スタンプ1\r\n・オスマン朝スタンプ2\r\n・差出人(?)\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・日付\r\n・証人" ], "saji:lang": [ "ota" ], "saji:lineage": [ "1+2+22+5" ],
-					"saji:number": [ "502" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "2" ], "saji:witness": [ "3(?)" ] }</xenoData>
+			"0" ], "saji:item": [ "・表題(?)\r\n・オスマン朝スタンプ1\r\n・オスマン朝スタンプ2\r\n・差出人(?)\r\n・クレシェヴォのスタンプ\r\n・本文\r\n・日付\r\n・証人" ], "saji:lang": [ "ota" ], "saji:lineage": [ "1+2+22+5" ], "saji:number": [
+			"502" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "2" ], "saji:witness": [ "3(?)" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -52,39 +52,93 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 facs="#zone_wwy_rff_z3b" type="hüccet_sūret">
-				<l>
-					... fī					<date cert="low" from="1795-07-27" from-custom="1210-01-11" to-custom="1210-01-20" type="created">evāsit Muharrem el-harām sene ʿaşr ve miyetein ve elif</date>
-				</l>
-				<div3 facs="#zone_jqh_tff_z3b" type="stamp"/>
-				<div3 facs="#zone_zvh_5ff_z3b" type="stamp"/>
+			<div1 type="note">
+				<p>
+					<lb/>Sūretil'-hüccetim ʿani'l-bāğ o ... </p>
+				<div2 type="stamp" facs="#zone_jqh_tff_z3b">
+					<p>
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="stamp" facs="#zone_zvh_5ff_z3b">
+					<p>
+						<lb/>
+					</p>
+				</div2>
 			</div1>
-			<div1 facs="#zone_exj_wff_z3b" type="summary_Croatian"/>
-			<div1 facs="#zone_cns_dr3_1jb" type="hüccet_sūret">
+			<div1 type="tasdīk_sign_sūret">
+				<p>
+					<lb/>El-emru hasbemā hurrira fīhi
+					<lb/>Ahmed el-mevlā-hirāfe-i Mostar(?) ... el-fakīr ileyhi ... </p>
+			</div1>
+			<div1 facs="#zone_wwy_rff_z3b" type="hüccet_sūret">
+				<p>
+					<lb/>Mostar kazāsına tābiʿ VIYUNİÇE(Broćanska?) karyesi mütemekkinlerinden Girgo(Grgo?) veled-i İliya MRUSAÇ
+					<lb/>nām zimmīnin tarafından ... ātiyü'l-zikr ... ikrār o takrīre vekīi olan(?)
+					<lb/>vekâlet-... el-şerʿī sābit o ... şerʿī lāhik olan Mustafa
+					<lb/>Ağa ... nām kimesne meclis-i şerʿ ... lāzım'ıl-...de yine kazā-i mezbūre
+					<lb/>müzāfa Gradnik karyesinden(?) ... mütevellī ... olunan
+					<lb/>pra MİHU (fra Mijo?) nām zimmīnin tarafından ... vekīli olan
+					<lb/>işbu rāfiʿ hāze's-sifr İSLİÇİÇ karyesinden ʿAndriye veled-i Īvān nām kimesnenin
+					<lb/>müvācehesinde bā el-vekâlete ikrār-ı tām ve takrīr-i kelām edüb müvekkilim-i mesfūr İliya
+					<lb/>zimmīnin bundan on dört sene mukaddem mürd olan ... İliya veled-i LORUH nām
+					<lb/>... zikr olunan VIYUNİÇE karyesinde mutasarrıf oluduğu bir taraf-ı YEKĪRĪzāde-
+					<lb/>lerin bağı ve taraf-ı sānī BLİN İbrāhīm Beşe'nin bāgı ve taraf-ı sāliz BYLU BRİĞ
+					<lb/>nām ... ile mahdūd ve ... ol çiçelik(?) bir katʿ mülk(?) bāğını ...
+					<lb/>... imtiyāzıyle mümtāz kulub(?) ... üzere
+					<lb/>Kreşevo'da olan ... edüb alacak vakf-ı
+					<lb/>mezkūre ... lāhik olmamağla ... müvekkilim-i mezbūr İliya
+					<lb/>dahi bāğ-ı merkūm mülkinden ... merkūmin ...
+					<lb/>mürd-i mesfūrin vakfı üzere vakf ... edüb ... şerʿī ve teslīm
+					<lb/>... el-mütevellī eyledikten sonra şöyle şurt eylediğe bāğ-ı merkūmim ...
+					<lb/>... mezkūrin ... oluna deyu oluna taʿīn eyledi ... dedi-
+					<lb/>kten sonra el-... el-mesfūr ʿAndriye vekīl-i merkūm Mustafa Ağa'nın ...
+					<lb/>...
+					<lb/>... olundu hurira ...fī <date cert="low" from="1795-07-27" from-custom="1210-01-11" to-custom="1210-01-20" type="created">evāsit Muharrem el-harām sene ʿaşr ve miyetein ve
+						elif</date>
+					<lb/>
+					<note type="translation">
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+					</note>
+				</p>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_exj_wff_z3b" type="summary_Croatian">
 				<p>
 					<lb/>
-					... fī					<date cert="low" type="created" from-custom="1210-01-11" to-custom="1210-01-20">evāsit Muharrem el-harām sene ʿaşr ve miyetein ve elif</date>
+				</p>
+			</div1>
+			<div1 facs="#zone_cns_dr3_1jb" type="hüccet_sūret">
+				<p>
+					<lb/> ... fī <date cert="low" type="created" from-custom="1210-01-11" to-custom="1210-01-20">evāsit Muharrem el-harām sene ʿaşr ve miyetein ve elif</date>
 					<lb/>
 				</p>
 				<div3 facs="#zone_l3s_2r3_1jb" type="stamp">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div3>
 				<div3 facs="#zone_wg2_fr3_1jb" type="stamp">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div3>
 			</div1>
 			<div1 facs="#zone_cth_gr3_1jb" type="summary_Croatian">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 			</div1>

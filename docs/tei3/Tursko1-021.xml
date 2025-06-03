@@ -12,7 +12,7 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<notesStmt>
-				<note type="summary">略式で書かれたḥüccet</note>
+				<note type="summary">略式で書かれたhüccet</note>
 				<note type="mine">端書に、紙がなかったため略式で書いた旨、記されている。</note>
 				<note type="mine">日付は、本文中は1273年Receb月25日となっており、クロアチア語要約は1254年Receb月となっている。ここではオスマン語の記述を優先させたい。</note>
 			</notesStmt>
@@ -21,9 +21,9 @@
 			</sourceDesc>
 		</fileDesc>
 		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1273-B-21" ], "saji:date_M": [ "1857-03-17" ], "saji:foldingMethod": [ "4x1" ], "saji:fond": [
-					"Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・本文\r\n・証人\r\n・欄外の記述" ], "saji:lang": [ "ota" ], "saji:lineage": [ "13+3" ], "saji:memo": [ "・裏面ボスニア語梗概には「1857. gr.
-					110」「Redjer 1254」という記述が見られるが、オスマン語本文の記述は「1(2?)73-B-21」と読めたので、日付はそちらを採用した。西暦もその読みに従って入力した。", "典型\r\n・ḥüccetのように見えるが、料紙のアスペクト比が異なり、上部の定型句なども見られない" ], "saji:number": [ "125" ],
-					"saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "1" ] }</xenoData>
+			"Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・本文\r\n・証人\r\n・欄外の記述" ], "saji:lang": [ "ota" ], "saji:lineage": [ "13+3" ], "saji:memo": [ "・裏面ボスニア語梗概には「1857. gr. 110」「Redjer
+			1254」という記述が見られるが、オスマン語本文の記述は「1(2?)73-B-21」と読めたので、日付はそちらを採用した。西暦もその読みに従って入力した。", "典型\r\n・ḥüccetのように見えるが、料紙のアスペクト比が異なり、上部の定型句なども見られない" ], "saji:number": [ "125" ],
+			"saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:witness": [ "1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -44,18 +44,52 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 facs="#zone_hs4_bfz_y3b" type="hüccet_simple">
-				<l>
-					... fī					<date type="created" when="1857-03-20" when-custom="1273-07-25">yevmi'l-hāmis ve'l-ʿaşrūn min ... Receb ... ve sene suls ve sabʿīn</date>
-				</l>
-				<l>ve miyetein ve elif ...</l>
-				<div3 facs="#zone_hzw_gfz_y3b" type="stamp_sūret"/>
+			<div1 type="tasdīk_sign">
+				<div2 facs="#zone_hzw_gfz_y3b" type="stamp_sūret">
+					<p>
+						<lb/>Mustafa ʿAbdüllāh Kreşevo nāiv-i vekīl(?) </p>
+				</div2>
+			</div1>
+			<div1 facs="#zone_hs4_bfz_y3b" type="hüccet_sūret">
+				<p>
+					<lb/>Hüve
+					<lb/>Vech-i tahrīr-i hurūf ... mūcib ... oldur ki
+					<lb/>Foyniçe kazāsına(?) tābiʿ Kreşevo kasabasına müslimīn cemāʿat mahallātından(?) Kojsina(?) mahallesinde mutavattınlatından Paro(Pavo?) veled-i İstepan Laliç nām kimesne ...
+					meclis-i
+					<lb/>şerʿ-i şerīf ... işbu bāʿis-i hāza'l-vesīka kaziyye-i mezbūrun kilisada gardiyān fra Andriye nām kimesnenin mahzar o müvācehesinde ikrār-ı
+					<lb/>tām-ı sāfī ve takrīr-i kelām-ı vāfī edüb beyʿ-i āti'l-zikrin hudūduna(?) değin meslek-i(?) mülkenin(?) münselik olub mahalle-i mezbūrede vākiʿ
+					<lb/>bir taraf merkūm müşteri ruhbānın mülk menzili ve bir taraf ... varınca ve bir taraf ...
+					<lb/>ve taraf rābiʿ tarīk-i ʿām ile mahdūd ve mümtāz bir bāb emlek(?) menzilhānenin nısf hisse bi'l-cümle mā...
+					<lb/>şerʿyile beyʿ ve temlīk ve teslīm eyledikte ol dahi ber minvāl-i muharrer ... guruş bedel mukābelesinde beyʿ-i bāt-ı sahīh
+					<lb/>baña defʿ ve teslīm ben dahi yediden(?) bit'-tamām ahz o kabz ve ... eyledim fī baʿd-i semen beyʿ-i mezkūreden merkūm fra Andriye
+					<lb/>... bir akçe ve bir habbe alacağı ... kalmadığından ... mülk menzilhāne mahdūd-ı mezkūrede bir ...
+					<lb/>hakkı(?) ve ʿalāka ... kalmayub müşter-i merkūm ruhbānın mülki ... sahīhdır ...
+					<lb/>... mutasarrıf olsun dedikte gıbbe'l-... el-şerʿi ve'l-... el-... mā-hüve'l-vākiʿ
+					<lb/>bi'l-taleb ketb olundu celā zālike ve hurrira <date type="created" when="1857-03-20" when-custom="1273-07-25">fī'l-yevmi'l-hāmis ve'l-ʿaşrūn min ... Receb ... ve sene suls ve
+						sabʿīn
+						<lb/>ve miyetein ve elif</date> ... <note type="translation">
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>純粋で完全な告白と十分で完璧な陳述を行って曰く、 </note>
+				</p>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>
+						<lb/>
+					</p>
+				</div2>
+				<div2 type="note">
+					<p>
+						<lb/>純粋で完全な告白と十分で完璧な陳述を行って曰く、
+						<lb/>
+					</p>
+				</div2>
 			</div1>
 			<div1 facs="#zone_wl4_kfz_y3b" type="sumamry_Croatian">
-				<l>
-					Za ...					<date type="summary_Croatian" when="1857">1857</date>
-					 gr. 110.
-				</l>
+				<l> Za ... <date type="summary_Croatian" when="1857">1857</date> gr. 110. </l>
 				<l>
 					<date type="summary_Croatian" when="1838-10-17" when-custom="1254-07">Redjer 1254</date>
 				</l>

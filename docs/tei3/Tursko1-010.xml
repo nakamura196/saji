@@ -11,22 +11,20 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="summary">非ムスリム商人と修道士の間の金銭トラブル。被告人である修道士側が敗訴し要求された金額を支払ったが、その支払い完了を証明する証書。敗訴側である修道院が支払い完了証明のために保管していたと見られる。 <note type="mine">文字が綺麗なので他の文書を読む参考になる。</note>
+				</note>
+			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
-          "1216-C-25" ], "saji:date_M": [ "1801-11-02" ], "saji:foldingMethod": [ "8" ],
-          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "\"hüve\"", "本文", "証人",
-          "オスマン朝スタンプ", "クレシェヴォのスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "20" ],
-          "saji:memo": [ "冒頭左上に、特徴的な形をした4行の定型文", "最後に、5名(?)の証人の名前：\"Şuhūdu'l-ḥāl\"",
-          "DSCN0886.JPGと外見上良く似ている", "\"meclis\"が読み取れるので、シャリーア法廷記録に関係するもの？" ], "saji:number": [ "284"
-          ], "saji:openingPhrase": [ "Madīna-i Saray Bosna'da" ], "saji:placeFull": [ "Foniça
-          nāḥiyesi" ], "saji:relationWithAnotherItems": [ "DSCN0895.JPG_表", "表全体像" ],
-          "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "1" ], "saji:transcription": [ "Madīna-i Saray
-          Bosna'da ... Kātib maḥllesi ... Ṭuzlu Oğlu dimekle maʿrūf Yuvan veled-i ... nām ẕimmī
-          meclis-i şerʿ... madīna-i mezbūrde ḳażāsı mużāfā ... Foniçe nāḥiyesine tābiʿ kuruş(?) ve
-          ḳaṣabasında vāḳiʿ ... " ], "saji:type": [ "hüccet" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1216-C-25" ], "saji:date_M": [ "1801-11-02" ], "saji:foldingMethod": [ "8" ], "saji:fond": [
+			"Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "\"hüve\"", "本文", "証人", "オスマン朝スタンプ", "クレシェヴォのスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "20" ], "saji:memo": [
+			"冒頭左上に、特徴的な形をした4行の定型文", "最後に、5名(?)の証人の名前：\"Şuhūdu'l-ḥāl\"", "DSCN0886.JPGと外見上良く似ている", "\"meclis\"が読み取れるので、シャリーア法廷記録に関係するもの？" ], "saji:number": [ "284" ], "saji:openingPhrase": [ "Madīna-i
+			Saray Bosna'da" ], "saji:placeFull": [ "Foniça nāḥiyesi" ], "saji:relationWithAnotherItems": [ "DSCN0895.JPG_表", "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [ "1" ],
+			"saji:transcription": [ "Madīna-i Saray Bosna'da ... Kātib maḥllesi ... Ṭuzlu Oğlu dimekle maʿrūf Yuvan veled-i ... nām ẕimmī meclis-i şerʿ... madīna-i mezbūrde ḳażāsı mużāfā ... Foniçe
+			nāḥiyesine tābiʿ kuruş(?) ve ḳaṣabasında vāḳiʿ ... " ], "saji:type": [ "hüccet" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -43,14 +41,70 @@
 	</facsimile>
 	<text>
 		<body>
+			<div1 type="tasdīk_sign">
+				<p>
+					<lb/>...
+					<lb/>Hasan ... el-kādı bi-madīne-i Saray Bosna ... el-fakīr ileyhi ...
+					<lb/>gufira lehu </p>
+				<div2 facs="#zone_m4r_5c3_x3b" type="stamp">
+					<p>
+						<lb/>
+					</p>
+				</div2>
+			</div1>
 			<div1 facs="#zone_b15_sc3_x3b" type="hüccet">
-				<l>
-					...					<date type="created" when="1801-11-01" when-custom="1216-06-25">fi'l-yevmi'l-hāmis ve el-ʿöşrīn min Cemaziye'l-ahir</date>
-				</l>
-				<l>sene sitte ʿöşr ve miyatein ve elif</l>
-				<div3 facs="#zone_m4r_5c3_x3b" type="stamp">
-					<l>...</l>
-				</div3>
+				<p>
+					<lb/>Hüve
+					<lb/>Tahrīr-i kitāb-ı şerʿī oldur ki
+					<lb/>madīne-i Saray Bosna'da Küçük Kâtib mahallesi mütemekkinlerinden Tuzluoğlu demekle maʿrūf
+					<lb/>İvān(?) veled-i Petar nām zimmī meclis-i şerʿ hātir-i lāzımü't-tevkīrde madīne-i mezbūre kazāsı müzāfasından
+					<lb/>Foyniçe nāhiyesine tābiʿ Kreşevo kasabasında vākiʿ efrank(?) keferesi kinisanın ruhbānlarından madīne-i mezbūrde
+					<lb/>ber vech-i musāferet meks eden işbu rāfi'ül-vesīka pra İli(fra İlija?) veled-i İstepan nām rāhib mahzar o müvācehesinde
+					<lb/>ikrār-ı tām ve takrīr-i kelām edüb tārīh-i kitābdan dokuz ay mukaddem mārrı'l-zikr Kreşevo kasabasında
+					<lb/>ticāret tarīk ile meks ettiğim hālde mesfūr pra İli (fra İlija?) revāyih(?) üçer buçuk guruş olduklar hālde
+					<lb/>iki yüz yiğirmi yedi ʿaded KRSTAŞ riyāli ile iki aded yüzlüğ bi-hesāb(?) guruş cemʿan yedi
+					<lb/>yüz doksan dokuz buçuk guruşu beş gün baʿdesiyle benden istikrāz edüb ikrāz be-rāh ahz
+					<lb/>ve kabz etmişiken bundan dört gun mukaddem meblağ-ı mezkūri işbu meclis-i şerʿde lede'l-murāfaʿa taleb
+					<lb/>ve daʿvā ettiğimde lede's-su'āl mesfūr pra İli (fra İlija?) külliyen inkâr etmekle ʿudūr-ı ahrār-ı ricāl ehl-i zimmīden
+					<lb/>madīne-i mezbūre nāhiyesine tābiʿ AHRAŞA karyesi mütemekkinlerinden ve SALİN veled-i POPİÇ ve ŞİH FRH mahallesi
+					<lb/>mütemekkinlerinden Petar veled-i Lazu nām zimmīlerin şehādetlerile ispat ve beyān eylediğide(?) baʿd'el-taʿdīr
+					<lb/>ve'l-tezkiye şehādetleri şerʿan makbūle olmağla meblağ-ı mezkūri baña hüküm ü kebl-i şerʿden yedime
+					<lb/>iʿtā olunan hüküm mülāselesi mūcibince mahkûmun-bih olan meblağ-ı mezkūr yedi yüz doksan dokuz
+					<lb/>buçük guruşı tārīh-i vesīka günü rāhib-i mesfūr pra İli (fra İlija?) tamāmen ve kâmilen baña edā ve teslīm ben dahi
+					<lb/>ber vech-i muharrer meblağ-ı mezkūrdan bir akçe ve bir habbe bākī(?) alacak hakkım kalmadığı ecilden hüccet-i şerʿiye
+					<lb/>tahrīr ve rāhib-i mesfūr pra İli (fra İlija?)'ya iʿtā olunsun dedikte gıbbe'l-tasdīki'l-şerʿi mā-hüve(?)
+					<lb/>el-vākiʿ bi'l-taleb-i ketb olundu <date type="created" when="1801-11-01" when-custom="1216-06-25">fi'l-yevmi'l-hāmis ve el-ʿöşrīn min Cemaziye'l-ahir
+						<lb/>sene sitte ʿöşr ve miyatein ve elif</date>
+					<note type="translation">
+						<lb/>神
+						<lb/>聖なる文書が次のように記された；
+						<lb/>サライボスナの街のキュチュク・キャーティブ街区の住民でトゥズルオールという名で知られる
+						<lb/>ペタルの息子イヴァン(?)という名前の非ムスリムが、敬意を払うべき聖なる法廷へ出廷するにおよび、前述の街のカザーに属する
+						<lb/>フォイニチェ・ナーヒエに属するクレシェヴォ・カサバにある、西洋人の異教徒の教会の修道士たちのうち、前述の街で
+						<lb/>旅行者として滞在する、この文書の持ち主である兄弟イステパンの息子イリヤとうい名前の修道士と、対面し、
+						<lb/>全てを告白し陳述して曰く、「文書の日付から9か月前、前述のクレシェヴォ・カサバで
+						<lb/>商売のために滞在していましたところ、前述の修道士イリヤが、芳香1つあたり3.5クルシュであるところ、
+						<lb/>227個をKRSTASリヤル貨で、2つで100（リヤル）を領収書なしで、クルシュ換算にして合計
+						<lb/>799.5クルシュを、5日間私から借款し、正当な貸し付けを
+						<lb/>行ったため、これより4日前、前述の金額について、本シャリーア法廷で訴訟を起こすことを求め
+						<lb/>訴えを起こしました」（と述べたが）、尋問に際して前述の修道士イリヤが完全に否認し、名士で自由民で能力と公正さを持つ非ムスリムのうち
+						<lb/>前述の街のナーヒエに属するAHRAŞAカルイェの住民であるポピッチの息子サリン(?)と、ŞİH FRH街区の
+						<lb/>住民であるラズの息子ペタルという名前の非ムスリムの証言によって証明され明白になると、調整と
+						<lb/>整理の後、諸々の証言がシャリーアに則ったものであったため、「前述の金額を私に、判決とシャリーアの前で私に
+						<lb/>付与された法的意見書に従って、敗訴者が支払う金である前述の金額799.5
+						<lb/>クルシュを、文書の日付に前述の修道士イリヤが、完全に全て私に支払い、私も
+						<lb/>前述の方法に従って前述の金額を1アクチェたりとも残らず受取り、私の権利は残っていないため、聖なる証書
+						<lb/>が作成され、前述の修道士イリヤに付与されるように」と述べ、シャリーアに則って承認され
+						<lb/>要求に従って書かれた、1216年6月25日。 </note>
+				</p>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>
+						<lb/>
+						<lb/>
+					</p>
+				</div2>
 			</div1>
 		</body>
 	</text>

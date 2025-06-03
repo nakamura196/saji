@@ -19,8 +19,7 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:date_M": [ "1215-B-n/a" ], "saji:fond": [
-               "Tursko 1" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:date_M": [ "1215-B-n/a" ], "saji:fond": [ "Tursko 1" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -50,25 +49,57 @@
 	</facsimile>
 	<text>
 		<body>
+			<div1 type="tasdīk_sign">
+				<p>
+					<lb/>... nemmekahū el-fakīr ileyhi subhānehū(?)
+					<lb/>Mustafa ...
+					<lb/>gufira lehumā(?) </p>
+				<div2 facs="#zone_q3t_cmf_z3b" type="stamp">
+					<p>
+						<lb/>
+					</p>
+				</div2>
+			</div1>
 			<div1 cert="medium" facs="#zone_upd_1mf_z3b" type="hüccet">
-				<l>
-					...					<date cert="low" type="created" when="1820-05-11" when-custom="1235-07">şehr Receb sene hıms ve salāsīn ve miyetein ve elif</date>
-				</l>
-				<div3 facs="#zone_q3t_cmf_z3b" type="stamp"/>
+				<p>
+					<lb/>JUYÇE kasabasında sākin Īvān GİZİÇ nām zimmī meclis-i şerʿiye gelüb işbu sāhib-i hurūf
+					<lb/>zimmī Mato muvācehesinde şöyle takrīr-i kelām ve taʿbīr ʿan'il-merām edüb eylediğe yed(?) taht-ı tasarrıfında
+					<lb/>bulunan ... üzerinde olan ... içinde ...
+					<lb/>... tasarrıfında iki kasaba-i mezkūr ... OSOVA karyesinde
+					<lb/>sākin Mato zimmī nām yiğrimi(?) guruşa(?) beyʿ-i bāt katʿyile beyʿ ve ... edüb
+					<lb/>ol dahi minvāl-i muharrer üzere iştirā o kabūl ettikten sonra ... kelām
+					<lb/>ettirki mezkūr olunan ... aslan o katʿan ʿalāka ... kalmayıp
+					<lb/>... müşterāsı olmuştur ... olsun dedikte ...
+					<lb/>... bi't-taleb-i ketb ve yed tālib iʿtā olundu cerā zālike ve hurrira
+					<lb/>fī <date cert="low" type="created" when="1820-05-11" when-custom="1235-07">şehr Receb sene hıms ve salāsīn ve miyetein ve elif</date>
+					<note type="translation">
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+					</note>
+				</p>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>
+						<lb/>
+					</p>
+				</div2>
 			</div1>
 			<div1 facs="#zone_tbt_2mf_z3b" type="summary_Croatian"/>
 			<div1 facs="#zone_cm2_rj3_1jb" type="hüccet">
 				<p>
-					<lb/>
-					fī					<date type="created" when="1820-05-11" when-custom="1235-07">şehr Receb sene hımıs ve selāsīn ve mieteyn ve elif</date>
+					<lb/> fī <date type="created" when="1820-05-11" when-custom="1235-07">şehr Receb sene hımıs ve selāsīn ve mieteyn ve elif</date>
 					<lb/>
 				</p>
 				<div3 facs="#zone_c2x_tj3_1jb" type="stamp"/>
 			</div1>
 			<div1 facs="#zone_izf_vj3_1jb" type="summary_Croatian">
 				<p>
+					<lb/> ...
 					<lb/>
-					...					<lb/>
 				</p>
 			</div1>
 		</body>

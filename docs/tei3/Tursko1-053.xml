@@ -21,14 +21,10 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "E" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
-          "1271-M-09(?)" ], "saji:date_M": [ "1854-10-02" ], "saji:foldingMethod": [ "10x1" ],
-          "saji:fond": [ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [
-          "・透かし\r\n・定型1\r\n・定型2\r\n・定型3\r\n・定型4\r\n・オスマン朝スタンプ1\r\n・オスマン朝スタンプ2\r\n・本文\r\n・証人" ],
-          "saji:lang": [ "ota" ], "saji:lineage": [ "33" ], "saji:memo": [
-          "・内容はḥüccet形式だが、料紙が通常のタイプAより非常に大きく見えたので、これをタイプEとした。", "典型" ], "saji:number": [ "151" ],
-          "saji:openingPhrase": [ "出張裁判のパターン" ], "saji:relationWithAnotherItems": [ "表全体像" ],
-          "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "2" ], "saji:witness": [ "5" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "E" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1271-M-09(?)" ], "saji:date_M": [ "1854-10-02" ], "saji:foldingMethod": [ "10x1" ], "saji:fond":
+			[ "Tursko 1" ], "saji:huve": [ "0" ], "saji:item": [ "・透かし\r\n・定型1\r\n・定型2\r\n・定型3\r\n・定型4\r\n・オスマン朝スタンプ1\r\n・オスマン朝スタンプ2\r\n・本文\r\n・証人" ], "saji:lang": [ "ota" ], "saji:lineage": [ "33" ],
+			"saji:memo": [ "・内容はḥüccet形式だが、料紙が通常のタイプAより非常に大きく見えたので、これをタイプEとした。", "典型" ], "saji:number": [ "151" ], "saji:openingPhrase": [ "出張裁判のパターン" ], "saji:relationWithAnotherItems": [ "表全体像" ],
+			"saji:stamp_c": [ "0" ], "saji:stamp_o": [ "2" ], "saji:witness": [ "5" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -102,50 +98,114 @@
 	</facsimile>
 	<text>
 		<body>
+			<div1 type="note">
+				<p>
+					<lb/>... hücceti kâğıdı
+					<lb/>kıymet guruş
+					<lb/>5 </p>
+			</div1>
+			<div1 type="tasdīk_sign">
+				<p>
+					<lb/>...
+					<lb/>Kadızāde el-hāccı Mehmed Emīn(?) el-kadı bi-medīne-i Saray Bosna nemmekahū el-fakīr ileyhi ...
+					<lb/>gufira lehumā </p>
+				<div2 type="stamp">
+					<p>
+						<lb/>
+					</p>
+				</div2>
+			</div1>
+			<div1 type="tasdīk_sign">
+				<p>
+					<lb/>El-ermru hasebemā zikr fīhi
+					<lb/>Mehmed ... el-mevlā-hilāfe bi-nāhiye-i Kreşevo(?) nemmekahū el-fakīr ileyhi ...
+					<lb/>gufira ... </p>
+				<div2 type="stamp">
+					<p>
+						<lb/>
+					</p>
+				</div2>
+			</div1>
 			<div1 facs="#zone_ez5_jpz_y3b" type="hüccet">
-				<l>
-					... fī					<date cert="medium" type="created" when="1854-10-01" when-custom="1271-01-09">şehr Muharrem'l-harām min</date>
-				</l>
-				<l>yevmi'l-tisʿ min sene ahadī ve sabʿīn ve miyetein ve elif</l>
-				<div3 facs="#zone_drl_4pz_y3b" type="stamp"/>
-				<div3 facs="#zone_vbr_ppz_y3b" type="stamp"/>
+				<p>
+					<lb/>Sebeb-i tahrīr-i kitāb-ı ... şerʿī oldur ki
+					<lb/>husūs-ı ātiyü'l-beyānın mahallinde ketb ü tahrīr ve fasl-ı ... olunmağala bu ...
+					<lb/>mezkūre kazāsına tābiʿ MRAKVO karyesine varub mahall-i ... üzerinde ʿakd-i meclis-i şerʿ
+					<lb/>... eylediktee karye-i merkūme ahālisinden işbu rāfiʿūn'ıl-kitāb ʿAbdülmūmin(?) bun Ahmed ve Mustafa bun
+					<lb/>İsmaʿīl ve İbrāhīm bun Ahmed ve BRADRAN Hüseyin ve Ahmed ve ʿOsmān bun Mahmūd ve TUHAN bun ʿOsmān ve ʿAbdülmūmin(?)
+					<lb/>bun TURKU ve Hüseyin bun Ahmed ve ... rāhib fra Nikola nām kimesne meclis-i maʿkūd-i mezkūrede
+					<lb/>karye-i merkūme civārında vākiʿ GOLDNİÇE karyesi sākşnlerinden Hüseyin bun Bekir ve MHRM bun ʿAbdülmūmin(?)
+					<lb/>ve Mahmūd bun ʿÖmer ve Sālih bun Ahmed ve Mustafa bun ʿAbdüllā ve Feyzü bin Mehmed nāmūn kimesnelerinde mahzarlarında ...
+					<lb/>müdīr-i vekīl-i hāzır bā el-meclis olduğu hālde üzerlerine daʿvā o takrīr-i kelām edüb işbu
+					<lb/>... okunan DŞRAVA mahallesinde etrāf ... ʿalāka ve zirāʿatimiz(?) ...lerinden cānib
+					<lb/>...den RAVNİÇE'den tarīk-i hāssa ve andan ... mahalleden ... eyle-
+					<lb/>dik yukarı ... olunan mahalleye ... tarafından ... demekle(?) maʿrūf
+					<lb/>mahalleye varınca ... karyemiz(?) ... ve hayvanātlarımız
+					<lb/>... yerleri olub ... iken işbu Hüseyin ve Muharrem ve Mahmūd ve Sālih ve
+					<lb/>Mustafa ve Feyzü(?) zikr olunan ... olmak üzere ...leriyle
+					<lb/>... ve zirāʿatına ... ve ... zabt eder su'āl olunub mūcib-i şerʿ ü kānūnsu(?) icrā
+					<lb/>ve ...lerine ... matlūbumuzdur dediklerinde gıbbe's-su'āl merkūmūn cevāblarında
+					<lb/>fī'l-vākiʿ hudūd-u mezkūr ile mahdūd olan yerleri babalarımızdan(?) intikāl eden arāzīden
+					<lb/>olmak üzere baʿz ... ...lerimizle ... ve ... edüb zirāʿat eylediklerini ikrār
+					<lb/>lākin ver vech-i iddiʿā karye-i merkūme ... olduğu ...dir deyu inkâr etmeleriyle merkūmūn
+					<lb/>ʿAbdülmūmin(?) ve Mustafa ve İbrāhīm ve Hüseyin ve Ahmed ve ʿOsmān ve TUHAN ve sā'irlerinden daʿvālarına
+					<lb/>... taleb olundukta ʿudūl-ı ahrār-ı ricāl-i müslimiden JUGLİÇ karyesinden Sālih bun
+					<lb/>Mustafa ve ʿAbdülmūmin(?) bun Ahmed ve İbrāhīm bun Mehmed ve ʿOsmān bun Hüseyin ve Ahmed bun İsmaʿīl ve ŞBAÇİÇ
+					<lb/>karyesinden Hasan bun ʿAbdülmūmin(?) nām kimesneler ... el-şehāde meclis-i maʿkūd-ı mezkūreye hāzırān
+					<lb/>olub ... hudūd-ı mezkūri ... edüb işbu muʿāyene olunan ...
+					<lb/>... RAVNİÇE'den tarīk-i hāssa ve andan ... olunan mahalleden ... eyle-
+					<lb/>dik yukaru ... olunan mahalleye ... tarafından ... demekle maʿrūf olan mahalle ile
+					<lb/>... ve mahdūd olub ... gelince ... karye-i ahālilerin ...ları
+					<lb/>ve ...ların etrāf(?) yerleri olduğu(?) maʿlūmumudur biz bu husūsa bu vech üzere şāhidleri(?)
+					<lb/>şehādet ederiz deyu her biri ... şehādet-i şerʿiye eylediklerinden baʿde't-takdīl
+					<lb/>ve ... şehādetleri ... vākiʿ olmağın mūcibince merkūmūn Hüseyin ve Mehmed ve Mahmūd ve Sālih
+					<lb/>ve Mustafa ve Feyzü nāmūn kimesnelere ... deyu BRAVA mahallesi ...
+					<lb/>... mā-hüve'l-vākiʿ bā et-taleb ketb olundu cerā zālike ve hurira fī <date cert="medium" type="created" when="1854-10-01" when-custom="1271-01-09">şehr Muharrem'l-harām
+						min</date>
+					<lb/>yevmi'l-tisʿ min sene ahadī ve sabʿīn ve miyetein ve elif <note type="translation">
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+						<lb/>
+					</note>
+				</p>
+				<div2 type="şühūdu'l-hāl">
+					<p>
+						<lb/>Şühūdu'l-hāl
+						<lb/>
+						<lb/>
+					</p>
+				</div2>
 			</div1>
 			<div1 facs="#zone_amc_spz_y3b" type="summary_Croatian">
-				<l>
-					...					<date type="summary_Croatian" when="1855">1855</date>
-				</l>
+				<p>
+					<lb/> ... <date type="summary_Croatian" when="1855">1855</date>
+				</p>
 			</div1>
 			<div1 facs="#zone_dhk_g1k_1jb" type="hüccet">
 				<p>
-					<lb/>
-					... fī					<date cert="medium" type="created" when="1854-10-01" when-custom="1271-01-09">
-						şehr Muharrem'l-harām min
+					<lb/> ... fī <date cert="medium" type="created" when="1854-10-01" when-custom="1271-01-09"> şehr Muharrem'l-harām min
 						<lb/>
-						<lb/>
-						yevmi'l-tisʿ min sene ahadī ve sabʿīn ve mieteyn ve elif
-					</date>
+						<lb/> yevmi'l-tisʿ min sene ahadī ve sabʿīn ve mieteyn ve elif </date>
 					<lb/>
 				</p>
 				<div3 facs="#zone_f54_j1k_1jb" type="stamp">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div3>
 				<div3 facs="#zone_fwc_k1k_1jb" type="stamp">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div3>
 			</div1>
 			<div1 facs="#zone_tkx_l1k_1jb" type="summary_Croatian">
 				<p>
-					<lb/>
-					...					<date type="summary_Croatian" when="1855">1855</date>
-					lb/&gt;				</p>
+					<lb/> ... <date type="summary_Croatian" when="1855">1855</date> lb/&gt; </p>
 			</div1>
 		</body>
 	</text>
