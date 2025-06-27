@@ -15,8 +15,7 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [
-          "典型\r\n・行末が左上りになるのが面白い" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型\r\n・行末が左上りになるのが面白い" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -43,42 +42,53 @@
 	</facsimile>
 	<text>
 		<body>
+			<div1 type="tasdīk_sign">
+				<p>
+					<lb/>...
+					<lb/>... ʿÖmer el-müvellā hilāfeten bi-nāhiyet-i Foyniçe maʿa Kreşevo nemmekahū el-fakīr ileyhi ...
+					<lb/>gufira lehu </p>
+				<div2 type="stamp">
+					<p>
+						<lb/>... </p>
+				</div2>
+			</div1>
+			<div1 type="tasdīk_sign">
+				<p>
+					<lb/>...
+					<lb/>İsmaʿīl ...zāde el-Mehmed ... el-kadı bi-madīne-i Saray Bosna nemmekahū el-fakīr ileyhi subhānehū ...
+					<lb/>gufira lehu</p>
+				<div2 type="stamp">
+					<p>
+						<lb/>... </p>
+				</div2>
+			</div1>
 			<div1 facs="#zone_srk_t1j_cjb" type="hüccet">
 				<p>
-					<lb/>
-					...					<date type="created" when="1777-04-07" when-custom="1191-02-29">
-						fİ'l-yevmi'l-tāsiʿ ve ʿaşrīn min Saferi'l-... sene
-            ahadā ve tisʿīn
+					<lb/> ... <date type="created" when="1777-04-07" when-custom="1191-02-29"> fİ'l-yevmi'l-tāsiʿ ve ʿaşrīn min Saferi'l-... sene ahadā ve tisʿīn
 						<lb/>
-						<lb/>
-						ve mie ve elif
-					</date>
+						<lb/> ve mie ve elif </date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_zlc_v1j_cjb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 					<div3 facs="#zone_cjs_v1j_cjb" type="stamp">
 						<p>
-							<lb/>
-							...
+							<lb/> ...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 facs="#zone_gjf_w1j_cjb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 					<div3 facs="#zone_anx_w1j_cjb" type="stamp">
 						<p>
-							<lb/>
-							...
+							<lb/> ...
 							<lb/>
 						</p>
 					</div3>
@@ -86,20 +96,17 @@
 			</div1>
 			<div1 cert="low" facs="#zone_whw_y1j_cjb" type="buyuruldu">
 				<p>
-					<lb/>
-					... fī					<date type="created" when="1777-06-22" when-custom="1191-05-17">17 Ca sene 191</date>
+					<lb/> ... fī <date type="created" when="1777-06-22" when-custom="1191-05-17">17 Ca sene 191</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_ofy_z1j_cjb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 					<div3 facs="#zone_fcg_bbj_cjb" type="stamp">
 						<p>
-							<lb/>
-							...
+							<lb/> ...
 							<lb/>
 						</p>
 					</div3>
@@ -107,9 +114,7 @@
 			</div1>
 			<div1 facs="#zone_ugb_cbj_cjb" type="summary_Croatian">
 				<p>
-					<lb/>
-					...					<date type="summary_Croatian" when="1777">1777</date>
-					 ...
+					<lb/> ... <date type="summary_Croatian" when="1777">1777</date> ...
 					<lb/>
 				</p>
 			</div1>

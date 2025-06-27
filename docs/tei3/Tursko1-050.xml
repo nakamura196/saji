@@ -21,9 +21,9 @@
 			</sourceDesc>
 		</fileDesc>
 		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1254-R(?)-21" ], "saji:date_M": [ "1838-07-14(?)" ], "saji:foldingMethod": [ "4x1" ],
-					"saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・本文\r\n・日付\r\n・はしがき（証人？）\r\n・不明のスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "9" ], "saji:memo": [
-					"典型" ], "saji:number": [ "46" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:transcription": [ "Vech" ], "saji:type": [
-					"temessük" ], "saji:witness": [ "?" ] }</xenoData>
+			"saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:item": [ "・hüve\r\n・本文\r\n・日付\r\n・はしがき（証人？）\r\n・不明のスタンプ" ], "saji:lang": [ "ota" ], "saji:lineage": [ "9" ], "saji:memo": [ "典型" ],
+			"saji:number": [ "46" ], "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "0" ], "saji:stamp_o": [ "0" ], "saji:transcription": [ "Vech" ], "saji:type": [ "temessük" ],
+			"saji:witness": [ "?" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -55,116 +55,73 @@
 		<body>
 			<div1 cert="medium" facs="#zone_nh1_jsz_y3b" subtype="temessük_sūret" type="EMIN">
 				<p>
-					<lb/>
-					Hüve
-					<lb/>
-					<lb/>
-					Vech-i tahrīr-i hurūf oldur ki
-					<lb/>
-					<lb/>
-					işbu					<date when="1838-03-25" when-custom="1253">bin elli üç senesinde</date>
-					 der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasına tābiʿ müslimīn cemāʿatinde tābiʿ
-					<lb/>
-					<lb/>
-					nefs-i(?) müslimīn Kub(?) karyesi hudūdunda mütevattınlarında zimmī [人名] veled-i İyvan mutasarrıflarında
-					<lb/>
-					<lb/>
-					nām kimesneden taht-ı tasarrıfında bulunan bir katʿiyla tarla [人名？] dimekle bir taraf [人名]'nin tarlası ve taraf-ı
-					<lb/>
-					<lb/>
-					sānī dere ve taraf-ı sālis müşterī ruhbān tarlası ve taraf-ı rābiʿ dere işbu dārende-i hurūf Kirşevo varoş
-					<lb/>
-					<lb/>
-					kilise					<persName role="dārende-i hurūf, Kirşevo varoş kilise gardiyān">gardiyān</persName>
-					 mübādele içün bir ... akçe ve bir ...　yalnız iki yüz elli guruş resmiyle mübādele içün
-					<lb/>
-					<lb/>
-					ahz ve kavz beyʿ-i bāt katʿiyle beyʿ idüb ol dāhi minvāl-ı muharrer üzere kabūl biz dahi
-					<lb/>
-					<lb/>
-					mukātaʿa emīn bulunduğumuz hasebiyle ve mesfūr gardiyānı yedine virildi işbu temessük zabt
-					<lb/>
-					<lb/>
-					tarafımızdan ve taraf-ı āhardan kimesne māniʿ ve müdāhal[e] olunmaya					<date type="created" when="1839-03-06" when-custom="1254-12-21">21 Z 254</date>
-					<lb/>
+					<lb/> Hüve
+					<lb/> Vech-i tahrīr-i hurūf oldur ki
+					<lb/> işbu <date when="1838-03-25" when-custom="1253">bin elli üç senesinde</date> der ʿuhde ve iltizāmımızda bulunan Kirşevo mukātaʿasına tābiʿ müslimīn cemāʿatinde tābiʿ
+					<lb/> nefs-i(?) müslimīn Kub(?) karyesi hudūdunda mütevattınlarında zimmī [人名] veled-i İyvan mutasarrıflarında
+					<lb/> nām kimesneden taht-ı tasarrıfında bulunan bir katʿiyla tarla [人名？] dimekle bir taraf [人名]'nin tarlası ve taraf-ı
+					<lb/> sānī dere ve taraf-ı sālis müşterī ruhbān tarlası ve taraf-ı rābiʿ dere işbu dārende-i hurūf Kirşevo varoş
+					<lb/> kilise <persName role="dārende-i hurūf, Kirşevo varoş kilise gardiyān">gardiyān</persName> mübādele içün bir ... akçe ve bir ...　yalnız iki yüz elli guruş resmiyle mübādele
+					içün
+					<lb/> ahz ve kavz beyʿ-i bāt katʿiyle beyʿ idüb ol dāhi minvāl-ı muharrer üzere kabūl biz dahi
+					<lb/> mukātaʿa emīn bulunduğumuz hasebiyle ve mesfūr gardiyānı yedine virildi işbu temessük zabt
+					<lb/> tarafımızdan ve taraf-ı āhardan kimesne māniʿ ve müdāhal[e] olunmaya <date type="created" when="1839-03-06" when-custom="1254-12-21">21 Z 254</date>
 				</p>
 				<div2 facs="#zone_wlv_tkj_kjb" type="sign">
 					<p>
-						<lb/>
-						El-me'mūr bi'l-mümühūr						<persName role="mukātaʿa emīn-i Kirşevo">Rüşdī Süleymān</persName>
-						 mukātaʿa emīn-i Kirşevo M
+						<lb/> El-me'mūr bi'l-mümühūr <persName role="mukātaʿa emīn-i Kirşevo">Rüşdī Süleymān</persName> mukātaʿa emīn-i Kirşevo M
 						<lb/>
 					</p>
 				</div2>
 				<div2 type="şühūdu’l-hāl">
 					<p>
+						<lb/> Şühūdu’l-hāl
 						<lb/>
-						Şühūdu’l-hāl
-						<lb/>
-						<lb/>
-						...						<persName role="şühūdu’l-hāl, Mü'ezzin">Mustafa</persName>
-						 Mü'ezzin
+						<lb/> ... <persName role="şühūdu’l-hāl, Mü'ezzin">Mustafa</persName> Mü'ezzin
 						<lb/>
 						<lb/>
-						<persName role="şühūdu’l-hāl">Süleymān</persName>
-						 ...
+						<persName role="şühūdu’l-hāl">Süleymān</persName> ...
 						<lb/>
+						<lb/> ...
 						<lb/>
-						...
+						<lb/> ...
 						<lb/>
-						<lb/>
-						...
-						<lb/>
-						<lb/>
-						ve garyuhu
+						<lb/> ve garyuhu
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_j3c_lsz_y3b" type="summery_Croatian">
 				<p>
+					<lb/> ...
 					<lb/>
-					...
+					<lb/> ...
 					<lb/>
+					<lb/> ... <date type="summary_Croatian" when="1839">1839</date> - <date type="summary_Croatian" when="1838-03-25" when-custom="1253">1253</date> .
 					<lb/>
-					...
+					<lb/> Nno 3.
 					<lb/>
-					<lb/>
-					...					<date type="summary_Croatian" when="1839">1839</date>
-					 -					<date type="summary_Croatian" when="1838-03-25" when-custom="1253">1253</date>
-					.
-					<lb/>
-					<lb/>
-					Nno 3.
-					<lb/>
-					<lb/>
-					46
+					<lb/> 46
 					<lb/>
 				</p>
 			</div1>
 			<div1 cert="medium" facs="#zone_pvb_ktj_1jb" subtype="temessük_sūret" type="EMIN">
 				<p>
-					<lb/>
-					... fī					<date type="created" when="1839-03-06" when-custom="1254-12-21">21 Z 254</date>
+					<lb/> ... fī <date type="created" when="1839-03-06" when-custom="1254-12-21">21 Z 254</date>
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_mh1_mtj_1jb" type="stamp_sūret">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_wvn_mtj_1jb" type="summary_Crotatian">
 				<p>
+					<lb/> ... <date type="summary_Croatian" when="1839">1839</date> - <date type="summary_Croatian" when="1838-03-25" when-custom="1253">1253</date> .
 					<lb/>
-					...					<date type="summary_Croatian" when="1839">1839</date>
-					 -					<date type="summary_Croatian" when="1838-03-25" when-custom="1253">1253</date>
-					.
-					<lb/>
-					<lb/>
-					Nno 3.
+					<lb/> Nno 3.
 					<lb/>
 				</p>
 			</div1>

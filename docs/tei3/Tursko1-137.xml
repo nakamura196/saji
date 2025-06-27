@@ -18,8 +18,7 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [
-          "典型" ]}</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ]}</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -37,27 +36,32 @@
 	</facsimile>
 	<text>
 		<body>
+			<div1 type="tasdīk_sign">
+				<p>
+					<lb/>El-emru hasbemā zikr fīhi
+					<lb/>... Mehmed ... el-müvellā hilāfeten bi-madīne-i Saray Bosna hurrira el-fakīr ileyhi ...
+					<lb/>gufira lehumā </p>
+				<div2 type="stamp">
+					<p>
+						<lb/>
+					</p>
+				</div2>
+			</div1>
 			<div1 facs="#zone_o3q_c3q_cjb" type="hüccet">
 				<p>
-					<lb/>
-					...					<date type="created" when="1835-08-01" when-custom="1251-04-07">
-						fi'l-yevmi'l-sābiʿ min şehr
+					<lb/> ... <date type="created" when="1835-08-01" when-custom="1251-04-07"> fi'l-yevmi'l-sābiʿ min şehr
 						<lb/>
-						<lb/>
-						Rebī'ü'l-āhir sene ahadā ve hamsīn ve mieteyn ve elif
-					</date>
+						<lb/> Rebī'ü'l-āhir sene ahadā ve hamsīn ve mieteyn ve elif </date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_htz_d3q_cjb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 					<div3 facs="#zone_sxb_f3q_cjb" type="stamp">
 						<p>
-							<lb/>
-							...
+							<lb/> ...
 							<lb/>
 						</p>
 					</div3>

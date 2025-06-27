@@ -19,8 +19,7 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型", ]
-          }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型", ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -48,41 +47,53 @@
 	</facsimile>
 	<text>
 		<body>
+			<div1 type="tasdīk_sign">
+				<p>
+					<lb/>...
+					<lb/>Ahmed Lütf(?) el-kadı bi-nāhiyet-i Kreşevo(?) hilāfeten nemmekahū el-fakīr ileyhi ...
+					<lb/>gufira lehu </p>
+				<div2 type="stamp">
+					<p>
+						<lb/>... </p>
+				</div2>
+			</div1>
+			<div1 type="tasdīk_sign">
+				<p>
+					<lb/>...
+					<lb/>Hasan el-müvellā hilāfeten bi-nāhiyet-i Belgradcık(?) nemmekahū el-fakīr ileyhi ...
+					<lb/>gufira lehu </p>
+				<div2 type="stamp">
+					<p>
+						<lb/>... </p>
+				</div2>
+			</div1>
 			<div1 facs="#zone_vrs_42w_cjb" type="hüccet">
 				<p>
-					<lb/>
-					...					<date type="created" when="1823-07-09" when-custom="1238-11-01">
-						fi'l-yevmi'l-hādī
+					<lb/> ... <date type="created" when="1823-07-09" when-custom="1238-11-01"> fi'l-yevmi'l-hādī
 						<lb/>
-						<lb/>
-						min şehr Zi'l-kaʿade'l-şerīfe sene semān ve sılsīn ve mieteyn ve elif
-					</date>
+						<lb/> min şehr Zi'l-kaʿade'l-şerīfe sene semān ve sılsīn ve mieteyn ve elif </date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_rdp_q2w_cjb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 					<div3 facs="#zone_urm_r2w_cjb" type="stamp">
 						<p>
-							<lb/>
-							...
+							<lb/> ...
 							<lb/>
 						</p>
 					</div3>
 				</div2>
 				<div2 facs="#zone_x2g_s2w_cjb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 					<div3 facs="#zone_fmk_t2w_cjb" type="stamp">
 						<p>
-							<lb/>
-							...
+							<lb/> ...
 							<lb/>
 						</p>
 					</div3>
@@ -90,15 +101,13 @@
 			</div1>
 			<div1 facs="#zone_kjd_v2w_cjb" type="buyuruldu">
 				<p>
-					<lb/>
-					buyuruldu fī					<date type="created" when="1823-07-13" when-custom="1238-11-05">5 Za sene 38</date>
+					<lb/> buyuruldu fī <date type="created" when="1823-07-13" when-custom="1238-11-05">5 Za sene 38</date>
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_sks_w2w_cjb" type="summary_Croatian">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 			</div1>
