@@ -16,7 +16,7 @@
 			</sourceDesc>
 		</fileDesc>
 		<xenoData>{ "saji:aspectRatioType": [ "B?" ], "saji:fond": [ "Tursko 3" ], "saji:memo": [ "・おそらくDSCN9368.JPGの裏面であると思われるが、現状断定できてない。\r\n・日付から検討可能？要検討。\r\n・サイズは上記画像の裏面と推定して、暫定的に「B?」とした。" ]
-					}</xenoData>
+			}</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -39,22 +39,22 @@
 		<body>
 			<div1 facs="#zone_y2n_mhg_zlb" next="#zone_ugd_lhg_zlb" subtype="temessük" type="EMIN">
 				<p>
+					<lb/>... işbu <date when-custom="1218">bin iki yüz on sekiz senesinden(?)</date>
+					<lb/>Martı itibāryile mezkūr ... iltizām
 					<lb/>
-					...					<date type="created" when="1804-04-10" when-custom="1218">sene 1218</date>
+					<lb/> ... <date type="created" when="1804-04-10" when-custom="1218">sene 1218</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_r5s_nhg_zlb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_ugd_lhg_zlb" type="summary_Croatian">
 				<p>
-					<lb/>
-					...					<date type="summary_Croatian" when="1804">1804</date>
+					<lb/> ... <date type="summary_Croatian" when="1804">1804</date>
 					<lb/>
 				</p>
 			</div1>
