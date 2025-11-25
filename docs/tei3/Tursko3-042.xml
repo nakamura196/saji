@@ -11,6 +11,12 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="summary">フォイニツァのムスリムから非ムスリム(?)への、（おそらく国有地の）耕作地の用益権売却（ferāğ ve tefvīz）承認。</note>
+				<note type="mine">内容は土地の売却・譲渡だが、様式・語彙・発給者が通常のものと異なっている。これをtemessükに分類してよいか【要】再検討。</note>
+				<note type="mine">発給者 Foyniçeのmüdīr</note>
+				<note type="mine">当座証人欄なし。</note>
+			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
@@ -37,22 +43,26 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 cert="low" facs="#zone_gd3_hnv_nlb" next="#zone_ezv_fnv_nlb" type="EMIN">
+			<div1 cert="low" facs="#zone_gd3_hnv_nlb" next="#zone_ezv_fnv_nlb" type="EMIN_sūret">
 				<p>
+					<lb/>Hüve
+					<lb/>... tertīm ve testīr oldur ki
+					<lb/>Foyniçe kazāsında vākiʿ HMUL cemāʿat sākinlerinden ZUCA hatın ... bint-i İbrāhīm Çizmü nām hatının taht-ı
+					<lb/>tasarrıfında bulunan maʿrūm'ul-hudūd ve'l-mekân ... yüz yiğirmi hüccet-i semen(?) āsiyāb POJNİÇE demekle maʿrūf
+					<lb/>bir kıtʿa tarlayı bin alt yüz guruş bedel mukābelesinde BUKOVİÇE cemāʿat PRİN mahalle sükkānlarından BAGVİN
+					<lb/>Mehmed HAŞİÇ nām kimesneye ferāğ ve tefvīz ve hakk-ı tasarrıfīn ... edüb
 					<lb/>
-					... fī					<date type="created" when="1858-07-19" when-custom="1274-12-08">8 Z sene 74</date>
 					<lb/>
+					<lb/> ... fī <date type="created" when="1858-07-19" when-custom="1274-12-08">8 Z sene 74</date>					
 				</p>
 				<div2 facs="#zone_pqj_3nv_nlb" type="sign">
 					<p>
-						<lb/>
-						...
-						<lb/>
+						<lb/>Müdīr ...
+						<lb/>Foyniçe
 					</p>
 					<div3 facs="#zone_gwb_jnv_nlb" type="stamp_sūret">
 						<p>
-							<lb/>
-							...
+							<lb/> ...
 							<lb/>
 						</p>
 					</div3>
@@ -60,9 +70,7 @@
 			</div1>
 			<div1 facs="#zone_ezv_fnv_nlb" type="summary_Croatian">
 				<p>
-					<lb/>
-					...					<date type="summary_Croatian" when="1858-08-09" when-custom="1274">1274</date>
-					.
+					<lb/> ... <date type="summary_Croatian" when="1858-08-09" when-custom="1274">1274</date> .
 					<lb/>
 				</p>
 			</div1>
