@@ -11,6 +11,16 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="summary">修道院敷地内におけるムスリムの死亡事件について、修道院側の免責を承認。</note>
+				<note type="suumary">クレシェヴォ・ムカーター内のByalobviç(Bjelevići)村に住むイブラヒムの子サーリフは、クレシェヴォ町の上方にある修道院所有地に隣接する場所で、偶然転倒して負傷した。負傷したサーリフについて、住民たちの立会いのもと、シャリーア法に基づく検分と尋問が行われた。その際サーリフ本人は、「誰かに殴られたのではなく、自分で転倒して負傷した。誰にもこの事故への関与はなく、誰に対しても訴えや紛争はない。この負傷が原因で死亡することになったとしても、他人に責任を問うものではない」という趣旨の供述をした。その供述から約26時間後、サーリフは死亡した。</note>
+				<note type="summary">そこで、故人の妻AMHANA、成人の息子Mustafa、成人の娘ALMHANAは、自らについては本人として、その他の相続人については代理人としてシャリーア法廷に出頭した。彼らは、故Sālihの死亡について、クレシェヴォ修道院の修道院長fra LORO、fra TOMOおよびその他の修道士たちには一切の関与・責任がないことを認め、Sālihの血および血の代償（dem ü diyet）に関する一切の訴え・請求について修道士たちを全面的に免責し、すべての請求権を放棄した。</note>
+				<note type="summary">さらに、今後この件について相続人本人またはその代理人から訴えが提起されても、裁判官・行政官のもとで受理されないことを確認した。以上について、本シャリーア証書が作成された。</note>
+				<note type="mine">この文書は、修道院側を将来の殺害責任・diyet請求から防御する証拠になっており、修道院は、自らの財産権だけでなく、将来の法的責任を排除するための証拠としてもhüccetを取得・保存したことが分かる。</note>
+				<note type="mine">また、Tursko6-024、6-034、7-006を一群として見ると、Tursko6-024：死亡・毒殺疑惑 → 修道士側の免責、Tursko6-034：Hüseyinのdem ü diyet → 修道院長側への請求不存在確認、Tursko7-006：転倒事故 → 本人へのkeşf・istintāk → 死亡 → 相続人による修道院側の包括免責となっており、修道院が、周辺で死亡事件・事故が起きて自らや修道士に法的責任が波及する可能性がある場合、シャリーア法廷で責任不存在・請求権放棄を文書化し、そのhüccetを修道院側で保存するという実践があった可能性を考えられる。</note>
+				<note type="mine">特にTursko7-006は、その中でも最も手続きが詳しく、事故発生 → keşf / istintāk → 負傷者本人の供述 → 死亡 → 相続人によるibrāʾ → hüccet取得・保存という一連の流れが見える。</note>
+				<note type="mine">こうした文書は、「宗教機関かつ経済主体としての修道院」に加えて、「シャリーア法廷を利用して自らの法的リスクを管理する主体としての修道院」として捉える材料になる。これは「修道院が法廷で土地を買った」というだけでは見えてこない、hüccet文書群ならではの側面。</note>				
+			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
@@ -40,36 +50,51 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 type="tasdīk_sign">
+			<div1 type="tasdīk_sign" facs="#zone_qyj_czj_2mb">
 				<p>
-					<lb/>El-emru hasbemā zikr fīhi
-					<lb/>Küçükzāde Mustafa(?) el-kadı ve el-mevlā-hilāfe bi-nāhiyet-i Foyniçe maʿ Kreşevo nemmekahū el-fakīr ileyhi ...
+					<lb/>El-emru hasbemā hurrire fīhi
+					<lb/>nemmekahū el-fakīr ileyhi ʿazze şānuhu
+					<lb/>Küçükzāde Mustafa ... el-kadı ve el-mevlā-hilāfe bi-nāhiyet-i Foyniçe maʿ Kreşevo
 					<lb/>gufira lehumā
 				</p>
-				<div2 type="stamp">
+				<div2 type="stamp" facs="#zone_p1y_gzj_2mb">
 					<p>
 						<lb/>
 					</p>
 				</div2>
-			</div1>  
+			</div1>
 			<div1 facs="#zone_hd4_yyj_2mb" next="#zone_dtb_3zj_2mb" type="hüccet">
 				<p>
-					<lb/> ... hurira <date type="created" when="1803-11-17" when-custom="1218-08-03"> fi'l-yevmi'l-sālis
-						<lb/> min şehri Şaʿbāni'l-muʿazzam sene semān ʿaşar ve mieteyn ve elif </date>
+					<lb/>Hüve
+					<lb/>Sebeb-i tahrīr-i kitāb-ı şerʿī oldur ki
+					<lb/>madīne-i Saraybosna kazāsına müzāfa Foyniçe nāhiyesine tābiʿ Kreşevo mukātaʿasında vākiʿ Byalobviç(Bjelevići)
+					<lb/>nām karyesi sākinlerinden iken bundan akdem Kreşevo kasabasının üstü yanında
+					<lb/>vākiʿ kinisa(kilisa) rāhiblerinin arāzīleri ittisālında hatā-yi(?) bi-kazā(?) allāh(?) ... düşüb
+					<lb/>mecrūh olduğu hālde ... keşf ve istintāk olunan Sālih bin İbrāhīm
+					<lb/>nām kimesne baʿde'l-vifāk veresesinden zevce-i menkûha-i metrūkesi AMHANA bint-i
+					<lb/>ʿÖmer ve sulbī-i kebīr oğlu Mustafa ve sulbīye-i kebīr kızı ALMHANA kendi taraflarından 
+					<lb/>asāleten ve verese-i sā'ire tarfından vekâleten meclis-i şerʿ-i hatīr-i lāzımü't-tevkīrde mā-... zikr(?)
+					<lb/>kinisa(kilisa)nın baş rāhibi işbu rāfi'ü hāze's-sifr fra LORO ve fra TOMO ve sā'ir rāhiblerinin 
+					<lb/>muvācehelerinde ikrār-ı tām ve takrīr-i kelām eylediler ki müverresimiz müteveffā-yi merkūm Sālih kendi ... ile ...
+					<lb/>... götürür iken arāzī-i mezbūrenin hudūduna geldikte ez kazā(?) ve kadr(?) düşüb yanına
+					<lb/>vardığınce(?) bi'l-cümle ahālī mevcūd olduğu hālde maʿrifet-i şerʿiyle keşf ve istintāk
+					<lb/>olundukta kimesne beni zarb etmeyüb ve ben düşüb mecrūh olduğum husūsunda bir kimesne-
+					<lb/>nin ʿilm ve sunʿi yoktur ferd ve ahaddan daʿvā ve nizāʿim yoktur bu sebebden eclim dahi olursa
+					<lb/>efrād ... daʿvā ve nizāʿi eylemeyük(?) dedikte bu kavl üzere yiğirmi altı(āti?) sāʿat
+					<lb/>mürūrunde bā mülāsele-i taʿālā vefāt edüb alacak müverresimiz müteveffā-i merkūm Sālih'in
+					<lb/>fevtı husūsunda kinisa(kilisa)-i mezbūre rāhiblerinden işbu fra LORO ve fra TOMO
+					<lb/>ve sā'irlerinin ʿilm ve sunʿi olumayub müteveffā-i mezbūrin dem ü diyet daʿvāsına
+					<lb/>müteʿallik cümlesinin bi'l-asāle ve'l-vekâle zimmet ve cāniblerini ʿāmme-i daʿvā
+					<lb/>ve muhāsemātından ve kâffe īmān(?) ve mütālibātından ibrā-i ʿām kātiʿü'l-nizāʿ ile
+					<lb/>ibrā ve ıskat tām rāfiʿü'l-... ile ıskat eyledik fī mā-baʿd husūs-u
+					<lb/>mezkūre müteʿallik tarafımızdan asāleten veyāhūd vekâleten daʿvā ve nizāʿimiz
+					<lb/>zuhūr ve sudūr eder ise lede'l-hükkâmı'l-kerām ve'l-vülātı'l-ʿüzzāmı'l-bakā
+					<lb/>hım ileyh taʿālā alā yevmi'l-kıyām efendīlerimiz hafr(?) etlerinin ʿindalarında mesmūʿa
+					<lb/>ve makbūle olmasun dediklerinde gıbbe't-tasdīki'ş-şerʿī mā-hüve'l-vākiʿ
+					<lb/>işbu hüccet-i şerʿiye ketb ve imlā olundu cerā zālike ve hurrire <date type="created" when="1803-11-17" when-custom="1218-08-03"> fi'l-yevmi'l-sālis
+					<lb/>min şehr-i Şaʿbāni'l-muʿazzam sene semān ʿaşar ve mieteyn ve elif </date>
 				</p>
-				<div2 facs="#zone_qyj_czj_2mb" type="sign">
-					<p>
-						<lb/> ...
-						<lb/>
-					</p>
-					<div3 facs="#zone_p1y_gzj_2mb" type="stamp">
-						<p>
-							<lb/> ...
-							<lb/>
-						</p>
-					</div3>
-				</div2>
-				<div2 type="şühūdu’l-hāl">
+				<div2 type="şühūdu'l-hāl">
 					<p>
 						<lb/> ...
 						<lb/>
@@ -78,8 +103,12 @@
 			</div1>
 			<div1 facs="#zone_dtb_3zj_2mb" type="summary_Croatian">
 				<p>
-					<lb/> ...
-					<lb/>
+					<lb/>Udžet da žena ne čini dave za
+					<lb/>ubijena čovika svoga, u našem
+					<lb/>i Bjelevićkomu
+					<note type="translation">
+						<lb/>その女性が、殺害された夫について、当方に対しても、またビェレヴィチ(Bjelevići)においても、訴訟を行わないことを明記したヒュッジェト。
+					</note>
 				</p>
 			</div1>
 		</body>

@@ -12,9 +12,13 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<notesStmt>
-				<note type="summary"></note>
-				<note type="summary"></note>
-				<note type="mine"></note>
+				<note type="summary">改宗したムスリム（元キリスト教徒）と修道院の間の、労務報酬・預託金（？）をめぐる金銭トラブルについて、和解の成立を承認。</note>
+				<note type="summary">クレシェヴォのムスリム住民メフメドは、クレシェヴォ修道院の修道院長マルコおよびその他の修道士たちに対して以前から何らかの奉仕を行っており、さらに15グルシュを預託していた。その後、メフメドの奉仕に対する相当報酬と、この15グルシュをめぐって双方の間に紛争が生じた。</note>
+				<note type="summary">そこで調停者の仲介を受け、双方は20.5グルシュを修道院側がメフメドに支払うことで和解した。</note>
+				<note type="summary">メフメドは和解金20.5グルシュを全額受領し、修道院長マルコおよびその他の修道士たちに対して、もはや一切の債権・請求権を有しないことを認め、全面的に免責した。また、今後この件について再び訴訟を起こしても受理されないことを確認した。</note>
+				<note type="mine">この文書は、キリスト教徒として修道院に奉仕していた人物がイスラームに改宗してMehmedとなった後、過去の奉仕に対する報酬や預託金をめぐって修道院との間で清算を行い、その清算が完了したことをシャリーア法廷で正式に確認したものと思われる。</note>
+				<note type="mine">これは単なる「Mehmedが20.5 guruşを受け取った領収証」ではなく、修道院側から見れば、改宗した元関係者との過去の経済関係を最終的に清算し、将来の再請求を防ぐための免責証書として機能していた可能性がある。</note>
+				<note type="mine">文書裏面のボサンチッツァによる書込みは、作成年は合っているが、内容はオスマン語本文と異なっていると思われる。別の文書の要約を誤って記載したか？</note>
 				<note type="summary_monastery_typewriting">
 					<lb/>383-48: Riješenje kadije fojničkog sa Kreševom Ahmeda Cohadžića iz mjseca
 					<lb/>zilkade 1205. godine, kojim se potvrduhe nagodba izmedu kreševljaka
@@ -24,15 +28,13 @@
 					<lb/>/amanet/ gvardijanu 15 groša. Prima od gvardijana 20,5 groša
 					<lb/>i izjavljuje da nema više nikakva potraživanja. Svjedoci: Čizmić
 					<lb/>Jakub efendija, imam Selim efendija, ŠehOmer, Sušić Ibrahimbaša
-					<lb/>i Topal Muratbaša./ God. 1791/
-					<note type="translation">
+					<lb/>i Topal Muratbaša./ God. 1791/ <note type="translation">
 						<lb/>383-48: 1205年ジルカド月のフォイニツァ裁判官によるクレシェヴォのアフメド・コハジッチに対する判決。
 						<lb/>クレシェヴォ在住のメフメド・ソン・オブ・アブドゥとクレシェヴォの守護者マルコおよび他の修道士との間の和解を承認した。
 						<lb/>このメフメドは、キリスト教徒であった間、守護者マルコおよび他の修道士に仕え、また守護者に保証金として15グロシェンを支払ったと述べている。
 						<lb/>彼は守護者から20.5グロシェンを受け取り、もはや何の請求権もないと宣言している。
 						<lb/>証人：チズミッチ・ヤクブ・エフェンディ、イマーム・セリム・エフェンディ、シェフオメル、スシッチ・イブラヒムバシャ、トパル・ムラトバシャ。
-						<lb/>1791年。
-					</note>
+						<lb/>1791年。 </note>
 				</note>
 			</notesStmt>
 			<sourceDesc>
@@ -61,12 +63,14 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 type="tasdīk_sign">
+			<div1 type="tasdīk_sign" facs="#zone_up3_yxc_2mb">
 				<p>
-					<lb/>...
-					<lb/>Çıkacızāde Ahmed el-kadı bi-nāhiyet-i Foyniçe maʿ Kreşevo ... nemmekahū el-fakīr ileyhi ...
-					<lb/>gufira lehumā </p>
-				<div2 type="stamp">
+					<lb/>Mā fīh min ibrā' ve tasdīk
+					<lb/>nemmekahū el-fakīr ileyhi ʿazze şānuhu
+					<lb/>Çıkacızāde Ahmed el-kadı bi-nāhiyet-i Foyniçe maʿ Kreşevo hilāfe(?)
+					<lb/>gufira lehumā
+				</p>
+				<div2 type="stamp" facs="#zone_urx_yxc_2mb">
 					<p>
 						<lb/>
 					</p>
@@ -74,22 +78,28 @@
 			</div1>
 			<div1 facs="#zone_ey1_xxc_2mb" next="#zone_m3k_byc_2mb" type="hüccet">
 				<p>
-					<lb/>
-					<lb/> fī <date type="created" when="1791-07-29" when-custom="1205-11">yevm Zı'l-kaʿda şerif sene 1205</date>
+					<lb/>Hüve
+					<lb/>Sebeb-i tahrīr-i hurūf-u kitāb-ı şerʿī oldur ki
+					<lb/>madīne-i Saraybosna kazāsına müzāf olan Kreşevo sākinlerinden
+					<lb/>Mehmed bin ʿAbdüllāh nām kimesne yine Kreşevo varoş kilisa rāhiblerinden
+					<lb/>gardiyān Marko vālid-i [空欄] ve sā'ir rāhibleri muvācehesinde
+					<lb/>ikrār-ı tām ve takrīr-i kelām edüb zimmetim hālinde işbu gardiyān
+					<lb/>zimmī Marko'ya ve sā'ir rahābīna hizmetim sebkat(?) edüb ve andan
+					<lb/>başka emānet tarīkiyle on beş guruş yedine(?) iʿtā eylemişim
+					<lb/>hizmetimin ecr(i) mesel(?) ve meblağ-ı mezbūriyken beynemizde münāzaʿāt-ı
+					<lb/>kesīre ve muhāsenāt-ı şedīde vükūʿundan sonra es-sulh-ı hayr(?) ...
+					<lb/>müslimūn muslihūn tevassut ile yiğirmi buçuk guruş üzerine
+					<lb/>inşā'-i ʿakd-i sulh eylediğimizde mesfūrun gardiyān ve sā'ir ruhbāndan
+					<lb/>ʿan ikrār-ı sulh-ı mezkūri kabūl ve bedel-i sulh olan yiğirmi buçuk guruşa
+					<lb/>bana defʿ ve teslīm ben dahi yedinden ahz ve kabz ve istīfā ve yedi(?) bākiʿ
+					<lb/>bir akçe ve bir habbe zimmetinde hakk ve'l-... kalmayıb mesfūrun gardiyān
+					<lb/>zimmī Marko ve sā'irlerinin zümmete cānibini ibrā'-i ʿām ile kātiʿ
+					<lb/>el-nizāʿ ile ibrā ve ıskat eyledim baʿde'l-yevm husūs-u mezbūr iki tarafımdan
+					<lb/>daʿvā sudūr ve zuhūr eder ise mesmūʿa ve makbūle olmasun
+					<lb/>dedikte gıbbe't-tasdīki'l-şerʿī mā-hüve'l-vākiʿ bi't-taleb ketb olundu
+					<lb/>fī <date type="created" when="1791-07-29" when-custom="1205-11">yevm Zı'l-kaʿda şerif sene 1205</date>
 				</p>
-				<div2 facs="#zone_up3_yxc_2mb" type="sign">
-					<p>
-						<lb/> ...
-						<lb/>
-					</p>
-					<div3 facs="#zone_urx_yxc_2mb" type="stamp">
-						<p>
-							<lb/> ...
-							<lb/>
-						</p>
-					</div3>
-				</div2>
-				<div2 type="şühūdu’l-hāl">
+				<div2 type="şühūdu'l-hāl">
 					<p>
 						<lb/> ...
 						<lb/>
@@ -98,8 +108,16 @@
 			</div1>
 			<div1 facs="#zone_m3k_byc_2mb" type="summary_Serbian">
 				<p>
-					<lb/> ...
-					<lb/> ... <date type="summary_Serbian" when="1791">1791</date> . </p>
+					<lb/>ове ие сенет од мемеда –
+					<lb/>потꙋрченика чоче, да више
+					<lb/>не има тражит мира=
+					<lb/>за брата николе <date type="summary_Serbian" when="1791">1791</date>
+					<note type="translation">
+						<lb/>イスラム教に改宗したメフメド・チョチョが発行したセネド。
+						<lb/>これには、彼が兄ニコラの遺産（ミラズ）および賃貸収入（ナジャム）に対するいかなる権利ももはや有さないことを宣言している。
+						<lb/>1791年。
+					</note>
+				</p>
 			</div1>
 		</body>
 	</text>

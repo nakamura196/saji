@@ -11,6 +11,14 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="summary">クレシェヴォのムカーターエミン・メフメド・アアの自宅で起こった盗難事件について、クレシェヴォ住民の免責を承認。</note>
+				<note type="sumamry">クレシェヴォ・ムカーターの徴税請負地管理官メフメド・アーガは、シャリーア法廷で次のように述べた。三日前の夜、自分の箱（あるいは金庫）から現金とアクチェが盗まれた。しかし、自分はクレシェヴォの住民たちを全面的に信用しており、彼らの誰一人として犯人ではないと考えている。したがって、この盗難事件について住民に対して何ら訴えや紛争はなく、今後この件について自分または代理人から訴えが提起されたとしても、それは法廷で受理されるべきではない。</note>
+				<note type="summary">この内容を証明するため、本証書が作成された。</note>
+				<note type="mine">この文書は、「将来の請求を防ぐための免責証書」であり、事件発生（盗難） → 被害者本人が特定の人物・集団を疑わないと法廷で確認 → 将来の訴訟権を放棄という流れになっている。これは、シャリーア法廷が実際に紛争が起きた後だけでなく、「将来紛争にならないようにするため」の予防的な法的確認の場としても利用されていたことを示す好例である。</note>
+				<note type="mine">また、Mehmed Ağaはクレシェヴォ・ムカーターの emīn という行政・財政上の役職にある人物であり、そのような立場の者が自らレアーヤーを疑わないことを公的に確認している点も興味深い。行政官と地域住民との信頼関係を法廷文書として固定する役割を、この種の hüccet が果たしていた可能性が考えられる。</note>
+				<note type="mine">文書裏面のボサンチッツァの書込みは、"emin""emānet"という単語を見て徴税に関する内容であると勘違いしたか、他の文書の要約を書き込んだ可能性がある。</note>
+			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
@@ -37,40 +45,45 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 type="tasdīk_sign">
+			<div1 type="tasdīk_sign" facs="#zone_dlg_51q_2mb">
 				<p>
-					<lb/>...
-					<lb/>... İbrāhīm en-nāib bi-mahkeme Kreşevo nemmekahū el-fakīr ileyhi ... 
+					<lb/>Mā fīh mine'l-ikrār ve'l-takrīr(?) ... ʿindī
+					<lb/>nemmekahū el-fakīr ileyhi ʿazze(?) şānuhu
+					<lb/>... İbrāhīm en-nāib bi-mahkeme-i Kreşevo
 					<lb/>gufira 'anhumā
 				</p>
-				<div2 type="stamp">
+				<div2 type="stamp" facs="#zone_o3x_51q_2mb">
 					<p>
 						<lb/>
 					</p>
 				</div2>
-			</div1>  
+			</div1>
 			<div1 facs="#zone_sxm_s1q_2mb" next="#zone_m2m_w1q_2mb" type="hüccet">
 				<p>
-					<lb/> ... hurira <date type="created" when="1747-02-04" when-custom="1160-01-24"> fi'l-yevmi'l-rābiʿ ve'l-ʿaşrīn min şehri
-						<lb/> Muharremi'l-harām sene sittīn ve mie ve elif </date>
+					<lb/>Hüve
+					<lb/>Sebeb-i tahrīr-i kitāb oldur ki
+					<lb/>madīne-i Saray kazāsı müzāfātından Foynice nāhiyesine tābiʿ Kreşevo mukātaʿası emīni
+					<lb/>olan Mehmed Ağa meclis-i şerʿ-i hatīr-i lāzımü't-tevkīrde varoş-ı Kreşevo mütemekkinlerinden
+					<lb/>işbu rāfiʿūn hāze'l-kitāb zimmī Matya ve Anton ve Prano ve Pavla ve
+					<lb/>ve Petar ve Yako ve sā'irleri müvācehelerinde tavʿan ikrār ve takrīr-i kelām edüb
+					<lb/>tārīh-i kitābdan üç gün mukaddem leylan ... im odası penceresinden girilüb
+					<lb/>ve sundūka(sandūka?)dan bir mikdār nakd ve ... akçe serīka(sirkat?) olunmağla iken reʿāyās-ı
+					<lb/>mesfūrūndan her vechiyle emniyetim olduğından ferd ve ahade mazannem olmayıb
+					<lb/>ve husūs-ı mezkūre müteallik bir durlu daʿvā ve nizāʿım yoktur baʿde'l-yevm daha(ve fī?)
+					<lb/>reʿāyā fī(?) bedrūn(?) ile husūs-u merkūm içün tarafımızdan asālete veyāhūd
+					<lb/>vekâkete-i daʿvāmız zuhūr eder ise lede'l-hükkâmi'l-kerām mesmūʿa ve makbūle olunmaya dedikte
+					<lb/>gıbbe't-tasdīki'ş-şer'ī mā-hive'l-vāki' bi't-taleb ketb olundup yed-i
+					<lb/>tālebene iʿtā olundu hurrirw <date type="created" when="1747-02-04" when-custom="1160-01-24"> fi'l-yevmi'l-rābiʿ ve'l-ʿaşrīn min şehr-i
+						<lb/>Muharremi'l-harām sene sittīn ve mie ve elif ...</date>
 				</p>
-				<div2 facs="#zone_dlg_51q_2mb" type="sign">
-					<p>
-						<lb/> ...
-						<lb/>
-					</p>
-					<div3 facs="#zone_o3x_51q_2mb" type="stamp">
-						<p>
-							<lb/> ...
-							<lb/>
-						</p>
-					</div3>
-				</div2>
 			</div1>
 			<div1 facs="#zone_m2m_w1q_2mb" type="summary_Croatian">
 				<p>
-					<lb/> ...
-					<lb/>
+					<lb/>Nekakav Temeſuch da Davugia ne ima viſhe
+					<lb/>Dave.
+					<note type="translation">
+						<lb/>徴税人がもはや徴税すべき税金がなくなってしまった、というようなテーマ。
+					</note>
 				</p>
 			</div1>
 		</body>
