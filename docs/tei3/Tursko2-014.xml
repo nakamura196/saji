@@ -14,13 +14,30 @@
 			<notesStmt>
 				<note type="mine">ベラート？卵印はないのでフェルマーン？</note>
 				<note type="mine">【要】日付：1181 or 1081　年? 要検討。</note>
+				<note type="summary_monastery_typewriting">
+					<lb/>/10/ Ferman sultana ...
+					<lb/>Datum: druga dekada rebiul evvel 1081 - 29. juli-7 avgusta 1670 
+					<lb/>（手書き文字、判読できていない）
+					<lb/>Upućen bosanskom valiji i kadiji Sarajeva: na molbu monaha
+					<lb/>Kara Jovana, Jani i /ime ispušteno/ izdat je ferman kojim
+					<lb/>se zabranjuje stanovnicima sela Fojnice da uznemiravaju nave
+					<lb/>dene monahem jerajući(?) ih da plaćaju skupa s njim poreze
+					<lb/>avariz i druge dažbine
+					<note type="translation">
+						<lb/>/10/ スルタンの勅令…
+						<lb/>日付：1081年ラビー・アル＝アウワル月の中旬（1670年7月29日～8月7日）
+						<lb/>（手書き文字、判読できていない）
+						<lb/>宛先：ボスニア総督およびサラエヴォのカーディー。
+						<lb/>修道士のカラ・ヨヴァン、ヤニ、および（氏名省略）からの請願に基づき、勅令が発せられた。
+						<lb/>その内容は、フォイニツァ村の住民に対し、前述の修道士たちに（住民自身と同様の）「アヴァーリズ」税やその他の徴課を強制して彼らを苦しめることを禁じるものである。
+					</note>
+				</note>
 			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [
-               "典型" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "A" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -47,31 +64,28 @@
 		<body>
 			<div1 facs="#zone_cwx_5k1_2jb" type="fermān">
 				<p>
-					<lb/>
-					...					<date cert="low" from="1767-08-06" from-custom="1181-03-11" to-custom="1181-03-20" type="created">evāsit şehr Rebi'ü'l-evvel sene ahadā ve semānīn ve mie ve elif</date>
+					<lb/> ... <date cert="low" from="1767-08-06" from-custom="1181-03-11" to-custom="1181-03-20" type="created">evāsit şehr Rebi'ü'l-evvel sene ahadā ve semānīn ve mie ve elif</date>
 					<lb/>
 				</p>
-				<div1 facs="#zone_hdh_wk1_2jb" type="tuğra">
+				<div2 facs="#zone_hdh_wk1_2jb" type="tuğra">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
-				</div1>
+				</div2>
 				<div2 facs="#zone_ht4_xk1_2jb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
-			<div1 facs="#zone_cfy_yk1_2jb" type="summary_Croatian">
+			<div1 type="bosančica">
 				<p>
-					<lb/>
-					Datum:					<date from="1670-07-28" from-custom="1081-03-11" to-custom="1081-03-20" type="summary_Croatian">druga dekada rebiul evvel 1081</date>
-					 -					<date from="1670-07-29" to="1670-08-07" type="summary_Croatian">29. juli-7avgusta 1670</date>
-					<lb/>
+					<lb/>емре сꙋлтан мемеда .............. да на фратарскои земћли ни ћниова кмета не има данка никакова
+					<note type="translation">
+						<lb/>スルタン・メフメトの命……修道院の土地およびそこに属する農奴には、一切の税を課さないこととする。
+					</note>
 				</p>
 			</div1>
 		</body>

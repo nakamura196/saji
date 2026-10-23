@@ -11,6 +11,26 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="summary"></note>
+				<note type="mine"></note>
+				<note type="summary_monastery_typewriting">
+					<lb/>/[欠損]//8/ Prepis fermana
+					<lb/>Datum: 15. redžep 1173 - 13. mart 1760
+					<lb/>Mjesto izdavanja: Carigrad
+					<lb/>Upućen bosanskom valiji i sarajevskom kodiji.
+					<lb/>Predmet isti kao u broju 132.
+					<lb/>/Prepis je ovjerio svojim pečatom kadija Hadži Omer./
+					<note type="translation">
+						<lb/>/[欠損]//8/ 勅令の写し
+						<lb/>日付：1173年ラジャブ月15日 ― 1760年3月13日
+						<lb/>発給地：コンスタンティノープル
+						<lb/>宛先：ボスニア総督およびサラエヴォのカーディー。
+						<lb/>件名：項目132(=いまのところ該当文書不明)と同様。
+						<lb/>/この写しには、カーディー・ハジ・オメルの印章が押され、認証されている。/
+					</note>
+				</note>
+			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
@@ -52,38 +72,34 @@
 		<body>
 			<div1 facs="#zone_cwx_rt1_2jb" type="fermān_sūret">
 				<p>
-					<lb/>
-					...					<date type="created" when="1760-03-02" when-custom="1173-07-15">fi'l-yevmi'l-hāmis ʿaşar Receb sene suls ve sabʿīn ve mie ve elif</date>
+					<lb/> ... <date type="created" when="1760-03-02" when-custom="1173-07-15">fi'l-yevmi'l-hāmis ʿaşar Receb sene suls ve sabʿīn ve mie ve elif</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_o24_tt1_2jb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
-				</div2>
-			</div1>
+				</div2>			
 			<div2 facs="#zone_bxr_wt1_2jb" type="sign">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 				<div3 facs="#zone_bkl_xt1_2jb" type="stamp">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div3>
 			</div2>
-			<div1 facs="#zone_phx_yt1_2jb" type="summary_Croatian">
+			</div1>
+			<div1 type="bosančica">
 				<p>
-					<lb/>
-					Datum:					<date type="summary_Croatian" when="1760-03-02" when-custom="1173-07-15">15. redžep 1173</date>
-					 -					<date type="summary_Croatian" when="1760-03-13">13. mart 1760</date>
-					<lb/>
+					<lb/>Bir, ichi, uç, dort, beş, altı
+					<note type="LejlaNakaš">
+						<lb/>この文書には、試し書きや筆記練習の跡と見なせる痕跡が認められる。
+					</note>
 				</p>
 			</div1>
 		</body>

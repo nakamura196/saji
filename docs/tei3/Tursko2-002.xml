@@ -12,16 +12,29 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<notesStmt>
-				<note type="mine">差出人：ボスナのカーイムマカーム＝ボスナのワーリーの代理人（not ボスナのサンジャクベイ）※Vilayet nizamnamesi
-          (1865?)の後だから</note>
+				<note type="mine">差出人：ボスナのカーイムマカーム＝ボスナのワーリーの代理人（not ボスナのサンジャクベイ）※Vilayet nizamnamesi (1865?)の後だから</note>
 				<note type="mine">署名：傘型</note>
+				<note type="summary_monastery_typewriting">
+					<lb/>/12/ Bujurludija bosanskog valije
+					<lb/>Datum: 18. ševval 1199 - 24. avgust 1785.
+					<lb/>Upućena: naibu Fojnice, ajanima i iš erlerima.
+					<lb/>Neka hrišćamka iz mahale Varoš u Krešvu primila je islam, zbog
+					<lb/>čega su je monasi iz manastira /proklinjali?/. Sada se šalje
+					<lb/>mubašir da izvidi stvar i da monahe i stanovnike mahale kazni?
+					<note type="translation">
+						<lb/>/12/ ボスニア総督による命令
+						<lb/>日付：1199年シャッワール月18日（1785年8月24日）
+						<lb/>宛先：フォイニツァのナーイブ、アヤーン、およびイシュ・エルレリ（地元の役人／当局者たち）
+						<lb/>クレシェヴォのヴァロシュ地区に住むキリスト教徒の女性がイスラム教に改宗したところ、修道院の修道士たちが彼女を（呪う／非難する）といった事態が生じた。
+						<lb/>この件を調査し、修道士たちおよび同地区の住民を処罰させるため、ムバシール（調査官）を派遣する。
+					</note>
+				</note>
 			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ]
-          }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -47,25 +60,15 @@
 		<body>
 			<div1 facs="#zone_e4t_kgz_djb" type="beyāz_üzerine_buyuruldu">
 				<p>
-					<lb/>
-					... fī					<date type="created" when="1785-08-23" when-custom="1199-10-18">18 L 199</date>
+					<lb/> ... fī <date type="created" when="1785-08-23" when-custom="1199-10-18">18 L 199</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_vjf_mgz_djb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div2>
-			</div1>
-			<div1 facs="#zone_rrp_ngz_djb" type="summary_Croatian">
-				<p>
-					<lb/>
-					Datum:					<date type="summary_Croatian" when="1785-08-23" when-custom="1199-10-18">18. şevval 1199</date>
-					 -					<date type="summary_Croatian" when="1785-08-24">24. avgust 1785.</date>
-					<lb/>
-				</p>
 			</div1>
 		</body>
 	</text>

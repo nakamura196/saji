@@ -12,8 +12,24 @@
 				<p>Publication Information</p>
 			</publicationStmt>
 			<notesStmt>
+				<note type="mine">★正教に関するものか？あるいはフランシスコ会のアフドナーメの権利追認か？</note>
 				<note type="mine">【要】日付：幅のある日付をマークアップできていない。要確認。</note>
 				<note type="mine">【要】再撮影：裏面にオスマン語の文字の一部が写っているが、全体を写した写真が欠けている。要再撮影。</note>
+				<note type="summary_monastery_typewriting">
+					<lb/>/38/ Prepis fermana /berata/
+					<lb/>Datum: III dekada šabana 1269 - 30. maj - 7. juli 1853.
+					<lb/>Mjesto izdavanja: Carigrad
+					<lb/>Carigradskom patrijarhu se potvrdjuju sva prava koja je
+					<lb/>ranije imao, kako on tako i crkve i manastire.
+					<lb/>/Prepis je ovjerio svojim pečatom Halil Rušdi, kadija u Fojnici./
+					<note type="translation">
+						<lb/>/38/ 勅令（ベラート）の写し
+						<lb/>日付：1269年シャーバーン月上旬（1853年5月30日～7月7日）
+						<lb/>発給地：コンスタンティノープル
+						<lb/>コンスタンティノープル総主教が従来有していたすべての権利、ならびに各教会および修道院が有していた権利が確認される。
+						<lb/>/この写しには、フォイニツァのカーディー（裁判官）、ハリル・ルシュディの印章が押され、認証されている。/
+					</note>
+				</note>
 			</notesStmt>
 			<sourceDesc>
 				<p/>
@@ -48,47 +64,44 @@
 		<body>
 			<div1 facs="#zone_rqd_jvz_djb" type="fermān_sūret">
 				<p>
-					<lb/>
-					... fī					<date from="1853-05-29" from-custom="1269-08-21" to-custom="1269-08-30" type="created">evāhir şehr Şaʿabānı'l-muʿazzam sene tisʿ ve sittīn ve mieteyn ve elif</date>
+					<lb/> ... fī <date from="1853-05-29" from-custom="1269-08-21" to-custom="1269-08-30" type="created">evāhir şehr Şaʿabānı'l-muʿazzam sene tisʿ ve sittīn ve mieteyn ve elif</date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_adl_kvz_djb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
-				</div2>
-			</div1>
+				</div2>			
 			<div2 facs="#zone_gsd_3vz_djb" type="sign">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 				<div3 facs="#zone_gsg_gvz_djb" type="stamp">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div3>
 			</div2>
+			</div1>
 			<div1 facs="#zone_rsg_lvz_djb" type="unknown">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 			</div1>
-			<div1 facs="#zone_y4f_nvz_djb" type="summary_Croatian">
+			<div1 type="bosančica">
 				<p>
-					<lb/>
-					Datum:					<date from="1853-05-29" from-custom="1269-08-21" to-custom="1269-08-30" type="summary_Croatian">III dekada šabana 1269</date>
-					 -					<date from="1853-05-30" to="1853-07-07" type="summary_Croatian">30. maj - 7. juli 1853</date>
-					.
-					<lb/>
-				</p>
+					<lb/>Ferman Sultan Abdul Medžida, da su krstjani slobodni u izvršenju stvari na zakon spadajućih i da su crkvene i fratarske zemlje
+					<lb/>mehaf od svih danjaka, porezah, desetine bez razlike starih i novih zemlja. Izdan god. 1853.
+					<note type="translate">
+						<lb/>スルタン・アブドゥル・メジドによる勅令。
+						<lb/>キリスト教徒は宗教儀礼に関する事柄を自由に行うことができ、教会や修道院の土地は、それが旧来のものであれ新規のものであれ、あらゆる税金、徴課金、および什一税から免除されると定めている。
+						<lb/>1853年発布。
+					</note>
+				</p>				
 			</div1>
 		</body>
 	</text>

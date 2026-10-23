@@ -11,12 +11,33 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="summary"></note>
+				<note type="mine"></note>
+				<note type="summary_monastery_typewriting">
+					<lb/>/126/ Prepis fermana
+					<lb/>Datum: 5. safer 1191 - 13. februar 1777.
+					<lb/>Mjesto izdavanja: Carigrad
+					<lb/>Upućen bosanskom valiji Silahdar Mehmed-paši, bivšem veziru, i
+					<lb/>sarajevskom kadiji.
+					<lb/>Budući da je zakup burmuta u bosanskom vilajetu dat hrišćaninu
+					<lb/>Jakomi i njegovim ortacima za tri godine, od marta 1191., pod
+					<lb/>odredjenim uslovima, naredjuje se da ne bude ometan u poslu.
+					<note type="translation">
+						<lb/>/126/ 勅令の写し
+						<lb/>日付：1191年サファル月5日（1777年2月13日）
+						<lb/>発給地：コンスタンティノープル
+						<lb/>宛先：ボスニア州知事（ヴァーリー）である元宰相（ワズィール）シラフダル・メフメド・パシャ、およびサラエヴォのカーディー。
+						<lb/>ボスニア州における嗅ぎタバコ取引の独占権が、1191年3月より3年間の期限で、特定の条件のもと、ヤコミという名のキリスト教徒およびその共同経営者らに付与された。
+						<lb/>したがって、彼らの事業遂行を妨げないよう命じる。
+					</note>
+				</note>
+			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ]
-               }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 2" ], "saji:memo": [ "典型" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -58,29 +79,37 @@
 		<body>
 			<div1 facs="#zone_nsd_dfz_djb" type="fermān_sūret">
 				<p>
-					<lb/>
-					...					<date type="created" when="1777-03-14" when-custom="1191-02-05">
-						el-yevmi'l-hāmis Saferi'l-...
+					<lb/> ... <date type="created" when="1777-03-14" when-custom="1191-02-05"> el-yevmi'l-hāmis Saferi'l-...
 						<lb/>
-						<lb/>
-						sene ahadā ve tisʿīn ve mie ve elif
-					</date>
+						<lb/> sene ahadā ve tisʿīn ve mie ve elif </date>
 					<lb/>
 				</p>
 			</div1>
-			<div1 facs="#zone_qn4_gfz_djb" type="summary_Croatian">
+			<div1 facs="#zone_qn4_gfz_djb" type="bosančica">
 				<p>
-					<lb/>
-					Darum:					<date type="summary_Croatian" when="1777-03-14" when-custom="1191-02-05">5. safer 1191</date>
-					 -					<date type="summary_Croatian" when="1777-02-13">13. februar 1777.</date>
-					<lb/>
+					<lb/>сꙋрет од Fermana кад ие посто ћꙋмрꙋк
+					<lb/>од бꙋрмꙋта изваћен на мећеми сараевс-
+					<lb/>кои, ꙋ комꙋ се заповида да бꙋрмꙋта не има
+					<lb/>начићнати нитко изван ћꙋмрꙋкчие, и
+					<lb/>ако би се кои ꙋфатию да начићна, ако ѣе
+					<lb/>раѣа на раиꙋ, а тꙋрчин ꙋ град  се имаѣꙋ
+					<lb/>постовати 
+					<note type="translate">
+						<lb/>サラエヴォの法廷で発給された、嗅ぎタバコの関税取り扱いに関する勅令（フェルマン）の写し。
+						<lb/>この勅令は、税関職員以外の者が嗅ぎタバコの包みを開封することを禁じており、もし開封しているところを発見された場合、それが一般の民であれ、契約下のトルコ人であれ、厳しく責任を問われることになると定めている。
+					</note>
 				</p>
 			</div1>
-			<div1 facs="#zone_azq_hfz_djb" type="summary_Serbian">
+			<div1 facs="#zone_azq_hfz_djb" type="bosančica">
 				<p>
-					<lb/>
-					...
-					<lb/>
+					<lb/>Ovo je murasela
+					<lb/>od kadije Sikirića
+					<lb/>... Satorije
+					<lb/>na 1796.
+					<lb/>125
+					<note type="translate">
+						<lb/>これは、1796 年に発行された、カーディ、シキリッチ・サトリジャのミュラーセレである。No. 125
+					</note>
 				</p>
 			</div1>
 		</body>

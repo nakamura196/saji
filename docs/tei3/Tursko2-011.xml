@@ -11,6 +11,29 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="summary"></note>
+				<note type="mine"></note>
+				<note type="summary_monastery_typewriting">
+					<lb/>/9/ Prepis fermana
+					<lb/>Datum: I dekada sefer 1189 - 3-12 aprila 1775
+					<lb/>Mjesto izdavanja: Carigrad
+					<lb/>Upućen bosanskom valiji Hadži Halil-paši, bivšem veziru,
+					<lb/>i sarajevskom kadiji.
+					<lb/>Gvardijan Martiniz Kreševa, gvardijan Petro iz Fojnice i gvardi-
+					<lb/>jan Kranoni /možda fra Toni/ žalili su se Prti da im
+					<lb/>ehli örf ne dozvoljavaju da poprave svoje kuće, koje imaju
+					<lb/>kuhinju(?), sobu za goste i štalu.
+					<note type="translation">
+						<lb/>/9/ 勅令の写し
+						<lb/>日付：1189年サファル月上旬（1775年4月3日〜12日）
+						<lb/>発令地：コンスタンティノープル
+						<lb/>宛先：ボスニア総督ハッジ・ハリル・パシャ（元宰相）およびサラエヴォのカーディー（イスラム法官）。
+						<lb/>クレシェヴォの修道院長マルティン、フォイニツァの修道院長ペタル、そして修道院長クラノニ（おそらくフラ・トニ）が、オスマン帝国中央政府（ポルテ）に対し、「エフリー・ウルフ」（現地の行政当局者）が、彼らの建物の修繕を許可してくれないと訴え出た。
+						<lb/>その建物は、台所（と思われるもの）、客間、そして厩舎から構成されている。
+					</note>
+				</note>
+			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
@@ -55,43 +78,41 @@
 		<body>
 			<div1 facs="#zone_h12_tg1_2jb" type="fermān_sūret">
 				<p>
-					<lb/>
-					...					<date from="1775-04-02" from-custom="1189-02-01" to-custom="1189-02-10" type="created">
-						evāil şehr
+					<lb/> ... <date from="1775-04-02" from-custom="1189-02-01" to-custom="1189-02-10" type="created"> evāil şehr
 						<lb/>
-						<lb/>
-						Saferi'l-... sene tisʿ ve semānīn ve mie ve elif
-					</date>
+						<lb/> Saferi'l-... sene tisʿ ve semānīn ve mie ve elif </date>
 					<lb/>
 				</p>
 				<div2 facs="#zone_fgx_5g1_2jb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
-				</div2>
-			</div1>
+				</div2>			
 			<div2 facs="#zone_rlw_vg1_2jb" type="sign">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 				<div3 facs="#zone_hj1_xg1_2jb" type="stamp">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div3>
 			</div2>
-			<div1 facs="#zone_bx3_zg1_2jb" type="summary_Croatian">
+			</div1>
+			<div1 type="bosančica">
 				<p>
-					<lb/>
-					Datum:					<date from="1775-04-02" from-custom="1189-02-01" to-custom="1189-02-10" type="summary_Croatian">I dekada sefer 1189</date>
-					 -					<date from="1775-04-03" to="1775-04-12" type="summary_Croatian">3-12 aprila 1775</date>
-					<lb/>
+					<lb/>Suret od fermana да се мора манастир Tamir чинит – 9 maj 1775,
+					<lb/>kuche, han, bashça etc.
+					<note type="translation">
+						<lb/>修道院の修復を命じる勅令の写し ― 1775年5月9日。
+						<lb/>対象：建物、宿屋、果樹園など。					
+					</note>
+					<note type="LejlaNakaš">
+						<lb/>cf. 3-371
+					</note>
 				</p>
 			</div1>
 		</body>
