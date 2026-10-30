@@ -13,6 +13,7 @@
 			</publicationStmt>
 			<notesStmt>
 				<note type="mine">日付：‘arż-ı ḥāl、見当たらない。buyuruldu、潰れていて年が読み取れない。クロアチア語要約、合っているのか分からない。</note>
+				<note type="mine">日付：裏面にボサンチッツァで西暦の記述があるが、月日が表面のオスマン語と一致するのが怪しい…</note>
 			</notesStmt>
 			<sourceDesc>
 				<p/>
@@ -40,14 +41,24 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 facs="#zone_ymg_vwf_z3b" type="ʿarz-ı_hāl"/>
+			<div1 facs="#zone_ymg_vwf_z3b" type="ʿarzıhāl"/>
 			<div1 facs="#zone_k5q_wwf_z3b" type="buyuruldu">
 				<l> ... buyuruldu fī <date cert="low" type="created" when-custom="1219-01-22">22 M 19...</date>
 				</l>
 				<div3 facs="#zone_ywz_xwf_z3b" type="stamp"/>
 			</div1>
-			<div1 facs="#zone_dyq_zwf_z3b" type="summary_Serbian">
-				<l> ... <date cert="unknown" type="summary_Croatian" when="1782-01-22">1782 ... 22</date> ... </l>
+			<div1 facs="#zone_dyq_zwf_z3b" type="bosančica">
+				<p>
+					<lb/>ово ие Buruntia kako nas oglobi kadia, i Paša polak cura stade
+					<lb/>iznieli da sude rekle poturçiti, i tako dade paša buruntiu da nas kadie
+					<lb/>za to ne imadu oglobiti <date when="1782-01-22" type="bosančica">1782 на 22 januara</date> ни ilamiti naip Kresevski. <note type="translation">
+						<lb/>これは、カーディーが我々に対して不当な扱いをしたことに関す命令書である。
+						<lb/>裁判にかけられた娘たちについて、パシャは彼女たちの側に立ち、彼女たちがイスラーム教に改宗する意向であることを示した。
+						<lb/>そこでパシャは、カーディーたちがこの件を理由に我々を不当に扱うことを禁じ、またナーイブ・クレシェフスキが判決を下すことも禁じる旨の命令を発した。
+						<lb/>1782年1月22日。 </note>
+					<note type="LejlaNakaš">
+						<lb/>動詞"ilamiti"は、名詞"ilam"に由来する。 </note>
+				</p>
 			</div1>
 		</body>
 	</text>

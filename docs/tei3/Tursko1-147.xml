@@ -19,8 +19,7 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:type": [
-               "‘arż-ı ḥāl+buyuruldu+iʿlām" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:type": [ "‘arż-ı ḥāl+buyuruldu+iʿlām" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -49,81 +48,74 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 facs="#zone_ub4_h1w_cjb" type="ʿarz-ı_hāl">
+			<div1 facs="#zone_ub4_h1w_cjb" type="ʿarzıhāl">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 				<div2 facs="#zone_jbw_31w_cjb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div2>
 			</div1>
 			<div1 facs="#zone_tmg_k1w_cjb" type="buyuruldu">
 				<p>
-					<lb/>
-					buyuruldu fī					<date type="created" when="1807-07-14" when-custom="1222-05-09">9 Ca sene 222</date>
+					<lb/> buyuruldu fī <date type="created" when="1807-07-14" when-custom="1222-05-09">9 Ca sene 222</date>
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_gxx_l1w_cjb" type="iʿlām">
 				<p>
-					<lb/>
-					... fī					<date type="created" when="1807-07-26" when-custom="1222-05-21">21 sene 1222</date>
+					<lb/> ... fī <date type="created" when="1807-07-26" when-custom="1222-05-21">21 sene 1222</date>
 					<lb/>
 				</p>
 				<div3 facs="#zone_ofc_n1w_cjb" type="stamp">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div3>
 			</div1>
 			<div1 facs="#zone_i2j_41w_cjb" type="buyuruldu">
 				<p>
-					<lb/>
-					buyuruldu fī					<date type="created" when="1807-08-03" when-custom="1222-05-29">29 Ca sene 222</date>
+					<lb/> buyuruldu fī <date type="created" when="1807-08-03" when-custom="1222-05-29">29 Ca sene 222</date>
 					<lb/>
 				</p>
 			</div1>
 			<div1 type="iʿlām">
 				<p>
-					<lb/>
-					... fī					<date type="created" when="1807-08-09" when-custom="1222-06-05">5 C sene 1222</date>
+					<lb/> ... fī <date type="created" when="1807-08-09" when-custom="1222-06-05">5 C sene 1222</date>
 					<lb/>
 				</p>
 				<div3 type="stamp">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div3>
 			</div1>
 			<div1 type="buyuruldu">
 				<p>
-					<lb/>
-					buyuruldu fī					<date cert="medium" type="created" when="1807-08-09" when-custom="1222-06-05">5 C sene 1222</date>
+					<lb/> buyuruldu fī <date cert="medium" type="created" when="1807-08-09" when-custom="1222-06-05">5 C sene 1222</date>
 					<lb/>
 				</p>
 			</div1>
 			<div1 cert="low" type="note">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 			</div1>
-			<div1 type="summary_Croatian">
+			<div1 type="bosančica">
 				<p>
-					<lb/>
-					<date type="summary_Croatian" when="1807">1807</date>
-					<lb/>
+					<lb/>Buruntia, i Ilam
+					<lb/>što uzesmo kad nas
+					<lb/>poteza Ajmiko čifut
+					<lb/>za dućan u Travniku
+					<lb/><date type="bosančica" when="1807">1807</date>: <note type="translation">
+						<lb/>1807年にユダヤ人のアジミコがトラヴニクの店へ連れ込まれた時に私たちが持っていった、ブユルルドゥとイーラーム。 </note>
 				</p>
 			</div1>
 		</body>

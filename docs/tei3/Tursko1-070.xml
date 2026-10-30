@@ -15,8 +15,7 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ],
-          "saji:type": [ "‘arż-ı ḥāl ve buyuruldu ve iʿlām" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型" ], "saji:type": [ "‘arż-ı ḥāl ve buyuruldu ve iʿlām" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -40,46 +39,40 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 facs="#zone_a1q_rbx_1jb" type="ʿarz-ı_hāl">
+			<div1 facs="#zone_a1q_rbx_1jb" type="ʿarzıhāl">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_fls_5bx_1jb" type="buyuruldu">
 				<p>
-					<lb/>
-					buyuruldu fī					<date type="created" when="1758-11-29" when-custom="1172-03-29">29 Ra 172</date>
+					<lb/> buyuruldu fī <date type="created" when="1758-11-29" when-custom="1172-03-29">29 Ra 172</date>
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_bj5_wbx_1jb" type="iʿlām">
 				<p>
-					<lb/>
-					... fī					<date type="created" when="1759-02-02" when-custom="1172-06-05">5 Rebī'ü'l-āhir sene 1172</date>
+					<lb/> ... fī <date type="created" when="1759-02-02" when-custom="1172-06-05">5 Rebī'ü'l-āhir sene 1172</date>
 					<lb/>
 				</p>
 				<div3 facs="#zone_qjc_zbx_1jb" type="stamp">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div3>
 			</div1>
 			<div1 facs="#zone_xfg_1cx_1jb" type="buyuruldu">
 				<p>
-					<lb/>
-					buyuruldu fī					<date type="created" when="1759-02-04" when-custom="1172-06-07">7 R 172</date>
+					<lb/> buyuruldu fī <date type="created" when="1759-02-04" when-custom="1172-06-07">7 R 172</date>
 					<lb/>
 				</p>
 			</div1>
-			<div1 facs="#zone_imk_ccx_1jb" type="summary_Croatian">
+			<div1 facs="#zone_imk_ccx_1jb" type="bosančica">
 				<p>
-					<lb/>
-					...
-					<lb/>
+					<lb/>Vidoševljani ne mogu zabranit rudu vadit u svomu <note type="translation">
+						<lb/>ヴィドシェヴォの住民は、自分たちの土地での鉱山開発を禁止することはできない。 </note>
 				</p>
 			</div1>
 		</body>

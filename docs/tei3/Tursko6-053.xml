@@ -11,6 +11,28 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="mine">Tursko6-026, Tursko6-030と作成年月日、内容が同じ。同一文書の写しか？</note>
+				<note type="summary_monastery_typewriting">
+					<lb/>431-2: Sarajevski kadija Abdurahman upuću je eminima i drugim
+					<lb/>pretstavnicima vlasti u Krešvu, Varoši i Fojnici ovu odlu=
+					<lb/>ku, da su redovnici iz Kreševa, Fojnice i Sutjeske oslobođeni
+					<lb/>od izvanrednih nameta, podavanja i crkvenih nameta, budući su
+					<lb/>mu podnijeli dokumente, koji ih oslobađaju toga. Naređuje emi=
+					<lb/>nima da im ne čine na žao i ne potražuju ništa protivno tim
+					<lb/>dokunentima.
+					<lb/>Vezir pod datumom od 13. mje...... 1198. god. naređuje
+					<lb/>zamjenicima kadija Kreševa, Varoši i Fojnice da postupe u
+					<lb/>duhu novoizdanog fermana i da se čuvaju, da se o njega ne
+					<lb/>ogriješe i da ništa ne potraživaju.
+					<note type="translation">
+						<lb/>431-2: サラエヴォのカーディー、アブドゥルラフマンは、クレシェヴォ、ヴァロシュ、フォイニツァの各地域におけるエミンおよびその他の政府代表者に対し、次のような決定を下した。
+						<lb/>すなわち、クレシェヴォ、フォイニツァ、およびスーチェスカの修道士たちは、免除を認める文書を提示したため、臨時の徴収や強制的な取り立て、教会関連の賦課金から免除されるというものである。
+						<lb/>同カーディーはエミンたちに対し、彼らに害を加えたり、これらの文書に反するような要求を行ったりしないよう指示している。
+						<lb/>1198年の某月13日付で、宰相（ワズィール）は、クレシェヴォ、ヴァロシュ、フォイニツァの各カーディーの代理人らに対し、新たに発布された勅令に従って行動し、それに違反することのないよう、また、いかなる要求も行わないよう命じている。
+					</note>
+				</note>
+			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
@@ -37,7 +59,7 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 facs="#zone_thq_ccj_2mb" next="#zone_xkh_gcj_2mb" type="mürāsele">
+			<div1 facs="#zone_thq_ccj_2mb" next="#zone_xkh_gcj_2mb" type="mürāsele_sūret">
 				<p>
 					<lb/>
 					<lb/>
@@ -51,18 +73,20 @@
 					</p>
 				</div2>
 			</div1>
-			<div1 facs="#zone_xkh_gcj_2mb" next="#zone_h3r_hcj_2mb" type="buyuruldu">
+			<div1 facs="#zone_xkh_gcj_2mb" next="#zone_h3r_hcj_2mb" type="buyuruldu_sūret">
 				<p>
 					<lb/>
 					<lb/>
 					... fī					<date type="created" when="1784-01-06" when-custom="1198-02-13">13 S sene 198</date>
 				</p>
 			</div1>
-			<div1 facs="#zone_h3r_hcj_2mb" type="summary_Croatian">
+			<div1 facs="#zone_h3r_hcj_2mb" type="bosančica">
 				<p>
-					<lb/>
-					...					<date type="summary_Croatian" when="1782">1782</date>
-					<lb/>
+					<lb/>Suret od buruntije Pajine, i murasele muline po fermanu novomu na <date type="bosančica" when="1784">1784</date>
+					<lb/>za župe Ljubuške
+					<note type="translation">
+						<lb/>パヨ（Pajo）のブユルルドゥと、リュブシュキのジュペ (領土/教区) に関する1784年の新しい勅令に基づくムッラーのミュラーセレの写し。
+					</note>
 				</p>
 			</div1>
 		</body>

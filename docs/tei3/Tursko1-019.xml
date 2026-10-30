@@ -20,13 +20,9 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod":
-          [ "4x1" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:lang": [ "ota" ],
-          "saji:lineage": [ "6" ], "saji:memo": [ "典型" ], "saji:number": [ "247" ],
-          "saji:openingPhrase": [ "Ṣultanim\r\nDevletlü ʿināyetlü ..." ],
-          "saji:relationWithAnotherItems": [ "表全体像" ], "saji:stamp_c": [ "1" ], "saji:stamp_o": [
-          "0" ], "saji:transcription": [ "Ṣultanim\r\nDevletlü ʿināyetlü ..." ], "saji:type": [
-          "‘arż-ı ḥāl" ], "saji:witness": [ "0" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "B" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:foldingMethod": [ "4x1" ], "saji:fond": [ "Tursko 1" ], "saji:huve": [ "1" ], "saji:lang": [ "ota" ],
+			"saji:lineage": [ "6" ], "saji:memo": [ "典型" ], "saji:number": [ "247" ], "saji:openingPhrase": [ "Ṣultanim\r\nDevletlü ʿināyetlü ..." ], "saji:relationWithAnotherItems": [ "表全体像" ],
+			"saji:stamp_c": [ "1" ], "saji:stamp_o": [ "0" ], "saji:transcription": [ "Ṣultanim\r\nDevletlü ʿināyetlü ..." ], "saji:type": [ "‘arż-ı ḥāl" ], "saji:witness": [ "0" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -49,9 +45,18 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 facs="#zone_acy_fxy_y3b" type="ʿarz-ı_hāl">
-</div1>
-			<div1 type="summary_Croatian"/>
+			<div1 facs="#zone_acy_fxy_y3b" type="ʿarzıhāl"> </div1>
+			<div1 type="bosančica">
+				<p>
+					<lb/>Arzohal na ime Raje Duvanjske porad Kuche za jednog
+					<lb/>Fratra u Vedasrichu ne (?) ovime pridan 1796 <note type="translation">
+						<lb/>ドゥヴノ（Duvno）の農民らに対する請願書。
+						<lb/>ヴェダシュリチ（Vedašrić）における修道士のための住居をめぐるものだが、1796年当時、その修道士自身によって提出されたものではなかった。 </note>
+					<note type="LejlaNakaš">
+						<lb/>"Vedašrić"あるいは"Vedasrić"：小地名か？ </note>
+					<note type="mine">裏面ボサンチッツァに「1796」と書いているように見えない。Lejla先生はどこからこの数字を読み取ってきたのだろう…？</note>
+				</p>
+			</div1>
 		</body>
 	</text>
 </TEI>

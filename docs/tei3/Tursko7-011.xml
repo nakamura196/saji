@@ -11,6 +11,9 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="mine">日付：修道院作成の要約では「1269-C」となっているが、オスマン語本文では「(12)69-Ca-19」と書いているように見える。</note>
+			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
@@ -40,7 +43,7 @@
 				<p>
 					<lb/>
 					<lb/>
-					... fī					<date type="created" when="1804-08-25" when-custom="1219-05-19">19 Ca sene 19</date>
+					... fī					<date type="created" when="1804-08-25" when-custom="1269-05-19">19 Ca sene 69</date>
 				</p>
 				<div2 type="sign">
 					<div3 facs="#zone_c1c_ddk_2mb" type="stamp">
@@ -52,12 +55,17 @@
 					</div3>
 				</div2>
 			</div1>
-			<div1 facs="#zone_cft_2dk_2mb" type="summary_Croatian">
+			<div1 facs="#zone_cft_2dk_2mb" type="bosančica">
 				<p>
-					<lb/>
-					<lb/>
-					...					<date type="summary_Croatian" when="1853-10-02" when-custom="1269">1269</date>
-					.
+					<lb/>Kreševo
+					<lb/>Bujuruldija za proširiti Crkvu
+					<lb/>kreševsku data od
+					<lb/>Huršid paše
+					<lb/><date when-custom="1269-C" type="bosančica">Djemazijulahar 1269</date>.
+					<note type="translation">
+						<lb/>クレシェヴォ教会の拡張に関するブユルルドゥ。
+						<lb/>ヒジュラ暦1269年ジュマーダー・アル＝アーヒラ月（西暦1853年頃）、フルシド・パシャにより発給された。
+					</note>
 				</p>
 			</div1>
 		</body>

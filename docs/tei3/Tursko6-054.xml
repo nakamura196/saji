@@ -11,6 +11,23 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="summary"/>
+				<note type="mine"/>
+				<note type="summary_monastery_typewriting">
+					<lb/>472-3: Sirotinja iz Buljine i Kruščice upućuje molbu Namjesni
+					<lb/>ku, da fratarski kiridžije ne idu preko njihovih ispaša, i
+					<lb/>usjeva, nego državnom džadom, kad im tjeraju pobit /te godine
+					<lb/>200 tovara gržđa /te traže naknadu za učinjenu im štetu.
+					<lb/>Namjesnik spovodi molbu zamjenicima kadija u Fojnici
+					<lb/>i Kreševi i nareduje im, da pozovu preda se spomenute radovnike i nji=
+					<lb/>hove kiridžije i da provedu istragu u toj stvari i da prema tome učine
+					<lb/>šta šerijatski propisi određuju, i da im zabrane da čine štetu. <note type="translation">
+						<lb/>472-3：ブルジナおよびクルシチツァの貧しい住民らが総督に対し、修道士たちの輸送業者（その年は200荷分の穀物を運搬していた）が、地域内の牧草地や農作物を横切るのではなく、公的な街道を通行するよう求める請願書を提出した。
+						<lb/>また、彼らは被った損害に対する補償も求めている。
+						<lb/>総督はこの請願書をフォイニツァおよびクレシェヴォの代理カーディーに回付し、当該修道士らと輸送業者を呼び出して事態を調査し、シャリーアの規定に基づいて対処するとともに、今後さらなる損害を与えないよう命じるよう指示した。 </note>
+				</note>
+			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
@@ -41,16 +58,14 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 facs="#zone_k4v_cdj_2mb" next="#zone_vwb_gdj_2mb" type="ʿarz-ıhāl">
+			<div1 facs="#zone_k4v_cdj_2mb" next="#zone_vwb_gdj_2mb" type="ʿarzıhāl">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 				<div2 facs="#zone_i3z_ddj_2mb" type="sign">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div2>
@@ -58,23 +73,29 @@
 			<div1 facs="#zone_vwb_gdj_2mb" next="#zone_pbk_jdj_2mb" type="buyuruldu">
 				<p>
 					<lb/>
-					<lb/>
-					... fī					<date type="created" when="1810-11-24" when-custom="1225-10-27">27 L sene 225</date>
+					<lb/> ... fī <date type="created" when="1810-11-24" when-custom="1225-10-27">27 L sene 225</date>
 				</p>
 			</div1>
-			<div1 facs="#zone_pbk_jdj_2mb" next="#zone_u3l_3dj_2mb" type="summary_Croatian">
+			<div1 facs="#zone_pbk_jdj_2mb" next="#zone_u3l_3dj_2mb" type="bosančica">
 				<p>
-					<lb/>
-					...
-					<lb/>
-					...					<date type="summary_Croatian" when="1800">1800</date>
+					<lb/>Arzoal i buruntia da smo put načinili
+					<lb/>priko (preko) čaera (čaira) kud će se grozdie gonit,
+					<lb/>štete učinili, odkupismo musevedu
+					<lb/>godine <date when="1800" type="bosančica">1800</date>
+					<note type="translation">
+						<lb/>ブドウが（ブドウ畑から）運搬される際に牧草地（çayır）を横切る経路を設けたこと、そしてそれによって損害を与えたことを記したアルズハールおよびブユルルドゥに関連し、1800年に「ムセヴェダ」（müsvedde）を（金銭を支払うなどして）解決・清算した。 </note>
+				　　<note type="LejlaNakaš">
+					<lb/>トルコ語のmüsvedde（アラビア語のmuswädäに由来）は本来「草稿」を意味するが、本稿の文脈における「ムセヴェダ」は、何らかの非難や告発（あるいは中傷的な申し立て）を指している可能性がある。
+					<lb/>これは「解決・清算する（redeem）」という行為から推察される。
+					<lb/>cf. 6-017
+				</note>
 				</p>
 			</div1>
-			<div1 facs="#zone_u3l_3dj_2mb" type="note_Croatian">
+			<div1 facs="#zone_u3l_3dj_2mb" type="bosančica">
 				<p>
-					<lb/>
-					...
-					<lb/>
+					<lb/>Buglina i Krusziza <note type="translation">
+						<lb/>ブジナとクルシュチツァ (地名)
+					</note>
 				</p>
 			</div1>
 		</body>

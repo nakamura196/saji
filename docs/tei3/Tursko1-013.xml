@@ -15,17 +15,12 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [
-          "1179-M-23" ], "saji:date_M": [ "1765-07-12" ], "saji:foldingMethod": [ "4×2" ],
-          "saji:fond": [ "Tursko 1" ], "saji:item": [ "本文", "宸筆1", "宸筆2", "オスマン朝スタンプ", "ボスニア語梗概" ],
-          "saji:lang": [ "ota", "bos" ], "saji:lineage": [ "9" ], "saji:memo": [ "教会の修繕に関するもの？",
-          "典型" ], "saji:number": [ "152" ], "saji:relationWithAnotherItems": [ "DSCN0899.JPG_表",
-          "表全体像" ], "saji:stamp_o": [ "1" ], "saji:transcription": [ "Der devlet-i ... ʿarż dāʿī ...
-          budur ki; madīna-i Saray Bosna ḳażāsı ... nefs-i Kreşevo ḳaṣabasında vāḳʿ ... yedilerinde
-          Türk(?) olunan kilisayı\r\n... rāhibleri meclis-i şerʿye gelüb şöyle ... eylediler ki fetḥ
-          ... hümāyūn ... reʿāyāsı fuḳarālar(i)çün Türk olunub ḳaṣaba-i meẕkūrede\r\nvāḳʿ kilisaya
-          tārīḫ-ı kitābdan üç ay muḳaddem bi-ḳażā-i ... ateş ... idüb kilisa-i meẕkūreniñ ... vāḳʿ
-          ... ve sāyer\r\n... olan" ], "saji:type": [ "iʿlām", "Der-devlet-i" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:calligraphy": [ "Rıkʿa" ], "saji:date_H": [ "1179-M-23" ], "saji:date_M": [ "1765-07-12" ], "saji:foldingMethod": [ "4×2" ], "saji:fond": [
+			"Tursko 1" ], "saji:item": [ "本文", "宸筆1", "宸筆2", "オスマン朝スタンプ", "ボスニア語梗概" ], "saji:lang": [ "ota", "bos" ], "saji:lineage": [ "9" ], "saji:memo": [ "教会の修繕に関するもの？", "典型" ], "saji:number": [
+			"152" ], "saji:relationWithAnotherItems": [ "DSCN0899.JPG_表", "表全体像" ], "saji:stamp_o": [ "1" ], "saji:transcription": [ "Der devlet-i ... ʿarż dāʿī ... budur ki; madīna-i Saray Bosna
+			ḳażāsı ... nefs-i Kreşevo ḳaṣabasında vāḳʿ ... yedilerinde Türk(?) olunan kilisayı\r\n... rāhibleri meclis-i şerʿye gelüb şöyle ... eylediler ki fetḥ ... hümāyūn ... reʿāyāsı
+			fuḳarālar(i)çün Türk olunub ḳaṣaba-i meẕkūrede\r\nvāḳʿ kilisaya tārīḫ-ı kitābdan üç ay muḳaddem bi-ḳażā-i ... ateş ... idüb kilisa-i meẕkūreniñ ... vāḳʿ ... ve sāyer\r\n... olan" ],
+			"saji:type": [ "iʿlām", "Der-devlet-i" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -52,8 +47,7 @@
 	<text>
 		<body>
 			<div1 facs="#zone_klr_xk3_x3b" type="iʿlām">
-				<l>
-					...					<date type="created" when="1765-07-11" when-custom="1179-01-23">fi'l-yevmi'l-sālis ve'l-ʿaşrīn min Muharrem'l-harām sene tisʿ ve sabʿīn ve miye ve elif</date>
+				<l> ... <date type="created" when="1765-07-11" when-custom="1179-01-23">fi'l-yevmi'l-sālis ve'l-ʿaşrīn min Muharrem'l-harām sene tisʿ ve sabʿīn ve miye ve elif</date>
 				</l>
 			</div1>
 			<div1 cert="low" facs="#zone_sz3_1l3_x3b" type="buyuruldu">
@@ -61,9 +55,16 @@
 			</div1>
 			<div1 cert="low" facs="#zone_xmj_vk3_x3b" type="buyuruldu"/>
 			<div1 facs="#zone_n5h_2l3_x3b" type="summary_Serbian">
-				<l>
-					...					<date type="summart_Serbian" when="1765">1765</date>
+				<l> ... <date type="summart_Serbian" when="1765">1765</date>
 				</l>
+			</div1>
+			<div1 type="bosančica">
+				<p>
+					<lb/>_арз м_ллин царꙋ за саградит царквꙋ крешевскꙋ <date when="1766" type="bosančica">1766</date>
+					<note type="translation">
+						<lb/>1766年、クレシェヴォ教会の建設に関してムッラーが皇帝に宛てて記したアルズ（文書）。
+					</note>
+				</p>
 			</div1>
 		</body>
 	</text>

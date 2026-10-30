@@ -20,8 +20,7 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
-          "ジズヤの話" ], "saji:type": [ "ṣūret-i ‘arż-ı ḥāl ve buyuruldu" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型", "ジズヤの話" ], "saji:type": [ "ṣūret-i ‘arż-ı ḥāl ve buyuruldu" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -46,49 +45,43 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 facs="#zone_tzd_fjk_1jb" type="ʿarz-ı_hāl_buyuruldu_sūret">
-				<div1 facs="#zone_atp_5jk_1jb" type="ʿarz-ı_hāl_sūret">
+			<div1 facs="#zone_tzd_fjk_1jb" type="ʿarzıhāl_buyuruldu_sūret">
+				<div1 facs="#zone_atp_5jk_1jb" type="ʿarzıhāl_sūret">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
 				</div1>
 				<div1 facs="#zone_oln_vjk_1jb" type="buyuruldu_sūret">
 					<p>
-						<lb/>
-						... buyuruldu						<date type="created" when="1785-01-13" when-custom="1199-03-03">3 Ra 199</date>
+						<lb/> ... buyuruldu <date type="created" when="1785-01-13" when-custom="1199-03-03">3 Ra 199</date>
 						<lb/>
 					</p>
 					<div3 facs="#zone_lsf_4jk_1jb" type="stamp_sūret">
 						<p>
-							<lb/>
-							...
+							<lb/> ...
 							<lb/>
 						</p>
 					</div3>
 				</div1>
 				<div1 facs="#zone_zc2_2lk_1jb" type="note">
 					<p>
-						<lb/>
-						...
+						<lb/> ...
 						<lb/>
 					</p>
-					<div3 facs="#zone_adm_flk_1jb" type="stamp">
+					<div2 facs="#zone_adm_flk_1jb" type="stamp">
 						<p>
-							<lb/>
-							...
+							<lb/> ...
 							<lb/>
 						</p>
-					</div3>
+					</div2>
 				</div1>
-				<div1 facs="#zone_rbq_clk_1jb" type="summary_Croatian">
-					<p>
-						<lb/>
-						...
-						<lb/>
-					</p>
-				</div1>
+			</div1>
+			<div1 facs="#zone_rbq_clk_1jb" type="bosančica">
+				<p>
+					<lb/>Suret Burj: od araça <note type="translation">
+						<lb/>ハラージュについての命令の写し。 </note>
+				</p>
 			</div1>
 		</body>
 	</text>

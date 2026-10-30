@@ -15,9 +15,8 @@
 				<p/>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型",
-          "本来、このbuyurulduに基づいてfermānが作成されるので、なぜこの文書が州僧院に保管されているのか謎。vālī作成のbuyurulduか？" ],
-          "saji:type": [ "‘arż-ı ḥāl ve buyuruldu" ] }</xenoData>
+		<xenoData>{ "saji:aspectRatioType": [ "C" ], "saji:fond": [ "Tursko 1" ], "saji:memo": [ "典型", "本来、このbuyurulduに基づいてfermānが作成されるので、なぜこの文書が州僧院に保管されているのか謎。vālī作成のbuyurulduか？" ], "saji:type": [
+			"‘arż-ı ḥāl ve buyuruldu" ] }</xenoData>
 	</teiHeader>
 	<facsimile>
 		<surface>
@@ -41,26 +40,22 @@
 	</facsimile>
 	<text>
 		<body>
-			<div1 facs="#zone_lsh_2pk_1jb" type="ʿarz-ı_hāl">
+			<div1 facs="#zone_lsh_2pk_1jb" type="ʿarzıhāl">
 				<p>
-					<lb/>
-					...
+					<lb/> ...
 					<lb/>
 				</p>
 			</div1>
 			<div1 facs="#zone_uzh_2pk_1jb" type="buyuruldu">
 				<p>
-					<lb/>
-					... buyuruldu fī					<date cert="medium" type="created" when="1782-07-17" when-custom="1196-08-07">7 Ş 196</date>
+					<lb/> ... buyuruldu fī <date cert="medium" type="created" when="1782-07-17" when-custom="1196-08-07">7 Ş 196</date>
 					<lb/>
 				</p>
 			</div1>
-			<div1 facs="#zone_rzc_3pk_1jb" type="summary_Croatian">
+			<div1 facs="#zone_rzc_3pk_1jb" type="bosančica">
 				<p>
-					<lb/>
-					<date type="summary_Croatian" when="1782">1782</date>
-					 ...
-					<lb/>
+					<lb/><date type="bosančica" when="1782-07-18">1782 на 18 Jula</date> Buruntia da Vise nama daue ne ima Sulio Baitalj <note type="translation">
+						<lb/>1782年7月18日、命令書は、スルジョ・バイタルと我々（修道士）との間の訴訟が終結したことを確認した。 </note>
 				</p>
 			</div1>
 		</body>

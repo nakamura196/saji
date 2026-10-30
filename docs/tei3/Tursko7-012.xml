@@ -11,6 +11,9 @@
 			<publicationStmt>
 				<p>Publication Information</p>
 			</publicationStmt>
+			<notesStmt>
+				<note type="mine">日付：修道院作成の要約では「1852-10-10」となっているが、オスマン語本文では「1268-Ca-18(=1852-03-10)」に見える。</note>
+			</notesStmt>
 			<sourceDesc>
 				<p/>
 			</sourceDesc>
@@ -40,7 +43,7 @@
 				<p>
 					<lb/>
 					<lb/>
-					... fī					<date type="created" when="1852-03-09" when-custom="1268-05-18">18 Ca sene 68</date>
+					... fī					<date type="created" when="1852-03-09" when-custom="1268-05-18" cert="medium">18 Ca sene 68</date>
 				</p>
 				<div2 type="sign">
 					<div3 facs="#zone_qk5_xdk_2mb" type="stamp">
@@ -52,12 +55,28 @@
 					</div3>
 				</div2>
 			</div1>
-			<div1 facs="#zone_iy2_zdk_2mb" type="summary_Croatian">
+			<div1 facs="#zone_iy2_zdk_2mb" type="bosančica">
 				<p>
-					<lb/>
-					...					<date type="summary_Croatian" when="1852">1852</date>
-					.
-					<lb/>
+					<lb/>Bujuruldija č(estitoga) Huršid-paše, vezira bosanskoga, 
+					<lb/>izvađena u Sarajevu <date when="1852-10-10" type="bosančica">d(ana) 10. Listopada 1852</date>. 
+					<lb/>Pisana je u istom smislu kao i prijašnja od
+					<lb/>č(estitoga) Veliedin-paše, tj. da su zemlje triju ma=
+					<lb/>nastira stare /kademinden/ meaf od Tekja=
+					<lb/>lefa i Ušura, a za nove meafluk zavi=
+					<lb/>si od volje čestitoga Devleta.
+					<note type="translation">
+						<lb/>1852年10月10日、サラエヴォにて発布された、ボスニアのヴィズィール（高官）、フルシド・パシャによるブユルルドゥ。
+						<lb/>その内容は、先にヴェリイェッディン・パシャが出した布告と同様であり、すなわち、3つの修道院が所有する土地は「古来より（カデミンデン）」、テカリフ（税金やその他の財政的義務）およびウシュル（農産物に対するオスマン帝国の徴税の一種）が免除されているというものである。
+						<lb/>なお、新たに免除の対象となるものについては、国家（デヴレト）の意向に従うものとされる。						
+					</note>
+					<note type="LejlaNakaš">
+						<lb/>meaf（メアフ）――義務（税金など）の免除
+						<lb/>tekalif（テカリフ）――税金に関連する義務やその他の財政的負担
+						<lb/>ušur（ウシュル）――ウシュル（農産物に対して課されるオスマン帝国の徴税の一種）
+						<lb/>meafluk（メアフルク）――免除の地位（税制上の特権を享受する土地所有など）
+						<lb/>kademinden（カデミンデン）――「古来より」、「太古の昔から」
+						<lb/>devlet（デヴレト）――国家、あるいは統治権力（オスマン帝国の文脈では、しばしば崇高な主権を意味する）
+					</note>
 				</p>
 			</div1>
 		</body>
